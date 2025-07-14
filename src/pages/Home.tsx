@@ -1,13 +1,10 @@
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow p-4">
-        <h1>Home Page</h1>
-        <p>Welcome to the home page!</p>
-        <p>Enjoy your stay!</p>
-      </main>
+      <Navbar />
       <Footer />
     </div>
   );
