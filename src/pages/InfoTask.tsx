@@ -46,7 +46,7 @@ function InfoTask() {
         {/* Lukkeknapp */}
         <button
           className="absolute top-4 right-6 text-2xl font-bold"
-          onClick={() => navigate("/Grade")}
+          onClick={() => navigate("/gameSelection")}
         >
           ×
         </button>
