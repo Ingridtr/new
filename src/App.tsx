@@ -9,7 +9,7 @@ const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Management = lazy(() => import('./pages/Management'));
 const Grade = lazy(() => import('./pages/Grade'));
-const GameSelection = lazy() => ('./pages/GameSelection'));
+const GameSelection = lazy(() => import('./pages/GameSelection'));
 
 export default function App() {
   return (
