@@ -107,4 +107,42 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
               <div className="bg-white rounded-3xl p-8">
                 <h2 className="text-2xl font-bold mb-4">Samarbeidspartnere</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
-                  {/* Team 
+                  {/* Team Members */}
+                  <div className="text-center">
+                    <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
+                    <p className="font-semibold">Henrik Løvmyr</p>
+                    <p className="text-sm">Spesialpedagog</p>
+                  </div>
+                  <div className="text-center">
+                    <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
+                    <p className="font-semibold">Hanan Abdelrahman</p>
+                    <p className="text-sm">Matematikklærer</p>
+                  </div>
+                  <div className="text-center">
+                    <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
+                    <p className="font-semibold">Joschua Liedtke</p>
+                    <p className="text-sm">Forsker på universell utforming</p>
+                  </div>
+
+                  {/* Schools */}
+                  <div className="text-center">
+                    <FontAwesomeIcon icon={faSchool} className="text-4xl mb-2" />
+                    <p className="font-semibold">Helle skole</p>
+                  </div>
+                  <div className="text-center">
+                    <FontAwesomeIcon icon={faSchool} className="text-4xl mb-2" />
+                    <p className="font-semibold">Ski skole</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <Footer />
+    </div>
+  );
+}
+
+export default Knowledge;
