@@ -4,6 +4,7 @@ import About from "./pages/About.tsx";
 import Info from "./pages/Info.tsx";
 import Management from "./pages/Management.tsx";
 import Grade from "./pages/Grade.tsx";
+import GameSelection from "./pages/GameSelection.tsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/Info" element={<Info />} />
         <Route path="/Management" element={<Management />} />
         <Route path="Grade" element={<Grade />} />
+        <Route path="GameSelection" element={<GameSelection />} />
       </Routes>
     </Router>
   );
