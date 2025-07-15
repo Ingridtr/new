@@ -10,6 +10,7 @@ const About = lazy(() => import('./pages/About'));
 const Management = lazy(() => import('./pages/Management'));
 const Grade = lazy(() => import('./pages/Grade'));
 const GameSelection = lazy(() => import('./pages/GameSelection'));
+const Competency = lazy(() => import('./pages/Competency'));
 
 
 
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/info" element={<Knowledge />} />
           <Route path="/Grade" element={<Grade />} />
           <Route path="/GameSelection" element={<GameSelection />} />
+          <Route path="/competency/:grade" element={<Competency />} />
         </Routes>
       </Suspense>
     </Router>
