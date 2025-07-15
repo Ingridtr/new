@@ -7,7 +7,7 @@ const Knowledge = lazy(() => import('./pages/Knowledge'));
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Management = lazy(() => import('./pages/Management'));
-
+const Grade = lazy(() => import('./pages/Grade'));
 
 export default function App() {
   return (
