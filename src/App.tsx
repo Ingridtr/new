@@ -1,17 +1,23 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.tsx";
-import About from "./pages/About.tsx";
-import Info from "./pages/Info.tsx";
-import Management from "./pages/Management.tsx";
+
+// Replace direct import with lazy loading
+const Knowledge = lazy(() => import('./pages/Knowledge'));
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Management = lazy(() => import('./pages/Management'));
+
 export default function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Info" element={<Info />} />
-        <Route path="/Management" element={<Management />} />
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Info" element={<Knowledge />} />
+          <Route path="/Management" element={<Management />} />
+        </Routes>
+      </Suspense>
     </Router>
   );
 }
