@@ -13,11 +13,4 @@ export default function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Info" element={<Knowledge />} />
-          <Route path="/Management" element={<Management />} />
-        </Routes>
-      </Suspense>
-    </Router>
-  );
-}
+    
