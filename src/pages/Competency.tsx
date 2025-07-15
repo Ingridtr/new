@@ -267,9 +267,8 @@ function Competency() {
                 key={competency.id}
                 className="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow cursor-pointer"
                 onClick={() => {
-                  // Navigate to game selection with competency filter
-                  // You can implement this navigation later
-                  console.log(`Selected competency: ${competency.title}`);
+                  // Navigate to game selection with the current grade and competency ID
+                  navigate(`/gameSelection/${grade}/${competency.id}`);
                 }}
               >
                 <h3 className="text-lg font-semibold mb-2">
