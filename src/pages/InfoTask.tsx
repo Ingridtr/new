@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Print from "../components/Print";
+import ActionButton from "../components/ActionButton";
 import { useNavigate } from "react-router-dom";
 
 function InfoTask() {
@@ -46,7 +46,7 @@ function InfoTask() {
         {/* Lukkeknapp */}
         <button
           className="absolute top-4 right-6 text-2xl font-bold"
-          onClick={() => navigate("/Grade")}
+          onClick={() => navigate(-1)} // Go back to previous page
         >
           ×
         </button>
@@ -65,7 +65,8 @@ function InfoTask() {
               <span>🛠️</span>
               <span>Ingen</span>
             </div>
-            <Print
+            <ActionButton
+              type="print"
               title={activityData.title}
               location={activityData.location}
               duration={activityData.duration}
@@ -76,10 +77,19 @@ function InfoTask() {
               variations={activityData.variations}
               reflectionQuestions={activityData.reflectionQuestions}
             />
-            <div className="flex items-center gap-2">
-              <span>🖥️</span>
-              <span>Vis på skjerm</span>
-            </div>
+            <ActionButton
+              type="showOnScreen"
+              title={activityData.title}
+              location={activityData.location}
+              duration={activityData.duration}
+              tools={activityData.tools}
+              competencyGoals={activityData.competencyGoals}
+              description={activityData.description}
+              tasks={activityData.tasks}
+              variations={activityData.variations}
+              reflectionQuestions={activityData.reflectionQuestions}
+              illustrationImage="/Sheriff.png"
+            />
           </div>
 
           {/* HOVEDINNHOLD */}
