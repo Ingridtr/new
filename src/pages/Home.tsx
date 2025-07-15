@@ -22,7 +22,7 @@ function Home() {
           trinn
         </p>
 
-        <div className="flex items-center space-x-6 py-14">
+        <div className="flex items-center space-x-6 space-y-2 py-0">
           <img
             src="/bird.png"
             alt="Bird"
@@ -30,7 +30,7 @@ function Home() {
           />
 
           <a
-            href="/"
+            href="/Grade"
             className="bg-sky-200 hover:bg-sky-300 text-black font-bold rounded text-center flex items-center justify-center"
             style={{
               width: "10vw",
