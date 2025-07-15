@@ -76,9 +76,22 @@ function GameSelection() {
             )}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center"
+            onClick={() => {
+              "/infoTask";
+            }}
+          >
             {games.map((game, index) => (
-              <GameCard key={index} title={game.title} image={game.image} />
+              <GameCard
+                key={index}
+                title={game.title}
+                image={game.image}
+                time={game.time}
+                location={game.location}
+                equipment={game.equipment}
+                onClick={() => navigate("/infoTask")}
+              />
             ))}
           </div>
         </div>
