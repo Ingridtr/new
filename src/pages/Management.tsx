@@ -38,7 +38,7 @@ function Management() {
             
             <InfoCard 
               title="Erfaringer fra andre skoler"
-              description="Vår partnerskole i Kragero, Helle skole, har jobbet med FAL som undervisningsmetode i teoretiske fag fra 2015 gjennom prosjektet Liv og Røre, i samarbeid med Høyskolen på Vestlandet. Resultatene fra prosjektet viser at fysisk aktiv læring (FAL) ikke kun styrker elevenes faglige forståelse, men også har positiv effekt på læringsmiljø, motivasjon og trivsel."
+              description="Vår partnerskole i Kragerø, Helle skole, har jobbet med FAL som undervisningsmetode i teoretiske fag fra 2015 gjennom prosjektet Liv og Røre, i samarbeid med Høyskolen på Vestlandet. Resultatene fra prosjektet viser at fysisk aktiv læring (FAL) ikke kun styrker elevenes faglige forståelse, men også har positiv effekt på læringsmiljø, motivasjon og trivsel."
             />
           </div>
         </div>
