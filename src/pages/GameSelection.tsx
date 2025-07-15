@@ -257,6 +257,52 @@ function GameSelection() {
 
   const [selectedTopic] = useState(getCompetencyTitle());
 
+
+  const games = [
+    {
+      title: "Mattesheriff",
+      image: "/sheriff.png",
+      time: "5 min",
+      location: "Inne/ute",
+      equipment: "Ingen",
+    },
+    {
+      title: "Påstandsveggene",
+      image: "/påstandsveggene.png",
+      time: "15 min",
+      location: "Inne (ute)",
+      equipment: "Ingen",
+    },
+    {
+      title: "Koordinatsystemet",
+      image: "/koordinatsystemet.png",
+      time: "45 min",
+      location: "Ute",
+      equipment: "Utstyrsliste",
+    },
+    {
+      title: "Mattesheriff",
+      image: "/sheriff.png",
+      time: "5 min",
+      location: "Inne/ute",
+      equipment: "Ingen",
+    },
+    {
+      title: "Påstandsveggene",
+      image: "/påstandsveggene.png",
+      time: "15 min",
+      location: "Inne (ute)",
+      equipment: "Ingen",
+    },
+    {
+      title: "Koordinatsystemet",
+      image: "/koordinatsystemet.png",
+      time: "45 min",
+      location: "Ute",
+      equipment: "Utstyrsliste",
+    },
+  ];
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
@@ -280,27 +326,18 @@ function GameSelection() {
           </div>
 
           {/* Game cards grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <GameCard 
-              title="Mattesheriff" 
-              image="/Sheriff.png"
-              time="5 min"
-              location="Inne/ute"
-              equipment="Ingen"
-            />
-            <GameCard 
-              title="Tallspill" 
-              image="/frontPicture.png"
-              time="10 min"
-              location="Inne"
-              equipment="Kort"
-            />
-            <GameCard/>
-            <GameCard/>
-            <GameCard/>
-            <GameCard 
-              
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+            {games.map((game, index) => (
+              <GameCard
+                key={index}
+                title={game.title}
+                image={game.image}
+                time={game.time}
+                location={game.location}
+                equipment={game.equipment}
+                onClick={() => navigate("/infoTask")}
+              />
+            ))}
           </div>
         </div>
       </div>
