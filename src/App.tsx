@@ -11,6 +11,8 @@ const Management = lazy(() => import('./pages/Management'));
 const Grade = lazy(() => import('./pages/Grade'));
 const GameSelection = lazy(() => import('./pages/GameSelection'));
 
+
+
 export default function App() {
   return (
     <Router>
