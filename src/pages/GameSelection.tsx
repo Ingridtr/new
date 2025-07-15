@@ -240,6 +240,7 @@ function GameSelection() {
   const { grade, competencyId } = useParams<{ grade: string; competencyId: string }>();
   const navigate = useNavigate();
 
+
   // Format grade display name
   const gradeDisplayName = grade ? grade.replace('-', '.–') + '. trinn' : "1.–2. trinn";
   const [selectedGrade] = useState(gradeDisplayName);
@@ -256,6 +257,8 @@ function GameSelection() {
   };
 
   const [selectedTopic] = useState(getCompetencyTitle());
+
+
 
 
   const games = [
@@ -309,7 +312,6 @@ function GameSelection() {
 
       <div className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* Filter buttons */}
           <div className="flex gap-4 mb-8 flex-wrap">
             {selectedGrade && (
               <FilterButton
@@ -325,8 +327,10 @@ function GameSelection() {
             )}
           </div>
 
+
           {/* Game cards grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+
             {games.map((game, index) => (
               <GameCard
                 key={index}
