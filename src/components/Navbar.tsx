@@ -1,49 +1,64 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <nav className="bg-sky-200 py-6 px-6">
       <div className="flex items-center justify-between">
-        {/* VENSTRE: Logo + tekst (IKKE sentrert) */}
+        {/* Logo + tekst*/}
         <div className="flex items-center space-x-3">
-          <img src="/logo.png" alt="Kalkulek Logo" className="h-20 w-20" />
-          <span className="text-2xl font-semibold text-gray-800">Kalkulek</span>
+          <img
+            src="/logo.png"
+            alt="Kalkulek Logo"
+            className="cursor-pointer"
+            onClick={() => navigate("/")}
+            style={{
+              width: "4vw",
+              minWidth: "60px",
+              height: "4vw",
+              minHeight: "60px",
+            }}
+          />
+          <span className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black">
+            Kalkulek
+          </span>
         </div>
 
-        {/* HØYRE: Navigasjonsmeny */}
-        <ul className="hidden md:flex items-center space-x-10 text-lg">
+        {/*Navigasjonsmeny */}
+        <ul className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold cursor-pointer text-black">
           <li>
-            <a href="/" className="text-gray-800 hover:underline">
+            <a href="/Management" className="text-black hover:underline">
               For ledelsen
             </a>
           </li>
           <li>
-            <a href="/kunnskap" className="text-gray-800 hover:underline">
+            <a href="/Info" className="text-black hover:underline">
               Kunnskapssiden
             </a>
           </li>
           <li>
-            <a href="/om" className="text-gray-800 hover:underline">
+            <a href="/About" className="text-black hover:underline">
               Om Kalkulek
             </a>
           </li>
           <li>
-            <a href="/" className="text-gray-800 hover:text-black">
-              <FontAwesomeIcon icon={faHouse} className="h-5 w-5 space-x-3" />
-              Hjem
+            <a href="/" className="text-black hover:text-black space-x-1">
+              <FontAwesomeIcon icon={faHouse} className="h-5 w-5 " />
+              <span>Hjem</span>
             </a>
           </li>
         </ul>
 
-        {/* Hamburger for mobil */}
+        {/* Mobilmeny */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             <svg
-              className="h-6 w-6 text-gray-800"
+              className="h-6 w-6 text-black"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -68,9 +83,8 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobilmeny */}
       {menuOpen && (
-        <ul className="md:hidden mt-4 space-y-3 text-lg text-gray-800">
+        <ul className="md:hidden mt-4 space-y-3 text-lg text-black">
           <li>
             <a href="/" className="block hover:underline">
               For ledelsen
@@ -88,19 +102,7 @@ const Navbar: React.FC = () => {
           </li>
           <li>
             <a href="/" className="block hover:text-black">
-              <svg
-                className="h-6 w-6 inline-block"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M3 12l9-9 9 9M4 10v10h16V10"
-                />
-              </svg>
+              <span className="">Hjem</span>
             </a>
           </li>
         </ul>
