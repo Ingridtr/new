@@ -1,59 +1,62 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-function GradeButton(){
-    const navigate = useNavigate();
+function GradeButton() {
+  const navigate = useNavigate();
 
-    const handleGradeClick = (grade: string) => {
-        navigate(`/competency/${grade}`);
-    };
+  const handleGradeClick = (grade: string) => {
+    navigate(`/competency/${grade}`);
+  };
 
-    return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-14 py-8 place-items-center">
-            <button 
-                onClick={() => handleGradeClick('1-2')}
-                className="bg-orange-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-orange-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 1. - 2. trinn </p>
-            </button>
-            <button 
-                onClick={() => handleGradeClick('3')}
-                className="bg-emerald-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-emerald-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 3. trinn </p>
-            </button>
-            <button 
-                onClick={() => handleGradeClick('4')}
-                className="bg-cyan-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-cyan-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 4. trinn </p>
-            </button>
-            <button 
-                onClick={() => handleGradeClick('5')}
-                className="bg-sky-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-sky-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 5. trinn </p>
-            </button>
-            <button 
-                onClick={() => handleGradeClick('6')}
-                className="bg-purple-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-purple-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 6. trinn </p>
-            </button>
-            <button 
-                onClick={() => handleGradeClick('7')}
-                className="bg-rose-200 text-black font-bold rounded-xl text-center flex items-center justify-center hover:bg-rose-300 transition-colors" 
-                style={{width: "20vw", height: "10vw", fontSize: "2vw", minWidth: "200px", minHeight: "150px"}}
-            >
-                <p> 7. trinn </p>
-            </button>
-            
-        </div>
-    );
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 py-8 px-4 place-items-center">
+      {[
+        {
+          grade: "1-2",
+          label: "1. - 2. trinn",
+          bg: "bg-orange-200",
+          hover: "hover:bg-orange-300",
+        },
+        {
+          grade: "3",
+          label: "3. trinn",
+          bg: "bg-emerald-200",
+          hover: "hover:bg-emerald-300",
+        },
+        {
+          grade: "4",
+          label: "4. trinn",
+          bg: "bg-cyan-200",
+          hover: "hover:bg-cyan-300",
+        },
+        {
+          grade: "5",
+          label: "5. trinn",
+          bg: "bg-sky-200",
+          hover: "hover:bg-sky-300",
+        },
+        {
+          grade: "6",
+          label: "6. trinn",
+          bg: "bg-purple-200",
+          hover: "hover:bg-purple-300",
+        },
+        {
+          grade: "7",
+          label: "7. trinn",
+          bg: "bg-rose-200",
+          hover: "hover:bg-rose-300",
+        },
+      ].map(({ grade, label, bg, hover }) => (
+        <button
+          key={grade}
+          onClick={() => handleGradeClick(grade)}
+          className={`${bg} ${hover} text-black font-bold rounded-xl text-3xl text-center flex items-center justify-center transition-colors w-full max-w-[320px] min-w-[200px] h-[200px]`}
+        >
+          <p>{label}</p>
+        </button>
+      ))}
+    </div>
+  );
 }
 
 export default GradeButton;
