@@ -1,13 +1,32 @@
-function GameCard() {
+interface GameCardProps {
+  title: string;
+  image: string;
+  time?: string;
+  location?: string;
+  equipment?: string;
+}
+
+function GameCard({
+  title,
+  image,
+  time = "5 min",
+  location = "Inne/ute",
+  equipment = "Ingen",
+}: GameCardProps) {
   return (
-    <button
-      className="border border-black text-black font-bold text-center flex items-center justify-center mx-auto"
-      style={{
-        width: "350px",
-        height: "500px",
-      }}
-    >
-      Spillkort
+    <button className="border border-black rounded-md w-[320px] bg-white shadow hover:shadow-md transition">
+      <div className="flex justify-between px-3 pt-3 font-semibold text-sm">
+        <div className="flex gap-1 items-center">🕒 {time}</div>
+        <div className="flex gap-1 items-center">📍 {location}</div>
+        <div className="flex gap-1 items-center">🛠️ {equipment}</div>
+      </div>
+      <div className="text-center font-bold text-lg mt-1">{title}</div>
+
+      <img
+        src={image}
+        alt={title}
+        className="w-full h-[400px] object-cover rounded-b-md"
+      />
     </button>
   );
 }
