@@ -1,10 +1,42 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { X } from "lucide-react";
+import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 
 function InfoTask() {
   const navigate = useNavigate();
+
+  // Data for the activity
+  const activityData = {
+    title: "Mattesheriff",
+    location: "Inne / ute",
+    duration: "5 minutter",
+    tools: "Ingen",
+    competencyGoals: [
+      "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene"
+    ],
+    description: "Elevene stiller seg i en sirkel med en sheriff i midten. Sher... (osv. )",
+    tasks: {
+      easy: [
+        "Hva er 5 + 2? → 7",
+        "Hva kommer etter 19? → 20",
+        "Hva er det dobbelte av 4? → 8"
+      ],
+      medium: [
+        "Hva er 5 + 2? → 7",
+        "Hva kommer etter 19? → 20",
+        "Hva er det dobbelte av 4? → 8"
+      ],
+      hard: [
+        "Hva er 5 + 2? → 7",
+        "Hva kommer etter 19? → 20",
+        "Hva er det dobbelte av 4? → 8"
+      ]
+    },
+    variations: "Varier hvem som står i midten",
+    reflectionQuestions: "Hvordan kom du frem til svaret?"
+  };
+
   return (
     <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
       <Navbar />
@@ -33,10 +65,17 @@ function InfoTask() {
               <span>🛠️</span>
               <span>Ingen</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span>🖨️</span>
-              <span>Print aktivitet</span>
-            </div>
+            <Print
+              title={activityData.title}
+              location={activityData.location}
+              duration={activityData.duration}
+              tools={activityData.tools}
+              competencyGoals={activityData.competencyGoals}
+              description={activityData.description}
+              tasks={activityData.tasks}
+              variations={activityData.variations}
+              reflectionQuestions={activityData.reflectionQuestions}
+            />
             <div className="flex items-center gap-2">
               <span>🖥️</span>
               <span>Vis på skjerm</span>
