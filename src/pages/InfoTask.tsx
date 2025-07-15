@@ -6,10 +6,11 @@ import { useNavigate } from "react-router-dom";
 function InfoTask() {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col min-h-screen bg-yellow-50">
+    <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
       <Navbar />
 
-      <div className="flex flex-col items-center justify-start flex-1 p-6 relative">
+      <div className="flex-1 overflow-auto">
+        <div className="flex flex-col items-center justify-start p-6 relative">
         {/* Lukkeknapp */}
         <button
           className="absolute top-4 right-6 text-2xl font-bold"
@@ -98,6 +99,7 @@ function InfoTask() {
               <p>Hvordan kom du frem til svaret?</p>
             </div>
           </div>
+        </div>
         </div>
       </div>
 
