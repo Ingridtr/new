@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-sky-200 py-6 px-6">
       <div className="flex items-center justify-between">
-        {/* Logo + tekst*/}
         <div className="flex items-center space-x-3">
           <img
             src="/logo.png"
@@ -24,7 +23,10 @@ const Navbar: React.FC = () => {
               minHeight: "60px",
             }}
           />
-          <span className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black">
+          <span
+            className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black"
+            onClick={() => navigate("/")}
+          >
             Kalkulek
           </span>
         </div>
