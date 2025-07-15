@@ -1,5 +1,3 @@
-import React from "react";
-
 interface FilterButtonProps {
   text: string;
   onRemove: () => void;
