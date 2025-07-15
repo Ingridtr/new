@@ -1,4 +1,4 @@
-function Grade_buttons(){
+function GradeButton(){
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-14 py-8 place-items-center">
@@ -28,4 +28,4 @@ function Grade_buttons(){
 
 }
 
-export default Grade_buttons;
+export default GradeButton;
