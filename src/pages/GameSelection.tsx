@@ -281,12 +281,26 @@ function GameSelection() {
 
           {/* Game cards grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <GameCard />
-            <GameCard />
-            <GameCard />
-            <GameCard />
-            <GameCard />
-            <GameCard />
+            <GameCard 
+              title="Mattesheriff" 
+              image="/Sheriff.png"
+              time="5 min"
+              location="Inne/ute"
+              equipment="Ingen"
+            />
+            <GameCard 
+              title="Tallspill" 
+              image="/frontPicture.png"
+              time="10 min"
+              location="Inne"
+              equipment="Kort"
+            />
+            <GameCard/>
+            <GameCard/>
+            <GameCard/>
+            <GameCard 
+              
+            />
           </div>
         </div>
       </div>
