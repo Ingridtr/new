@@ -1,3 +1,7 @@
+
+import { useNavigate } from "react-router-dom";
+
+
 interface GameCardProps {
   title: string;
   image: string;
@@ -15,9 +19,22 @@ function GameCard({
   location = "Inne/ute",
   equipment = "Ingen",
 }: GameCardProps) {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    } else {
+      // Default navigation to InfoTask
+      navigate("/infoTask");
+    }
+  };
+
   return (
     <button
-      onClick={onClick}
+      onClick={handleClick}
+
       className="border border-black rounded-md w-[320px] bg-white shadow hover:shadow-md transition"
     >
       <div className="flex justify-between px-3 pt-3 font-semibold text-sm">

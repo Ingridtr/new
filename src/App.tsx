@@ -26,6 +26,8 @@ export default function App() {
 
           <Route path="/grade" element={<Grade />} />
           <Route path="/gameSelection" element={<GameSelection />} />
+          <Route path="/gameSelection/:grade" element={<GameSelection />} />
+          <Route path="/gameSelection/:grade/:competencyId" element={<GameSelection />} />
           <Route path="/infoTask" element={<InfoTask />} />
           <Route path="/competency/:grade" element={<Competency />} />
         </Routes>
