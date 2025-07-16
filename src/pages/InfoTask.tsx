@@ -7,7 +7,8 @@ import { useState, useEffect } from "react";
 function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
-  const [currentGameImage, setCurrentGameImage] = useState<string>("/sheriff.png");
+  const [currentGameImage, setCurrentGameImage] =
+    useState<string>("/sheriff.png");
 
   useEffect(() => {
     // Get the selected game image from localStorage
@@ -18,7 +19,7 @@ function InfoTask() {
   }, []);
 
   const handleShowOnScreen = () => {
-    window.open(currentGameImage, '_blank');
+    window.open(currentGameImage, "_blank");
   };
 
   const activityData = {
@@ -70,16 +71,16 @@ function InfoTask() {
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Inne / ute</span>
+                <p>Inne / ute</p>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
-                <span>5 minutter</span>
+                <p>5 minutter</p>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
                   <span>🛠️</span>
-                  <span>{activityData.tools[0]}</span>
+                  <p>{activityData.tools[0]}</p>
                 </div>
               ) : (
                 <div className="relative">
@@ -88,7 +89,7 @@ function InfoTask() {
                     className="flex items-center gap-2"
                   >
                     <span>🛠️</span>
-                    <span>Utstyrsliste</span>
+                    <p>Utstyrsliste</p>
                   </button>
                   {showToolsDropdown && (
                     <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
@@ -120,28 +121,28 @@ function InfoTask() {
                 onClick={handleShowOnScreen}
               >
                 <span>🖥️</span>
-                <span>Vis på skjerm</span>
+                <p>Vis på skjerm</p>
               </button>
             </div>
 
             {/* HOVEDINNHOLD */}
             <div className="flex flex-col space-y-6 w-full">
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h1 className="text-2xl font-bold text-center mb-2">
-                  {activityData.title}
-                </h1>
-                <h2 className="font-bold">Kobling til kompetansemål</h2>
+                <h1>{activityData.title}</h1>
+                <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
-                  <li>{activityData.competencyGoals}</li>
+                  <li>
+                    <p>{activityData.competencyGoals}</p>
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Beskrivelse</h2>
+                <h2>Beskrivelse</h2>
                 <p>{activityData.description}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Oppgaver</h2>
+                <h2>Oppgaver</h2>
                 <h3 className="font-bold">Enkel</h3>
                 <ul className="list-disc list-inside">
                   {activityData.tasks.easy.map((task, index) => (
@@ -149,14 +150,14 @@ function InfoTask() {
                   ))}
                 </ul>
 
-                <h3 className="font-bold">Middels</h3>
+                <h3>Middels</h3>
                 <ul className="list-disc list-inside">
                   {activityData.tasks.medium.map((task, index) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
 
-                <h3 className="font-bold">Vanskelig</h3>
+                <h3>Vanskelig</h3>
                 <ul className="list-disc list-inside">
                   {activityData.tasks.hard.map((task, index) => (
                     <li key={index}>{task}</li>
@@ -164,13 +165,11 @@ function InfoTask() {
                 </ul>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Variasjoner</h2>
+                <h2>Variasjoner</h2>
                 <p>{activityData.variations}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">
-                  Refleksjonsspørsmål [Etter aktiviteten]
-                </h2>
+                <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
                 <p>{activityData.reflectionQuestions}</p>
               </div>
             </div>
