@@ -1,5 +1,6 @@
 [
   {
+    "id": "mattesheriff",
     "title": "Mattesheriff",
     "image": "/sheriff.png",
     "time": "5 min",
@@ -7,6 +8,7 @@
     "equipment": "Ingen"
   },
   {
+    "id": "pastandsveggene",
     "title": "Påstandsveggene",
     "image": "/påstandsveggene.png",
     "time": "15 min",
@@ -14,6 +16,7 @@
     "equipment": "Ingen"
   },
   {
+    "id": "koordinatsystemet",
     "title": "Koordinatsystemet",
     "image": "/koordinatsystemet.png",
     "time": "45 min",
@@ -21,6 +24,7 @@
     "equipment": "Utstyrsliste"
   },
   {
+    "id": "mattesheriff-2",
     "title": "Mattesheriff",
     "image": "/sheriff.png",
     "time": "5 min",
@@ -28,6 +32,7 @@
     "equipment": "Ingen"
   },
   {
+    "id": "pastandsveggene-2",
     "title": "Påstandsveggene",
     "image": "/påstandsveggene.png",
     "time": "15 min",
@@ -35,10 +40,19 @@
     "equipment": "Ingen"
   },
   {
+    "id": "koordinatsystemet-2",
     "title": "Koordinatsystemet",
     "image": "/koordinatsystemet.png",
     "time": "45 min",
     "location": "Ute",
     "equipment": "Utstyrsliste"
+  },
+  {
+    "id": "tallsafari",
+    "title": "Tallsafari",
+    "image": "/sheriff.png",
+    "time": "20 min",
+    "location": "Ute",
+    "equipment": "Oppgavekort"
   }
 ]
