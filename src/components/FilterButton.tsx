@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 interface FilterButtonProps {
   text: string;
   onClick?: () => void;
@@ -15,7 +17,7 @@ function FilterButton({ text, onClick }: FilterButtonProps) {
         minHeight: "40px",
       }}
     >
-      <span className="mr-2">{text}</span>×
+      <p className="px-4">{text}</p> <FontAwesomeIcon icon={faXmark} />
     </button>
   );
 }
