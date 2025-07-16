@@ -116,7 +116,7 @@ function InfoTask() {
                 reflectionQuestions={activityData.reflectionQuestions}
               />
               <button
-                className="flex items-center gap-2 hover:bg-gray-100 p-2 rounded cursor-pointer"
+                className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
                 onClick={handleShowOnScreen}
               >
                 <span>🖥️</span>
