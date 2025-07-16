@@ -6,9 +6,9 @@ interface PrintComponentProps {
   competencyGoals: string[];
   description: string;
   tasks: {
-    easy: React.ReactNode;
-    medium: React.ReactNode;
-    hard: React.ReactNode;
+    easy: string[];
+    medium: string[];
+    hard: string[];
   };
   variations: string;
   reflectionQuestions: string;
