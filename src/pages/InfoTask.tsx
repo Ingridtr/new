@@ -2,11 +2,24 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react"; // legg til denne linja øverst
+import { useState, useEffect } from "react";
 
 function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
+  const [currentGameImage, setCurrentGameImage] = useState<string>("/sheriff.png");
+
+  useEffect(() => {
+    // Get the selected game image from localStorage
+    const storedGameImage = localStorage.getItem("selectedGameImage");
+    if (storedGameImage) {
+      setCurrentGameImage(storedGameImage);
+    }
+  }, []);
+
+  const handleShowOnScreen = () => {
+    window.open(currentGameImage, '_blank');
+  };
 
   const activityData = {
     title: "Mattesheriff",
@@ -102,10 +115,13 @@ function InfoTask() {
                 variations={activityData.variations}
                 reflectionQuestions={activityData.reflectionQuestions}
               />
-              <div className="flex items-center gap-2">
+              <button
+                className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+                onClick={handleShowOnScreen}
+              >
                 <span>🖥️</span>
                 <span>Vis på skjerm</span>
-              </div>
+              </button>
             </div>
 
             {/* HOVEDINNHOLD */}
