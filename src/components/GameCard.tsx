@@ -18,7 +18,7 @@ function GameCard({
   return (
     <button
       onClick={onClick}
-      className="border border-black rounded-md w-[320px] bg-white shadow hover:shadow-md transition"
+      className="border border-black rounded-md max-w-[320px] bg-white shadow hover:shadow-md transition"
     >
       <div className="flex justify-between px-3 pt-3 font-semibold text-sm">
         <div className="flex gap-1 items-center">🕒 {time}</div>

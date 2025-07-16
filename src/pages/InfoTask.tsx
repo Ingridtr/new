@@ -92,7 +92,7 @@ function InfoTask() {
   }, [currentGrade]);
 
   const handleShowOnScreen = () => {
-    window.open(currentGameImage, '_blank');
+    window.open(currentGameImage, "_blank");
   };
 
   // Show loading state if activityData is not yet loaded
@@ -126,10 +126,12 @@ function InfoTask() {
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
                 <span>📍</span>
+                <p>Inne / ute</p>
                 <span>{activityData.location}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
+                <p>5 minutter</p>
                 <span>{activityData.duration}</span>
               </div>
               {activityData.tools.length <= 1 ? (
@@ -144,7 +146,7 @@ function InfoTask() {
                     className="flex items-center gap-2"
                   >
                     <span>🛠️</span>
-                    <span>Utstyrsliste</span>
+                    <p>Utstyrsliste</p>
                   </button>
                   {showToolsDropdown && (
                     <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
@@ -176,17 +178,15 @@ function InfoTask() {
                 onClick={handleShowOnScreen}
               >
                 <span>🖥️</span>
-                <span>Vis på skjerm</span>
+                <p>Vis på skjerm</p>
               </button>
             </div>
 
             {/* HOVEDINNHOLD */}
             <div className="flex flex-col space-y-6 w-full">
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h1 className="text-2xl font-bold text-center mb-2">
-                  {activityData.title}
-                </h1>
-                <h2 className="font-bold">Kobling til kompetansemål</h2>
+                <h1>{activityData.title}</h1>
+                <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
                   {activityData.competencyGoals.map((goal, index) => (
                     <li key={index}>{goal}</li>
@@ -195,7 +195,7 @@ function InfoTask() {
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Beskrivelse</h2>
+                <h2>Beskrivelse</h2>
                 <p>{activityData.description}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
@@ -241,13 +241,11 @@ function InfoTask() {
                 )}
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Variasjoner</h2>
+                <h2>Variasjoner</h2>
                 <p>{activityData.variations}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">
-                  Refleksjonsspørsmål [Etter aktiviteten]
-                </h2>
+                <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
                 <p>{activityData.reflectionQuestions}</p>
               </div>
             </div>
