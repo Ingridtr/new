@@ -1,19 +1,16 @@
-interface GameCardProps {
-  title: string;
-  image: string;
+import { BaseGameInfo } from '../types/interfaces';
+
+interface GameCardProps extends BaseGameInfo {
   onClick?: () => void;
-  time?: string;
-  location?: string;
-  equipment?: string;
 }
 
 function GameCard({
   title,
   image,
+  time,
+  location,
+  equipment,
   onClick,
-  time = "5 min",
-  location = "Inne/ute",
-  equipment = "Ingen",
 }: GameCardProps) {
   return (
     <button
