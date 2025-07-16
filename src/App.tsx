@@ -1,7 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
 // Replace direct import with lazy loading
 
 const Knowledge = lazy(() => import("./pages/Knowledge"));
@@ -11,10 +10,10 @@ const Management = lazy(() => import("./pages/Management"));
 const Grade = lazy(() => import("./pages/Grade"));
 const GameSelection = lazy(() => import("./pages/GameSelection"));
 const InfoTask = lazy(() => import("./pages/InfoTask"));
-const Competency = lazy(() => import('./pages/Competency'));
-const LearningGoalsSelection = lazy(() => import('./pages/LearningGoalsSelection'));
-
-
+const Competency = lazy(() => import("./pages/Competency"));
+const LearningGoalsSelection = lazy(
+  () => import("./pages/LearningGoalsSelection")
+);
 
 export default function App() {
   return (
@@ -26,7 +25,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/management" element={<Management />} />
           <Route path="/info" element={<Knowledge />} />
-          <Route path="/learninggoals/:grade" element={<LearningGoalsSelection />} />
+          <Route path="/grade/learninggoals" element={<LearningGoalsSelection />} />
           <Route path="/grade" element={<Grade />} />
           <Route path="/gameSelection" element={<GameSelection />} />
           <Route path="/infoTask" element={<InfoTask />} />

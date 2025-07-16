@@ -1,13 +1,22 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FilterButton from "../components/FilterButton";
 import Footer from "../components/Footer";
 import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
+import { useEffect, useState } from "react";
 
 function GameSelection() {
-  const [selectedGrade] = useState("1.–2. trinn");
-  const [selectedTopic] = useState("Tall og mengde");
+  const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
+  const [selectedGoal, setSelectedGoal] = useState<string | null>(null);
+  useEffect(() => {
+    const storedGrade = localStorage.getItem("selectedGrade");
+    setSelectedGrade(storedGrade);
+  }, []);
+  useEffect(() => {
+    const storedGoal = localStorage.getItem("selectedLearningGoal");
+    setSelectedGoal(storedGoal);
+  }, []);
+
   const navigate = useNavigate();
 
   const games = [
@@ -65,23 +74,18 @@ function GameSelection() {
             {selectedGrade && (
               <FilterButton
                 text={`Trinn: ${selectedGrade}`}
-                onRemove={() => navigate("/Grade")}
+                onClick={() => navigate("/Grade")}
               />
             )}
-            {selectedTopic && (
+
+            {selectedGoal && (
               <FilterButton
-                text={`Tema: ${selectedTopic}`}
-                onRemove={() => navigate("/")}
+                text={`Kompetansemål: ${selectedGoal}`}
+                onClick={() => navigate(-1)}
               />
             )}
           </div>
-
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center"
-            onClick={() => {
-              "/infoTask";
-            }}
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
             {games.map((game, index) => (
               <GameCard
                 key={index}
@@ -101,5 +105,4 @@ function GameSelection() {
     </div>
   );
 }
-
 export default GameSelection;

@@ -4,7 +4,8 @@ function GradeButton() {
   const navigate = useNavigate();
 
   const handleGradeClick = (grade: string) => {
-    navigate(`/learninggoals/${grade}`);
+    localStorage.setItem("selectedGrade", grade);
+    navigate(`learninggoals`);
   };
 
   return (
