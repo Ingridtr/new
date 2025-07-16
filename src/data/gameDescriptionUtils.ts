@@ -1,35 +1,28 @@
-import { gameDescriptions } from './gameDescriptionsData';
+import gameDescriptionsData from './gameDescriptions.json';
 import { GameDescription, TasksForGrade } from './types';
 
 /**
  * Get a specific game description by ID
  */
 export function getGameDescription(gameId: string): GameDescription | null {
-  return gameDescriptions[gameId] || null;
+  return gameDescriptionsData[gameId as keyof typeof gameDescriptionsData] || null;
 }
 
 /**
- * Get tasks filtered by grade level
- * Returns only the difficulty levels that are appropriate for the given grade
+ * Get tasks for a game - returns all difficulty levels regardless of grade
+ * Previously filtered by grade, but now returns all levels for teacher flexibility
  */
-export function getTasksForGrade(gameId: string, grade: string): TasksForGrade {
+export function getTasksForGrade(gameId: string, _grade?: string): TasksForGrade {
   const game = getGameDescription(gameId);
+  
   if (!game) return {};
 
-  const allowedDifficulties = game.gradeMapping[grade] || [];
-  const tasks: TasksForGrade = {};
-
-  allowedDifficulties.forEach(difficulty => {
-    if (difficulty === 'easy' && game.tasks.easy) {
-      tasks.easy = game.tasks.easy;
-    }
-    if (difficulty === 'medium' && game.tasks.medium) {
-      tasks.medium = game.tasks.medium;
-    }
-    if (difficulty === 'hard' && game.tasks.hard) {
-      tasks.hard = game.tasks.hard;
-    }
-  });
+  // Return all difficulty levels regardless of grade
+  const tasks: TasksForGrade = {
+    easy: game.tasks.easy || [],
+    medium: game.tasks.medium || [],
+    hard: game.tasks.hard || []
+  };
 
   return tasks;
 }
@@ -38,14 +31,14 @@ export function getTasksForGrade(gameId: string, grade: string): TasksForGrade {
  * Get all available games
  */
 export function getAllGameIds(): string[] {
-  return Object.keys(gameDescriptions);
+  return Object.keys(gameDescriptionsData);
 }
 
 /**
  * Get games suitable for a specific grade
  */
 export function getGamesForGrade(grade: string): GameDescription[] {
-  return Object.values(gameDescriptions).filter(game => 
+  return Object.values(gameDescriptionsData).filter((game: any) => 
     game.gradeMapping[grade] && game.gradeMapping[grade].length > 0
   );
 }

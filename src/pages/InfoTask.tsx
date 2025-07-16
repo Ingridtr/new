@@ -58,10 +58,10 @@ function InfoTask() {
       const gameData = getGameDescription(gameId);
       
       if (gameData) {
-        // Filter tasks based on the current grade
-        const tasksForGrade = getTasksForGrade(gameId, currentGrade);
+        // Get all tasks (no longer filtered by grade)
+        const tasksForGrade = getTasksForGrade(gameId);
         
-        // Create a modified game data with filtered tasks
+        // Create a modified game data with all tasks
         const modifiedGameData = {
           ...gameData,
           tasks: {
@@ -77,7 +77,7 @@ function InfoTask() {
       // Fallback to default game (Mattesheriff)
       const defaultGame = getGameDescription("mattesheriff");
       if (defaultGame) {
-        const tasksForGrade = getTasksForGrade("mattesheriff", currentGrade);
+        const tasksForGrade = getTasksForGrade("mattesheriff");
         const modifiedGameData = {
           ...defaultGame,
           tasks: {
@@ -93,15 +93,6 @@ function InfoTask() {
 
   const handleShowOnScreen = () => {
     window.open(currentGameImage, '_blank');
-  };
-
-  // Temporary test function - remove this in production
-  const handleTestData = () => {
-    localStorage.setItem("selectedGameId", "mattesheriff");
-    localStorage.setItem("selectedGame", "Mattesheriff");
-    localStorage.setItem("selectedGrade", "1-2");
-    localStorage.setItem("selectedGameImage", "/sheriff.png");
-    window.location.reload();
   };
 
   // Show loading state if activityData is not yet loaded
@@ -129,14 +120,6 @@ function InfoTask() {
             onClick={() => navigate(-1)}
           >
             ×
-          </button>
-
-          {/* Temporary test button - remove this in production */}
-          <button
-            className="absolute top-4 left-6 bg-red-500 text-white px-4 py-2 rounded text-sm"
-            onClick={handleTestData}
-          >
-            Test Data
           </button>
 
           <div className="flex flex-col lg:flex-row gap-8 max-w-5xl w-full mt-8 items-start">
