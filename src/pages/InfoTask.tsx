@@ -1,17 +1,26 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { getActivityData } from "../data/activityData";
 
 function InfoTask() {
   const navigate = useNavigate();
-
-  // Data for the activity
-  const activityData = {
+  const [searchParams] = useSearchParams();
+  
+  // Get game title from URL parameters
+  const gameTitle = searchParams.get('gameTitle') || 'Mattesheriff';
+  const grade = searchParams.get('grade');
+  const competency = searchParams.get('competency');
+  
+  // For now, always use the basic sheriff activity data regardless of game title
+  // Later this can be extended to load different activities based on gameTitle
+  const activityData = getActivityData('sheriff-basic') || {
     title: "Mattesheriff",
-    location: "Inne / ute",
-    duration: "5 minutter",
-    tools: "Ingen",
+    image: "/sheriff.png",
+    time: "5 min",
+    location: "Inne/ute",
+    equipment: "Ingen",
     competencyGoals: [
       "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene"
     ],
@@ -46,7 +55,13 @@ function InfoTask() {
         {/* Lukkeknapp */}
         <button
           className="absolute top-4 right-6 text-2xl font-bold"
-          onClick={() => navigate("/gameSelection")}
+          onClick={() => {
+            // Navigate back to game selection with preserved parameters
+            const params = new URLSearchParams();
+            if (grade) params.append('grade', grade);
+            if (competency) params.append('competency', competency);
+            navigate(`/gameSelection?${params.toString()}`);
+          }}
         >
           ×
         </button>
@@ -55,21 +70,22 @@ function InfoTask() {
           <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
             <div className="flex items-center gap-2">
               <span>📍</span>
-              <span>Inne / ute</span>
+              <span>{activityData.location}</span>
             </div>
             <div className="flex items-center gap-2">
               <span>⏱️</span>
-              <span>5 minutter</span>
+              <span>{activityData.time}</span>
             </div>
             <div className="flex items-center gap-2">
               <span>🛠️</span>
-              <span>Ingen</span>
+              <span>{activityData.equipment}</span>
             </div>
             <Print
               title={activityData.title}
+              image={activityData.image}
               location={activityData.location}
-              duration={activityData.duration}
-              tools={activityData.tools}
+              time={activityData.time}
+              equipment={activityData.equipment}
               competencyGoals={activityData.competencyGoals}
               description={activityData.description}
               tasks={activityData.tasks}
@@ -86,24 +102,19 @@ function InfoTask() {
           <div className="flex flex-col space-y-6 w-full">
             <div className="bg-white border border-black rounded-2xl p-6">
               <h1 className="text-2xl font-bold text-center mb-2">
-                Mattesheriff
+                {activityData.title}
               </h1>
               <h2 className="font-bold">Kobling til kompetansemål</h2>
               <ul className="list-disc list-inside">
-                <li>
-                  Utforske tall, mengder og telling i lek, natur, billedkunst,
-                  musikk og barnelitteratur, representere tallene på ulike måter
-                  og oversette mellom de ulike representasjonene
-                </li>
+                {activityData.competencyGoals.map((goal, index) => (
+                  <li key={index}>{goal}</li>
+                ))}
               </ul>
             </div>
 
             <div className="bg-white border border-black rounded-2xl p-6">
               <h2 className="font-bold mb-2">Beskrivelse</h2>
-              <p>
-                Elevene stiller seg i en sirkel med en sheriff i midten. Sher...
-                (osv. )
-              </p>
+              <p>{activityData.description}</p>
             </div>
             <div className="bg-white border border-black rounded-2xl p-6">
               <h2 className="font-bold mb-2">Oppgaver</h2>
@@ -129,13 +140,13 @@ function InfoTask() {
             </div>
             <div className="bg-white border border-black rounded-2xl p-6">
               <h2 className="font-bold mb-2">Variasjoner</h2>
-              <p>Varier hvem som står i midten</p>
+              <p>{activityData.variations}</p>
             </div>
             <div className="bg-white border border-black rounded-2xl p-6">
               <h2 className="font-bold mb-2">
                 Refleksjonsspørsmål [Etter aktiviteten]
               </h2>
-              <p>Hvordan kom du frem til svaret?</p>
+              <p>{activityData.reflectionQuestions}</p>
             </div>
           </div>
         </div>
