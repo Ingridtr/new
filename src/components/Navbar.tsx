@@ -88,17 +88,17 @@ const Navbar: React.FC = () => {
       {menuOpen && (
         <ul className="md:hidden mt-4 space-y-3 text-lg text-black">
           <li>
-            <a href="/" className="block hover:underline">
+            <a href="/management" className="block hover:underline">
               For ledelsen
             </a>
           </li>
           <li>
-            <a href="/kunnskap" className="block hover:underline">
+            <a href="/info" className="block hover:underline">
               Kunnskapssiden
             </a>
           </li>
           <li>
-            <a href="/om" className="block hover:underline">
+            <a href="/about" className="block hover:underline">
               Om Kalkulek
             </a>
           </li>
