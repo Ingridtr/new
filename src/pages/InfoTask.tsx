@@ -1,43 +1,48 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react"; // legg til denne linja øverst
+import { useNavigate, useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { GameData, gameDataDatabase, gamesDatabase } from "../data";
 
 function InfoTask() {
   const navigate = useNavigate();
+  const { gameId } = useParams<{ gameId: string }>();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
+  const [activityData, setActivityData] = useState<GameData | null>(null);
+  const [gameImage, setGameImage] = useState<string>("");
 
-  const activityData = {
-    title: "Mattesheriff",
-    location: "Inne / ute",
-    duration: "5 minutter",
-    tools: ["Ingen"],
-    competencyGoals: [
-      "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene",
-    ],
-    description:
-      "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke.",
-    tasks: {
-      easy: [
-        "Hva er 5 + 2? → 7",
-        "Hva kommer etter 19? → 20",
-        "Hva er det dobbelte av 4? → 8",
-      ],
-      medium: [
-        "Hva er 12 – 4? → 8",
-        "Hva kommer før 30? → 29",
-        "Hva er halvparten av 10? → 5",
-      ],
-      hard: [
-        "Hva er 8 + 7? → 15",
-        "Hva er det tredobbelte av 3? → 9",
-        "Hva er 100 – 37? → 63",
-      ],
-    },
-    variations: "Varier hvem som står i midten",
-    reflectionQuestions: "Hvordan kom du frem til svaret?",
+  useEffect(() => {
+    if (gameId && gameDataDatabase[gameId as keyof typeof gameDataDatabase]) {
+      setActivityData(gameDataDatabase[gameId as keyof typeof gameDataDatabase]);
+      
+      // Find the corresponding game image from gamesDatabase
+      for (const grade in gamesDatabase) {
+        for (const competency in gamesDatabase[grade]) {
+          const games = gamesDatabase[grade][competency as any];
+          const game = games.find((g: any) => g.id === gameId);
+          if (game) {
+            setGameImage(game.image);
+            break;
+          }
+        }
+      }
+    } else {
+      // Fallback to default game if gameId not found
+      setActivityData(gameDataDatabase["mattesheriff-1-2-1"]);
+      setGameImage("/sheriff.png");
+    }
+  }, [gameId]);
+
+  const handleShowOnScreen = () => {
+    if (gameImage) {
+      window.open(gameImage, '_blank');
+    }
   };
+
+  if (!activityData) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
@@ -57,11 +62,11 @@ function InfoTask() {
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Inne / ute</span>
+                <span>{activityData.location}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
-                <span>5 minutter</span>
+                <span>{activityData.duration}</span>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
@@ -79,7 +84,7 @@ function InfoTask() {
                   </button>
                   {showToolsDropdown && (
                     <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
-                      {activityData.tools.map((tool, index) => (
+                      {activityData.tools.map((tool: string, index: number) => (
                         <li
                           key={index}
                           className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
@@ -102,10 +107,13 @@ function InfoTask() {
                 variations={activityData.variations}
                 reflectionQuestions={activityData.reflectionQuestions}
               />
-              <div className="flex items-center gap-2">
+              <button
+                className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+                onClick={handleShowOnScreen}
+              >
                 <span>🖥️</span>
                 <span>Vis på skjerm</span>
-              </div>
+              </button>
             </div>
 
             {/* HOVEDINNHOLD */}
@@ -128,21 +136,21 @@ function InfoTask() {
                 <h2 className="font-bold mb-2">Oppgaver</h2>
                 <h3 className="font-bold">Enkel</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.easy.map((task, index) => (
+                  {activityData.tasks.easy.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
 
                 <h3 className="font-bold">Middels</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.medium.map((task, index) => (
+                  {activityData.tasks.medium.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
 
                 <h3 className="font-bold">Vanskelig</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.hard.map((task, index) => (
+                  {activityData.tasks.hard.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
