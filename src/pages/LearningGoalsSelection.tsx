@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
+import FilterButton from "../components/FilterButton";
 
 function LearningGoalsSelection() {
   const navigate = useNavigate();
@@ -21,18 +22,13 @@ function LearningGoalsSelection() {
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
           {/* Filter button */}
           <div className="mb-8">
-            <button
-              onClick={() => navigate("/grade")}
-              className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-full text-sm font-medium text-gray-700 hover:bg-gray-50"
-            >
-              {selectedGrade}
-              <span className="ml-2 text-gray-400">×</span>
-            </button>
+            <FilterButton
+              text={` ${selectedGrade}`}
+              onClick={() => navigate("/Grade")}
+            />
           </div>
         </div>
-        <h1 className="text-3xl font-bold text-center mb-8">
-          Velg kompetansemål
-        </h1>
+        <h1>Velg Kompetansemål</h1>
 
         {selectedGrade && <LearningGoals selectedGrade={selectedGrade} />}
       </div>

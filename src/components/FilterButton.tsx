@@ -15,7 +15,7 @@ function FilterButton({ text, onClick }: FilterButtonProps) {
         minHeight: "40px",
       }}
     >
-      <span className="mr-2">{text}</span>×
+      <h2>{text}</h2>×
     </button>
   );
 }

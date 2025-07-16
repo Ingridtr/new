@@ -73,7 +73,7 @@ function GameSelection() {
           <div className="flex gap-4 mb-8 flex-wrap">
             {selectedGrade && (
               <FilterButton
-                text={`Trinn: ${selectedGrade}`}
+                text={` ${selectedGrade}`}
                 onClick={() => navigate("/Grade")}
               />
             )}
@@ -85,7 +85,9 @@ function GameSelection() {
               />
             )}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+          <h1>Velg aktivitet</h1>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
             {games.map((game, index) => (
               <GameCard
                 key={index}
