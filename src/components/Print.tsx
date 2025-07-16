@@ -179,7 +179,7 @@ function PrintComponent({
       onClick={handlePrint}
     >
       <span>🖨️</span>
-      <span>Print aktivitet</span>
+      <p>Print aktivitet</p>
     </button>
   );
 }

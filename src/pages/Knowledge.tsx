@@ -1,35 +1,37 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import LesMerButton from '../components/LesMerButton';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import LesMerButton from "../components/LesMerButton";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faSchool } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faSchool } from "@fortawesome/free-solid-svg-icons";
 
 function Knowledge() {
   return (
     <div className="bg-white-50 h-screen flex flex-col overflow-hidden">
       <Navbar />
-      
+
       <div className="flex-1 overflow-auto">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-8">Kunnskapssiden</h1>
-          
+          <h1>Kunnskapssiden</h1>
+
           {/* Main Content Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Left Column */}
             <div className="space-y-8">
               {/* Helhetlig skoletilnærming section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2 className="text-2xl font-bold mb-4">
-                  Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv Læring
+                <h2>
+                  Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv
+                  Læring
                 </h2>
-                <p className="mb-4">
-                  Helhetlig skoletilnærming handler om å se hele eleven - faglig,
-                  sosialt og emosjonelt- og skape et inkluderende læringsmiljø som
-                  legger tilrette for utvikling og deltakelse blant alle elever.
-                  Forskning viser at fysisk aktiv læring kan bidra til å fremme ...
+                <p>
+                  Helhetlig skoletilnærming handler om å se hele eleven -
+                  faglig, sosialt og emosjonelt- og skape et inkluderende
+                  læringsmiljø som legger tilrette for utvikling og deltakelse
+                  blant alle elever. Forskning viser at fysisk aktiv læring kan
+                  bidra til å fremme ...
                 </p>
-                <LesMerButton 
+                <LesMerButton
                   title="Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv Læring"
                   content="Helhetlig skoletilnærming handler om å se hele eleven - faglig, sosialt og emosjonelt - og skape et inkluderende læringsmiljø som legger til rette for utvikling og deltakelse blant alle elever.
 
@@ -48,15 +50,15 @@ Den helhetlige tilnærmingen innebærer også tett samarbeid mellom lærere, spe
 
               {/* Pedagogisk rammeverk section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2 className="text-2xl font-bold mb-4">Pedagogisk rammeverk</h2>
-                <p className="mb-4">
+                <h2>Pedagogisk rammeverk</h2>
+                <p>
                   Undervisningsopplegget er utviklet med utgangspunkt i
                   kompetansemålene i LK20 og bygger på den sosiokulturelle
-                  læringsteorien, embodied learning og CAPADIE modellen.
-                  Målet er å legge til rette for aktiv og meningsfull læring
-                  for alle elever.
+                  læringsteorien, embodied learning og CAPADIE modellen. Målet
+                  er å legge til rette for aktiv og meningsfull læring for alle
+                  elever.
                 </p>
-                <LesMerButton 
+                <LesMerButton
                   title="Pedagogisk rammeverk"
                   content="Undervisningsopplegget er utviklet med utgangspunkt i kompetansemålene i LK20 og bygger på følgende pedagogiske teorier:
 
@@ -80,12 +82,13 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
             <div className="space-y-8">
               {/* Forskningsartikler section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2 className="text-2xl font-bold mb-4">Forskningsartikler</h2>
+                <h2>Forskningsartikler</h2>
                 <ul className="space-y-4">
                   <li>
                     <a href="#" className="text-blue-600 hover:underline">
-                      Beyond borders: developing the core aspects of physically active
-                      learning enactment (CAPABLE) model in the third space
+                      Beyond borders: developing the core aspects of physically
+                      active learning enactment (CAPABLE) model in the third
+                      space
                     </a>
                   </li>
                   <li>
@@ -96,8 +99,8 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
                   </li>
                   <li>
                     <a href="#" className="text-blue-600 hover:underline">
-                      Embodying education - a bildung theoretical approach to movement
-                      integration
+                      Embodying education - a bildung theoretical approach to
+                      movement integration
                     </a>
                   </li>
                 </ul>
@@ -105,33 +108,39 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
 
               {/* Samarbeidspartnere section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2 className="text-2xl font-bold mb-4">Samarbeidspartnere</h2>
+                <h2>Samarbeidspartnere</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                   {/* Team Members */}
                   <div className="text-center">
                     <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
-                    <p className="font-semibold">Henrik Løvmyr</p>
-                    <p className="text-sm">Spesialpedagog</p>
+                    <p>Henrik Løvmyr</p>
+                    <p>Spesialpedagog</p>
                   </div>
                   <div className="text-center">
                     <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
-                    <p className="font-semibold">Hanan Abdelrahman</p>
-                    <p className="text-sm">Matematikklærer</p>
+                    <p>Hanan Abdelrahman</p>
+                    <p>Matematikklærer</p>
                   </div>
                   <div className="text-center">
                     <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
-                    <p className="font-semibold">Joschua Liedtke</p>
-                    <p className="text-sm">Forsker på universell utforming</p>
+                    <p>Joschua Liedtke</p>
+                    <p>Forsker på universell utforming</p>
                   </div>
 
                   {/* Schools */}
                   <div className="text-center">
-                    <FontAwesomeIcon icon={faSchool} className="text-4xl mb-2" />
-                    <p className="font-semibold">Helle skole</p>
+                    <FontAwesomeIcon
+                      icon={faSchool}
+                      className="text-4xl mb-2"
+                    />
+                    <p>Helle skole</p>
                   </div>
                   <div className="text-center">
-                    <FontAwesomeIcon icon={faSchool} className="text-4xl mb-2" />
-                    <p className="font-semibold">Ski skole</p>
+                    <FontAwesomeIcon
+                      icon={faSchool}
+                      className="text-4xl mb-2"
+                    />
+                    <p>Ski skole</p>
                   </div>
                 </div>
               </div>
@@ -139,7 +148,7 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );
