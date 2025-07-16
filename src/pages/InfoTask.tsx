@@ -12,7 +12,7 @@ function InfoTask() {
     title: "Mattesheriff",
     location: "Inne / ute",
     duration: "5 minutter",
-    tools: ["Ingen"],
+    tools: ["Ingen"], 
     competencyGoals: [
       "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene",
     ],
@@ -20,23 +20,23 @@ function InfoTask() {
       "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke.",
     tasks: {
       easy: (
-        <>
-          <li>Hva er 5 + 2? → 7</li>,<li>Hva kommer etter 19? → 20</li>,
-          <li>Hva er det dobbelte av 4? → 8</li>,
-        </>
-      ),
+      <>
+        <li>Hva er 5 + 2? → 7</li>
+        <li>Hva kommer etter 19? → 20</li>
+        <li>Hva er det dobbelte av 4? → 8</li>
+      </>),
       medium: (
-        <>
-          <li>Hva er 5 + 2? → 7</li>,<li>Hva kommer etter 19? → 20</li>,
-          <li>Hva er det dobbelte av 4? → 8</li>,
-        </>
-      ),
+      <>
+        <li>Hva er 5 + 2? → 7</li>
+        <li>Hva kommer etter 19? → 20</li>
+        <li>Hva er det dobbelte av 4? → 8</li>
+      </>),
       hard: (
-        <>
-          <li>Hva er 5 + 2? → 7</li>,<li>Hva kommer etter 19? → 20</li>,
-          <li>Hva er det dobbelte av 4? → 8</li>,
-        </>
-      ),
+      <>
+        <li>Hva er 5 + 2? → 7</li>
+        <li>Hva kommer etter 19? → 20</li>
+        <li>Hva er det dobbelte av 4? → 8</li>
+      </>),
     },
     variations: "Varier hvem som står i midten",
     reflectionQuestions: "Hvordan kom du frem til svaret?",
@@ -67,33 +67,33 @@ function InfoTask() {
                 <span>5 minutter</span>
               </div>
               {activityData.tools.length <= 1 ? (
-                <div className="flex items-center gap-2">
-                  <span>🛠️</span>
-                  <span>{activityData.tools[0]}</span>
-                </div>
-              ) : (
-                <div className="relative">
-                  <button
-                    onClick={() => setShowToolsDropdown(!showToolsDropdown)}
-                    className="flex items-center gap-2"
-                  >
-                    <span>🛠️</span>
-                    <span>Utstyrsliste</span>
-                  </button>
-                  {showToolsDropdown && (
-                    <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
-                      {activityData.tools.map((tool, index) => (
-                        <li
-                          key={index}
-                          className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-                        >
-                          {tool}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              )}
+  <div className="flex items-center gap-2">
+    <span>🛠️</span>
+    <span>{activityData.tools[0]}</span>
+  </div>
+) : (
+  <div className="relative">
+    <button
+      onClick={() => setShowToolsDropdown(!showToolsDropdown)}
+      className="flex items-center gap-2"
+    >
+      <span>🛠️</span>
+      <span>Utstyrsliste</span>
+    </button>
+    {showToolsDropdown && (
+      <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
+        {activityData.tools.map((tool, index) => (
+          <li
+            key={index}
+            className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+          >
+            {tool}
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+)}
               <Print
                 title={activityData.title}
                 location={activityData.location}
