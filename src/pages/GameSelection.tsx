@@ -32,10 +32,10 @@ function GameSelection() {
   const gradeDisplayName = grade?.replace('-', '.–') + '. trinn';
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="bg-gray-50 h-screen flex flex-col overflow-hidden">
       <Navbar />
 
-      <div className="flex-1">
+      <div className="flex-1 overflow-auto">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex gap-4 mb-8 flex-wrap">
             <FilterButton
