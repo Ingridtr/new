@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Mattesheriff",
+    "image": "/sheriff.png",
+    "time": "5 min",
+    "location": "Inne/ute",
+    "equipment": "Ingen"
+  },
+  {
+    "title": "Påstandsveggene",
+    "image": "/påstandsveggene.png",
+    "time": "15 min",
+    "location": "Inne (ute)",
+    "equipment": "Ingen"
+  },
+  {
+    "title": "Koordinatsystemet",
+    "image": "/koordinatsystemet.png",
+    "time": "45 min",
+    "location": "Ute",
+    "equipment": "Utstyrsliste"
+  },
+  {
+    "title": "Mattesheriff",
+    "image": "/sheriff.png",
+    "time": "5 min",
+    "location": "Inne/ute",
+    "equipment": "Ingen"
+  },
+  {
+    "title": "Påstandsveggene",
+    "image": "/påstandsveggene.png",
+    "time": "15 min",
+    "location": "Inne (ute)",
+    "equipment": "Ingen"
+  },
+  {
+    "title": "Koordinatsystemet",
+    "image": "/koordinatsystemet.png",
+    "time": "45 min",
+    "location": "Ute",
+    "equipment": "Utstyrsliste"
+  }
+]
