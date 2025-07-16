@@ -1,43 +1,28 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react"; // legg til denne linja øverst
+import { useNavigate, useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { GameData, gameDataDatabase } from "../data";
 
 function InfoTask() {
   const navigate = useNavigate();
+  const { gameId } = useParams<{ gameId: string }>();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
+  const [activityData, setActivityData] = useState<GameData | null>(null);
 
-  const activityData = {
-    title: "Mattesheriff",
-    location: "Inne / ute",
-    duration: "5 minutter",
-    tools: ["Ingen"],
-    competencyGoals: [
-      "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene",
-    ],
-    description:
-      "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke.",
-    tasks: {
-      easy: [
-        "Hva er 5 + 2? → 7",
-        "Hva kommer etter 19? → 20",
-        "Hva er det dobbelte av 4? → 8",
-      ],
-      medium: [
-        "Hva er 12 – 4? → 8",
-        "Hva kommer før 30? → 29",
-        "Hva er halvparten av 10? → 5",
-      ],
-      hard: [
-        "Hva er 8 + 7? → 15",
-        "Hva er det tredobbelte av 3? → 9",
-        "Hva er 100 – 37? → 63",
-      ],
-    },
-    variations: "Varier hvem som står i midten",
-    reflectionQuestions: "Hvordan kom du frem til svaret?",
-  };
+  useEffect(() => {
+    if (gameId && gameDataDatabase[gameId as keyof typeof gameDataDatabase]) {
+      setActivityData(gameDataDatabase[gameId as keyof typeof gameDataDatabase]);
+    } else {
+      // Fallback to default game if gameId not found
+      setActivityData(gameDataDatabase["mattesheriff-1-2-1"]);
+    }
+  }, [gameId]);
+
+  if (!activityData) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
@@ -48,7 +33,7 @@ function InfoTask() {
           {/* Lukkeknapp */}
           <button
             className="absolute top-4 right-6 text-2xl font-bold"
-            onClick={() => navigate("/gameSelection")}
+            onClick={() => navigate(-1)}
           >
             ×
           </button>
@@ -79,7 +64,7 @@ function InfoTask() {
                   </button>
                   {showToolsDropdown && (
                     <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
-                      {activityData.tools.map((tool, index) => (
+                      {activityData.tools.map((tool: string, index: number) => (
                         <li
                           key={index}
                           className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
@@ -128,21 +113,21 @@ function InfoTask() {
                 <h2 className="font-bold mb-2">Oppgaver</h2>
                 <h3 className="font-bold">Enkel</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.easy.map((task, index) => (
+                  {activityData.tasks.easy.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
 
                 <h3 className="font-bold">Middels</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.medium.map((task, index) => (
+                  {activityData.tasks.medium.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
 
                 <h3 className="font-bold">Vanskelig</h3>
                 <ul className="list-disc list-inside">
-                  {activityData.tasks.hard.map((task, index) => (
+                  {activityData.tasks.hard.map((task: string, index: number) => (
                     <li key={index}>{task}</li>
                   ))}
                 </ul>
