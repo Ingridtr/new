@@ -1,30 +1,22 @@
-interface PrintComponentProps {
-  title: string;
-  location: string;
-  duration: string;
-  tools: string;
-  competencyGoals: string[];
-  description: string;
-  tasks: {
-    easy: string[];
-    medium: string[];
-    hard: string[];
-  };
-  variations: string;
-  reflectionQuestions: string;
+import { ActivityData } from '../types/interfaces';
+
+interface PrintComponentProps extends ActivityData {
+  // Print component uses all ActivityData properties
 }
 
-function PrintComponent({
-  title,
-  location,
-  duration,
-  tools,
-  competencyGoals,
-  description,
-  tasks,
-  variations,
-  reflectionQuestions,
-}: PrintComponentProps) {
+function PrintComponent(props: PrintComponentProps) {
+  const {
+    title,
+    image,
+    time,
+    location,
+    equipment,
+    competencyGoals,
+    description,
+    tasks,
+    variations,
+    reflectionQuestions,
+  } = props;
   const handlePrint = () => {
     // Create a new window for printing
     const printWindow = window.open('', '_blank');
@@ -110,11 +102,11 @@ function PrintComponent({
                 </div>
                 <div class="info-item">
                   <span>⏱️</span>
-                  <span>${duration}</span>
+                  <span>${time}</span>
                 </div>
                 <div class="info-item">
                   <span>🛠️</span>
-                  <span>${tools}</span>
+                  <span>${equipment}</span>
                 </div>
               </div>
             </div>
