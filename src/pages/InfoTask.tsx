@@ -3,22 +3,42 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { GameData, gameDataDatabase } from "../data";
+import { GameData, gameDataDatabase, gamesDatabase } from "../data";
 
 function InfoTask() {
   const navigate = useNavigate();
   const { gameId } = useParams<{ gameId: string }>();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
   const [activityData, setActivityData] = useState<GameData | null>(null);
+  const [gameImage, setGameImage] = useState<string>("");
 
   useEffect(() => {
     if (gameId && gameDataDatabase[gameId as keyof typeof gameDataDatabase]) {
       setActivityData(gameDataDatabase[gameId as keyof typeof gameDataDatabase]);
+      
+      // Find the corresponding game image from gamesDatabase
+      for (const grade in gamesDatabase) {
+        for (const competency in gamesDatabase[grade]) {
+          const games = gamesDatabase[grade][competency as any];
+          const game = games.find((g: any) => g.id === gameId);
+          if (game) {
+            setGameImage(game.image);
+            break;
+          }
+        }
+      }
     } else {
       // Fallback to default game if gameId not found
       setActivityData(gameDataDatabase["mattesheriff-1-2-1"]);
+      setGameImage("/sheriff.png");
     }
   }, [gameId]);
+
+  const handleShowOnScreen = () => {
+    if (gameImage) {
+      window.open(gameImage, '_blank');
+    }
+  };
 
   if (!activityData) {
     return <div>Loading...</div>;
@@ -42,11 +62,11 @@ function InfoTask() {
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Inne / ute</span>
+                <span>{activityData.location}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
-                <span>5 minutter</span>
+                <span>{activityData.duration}</span>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
@@ -87,10 +107,13 @@ function InfoTask() {
                 variations={activityData.variations}
                 reflectionQuestions={activityData.reflectionQuestions}
               />
-              <div className="flex items-center gap-2">
+              <button
+                className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+                onClick={handleShowOnScreen}
+              >
                 <span>🖥️</span>
                 <span>Vis på skjerm</span>
-              </div>
+              </button>
             </div>
 
             {/* HOVEDINNHOLD */}
