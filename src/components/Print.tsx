@@ -2,7 +2,7 @@ interface PrintComponentProps {
   title: string;
   location: string;
   duration: string;
-  tools: string;
+  tools: string[];
   competencyGoals: string[];
   description: string;
   tasks: {
@@ -27,8 +27,8 @@ function PrintComponent({
 }: PrintComponentProps) {
   const handlePrint = () => {
     // Create a new window for printing
-    const printWindow = window.open('', '_blank');
-    
+    const printWindow = window.open("", "_blank");
+
     if (printWindow) {
       const printContent = `
         <!DOCTYPE html>
@@ -123,7 +123,7 @@ function PrintComponent({
               <h1>${title}</h1>
               <h2>Kobling til kompetansemål</h2>
               <ul>
-                ${competencyGoals.map(goal => `<li>${goal}</li>`).join('')}
+                ${competencyGoals.map((goal) => `<li>${goal}</li>`).join("")}
               </ul>
             </div>
 
@@ -137,17 +137,17 @@ function PrintComponent({
               
               <h3>Enkel</h3>
               <ul>
-                ${tasks.easy.map(task => `<li>${task}</li>`).join('')}
+                ${tasks.easy.map((task) => `<li>${task}</li>`).join("")}
               </ul>
 
               <h3>Middels</h3>
               <ul>
-                ${tasks.medium.map(task => `<li>${task}</li>`).join('')}
+                ${tasks.medium.map((task) => `<li>${task}</li>`).join("")}
               </ul>
 
               <h3>Vanskelig</h3>
               <ul>
-                ${tasks.hard.map(task => `<li>${task}</li>`).join('')}
+                ${tasks.hard.map((task) => `<li>${task}</li>`).join("")}
               </ul>
             </div>
 
@@ -164,7 +164,7 @@ function PrintComponent({
         </body>
         </html>
       `;
-      
+
       printWindow.document.write(printContent);
       printWindow.document.close();
       printWindow.focus();
@@ -174,7 +174,7 @@ function PrintComponent({
   };
 
   return (
-    <button 
+    <button
       className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
       onClick={handlePrint}
     >
