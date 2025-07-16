@@ -1,13 +1,12 @@
 interface FilterButtonProps {
   text: string;
-  onClick?: () => void;
+  onRemove: () => void;
 }
 
-function FilterButton({ text, onClick }: FilterButtonProps) {
+function FilterButton({ text, onRemove }: FilterButtonProps) {
   return (
     <button
-      onClick={onClick}
-      className="flex items-center justify-between border border-black rounded-full px-4 py-2 text-black cursor-pointer"
+      className="flex items-center justify-between border border-black rounded-full px-4 py-2 text-black"
       style={{
         width: "auto",
         minWidth: "120px",
@@ -15,7 +14,16 @@ function FilterButton({ text, onClick }: FilterButtonProps) {
         minHeight: "40px",
       }}
     >
-      <span className="mr-2">{text}</span>×
+      <span className="mr-2">{text}</span>
+      <span
+        className="text-xl font-bold cursor-pointer"
+        onClick={(e) => {
+          e.stopPropagation();
+          onRemove();
+        }}
+      >
+        ×
+      </span>
     </button>
   );
 }
