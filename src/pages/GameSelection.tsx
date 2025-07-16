@@ -47,6 +47,7 @@ function GameSelection() {
               const handleGameClick = () => {
                 // Store the selected game in localStorage
                 localStorage.setItem("selectedGame", game.title);
+                localStorage.setItem("selectedGameId", game.id);
                 localStorage.setItem("selectedGameImage", game.image);
                 navigate("/infoTask");
               };

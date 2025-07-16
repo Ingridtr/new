@@ -3,12 +3,15 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { getGameDescription, getTasksForGrade } from "../data/gameDescriptionUtils";
+import { GameDescription } from "../data/types";
 
 function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
-  const [currentGameImage, setCurrentGameImage] =
-    useState<string>("/sheriff.png");
+  const [currentGameImage, setCurrentGameImage] = useState<string>("/sheriff.png");
+  const [activityData, setActivityData] = useState<GameDescription | null>(null);
+  const [currentGrade, setCurrentGrade] = useState<string>("1-2");
 
   useEffect(() => {
     // Get the selected game image from localStorage
@@ -16,42 +19,94 @@ function InfoTask() {
     if (storedGameImage) {
       setCurrentGameImage(storedGameImage);
     }
-  }, []);
+
+    // Get the selected game title and grade from localStorage
+    const storedGameId = localStorage.getItem("selectedGameId");
+    const storedGameTitle = localStorage.getItem("selectedGame");
+    const storedGrade = localStorage.getItem("selectedGrade");
+    
+    if (storedGrade) {
+      // Map old grade format to new format if needed
+      const gradeMap: { [key: string]: string } = {
+        "Andre årstrinn": "1-2",
+        "Tredje årstrinn": "3", 
+        "Fjerde årstrinn": "4",
+        "Femte årstrinn": "5",
+        "Sjette årstrinn": "6",
+        "Syvende årstrinn": "7"
+      };
+      
+      const mappedGrade = gradeMap[storedGrade] || storedGrade;
+      setCurrentGrade(mappedGrade);
+    }
+
+    // Use the stored game ID if available, otherwise fall back to title mapping
+    let gameId = storedGameId;
+    
+    if (!gameId && storedGameTitle) {
+      // Fallback: Map game titles to IDs for backward compatibility
+      const gameIdMap: { [title: string]: string } = {
+        "Mattesheriff": "mattesheriff",
+        "Påstandsveggene": "pastandsveggene", 
+        "Koordinatsystemet": "koordinatsystemet",
+        "Tallsafari": "tallsafari"
+      };
+      gameId = gameIdMap[storedGameTitle];
+    }
+
+    if (gameId) {
+      const gameData = getGameDescription(gameId);
+      
+      if (gameData) {
+        // Get all tasks (no longer filtered by grade)
+        const tasksForGrade = getTasksForGrade(gameId);
+        
+        // Create a modified game data with all tasks
+        const modifiedGameData = {
+          ...gameData,
+          tasks: {
+            easy: tasksForGrade.easy || [],
+            medium: tasksForGrade.medium || [],
+            hard: tasksForGrade.hard || []
+          }
+        };
+        
+        setActivityData(modifiedGameData);
+      }
+    } else {
+      // Fallback to default game (Mattesheriff)
+      const defaultGame = getGameDescription("mattesheriff");
+      if (defaultGame) {
+        const tasksForGrade = getTasksForGrade("mattesheriff");
+        const modifiedGameData = {
+          ...defaultGame,
+          tasks: {
+            easy: tasksForGrade.easy || [],
+            medium: tasksForGrade.medium || [],
+            hard: tasksForGrade.hard || []
+          }
+        };
+        setActivityData(modifiedGameData);
+      }
+    }
+  }, [currentGrade]);
 
   const handleShowOnScreen = () => {
     window.open(currentGameImage, "_blank");
   };
 
-  const activityData = {
-    title: "Mattesheriff",
-    location: "Inne / ute",
-    duration: "5 minutter",
-    tools: ["Ingen"],
-    competencyGoals: [
-      "Utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur, representere tallene på ulike måter og oversette mellom de ulike representasjonene",
-    ],
-    description:
-      "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke.",
-    tasks: {
-      easy: [
-        "Hva er 5 + 2? → 7",
-        "Hva kommer etter 19? → 20",
-        "Hva er det dobbelte av 4? → 8",
-      ],
-      medium: [
-        "Hva er 12 – 4? → 8",
-        "Hva kommer før 30? → 29",
-        "Hva er halvparten av 10? → 5",
-      ],
-      hard: [
-        "Hva er 8 + 7? → 15",
-        "Hva er det tredobbelte av 3? → 9",
-        "Hva er 100 – 37? → 63",
-      ],
-    },
-    variations: "Varier hvem som står i midten",
-    reflectionQuestions: "Hvordan kom du frem til svaret?",
-  };
+  // Show loading state if activityData is not yet loaded
+  if (!activityData) {
+    return (
+      <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-xl">Laster spilldata...</div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
 
   return (
     <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
@@ -72,15 +127,17 @@ function InfoTask() {
               <div className="flex items-center gap-2">
                 <span>📍</span>
                 <p>Inne / ute</p>
+                <span>{activityData.location}</span>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
                 <p>5 minutter</p>
+                <span>{activityData.duration}</span>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
                   <span>🛠️</span>
-                  <p>{activityData.tools[0]}</p>
+                  <span>{activityData.tools[0]}</span>
                 </div>
               ) : (
                 <div className="relative">
@@ -131,9 +188,9 @@ function InfoTask() {
                 <h1>{activityData.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
-                  <li>
-                    <p>{activityData.competencyGoals}</p>
-                  </li>
+                  {activityData.competencyGoals.map((goal, index) => (
+                    <li key={index}>{goal}</li>
+                  ))}
                 </ul>
               </div>
 
@@ -142,27 +199,46 @@ function InfoTask() {
                 <p>{activityData.description}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Oppgaver</h2>
-                <h3 className="font-bold">Enkel</h3>
-                <ul className="list-disc list-inside">
-                  {activityData.tasks.easy.map((task, index) => (
-                    <li key={index}>{task}</li>
-                  ))}
-                </ul>
+                <h2 className="font-bold mb-2">Oppgaver</h2>
+                
+                {activityData.tasks.easy.length > 0 && (
+                  <>
+                    <h3 className="font-bold">Enkel</h3>
+                    <ul className="list-disc list-inside mb-4">
+                      {activityData.tasks.easy.map((task, index) => (
+                        <li key={index}>{task}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
 
-                <h3>Middels</h3>
-                <ul className="list-disc list-inside">
-                  {activityData.tasks.medium.map((task, index) => (
-                    <li key={index}>{task}</li>
-                  ))}
-                </ul>
+                {activityData.tasks.medium.length > 0 && (
+                  <>
+                    <h3 className="font-bold">Middels</h3>
+                    <ul className="list-disc list-inside mb-4">
+                      {activityData.tasks.medium.map((task, index) => (
+                        <li key={index}>{task}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
 
-                <h3>Vanskelig</h3>
-                <ul className="list-disc list-inside">
-                  {activityData.tasks.hard.map((task, index) => (
-                    <li key={index}>{task}</li>
-                  ))}
-                </ul>
+                {activityData.tasks.hard.length > 0 && (
+                  <>
+                    <h3 className="font-bold">Vanskelig</h3>
+                    <ul className="list-disc list-inside">
+                      {activityData.tasks.hard.map((task, index) => (
+                        <li key={index}>{task}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+
+                {activityData.tasks.easy.length === 0 && 
+                 activityData.tasks.medium.length === 0 && 
+                 activityData.tasks.hard.length === 0 && (
+                  <p className="text-gray-500">Ingen oppgaver tilgjengelig for dette trinnet.</p>
+                )}
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Variasjoner</h2>
