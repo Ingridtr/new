@@ -86,19 +86,27 @@ function GameSelection() {
             )}
           </div>
           <h1>Velg aktivitet</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+            {games.map((game, index) => {
+              const handleGameClick = () => {
+                // Store the selected game in localStorage
+                localStorage.setItem("selectedGame", game.title);
+                localStorage.setItem("selectedGameImage", game.image);
+                navigate("/infoTask");
+              };
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
-            {games.map((game, index) => (
-              <GameCard
-                key={index}
-                title={game.title}
-                image={game.image}
-                time={game.time}
-                location={game.location}
-                equipment={game.equipment}
-                onClick={() => navigate("/infoTask")}
-              />
-            ))}
+              return (
+                <GameCard
+                  key={index}
+                  title={game.title}
+                  image={game.image}
+                  time={game.time}
+                  location={game.location}
+                  equipment={game.equipment}
+                  onClick={handleGameClick}
+                />
+              );
+            })}
           </div>
         </div>
       </div>

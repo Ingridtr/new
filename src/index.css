@@ -3,9 +3,27 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-3xl md:text-4xl mb-8 md:mb-12 font-bold text-center ;
+  @apply text-xl md:text-4xl mb-8 md:mb-12 font-bold text-center;
 }
 
 h2 {
-  @apply text-xl md:text-4xl mb-8 md:mb-12 font-bold text-center ;
+  @apply text-xl md:text-2xl mb-8 md:mb-12 font-semibold ;
+}
+
+h3 {
+  @apply text-lg font-bold mb-3;
+}
+
+
+
+header {
+  @apply mb-4 text-4xl font-bold leading-none tracking-tight text-black md:text-5xl lg:text-6xl;
+}
+
+p {
+  @apply text-xl text-black;
+}
+
+a {
+  @apply text-xl text-black ;
 }

@@ -20,7 +20,7 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
           style={{ width: "60vw" }}
           onClick={() => handleLearningGoalsClick(goal)}
         >
-          <h3 className="text-lg font-semibold">Kompetansemål {index + 1}</h3>
+          <h3 >Kompetansemål {index + 1}</h3>
           <p className="text-black">{goal}</p>
         </div>
       ))}

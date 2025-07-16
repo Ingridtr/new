@@ -20,7 +20,6 @@ function LearningGoalsSelection() {
 
       <div className="flex-1 overflow-auto">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          {/* Filter button */}
           <div className="mb-8">
             <FilterButton
               text={` ${selectedGrade}`}

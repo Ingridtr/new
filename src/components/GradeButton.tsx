@@ -53,7 +53,7 @@ function GradeButton() {
           onClick={() => handleGradeClick(grade)}
           className={`${bg} ${hover} text-black font-bold rounded-xl text-3xl text-center flex items-center justify-center transition-colors w-full max-w-[320px] min-w-[200px] h-[200px]`}
         >
-          <p>{label}</p>
+          <h2>{label}</h2>
         </button>
       ))}
     </div>
