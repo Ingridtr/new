@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
+import gamesData from "../data/games.json";
 
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
@@ -18,51 +19,6 @@ function GameSelection() {
   }, []);
 
   const navigate = useNavigate();
-
-  const games = [
-    {
-      title: "Mattesheriff",
-      image: "/sheriff.png",
-      time: "5 min",
-      location: "Inne/ute",
-      equipment: "Ingen",
-    },
-    {
-      title: "Påstandsveggene",
-      image: "/påstandsveggene.png",
-      time: "15 min",
-      location: "Inne (ute)",
-      equipment: "Ingen",
-    },
-    {
-      title: "Koordinatsystemet",
-      image: "/koordinatsystemet.png",
-      time: "45 min",
-      location: "Ute",
-      equipment: "Utstyrsliste",
-    },
-    {
-      title: "Mattesheriff",
-      image: "/sheriff.png",
-      time: "5 min",
-      location: "Inne/ute",
-      equipment: "Ingen",
-    },
-    {
-      title: "Påstandsveggene",
-      image: "/påstandsveggene.png",
-      time: "15 min",
-      location: "Inne (ute)",
-      equipment: "Ingen",
-    },
-    {
-      title: "Koordinatsystemet",
-      image: "/koordinatsystemet.png",
-      time: "45 min",
-      location: "Ute",
-      equipment: "Utstyrsliste",
-    },
-  ];
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
@@ -86,7 +42,7 @@ function GameSelection() {
             )}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
-            {games.map((game, index) => {
+            {gamesData.map((game, index) => {
               const handleGameClick = () => {
                 // Store the selected game in localStorage
                 localStorage.setItem("selectedGame", game.title);
