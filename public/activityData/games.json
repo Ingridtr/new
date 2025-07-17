@@ -1,0 +1,26 @@
+[
+  {
+    "id": "mattesheriff",
+    "title": "Mattesheriff",
+    "image": "/public/activityPictures/sheriff.png",
+    "time": "5 min",
+    "location": "Inne/ute",
+    "tools": "Ingen"
+  },
+  {
+    "id": "pastandsveggene",
+    "title": "Påstandsveggene",
+    "image": "/public/activityPictures/påstandsveggene.png",
+    "time": "15 min",
+    "location": "Inne",
+    "tools": "Ingen"
+  },
+  {
+    "id": "koordinatsystemet",
+    "title": "Koordinatsystemet",
+    "image": "/public/activityPictures/koordinatsystemet.png",
+    "time": "45 min",
+    "location": "Ute",
+    "tools": "Utstyrsliste"
+  }
+]

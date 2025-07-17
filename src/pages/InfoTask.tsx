@@ -6,8 +6,8 @@ import { useState, useEffect } from "react";
 import {
   getGameDescription,
   getTasksForGrade,
-} from "../data/gameDescriptionUtils";
-import { GameDescription } from "../data/types";
+} from "../../public/activityData/gameDescriptionUtils";
+import { GameDescription } from "../../public/activityData/types";
 
 function InfoTask() {
   const navigate = useNavigate();

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
-import gamesData from "../data/games.json";
+import gamesData from "../../public/activityData/games.json";
 
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
