@@ -7,8 +7,7 @@
     "image": "/public/activityPictures/sheriff.png",
     "tools": "Ingen",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Andre årstrinn, Femte årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -19,8 +18,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Fjerde årstrinn, Femte årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -31,8 +29,7 @@
     "image": "",
     "tools": "Ingen, men for mer avansert regning kan penn og papir være lurt",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Tredje årstrinn, Femte årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -43,8 +40,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn, Tredje årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -55,8 +51,7 @@
     "image": "/public/activityPictures/påstandsveggene.png",
     "tools": "Ingen",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -67,8 +62,7 @@
     "image": "",
     "tools": "Hale (tøystykke / snor)",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Fjerde årstrinn, Første årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -79,8 +73,7 @@
     "image": "",
     "tools": "En klokke",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Femte årstrinn, Tredje årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -91,8 +84,7 @@
     "image": "",
     "tools": "Stoppeklokke, målebånd etc",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Femte årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -103,8 +95,7 @@
     "image": "",
     "tools": "En frisbee, ertepose, etc",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -115,8 +106,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -127,8 +117,7 @@
     "image": "",
     "tools": "Kortstokk",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Femte årstrinn, Andre årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -139,8 +128,7 @@
     "image": "",
     "tools": "Kritt og tavle",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -151,8 +139,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn, Andre årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -163,8 +150,7 @@
     "image": "",
     "tools": "Penn, papir og terning",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn, Andre årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -175,8 +161,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -187,8 +172,7 @@
     "image": "",
     "tools": "Musikk og høyttaler",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -199,8 +183,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Tredje årstrinn, Første årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -211,8 +194,7 @@
     "image": "",
     "tools": "Kortstokk",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn, Andre årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -223,8 +205,7 @@
     "image": "",
     "tools": "Penn og papir",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Femte årstrinn, Tredje årstrinn, Første årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -235,8 +216,7 @@
     "image": "",
     "tools": "Penn og papir vs. et større, fysisk brett",
     "location": "",
-    "grade": "",
-    "learning_goal": "",
+    "grade": "Første årstrinn, Tredje årstrinn, Andre årstrinn",
     "number_of_tasks": 9
   }
 ]
