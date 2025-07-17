@@ -130,7 +130,7 @@ function InfoTask() {
           </button>
 
           <div className="flex flex-col lg:flex-row gap-8 max-w-5xl w-full mt-8 items-start">
-            <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
+            <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-48 text-left">
               <div className="flex items-center gap-2">
                 <span role="img" aria-label="Sted">📍</span>
                 <p>{activityData.location}</p>
