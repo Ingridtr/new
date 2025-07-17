@@ -12,7 +12,7 @@ function Knowledge() {
 
       <div className="flex-1">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          <h1>Kunnskapssiden</h1>
+          <h1 className="text-3xl font-bold mb-6">Kunnskapssiden</h1>
 
           {/* Main Content Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -20,11 +20,11 @@ function Knowledge() {
             <div className="space-y-8">
               {/* Helhetlig skoletilnærming section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2>
+                <h2 className="text-xl font-bold mb-4">
                   Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv
                   Læring
                 </h2>
-                <p>
+                <p className="mb-4">
                   Helhetlig skoletilnærming handler om å se hele eleven -
                   faglig, sosialt og emosjonelt- og skape et inkluderende
                   læringsmiljø som legger tilrette for utvikling og deltakelse
@@ -50,8 +50,8 @@ Den helhetlige tilnærmingen innebærer også tett samarbeid mellom lærere, spe
 
               {/* Pedagogisk rammeverk section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2>Pedagogisk rammeverk</h2>
-                <p>
+                <h2 className="text-xl font-bold mb-4">Pedagogisk rammeverk</h2>
+                <p className="mb-4">
                   Undervisningsopplegget er utviklet med utgangspunkt i
                   kompetansemålene i LK20 og bygger på den sosiokulturelle
                   læringsteorien, embodied learning og CAPADIE modellen. Målet
@@ -82,7 +82,7 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
             <div className="space-y-8">
               {/* Forskningsartikler section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2>Forskningsartikler</h2>
+                <h2 className="text-xl font-bold mb-4">Forskningsartikler</h2>
                 <ul className="space-y-4">
                   <li>
                     <a
@@ -120,7 +120,7 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
 
               {/* Samarbeidspartnere section */}
               <div className="bg-white rounded-3xl p-8">
-                <h2>Samarbeidspartnere</h2>
+                <h2 className="text-xl font-bold mb-4">Samarbeidspartnere</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                   {/* Team Members */}
                   <div className="text-center">

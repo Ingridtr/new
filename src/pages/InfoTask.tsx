@@ -122,8 +122,9 @@ function InfoTask() {
         <div className="flex flex-col items-center justify-start p-6 relative">
           {/* Lukkeknapp */}
           <button
-            className="absolute top-4 right-6 text-2xl font-bold"
+            className="absolute top-4 right-6 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             onClick={() => navigate(-1)}
+            aria-label="Lukk aktivitetsside og gå tilbake"
           >
             ×
           </button>
@@ -131,16 +132,16 @@ function InfoTask() {
           <div className="flex flex-col lg:flex-row gap-8 max-w-5xl w-full mt-8 items-start">
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
-                <span>📍</span>
+                <span role="img" aria-label="Sted">📍</span>
                 <p>{activityData.location}</p>
               </div>
               <div className="flex items-center gap-2">
-                <span>⏱️</span>
+                <span role="img" aria-label="Varighet">⏱️</span>
                 <p>{activityData.duration}</p>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
-                  <span>🛠️</span>
+                  <span role="img" aria-label="Utstyr">🛠️</span>
                   <p>{activityData.tools[0]}</p>
                 </div>
               ) : (
@@ -148,16 +149,20 @@ function InfoTask() {
                   <button
                     onClick={() => setShowToolsDropdown(!showToolsDropdown)}
                     className="flex items-center gap-2"
+                    aria-expanded={showToolsDropdown}
+                    aria-haspopup="true"
+                    aria-label="Vis utstyrsliste"
                   >
-                    <span>🛠️</span>
+                    <span role="img" aria-label="Utstyr">🛠️</span>
                     <p>Utstyrsliste</p>
                   </button>
                   {showToolsDropdown && (
-                    <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
+                    <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10" role="menu">
                       {activityData.tools.map((tool, index) => (
                         <li
                           key={index}
                           className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                          role="menuitem"
                         >
                           {tool}
                         </li>
@@ -180,8 +185,9 @@ function InfoTask() {
               <button
                 className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
                 onClick={handleShowOnScreen}
+                aria-label="Vis aktivitet på skjerm"
               >
-                <span>🖥️</span>
+                <span role="img" aria-label="Skjerm">🖥️</span>
                 <p>Vis på skjerm</p>
               </button>
             </div>

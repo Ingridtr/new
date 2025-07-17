@@ -105,15 +105,15 @@ function PrintComponent({
             <div class="info-section">
               <div class="info-grid">
                 <div class="info-item">
-                  <span>📍</span>
+                  <span role="img" aria-label="Sted">📍</span>
                   <span>${location}</span>
                 </div>
                 <div class="info-item">
-                  <span>⏱️</span>
+                  <span role="img" aria-label="Varighet">⏱️</span>
                   <span>${duration}</span>
                 </div>
                 <div class="info-item">
-                  <span>🛠️</span>
+                  <span role="img" aria-label="Utstyr">🛠️</span>
                   <span>${tools}</span>
                 </div>
               </div>
@@ -177,8 +177,9 @@ function PrintComponent({
     <button
       className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
       onClick={handlePrint}
+      aria-label="Print aktivitet"
     >
-      <span>🖨️</span>
+      <span role="img" aria-label="Printer">🖨️</span>
       <p>Print aktivitet</p>
     </button>
   );
