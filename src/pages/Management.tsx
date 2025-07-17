@@ -97,12 +97,12 @@ function Management() {
   };
 
   return (
-    <div className="bg-white-50 h-screen flex flex-col overflow-hidden">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
       
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          <h1>For ledelsen</h1>
+          <h1 className="text-3xl font-bold mb-6">For ledelsen</h1>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <InfoCard {...cardContent.whyKalkulek} />
