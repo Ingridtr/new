@@ -1,0 +1,254 @@
+{
+  "activityId": "mattesheriff",
+  "activityTitle": "Mattesheriff",
+  "totalTasks": 27,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Femte årstrinn",
+    "Fjerde årstrinn"
+  ],
+  "generatedAt": "2025-07-17T10:48:44.259Z",
+  "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 3 + 4?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 5 + 2?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 8 - 3?",
+          "answer": "5",
+          "type": "subtraction"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 6 + 1?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 9 - 4?",
+          "answer": "5",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 2 + 3?",
+          "answer": "5",
+          "type": "addition"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 12 + 8?",
+          "answer": "20",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 15 - 7?",
+          "answer": "8",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hva er 6 × 3?",
+          "answer": "18",
+          "type": "multiplication"
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 3 + 4?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 5 + 2?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 8 - 3?",
+          "answer": "5",
+          "type": "subtraction"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 12 + 8?",
+          "answer": "20",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 15 - 7?",
+          "answer": "8",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 6 × 3?",
+          "answer": "18",
+          "type": "multiplication"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 147 + 89?",
+          "answer": "236",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 204 - 78?",
+          "answer": "126",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 15 × 12?",
+          "answer": "180",
+          "type": "multiplication"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 3 + 4?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 5 + 2?",
+          "answer": "7",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 8 - 3?",
+          "answer": "5",
+          "type": "subtraction"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 12 + 8?",
+          "answer": "20",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 15 - 7?",
+          "answer": "8",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 6 × 3?",
+          "answer": "18",
+          "type": "multiplication"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 147 + 89?",
+          "answer": "236",
+          "type": "addition"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 204 - 78?",
+          "answer": "126",
+          "type": "subtraction"
+        },
+        {
+          "id": "mattesheriff_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er 15 × 12?",
+          "answer": "180",
+          "type": "multiplication"
+        }
+      ]
+    }
+  }
+}

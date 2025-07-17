@@ -1,0 +1,229 @@
+{
+  "activityId": "geometridans",
+  "activityTitle": "Geometridans",
+  "totalTasks": 27,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn"
+  ],
+  "generatedAt": "2025-07-17T10:48:44.272Z",
+  "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "geometridans_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hvor mange sider har en trekant?",
+          "answer": "3",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hvor mange hjørner har en firkant?",
+          "answer": "4",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "question": "Hva kalles en figur med fire like sider?",
+          "answer": "kvadrat",
+          "type": "shape_identification"
+        }
+      ],
+      "medium": [],
+      "hard": [
+        {
+          "id": "geometridans_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
+          "answer": "24",
+          "type": "area"
+        },
+        {
+          "id": "geometridans_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hvor mange grader er det i en sirkel?",
+          "answer": "360",
+          "type": "angles"
+        },
+        {
+          "id": "geometridans_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
+          "answer": "14",
+          "type": "perimeter"
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "easy": [
+        {
+          "id": "geometridans_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "question": "Hvor mange sider har en trekant?",
+          "answer": "3",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "question": "Hvor mange hjørner har en firkant?",
+          "answer": "4",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "question": "Hva kalles en figur med fire like sider?",
+          "answer": "kvadrat",
+          "type": "shape_identification"
+        }
+      ],
+      "medium": [
+        {
+          "id": "geometridans_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
+          "answer": "24",
+          "type": "area"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "question": "Hvor mange grader er det i en sirkel?",
+          "answer": "360",
+          "type": "angles"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
+          "answer": "14",
+          "type": "perimeter"
+        }
+      ],
+      "hard": [
+        {
+          "id": "geometridans_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
+          "answer": "24",
+          "type": "area"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "question": "Hvor mange grader er det i en rett vinkel?",
+          "answer": "90",
+          "type": "angles"
+        },
+        {
+          "id": "geometridans_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "question": "Hva er radiusen til en sirkel med diameter 14?",
+          "answer": "7",
+          "type": "circle_properties"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "geometridans_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hvor mange sider har en trekant?",
+          "answer": "3",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hvor mange hjørner har en firkant?",
+          "answer": "4",
+          "type": "shape_properties"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva kalles en figur med fire like sider?",
+          "answer": "kvadrat",
+          "type": "shape_identification"
+        }
+      ],
+      "medium": [
+        {
+          "id": "geometridans_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
+          "answer": "24",
+          "type": "area"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hvor mange grader er det i en sirkel?",
+          "answer": "360",
+          "type": "angles"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
+          "answer": "14",
+          "type": "perimeter"
+        }
+      ],
+      "hard": [
+        {
+          "id": "geometridans_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
+          "answer": "24",
+          "type": "area"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hvor mange grader er det i en rett vinkel?",
+          "answer": "90",
+          "type": "angles"
+        },
+        {
+          "id": "geometridans_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "question": "Hva er radiusen til en sirkel med diameter 14?",
+          "answer": "7",
+          "type": "circle_properties"
+        }
+      ]
+    }
+  }
+}
