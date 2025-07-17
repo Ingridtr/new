@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function Home() {
   return (
-    <div className="bg-white h-screen flex flex-col overflow-hidden">
+    <div className="flex flex-col min-h-screen bg-white">
       <Navbar />
 
       <main className="flex-1 flex items-center" role="main">

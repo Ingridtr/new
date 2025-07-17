@@ -104,7 +104,7 @@ function InfoTask() {
   // Show loading state if activityData is not yet loaded
   if (!activityData) {
     return (
-      <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
+      <div className="flex flex-col min-h-screen bg-yellow-50">
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-xl">Laster aktivitetsdata...</div>
@@ -115,10 +115,10 @@ function InfoTask() {
   }
 
   return (
-    <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
+    <div className="flex flex-col min-h-screen bg-yellow-50">
       <Navbar />
 
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1">
         <div className="flex flex-col items-center justify-start p-6 relative">
           {/* Lukkeknapp */}
           <button
