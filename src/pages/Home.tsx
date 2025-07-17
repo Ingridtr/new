@@ -27,7 +27,8 @@ function Home() {
                 <img
                   src="/bird.png"
                   alt="Bird"
-                  className="w-24 h-24 lg:w-32 lg:h-32"
+
+                  style={{width: "15vw"}}
                 />
                 <a
                   href="/Grade"
