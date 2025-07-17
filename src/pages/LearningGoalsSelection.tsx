@@ -26,8 +26,8 @@ function LearningGoalsSelection() {
               onClick={() => navigate("/Grade")}
             />
           </div>
+          <h1 className="text-3xl font-bold mb-6">Velg Kompetansemål</h1>
         </div>
-        <h1>Velg Kompetansemål</h1>
 
         {selectedGrade && <LearningGoals selectedGrade={selectedGrade} />}
       </div>
