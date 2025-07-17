@@ -1,5 +1,5 @@
 // Auto-generated TypeScript types for task files
-// Generated on: 2025-07-17T10:48:44.276Z
+// Generated on: 2025-07-17T11:29:23.322Z
 
 export interface Task {
   id: string;
@@ -8,6 +8,7 @@ export interface Task {
   answer: string;
   type: string;
   grade?: string; // Grade this task is designed for
+  learningGoal?: string; // Norwegian curriculum learning goal
 }
 
 export interface GradeTasks {
