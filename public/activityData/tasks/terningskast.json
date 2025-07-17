@@ -7,7 +7,7 @@
     "Første årstrinn",
     "Andre årstrinn"
   ],
-  "generatedAt": "2025-07-17T10:48:44.271Z",
+  "generatedAt": "2025-07-17T11:27:17.727Z",
   "grades": {
     "Første årstrinn": {
       "easy": [
@@ -15,6 +15,7 @@
           "id": "terningskast_første_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -23,6 +24,7 @@
           "id": "terningskast_første_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -31,6 +33,7 @@
           "id": "terningskast_første_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -41,6 +44,7 @@
           "id": "terningskast_første_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 + 1?",
           "answer": "7",
           "type": "addition"
@@ -49,6 +53,7 @@
           "id": "terningskast_første_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 9 - 4?",
           "answer": "5",
           "type": "subtraction"
@@ -57,6 +62,7 @@
           "id": "terningskast_første_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 2 + 3?",
           "answer": "5",
           "type": "addition"
@@ -67,6 +73,7 @@
           "id": "terningskast_første_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -75,6 +82,7 @@
           "id": "terningskast_første_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -83,6 +91,7 @@
           "id": "terningskast_første_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"
@@ -95,6 +104,7 @@
           "id": "terningskast_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -103,6 +113,7 @@
           "id": "terningskast_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -111,6 +122,7 @@
           "id": "terningskast_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -121,6 +133,7 @@
           "id": "terningskast_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 6 + 1?",
           "answer": "7",
           "type": "addition"
@@ -129,6 +142,7 @@
           "id": "terningskast_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 9 - 4?",
           "answer": "5",
           "type": "subtraction"
@@ -137,6 +151,7 @@
           "id": "terningskast_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 2 + 3?",
           "answer": "5",
           "type": "addition"
@@ -147,6 +162,7 @@
           "id": "terningskast_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -155,6 +171,7 @@
           "id": "terningskast_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -163,6 +180,7 @@
           "id": "terningskast_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"

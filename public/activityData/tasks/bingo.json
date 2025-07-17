@@ -6,7 +6,7 @@
   "supportedGrades": [
     "Fjerde årstrinn"
   ],
-  "generatedAt": "2025-07-17T10:48:44.270Z",
+  "generatedAt": "2025-07-17T11:27:17.722Z",
   "grades": {
     "Fjerde årstrinn": {
       "easy": [
@@ -14,6 +14,7 @@
           "id": "bingo_fjerde_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -22,6 +23,7 @@
           "id": "bingo_fjerde_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -30,6 +32,7 @@
           "id": "bingo_fjerde_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -40,6 +43,7 @@
           "id": "bingo_fjerde_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -48,6 +52,7 @@
           "id": "bingo_fjerde_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -56,6 +61,7 @@
           "id": "bingo_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"
@@ -66,6 +72,7 @@
           "id": "bingo_fjerde_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 147 + 89?",
           "answer": "236",
           "type": "addition"
@@ -74,6 +81,7 @@
           "id": "bingo_fjerde_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 204 - 78?",
           "answer": "126",
           "type": "subtraction"
@@ -82,6 +90,7 @@
           "id": "bingo_fjerde_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
           "question": "Hva er 15 × 12?",
           "answer": "180",
           "type": "multiplication"

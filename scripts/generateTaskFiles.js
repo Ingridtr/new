@@ -3,6 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fetch from 'node-fetch';
 
 // Get current directory in ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -11,6 +12,55 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const ACTIVITIES_FILE = path.join(__dirname, '../public/activityData/activities.json');
 const TASKS_OUTPUT_DIR = path.join(__dirname, '../public/activityData/tasks');
+
+// Grade to API URL mappings - based on the kompetansemaalsett structure
+const GRADE_API_MAPPINGS = {
+    'Andre årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV20',
+    'Tredje årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV22',
+    'Fjerde årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV18',
+    'Femte årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV19',
+    'Sjette årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV21',
+    'Syende årstrinn': 'https://data.udir.no/kl06/v201906/kompetansemaalsett-lk20/KV17'
+};
+
+// Cache for learning goals to avoid repeated API calls
+const learningGoalsCache = {};
+
+// Fetch learning goals for a specific grade
+async function fetchLearningGoalsForGrade(gradeName) {
+    if (learningGoalsCache[gradeName]) {
+        return learningGoalsCache[gradeName];
+    }
+    
+    const apiUrl = GRADE_API_MAPPINGS[gradeName];
+    if (!apiUrl) {
+        console.warn(`No API URL found for grade: ${gradeName}`);
+        return [];
+    }
+    
+    try {
+        console.log(`Fetching learning goals for ${gradeName}...`);
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        
+        const learningGoals = data.kompetansemaal || [];
+        const goalTitles = learningGoals.map(goal => goal.tittel);
+        
+        learningGoalsCache[gradeName] = goalTitles;
+        return goalTitles;
+    } catch (error) {
+        console.error(`Error fetching learning goals for ${gradeName}:`, error);
+        return [];
+    }
+}
+
+// Select a random learning goal for a grade
+function selectRandomLearningGoal(learningGoals) {
+    if (!learningGoals || learningGoals.length === 0) {
+        return "Generell matematisk kompetanse";
+    }
+    return learningGoals[Math.floor(Math.random() * learningGoals.length)];
+}
 
 // Ensure tasks directory exists
 if (!fs.existsSync(TASKS_OUTPUT_DIR)) {
@@ -133,9 +183,13 @@ function getGradeDifficultyMultiplier(gradeName) {
 }
 
 // Function to adjust task difficulty based on grade
-function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
+async function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
     const difficultyLevel = getGradeDifficultyMultiplier(gradeName);
     const taskPool = taskGenerators[taskType];
+    
+    // Fetch learning goals for this grade
+    const learningGoals = await fetchLearningGoalsForGrade(gradeName);
+    const learningGoal = selectRandomLearningGoal(learningGoals);
     
     // Create grade-appropriate tasks based on difficulty level
     if (difficultyLevel <= 2) {
@@ -145,18 +199,21 @@ function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_easy_${index + 1}`,
                 difficulty: 'easy',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             medium: taskPool.easy.slice(3, 6).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_medium_${index + 1}`,
                 difficulty: 'medium',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             hard: taskPool.medium.slice(0, 3).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_hard_${index + 1}`,
                 difficulty: 'hard',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             }))
         };
@@ -167,18 +224,21 @@ function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_easy_${index + 1}`,
                 difficulty: 'easy',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             medium: taskPool.medium.slice(0, 3).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_medium_${index + 1}`,
                 difficulty: 'medium',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             hard: taskPool.hard.slice(0, 3).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_hard_${index + 1}`,
                 difficulty: 'hard',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             }))
         };
@@ -189,18 +249,21 @@ function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_easy_${index + 1}`,
                 difficulty: 'easy',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             medium: taskPool.hard.slice(0, 3).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_medium_${index + 1}`,
                 difficulty: 'medium',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             })),
             hard: taskPool.hard.slice(3, 6).map((task, index) => ({
                 id: `${tasks.activityId}_${gradeName.replace(/\s+/g, '_').toLowerCase()}_hard_${index + 1}`,
                 difficulty: 'hard',
                 grade: gradeName,
+                learningGoal: learningGoal,
                 ...task
             }))
         };
@@ -208,7 +271,7 @@ function adjustTaskDifficultyForGrade(tasks, gradeName, taskType) {
 }
 
 // Function to generate tasks for an activity with grade support
-function generateTasks(activity) {
+async function generateTasks(activity) {
     const taskType = getTaskType(activity);
     const grades = parseGrades(activity.grade);
     const tasksPerGrade = activity.number_of_tasks;
@@ -217,11 +280,11 @@ function generateTasks(activity) {
     if (activity.number_of_tasks === 9) {
         const gradeResults = {};
         
-        grades.forEach(gradeName => {
-            gradeResults[gradeName] = adjustTaskDifficultyForGrade({
+        for (const gradeName of grades) {
+            gradeResults[gradeName] = await adjustTaskDifficultyForGrade({
                 activityId: activity.id
             }, gradeName, taskType);
-        });
+        }
         
         return {
             totalTasks: activity.number_of_tasks * grades.length,
@@ -234,17 +297,21 @@ function generateTasks(activity) {
         const taskPool = taskGenerators[taskType];
         const allTasks = [...taskPool.easy, ...taskPool.medium, ...taskPool.hard];
         
-        grades.forEach(gradeName => {
+        for (const gradeName of grades) {
+            const learningGoals = await fetchLearningGoalsForGrade(gradeName);
+            const learningGoal = selectRandomLearningGoal(learningGoals);
+            
             gradeResults[gradeName] = {
                 tasks: allTasks.slice(0, activity.number_of_tasks).map((task, index) => ({
                     id: `${activity.id}_${gradeName.replace(' ', '_').toLowerCase()}_task_${index + 1}`,
                     difficulty: index < activity.number_of_tasks / 3 ? 'easy' : 
                                index < (activity.number_of_tasks * 2) / 3 ? 'medium' : 'hard',
                     grade: gradeName,
+                    learningGoal: learningGoal,
                     ...task
                 }))
             };
-        });
+        }
         
         return {
             totalTasks: activity.number_of_tasks * grades.length,
@@ -255,7 +322,7 @@ function generateTasks(activity) {
 }
 
 // Main function
-function generateTaskFiles(specificActivityId = null) {
+async function generateTaskFiles(specificActivityId = null) {
     try {
         // Read activities file
         const activitiesData = JSON.parse(fs.readFileSync(ACTIVITIES_FILE, 'utf8'));
@@ -271,7 +338,7 @@ function generateTaskFiles(specificActivityId = null) {
             
             // Only process activities with tasks
             if (activity.number_of_tasks > 0) {
-                const tasks = generateTasks(activity);
+                const tasks = await generateTasks(activity);
                 const taskFileName = `${activity.id}.json`;
                 const taskFilePath = path.join(TASKS_OUTPUT_DIR, taskFileName);
                 
@@ -327,6 +394,7 @@ export interface Task {
   answer: string;
   type: string;
   grade?: string; // Grade this task is designed for
+  learningGoal?: string; // Norwegian curriculum learning goal
 }
 
 export interface GradeTasks {
@@ -391,4 +459,7 @@ Examples:
 }
 
 // Run the script
-generateTaskFiles(specificActivityId);
+generateTaskFiles(specificActivityId).catch(error => {
+    console.error('❌ Script execution failed:', error);
+    process.exit(1);
+});
