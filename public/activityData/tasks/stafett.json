@@ -8,7 +8,7 @@
     "Tredje årstrinn",
     "Første årstrinn"
   ],
-  "generatedAt": "2025-07-17T10:48:44.275Z",
+  "generatedAt": "2025-07-17T11:28:53.119Z",
   "grades": {
     "Femte årstrinn": {
       "easy": [
@@ -16,6 +16,7 @@
           "id": "stafett_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -24,6 +25,7 @@
           "id": "stafett_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -32,6 +34,7 @@
           "id": "stafett_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -42,6 +45,7 @@
           "id": "stafett_femte_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -50,6 +54,7 @@
           "id": "stafett_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -58,6 +63,7 @@
           "id": "stafett_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"
@@ -68,6 +74,7 @@
           "id": "stafett_femte_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 147 + 89?",
           "answer": "236",
           "type": "addition"
@@ -76,6 +83,7 @@
           "id": "stafett_femte_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 204 - 78?",
           "answer": "126",
           "type": "subtraction"
@@ -84,6 +92,7 @@
           "id": "stafett_femte_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
           "question": "Hva er 15 × 12?",
           "answer": "180",
           "type": "multiplication"
@@ -96,6 +105,7 @@
           "id": "stafett_tredje_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -104,6 +114,7 @@
           "id": "stafett_tredje_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -112,6 +123,7 @@
           "id": "stafett_tredje_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -122,6 +134,7 @@
           "id": "stafett_tredje_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -130,6 +143,7 @@
           "id": "stafett_tredje_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -138,6 +152,7 @@
           "id": "stafett_tredje_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"
@@ -148,6 +163,7 @@
           "id": "stafett_tredje_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 147 + 89?",
           "answer": "236",
           "type": "addition"
@@ -156,6 +172,7 @@
           "id": "stafett_tredje_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 204 - 78?",
           "answer": "126",
           "type": "subtraction"
@@ -164,6 +181,7 @@
           "id": "stafett_tredje_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 15 × 12?",
           "answer": "180",
           "type": "multiplication"
@@ -176,6 +194,7 @@
           "id": "stafett_første_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 3 + 4?",
           "answer": "7",
           "type": "addition"
@@ -184,6 +203,7 @@
           "id": "stafett_første_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 5 + 2?",
           "answer": "7",
           "type": "addition"
@@ -192,6 +212,7 @@
           "id": "stafett_første_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 8 - 3?",
           "answer": "5",
           "type": "subtraction"
@@ -202,6 +223,7 @@
           "id": "stafett_første_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 + 1?",
           "answer": "7",
           "type": "addition"
@@ -210,6 +232,7 @@
           "id": "stafett_første_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 9 - 4?",
           "answer": "5",
           "type": "subtraction"
@@ -218,6 +241,7 @@
           "id": "stafett_første_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 2 + 3?",
           "answer": "5",
           "type": "addition"
@@ -228,6 +252,7 @@
           "id": "stafett_første_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 12 + 8?",
           "answer": "20",
           "type": "addition"
@@ -236,6 +261,7 @@
           "id": "stafett_første_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 15 - 7?",
           "answer": "8",
           "type": "subtraction"
@@ -244,6 +270,7 @@
           "id": "stafett_første_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Første årstrinn",
+          "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 × 3?",
           "answer": "18",
           "type": "multiplication"
