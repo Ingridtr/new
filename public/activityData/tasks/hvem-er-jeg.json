@@ -55,38 +55,4 @@
         {
           "id": "hvem-er-jeg_første_årstrinn_medium_3",
           "difficulty": "medium",
-          "grade": "Første årstrinn",
-          "question": "Hva er 2 + 3?",
-          "answer": "5",
-          "type": "addition"
-        }
-      ],
-      "hard": [
-        {
-          "id": "hvem-er-jeg_første_årstrinn_hard_1",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
-        },
-        {
-          "id": "hvem-er-jeg_første_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
-        },
-        {
-          "id": "hvem-er-jeg_første_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
-        }
-      ]
-    }
-  }
-}
+          "grade": "Før

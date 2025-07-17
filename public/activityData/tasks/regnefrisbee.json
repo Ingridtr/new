@@ -55,38 +55,4 @@
         {
           "id": "regnefrisbee_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
-          "grade": "Fjerde årstrinn",
-          "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
-        }
-      ],
-      "hard": [
-        {
-          "id": "regnefrisbee_fjerde_årstrinn_hard_1",
-          "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "question": "Hva er 147 + 89?",
-          "answer": "236",
-          "type": "addition"
-        },
-        {
-          "id": "regnefrisbee_fjerde_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "question": "Hva er 204 - 78?",
-          "answer": "126",
-          "type": "subtraction"
-        },
-        {
-          "id": "regnefrisbee_fjerde_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "question": "Hva er 15 × 12?",
-          "answer": "180",
-          "type": "multiplication"
-        }
-      ]
-    }
-  }
-}
+          "grade": "Fjerde årstrinn"
