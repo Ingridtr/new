@@ -57,4 +57,36 @@
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "question": "Hva er 6 × 3?",
-        
+          "answer": "18",
+          "type": "multiplication"
+        }
+      ],
+      "hard": [
+        {
+          "id": "problemlosning-hverdagen_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 147 + 89?",
+          "answer": "236",
+          "type": "addition"
+        },
+        {
+          "id": "problemlosning-hverdagen_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 204 - 78?",
+          "answer": "126",
+          "type": "subtraction"
+        },
+        {
+          "id": "problemlosning-hverdagen_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "question": "Hva er 15 × 12?",
+          "answer": "180",
+          "type": "multiplication"
+        }
+      ]
+    }
+  }
+}
