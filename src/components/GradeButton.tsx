@@ -66,7 +66,7 @@ function GradeButton() {
         <button
           key={grade}
           onClick={() => handleGradeClick(grade, label)}
-          className={`${bg} ${hover} ${focus} text-black font-bold rounded-xl text-3xl text-center flex items-center justify-center transition-colors w-full max-w-[320px] min-w-[200px] h-[200px] focus:outline-none focus:ring-2 focus:ring-offset-2`}
+          className={`${bg} ${hover} ${focus} text-black font-bold rounded-xl text-3xl text-center flex items-center justify-center transition-colors w-full max-w-80 min-w-48 h-48 focus:outline-none focus:ring-2 focus:ring-offset-2`}
           aria-label={`Velg ${label} for matematikkaktiviteter`}
           type="button"
         >

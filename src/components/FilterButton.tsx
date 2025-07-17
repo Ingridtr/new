@@ -13,7 +13,7 @@ function FilterButton({ text, onClick, ariaLabel }: FilterButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="flex items-center justify-between border border-black rounded-full px-4 py-2 text-black cursor-pointer min-w-[120px] min-h-[40px] text-sm sm:text-base hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      className="flex items-center justify-between border border-black rounded-full px-4 py-2 text-black cursor-pointer min-w-28 min-h-10 text-sm sm:text-base hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
       aria-label={buttonAriaLabel}
       type="button"
     >

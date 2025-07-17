@@ -27,11 +27,11 @@ function Home() {
                 <img
                   src="/bird.png"
                   alt="Illustrasjon av fugl som representerer læring gjennom bevegelse"
-                  style={{width: "15vw"}}
+                  className="w-24 h-auto md:w-32 lg:w-40 max-w-xs"
                 />
                 <a
                   href="/Grade"
-                  className="inline-flex items-center justify-center bg-sky-200 hover:bg-sky-300 focus:bg-sky-300 font-bold rounded-xl px-6 py-3 transition-colors min-w-[180px] min-h-[60px] text-black focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+                  className="inline-flex items-center justify-center bg-sky-200 hover:bg-sky-300 focus:bg-sky-300 font-bold rounded-xl px-6 py-3 transition-colors min-w-44 min-h-14 text-black focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
                   aria-label="Start med å velge trinn for matematikkaktiviteter"
                 >
                   Hopp i gang!

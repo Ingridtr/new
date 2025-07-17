@@ -49,8 +49,7 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
         {goals.map((goal, index) => (
           <button
             key={index}
-            className="w-full bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md focus:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all cursor-pointer text-left mb-4"
-            style={{ maxWidth: "60vw", minWidth: "300px" }}
+            className="w-full max-w-4xl min-w-0 bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md focus:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all cursor-pointer text-left mb-4"
             onClick={() => handleLearningGoalsClick(goal, index)}
             onKeyDown={(e) => handleKeyPress(e, goal, index)}
             aria-label={`Velg kompetansemål ${index + 1}: ${goal}`}

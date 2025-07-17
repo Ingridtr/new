@@ -56,13 +56,7 @@ const Navbar: React.FC = () => {
             <img
               src="/logo.png"
               alt="Kalkulek Logo"
-              className="cursor-pointer"
-              style={{
-                width: "4vw",
-                minWidth: "60px",
-                height: "4vw",
-                minHeight: "60px",
-              }}
+              className="cursor-pointer w-16 h-16 min-w-12 min-h-12 lg:w-20 lg:h-20"
             />
           </button>
           <button
