@@ -1,5 +1,5 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -12,32 +12,56 @@ function About() {
             <div className="max-w-2xl">
               <h1 className="text-4xl font-bold mb-8">Om Kalkulek</h1>
               <p className="text-lg mb-4">
-                Kalkulek er en nettbasert løsning som tilbyr varierte og engasjerende
-                undervisningsopplegg for lærere på 1.-7. trinn, med mål om å
-                integrere fysisk aktiv læring (FAL) i matematikkundervisningen.
+                Kalkulek er en nettbasert løsning som tilbyr varierte og
+                engasjerende undervisningsopplegg for lærere på 1.-7. trinn, med
+                mål om å integrere fysisk aktiv læring (FAL) i
+                matematikkundervisningen.
               </p>
               <p className="text-lg mb-4">
-                Oppleggene er utviklet med et solid pedagogisk grunnlag og er tett
-                knyttet til kompetansemålene i LK20. Målet er å støtte elevenes
-                faglige utvikling, styrke læringsmiljøet, og øke motivasjonen for
-                matematikk - gjennom bevegelse og praktisk deltakelse.
+                Oppleggene er utviklet med et solid pedagogisk grunnlag og er
+                tett knyttet til kompetansemålene i LK20. Målet er å støtte
+                elevenes faglige utvikling, styrke læringsmiljøet, og øke
+                motivasjonen for matematikk - gjennom bevegelse og praktisk
+                deltakelse.
               </p>
               <p className="text-lg mb-4">
-                Forskning viser at i hver klasse er det i snitt tre elever som ikke
-                mestrer grunnleggende regnearter som addisjon og subtraksjon. I
-                tillegg har en betydelig andel elever utfordringer knyttet til
-                matematikkvansker og ADHD. Studier peker på at fysisk aktiv læring
-                bidrar til bedre faglig forståelse og inkluderer flere elever enn
-                tradisjonelle undervisningsformer.
+                Forskning viser at i hver klasse er det i snitt tre elever som
+                ikke mestrer grunnleggende regnearter som addisjon og
+                subtraksjon. I tillegg har en betydelig andel elever
+                utfordringer knyttet til matematikkvansker og ADHD. Studier
+                peker på at fysisk aktiv læring bidrar til bedre faglig
+                forståelse og inkluderer flere elever enn tradisjonelle
+                undervisningsformer.
               </p>
             </div>
 
             <div className="mt-8 lg:mt-24 lg:ml-8">
-              <p className="text-sm mb-4">Laget i samarbeid av:</p>
+              <p>Laget i samarbeid av:</p>
               <div className="flex items-center space-x-2">
-                <img src="/Ludenso_logo.png" alt="Ludenso Logo" className="h-8" />
-                <span className="text-lg">&</span>
-                <img src="/udir_logo.png" alt="Udir Logo" className="h-8" />
+                <a
+                  href="https://udir.no"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/udir_logo.png"
+                    alt="Udir Logo"
+                    className="h-10 w-auto"
+                  />
+                </a>
+                <p>&</p>
+                <a
+                  href="https://ludenso.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/Ludenso_logo.png"
+                    alt="Ludenso Logo"
+                    className="h-10 w-auto"
+                  />
+                </a>
+                
               </div>
             </div>
           </div>

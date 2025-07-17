@@ -85,20 +85,32 @@ Dette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av ut
                 <h2>Forskningsartikler</h2>
                 <ul className="space-y-4">
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a
+                      target="_blank"
+                      href="https://www.tandfonline.com/doi/full/10.1080/00313831.2025.2459905?af=R"
+                      className="text-blue-600 hover:underline"
+                    >
                       Beyond borders: developing the core aspects of physically
                       active learning enactment (CAPABLE) model in the third
                       space
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a
+                      target="_blank"
+                      href="https://ijbnpa.biomedcentral.com/articles/10.1186/s12966-023-01503-4"
+                      className="text-blue-600 hover:underline"
+                    >
                       Reframing physically active learning as movement-centred
                       pedagogy: a European priority action framework
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a
+                      target="_blank"
+                      href="https://www.tandfonline.com/doi/full/10.1080/20020317.2019.1710949#abstract"
+                      className="text-blue-600 hover:underline"
+                    >
                       Embodying education - a bildung theoretical approach to
                       movement integration
                     </a>
