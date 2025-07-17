@@ -3,14 +3,20 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { getGameDescription, getTasksForGrade } from "../data/gameDescriptionUtils";
+import {
+  getGameDescription,
+  getTasksForGrade,
+} from "../data/gameDescriptionUtils";
 import { GameDescription } from "../data/types";
 
 function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
-  const [currentGameImage, setCurrentGameImage] = useState<string>("/sheriff.png");
-  const [activityData, setActivityData] = useState<GameDescription | null>(null);
+  const [currentGameImage, setCurrentGameImage] =
+    useState<string>("/sheriff.png");
+  const [activityData, setActivityData] = useState<GameDescription | null>(
+    null
+  );
   const [currentGrade, setCurrentGrade] = useState<string>("1-2");
 
   useEffect(() => {
@@ -24,53 +30,53 @@ function InfoTask() {
     const storedGameId = localStorage.getItem("selectedGameId");
     const storedGameTitle = localStorage.getItem("selectedGame");
     const storedGrade = localStorage.getItem("selectedGrade");
-    
+
     if (storedGrade) {
       // Map old grade format to new format if needed
       const gradeMap: { [key: string]: string } = {
         "Andre årstrinn": "1-2",
-        "Tredje årstrinn": "3", 
+        "Tredje årstrinn": "3",
         "Fjerde årstrinn": "4",
         "Femte årstrinn": "5",
         "Sjette årstrinn": "6",
-        "Syvende årstrinn": "7"
+        "Syvende årstrinn": "7",
       };
-      
+
       const mappedGrade = gradeMap[storedGrade] || storedGrade;
       setCurrentGrade(mappedGrade);
     }
 
     // Use the stored game ID if available, otherwise fall back to title mapping
     let gameId = storedGameId;
-    
+
     if (!gameId && storedGameTitle) {
       // Fallback: Map game titles to IDs for backward compatibility
       const gameIdMap: { [title: string]: string } = {
-        "Mattesheriff": "mattesheriff",
-        "Påstandsveggene": "pastandsveggene", 
-        "Koordinatsystemet": "koordinatsystemet",
-        "Tallsafari": "tallsafari"
+        Mattesheriff: "mattesheriff",
+        Påstandsveggene: "pastandsveggene",
+        Koordinatsystemet: "koordinatsystemet",
+        Tallsafari: "tallsafari",
       };
       gameId = gameIdMap[storedGameTitle];
     }
 
     if (gameId) {
       const gameData = getGameDescription(gameId);
-      
+
       if (gameData) {
         // Get all tasks (no longer filtered by grade)
         const tasksForGrade = getTasksForGrade(gameId);
-        
+
         // Create a modified game data with all tasks
         const modifiedGameData = {
           ...gameData,
           tasks: {
             easy: tasksForGrade.easy || [],
             medium: tasksForGrade.medium || [],
-            hard: tasksForGrade.hard || []
-          }
+            hard: tasksForGrade.hard || [],
+          },
         };
-        
+
         setActivityData(modifiedGameData);
       }
     } else {
@@ -83,8 +89,8 @@ function InfoTask() {
           tasks: {
             easy: tasksForGrade.easy || [],
             medium: tasksForGrade.medium || [],
-            hard: tasksForGrade.hard || []
-          }
+            hard: tasksForGrade.hard || [],
+          },
         };
         setActivityData(modifiedGameData);
       }
@@ -101,7 +107,7 @@ function InfoTask() {
       <div className="bg-yellow-50 h-screen flex flex-col overflow-hidden">
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
-          <div className="text-xl">Laster spilldata...</div>
+          <div className="text-xl">Laster aktivitetsdata...</div>
         </div>
         <Footer />
       </div>
@@ -126,18 +132,16 @@ function InfoTask() {
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-[200px] text-left">
               <div className="flex items-center gap-2">
                 <span>📍</span>
-                <p>Inne / ute</p>
-                <span>{activityData.location}</span>
+                <p>{activityData.location}</p>
               </div>
               <div className="flex items-center gap-2">
                 <span>⏱️</span>
-                <p>5 minutter</p>
-                <span>{activityData.duration}</span>
+                <p>{activityData.duration}</p>
               </div>
               {activityData.tools.length <= 1 ? (
                 <div className="flex items-center gap-2">
                   <span>🛠️</span>
-                  <span>{activityData.tools[0]}</span>
+                  <p>{activityData.tools[0]}</p>
                 </div>
               ) : (
                 <div className="relative">
@@ -199,11 +203,11 @@ function InfoTask() {
                 <p>{activityData.description}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2 className="font-bold mb-2">Oppgaver</h2>
-                
+                <h2>Oppgaver</h2>
+
                 {activityData.tasks.easy.length > 0 && (
                   <>
-                    <h3 className="font-bold">Enkel</h3>
+                    <h3>Enkel</h3>
                     <ul className="list-disc list-inside mb-4">
                       {activityData.tasks.easy.map((task, index) => (
                         <li key={index}>{task}</li>
@@ -214,7 +218,7 @@ function InfoTask() {
 
                 {activityData.tasks.medium.length > 0 && (
                   <>
-                    <h3 className="font-bold">Middels</h3>
+                    <h3>Middels</h3>
                     <ul className="list-disc list-inside mb-4">
                       {activityData.tasks.medium.map((task, index) => (
                         <li key={index}>{task}</li>
@@ -225,7 +229,7 @@ function InfoTask() {
 
                 {activityData.tasks.hard.length > 0 && (
                   <>
-                    <h3 className="font-bold">Vanskelig</h3>
+                    <h3>Vanskelig</h3>
                     <ul className="list-disc list-inside">
                       {activityData.tasks.hard.map((task, index) => (
                         <li key={index}>{task}</li>
@@ -234,11 +238,11 @@ function InfoTask() {
                   </>
                 )}
 
-                {activityData.tasks.easy.length === 0 && 
-                 activityData.tasks.medium.length === 0 && 
-                 activityData.tasks.hard.length === 0 && (
-                  <p className="text-gray-500">Ingen oppgaver tilgjengelig for dette trinnet.</p>
-                )}
+                {activityData.tasks.easy.length === 0 &&
+                  activityData.tasks.medium.length === 0 &&
+                  activityData.tasks.hard.length === 0 && (
+                    <p>Ingen oppgaver tilgjengelig for dette trinnet.</p>
+                  )}
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Variasjoner</h2>
