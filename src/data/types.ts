@@ -30,7 +30,7 @@ export interface Game {
   image: string;
   time: string;
   location: string;
-  equipment: string;
+  tools: string;
 }
 
 export interface GamesDatabase {

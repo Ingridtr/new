@@ -59,7 +59,7 @@ function GameSelection() {
                   image={game.image}
                   time={game.time}
                   location={game.location}
-                  equipment={game.equipment}
+                  tools={game.tools}
                   onClick={handleGameClick}
                 />
               );
