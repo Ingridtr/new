@@ -38,56 +38,56 @@ function PrintComponent({
           <style>
             body {
               font-family: Arial, sans-serif;
-              margin: 20px;
+              margin: 1.25rem;
               line-height: 1.4;
             }
             .print-container {
-              max-width: 800px;
+              max-width: 50rem;
               margin: 0 auto;
             }
             .info-section {
               background: #f8f9fa;
-              padding: 15px;
-              margin-bottom: 20px;
+              padding: 0.9375rem;
+              margin-bottom: 1.25rem;
             }
             .main-content {
               background: white;
-              padding: 20px;
-              margin-bottom: 20px;
+              padding: 1.25rem;
+              margin-bottom: 1.25rem;
             }
             h1 {
               text-align: center;
-              font-size: 28px;
-              margin-bottom: 20px;
+              font-size: 1.75rem;
+              margin-bottom: 1.25rem;
             }
             h2 {
-              font-size: 18px;
+              font-size: 1.125rem;
               font-weight: bold;
-              margin-bottom: 10px;
+              margin-bottom: 0.625rem;
             }
             h3 {
-              font-size: 16px;
+              font-size: 1rem;
               font-weight: bold;
-              margin-top: 15px;
-              margin-bottom: 8px;
+              margin-top: 0.9375rem;
+              margin-bottom: 0.5rem;
             }
             .info-grid {
               display: grid;
               grid-template-columns: repeat(2, 1fr);
-              gap: 10px;
-              margin-bottom: 20px;
+              gap: 0.625rem;
+              margin-bottom: 1.25rem;
             }
             .info-item {
               display: flex;
               align-items: center;
-              gap: 8px;
+              gap: 0.5rem;
             }
             ul {
-              margin: 10px 0;
-              padding-left: 20px;
+              margin: 0.625rem 0;
+              padding-left: 1.25rem;
             }
             li {
-              margin-bottom: 5px;
+              margin-bottom: 0.3125rem;
             }
             .page-break {
               page-break-before: always;
@@ -105,15 +105,15 @@ function PrintComponent({
             <div class="info-section">
               <div class="info-grid">
                 <div class="info-item">
-                  <span>📍</span>
+                  <span role="img" aria-label="Sted">📍</span>
                   <span>${location}</span>
                 </div>
                 <div class="info-item">
-                  <span>⏱️</span>
+                  <span role="img" aria-label="Varighet">⏱️</span>
                   <span>${duration}</span>
                 </div>
                 <div class="info-item">
-                  <span>🛠️</span>
+                  <span role="img" aria-label="Utstyr">🛠️</span>
                   <span>${tools}</span>
                 </div>
               </div>
@@ -177,8 +177,9 @@ function PrintComponent({
     <button
       className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
       onClick={handlePrint}
+      aria-label="Print aktivitet"
     >
-      <span>🖨️</span>
+      <span role="img" aria-label="Printer">🖨️</span>
       <p>Print aktivitet</p>
     </button>
   );

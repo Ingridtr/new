@@ -15,10 +15,10 @@ function LearningGoalsSelection() {
   }, []);
 
   return (
-    <div className="bg-white-50 h-screen flex flex-col overflow-hidden">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
 
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
             <FilterButton
@@ -26,8 +26,8 @@ function LearningGoalsSelection() {
               onClick={() => navigate("/Grade")}
             />
           </div>
+          <h1 className="text-3xl font-bold mb-6">Velg Kompetansemål</h1>
         </div>
-        <h1>Velg Kompetansemål</h1>
 
         {selectedGrade && <LearningGoals selectedGrade={selectedGrade} />}
       </div>

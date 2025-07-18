@@ -15,8 +15,8 @@ function InfoCard({
 }: InfoCardProps) {
   return (
     <div className="border rounded-3xl p-8 bg-white">
-      <h2>{title}</h2>
-      <p>{description}</p>
+      <h2 className="text-xl font-bold mb-4">{title}</h2>
+      <p className="mb-4">{description}</p>
       {bulletPoints && (
         <ul className="list-disc list-inside mb-4">
           {bulletPoints.map((point, index) => (

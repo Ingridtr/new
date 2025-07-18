@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
@@ -6,64 +6,126 @@ import { useNavigate } from "react-router-dom";
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const mobileMenuRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && menuOpen) {
+        setMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+
+    const handleClickOutside = (e: MouseEvent) => {
+      if (mobileMenuRef.current && !mobileMenuRef.current.contains(e.target as Node) && 
+          !menuButtonRef.current?.contains(e.target as Node)) {
+        setMenuOpen(false);
+      }
+    };
+
+    if (menuOpen) {
+      document.addEventListener('keydown', handleEscape);
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuOpen]);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenuAndNavigate = (path: string) => {
+    setMenuOpen(false);
+    navigate(path);
+  };
 
   return (
-    <nav className="bg-sky-200 py-6 px-6">
+    <nav className="bg-sky-200 py-6 px-6" role="navigation" aria-label="Hovednavigasjon">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <img
-            src="/logo.png"
-            alt="Kalkulek Logo"
-            className="cursor-pointer"
+          <button
             onClick={() => navigate("/")}
-            style={{
-              width: "4vw",
-              minWidth: "60px",
-              height: "4vw",
-              minHeight: "60px",
-            }}
-          />
-          <span
-            className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black"
+            className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+            aria-label="Gå til forsiden"
+          >
+            <img
+              src="/logo.png"
+              alt="Kalkulek Logo"
+              className="cursor-pointer w-16 h-16 min-w-12 min-h-12 lg:w-20 lg:h-20"
+            />
+          </button>
+          <button
+            className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
             onClick={() => navigate("/")}
+            aria-label="Kalkulek - gå til forsiden"
           >
             Kalkulek
-          </span>
+          </button>
         </div>
 
-        {/*Navigasjonsmeny */}
-        <ul className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold cursor-pointer text-black">
-          <li>
-            <a href="/Management" className="text-black hover:underline">
+        {/* Desktop Navigation */}
+        <ul className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold text-black" role="menubar">
+          <li role="none">
+            <a 
+              href="/Management" 
+              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               For ledelsen
             </a>
           </li>
-          <li>
-            <a href="/Info" className="text-black hover:underline">
+          <li role="none">
+            <a 
+              href="/Info" 
+              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               Kunnskapssiden
             </a>
           </li>
-          <li>
-            <a href="/About" className="text-black hover:underline">
+          <li role="none">
+            <a 
+              href="/About" 
+              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               Om Kalkulek
             </a>
           </li>
-          <li>
-            <a href="/" className="text-black hover:text-black space-x-1">
-              <FontAwesomeIcon icon={faHouse} className="h-5 w-5 " />
+          <li role="none">
+            <a 
+              href="/" 
+              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1 flex items-center space-x-1"
+              role="menuitem"
+              aria-label="Gå til forsiden"
+            >
+              <FontAwesomeIcon icon={faHouse} className="h-5 w-5" aria-hidden="true" />
               <span>Hjem</span>
             </a>
           </li>
         </ul>
 
-        {/* Mobilmeny */}
+        {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)}>
+          <button 
+            ref={menuButtonRef}
+            onClick={toggleMenu}
+            className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded p-1"
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
+            aria-label={menuOpen ? "Lukk mobilmeny" : "Åpne mobilmeny"}
+          >
             <svg
               className="h-6 w-6 text-black"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
+              aria-hidden="true"
             >
               {menuOpen ? (
                 <path
@@ -85,27 +147,51 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="md:hidden mt-4 space-y-3 text-lg text-black">
-          <li>
-            <a href="/management" className="block hover:underline">
+        <ul 
+          ref={mobileMenuRef}
+          id="mobile-menu"
+          className="md:hidden mt-4 space-y-3 text-lg text-black bg-sky-100 rounded-lg p-4"
+          role="menu"
+          aria-labelledby="mobile-menu-button"
+        >
+          <li role="none">
+            <button 
+              onClick={() => closeMenuAndNavigate("/Management")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               For ledelsen
-            </a>
+            </button>
           </li>
-          <li>
-            <a href="/info" className="block hover:underline">
+          <li role="none">
+            <button 
+              onClick={() => closeMenuAndNavigate("/Info")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               Kunnskapssiden
-            </a>
+            </button>
           </li>
-          <li>
-            <a href="/about" className="block hover:underline">
+          <li role="none">
+            <button 
+              onClick={() => closeMenuAndNavigate("/About")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
               Om Kalkulek
-            </a>
+            </button>
           </li>
-          <li>
-            <a href="/" className="block hover:text-black">
-              <span className="">Hjem</span>
-            </a>
+          <li role="none">
+            <button 
+              onClick={() => closeMenuAndNavigate("/")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+              aria-label="Gå til forsiden"
+            >
+              <span>Hjem</span>
+            </button>
           </li>
         </ul>
       )}
