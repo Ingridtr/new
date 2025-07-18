@@ -18,25 +18,25 @@
           "id": "terningskast_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 2 + 3?",
+          "answer": "5"
         },
         {
           "id": "terningskast_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 4 + 1?",
+          "answer": "5"
         },
         {
           "id": "terningskast_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 6 - 2?",
+          "answer": "4"
         }
       ],
       "medium": [
@@ -44,15 +44,15 @@
           "id": "terningskast_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 6 + 1?",
-          "answer": "7"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 7 + 3?",
+          "answer": "10"
         },
         {
           "id": "terningskast_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
           "question": "Hva er 9 - 4?",
           "answer": "5"
         },
@@ -60,9 +60,9 @@
           "id": "terningskast_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 2 + 3?",
-          "answer": "5"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 8 + 2?",
+          "answer": "10"
         }
       ],
       "hard": [
@@ -70,25 +70,425 @@
           "id": "terningskast_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 12 + 6?",
+          "answer": "18"
         },
         {
           "id": "terningskast_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 15 - 8?",
+          "answer": "7"
         },
         {
           "id": "terningskast_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
+          "learningGoal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+          "question": "Hva er 14 + 5?",
+          "answer": "19"
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "easy": [
+        {
+          "id": "terningskast_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 3 + 4?",
+          "answer": "7"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 5 + 2?",
+          "answer": "7"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 8 - 3?",
+          "answer": "5"
+        }
+      ],
+      "medium": [
+        {
+          "id": "terningskast_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 12 + 8?",
+          "answer": "20"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 15 - 7?",
+          "answer": "8"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
           "question": "Hva er 6 × 3?",
           "answer": "18"
+        }
+      ],
+      "hard": [
+        {
+          "id": "terningskast_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 147 + 89?",
+          "answer": "236"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 204 - 78?",
+          "answer": "126"
+        },
+        {
+          "id": "terningskast_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Hva er 15 × 12?",
+          "answer": "180"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "terningskast_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 12 ÷ 3?",
+          "answer": "4"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 15 ÷ 5?",
+          "answer": "3"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 8 × 2?",
+          "answer": "16"
+        }
+      ],
+      "medium": [
+        {
+          "id": "terningskast_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 24 ÷ 6?",
+          "answer": "4"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 45 ÷ 9?",
+          "answer": "5"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 7 × 8?",
+          "answer": "56"
+        }
+      ],
+      "hard": [
+        {
+          "id": "terningskast_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 144 ÷ 12?",
+          "answer": "12"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 168 ÷ 14?",
+          "answer": "12"
+        },
+        {
+          "id": "terningskast_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+          "question": "Hva er 13 × 11?",
+          "answer": "143"
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "easy": [
+        {
+          "id": "terningskast_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 1/2 + 1/4?",
+          "answer": "3/4"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 50% av 10?",
+          "answer": "5"
+        }
+      ],
+      "medium": [
+        {
+          "id": "terningskast_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 2/3 + 1/6?",
+          "answer": "5/6"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 0.7 × 0.4?",
+          "answer": "0.28"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 25% av 40?",
+          "answer": "10"
+        }
+      ],
+      "hard": [
+        {
+          "id": "terningskast_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 3/4 - 2/5?",
+          "answer": "7/20"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 1.25 × 3.2?",
+          "answer": "4"
+        },
+        {
+          "id": "terningskast_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 15% av 80?",
+          "answer": "12"
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "terningskast_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 0.7 + 0.2?",
+          "answer": "0.9"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 1.0 - 0.4?",
+          "answer": "0.6"
+        }
+      ],
+      "medium": [
+        {
+          "id": "terningskast_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 1.5 × 0.4?",
+          "answer": "0.6"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 2.4 ÷ 0.6?",
+          "answer": "4"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 8.4 ÷ 2?",
+          "answer": "4.2"
+        }
+      ],
+      "hard": [
+        {
+          "id": "terningskast_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 2.5 × 3.2?",
+          "answer": "8"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 4.8 × 1.25?",
+          "answer": "6"
+        },
+        {
+          "id": "terningskast_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Hva er 15.6 ÷ 3?",
+          "answer": "5.2"
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "terningskast_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 2³?",
+          "answer": "8"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 3²?",
+          "answer": "9"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 5²?",
+          "answer": "25"
+        }
+      ],
+      "medium": [
+        {
+          "id": "terningskast_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 4³?",
+          "answer": "64"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 6²?",
+          "answer": "36"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 2⁴?",
+          "answer": "16"
+        }
+      ],
+      "hard": [
+        {
+          "id": "terningskast_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 3⁴?",
+          "answer": "81"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 5³?",
+          "answer": "125"
+        },
+        {
+          "id": "terningskast_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+          "question": "Hva er 2⁵?",
+          "answer": "32"
         }
       ]
     }

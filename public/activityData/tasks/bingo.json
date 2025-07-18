@@ -18,24 +18,24 @@
           "id": "bingo_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 2 + 2?",
-          "answer": "4"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 2 + 3?",
+          "answer": "5"
         },
         {
           "id": "bingo_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 5 - 1?",
-          "answer": "4"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 4 + 1?",
+          "answer": "5"
         },
         {
           "id": "bingo_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 3 + 1?",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 6 - 2?",
           "answer": "4"
         }
       ],
@@ -44,25 +44,25 @@
           "id": "bingo_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "Hva er 6 + 3?",
-          "answer": "9"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 7 + 3?",
+          "answer": "10"
         },
         {
           "id": "bingo_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "Hva er 10 - 4?",
-          "answer": "6"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 9 - 4?",
+          "answer": "5"
         },
         {
           "id": "bingo_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "Hva er 7 + 2?",
-          "answer": "9"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 8 + 2?",
+          "answer": "10"
         }
       ],
       "hard": [
@@ -70,24 +70,24 @@
           "id": "bingo_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 13 + 5?",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 12 + 6?",
           "answer": "18"
         },
         {
           "id": "bingo_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 16 - 7?",
-          "answer": "9"
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 15 - 8?",
+          "answer": "7"
         },
         {
           "id": "bingo_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 11 + 8?",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hva er 14 + 5?",
           "answer": "19"
         }
       ]
@@ -98,25 +98,25 @@
           "id": "bingo_tredje_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
-          "question": "Hva er 4 + 3?",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 3 + 4?",
           "answer": "7"
         },
         {
           "id": "bingo_tredje_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
-          "question": "Hva er 9 - 2?",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 5 + 2?",
           "answer": "7"
         },
         {
           "id": "bingo_tredje_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 8 - 3?",
+          "answer": "5"
         }
       ],
       "medium": [
@@ -124,23 +124,23 @@
           "id": "bingo_tredje_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 14 + 6?",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 12 + 8?",
           "answer": "20"
         },
         {
           "id": "bingo_tredje_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 18 - 10?",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 15 - 7?",
           "answer": "8"
         },
         {
           "id": "bingo_tredje_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 6 × 3?",
           "answer": "18"
         }
@@ -150,25 +150,25 @@
           "id": "bingo_tredje_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
-          "question": "Hva er 125 + 89?",
-          "answer": "214"
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 147 + 89?",
+          "answer": "236"
         },
         {
           "id": "bingo_tredje_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
-          "question": "Hva er 156 - 67?",
-          "answer": "89"
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 204 - 78?",
+          "answer": "126"
         },
         {
           "id": "bingo_tredje_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
-          "question": "Hva er 12 × 11?",
-          "answer": "132"
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 15 × 12?",
+          "answer": "180"
         }
       ]
     },
@@ -178,25 +178,25 @@
           "id": "bingo_fjerde_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 12 ÷ 3?",
+          "answer": "4"
         },
         {
           "id": "bingo_fjerde_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 15 ÷ 5?",
+          "answer": "3"
         },
         {
           "id": "bingo_fjerde_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 8 × 2?",
+          "answer": "16"
         }
       ],
       "medium": [
@@ -204,25 +204,25 @@
           "id": "bingo_fjerde_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 24 ÷ 6?",
+          "answer": "4"
         },
         {
           "id": "bingo_fjerde_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 45 ÷ 9?",
+          "answer": "5"
         },
         {
           "id": "bingo_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 6 × 3?",
-          "answer": "18"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 7 × 8?",
+          "answer": "56"
         }
       ],
       "hard": [
@@ -230,25 +230,25 @@
           "id": "bingo_fjerde_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 147 + 89?",
-          "answer": "236"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 144 ÷ 12?",
+          "answer": "12"
         },
         {
           "id": "bingo_fjerde_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 204 - 78?",
-          "answer": "126"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 168 ÷ 14?",
+          "answer": "12"
         },
         {
           "id": "bingo_fjerde_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
-          "question": "Hva er 15 × 12?",
-          "answer": "180"
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 13 × 11?",
+          "answer": "143"
         }
       ]
     },
@@ -258,25 +258,25 @@
           "id": "bingo_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
-          "question": "Hva er 1/2 + 1/2?",
-          "answer": "1"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 1/2 + 1/4?",
+          "answer": "3/4"
         },
         {
           "id": "bingo_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
-          "question": "Hva er 3/4 - 1/4?",
-          "answer": "1/2"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
         },
         {
           "id": "bingo_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
-          "question": "Hva er 0.2 + 0.3?",
-          "answer": "0.5"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 50% av 10?",
+          "answer": "5"
         }
       ],
       "medium": [
@@ -284,7 +284,7 @@
           "id": "bingo_femte_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
           "question": "Hva er 2/3 + 1/6?",
           "answer": "5/6"
         },
@@ -292,17 +292,17 @@
           "id": "bingo_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
-          "question": "Hva er 1.5 × 2?",
-          "answer": "3"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 0.7 × 0.4?",
+          "answer": "0.28"
         },
         {
           "id": "bingo_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
-          "question": "Hva er 3/5 × 10?",
-          "answer": "6"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 25% av 40?",
+          "answer": "10"
         }
       ],
       "hard": [
@@ -310,25 +310,25 @@
           "id": "bingo_femte_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 5/8 + 3/8?",
-          "answer": "1"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 3/4 - 2/5?",
+          "answer": "7/20"
         },
         {
           "id": "bingo_femte_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 2.75 + 1.25?",
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 1.25 × 3.2?",
           "answer": "4"
         },
         {
           "id": "bingo_femte_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 4/9 × 3/2?",
-          "answer": "2/3"
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 15% av 80?",
+          "answer": "12"
         }
       ]
     },
@@ -338,25 +338,25 @@
           "id": "bingo_sjette_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
-          "question": "Hva er -3 + 8?",
-          "answer": "5"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
         },
         {
           "id": "bingo_sjette_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
-          "question": "Hva er 5 - (-2)?",
-          "answer": "7"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 0.7 + 0.2?",
+          "answer": "0.9"
         },
         {
           "id": "bingo_sjette_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
-          "question": "Hva er 0.6 + 0.4?",
-          "answer": "1"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 1.0 - 0.4?",
+          "answer": "0.6"
         }
       ],
       "medium": [
@@ -364,25 +364,25 @@
           "id": "bingo_sjette_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
-          "question": "Hva er -7 + 12?",
-          "answer": "5"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 1.5 × 0.4?",
+          "answer": "0.6"
         },
         {
           "id": "bingo_sjette_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
-          "question": "Hva er 4/5 ÷ 2?",
-          "answer": "2/5"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 2.4 ÷ 0.6?",
+          "answer": "4"
         },
         {
           "id": "bingo_sjette_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
-          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
-          "question": "Hva er 1.8 × 5?",
-          "answer": "9"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 8.4 ÷ 2?",
+          "answer": "4.2"
         }
       ],
       "hard": [
@@ -390,25 +390,25 @@
           "id": "bingo_sjette_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er -15 + 28?",
-          "answer": "13"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 2.5 × 3.2?",
+          "answer": "8"
         },
         {
           "id": "bingo_sjette_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 7/12 × 3/4?",
-          "answer": "7/16"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 4.8 × 1.25?",
+          "answer": "6"
         },
         {
           "id": "bingo_sjette_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
-          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 12.5 ÷ 2.5?",
-          "answer": "5"
+          "learningGoal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+          "question": "Hva er 15.6 ÷ 3?",
+          "answer": "5.2"
         }
       ]
     },
@@ -418,25 +418,25 @@
           "id": "bingo_syvende_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
-          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
-          "question": "Hva er 25% av 80?",
-          "answer": "20"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2³?",
+          "answer": "8"
         },
         {
           "id": "bingo_syvende_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
-          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
-          "question": "Hva er 1:2 som prosent?",
-          "answer": "50%"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 3²?",
+          "answer": "9"
         },
         {
           "id": "bingo_syvende_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
-          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
-          "question": "Hva er √25?",
-          "answer": "5"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 5²?",
+          "answer": "25"
         }
       ],
       "medium": [
@@ -444,25 +444,25 @@
           "id": "bingo_syvende_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
-          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
-          "question": "Hva er 40% av 150?",
-          "answer": "60"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 4³?",
+          "answer": "64"
         },
         {
           "id": "bingo_syvende_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
-          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
-          "question": "Løs likninga: x + 12 = 25",
-          "answer": "x = 13"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 6²?",
+          "answer": "36"
         },
         {
           "id": "bingo_syvende_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
-          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
-          "question": "Hva er √64?",
-          "answer": "8"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2⁴?",
+          "answer": "16"
         }
       ],
       "hard": [
@@ -470,25 +470,25 @@
           "id": "bingo_syvende_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
-          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
-          "question": "Hva er 18% av 350?",
-          "answer": "63"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 3⁴?",
+          "answer": "81"
         },
         {
           "id": "bingo_syvende_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
-          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
-          "question": "Løs likninga: 2x + 8 = 24",
-          "answer": "x = 8"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 5³?",
+          "answer": "125"
         },
         {
           "id": "bingo_syvende_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
-          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
-          "question": "Hva er √169?",
-          "answer": "13"
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2⁵?",
+          "answer": "32"
         }
       ]
     }

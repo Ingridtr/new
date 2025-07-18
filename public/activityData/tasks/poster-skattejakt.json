@@ -12,13 +12,93 @@
     "Syvende årstrinn"
   ],
   "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "poster-skattejakt_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 2 + 3?",
+          "answer": "5"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 4 + 1?",
+          "answer": "5"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 6 - 2?",
+          "answer": "4"
+        }
+      ],
+      "medium": [
+        {
+          "id": "poster-skattejakt_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 7 + 3?",
+          "answer": "10"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 9 - 4?",
+          "answer": "5"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 8 + 2?",
+          "answer": "10"
+        }
+      ],
+      "hard": [
+        {
+          "id": "poster-skattejakt_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 12 + 6?",
+          "answer": "18"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 15 - 8?",
+          "answer": "7"
+        },
+        {
+          "id": "poster-skattejakt_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+          "question": "Hva er 14 + 5?",
+          "answer": "19"
+        }
+      ]
+    },
     "Tredje årstrinn": {
       "easy": [
         {
           "id": "poster-skattejakt_tredje_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 3 + 4?",
           "answer": "7"
         },
@@ -26,7 +106,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 5 + 2?",
           "answer": "7"
         },
@@ -34,7 +114,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 8 - 3?",
           "answer": "5"
         }
@@ -44,7 +124,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 12 + 8?",
           "answer": "20"
         },
@@ -52,7 +132,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 15 - 7?",
           "answer": "8"
         },
@@ -60,7 +140,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 6 × 3?",
           "answer": "18"
         }
@@ -70,7 +150,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 147 + 89?",
           "answer": "236"
         },
@@ -78,7 +158,7 @@
           "id": "poster-skattejakt_tredje_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 204 - 78?",
           "answer": "126"
         },
@@ -86,9 +166,329 @@
           "id": "poster-skattejakt_tredje_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
-          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 15 × 12?",
           "answer": "180"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 12 ÷ 3?",
+          "answer": "4"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 15 ÷ 5?",
+          "answer": "3"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 8 × 2?",
+          "answer": "16"
+        }
+      ],
+      "medium": [
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 24 ÷ 6?",
+          "answer": "4"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 45 ÷ 9?",
+          "answer": "5"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 7 × 8?",
+          "answer": "56"
+        }
+      ],
+      "hard": [
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 144 ÷ 12?",
+          "answer": "12"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 168 ÷ 14?",
+          "answer": "12"
+        },
+        {
+          "id": "poster-skattejakt_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 13 × 11?",
+          "answer": "143"
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "easy": [
+        {
+          "id": "poster-skattejakt_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 1/2 + 1/4?",
+          "answer": "3/4"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 50% av 10?",
+          "answer": "5"
+        }
+      ],
+      "medium": [
+        {
+          "id": "poster-skattejakt_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 2/3 + 1/6?",
+          "answer": "5/6"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 0.7 × 0.4?",
+          "answer": "0.28"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 25% av 40?",
+          "answer": "10"
+        }
+      ],
+      "hard": [
+        {
+          "id": "poster-skattejakt_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 3/4 - 2/5?",
+          "answer": "7/20"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 1.25 × 3.2?",
+          "answer": "4"
+        },
+        {
+          "id": "poster-skattejakt_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+          "question": "Hva er 15% av 80?",
+          "answer": "12"
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 0.7 + 0.2?",
+          "answer": "0.9"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 1.0 - 0.4?",
+          "answer": "0.6"
+        }
+      ],
+      "medium": [
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 1.5 × 0.4?",
+          "answer": "0.6"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 2.4 ÷ 0.6?",
+          "answer": "4"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 8.4 ÷ 2?",
+          "answer": "4.2"
+        }
+      ],
+      "hard": [
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 2.5 × 3.2?",
+          "answer": "8"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 4.8 × 1.25?",
+          "answer": "6"
+        },
+        {
+          "id": "poster-skattejakt_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+          "question": "Hva er 15.6 ÷ 3?",
+          "answer": "5.2"
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2³?",
+          "answer": "8"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 3²?",
+          "answer": "9"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 5²?",
+          "answer": "25"
+        }
+      ],
+      "medium": [
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 4³?",
+          "answer": "64"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 6²?",
+          "answer": "36"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2⁴?",
+          "answer": "16"
+        }
+      ],
+      "hard": [
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 3⁴?",
+          "answer": "81"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 5³?",
+          "answer": "125"
+        },
+        {
+          "id": "poster-skattejakt_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+          "question": "Hva er 2⁵?",
+          "answer": "32"
         }
       ]
     }
