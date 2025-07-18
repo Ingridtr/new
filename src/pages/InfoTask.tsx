@@ -25,6 +25,7 @@ function InfoTask() {
 
   useEffect(() => {
   const fetchData = async () => {
+    const start = performance.now();
     const storedGameId = localStorage.getItem("selectedGameId");
     const storedGameTitle = localStorage.getItem("selectedGame");
     const storedGrade = localStorage.getItem("selectedGrade");
@@ -67,6 +68,8 @@ function InfoTask() {
 
 
     setActivityData(modifiedGameData);
+    const end = performance.now(); // END TIMER
+    console.log(`⏱️ Loaded activity data in ${(end - start).toFixed(2)} ms`);
   };
 
   fetchData();
