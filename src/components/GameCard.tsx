@@ -32,16 +32,14 @@ function GameCard({
       type="button"
     >
       <div
-        className="flex justify-between px-3 pt-3 font-semibold text-sm"
+        className="flex justify-between px-3 pt-3  text-sm"
         aria-hidden="true"
       >
-        <div className="flex gap-1 items-center">🕒 {time}</div>
-        <div className="flex gap-1 items-center">📍 {location}</div>
-        <div className="flex gap-1 items-center">🛠️ {tools}</div>
+        <p>🕒 {time}</p>
+        <p>📍 {location}</p>
+        <p>🛠️ Utstyr</p>
       </div>
-      <div className="text-center font-bold text-lg mt-1" aria-hidden="true">
-        {title}
-      </div>
+      <p className="font-semibold">{title}</p>
       <img
         src={image}
         alt={`Illustrasjon for aktiviteten ${title}`}

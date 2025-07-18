@@ -8,7 +8,6 @@
     "Tredje årstrinn",
     "Fjerde årstrinn"
   ],
-
   "grades": {
     "Andre årstrinn": {
       "easy": [
@@ -18,8 +17,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hvor mange sider har en trekant?",
-          "answer": "3",
-          "type": "shape_properties"
+          "answer": "3"
         },
         {
           "id": "geometridans_andre_årstrinn_easy_2",
@@ -27,8 +25,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hvor mange hjørner har en firkant?",
-          "answer": "4",
-          "type": "shape_properties"
+          "answer": "4"
         },
         {
           "id": "geometridans_andre_årstrinn_easy_3",
@@ -36,8 +33,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hva kalles en figur med fire like sider?",
-          "answer": "kvadrat",
-          "type": "shape_identification"
+          "answer": "kvadrat"
         }
       ],
       "medium": [],
@@ -48,8 +44,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "geometridans_andre_årstrinn_hard_2",
@@ -57,8 +52,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hvor mange grader er det i en sirkel?",
-          "answer": "360",
-          "type": "angles"
+          "answer": "360"
         },
         {
           "id": "geometridans_andre_årstrinn_hard_3",
@@ -66,8 +60,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
           "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
-          "answer": "14",
-          "type": "perimeter"
+          "answer": "14"
         }
       ]
     },
@@ -79,8 +72,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange sider har en trekant?",
-          "answer": "3",
-          "type": "shape_properties"
+          "answer": "3"
         },
         {
           "id": "geometridans_tredje_årstrinn_easy_2",
@@ -88,8 +80,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange hjørner har en firkant?",
-          "answer": "4",
-          "type": "shape_properties"
+          "answer": "4"
         },
         {
           "id": "geometridans_tredje_årstrinn_easy_3",
@@ -97,8 +88,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva kalles en figur med fire like sider?",
-          "answer": "kvadrat",
-          "type": "shape_identification"
+          "answer": "kvadrat"
         }
       ],
       "medium": [
@@ -108,8 +98,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "geometridans_tredje_årstrinn_medium_2",
@@ -117,8 +106,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange grader er det i en sirkel?",
-          "answer": "360",
-          "type": "angles"
+          "answer": "360"
         },
         {
           "id": "geometridans_tredje_årstrinn_medium_3",
@@ -126,8 +114,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
-          "answer": "14",
-          "type": "perimeter"
+          "answer": "14"
         }
       ],
       "hard": [
@@ -137,8 +124,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "geometridans_tredje_årstrinn_hard_2",
@@ -146,8 +132,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange grader er det i en rett vinkel?",
-          "answer": "90",
-          "type": "angles"
+          "answer": "90"
         },
         {
           "id": "geometridans_tredje_årstrinn_hard_3",
@@ -155,8 +140,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er radiusen til en sirkel med diameter 14?",
-          "answer": "7",
-          "type": "circle_properties"
+          "answer": "7"
         }
       ]
     },
@@ -168,8 +152,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hvor mange sider har en trekant?",
-          "answer": "3",
-          "type": "shape_properties"
+          "answer": "3"
         },
         {
           "id": "geometridans_fjerde_årstrinn_easy_2",
@@ -177,8 +160,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hvor mange hjørner har en firkant?",
-          "answer": "4",
-          "type": "shape_properties"
+          "answer": "4"
         },
         {
           "id": "geometridans_fjerde_årstrinn_easy_3",
@@ -186,8 +168,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hva kalles en figur med fire like sider?",
-          "answer": "kvadrat",
-          "type": "shape_identification"
+          "answer": "kvadrat"
         }
       ],
       "medium": [
@@ -197,8 +178,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "geometridans_fjerde_årstrinn_medium_2",
@@ -206,8 +186,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hvor mange grader er det i en sirkel?",
-          "answer": "360",
-          "type": "angles"
+          "answer": "360"
         },
         {
           "id": "geometridans_fjerde_årstrinn_medium_3",
@@ -215,8 +194,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
-          "answer": "14",
-          "type": "perimeter"
+          "answer": "14"
         }
       ],
       "hard": [
@@ -226,8 +204,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "geometridans_fjerde_årstrinn_hard_2",
@@ -235,8 +212,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hvor mange grader er det i en rett vinkel?",
-          "answer": "90",
-          "type": "angles"
+          "answer": "90"
         },
         {
           "id": "geometridans_fjerde_årstrinn_hard_3",
@@ -244,8 +220,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og beskrive strukturar og mønster i leik og spel",
           "question": "Hva er radiusen til en sirkel med diameter 14?",
-          "answer": "7",
-          "type": "circle_properties"
+          "answer": "7"
         }
       ]
     }
