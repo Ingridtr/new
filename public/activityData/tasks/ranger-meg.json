@@ -1,11 +1,11 @@
 {
   "activityId": "ranger-meg",
   "activityTitle": "Ranger meg!",
-  "totalTasks": 18,
+  "totalTasks": 9,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Tredje årstrinn",
-    "Første årstrinn"
+    "Tredje årstrinn"
+   
   ],
 
   "grades": {
@@ -97,67 +97,7 @@
           "type": "time_calculation"
         }
       ]
-    },
-    "Første årstrinn": {
-      "easy": [
-        {
-          "id": "ranger-meg_første_årstrinn_easy_1",
-          "difficulty": "easy",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hvor mange minutter er det i en time?",
-          "answer": "60",
-          "type": "time_units"
-        },
-        {
-          "id": "ranger-meg_første_årstrinn_easy_2",
-          "difficulty": "easy",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hvilken tid viser klokka når den lille viseren peker på 3 og den store på 12?",
-          "answer": "03:00",
-          "type": "clock_reading"
-        },
-        {
-          "id": "ranger-meg_første_årstrinn_easy_3",
-          "difficulty": "easy",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hvor mange timer er det i en dag?",
-          "answer": "24",
-          "type": "time_units"
-        }
-      ],
-      "medium": [],
-      "hard": [
-        {
-          "id": "ranger-meg_første_årstrinn_hard_1",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hvis klokka er 14:30, hvor mange minutter er det til klokka 15:00?",
-          "answer": "30",
-          "type": "time_calculation"
-        },
-        {
-          "id": "ranger-meg_første_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hva er klokka hvis det er kvart over åtte på morgenen?",
-          "answer": "08:15",
-          "type": "time_expression"
-        },
-        {
-          "id": "ranger-meg_første_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Første årstrinn",
-          "learningGoal": "Generell matematisk kompetanse",
-          "question": "Hvor lenge er det fra 13:45 til 14:15?",
-          "answer": "30 minutter",
-          "type": "time_duration"
-        }
-      ]
     }
+    
   }
 }

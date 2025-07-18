@@ -11,8 +11,9 @@ export type { Task, TaskFile, ActivityId, GradeName, GradeTasks };
 // Dynamic task loading function
 export async function loadTaskFile(activityId: string): Promise<TaskFile | null> {
   try {
-    const response = await fetch(`/public/activityData/tasks/${activityId}.json`);
+    const response = await fetch(`/activityData/tasks/${activityId}.json`);
     if (!response.ok) {
+      console.error(`Failed to fetch ${activityId}.json: ${response.status} ${response.statusText}`);
       return null;
     }
     return await response.json();
