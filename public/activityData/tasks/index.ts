@@ -3,7 +3,7 @@
 
 // Import types from the auto-generated types file
 import type { Task, TaskFile, ActivityId, GradeName, GradeTasks } from './types';
-import { AVAILABLE_TASK_ACTIVITY_IDS } from './types';
+//import { AVAILABLE_TASK_ACTIVITY_IDS } from './types';
 
 // Re-export types for convenience
 export type { Task, TaskFile, ActivityId, GradeName, GradeTasks };
@@ -60,14 +60,14 @@ export async function getSupportedGrades(activityId: string): Promise<string[]> 
 }
 
 // Get all available task activity IDs
-export function getAvailableTaskActivityIds(): string[] {
-  return AVAILABLE_TASK_ACTIVITY_IDS;
-}
+//export function getAvailableTaskActivityIds(): string[] {
+//  return AVAILABLE_TASK_ACTIVITY_IDS;
+//}
 
 // Check if a task file exists for the given activity ID
-export function hasTaskFile(activityId: string): boolean {
-  return AVAILABLE_TASK_ACTIVITY_IDS.includes(activityId as ActivityId);
-}
+//export function hasTaskFile(activityId: string): boolean {
+//  return AVAILABLE_TASK_ACTIVITY_IDS.includes(activityId as ActivityId);
+//}
 
 // Helper function to get task statistics
 export async function getTaskStatistics(activityId: string): Promise<{
