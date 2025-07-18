@@ -3,88 +3,84 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import {
-  getTasksByActivityId,
-  getAllTasksForActivity,
-} from "../../public/activityData/tasks/index";
-import { Game, GameDescription } from "../../public/activityData/types";
 import { Task } from "../../public/activityData/tasks/types";
-import gamesMetadata from "../../public/activityData/activities.json"; // adjust path if needed
-
-
+import activitiesMetadata from "../../public/activityData/activities.json";
+import { Activity } from "../components/GetActivity"; // Importer type hvis du har den
 
 function InfoTask() {
   const navigate = useNavigate();
+  const [activity, setActivity] = useState<Activity | null>(null);
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
-  const currentGameImage = localStorage.getItem("selectedGameImage") || "";
-  const [activityData, setActivityData] = useState<GameDescription | null>(
-    null
-  );
-  const [tasks, setTasks] = useState<Task[]>([]);
-  const [currentGrade, setCurrentGrade] = useState<string>("1-2");
+
+  const selectedGameId = localStorage.getItem("selectedGameId");
+  const selectedGrade = localStorage.getItem("selectedGrade");
+  const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
 
   useEffect(() => {
-  const fetchData = async () => {
-    const storedGameId = localStorage.getItem("selectedGameId");
-    const storedGameTitle = localStorage.getItem("selectedGame");
-    const storedGrade = localStorage.getItem("selectedGrade");
-    const storedLearningGoal = localStorage.getItem("selectedLearningGoal");
+    const fetchActivityData = async () => {
+      if (!selectedGameId || !selectedGrade || !selectedLearningGoal) return;
 
+      try {
+        // Hent aktivitetsmetadata
+        const meta = activitiesMetadata.find((a) => a.id === selectedGameId);
+        if (!meta) {
+          console.error("Fant ikke aktivitet med id:", selectedGameId);
+          return;
+        }
 
-    let taskId = storedGameId;
+        const detailRes = await fetch(
+          `/activityData/tasks/${selectedGameId}.json`
+        );
+        if (!detailRes.ok) {
+          console.error("Fant ikke oppgavedata for:", selectedGameId);
+          return;
+        }
 
+        const details = await detailRes.json();
+        const gradeData = details.grades[selectedGrade] ?? {};
+        const allTasks: Task[] = [
+          ...(gradeData.easy ?? []),
+          ...(gradeData.medium ?? []),
+          ...(gradeData.hard ?? []),
+        ];
 
-    if (!taskId) {
-      console.error("No task ID found.");
-      return;
-    }
+        // Filtrer relevante oppgaver
+        const filteredTasks = allTasks.filter((t) =>
+          t.learningGoal.includes(selectedLearningGoal)
+        );
 
-    const baseMetadata = gamesMetadata.find((g) => g.id === taskId);
-    if (!baseMetadata) {
-      console.error("No metadata found for game:", taskId);
-      return;
-    }
+        const competencyGoals = Array.from(
+          new Set(filteredTasks.map((t) => t.learningGoal))
+        );
 
-    const allTasks = await getAllTasksForActivity(taskId);
-
-    const modifiedGameData: GameDescription = {
-      id: baseMetadata.id,
-      title: baseMetadata.title,
-      location: baseMetadata.location || "",
-      duration: baseMetadata.time || "",
-      tools: baseMetadata.tools.split(",").map((t) => t.trim()),
-      competencyGoals: [],
-      description: baseMetadata.description,
-      tasks: {
-        easy: allTasks.filter((t) => t.difficulty === "easy"),
-        medium: allTasks.filter((t) => t.difficulty === "medium"),
-        hard: allTasks.filter((t) => t.difficulty === "hard"),
-      },
-      gradeMapping: {}, // optional
-      variations: "",
-      reflectionQuestions: "",
+        setActivity({
+          ...meta,
+          tasksByDifficulty: {
+            easy: filteredTasks.filter((t) => t.difficulty === "easy"),
+            medium: filteredTasks.filter((t) => t.difficulty === "medium"),
+            hard: filteredTasks.filter((t) => t.difficulty === "hard"),
+          },
+          competencyGoals,
+        });
+      } catch (error) {
+        console.error("Feil under lasting av aktivitet:", error);
+      }
     };
 
-
-    setActivityData(modifiedGameData);
-  };
-
-  fetchData();
-}, [currentGrade]);
-
-
+    fetchActivityData();
+  }, [selectedGameId, selectedGrade, selectedLearningGoal]);
 
   const handleShowOnScreen = () => {
-    window.open(currentGameImage, "_blank");
+    const img = localStorage.getItem("selectedGameImage");
+    if (img) window.open(img, "_blank");
   };
 
-  // Show loading state if activityData is not yet loaded
-  if (!activityData) {
+  if (!activity) {
     return (
       <div className="flex flex-col min-h-screen bg-yellow-50">
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
-          <div className="text-xl">Laster aktivitetsdata...</div>
+          <div className="text-xl">Laster aktivitet...</div>
         </div>
         <Footer />
       </div>
@@ -97,143 +93,123 @@ function InfoTask() {
 
       <div className="flex-1">
         <div className="flex flex-col items-center justify-start p-6 relative">
-          {/* Lukkeknapp */}
           <button
             className="absolute top-4 right-6 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             onClick={() => navigate(-1)}
-            aria-label="Lukk aktivitetsside og gå tilbake"
           >
             ×
           </button>
 
           <div className="flex flex-col lg:flex-row gap-8 max-w-5xl w-full mt-8 items-start">
+            {/* INFOKORT */}
             <div className="bg-white border border-black rounded-2xl p-4 space-y-4 w-full lg:w-48 text-left">
               <div className="flex items-center gap-2">
-                <span role="img" aria-label="Sted">📍</span>
-                <p>{activityData.location}</p>
+                <span role="img" aria-label="Sted">
+                  📍
+                </span>
+                <p>{activity.location}</p>
               </div>
               <div className="flex items-center gap-2">
-                <span role="img" aria-label="Varighet">⏱️</span>
-                <p>{activityData.duration}</p>
+                <span role="img" aria-label="Varighet">
+                  ⏱️
+                </span>
+                <p>{activity.time}</p>
               </div>
-              {activityData.tools.length <= 1 ? (
-                <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Utstyr">🛠️</span>
-                  <p>{activityData.tools[0]}</p>
-                </div>
-              ) : (
-                <div className="relative">
-                  <button
-                    onClick={() => setShowToolsDropdown(!showToolsDropdown)}
-                    className="flex items-center gap-2"
-                    aria-expanded={showToolsDropdown}
-                    aria-haspopup="true"
-                    aria-label="Vis utstyrsliste"
-                  >
-                    <span role="img" aria-label="Utstyr">🛠️</span>
-                    <p>Utstyrsliste</p>
-                  </button>
-                  {showToolsDropdown && (
-                    <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10" role="menu">
-                      {activityData.tools.map((tool, index) => (
-                        <li
-                          key={index}
-                          className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-                          role="menuitem"
-                        >
-                          {tool}
+              <div className="relative">
+                <button
+                  onClick={() => setShowToolsDropdown(!showToolsDropdown)}
+                  className="flex items-center gap-2"
+                >
+                  <span role="img" aria-label="Utstyr">
+                    🛠️
+                  </span>
+                  <p>Utstyrsliste</p>
+                </button>
+                {showToolsDropdown && (
+                  <ul className="absolute left-0 mt-2 w-48 bg-white border border-black rounded-md shadow-md z-10">
+                    {activity.tools
+                      .split(",")
+                      .map((tool: string, index: number) => (
+                        <li key={index} className="px-4 py-2 hover:bg-gray-100">
+                          {tool.trim()}
                         </li>
                       ))}
-                    </ul>
-                  )}
-                </div>
-              )}
+                  </ul>
+                )}
+              </div>
+
               <Print
-                title={activityData.title}
-                location={activityData.location}
-                duration={activityData.duration}
-                tools={activityData.tools}
-                competencyGoals={activityData.competencyGoals}
-                description={activityData.description}
-                tasks={activityData.tasks}
-                variations={activityData.variations}
-                reflectionQuestions={activityData.reflectionQuestions}
+                title={activity.title}
+                location={activity.location}
+                duration={activity.time}
+                tools={activity.tools.split(",")}
+                competencyGoals={activity.learningGoal}
+                description={activity.description}
+                tasks={activity.tasksByDifficulty}
+                variations={activity.variations}
+                reflectionQuestions={activity.reflectionQuestions}
               />
+
               <button
                 className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
                 onClick={handleShowOnScreen}
-                aria-label="Vis aktivitet på skjerm"
               >
-                <span role="img" aria-label="Skjerm">🖥️</span>
+                <span role="img" aria-label="Skjerm">
+                  🖥️
+                </span>
                 <p>Vis på skjerm</p>
               </button>
             </div>
 
-            {/* HOVEDINNHOLD */}
+            {/* INNHOLD */}
             <div className="flex flex-col space-y-6 w-full">
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h1>{activityData.title}</h1>
+                <h1>{activity.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
-                  {activityData.competencyGoals.map((goal, index) => (
-                    <li key={index}>{goal}</li>
-                  ))}
+                  {activity.competencyGoals.map(
+                    (goal: string, index: number) => (
+                      <li key={index}>{goal}</li>
+                    )
+                  )}
                 </ul>
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Beskrivelse</h2>
-                <p>{activityData.description}</p>
+                <p>{activity.description}</p>
               </div>
+
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Oppgaver</h2>
-
-                {activityData.tasks.easy.length > 0 && (
-                  <>
-                    <h3>Enkel</h3>
-                    <ul className="list-disc list-inside mb-4">
-                      {activityData.tasks.easy.map((task, index) => (
-                        <li key={index}>{task.question}</li>
-                      ))}
-                    </ul>
-                  </>
+                {["easy", "medium", "hard"].map((level) =>
+                  activity.tasksByDifficulty[level].length > 0 ? (
+                    <div key={level}>
+                      <h3>
+                        {level === "easy"
+                          ? "Enkel"
+                          : level === "medium"
+                          ? "Middels"
+                          : "Vanskelig"}
+                      </h3>
+                      <ul className="list-disc list-inside mb-4">
+                        {activity.tasksByDifficulty[level].map(
+                          (task: Task, idx: number) => (
+                            <li key={idx}>{task.question}</li>
+                          )
+                        )}
+                      </ul>
+                    </div>
+                  ) : null
                 )}
-
-                {activityData.tasks.medium.length > 0 && (
-                  <>
-                    <h3>Middels</h3>
-                    <ul className="list-disc list-inside mb-4">
-                      {activityData.tasks.medium.map((task, index) => (
-                        <li key={index}>{task.question}</li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-
-                {activityData.tasks.hard.length > 0 && (
-                  <>
-                    <h3>Vanskelig</h3>
-                    <ul className="list-disc list-inside">
-                      {activityData.tasks.hard.map((task, index) => (
-                        <li key={index}>{task.question}</li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-
-                {activityData.tasks.easy.length === 0 &&
-                  activityData.tasks.medium.length === 0 &&
-                  activityData.tasks.hard.length === 0 && (
-                    <p>Ingen oppgaver tilgjengelig for dette trinnet.</p>
-                  )}
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Variasjoner</h2>
-                <p>{activityData.variations}</p>
+                <p>{activity.variations}</p>
               </div>
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
-                <p>{activityData.reflectionQuestions}</p>
+                <p>{activity.reflectionQuestions}</p>
               </div>
             </div>
           </div>
