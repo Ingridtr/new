@@ -36,33 +36,69 @@ export type Question = {
   answer: string;
   type: string;
 };
+type CombinedActivity = Activity & {
+  learningGoal: string[];
+};
 
 export function Activities(
   selectedGrade: string | null,
-  selectedGoal: string | null
+  selectedGoal: string | null,
 ) {
-  const [activities, setActivities] = useState<Activity[]>([]);
+  const [activities, setActivities] = useState<CombinedActivity[]>([]);
+  
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/activityData/activities.json");
-        const data: Activity[] = await res.json();
-        console.log("Hentet aktiviteter:", data);
+        const actRes = await fetch("/activityData/activities.json");
+        const baseActivities: Activity[] = await actRes.json();
 
-        setActivities(data);
+        const matchedActivities: CombinedActivity[] = [];
+
+        // Iterer gjennom alle aktivitetene for å sjekke detaljene
+        for (const activity of baseActivities) {
+          const detailRes = await fetch(
+            `/activityData/tasks/${activity.id}.json`
+          );
+
+          if (!detailRes.ok) continue; // Hopper over hvis filen ikke finnes
+
+          const details: ActivityDetails = await detailRes.json();
+
+          const gradeData = details.grades[selectedGrade ?? ""] ?? {};
+          const allQuestions: Question[] = [
+            ...(gradeData.easy ?? []),
+            ...(gradeData.medium ?? []),
+            ...(gradeData.hard ?? []),
+          ];
+
+          const filteredQuestions = allQuestions.filter((q) =>
+            q.learningGoal.includes(selectedGoal ?? "")
+          );
+
+          if (filteredQuestions.length > 0) {
+            const learningGoals = Array.from(
+              new Set(allQuestions.map((q) => q.learningGoal))
+            );
+
+            matchedActivities.push({
+              ...activity,
+              learningGoal: learningGoals,
+            });
+          }
+        }
+
+        setActivities(matchedActivities);
       } catch (err) {
         console.error("Feil ved henting av aktiviteter:", err);
       }
+      
     };
 
     fetchData();
   }, [selectedGrade, selectedGoal]);
-  useEffect(() => {
-    console.log(" hentet:", activities);
-  }, [activities]);
 
-  return { activities };
+  return { activities  };
 }
 
 export default Activities;
