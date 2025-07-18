@@ -4,7 +4,8 @@ interface GameCardProps {
   onClick?: () => void;
   time?: string;
   location?: string;
-  tools?: string;
+  tools: string;
+  learningGoal?: string[];
 }
 
 function GameCard({
@@ -16,7 +17,7 @@ function GameCard({
   tools = "Ingen",
 }: GameCardProps) {
   const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
       onClick?.();
     }
@@ -30,7 +31,10 @@ function GameCard({
       aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
       type="button"
     >
-      <div className="flex justify-between px-3 pt-3 font-semibold text-sm" aria-hidden="true">
+      <div
+        className="flex justify-between px-3 pt-3 font-semibold text-sm"
+        aria-hidden="true"
+      >
         <div className="flex gap-1 items-center">🕒 {time}</div>
         <div className="flex gap-1 items-center">📍 {location}</div>
         <div className="flex gap-1 items-center">🛠️ {tools}</div>
@@ -43,14 +47,11 @@ function GameCard({
         alt={`Illustrasjon for aktiviteten ${title}`}
         className="w-full h-96 object-cover rounded-b-md"
       />
-      
+
       {/* Screen reader only content with better description */}
       <div className="sr-only">
-        Aktivitet: {title}. 
-        Varighet: {time}. 
-        Kan utføres: {location}. 
-        Nødvendig utstyr: {tools}.
-        Trykk for å se mer informasjon og oppgaver.
+        Aktivitet: {title}. Varighet: {time}. Kan utføres: {location}. Nødvendig
+        utstyr: {tools}. Trykk for å se mer informasjon og oppgaver.
       </div>
     </button>
   );
