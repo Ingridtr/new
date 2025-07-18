@@ -40,25 +40,25 @@ export type GradeName =
   | 'Sjette årstrinn'
   | 'Syende årstrinn';
 
-export const AVAILABLE_TASK_ACTIVITY_IDS: ActivityId[] = [
-  'mattesheriff',
-  'tallinje',
-  'stiv-heks',
-  'poster-skattejakt',
-  'pastandsveggene',
-  'nappe-hale',
-  'laere-klokka',
-  'problemlosning-hverdagen',
-  'regnefrisbee',
-  'bingo',
-  'hoderegning-kortstokk',
-  'hangman-figurer',
-  'tiervenner',
-  'terningskast',
-  'hvem-er-jeg',
-  'geometridans',
-  'ranger-meg',
-  'mattememory',
-  'stafett',
-  'hundrenett'
-];
+//export const AVAILABLE_TASK_ACTIVITY_IDS: ActivityId[] = [
+//  'mattesheriff',
+//  'tallinje',
+//  'stiv-heks',
+//  'poster-skattejakt',
+//  'pastandsveggene',
+//  'nappe-hale',
+//  'laere-klokka',
+//  'problemlosning-hverdagen',
+//  'regnefrisbee',
+//  'bingo',
+//  'hoderegning-kortstokk',
+//  'hangman-figurer',
+//  'tiervenner',
+//  'terningskast',
+//  'hvem-er-jeg',
+//  'geometridans',
+//  'ranger-meg',
+//  'mattememory',
+//  'stafett',
+//  'hundrenett'
+//];

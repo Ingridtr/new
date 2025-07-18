@@ -25,9 +25,12 @@ function GameSelection() {
   const navigate = useNavigate();
   const { activities } = Activities(selectedGrade, selectedGoal);
 
-  useEffect(() => {
-    console.log("Aktiviteter fra hook:", activities);
-  }, [activities]);
+  //useEffect(() => {
+  //  const start = performance.now();
+  //  console.log("Aktiviteter fra hook:", activities);
+  //  const end = performance.now();
+  //  console.log(`⏱️ Loaded activities in ${(end - start).toFixed(2)} ms`);
+  //}, [activities]);
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">

@@ -55,16 +55,27 @@ export function Activities(
 
         const matchedActivities: CombinedActivity[] = [];
 
-        // Iterer gjennom alle aktivitetene for å sjekke detaljene
-        for (const activity of baseActivities) {
-          const detailRes = await fetch(
-            `/activityData/tasks/${activity.id}.json`
-          );
+        // Fetch all activity details in parallel to avoid waterfall requests
+        const fetchPromises = baseActivities.map(async (activity) => {
+          try {
+            const detailRes = await fetch(`/activityData/tasks/${activity.id}.json`);
+            if (!detailRes.ok) return null;
+            
+            const details: ActivityDetails = await detailRes.json();
+            return { activity, details };
+          } catch (error) {
+            console.error(`Failed to fetch details for ${activity.id}:`, error);
+            return null;
+          }
+        });
 
-          if (!detailRes.ok) continue; // Hopper over hvis filen ikke finnes
+        const results = await Promise.all(fetchPromises);
 
-          const details: ActivityDetails = await detailRes.json();
-
+        // Process results after all fetches complete
+        for (const result of results) {
+          if (!result) continue;
+          
+          const { activity, details } = result;
           const gradeData = details.grades[selectedGrade ?? ""] ?? {};
           const allQuestions: Question[] = [
             ...(gradeData.easy ?? []),
