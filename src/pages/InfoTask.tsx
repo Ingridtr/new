@@ -4,98 +4,75 @@ import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {
-  getGameDescription,
-  getTasksForGrade,
-} from "../../public/activityData/gameDescriptionUtils";
-import { GameDescription } from "../../public/activityData/types";
+  getTasksByActivityId,
+  getAllTasksForActivity,
+} from "../../public/activityData/tasks/index";
+import { Game, GameDescription } from "../../public/activityData/types";
+import { Task } from "../../public/activityData/tasks/types";
+import gamesMetadata from "../../public/activityData/activities.json"; // adjust path if needed
+
+
 
 function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
-  const [currentGameImage, setCurrentGameImage] =
-    useState<string>("/sheriff.png");
+  const currentGameImage = localStorage.getItem("selectedGameImage") || "";
   const [activityData, setActivityData] = useState<GameDescription | null>(
     null
   );
+  const [tasks, setTasks] = useState<Task[]>([]);
   const [currentGrade, setCurrentGrade] = useState<string>("1-2");
 
   useEffect(() => {
-    // Get the selected game image from localStorage
-    const storedGameImage = localStorage.getItem("selectedGameImage");
-    if (storedGameImage) {
-      setCurrentGameImage(storedGameImage);
-    }
-
-    // Get the selected game title and grade from localStorage
+  const fetchData = async () => {
     const storedGameId = localStorage.getItem("selectedGameId");
     const storedGameTitle = localStorage.getItem("selectedGame");
     const storedGrade = localStorage.getItem("selectedGrade");
+    const storedLearningGoal = localStorage.getItem("selectedLearningGoal");
 
-    if (storedGrade) {
-      // Map old grade format to new format if needed
-      const gradeMap: { [key: string]: string } = {
-        "Andre årstrinn": "1-2",
-        "Tredje årstrinn": "3",
-        "Fjerde årstrinn": "4",
-        "Femte årstrinn": "5",
-        "Sjette årstrinn": "6",
-        "Syvende årstrinn": "7",
-      };
 
-      const mappedGrade = gradeMap[storedGrade] || storedGrade;
-      setCurrentGrade(mappedGrade);
+    let taskId = storedGameId;
+
+
+    if (!taskId) {
+      console.error("No task ID found.");
+      return;
     }
 
-    // Use the stored game ID if available, otherwise fall back to title mapping
-    let gameId = storedGameId;
-
-    if (!gameId && storedGameTitle) {
-      // Fallback: Map game titles to IDs for backward compatibility
-      const gameIdMap: { [title: string]: string } = {
-        Mattesheriff: "mattesheriff",
-        Påstandsveggene: "pastandsveggene",
-        Koordinatsystemet: "koordinatsystemet",
-        Tallsafari: "tallsafari",
-      };
-      gameId = gameIdMap[storedGameTitle];
+    const baseMetadata = gamesMetadata.find((g) => g.id === taskId);
+    if (!baseMetadata) {
+      console.error("No metadata found for game:", taskId);
+      return;
     }
 
-    if (gameId) {
-      const gameData = getGameDescription(gameId);
+    const allTasks = await getAllTasksForActivity(taskId);
 
-      if (gameData) {
-        // Get all tasks (no longer filtered by grade)
-        const tasksForGrade = getTasksForGrade(gameId);
+    const modifiedGameData: GameDescription = {
+      id: baseMetadata.id,
+      title: baseMetadata.title,
+      location: baseMetadata.location || "",
+      duration: baseMetadata.time || "",
+      tools: baseMetadata.tools.split(",").map((t) => t.trim()),
+      competencyGoals: [],
+      description: baseMetadata.description,
+      tasks: {
+        easy: allTasks.filter((t) => t.difficulty === "easy"),
+        medium: allTasks.filter((t) => t.difficulty === "medium"),
+        hard: allTasks.filter((t) => t.difficulty === "hard"),
+      },
+      gradeMapping: {}, // optional
+      variations: "",
+      reflectionQuestions: "",
+    };
 
-        // Create a modified game data with all tasks
-        const modifiedGameData = {
-          ...gameData,
-          tasks: {
-            easy: tasksForGrade.easy || [],
-            medium: tasksForGrade.medium || [],
-            hard: tasksForGrade.hard || [],
-          },
-        };
 
-        setActivityData(modifiedGameData);
-      }
-    } else {
-      // Fallback to default game (Mattesheriff)
-      const defaultGame = getGameDescription("mattesheriff");
-      if (defaultGame) {
-        const tasksForGrade = getTasksForGrade("mattesheriff");
-        const modifiedGameData = {
-          ...defaultGame,
-          tasks: {
-            easy: tasksForGrade.easy || [],
-            medium: tasksForGrade.medium || [],
-            hard: tasksForGrade.hard || [],
-          },
-        };
-        setActivityData(modifiedGameData);
-      }
-    }
-  }, [currentGrade]);
+    setActivityData(modifiedGameData);
+  };
+
+  fetchData();
+}, [currentGrade]);
+
+
 
   const handleShowOnScreen = () => {
     window.open(currentGameImage, "_blank");
@@ -216,7 +193,7 @@ function InfoTask() {
                     <h3>Enkel</h3>
                     <ul className="list-disc list-inside mb-4">
                       {activityData.tasks.easy.map((task, index) => (
-                        <li key={index}>{task}</li>
+                        <li key={index}>{task.question}</li>
                       ))}
                     </ul>
                   </>
@@ -227,7 +204,7 @@ function InfoTask() {
                     <h3>Middels</h3>
                     <ul className="list-disc list-inside mb-4">
                       {activityData.tasks.medium.map((task, index) => (
-                        <li key={index}>{task}</li>
+                        <li key={index}>{task.question}</li>
                       ))}
                     </ul>
                   </>
@@ -238,7 +215,7 @@ function InfoTask() {
                     <h3>Vanskelig</h3>
                     <ul className="list-disc list-inside">
                       {activityData.tasks.hard.map((task, index) => (
-                        <li key={index}>{task}</li>
+                        <li key={index}>{task.question}</li>
                       ))}
                     </ul>
                   </>

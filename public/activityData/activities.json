@@ -3,10 +3,10 @@
     "id": "mattesheriff",
     "title": "Mattesheriff",
     "description": "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke. For mer konkurranse: Den siste eleven som svarer i hver runde, går ut av leken. Når det bare er to elever igjen, blir det en duell. Læreren sier først et mål-tall (f.eks. 12). Deretter sier læreren ett og ett mattestykke høyt (f.eks. 7 + 5, 3 + 8, 6 + 6 osv.). De to elevene følger nøye med rygg mot rygg, og skal skyte mot hverandre dersom summen i regnestykket er lik mål-tallet.",
-    "time": "",
+    "time": "5 min",
     "image": "/public/activityPictures/sheriff.png",
     "tools": "Ingen",
-    "location": "",
+    "location": "Inne/ute",
     "grade": "Andre årstrinn, Femte årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },

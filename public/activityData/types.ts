@@ -1,5 +1,7 @@
 // Types for game descriptions and data structures
 
+import type { Task } from "./tasks/types"; // import from task types
+
 export interface GameDescription {
   id: string;
   title: string;
@@ -9,16 +11,17 @@ export interface GameDescription {
   competencyGoals: string[];
   description: string;
   tasks: {
-    easy: string[];
-    medium: string[];
-    hard: string[];
+    easy: Task[];  
+    medium: Task[];
+    hard: Task[];
   };
   gradeMapping: {
-    [grade: string]: string[]; // Which difficulty levels are suitable for each grade
+    [grade: string]: string[];
   };
   variations: string;
   reflectionQuestions: string;
 }
+
 
 export interface GameDescriptions {
   [gameId: string]: GameDescription;
