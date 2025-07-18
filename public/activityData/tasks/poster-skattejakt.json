@@ -1,10 +1,15 @@
 {
   "activityId": "poster-skattejakt",
   "activityTitle": "Poster i klasserommet / skattejakt",
-  "totalTasks": 9,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Tredje årstrinn"
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Tredje årstrinn": {

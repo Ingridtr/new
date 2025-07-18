@@ -1,12 +1,15 @@
 {
   "activityId": "hoderegning-kortstokk",
   "activityTitle": "Hoderegning med kortstokk",
-  "totalTasks": 27,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Femte årstrinn",
     "Andre årstrinn",
-    "Fjerde årstrinn"
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Femte årstrinn": {

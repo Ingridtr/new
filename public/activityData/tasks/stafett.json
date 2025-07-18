@@ -1,11 +1,15 @@
 {
   "activityId": "stafett",
   "activityTitle": "Stafett",
-  "totalTasks": 18,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
     "Femte årstrinn",
-    "Tredje årstrinn"
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Femte årstrinn": {
@@ -165,6 +169,326 @@
           "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
           "question": "Hva er 15 × 12?",
           "answer": "180"
+        }
+      ]
+    },
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "stafett_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "beskrive eigenskapar ved og minimums- og maksimumsgrenser for mengder ved å telje, måle, veie og samanlikne",
+          "question": "Hva er 2 + 3?",
+          "answer": "5"
+        },
+        {
+          "id": "stafett_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "beskrive eigenskapar ved og minimums- og maksimumsgrenser for mengder ved å telje, måle, veie og samanlikne",
+          "question": "Hva er 4 + 1?",
+          "answer": "5"
+        },
+        {
+          "id": "stafett_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "beskrive eigenskapar ved og minimums- og maksimumsgrenser for mengder ved å telje, måle, veie og samanlikne",
+          "question": "Hva er 6 - 2?",
+          "answer": "4"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stafett_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytta til koordinatsystem",
+          "question": "Hva er 7 + 5?",
+          "answer": "12"
+        },
+        {
+          "id": "stafett_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytta til koordinatsystem",
+          "question": "Hva er 9 + 6?",
+          "answer": "15"
+        },
+        {
+          "id": "stafett_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytta til koordinatsystem",
+          "question": "Hva er 14 - 8?",
+          "answer": "6"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stafett_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "telje til 100, skippe-telje og telje baklengs",
+          "question": "Hva er 8 + 7?",
+          "answer": "15"
+        },
+        {
+          "id": "stafett_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "telje til 100, skippe-telje og telje baklengs",
+          "question": "Hva er 12 + 9?",
+          "answer": "21"
+        },
+        {
+          "id": "stafett_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "telje til 100, skippe-telje og telje baklengs",
+          "question": "Hva er 16 - 9?",
+          "answer": "7"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "stafett_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "samanlikne og ordne brøkar, og uttrykkje ein del av ein heilskap som brøk",
+          "question": "Hva er 6 × 4?",
+          "answer": "24"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "samanlikne og ordne brøkar, og uttrykkje ein del av ein heilskap som brøk",
+          "question": "Hva er 7 × 3?",
+          "answer": "21"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "samanlikne og ordne brøkar, og uttrykkje ein del av ein heilskap som brøk",
+          "question": "Hva er 48 ÷ 6?",
+          "answer": "8"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stafett_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "rekne med positive heile tal og enkle brøkar",
+          "question": "Hva er 8 × 7?",
+          "answer": "56"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "rekne med positive heile tal og enkle brøkar",
+          "question": "Hva er 9 × 6?",
+          "answer": "54"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "rekne med positive heile tal og enkle brøkar",
+          "question": "Hva er 72 ÷ 9?",
+          "answer": "8"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stafett_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke eigenskapar ved dei fire rekneartane og samanhengar mellom dei",
+          "question": "Hva er 12 × 11?",
+          "answer": "132"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke eigenskapar ved dei fire rekneartane og samanhengar mellom dei",
+          "question": "Hva er 13 × 8?",
+          "answer": "104"
+        },
+        {
+          "id": "stafett_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke eigenskapar ved dei fire rekneartane og samanhengar mellom dei",
+          "question": "Hva er 144 ÷ 12?",
+          "answer": "12"
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "stafett_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med brøk, desimaltal og prosent og uttrykkje samanhengar mellom dei",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med brøk, desimaltal og prosent og uttrykkje samanhengar mellom dei",
+          "question": "Hva er 0.7 + 0.2?",
+          "answer": "0.9"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med brøk, desimaltal og prosent og uttrykkje samanhengar mellom dei",
+          "question": "Hva er 1.0 - 0.4?",
+          "answer": "0.6"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stafett_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med negative tal",
+          "question": "Hva er 15 × 0.4?",
+          "answer": "6"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med negative tal",
+          "question": "Hva er 12 × 0.25?",
+          "answer": "3"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "rekne med negative tal",
+          "question": "Hva er 8.4 ÷ 2?",
+          "answer": "4.2"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stafett_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "beskrive og generalisere med algebraiske uttrykk",
+          "question": "Hva er 2.5 × 3.2?",
+          "answer": "8"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "beskrive og generalisere med algebraiske uttrykk",
+          "question": "Hva er 4.8 × 1.25?",
+          "answer": "6"
+        },
+        {
+          "id": "stafett_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "beskrive og generalisere med algebraiske uttrykk",
+          "question": "Hva er 15.6 ÷ 3?",
+          "answer": "5.2"
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "stafett_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "rekne med potenser med positive heiltal som eksponent",
+          "question": "Hva er 2³?",
+          "answer": "8"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "rekne med potenser med positive heiltal som eksponent",
+          "question": "Hva er 3²?",
+          "answer": "9"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "rekne med potenser med positive heiltal som eksponent",
+          "question": "Hva er 5²?",
+          "answer": "25"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stafett_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "samanlikne tal på standardform med tal på vanleg form",
+          "question": "Hva er 4³?",
+          "answer": "64"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "samanlikne tal på standardform med tal på vanleg form",
+          "question": "Hva er 6²?",
+          "answer": "36"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "samanlikne tal på standardform med tal på vanleg form",
+          "question": "Hva er 2⁴?",
+          "answer": "16"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stafett_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "setje opp og løyse lineære likningar og ulikskapar og tolke løysinga",
+          "question": "Hva er 3⁴?",
+          "answer": "81"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "setje opp og løyse lineære likningar og ulikskapar og tolke løysinga",
+          "question": "Hva er 5³?",
+          "answer": "125"
+        },
+        {
+          "id": "stafett_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "setje opp og løyse lineære likningar og ulikskapar og tolke løysinga",
+          "question": "Hva er 2⁵?",
+          "answer": "32"
         }
       ]
     }

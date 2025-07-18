@@ -1,10 +1,15 @@
 {
   "activityId": "problemlosning-hverdagen",
   "activityTitle": "Problemløsning fra hverdagen",
-  "totalTasks": 9,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Femte årstrinn"
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Femte årstrinn": {

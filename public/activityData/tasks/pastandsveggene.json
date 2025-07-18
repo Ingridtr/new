@@ -1,10 +1,15 @@
 {
   "activityId": "pastandsveggene",
   "activityTitle": "Påstandveggene",
-  "totalTasks": 9,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Andre årstrinn"
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Andre årstrinn": {

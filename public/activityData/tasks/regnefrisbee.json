@@ -1,10 +1,15 @@
 {
   "activityId": "regnefrisbee",
   "activityTitle": "Regnefrisbee",
-  "totalTasks": 9,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Fjerde årstrinn"
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Fjerde årstrinn": {

@@ -1,13 +1,97 @@
 {
   "activityId": "stiv-heks",
   "activityTitle": "Stiv heks",
-  "totalTasks": 18,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
+    "Andre årstrinn",
     "Tredje årstrinn",
-    "Femte årstrinn"
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "stiv-heks_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
+          "question": "Hva er 2 + 3?",
+          "answer": "5"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
+          "question": "Hva er 4 + 1?",
+          "answer": "5"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
+          "question": "Hva er 6 - 2?",
+          "answer": "4"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stiv-heks_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "Hva er 7 + 3?",
+          "answer": "10"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "Hva er 9 - 4?",
+          "answer": "5"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "Hva er 8 + 2?",
+          "answer": "10"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stiv-heks_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Hva er 12 + 6?",
+          "answer": "18"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Hva er 15 - 8?",
+          "answer": "7"
+        },
+        {
+          "id": "stiv-heks_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Hva er 14 + 5?",
+          "answer": "19"
+        }
+      ]
+    },
     "Tredje årstrinn": {
       "easy": [
         {
@@ -165,6 +249,246 @@
           "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
           "question": "Hva er 15 × 12?",
           "answer": "180"
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "easy": [
+        {
+          "id": "stiv-heks_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 12 ÷ 3?",
+          "answer": "4"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 15 ÷ 5?",
+          "answer": "3"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Hva er 8 × 2?",
+          "answer": "16"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stiv-heks_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "Hva er 24 ÷ 6?",
+          "answer": "4"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "Hva er 45 ÷ 9?",
+          "answer": "5"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "Hva er 7 × 8?",
+          "answer": "56"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stiv-heks_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 144 ÷ 12?",
+          "answer": "12"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 168 ÷ 14?",
+          "answer": "12"
+        },
+        {
+          "id": "stiv-heks_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 13 × 11?",
+          "answer": "143"
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "stiv-heks_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er -5 + 12?",
+          "answer": "7"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er 3/4 + 1/4?",
+          "answer": "1"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er 0.5 + 0.3?",
+          "answer": "0.8"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stiv-heks_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": "Hva er -8 + 15?",
+          "answer": "7"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": "Hva er 2/3 + 1/6?",
+          "answer": "5/6"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": "Hva er 2.4 × 3?",
+          "answer": "7.2"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stiv-heks_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er -12 + 25?",
+          "answer": "13"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 3/5 × 2/7?",
+          "answer": "6/35"
+        },
+        {
+          "id": "stiv-heks_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+          "question": "Hva er 15.6 ÷ 4?",
+          "answer": "3.9"
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "stiv-heks_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er 20% av 50?",
+          "answer": "10"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er 3:4 som prosent?",
+          "answer": "75%"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er √49?",
+          "answer": "7"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stiv-heks_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er 30% av 120?",
+          "answer": "36"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Løs likninga: x + 15 = 28",
+          "answer": "x = 13"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+          "question": "Hva er √81?",
+          "answer": "9"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stiv-heks_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+          "question": "Hva er 15% av 240?",
+          "answer": "36"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+          "question": "Løs likninga: 3x - 7 = 26",
+          "answer": "x = 11"
+        },
+        {
+          "id": "stiv-heks_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+          "question": "Hva er √144?",
+          "answer": "12"
         }
       ]
     }
