@@ -6,7 +6,6 @@
   "supportedGrades": [
     "Fjerde årstrinn"
   ],
-
   "grades": {
     "Fjerde årstrinn": {
       "easy": [
@@ -16,8 +15,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_easy_2",
@@ -25,8 +23,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_easy_3",
@@ -34,8 +31,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -45,8 +41,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_medium_2",
@@ -54,8 +49,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_medium_3",
@@ -63,8 +57,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ],
       "hard": [
@@ -74,8 +67,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 147 + 89?",
-          "answer": "236",
-          "type": "addition"
+          "answer": "236"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_hard_2",
@@ -83,8 +75,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 204 - 78?",
-          "answer": "126",
-          "type": "subtraction"
+          "answer": "126"
         },
         {
           "id": "nappe-hale_fjerde_årstrinn_hard_3",
@@ -92,11 +83,9 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet av måleining",
           "question": "Hva er 15 × 12?",
-          "answer": "180",
-          "type": "multiplication"
+          "answer": "180"
         }
       ]
     }
-    
   }
 }

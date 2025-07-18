@@ -4,11 +4,9 @@
   "totalTasks": 18,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    
     "Tredje årstrinn",
     "Andre årstrinn"
   ],
-
   "grades": {
     "Første årstrinn": {
       "easy": [
@@ -18,8 +16,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_første_årstrinn_easy_2",
@@ -27,8 +24,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_første_årstrinn_easy_3",
@@ -36,8 +32,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -47,8 +42,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 + 1?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_første_årstrinn_medium_2",
@@ -56,8 +50,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 9 - 4?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         },
         {
           "id": "hundrenett_første_årstrinn_medium_3",
@@ -65,8 +58,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 2 + 3?",
-          "answer": "5",
-          "type": "addition"
+          "answer": "5"
         }
       ],
       "hard": [
@@ -76,8 +68,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "hundrenett_første_årstrinn_hard_2",
@@ -85,8 +76,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "hundrenett_første_årstrinn_hard_3",
@@ -94,8 +84,7 @@
           "grade": "Første årstrinn",
           "learningGoal": "Generell matematisk kompetanse",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ]
     },
@@ -107,8 +96,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_tredje_årstrinn_easy_2",
@@ -116,8 +104,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_tredje_årstrinn_easy_3",
@@ -125,8 +112,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -136,8 +122,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "hundrenett_tredje_årstrinn_medium_2",
@@ -145,8 +130,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "hundrenett_tredje_årstrinn_medium_3",
@@ -154,8 +138,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ],
       "hard": [
@@ -165,8 +148,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 147 + 89?",
-          "answer": "236",
-          "type": "addition"
+          "answer": "236"
         },
         {
           "id": "hundrenett_tredje_årstrinn_hard_2",
@@ -174,8 +156,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 204 - 78?",
-          "answer": "126",
-          "type": "subtraction"
+          "answer": "126"
         },
         {
           "id": "hundrenett_tredje_årstrinn_hard_3",
@@ -183,8 +164,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
           "question": "Hva er 15 × 12?",
-          "answer": "180",
-          "type": "multiplication"
+          "answer": "180"
         }
       ]
     },
@@ -196,8 +176,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_andre_årstrinn_easy_2",
@@ -205,8 +184,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_andre_årstrinn_easy_3",
@@ -214,8 +192,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -225,8 +202,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 6 + 1?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "hundrenett_andre_årstrinn_medium_2",
@@ -234,8 +210,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 9 - 4?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         },
         {
           "id": "hundrenett_andre_årstrinn_medium_3",
@@ -243,8 +218,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 2 + 3?",
-          "answer": "5",
-          "type": "addition"
+          "answer": "5"
         }
       ],
       "hard": [
@@ -254,8 +228,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "hundrenett_andre_årstrinn_hard_2",
@@ -263,8 +236,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "hundrenett_andre_årstrinn_hard_3",
@@ -272,8 +244,7 @@
           "grade": "Andre årstrinn",
           "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ]
     }

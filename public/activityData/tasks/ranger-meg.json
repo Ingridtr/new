@@ -5,9 +5,7 @@
   "tasksPerGrade": 9,
   "supportedGrades": [
     "Tredje årstrinn"
-   
   ],
-
   "grades": {
     "Tredje årstrinn": {
       "easy": [
@@ -17,8 +15,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvor mange minutter er det i en time?",
-          "answer": "60",
-          "type": "time_units"
+          "answer": "60"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_easy_2",
@@ -26,8 +23,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvilken tid viser klokka når den lille viseren peker på 3 og den store på 12?",
-          "answer": "03:00",
-          "type": "clock_reading"
+          "answer": "03:00"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_easy_3",
@@ -35,8 +31,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvor mange timer er det i en dag?",
-          "answer": "24",
-          "type": "time_units"
+          "answer": "24"
         }
       ],
       "medium": [
@@ -46,8 +41,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvis klokka er 14:30, hvor mange minutter er det til klokka 15:00?",
-          "answer": "30",
-          "type": "time_calculation"
+          "answer": "30"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_medium_2",
@@ -55,8 +49,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hva er klokka hvis det er kvart over åtte på morgenen?",
-          "answer": "08:15",
-          "type": "time_expression"
+          "answer": "08:15"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_medium_3",
@@ -64,8 +57,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvor lenge er det fra 13:45 til 14:15?",
-          "answer": "30 minutter",
-          "type": "time_duration"
+          "answer": "30 minutter"
         }
       ],
       "hard": [
@@ -75,8 +67,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvis et tog går klokka 09:25 og reisen tar 2 timer og 40 minutter, når kommer det frem?",
-          "answer": "12:05",
-          "type": "time_calculation"
+          "answer": "12:05"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_hard_2",
@@ -84,8 +75,7 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvor mange sekunder er det i 5 minutter?",
-          "answer": "300",
-          "type": "time_conversion"
+          "answer": "300"
         },
         {
           "id": "ranger-meg_tredje_årstrinn_hard_3",
@@ -93,11 +83,9 @@
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
           "question": "Hvis det er 15:45 nå, hva var klokka for 3 timer og 20 minutter siden?",
-          "answer": "12:25",
-          "type": "time_calculation"
+          "answer": "12:25"
         }
       ]
     }
-    
   }
 }

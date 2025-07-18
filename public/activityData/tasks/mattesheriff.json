@@ -1,14 +1,16 @@
 {
   "activityId": "mattesheriff",
   "activityTitle": "Mattesheriff",
-  "totalTasks": 27,
+  "totalTasks": 54,
   "tasksPerGrade": 9,
   "supportedGrades": [
     "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
     "Femte årstrinn",
-    "Fjerde årstrinn"
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
-
   "grades": {
     "Andre årstrinn": {
       "easy": [
@@ -16,28 +18,25 @@
           "id": "mattesheriff_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -45,28 +44,25 @@
           "id": "mattesheriff_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
           "question": "Hva er 6 + 1?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
           "question": "Hva er 9 - 4?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         },
         {
           "id": "mattesheriff_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
           "question": "Hva er 2 + 3?",
-          "answer": "5",
-          "type": "addition"
+          "answer": "5"
         }
       ],
       "hard": [
@@ -74,28 +70,25 @@
           "id": "mattesheriff_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "mattesheriff_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "mattesheriff_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
-          "learningGoal": "utforske den kommutative og den assosiative eigenskapen ved addisjon og bruke dette i hovudrekning",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ]
     },
@@ -107,8 +100,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_femte_årstrinn_easy_2",
@@ -116,8 +108,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_femte_årstrinn_easy_3",
@@ -125,8 +116,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -136,8 +126,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "mattesheriff_femte_årstrinn_medium_2",
@@ -145,8 +134,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "mattesheriff_femte_årstrinn_medium_3",
@@ -154,8 +142,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ],
       "hard": [
@@ -165,8 +152,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 147 + 89?",
-          "answer": "236",
-          "type": "addition"
+          "answer": "236"
         },
         {
           "id": "mattesheriff_femte_årstrinn_hard_2",
@@ -174,8 +160,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 204 - 78?",
-          "answer": "126",
-          "type": "subtraction"
+          "answer": "126"
         },
         {
           "id": "mattesheriff_femte_årstrinn_hard_3",
@@ -183,8 +168,7 @@
           "grade": "Femte årstrinn",
           "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
           "question": "Hva er 15 × 12?",
-          "answer": "180",
-          "type": "multiplication"
+          "answer": "180"
         }
       ]
     },
@@ -196,8 +180,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 3 + 4?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_easy_2",
@@ -205,8 +188,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 5 + 2?",
-          "answer": "7",
-          "type": "addition"
+          "answer": "7"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_easy_3",
@@ -214,8 +196,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 8 - 3?",
-          "answer": "5",
-          "type": "subtraction"
+          "answer": "5"
         }
       ],
       "medium": [
@@ -225,8 +206,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 12 + 8?",
-          "answer": "20",
-          "type": "addition"
+          "answer": "20"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_medium_2",
@@ -234,8 +214,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 15 - 7?",
-          "answer": "8",
-          "type": "subtraction"
+          "answer": "8"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_medium_3",
@@ -243,8 +222,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 6 × 3?",
-          "answer": "18",
-          "type": "multiplication"
+          "answer": "18"
         }
       ],
       "hard": [
@@ -254,8 +232,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 147 + 89?",
-          "answer": "236",
-          "type": "addition"
+          "answer": "236"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_hard_2",
@@ -263,8 +240,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 204 - 78?",
-          "answer": "126",
-          "type": "subtraction"
+          "answer": "126"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_hard_3",
@@ -272,8 +248,247 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er 15 × 12?",
-          "answer": "180",
-          "type": "multiplication"
+          "answer": "180"
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Hva er 4 + 5?",
+          "answer": "9"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Hva er 7 + 2?",
+          "answer": "9"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Hva er 10 - 4?",
+          "answer": "6"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+          "question": "Hva er 13 + 9?",
+          "answer": "22"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+          "question": "Hva er 18 - 9?",
+          "answer": "9"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+          "question": "Hva er 7 × 4?",
+          "answer": "28"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 156 + 97?",
+          "answer": "253"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 234 - 89?",
+          "answer": "145"
+        },
+        {
+          "id": "mattesheriff_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+          "question": "Hva er 18 × 6?",
+          "answer": "108"
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er 8 + 7?",
+          "answer": "15"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er 12 + 9?",
+          "answer": "21"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske og beskrive eigenskapane til naturlege tal, heile tal og positive rasjonale tal og bruke dei i rekning",
+          "question": "Hva er 16 - 8?",
+          "answer": "8"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke koordinatsystem til å plassere og gjenfinne punkt og beskrive mellomplasseringaringar",
+          "question": "Hva er 25 + 18?",
+          "answer": "43"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke koordinatsystem til å plassere og gjenfinne punkt og beskrive mellomplasseringaringar",
+          "question": "Hva er 34 - 17?",
+          "answer": "17"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke koordinatsystem til å plassere og gjenfinne punkt og beskrive mellomplasseringaringar",
+          "question": "Hva er 12 × 8?",
+          "answer": "96"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske samanhengar mellom brøk, prosent og desimaltal og plassere desse på tallinja",
+          "question": "Hva er 287 + 156?",
+          "answer": "443"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske samanhengar mellom brøk, prosent og desimaltal og plassere desse på tallinja",
+          "question": "Hva er 345 - 189?",
+          "answer": "156"
+        },
+        {
+          "id": "mattesheriff_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske samanhengar mellom brøk, prosent og desimaltal og plassere desse på tallinja",
+          "question": "Hva er 24 × 15?",
+          "answer": "360"
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "mattesheriff_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er 15 + 12?",
+          "answer": "27"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er 18 + 14?",
+          "answer": "32"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare kva som kjenneteiknar proporsjonale samanhengar og bruke dei til å løyse problem",
+          "question": "Hva er 25 - 13?",
+          "answer": "12"
+        }
+      ],
+      "medium": [
+        {
+          "id": "mattesheriff_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og omsetje mellom brøk, prosent og desimaltal og bruke desse til å løyse problem",
+          "question": "Hva er 36 + 28?",
+          "answer": "64"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og omsetje mellom brøk, prosent og desimaltal og bruke desse til å løyse problem",
+          "question": "Hva er 47 - 19?",
+          "answer": "28"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og omsetje mellom brøk, prosent og desimaltal og bruke desse til å løyse problem",
+          "question": "Hva er 16 × 12?",
+          "answer": "192"
+        }
+      ],
+      "hard": [
+        {
+          "id": "mattesheriff_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare korrelasjon og kausalitet i praktiske døme og presentere og drøfte moglege tolkingar",
+          "question": "Hva er 425 + 289?",
+          "answer": "714"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare korrelasjon og kausalitet i praktiske døme og presentere og drøfte moglege tolkingar",
+          "question": "Hva er 567 - 298?",
+          "answer": "269"
+        },
+        {
+          "id": "mattesheriff_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og forklare korrelasjon og kausalitet i praktiske døme og presentere og drøfte moglege tolkingar",
+          "question": "Hva er 35 × 18?",
+          "answer": "630"
         }
       ]
     }

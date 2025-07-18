@@ -6,7 +6,6 @@
   "supportedGrades": [
     "Fjerde årstrinn"
   ],
-
   "grades": {
     "Fjerde årstrinn": {
       "easy": [
@@ -16,8 +15,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange sider har en trekant?",
-          "answer": "3",
-          "type": "shape_properties"
+          "answer": "3"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_easy_2",
@@ -25,8 +23,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange hjørner har en firkant?",
-          "answer": "4",
-          "type": "shape_properties"
+          "answer": "4"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_easy_3",
@@ -34,8 +31,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva kalles en figur med fire like sider?",
-          "answer": "kvadrat",
-          "type": "shape_identification"
+          "answer": "kvadrat"
         }
       ],
       "medium": [
@@ -45,8 +41,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_medium_2",
@@ -54,8 +49,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange grader er det i en sirkel?",
-          "answer": "360",
-          "type": "angles"
+          "answer": "360"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_medium_3",
@@ -63,8 +57,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
-          "answer": "14",
-          "type": "perimeter"
+          "answer": "14"
         }
       ],
       "hard": [
@@ -74,8 +67,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
-          "answer": "24",
-          "type": "area"
+          "answer": "24"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_hard_2",
@@ -83,8 +75,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hvor mange grader er det i en rett vinkel?",
-          "answer": "90",
-          "type": "angles"
+          "answer": "90"
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_hard_3",
@@ -92,8 +83,7 @@
           "grade": "Fjerde årstrinn",
           "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
           "question": "Hva er radiusen til en sirkel med diameter 14?",
-          "answer": "7",
-          "type": "circle_properties"
+          "answer": "7"
         }
       ]
     }
