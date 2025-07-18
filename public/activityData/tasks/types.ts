@@ -1,7 +1,8 @@
 // Auto-generated TypeScript types for task files
-// Generated on: 2025-07-17T11:29:23.322Z
+
 
 export interface Task {
+  text: any;
   id: string;
   difficulty: 'easy' | 'medium' | 'hard';
   question: string;
