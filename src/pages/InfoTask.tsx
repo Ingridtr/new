@@ -3,12 +3,9 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import {
-  getTasksByActivityId,
-  getAllTasksForActivity,
-} from "../../public/activityData/tasks/index";
-import { Game, GameDescription } from "../../public/activityData/types";
-import { Task } from "../../public/activityData/tasks/types";
+import {getAllTasksForActivity,} from "../../public/activityData/tasks/index";
+import { GameDescription } from "../../public/activityData/types";
+
 import gamesMetadata from "../../public/activityData/activities.json"; // adjust path if needed
 
 
@@ -20,15 +17,10 @@ function InfoTask() {
   const [activityData, setActivityData] = useState<GameDescription | null>(
     null
   );
-  const [tasks, setTasks] = useState<Task[]>([]);
-  const [currentGrade, setCurrentGrade] = useState<string>("1-2");
 
   useEffect(() => {
   const fetchData = async () => {
-    const start = performance.now();
     const storedGameId = localStorage.getItem("selectedGameId");
-    const storedGameTitle = localStorage.getItem("selectedGame");
-    const storedGrade = localStorage.getItem("selectedGrade");
     const storedLearningGoal = localStorage.getItem("selectedLearningGoal");
 
 
@@ -64,18 +56,12 @@ function InfoTask() {
       gradeMapping: {}, // optional
       variations: "",
       reflectionQuestions: "",
-    };
+    };setActivityData(modifiedGameData);
 
-
-    setActivityData(modifiedGameData);
-    const end = performance.now(); // END TIMER
-    console.log(`⏱️ Loaded activity data in ${(end - start).toFixed(2)} ms`);
   };
 
   fetchData();
-}, [currentGrade]);
-
-
+  }, []);
 
   const handleShowOnScreen = () => {
     window.open(currentGameImage, "_blank");
