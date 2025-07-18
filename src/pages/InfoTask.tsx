@@ -53,7 +53,7 @@ function InfoTask() {
       location: baseMetadata.location || "",
       duration: baseMetadata.time || "",
       tools: baseMetadata.tools.split(",").map((t) => t.trim()),
-      competencyGoals: [],
+      competencyGoals: storedLearningGoal ? [storedLearningGoal] : [],
       description: baseMetadata.description,
       tasks: {
         easy: allTasks.filter((t) => t.difficulty === "easy"),
@@ -155,7 +155,11 @@ function InfoTask() {
                 tools={activityData.tools}
                 competencyGoals={activityData.competencyGoals}
                 description={activityData.description}
-                tasks={activityData.tasks}
+                tasks={{
+                  easy: activityData.tasks.easy.map(task => task.question),
+                  medium: activityData.tasks.medium.map(task => task.question),
+                  hard: activityData.tasks.hard.map(task => task.question),
+                }}
                 variations={activityData.variations}
                 reflectionQuestions={activityData.reflectionQuestions}
               />

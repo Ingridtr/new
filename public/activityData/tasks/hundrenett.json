@@ -1,10 +1,10 @@
 {
   "activityId": "hundrenett",
   "activityTitle": "Hundrenett",
-  "totalTasks": 27,
+  "totalTasks": 18,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Første årstrinn",
+    
     "Tredje årstrinn",
     "Andre årstrinn"
   ],
