@@ -3,7 +3,7 @@ interface PrintComponentProps {
   location: string;
   duration: string;
   tools: string[];
-  competencyGoals: string[];
+  learningGoals: string[];
   description: string;
   tasks: {
     easy: string[];
@@ -19,7 +19,7 @@ function PrintComponent({
   location,
   duration,
   tools,
-  competencyGoals,
+  learningGoals,
   description,
   tasks,
   variations,
@@ -123,7 +123,7 @@ function PrintComponent({
               <h1>${title}</h1>
               <h2>Kobling til kompetansemål</h2>
               <ul>
-                ${competencyGoals.map((goal) => `<li>${goal}</li>`).join("")}
+                ${learningGoals.map((goal) => `<li>${goal}</li>`).join("")}
               </ul>
             </div>
 
