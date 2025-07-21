@@ -24,7 +24,7 @@ function InfoTask() {
     const storedLearningGoal = localStorage.getItem("selectedLearningGoal");
 
 
-    let taskId = storedGameId;
+    const taskId = storedGameId;
 
 
     if (!taskId) {
