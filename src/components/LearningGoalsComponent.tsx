@@ -42,7 +42,7 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
         aria-labelledby="learning-goals-heading"
         className="w-full max-w-4xl"
       >
-        <h2 id="learning-goals-heading" className="sr-only">
+        <h2  className="sr-only">
           Tilgjengelige kompetansemål for valgt trinn
         </h2>
         
@@ -55,18 +55,18 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
             aria-label={`Velg kompetansemål ${index + 1}: ${goal}`}
             type="button"
           >
-            <h3 className="font-semibold mb-2" aria-hidden="true">
+            <h3 aria-hidden="true">
               Kompetansemål {index + 1}
             </h3>
-            <p className="text-black" aria-hidden="true">
+            <p aria-hidden="true">
               {goal}
             </p>
             
             {/* Screen reader content */}
-            <div className="sr-only">
+            <p className="sr-only">
               Kompetansemål {index + 1} av {goals.length}: {goal}. 
               Trykk for å se tilgjengelige aktiviteter for dette målet.
-            </div>
+            </p>
           </button>
         ))}
       </div>

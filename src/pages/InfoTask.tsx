@@ -23,7 +23,8 @@ function InfoTask() {
     const storedGameId = localStorage.getItem("selectedGameId");
     const storedLearningGoal = localStorage.getItem("selectedLearningGoal");
 
-    let taskId = storedGameId;
+
+    const taskId = storedGameId;
 
     if (!taskId) {
       console.error("No task ID found.");
