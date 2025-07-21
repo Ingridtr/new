@@ -1,4 +1,6 @@
 // Types for game descriptions and data structures
+
+// Full activity data with all details
 export interface ActivityDescription {
   id: string;
   title: string;
@@ -13,18 +15,11 @@ export interface ActivityDescription {
     medium: Task[];
     hard: Task[];
   };
-  grade?: {
-    [grade: string]: string[];
-  };
   variations: string;
   reflectionQuestions: string;
 }
 
-
-export interface ActivityDescriptions {
-  [gameId: string]: ActivityDescription;
-}
-
+// Lightweight activity data for lists/summaries
 export interface Activity {
   id: string;
   title: string;
@@ -42,7 +37,6 @@ export interface ActivitiesDatabase {
 
 
 export interface Task {
-  title: any;
   id: string;
   difficulty: 'easy' | 'medium' | 'hard';
   question: string;
