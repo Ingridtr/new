@@ -1,10 +1,5 @@
-// Task Files Index
-// Auto-generated index for all task files
 
-// Import types from the auto-generated types file
-import type { Task, TaskFile, GradeName, GradeTasks } from './types';
-
-
+import type { Task, TaskFile, GradeName, GradeTasks } from '../types';
 
 export type { Task, TaskFile, GradeName, GradeTasks };
 
@@ -60,20 +55,4 @@ export async function getSupportedGrades(activityId: string): Promise<string[]> 
 }
 
 
-// Helper function to get task statistics
-export async function getTaskStatistics(activityId: string): Promise<{
-  totalTasks: number;
-  tasksPerGrade: number;
-  gradeCount: number;
-  supportedGrades: string[];
-} | null> {
-  const taskFile = await loadTaskFile(activityId);
-  if (!taskFile) return null;
-  
-  return {
-    totalTasks: taskFile.totalTasks,
-    tasksPerGrade: taskFile.tasksPerGrade,
-    gradeCount: taskFile.supportedGrades.length,
-    supportedGrades: taskFile.supportedGrades
-  };
-}
+

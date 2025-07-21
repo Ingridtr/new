@@ -1,12 +1,10 @@
 // Types for game descriptions and data structures
-
-import type { Task } from "./tasks/types"; // import from task types
-
-export interface GameDescription {
+export interface ActivityDescription {
   id: string;
   title: string;
   location: string;
   duration: string;
+  image: string;
   tools: string[];
   learningGoals: string[];
   description: string;
@@ -15,7 +13,7 @@ export interface GameDescription {
     medium: Task[];
     hard: Task[];
   };
-  gradeMapping: {
+  grade?: {
     [grade: string]: string[];
   };
   variations: string;
@@ -23,11 +21,11 @@ export interface GameDescription {
 }
 
 
-export interface GameDescriptions {
-  [gameId: string]: GameDescription;
+export interface ActivityDescriptions {
+  [gameId: string]: ActivityDescription;
 }
 
-export interface Game {
+export interface Activity {
   id: string;
   title: string;
   image: string;
@@ -36,31 +34,46 @@ export interface Game {
   tools: string;
 }
 
-export interface GamesDatabase {
+export interface ActivitiesDatabase {
   [grade: string]: {
-    [competencyId: number]: Game[];
+    [competencyId: number]: Activity[];
   };
 }
 
-export interface Competency {
-  id: number;
-  title: string;
-  description: string;
+
+export interface Task {
+  title: any;
+  id: string;
+  difficulty: 'easy' | 'medium' | 'hard';
+  question: string;
+  answer: string;
+  type: string;
+  grade: string; 
+  learningGoal: string; 
 }
 
-export interface CompetenciesData {
-  [grade: string]: Competency[];
+export interface GradeTasks {
+  easy?: Task[];
+  medium?: Task[];
+  hard?: Task[];
+  tasks?: Task[]; // For non-9 task activities
 }
+export type GradeName = 
+  | 'Andre årstrinn'
+  | 'Tredje årstrinn'
+  | 'Fjerde årstrinn'
+  | 'Femte årstrinn'
+  | 'Sjette årstrinn'
+  | 'Syende årstrinn';
 
-export interface CompetencyData {
-  [grade: string]: {
-    [competencyId: number]: string;
-  };
-}
 
-// Helper type to get tasks for specific grade and difficulty
-export interface TasksForGrade {
-  easy?: string[];
-  medium?: string[];
-  hard?: string[];
+
+  export interface TaskFile {
+  activityId: string;
+  activityTitle: string;
+  totalTasks: number;
+  tasksPerGrade: number;
+  supportedGrades: string[];
+  generatedAt: string;
+  grades: { [gradeName: string]: GradeTasks };
 }

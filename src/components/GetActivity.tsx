@@ -1,31 +1,5 @@
 import { useEffect, useState } from "react";
-
-type Activity = {
-  id: string;
-  title: string;
-  description: string;
-  time: string;
-  image: string;
-  tools: string;
-  location: string;
-  grade: string;
-  number_of_tasks: number;
-};
-export type ActivityDetails = {
-  activityId: string;
-  activityTitle: string;
-  totalTasks: number;
-  tasksPerGrade: number;
-  supportedGrades: string[];
-  generatedAt: string;
-  grades: {
-    [grade: string]: {
-      easy?: Question[];
-      medium?: Question[];
-      hard?: Question[];
-    };
-  };
-};
+import { ActivityDescription, Task, TaskFile } from "../../public/activityData/types";
 
 export type Question = {
   id: string;
@@ -36,32 +10,53 @@ export type Question = {
   answer: string;
   type: string;
 };
-type CombinedActivity = Activity & {
-  learningGoal: string[];
-};
 
-export function Activities(
-  selectedGrade: string | null,
-  selectedGoal: string | null,
-) {
-  const [activities, setActivities] = useState<CombinedActivity[]>([]);
-  
+export async function loadTaskFile(activityId: string): Promise<TaskFile | null> {
+  try {
+    const response = await fetch(`/activityData/tasks/${activityId}.json`);
+    if (!response.ok) {
+      console.error(`Failed to fetch ${activityId}.json: ${response.status} ${response.statusText}`);
+      return null;
+    }
+    return await response.json();
+  } catch (error) {
+    console.error(`Failed to load tasks for ${activityId}:`, error);
+    return null;
+  }
+}
+
+export async function getAllTasksForActivity(activityId: string): Promise<Task[]> {
+  const taskFile = await loadTaskFile(activityId);
+  if (!taskFile) return [];
+
+  const allTasks: Task[] = [];
+
+  Object.values(taskFile.grades).forEach((gradeTasks) => {
+    if (gradeTasks.easy) allTasks.push(...gradeTasks.easy);
+    if (gradeTasks.medium) allTasks.push(...gradeTasks.medium);
+    if (gradeTasks.hard) allTasks.push(...gradeTasks.hard);
+    if (gradeTasks.tasks) allTasks.push(...gradeTasks.tasks);
+  });
+
+  return allTasks;
+}
+
+// ✅ Custom Hook
+export function Activities(selectedGrade: string | null, selectedGoal: string | null) {
+  const [activities, setActivities] = useState<ActivityDescription[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const actRes = await fetch("/activityData/activities.json");
-        const baseActivities: Activity[] = await actRes.json();
+        const baseActivities: ActivityDescription[] = await actRes.json();
 
-        const matchedActivities: CombinedActivity[] = [];
-
-        // Fetch all activity details in parallel to avoid waterfall requests
         const fetchPromises = baseActivities.map(async (activity) => {
           try {
             const detailRes = await fetch(`/activityData/tasks/${activity.id}.json`);
             if (!detailRes.ok) return null;
-            
-            const details: ActivityDetails = await detailRes.json();
+
+            const details: TaskFile = await detailRes.json();
             return { activity, details };
           } catch (error) {
             console.error(`Failed to fetch details for ${activity.id}:`, error);
@@ -71,45 +66,42 @@ export function Activities(
 
         const results = await Promise.all(fetchPromises);
 
-        // Process results after all fetches complete
+        const matchedActivities: ActivityDescription[] = [];
+
         for (const result of results) {
           if (!result) continue;
-          
+
           const { activity, details } = result;
-          const gradeData = details.grades[selectedGrade ?? ""] ?? {};
-          const allQuestions: Question[] = [
-            ...(gradeData.easy ?? []),
-            ...(gradeData.medium ?? []),
-            ...(gradeData.hard ?? []),
-          ];
 
-          const filteredQuestions = allQuestions.filter((q) =>
-            q.learningGoal.includes(selectedGoal ?? "")
-          );
-
-          if (filteredQuestions.length > 0) {
-            const learningGoals = Array.from(
-              new Set(allQuestions.map((q) => q.learningGoal))
-            );
-
-            matchedActivities.push({
-              ...activity,
-              learningGoal: learningGoals,
-            });
-          }
+          matchedActivities.push({
+            id: activity.id,
+            title: activity.title,
+            description: activity.description,
+            duration: activity.duration,
+            image: activity.image,
+            tools: activity.tools,
+            location: activity.location,
+            learningGoals: activity.learningGoals,
+            tasks: {
+              easy: details.grades?.[selectedGrade ?? ""]?.easy || [],
+              medium: details.grades?.[selectedGrade ?? ""]?.medium || [],
+              hard: details.grades?.[selectedGrade ?? ""]?.hard || [],
+            },
+            variations: activity.variations,
+            reflectionQuestions: activity.reflectionQuestions,
+          });
         }
 
         setActivities(matchedActivities);
       } catch (err) {
         console.error("Feil ved henting av aktiviteter:", err);
       }
-      
     };
 
     fetchData();
   }, [selectedGrade, selectedGoal]);
 
-  return { activities  };
+  return { activities };
 }
 
 export default Activities;

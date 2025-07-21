@@ -4,9 +4,9 @@ import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import {getAllTasksForActivity,} from "../../public/activityData/tasks/index";
-import { GameDescription } from "../../public/activityData/types";
+import { ActivityDescription } from "../../public/activityData/types";
 
-import gamesMetadata from "../../public/activityData/activities.json"; // adjust path if needed
+import ActivitiesMetadata from "../../public/activityData/activities.json"; 
 
 
 
@@ -14,7 +14,7 @@ function InfoTask() {
   const navigate = useNavigate();
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
   const currentGameImage = localStorage.getItem("selectedGameImage") || "";
-  const [activityData, setActivityData] = useState<GameDescription | null>(
+  const [activityData, setActivityData] = useState<ActivityDescription | null>(
     null
   );
 
@@ -30,19 +30,20 @@ function InfoTask() {
       return;
     }
 
-    const baseMetadata = gamesMetadata.find((g) => g.id === taskId);
+    const baseMetadata = ActivitiesMetadata.find((g) => g.id === taskId);
     if (!baseMetadata) {
-      console.error("No metadata found for game:", taskId);
+      console.error("No metadata found for activity:", taskId);
       return;
     }
 
     const allTasks = await getAllTasksForActivity(taskId);
 
-    const modifiedGameData: GameDescription = {
+    const modifiedActivityData: ActivityDescription = {
       id: baseMetadata.id,
       title: baseMetadata.title,
       location: baseMetadata.location || "",
       duration: baseMetadata.time || "",
+      image: baseMetadata.image || "",
       tools: baseMetadata.tools.split(",").map((t) => t.trim()),
       learningGoals: storedLearningGoal ? [storedLearningGoal] : [],
       description: baseMetadata.description,
@@ -51,10 +52,11 @@ function InfoTask() {
         medium: allTasks.filter((t) => t.difficulty === "medium"),
         hard: allTasks.filter((t) => t.difficulty === "hard"),
       },
-      gradeMapping: {}, // optional
+      grade: {}, 
       variations: "",
       reflectionQuestions: "",
-    };setActivityData(modifiedGameData);
+    };
+    setActivityData(modifiedActivityData);
 
   };
 

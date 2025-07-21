@@ -54,7 +54,7 @@ function GameSelection() {
                 navigate("/infoTask");
               };
               console.log("Aktivitet:", activity.title);
-              console.log("Aktivitet ID:", activity.time);
+              console.log("Aktivitet ID:", activity.duration);
               console.log("Aktivitet bilde:", activity.tools);
 
               return (
@@ -62,10 +62,9 @@ function GameSelection() {
                   key={index}
                   title={activity.title}
                   image={activity.image}
-                  time={activity.time}
+                  time={activity.duration}
                   location={activity.location}
-                  tools={activity.tools}
-                  learningGoal={activity.learningGoal}
+                  tools={activity.tools.join(", ")}
                   onClick={handleGameClick}
                 />
               );
