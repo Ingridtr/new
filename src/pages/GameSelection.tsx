@@ -5,7 +5,7 @@ import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 
-import { Activities } from "../components/GetActivity";
+import useActivities from "../components/GetActivity";
 
 
 function GameSelection() {
@@ -21,7 +21,7 @@ function GameSelection() {
   }, []);
 
   const navigate = useNavigate();
-  const { activities } = Activities(selectedGrade, selectedGoal);
+  const { activities } = useActivities(selectedGrade, selectedGoal);
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
@@ -65,7 +65,7 @@ function GameSelection() {
                   time={activity.time}
                   location={activity.location}
                   tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
-                  learningGoal={activity.learningGoal}
+                  learningGoal={activity.learningGoals}
                   onClick={handleGameClick}
                 />
               );
