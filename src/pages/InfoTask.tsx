@@ -26,7 +26,6 @@ function InfoTask() {
 
     const taskId = storedGameId;
 
-
     if (!taskId) {
       console.error("No task ID found.");
       return;
@@ -46,7 +45,7 @@ function InfoTask() {
       location: baseMetadata.location || "",
       duration: baseMetadata.time || "",
       tools: baseMetadata.tools.split(",").map((t) => t.trim()),
-      competencyGoals: storedLearningGoal ? [storedLearningGoal] : [],
+      learningGoals: storedLearningGoal ? [storedLearningGoal] : [],
       description: baseMetadata.description,
       tasks: {
         easy: allTasks.filter((t) => t.difficulty === "easy"),
@@ -142,7 +141,7 @@ function InfoTask() {
                 location={activityData.location}
                 duration={activityData.duration}
                 tools={activityData.tools}
-                competencyGoals={activityData.competencyGoals}
+                learningGoals={activityData.learningGoals}
                 description={activityData.description}
                 tasks={{
                   easy: activityData.tasks.easy.map(task => task.question),
@@ -168,7 +167,7 @@ function InfoTask() {
                 <h1>{activityData.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
-                  {activityData.competencyGoals.map((goal, index) => (
+                  {activityData.learningGoals.map((goal, index) => (
                     <li key={index}>{goal}</li>
                   ))}
                 </ul>

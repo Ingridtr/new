@@ -5,8 +5,6 @@ import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 
-import gamesData from "../../public/activityData/activities.json";
-
 import { Activities } from "../components/GetActivity";
 
 

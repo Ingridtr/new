@@ -8,7 +8,7 @@ export interface GameDescription {
   location: string;
   duration: string;
   tools: string[];
-  competencyGoals: string[];
+  learningGoals: string[];
   description: string;
   tasks: {
     easy: Task[];  
