@@ -1,66 +1,45 @@
-// Types for game descriptions and data structures
-
-import type { Task } from "./tasks/types"; // import from task types
-
-export interface GameDescription {
+export interface Activity {
   id: string;
   title: string;
-  location: string;
-  duration: string;
-  tools: string[];
-  learningGoals: string[];
   description: string;
-  tasks: {
-    easy: Task[];  
-    medium: Task[];
-    hard: Task[];
-  };
-  gradeMapping: {
-    [grade: string]: string[];
-  };
-  variations: string;
-  reflectionQuestions: string;
-}
-
-
-export interface GameDescriptions {
-  [gameId: string]: GameDescription;
-}
-
-export interface Game {
-  id: string;
-  title: string;
-  image: string;
   time: string;
+  image: string;
+  tools: string[];
   location: string;
-  tools: string;
+  grade: string;
+  number_of_tasks: number;
 }
 
-export interface GamesDatabase {
-  [grade: string]: {
-    [competencyId: number]: Game[];
+export interface ActivityTask {
+  activityId: string;
+  activityTitle: string;
+  totalTasks: number;
+  tasksPerGrade: number;
+  supportedGrades: string[];
+  generatedAt: string;
+  grades: {
+    [grade: string]: {
+      easy?: Question[];
+      medium?: Question[];
+      hard?: Question[];
+    };
   };
+  learningGoals: string[];
+  reflectionQuestions: string;
+  variations: string;
 }
 
-export interface Competency {
-  id: number;
-  title: string;
-  description: string;
+export interface Question {
+  id: string;
+  difficulty: "easy" | "medium" | "hard";
+  grade: string;
+  learningGoal: string;
+  question: string;
+  answer: string;
+  type: string;
 }
 
-export interface CompetenciesData {
-  [grade: string]: Competency[];
-}
-
-export interface CompetencyData {
-  [grade: string]: {
-    [competencyId: number]: string;
+export type CombinedActivity = Activity &
+  ActivityTask & {
+    learningGoal: string[];
   };
-}
-
-// Helper type to get tasks for specific grade and difficulty
-export interface TasksForGrade {
-  easy?: string[];
-  medium?: string[];
-  hard?: string[];
-}
