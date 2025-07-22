@@ -7,11 +7,33 @@ import {
   Question,
 } from "../../public/activityData/types";
 
-// Import JSON files directly for better performance
-import activitiesMetadata from "../../public/activityData/activities.json";
+// Import JSON file URL for better performance (as recommended by Vite)
+import activitiesMetadataUrl from "../../public/activityData/activities.json?url";
 
+// Cache for activity metadata to avoid refetching
+const metadataCache = new Map<string, any>();
 // Cache for activity tasks to avoid refetching
 const taskCache = new Map<string, ActivityTask>();
+
+// Fetch activities metadata (with caching)
+async function fetchActivitiesMetadata(): Promise<any[]> {
+  if (metadataCache.has('activities')) {
+    return metadataCache.get('activities');
+  }
+
+  try {
+    const response = await fetch(activitiesMetadataUrl);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch activities metadata: ${response.status}`);
+    }
+    const data = await response.json();
+    metadataCache.set('activities', data);
+    return data;
+  } catch (error) {
+    console.error('Failed to load activities metadata:', error);
+    return [];
+  }
+}
 
 // Fetch task details for a specific activity (with caching)
 export async function fetchActivityTasks(activityId: string): Promise<ActivityTask | null> {
@@ -44,8 +66,9 @@ export async function fetchSingleActivity(
   selectedLearningGoal?: string
 ): Promise<CombinedActivity | null> {
   try {
-    // Use imported metadata instead of fetching
-    const rawActivity = activitiesMetadata.find(a => a.id === activityId);
+    // Fetch metadata using URL approach
+    const activitiesMetadata = await fetchActivitiesMetadata();
+    const rawActivity = activitiesMetadata.find((a: any) => a.id === activityId);
     const taskDetails = await fetchActivityTasks(activityId);
 
     if (!rawActivity || !taskDetails) {
@@ -55,7 +78,7 @@ export async function fetchSingleActivity(
     // Transform raw activity to match Activity interface
     const activity: Activity = {
       ...rawActivity,
-      tools: rawActivity.tools.split(',').map(tool => tool.trim()), // Convert string to array
+      tools: rawActivity.tools.split(',').map((tool: string) => tool.trim()), // Convert string to array
     };
 
     // Only get tasks for the selected grade if specified
@@ -159,10 +182,13 @@ export function useActivities(
         const gradeFromStorage = selectedGrade || localStorage.getItem("selectedGrade");
         const goalFromStorage = selectedGoal || localStorage.getItem("selectedLearningGoal");
 
+        // Fetch metadata using URL approach
+        const activitiesMetadata = await fetchActivitiesMetadata();
+        
         // Transform raw metadata to match Activity interface
-        const baseActivities: Activity[] = activitiesMetadata.map(rawActivity => ({
+        const baseActivities: Activity[] = activitiesMetadata.map((rawActivity: any) => ({
           ...rawActivity,
-          tools: rawActivity.tools.split(',').map(tool => tool.trim()), // Convert string to array
+          tools: rawActivity.tools.split(',').map((tool: string) => tool.trim()), // Convert string to array
         }));
 
         // Fetch all activity details in parallel

@@ -1,3 +1,6 @@
+import React from "react";
+import { ImagePreloader } from "./ImagePreloader";
+
 interface GameCardProps {
   title: string;
   image: string;
@@ -40,10 +43,12 @@ function GameCard({
         <p>🛠️ Utstyr</p>
       </div>
       <p className="font-semibold">{title}</p>
-      <img
+      <ImagePreloader
         src={image}
         alt={`Illustrasjon for aktiviteten ${title}`}
         className="w-full h-96 object-cover rounded-b-md"
+        placeholder="/logo.png"
+        fallback=""
       />
 
       {/* Screen reader only content with better description */}
