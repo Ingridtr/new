@@ -16,9 +16,9 @@ const LearningGoalsSelection = lazy(
 //const Testfile = lazy(() => import("./pages/Testfile"));
 // Accessible loading component
 const LoadingSpinner = () => (
-  <div 
+  <div
     className="flex items-center justify-center min-h-screen"
-    role="status" 
+    role="status"
     aria-live="polite"
     aria-label="Laster siden"
   >
@@ -37,7 +37,6 @@ export default function App() {
             <Route path="/knowledge" element={<Knowledge />} />
             <Route path="/about" element={<About />} />
             <Route path="/management" element={<Management />} />
-            <Route path="/info" element={<Knowledge />} />
             <Route
               path="/grade/learninggoals"
               element={<LearningGoalsSelection />}
@@ -45,12 +44,9 @@ export default function App() {
             <Route path="/grade" element={<Grade />} />
             <Route path="/gameSelection" element={<GameSelection />} />
             <Route path="/infoTask" element={<InfoTask />} />
-            
           </Routes>
         </Suspense>
       </Router>
     </ErrorBoundary>
   );
 }
-
-//<Route path="/testFile" element={<Testfile />} />
