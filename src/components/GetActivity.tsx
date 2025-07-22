@@ -5,7 +5,7 @@ import {
   ActivityTask,
   CombinedActivity,
   Question,
-} from "public/activityData/types.ts";
+} from "activityData/types.ts";
 
 export function Activities(
   selectedGrade: string | null,
