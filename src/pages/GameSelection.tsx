@@ -11,12 +11,11 @@ import useActivities from "../components/GetActivity";
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   const [selectedGoal, setSelectedGoal] = useState<string | null>(null);
+  
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
-    setSelectedGrade(storedGrade);
-  }, []);
-  useEffect(() => {
     const storedGoal = localStorage.getItem("selectedLearningGoal");
+    setSelectedGrade(storedGrade);
     setSelectedGoal(storedGoal);
   }, []);
 
@@ -32,14 +31,14 @@ function GameSelection() {
             {selectedGrade && (
               <FilterButton
                 text={` ${selectedGrade}`}
-                onClick={() => navigate("/Grade")}
+                onClick={() => navigate("/grade")}
               />
             )}
 
             {selectedGoal && (
               <FilterButton
                 text={`Kompetansemål: ${selectedGoal}`}
-                onClick={() => navigate(-1)}
+                onClick={() => navigate("/grade/learninggoals")}
               />
             )}
           </div>
