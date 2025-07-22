@@ -1,0 +1,91 @@
+{
+  "activityId": "tallstafett-aktivitet",
+  "activityTitle": "Tallstafett",
+  "totalTasks": 5,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallstafett-aktivitet_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}
