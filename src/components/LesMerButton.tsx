@@ -62,7 +62,7 @@ function LesMerButton({
       <button
         ref={openButtonRef}
         onClick={handleOpenModal}
-        className={`bg-sky-200 px-4 py-2 rounded-full hover:bg-sky-300 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 ${className}`}
+        className={`bg-sky-200 my-4 px-4 py-2 rounded-full hover:bg-sky-300 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 ${className}`}
         aria-haspopup="dialog"
         aria-expanded={isModalOpen}
         type="button"
@@ -82,6 +82,7 @@ function LesMerButton({
               handleCloseModal();
             }
           }}
+          style={{ whiteSpace: "pre-line" }}
         >
           <div 
             ref={modalRef}
