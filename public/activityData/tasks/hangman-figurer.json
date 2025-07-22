@@ -1,37 +1,119 @@
 {
   "activityId": "hangman-figurer",
   "activityTitle": "Hangman med figurer",
-  "totalTasks": 9,
+  "totalTasks": 27,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Fjerde årstrinn"
+    "Andre årstrinn",
+    "Fjerde årstrinn",
+    "Sjette årstrinn"
   ],
   "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "hangman-figurer_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "hangman-figurer_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hangman-figurer_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
     "Fjerde årstrinn": {
       "easy": [
         {
           "id": "hangman-figurer_fjerde_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hvor mange sider har en trekant?",
-          "answer": "3"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hvor mange hjørner har en firkant?",
-          "answer": "4"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hva kalles en figur med fire like sider?",
-          "answer": "kvadrat"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         }
       ],
       "medium": [
@@ -39,25 +121,25 @@
           "id": "hangman-figurer_fjerde_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hva er arealet av et rektangel med lengde 6 og bredde 4?",
-          "answer": "24"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hvor mange grader er det i en sirkel?",
-          "answer": "360"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hva er omkretsen av en firkant med sider 3, 4, 3, 4?",
-          "answer": "14"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         }
       ],
       "hard": [
@@ -65,25 +147,105 @@
           "id": "hangman-figurer_fjerde_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hva er arealet av en trekant med grunnlinje 8 og høyde 6?",
-          "answer": "24"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hvor mange grader er det i en rett vinkel?",
-          "answer": "90"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "hangman-figurer_fjerde_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
-          "learningGoal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "Hva er radiusen til en sirkel med diameter 14?",
-          "answer": "7"
+          "learningGoal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "hangman-figurer_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "hangman-figurer_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "hangman-figurer_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "hangman-figurer_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
         }
       ]
     }

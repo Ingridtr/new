@@ -11,27 +11,30 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && menuOpen) {
+      if (e.key === "Escape" && menuOpen) {
         setMenuOpen(false);
         menuButtonRef.current?.focus();
       }
     };
 
     const handleClickOutside = (e: MouseEvent) => {
-      if (mobileMenuRef.current && !mobileMenuRef.current.contains(e.target as Node) && 
-          !menuButtonRef.current?.contains(e.target as Node)) {
+      if (
+        mobileMenuRef.current &&
+        !mobileMenuRef.current.contains(e.target as Node) &&
+        !menuButtonRef.current?.contains(e.target as Node)
+      ) {
         setMenuOpen(false);
       }
     };
 
     if (menuOpen) {
-      document.addEventListener('keydown', handleEscape);
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("keydown", handleEscape);
+      document.addEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('keydown', handleEscape);
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("keydown", handleEscape);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [menuOpen]);
 
@@ -45,7 +48,11 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-sky-200 py-6 px-6" role="navigation" aria-label="Hovednavigasjon">
+    <nav
+      className="bg-sky-200 py-6 px-6"
+      role="navigation"
+      aria-label="Hovednavigasjon"
+    >
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <button
@@ -69,42 +76,32 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold text-black" role="menubar">
+        <ul
+          className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold text-black"
+          role="menubar"
+        >
           <li role="none">
-            <a 
-              href="/Management" 
-              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
+            <a href="/Management" role="menuitem">
               For ledelsen
             </a>
           </li>
           <li role="none">
-            <a 
-              href="/Info" 
-              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
+            <a href="/Info" role="menuitem">
               Kunnskapssiden
             </a>
           </li>
           <li role="none">
-            <a 
-              href="/About" 
-              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
+            <a href="/About" role="menuitem">
               Om Kalkulek
             </a>
           </li>
           <li role="none">
-            <a 
-              href="/" 
-              className="text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1 flex items-center space-x-1"
-              role="menuitem"
-              aria-label="Gå til forsiden"
-            >
-              <FontAwesomeIcon icon={faHouse} className="h-5 w-5" aria-hidden="true" />
+            <a href="/" role="menuitem" aria-label="Gå til forsiden">
+              <FontAwesomeIcon
+                icon={faHouse}
+                className="h-5 w-5"
+                aria-hidden="true"
+              />
               <span>Hjem</span>
             </a>
           </li>
@@ -112,7 +109,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button 
+          <button
             ref={menuButtonRef}
             onClick={toggleMenu}
             className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded p-1"
@@ -149,48 +146,48 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul 
+        <ul
           ref={mobileMenuRef}
           id="mobile-menu"
-          className="md:hidden mt-4 space-y-3 text-lg text-black bg-sky-100 rounded-lg p-4"
+          className="md:hidden mt-4 space-y-3 text-lg text-black rounded-lg p-4"
           role="menu"
           aria-labelledby="mobile-menu-button"
         >
           <li role="none">
-            <button 
+            <button
               onClick={() => closeMenuAndNavigate("/Management")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
-              For ledelsen
+              <p>For ledelsen</p>
             </button>
           </li>
           <li role="none">
-            <button 
+            <button
               onClick={() => closeMenuAndNavigate("/Info")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
-              Kunnskapssiden
+              <p>Kunnskapssiden</p>
             </button>
           </li>
           <li role="none">
-            <button 
+            <button
               onClick={() => closeMenuAndNavigate("/About")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
-              Om Kalkulek
+              <p>Om kalkulek</p>
             </button>
           </li>
           <li role="none">
-            <button 
+            <button
               onClick={() => closeMenuAndNavigate("/")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
               aria-label="Gå til forsiden"
             >
-              <span>Hjem</span>
+              <p>Hjem</p>
             </button>
           </li>
         </ul>

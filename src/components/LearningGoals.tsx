@@ -12,19 +12,21 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
   const [state, setState] = useState<LearningGoalsState>({
     goals: [],
     loading: true,
-    error: null
+    error: null,
   });
 
   useEffect(() => {
     const fetchData = async () => {
-      setState(prev => ({ ...prev, loading: true, error: null }));
-      
+      setState((prev) => ({ ...prev, loading: true, error: null }));
+
       try {
         const localRes = await fetch("/MAT01-05.json");
         if (!localRes.ok) {
-          throw new Error(`Kunne ikke laste kompetansemål-data: ${localRes.status}`);
+          throw new Error(
+            `Kunne ikke laste kompetansemål-data: ${localRes.status}`
+          );
         }
-        
+
         const localJson = await localRes.json();
         const learningGoalsChapters =
           localJson["kompetansemaal-kapittel"]?.kompetansemaalsett;
@@ -36,13 +38,13 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
         for (const i of learningGoalsChapters) {
           const url = i["url-data"];
           if (!url) continue;
-          
+
           const res = await fetch(url);
           if (!res.ok) {
             console.warn(`Kunne ikke laste data fra ${url}: ${res.status}`);
             continue;
           }
-          
+
           const json = await res.json();
           const grade = json["etter-aarstrinn"] ?? [];
           const gradeTitle = grade[0]?.tittel ?? "Ukjent trinn";
@@ -60,29 +62,30 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
             setState({
               goals: goalList,
               loading: false,
-              error: null
+              error: null,
             });
             return;
           }
         }
-        
-        // If we get here, no matching grade was found
+
         setState({
           goals: [],
           loading: false,
-          error: `Fant ingen kompetansemål for ${selectedGrade}`
+          error: `Fant ingen kompetansemål for ${selectedGrade}`,
         });
-        
       } catch (err) {
-        const errorMessage = err instanceof Error ? err.message : "Ukjent feil ved henting av kompetansemål";
+        const errorMessage =
+          err instanceof Error
+            ? err.message
+            : "Ukjent feil ved henting av kompetansemål";
         console.error("Feil ved henting av mål:", err);
-        
+
         setState({
           goals: [],
           loading: false,
-          error: errorMessage
+          error: errorMessage,
         });
-        
+
         announceError(errorMessage);
       }
     };
@@ -93,15 +96,15 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
   if (state.loading) {
     return (
       <div className="p-4">
-        <h2 className="font-semibold text-2xl text-center mb-4">{selectedGrade}</h2>
-        <div 
+        <h2>{selectedGrade}</h2>
+        <div
           className="flex justify-center items-center p-8"
           role="status"
           aria-live="polite"
           aria-label="Laster kompetansemål"
         >
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-          <span className="ml-3 text-gray-600">Laster kompetansemål...</span>
+          <p>Laster kompetansemål...</p>
         </div>
       </div>
     );
@@ -110,8 +113,10 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
   if (state.error) {
     return (
       <div className="p-4">
-        <h2 className="font-semibold text-2xl text-center mb-4">{selectedGrade}</h2>
-        <div 
+        <h2 className="text-center mb-4">
+          {selectedGrade}
+        </h2>
+        <div
           className="bg-red-50 border border-red-200 rounded-lg p-6"
           role="alert"
           aria-labelledby="error-title"
@@ -123,12 +128,12 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
           <p id="error-description" className="text-red-700 mb-4">
             {state.error}
           </p>
-          <button 
+          <button
             onClick={() => window.location.reload()}
             className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
             aria-label="Last siden på nytt"
           >
-            Prøv igjen
+            <p>Prøv igjen</p>
           </button>
         </div>
       </div>
@@ -137,7 +142,7 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
 
   return (
     <div className="p-4">
-      <h2 className="font-semibold text-2xl text-center mb-4">{selectedGrade}</h2>
+      <h2 className="text-center mb-4">{selectedGrade}</h2>
       <LearningGoalsComponent goals={state.goals} />
     </div>
   );
