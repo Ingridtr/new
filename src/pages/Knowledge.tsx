@@ -54,7 +54,7 @@ Den helhetlige tilnærmingen innebærer også tett samarbeid mellom lærere, spe
                 <p className="mb-4">
                   Undervisningsopplegget er utviklet med utgangspunkt i
                   kompetansemålene i LK20 og bygger på den sosiokulturelle
-                  læringsteorien, embodied learning og CAPADIE modellen. Målet
+                  læringsteorien, embodied learning og CAPAblE modellen. Målet
                   er å legge til rette for aktiv og meningsfull læring for alle
                   elever.
                 </p>
