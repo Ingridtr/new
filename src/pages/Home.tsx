@@ -9,9 +9,7 @@ function Home() {
       <main className="flex-1 flex items-center" role="main">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Left Side - Text, Duck and Button */}
             <div className="space-y-4">
-              {/* Text Content */}
               <div className="space-y-3">
                 <h1 className="text-3xl lg:text-4xl font-bold text-black">
                   Lær matematikk gjennom fysisk aktivitet
@@ -22,7 +20,6 @@ function Home() {
                 </p>
               </div>
 
-              {/* Duck and Button Together */}
               <div className="flex items-center gap-4 pt-2">
                 <img
                   src="/bird.png"
@@ -38,8 +35,6 @@ function Home() {
                 </a>
               </div>
             </div>
-
-            {/* Right Side - Large Image */}
             <div className="hidden lg:flex justify-center lg:justify-end">
               <img
                 src="/frontpage.png"
