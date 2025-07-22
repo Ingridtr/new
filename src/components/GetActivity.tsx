@@ -5,79 +5,223 @@ import {
   ActivityTask,
   CombinedActivity,
   Question,
-} from "activityData/types.ts";
+} from "../../public/activityData/types";
 
-export function Activities(
+// Import JSON files directly for better performance
+import activitiesMetadata from "../../public/activityData/activities.json";
+
+// Cache for activity tasks to avoid refetching
+const taskCache = new Map<string, ActivityTask>();
+
+// Fetch task details for a specific activity (with caching)
+export async function fetchActivityTasks(activityId: string): Promise<ActivityTask | null> {
+  // Check cache first
+  if (taskCache.has(activityId)) {
+    return taskCache.get(activityId)!;
+  }
+
+  try {
+    const response = await fetch(`/activityData/tasks/${activityId}.json`);
+    if (!response.ok) {
+      console.error(`Failed to fetch ${activityId}.json: ${response.status}`);
+      return null;
+    }
+    const data = await response.json();
+    
+    // Cache the result
+    taskCache.set(activityId, data);
+    return data;
+  } catch (error) {
+    console.error(`Failed to load tasks for ${activityId}:`, error);
+    return null;
+  }
+}
+
+// Get a single activity with all its data
+export async function fetchSingleActivity(
+  activityId: string,
+  selectedGrade?: string,
+  selectedLearningGoal?: string
+): Promise<CombinedActivity | null> {
+  try {
+    // Use imported metadata instead of fetching
+    const rawActivity = activitiesMetadata.find(a => a.id === activityId);
+    const taskDetails = await fetchActivityTasks(activityId);
+
+    if (!rawActivity || !taskDetails) {
+      return null;
+    }
+
+    // Transform raw activity to match Activity interface
+    const activity: Activity = {
+      ...rawActivity,
+      tools: rawActivity.tools.split(',').map(tool => tool.trim()), // Convert string to array
+    };
+
+    // Only get tasks for the selected grade if specified
+    const gradeData = selectedGrade ? taskDetails.grades[selectedGrade] ?? {} : {};
+    const allQuestions: Question[] = [
+      ...(gradeData.easy ?? []),
+      ...(gradeData.medium ?? []),
+      ...(gradeData.hard ?? []),
+    ];
+
+    // Filter by learning goal if specified
+    const filteredQuestions = selectedLearningGoal
+      ? allQuestions.filter(q => q.learningGoal.includes(selectedLearningGoal))
+      : allQuestions;
+
+    const learningGoals = Array.from(
+      new Set(filteredQuestions.map(q => q.learningGoal))
+    );
+
+    return {
+      ...activity,
+      ...taskDetails,
+      learningGoals: learningGoals,
+      // Override grades with filtered data if grade is selected
+      grades: selectedGrade ? {
+        [selectedGrade]: {
+          easy: filteredQuestions.filter(q => q.difficulty === "easy"),
+          medium: filteredQuestions.filter(q => q.difficulty === "medium"),
+          hard: filteredQuestions.filter(q => q.difficulty === "hard"),
+        }
+      } : taskDetails.grades
+    };
+  } catch (error) {
+    console.error("Error fetching single activity:", error);
+    return null;
+  }
+}
+
+// Hook for a single activity (replaces InfoTask fetching logic)
+export function useSingleActivity(
+  activityId: string | null,
+  selectedGrade: string | null,
+  selectedLearningGoal: string | null
+) {
+  const [activity, setActivity] = useState<CombinedActivity | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!activityId) {
+        setActivity(null);
+        setLoading(false);
+        return;
+      }
+
+      setLoading(true);
+      setError(null);
+
+      try {
+        // Get values from localStorage if not provided as parameters
+        const gradeFromStorage = selectedGrade || localStorage.getItem("selectedGrade");
+        const goalFromStorage = selectedLearningGoal || localStorage.getItem("selectedLearningGoal");
+
+        const result = await fetchSingleActivity(
+          activityId,
+          gradeFromStorage || undefined,
+          goalFromStorage || undefined
+        );
+        setActivity(result);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Unknown error");
+        setActivity(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [activityId, selectedGrade, selectedLearningGoal]);
+
+  return { activity, loading, error };
+}
+
+// Hook for multiple activities (original GameSelection use case)
+export function useActivities(
   selectedGrade: string | null,
   selectedGoal: string | null
 ) {
   const [activities, setActivities] = useState<CombinedActivity[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true);
+      setError(null);
+
       try {
-        const actRes = await fetch("/activityData/activities.json");
-        const baseActivities: Activity[] = await actRes.json();
+        // Get values from localStorage if not provided as parameters
+        const gradeFromStorage = selectedGrade || localStorage.getItem("selectedGrade");
+        const goalFromStorage = selectedGoal || localStorage.getItem("selectedLearningGoal");
 
-        const matchedActivities: CombinedActivity[] = [];
+        // Transform raw metadata to match Activity interface
+        const baseActivities: Activity[] = activitiesMetadata.map(rawActivity => ({
+          ...rawActivity,
+          tools: rawActivity.tools.split(',').map(tool => tool.trim()), // Convert string to array
+        }));
 
-        // Fetch all activity details in parallel to avoid waterfall requests
+        // Fetch all activity details in parallel
         const fetchPromises = baseActivities.map(async (activity) => {
-          try {
-            const detailRes = await fetch(
-              `/activityData/tasks/${activity.id}.json`
-            );
-            if (!detailRes.ok) return null;
+          const details = await fetchActivityTasks(activity.id);
+          if (!details) return null;
 
-            const details: ActivityTask = await detailRes.json();
-            return { activity, details };
-          } catch (error) {
-            console.error(`Failed to fetch details for ${activity.id}:`, error);
-            return null;
-          }
-        });
-
-        const results = await Promise.all(fetchPromises);
-
-        // Process results after all fetches complete
-        for (const result of results) {
-          if (!result) continue;
-
-          const { activity, details } = result;
-          const gradeData = details.grades[selectedGrade ?? ""] ?? {};
+          // Only get tasks for the selected grade
+          const gradeData = gradeFromStorage ? details.grades[gradeFromStorage] ?? {} : {};
           const allQuestions: Question[] = [
             ...(gradeData.easy ?? []),
             ...(gradeData.medium ?? []),
             ...(gradeData.hard ?? []),
           ];
 
-          const filteredQuestions = allQuestions.filter((q) =>
-            q.learningGoal.includes(selectedGoal ?? "")
-          );
+          // Filter by learning goal if specified
+          const filteredQuestions = goalFromStorage
+            ? allQuestions.filter((q) => q.learningGoal.includes(goalFromStorage))
+            : allQuestions;
 
-          if (filteredQuestions.length > 0) {
+          // Only include activities that have tasks for the selected criteria
+          if (filteredQuestions.length > 0 || (!gradeFromStorage && !goalFromStorage)) {
             const learningGoals = Array.from(
-              new Set(allQuestions.map((q) => q.learningGoal))
+              new Set(filteredQuestions.map((q) => q.learningGoal))
             );
 
-            matchedActivities.push({
+            return {
               ...activity,
               ...details,
-              learningGoal: learningGoals,
-            });
+              learningGoals: learningGoals,
+              // Override grades to only include filtered tasks for selected grade
+              grades: gradeFromStorage ? {
+                [gradeFromStorage]: {
+                  easy: filteredQuestions.filter(q => q.difficulty === "easy"),
+                  medium: filteredQuestions.filter(q => q.difficulty === "medium"),
+                  hard: filteredQuestions.filter(q => q.difficulty === "hard"),
+                }
+              } : details.grades
+            };
           }
-        }
+          return null;
+        });
 
-        setActivities(matchedActivities);
+        const results = await Promise.all(fetchPromises);
+        const validResults = results.filter((result): result is CombinedActivity => result !== null);
+        
+        setActivities(validResults);
       } catch (err) {
+        setError(err instanceof Error ? err.message : "Unknown error");
         console.error("Feil ved henting av aktiviteter:", err);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchData();
   }, [selectedGrade, selectedGoal]);
 
-  return { activities };
+  return { activities, loading, error };
 }
 
-export default Activities;
+export default useActivities;
