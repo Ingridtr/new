@@ -41,5 +41,5 @@ export interface Question {
 
 export type CombinedActivity = Activity &
   ActivityTask & {
-    learningGoal: string[];
+    learningGoals: string[]; // Use learningGoals to match ActivityTask
   };
