@@ -52,7 +52,7 @@ while True:
         print("✅ Lagt til!\n")
 
 # === Sjekk om mappen finnes ===
-output_dir = "/Users/ingrid/Desktop/mappe uten navn/new/public/activityData/tasks"
+output_dir = "public/activityData/tasks"
 if not os.path.exists(output_dir):
     print(f"❌ Mappen '{output_dir}' finnes ikke. Lag den først og prøv igjen.")
     exit(1)

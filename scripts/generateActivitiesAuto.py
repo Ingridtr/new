@@ -4,7 +4,7 @@ import json
 # === KONFIGURASJON ===
 ACTIVITIES_FILE = "./public/activityData/activities.json"
 TASKS_FOLDER = "./public/activityData/tasks"
-INPUT_FILE = "/Users/ingrid/Desktop/mappe uten navn/new/scripts/activity_input.json"
+INPUT_FILE = "scripts/activity_input.json"
 # Sørg for at mappen finnes
 os.makedirs(TASKS_FOLDER, exist_ok=True)
 
