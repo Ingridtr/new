@@ -1,247 +1,5 @@
 [
   {
-    "id": "mattesheriff",
-    "title": "Mattesheriff",
-    "description": "Elevene stiller seg i en sirkel med en sheriff i midten. Sheriffen peker på en elev som må bøye seg ned. Cowboyene på hver side av denne eleven skal duellere i et mattestykke. For mer konkurranse:  Den siste eleven som svarer i hver runde, går ut av leken. Når det bare er to elever igjen, blir det en duell. Læreren sier først et mål-tall (f.eks. 12). Deretter sier læreren ett og ett mattestykke høyt (f.eks. 7 + 5, 3 + 8, 6 + 6 osv.). De to elevene følger nøye med rygg mot rygg, og skal skyte mot hverandre dersom summen i regnestykket er lik mål-tallet.",
-    "time": "5 min",
-    "image": "/public/activityPictures/sheriff.png",
-    "tools": "Ingen",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "tallinje",
-    "title": "Tallinje",
-    "description": "Elevene skal plassere tall / regnestykker gitt fra lærer på en fysisk tallinje",
-    "time": "45 min",
-    "image": "/public/activityPictures/tallinje.png",
-    "tools": "Papir, kritt, tape eller lignende",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "stiv-heks",
-    "title": "Stiv heks",
-    "description": "Vanlig stiv heks, men for å komme fri må man svare på et regnestykke. Lærer går rundt og gir oppgaver til de elevene som er tatt",
-    "time": "5 min",
-    "image": "/public/activityPictures/stivHeks.png",
-    "tools": "Ingen, for avansert regning kan penn og papir være lurt",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "poster-skattejakt",
-    "title": "Poster i klasserommet / skattejakt",
-    "description": "Rundt omkring i klasserommet henger det poster. På hver post henger det matteoppgaver som må løses av elevene. Enten løse regneoppgaver eller koder for å komme videre.",
-    "time": "15 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "pastandsveggene",
-    "title": "Påstandveggene",
-    "description": "Læreren leser opp ulike oppgaver / påstander der hver vegg i klasserommet representerer et alternativ. Elevene skal bevege seg til den veggen de mener har rett svar",
-    "time": "15 min",
-    "image": "/public/activityPictures/påstandsveggene.png",
-    "tools": "Ingen",
-    "location": "",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "nappe-hale",
-    "title": "Nappe hale",
-    "description": "Hver elev har en hale rundt livet. Leken går ut på å nappe halen ut. Etter endt lek skal man regne ut antall poeng hver enkelt elev har fått. Halene representerer forskjellige verdier slik at det er lett å variere vanskelighetsgrad",
-    "time": "15 min",
-    "image": "",
-    "tools": "Hale (tøystykke / snor)",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "laere-klokka",
-    "title": "Lære klokka",
-    "description": "Før timen får elevene beskjed at de skal gjøre visse aktiviteter til gitte tider. Feks: 5 over 11 skal alle hoppe 3 ganger, 09.41 skal alle legge seg på gulvet",
-    "time": "45 min",
-    "image": "",
-    "tools": "En klokke",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "problemlosning-hverdagen",
-    "title": "Problemløsning fra hverdagen",
-    "description": "Elevene kan enten løpe en distanse, hoppe lengdehopp, hoppe stillehopp osv slik at de får en målbar verdi. Denne verdien skal brukes i regnestykker som skal løses av elevene. Feks kan to elever gå sammen og legge sammen deres hoppede distanse",
-    "time": "45 min",
-    "image": "",
-    "tools": "Stoppeklokke, målebånd etc",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "regnefrisbee",
-    "title": "Regnefrisbee",
-    "description": "Elevene kaster en frisbee og løper til stedet der den lander. På bakken ligger regneoppgaver de må løse.",
-    "time": "45 min",
-    "image": "",
-    "tools": "En frisbee, ertepose, etc",
-    "location": "Ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "bingo",
-    "title": "Bingo",
-    "description": "Elevene får bingobrett med tall. Læreren eller en medelev leser opp regnestykker, og elevene går rundt i klasserommet for å finne riktig svar og markerer om det finnes på brettet. Første med full rad vinner.",
-    "time": "15 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "hoderegning-kortstokk",
-    "title": "Hoderegning med kortstokk",
-    "description": "Elevene deles inn i par eller større grupper. Legg kort med bildesiden ned utover et område. Etter tur trekker elevene kort. Kortene representerer verdier de skal putte inn i regnestykker de får fra læreren.",
-    "time": "15 min",
-    "image": "",
-    "tools": "Kortstokk",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "hangman-figurer",
-    "title": "Hangman med figurer",
-    "description": "Læreren starter med å tegne en strek på tavla. Elevene gjetter hvilket areal / figur det kan være. For hver feil tegnes det på hangmannen. Etter hvert gjett tegner læreren en strek til. Alle elevene står oppreist under øvelsen, og på rundgang går frem til læreren og gjetter",
-    "time": "5 min",
-    "image": "",
-    "tools": "Kritt og tavle",
-    "location": "",
-    "grade": "Andre årstrinn,Fjerde årstrinn, Sjette årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "tiervenner",
-    "title": "Tiervenner",
-    "description": "Alle elevene sitter (eller står) i en sirkel med et tall foran seg. Her kan man ha tegnet et tall på et A4 papir. Tallene er delt opp slik at det kun finnes tiervenner (eller nuller-venner). Etter lærerens kommando skal tiervennene bytte plass i sirkelen.",
-    "time": "5 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "terningskast",
-    "title": "Terningskast",
-    "description": "Elevene deles i grupper, og skal sammen kaste terning som blir verdien de skal putte inn i regnestykket de får fra læreren",
-    "time": "15 min",
-    "image": "",
-    "tools": "Penn, papir og terning",
-    "location": "",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "hvem-er-jeg",
-    "title": "Hvem er jeg?",
-    "description": "Elevene får et ark med et tall klistret på ryggen. Deretter må elevene gå rundt i klasserommet og stille ja/nei spørsmål til de andre elevene for å finne ut hvilket tall de er. Eks: 'Er jeg større enn 10?'",
-    "time": "5 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "geometridans",
-    "title": "Geometridans",
-    "description": "Elevene danser til musikk og må utføre oppgaver lærerne sier. Dersom læreren sier 'trekant', må elevene enten alene eller med andre elever danne en trekant med kroppen",
-    "time": "15 min",
-    "image": "",
-    "tools": "Musikk og høyttaler",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Fjerde årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "ranger-meg",
-    "title": "Ranger meg!",
-    "description": "Elever får utdelt kort med tall, brøker, tid, eller prosent. De skal stille seg i rekkefølgen gitt fra læreren",
-    "time": "5 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "mattememory",
-    "title": "Mattememory",
-    "description": "Legg en kortstokk spredt ned på bakken med bildesiden ned. Elevene skal på tur trekke to og to kort og prøve å finne tilhørende par. Parrene kommer frem fra oppgaver læreren gir. Feks: finn faktorene til 6",
-    "time": "15 min",
-    "image": "",
-    "tools": "Kortstokk",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "stafett",
-    "title": "Stafett",
-    "description": "Elevene skal løpe / hoppe / hinke / gå til andre siden, løse en matteoppgave og løpe tilbake",
-    "time": "45 min",
-    "image": "",
-    "tools": "Penn og papir",
-    "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "hundrenett",
-    "title": "Hundrenett",
-    "description": "Et fysisk 10x10 rutenett legges på gulvet. Elever kaster eller plasserer brikker på ruter, og bruker tallet de lander på i ulike regneoppgaver (f.eks. +10, partall/oddetall, multipler).",
-    "time": "45 min",
-    "image": "",
-    "tools": "Penn og papir vs. et større, fysisk brett",
-    "location": "Ute",
-    "grade": "",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "lærKlokka",
-    "title": "Lær Klokka",
-    "description": "Før timen får elevene beskjed at de skal gjøre visse aktiviteter til gitte tider. Feks: 5 over 11 skal alle hoppe 3 ganger, 09.41 skal alle legge seg på gulvet.",
-    "time": "45 min",
-    "image": "",
-    "tools": "Klokke",
-    "location": "Inne",
-    "grade": "Andre årstrinn, Femte årstrinn",
-    "number_of_tasks": 9
-  },
-  {
-    "id": "koordinatsystemet",
-    "title": "Koordinatsystemet",
-    "description": "Læreren legger ut et stort koordinatsystem på gulvet eller ute i skolegården. Læreren gir et koordinat til elevene. Oppfordre elevene til å samarbeide om å finne frem til koordinaten. Læreren kan sirkulere rundt i koordinatsystemet og hjelpe de som trenger det eller kontrollere at de finner frem til rett koordinat.",
-    "time": "45 min",
-    "image": "",
-    "tools": "Koordinatsystem, evt hyssing, ark, kritt)",
-    "location": "Ute",
-    "grade": "Tredje årstrinn",
-    "number_of_tasks": 9
-  },
-  {
     "id": "tallinje-oppdagelse",
     "title": "Tallinje oppdagelse",
     "description": "Barna starter med å stå på en linje. Hver elev får utdelt et kort med et tall. Elevene stiller seg deretter på en stor tallinje tegnet med kritt på bakken, i rekkefølge etter hvilket tall de har på kortet. Etter at alle har funnet sin plass, diskuterer vi plasseringen med elevene. Er det noen annen måte de kunne ha stått på nummerlinjen? Hvordan kan vi plassere dem når vi teller baklengs? Deretter fjerner vi kortene og ber elevene huske hvor de stod, men endrer rekkefølgen ved å telle baklengs. Dette hjelper elevene med å visualisere tallsekvenser og forståelsen av rekkefølge på en tallinje.",
@@ -250,6 +8,9 @@
     "tools": "kortstokk, kritt",
     "location": "Ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "plassere tal på tallinja og bruke tallinja i rekning og problemløysing"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -261,6 +22,9 @@
     "tools": "tallinje, evt kritt",
     "location": "Ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "plassere tal på tallinja og bruke tallinja i rekning og problemløysing"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -272,6 +36,9 @@
     "tools": "Ingen",
     "location": "Inne/ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -283,6 +50,9 @@
     "tools": "Koordinatsystem, evt kritt ",
     "location": "Ute",
     "grade": "Tredje årstrinn",
+    "learning_goals": [
+      "eksperimentere med og forklare plasseringar i koordinatsystemet"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -294,8 +64,12 @@
     "tools": "Teip, gjenstander i klasserommet",
     "location": "Inne",
     "grade": "Tredje årstrinn",
+    "learning_goals": [
+      "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane"
+    ],
     "number_of_tasks": 1
   },
+  
   {
     "id": "vinkel_moro",
     "title": "Vinkelmoro",
@@ -305,6 +79,9 @@
     "tools": "Ingen",
     "location": "Inne/ute",
     "grade": "Fjerde årstrinn",
+    "learning_goals": [
+      "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -316,6 +93,9 @@
     "tools": "Ingen.",
     "location": "Inne/ute",
     "grade": "Fjerde årstrinn",
+    "learning_goals": [
+      "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -327,6 +107,9 @@
     "tools": "Vann, kopper, små bøtter, kuler, terninger",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
+    "learning_goals": [
+      "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar"
+    ],
     "number_of_tasks": 3
   },
   {
@@ -338,6 +121,9 @@
     "tools": "Kort med brøkeksempler, kritt eller tape for tallinjen, start- og mållinje",
     "location": "Utendørs eller i en gymsal",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -349,6 +135,9 @@
     "tools": "Kritt, kort (med brøker, desimaltall og prosent)",
     "location": "Ute",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -360,6 +149,9 @@
     "tools": "kjegler, lapper med prosentandeler",
     "location": "Ute",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning"
+    ],
     "number_of_tasks": 3
   },
   {
@@ -371,6 +163,7 @@
     "tools": "Kritt",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": ["utforske, namngi og plassere desimaltal på tallinja"],
     "number_of_tasks": 1
   },
   {
@@ -382,6 +175,9 @@
     "tools": "Kritt",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": [
+      "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -393,6 +189,7 @@
     "tools": "Teip, kort med desimaltall",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": ["utforske, namngi og plassere desimaltal på tallinja"],
     "number_of_tasks": 1
   },
   {
@@ -404,6 +201,9 @@
     "tools": "Papir, blyanter, kalkulatorer, oppgavekort",
     "location": "Ute",
     "grade": "Syvende årstrinn",
+    "learning_goals": [
+      "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene"
+    ],
     "number_of_tasks": 3
   },
   {
@@ -415,8 +215,12 @@
     "tools": "Brøkkort, desimaltallkort, prosentkort",
     "location": "Inne/ute",
     "grade": "Syvende årstrinn",
+    "learning_goals": [
+      "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene"
+    ],
     "number_of_tasks": 1
   },
+  
   {
     "id": "tallsisten",
     "title": "Tallsisten",
@@ -426,6 +230,9 @@
     "tools": "Kort med tall (1-20)",
     "location": "Inne/ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "ordne tal, mengder og former ut frå eigenskapar, samanlikne dei og reflektere over om dei kan ordnast på fleire måtar"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -437,6 +244,9 @@
     "tools": "Stasjoner med tall og beskrivelse av fysisk aktivitet, som å hoppe, klappe, gå rundt en stol osv.",
     "location": "Ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -448,6 +258,9 @@
     "tools": "Ingen fysisk utstyr nødvendig, men oppgaver og markører bør være forberedt i området.",
     "location": "Ute",
     "grade": "Andre årstrinn",
+    "learning_goals": [
+      "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -459,6 +272,9 @@
     "tools": "Papir, penn",
     "location": "Ute",
     "grade": "Tredje årstrinn",
+    "learning_goals": [
+      "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -470,6 +286,9 @@
     "tools": "Kritt",
     "location": "Ute",
     "grade": "Tredje årstrinn",
+    "learning_goals": [
+      "eksperimentere med og forklare plasseringar i koordinatsystemet"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -481,6 +300,9 @@
     "tools": "Balansebrett, gjenstander med ulik vekt",
     "location": "Inne/Ute",
     "grade": "Tredje årstrinn",
+    "learning_goals": [
+      "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -492,8 +314,12 @@
     "tools": "Kurv, steiner",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
+    "learning_goals": [
+      "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar"
+    ],
     "number_of_tasks": 1
   },
+  
   {
     "id": "deling-stafett",
     "title": "Delingsstafett",
@@ -503,6 +329,9 @@
     "tools": "Kongler, steiner, blader, pinner bøtter",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
+    "learning_goals": [
+      "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -514,6 +343,9 @@
     "tools": "Konvolutter, papir, penner",
     "location": "Ute",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning"
+    ],
     "number_of_tasks": 5
   },
   {
@@ -525,6 +357,9 @@
     "tools": "Småstein, kritt",
     "location": "Ute",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -536,6 +371,9 @@
     "tools": "Kritt, papir",
     "location": "Ute",
     "grade": "Femte årstrinn",
+    "learning_goals": [
+      "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -547,6 +385,7 @@
     "tools": "Kritt eller tape, kort med desimaltall",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": ["utforske, namngi og plassere desimaltal på tallinja"],
     "number_of_tasks": 1
   },
   {
@@ -558,6 +397,7 @@
     "tools": "Kritt, papir",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": ["utforske, namngi og plassere desimaltal på tallinja"],
     "number_of_tasks": 1
   },
   {
@@ -569,6 +409,9 @@
     "tools": "Kritt",
     "location": "Ute",
     "grade": "Sjette årstrinn",
+    "learning_goals": [
+      "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem"
+    ],
     "number_of_tasks": 1
   },
   {
@@ -580,7 +423,22 @@
     "tools": "Papir, kritt, stoppeklokke",
     "location": "Ute",
     "grade": "Syvende årstrinn",
+    "learning_goals": ["utforske negative tal i praktiske situasjonar"],
     "number_of_tasks": 10
+  },
+  {
+    "id": "brøk-stafett",
+    "title": "BrøkStafett",
+    "description": "I denne aktiviteten skal elevene delta i en stafett hvor de løper til ulike poster plassert rundt i skolegården. Ved hver post må elevene løse en oppgave relatert til brøk, desimaltall, og prosent. Oppgavene kan inkludere å konvertere en brøk til et desimaltall eller prosent, eller diskutere forholdet mellom ulike representasjoner.",
+    "time": "15 minutter",
+    "image": "",
+    "tools": "Ingen",
+    "location": "Ute",
+    "grade": "Syvende årstrinn",
+    "learning_goals": [
+      "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene"
+    ],
+    "number_of_tasks": 5
   },
   {
     "id": "brøkstafett-v2",
@@ -591,6 +449,9 @@
     "tools": "Kort, stoppeklokke, fløyte",
     "location": "Inne/ute",
     "grade": "Syvende årstrinn",
+    "learning_goals": [
+      "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene"
+    ],
     "number_of_tasks": 1
   }
 ]

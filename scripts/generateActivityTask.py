@@ -51,15 +51,17 @@ while True:
         grades_with_goals[grade] = goal
         print("✅ Lagt til!\n")
 
+# === Sjekk om mappen finnes ===
+output_dir = "/Users/ingrid/Desktop/mappe uten navn/new/public/activityData/tasks"
+if not os.path.exists(output_dir):
+    print(f"❌ Mappen '{output_dir}' finnes ikke. Lag den først og prøv igjen.")
+    exit(1)
+
 # === Lagre JSON-filen ===
 output_data = create_task_template(activity_id, title, grades_with_goals)
-
-# Lagre i activityData/tasks/
-output_dir = os.path.join("activityData", "tasks")
-os.makedirs(output_dir, exist_ok=True)
-
 output_path = os.path.join(output_dir, f"{activity_id}.json")
+
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-print(f"\n✅ Fil lagret som: {output_path}")
+print(f"\n✅ Fil lagret: {output_path}")

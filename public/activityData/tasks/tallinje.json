@@ -168,166 +168,165 @@
       ]
     },
 
-  "Sjette årstrinn": {
-    "easy": [
-      {
-        "id": "tallinje_sjette_årstrinn_easy_1",
-        "difficulty": "easy",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_easy_2",
-        "difficulty": "easy",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_easy_3",
-        "difficulty": "easy",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      }
-    ],
-    "medium": [
-      {
-        "id": "tallinje_sjette_årstrinn_medium_1",
-        "difficulty": "medium",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_medium_2",
-        "difficulty": "medium",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_medium_3",
-        "difficulty": "medium",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      }
-    ],
-    "hard": [
-      {
-        "id": "tallinje_sjette_årstrinn_hard_1",
-        "difficulty": "hard",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_hard_2",
-        "difficulty": "hard",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_sjette_årstrinn_hard_3",
-        "difficulty": "hard",
-        "grade": "Sjette årstrinn",
-        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-        "question": "",
-        "answer": ""
-      }
-    ]
-  },
-  "Syvende årstrinn": {
-    "easy": [
-      {
-        "id": "tallinje_syvende_årstrinn_easy_1",
-        "difficulty": "easy",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_easy_2",
-        "difficulty": "easy",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_easy_3",
-        "difficulty": "easy",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      }
-    ],
-    "medium": [
-      {
-        "id": "tallinje_syvende_årstrinn_medium_1",
-        "difficulty": "medium",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_medium_2",
-        "difficulty": "medium",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_medium_3",
-        "difficulty": "medium",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      }
-    ],
-    "hard": [
-      {
-        "id": "tallinje_syvende_årstrinn_hard_1",
-        "difficulty": "hard",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_hard_2",
-        "difficulty": "hard",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      },
-      {
-        "id": "tallinje_syvende_årstrinn_hard_3",
-        "difficulty": "hard",
-        "grade": "Syvende årstrinn",
-        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-        "question": "",
-        "answer": ""
-      }
-    ]
-  }
-}
+    "Sjette årstrinn": {
+      "easy": [
+        {
+          "id": "tallinje_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "tallinje_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "tallinje_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "tallinje_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "tallinje_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "tallinje_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
   }
 }

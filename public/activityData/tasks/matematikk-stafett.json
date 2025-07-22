@@ -1,0 +1,91 @@
+{
+  "activityId": "matematikk-stafett",
+  "activityTitle": "Matematikk stafett",
+  "totalTasks": 10,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Syvende årstrinn"
+  ],
+  "grades": {
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "matematikk-stafett_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske negative tal i praktiske situasjonar",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}
