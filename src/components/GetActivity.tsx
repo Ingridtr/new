@@ -5,7 +5,7 @@ import {
   ActivityTask,
   CombinedActivity,
   Question,
-} from "/Users/ingrid/Desktop/mappe uten navn/new/public/activityData/types.ts";
+} from "public/activityData/types.ts";
 
 export function Activities(
   selectedGrade: string | null,
