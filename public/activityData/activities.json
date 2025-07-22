@@ -128,7 +128,7 @@
     "image": "",
     "tools": "Kritt og tavle",
     "location": "",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "grade": "Andre årstrinn,Fjerde årstrinn, Sjette årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -172,7 +172,7 @@
     "image": "",
     "tools": "Musikk og høyttaler",
     "location": "Inne",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "grade": "Andre årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
