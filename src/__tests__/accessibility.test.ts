@@ -1,5 +1,4 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { render, screen } from '@testing-library/react'
 import { announceError, announceSuccess, validateRequired, generateId } from '../utils/accessibility'
 
 // Mock DOM for testing

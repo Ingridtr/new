@@ -1,0 +1,91 @@
+{
+  "activityId": "brøk-stafett",
+  "activityTitle": "BrøkStafett",
+  "totalTasks": 5,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Syvende årstrinn"
+  ],
+  "grades": {
+    "Syvende årstrinn": {
+      "easy": [
+        {
+          "id": "brøk-stafett_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "brøk-stafett_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "brøk-stafett_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "brøk-stafett_syvende_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

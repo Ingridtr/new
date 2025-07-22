@@ -1,0 +1,169 @@
+{
+  "activityId": "lærKlokka",
+  "activityTitle": "Lær Klokka",
+  "totalTasks": 18,
+  "tasksPerGrade": 9,
+  "supportedGrades": ["Andre årstrinn, Femte årstrinn"],
+  "grades": {
+    "Andre årstrinn": {
+      "easy": [
+        {
+          "id": "lærKlokka_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "lærKlokka_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "lærKlokka_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "forklare korleis ein kan beskrive tid ved hjelp av klokke og kalender",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "easy": [
+        {
+          "id": "lærKlokka_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "lærKlokka_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "lærKlokka_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "lærKlokka_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

@@ -17,7 +17,7 @@ function FilterButton({ text, onClick, ariaLabel }: FilterButtonProps) {
       aria-label={buttonAriaLabel}
       type="button"
     >
-      <span className="px-2 truncate" aria-hidden="true">{text}</span>
+      <p aria-hidden="true">{text}</p>
       <FontAwesomeIcon 
         icon={faXmark} 
         aria-hidden="true"
