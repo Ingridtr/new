@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li role="none">
-            <a href="/Info" role="menuitem">
+            <a href="/knowledge" role="menuitem">
               Kunnskapssiden
             </a>
           </li>
@@ -164,7 +164,7 @@ const Navbar: React.FC = () => {
           </li>
           <li role="none">
             <button
-              onClick={() => closeMenuAndNavigate("/Info")}
+              onClick={() => closeMenuAndNavigate("/knowledge")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
