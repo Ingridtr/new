@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
           role="menubar"
         >
           <li role="none">
-            <a href="/Management" role="menuitem">
+            <a href="/management" role="menuitem">
               For ledelsen
             </a>
           </li>
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li role="none">
-            <a href="/About" role="menuitem">
+            <a href="/about" role="menuitem">
               Om Kalkulek
             </a>
           </li>
@@ -155,7 +155,7 @@ const Navbar: React.FC = () => {
         >
           <li role="none">
             <button
-              onClick={() => closeMenuAndNavigate("/Management")}
+              onClick={() => closeMenuAndNavigate("/management")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
@@ -173,7 +173,7 @@ const Navbar: React.FC = () => {
           </li>
           <li role="none">
             <button
-              onClick={() => closeMenuAndNavigate("/About")}
+              onClick={() => closeMenuAndNavigate("/about")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
