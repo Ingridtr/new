@@ -178,7 +178,7 @@
   {
     "id": "ranger-meg",
     "title": "Ranger meg!",
-    "description": "Elever får utdelt kort med tall, brøker, tid, eller prosent. De skal stille seg i rekkefølgen gitt fra læreren",
+    "description": "Hver elev får utdelt et kort med en verdi (f.eks. tall, brøk, prosent eller tid).Elevene deles i grupper på 3–4, og får vite hva som er den største og minste verdien blant alle kortene i klassen. I gruppene skal de diskutere og samarbeide om å plassere seg i riktig rekkefølge innad i gruppa ved å sammenligne verdiene på kortene. Når gruppene har funnet sin interne rekkefølge, skal de samarbeide med andre grupper for å danne én samlet tallinje for hele klassen – fra laveste til høyeste verdi. Til slutt gjennomgås rekka i plenum, med refleksjonsspørsmål som: Hva gjorde det vanskelig å sammenligne? Hvilke strategier brukte dere? Hvordan visste dere hva som var størst?",
     "time": "5 min",
     "image": "",
     "tools": "Penn og papir",
