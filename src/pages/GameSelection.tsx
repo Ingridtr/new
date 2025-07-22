@@ -47,10 +47,10 @@ function GameSelection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
             {activities.map((activity, index) => {
               const handleGameClick = () => {
-                // Store the selected game in localStorage
                 localStorage.setItem("selectedGame", activity.title);
                 localStorage.setItem("selectedGameId", activity.id);
                 localStorage.setItem("selectedGameImage", activity.image);
+                localStorage.setItem("selectedActivity", JSON.stringify(activity)); 
                 navigate("/infoTask");
               };
               console.log("Aktivitet:", activity.title);
@@ -64,7 +64,7 @@ function GameSelection() {
                   image={activity.image}
                   time={activity.time}
                   location={activity.location}
-                  tools={activity.tools}
+                  tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
                   learningGoal={activity.learningGoal}
                   onClick={handleGameClick}
                 />

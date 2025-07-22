@@ -15,10 +15,10 @@
     "title": "Tallinje",
     "description": "Elevene skal plassere tall / regnestykker gitt fra lærer på en fysisk tallinje",
     "time": "45 min",
-    "image": "",
+    "image": "/public/activityPictures/tallinje.png",
     "tools": "Papir, kritt, tape eller lignende",
     "location": "Inne/ute",
-    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "grade": "Andre årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
   },
   {
@@ -26,7 +26,7 @@
     "title": "Stiv heks",
     "description": "Vanlig stiv heks, men for å komme fri må man svare på et regnestykke. Lærer går rundt og gir oppgaver til de elevene som er tatt",
     "time": "5 min",
-    "image": "",
+    "image": "/public/activityPictures/stivHeks.png",
     "tools": "Ingen, for avansert regning kan penn og papir være lurt",
     "location": "Inne",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
@@ -217,6 +217,29 @@
     "tools": "Penn og papir vs. et større, fysisk brett",
     "location": "Ute",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+
+  {
+    "id": "lærKlokka",
+    "title": "Lær Klokka",
+    "description": "Før timen får elevene beskjed at de skal gjøre visse aktiviteter til gitte tider. Feks: 5 over 11 skal alle hoppe 3 ganger, 09.41 skal alle legge seg på gulvet.",
+    "time": "45 min",
+    "image": "",
+    "tools": "Klokke",
+    "location": "Inne",
+    "grade": "Andre årstrinn, Femte årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "koordinatsystemet",
+    "title": "Koordinatsystemet",
+    "description": "Læreren legger ut et stort koordinatsystem på gulvet eller ute i skolegården. Læreren gir et koordinat til elevene. Oppfordre elevene til å samarbeide om å finne frem til koordinaten. Læreren kan sirkulere rundt i koordinatsystemet og hjelpe de som trenger det eller kontrollere at de finner frem til rett koordinat.",
+    "time": "45 min",
+    "image": "",
+    "tools": "Koordinatsystem, evt hyssing, ark, kritt)",
+    "location": "Ute",
+    "grade": "Tredje årstrinn",
     "number_of_tasks": 9
   }
 ]

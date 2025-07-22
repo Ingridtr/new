@@ -4,87 +4,86 @@
   "totalTasks": 18,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Fjerde årstrinn",
-    "Femte årstrinn"
+    "Andre årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn"
   ],
   "grades": {
-    "Fjerde årstrinn": {
+    "Andre årstrinn": {
       "easy": [
         {
-          "id": "tallinje_fjerde_årstrinn_easy_1",
+          "id": "tallinje_andre_årstrinn_easy_1",
           "difficulty": "easy",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_easy_2",
+          "id": "tallinje_andre_årstrinn_easy_2",
           "difficulty": "easy",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_easy_3",
+          "id": "tallinje_andre_årstrinn_easy_3",
           "difficulty": "easy",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         }
       ],
       "medium": [
         {
-          "id": "tallinje_fjerde_årstrinn_medium_1",
+          "id": "tallinje_andre_årstrinn_medium_1",
           "difficulty": "medium",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "?",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_medium_2",
+          "id": "tallinje_andre_årstrinn_medium_2",
           "difficulty": "medium",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "?",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_medium_3",
+          "id": "tallinje_andre_årstrinn_medium_3",
           "difficulty": "medium",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 6 × 3?",
-          "answer": "18"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         }
       ],
       "hard": [
         {
-          "id": "tallinje_fjerde_årstrinn_hard_1",
+          "id": "tallinje_andre_årstrinn_hard_1",
           "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 147 + 89?",
-          "answer": "236"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_hard_2",
+          "id": "tallinje_andre_årstrinn_hard_2",
           "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 204 - 78?",
-          "answer": "126"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         },
         {
-          "id": "tallinje_fjerde_årstrinn_hard_3",
+          "id": "tallinje_andre_årstrinn_hard_3",
           "difficulty": "hard",
-          "grade": "Fjerde årstrinn",
-          "learningGoal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
-          "question": "Hva er 15 × 12?",
-          "answer": "180"
+          "grade": "Andre årstrinn",
+          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+          "question": "",
+          "answer": ""
         }
       ]
     },
@@ -94,25 +93,25 @@
           "id": "tallinje_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         }
       ],
       "medium": [
@@ -120,25 +119,25 @@
           "id": "tallinje_femte_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 6 × 3?",
-          "answer": "18"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         }
       ],
       "hard": [
@@ -146,27 +145,189 @@
           "id": "tallinje_femte_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 147 + 89?",
-          "answer": "236"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 204 - 78?",
-          "answer": "126"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         },
         {
           "id": "tallinje_femte_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 15 × 12?",
-          "answer": "180"
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
         }
       ]
-    }
+    },
+
+  "Sjette årstrinn": {
+    "easy": [
+      {
+        "id": "tallinje_sjette_årstrinn_easy_1",
+        "difficulty": "easy",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_easy_2",
+        "difficulty": "easy",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_easy_3",
+        "difficulty": "easy",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "medium": [
+      {
+        "id": "tallinje_sjette_årstrinn_medium_1",
+        "difficulty": "medium",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_medium_2",
+        "difficulty": "medium",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_medium_3",
+        "difficulty": "medium",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "hard": [
+      {
+        "id": "tallinje_sjette_årstrinn_hard_1",
+        "difficulty": "hard",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_hard_2",
+        "difficulty": "hard",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_sjette_årstrinn_hard_3",
+        "difficulty": "hard",
+        "grade": "Sjette årstrinn",
+        "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "Syvende årstrinn": {
+    "easy": [
+      {
+        "id": "tallinje_syvende_årstrinn_easy_1",
+        "difficulty": "easy",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_easy_2",
+        "difficulty": "easy",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_easy_3",
+        "difficulty": "easy",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "medium": [
+      {
+        "id": "tallinje_syvende_årstrinn_medium_1",
+        "difficulty": "medium",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_medium_2",
+        "difficulty": "medium",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_medium_3",
+        "difficulty": "medium",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "hard": [
+      {
+        "id": "tallinje_syvende_årstrinn_hard_1",
+        "difficulty": "hard",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_hard_2",
+        "difficulty": "hard",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "id": "tallinje_syvende_årstrinn_hard_3",
+        "difficulty": "hard",
+        "grade": "Syvende årstrinn",
+        "learningGoal": "bruke tallinje i rekning med positive og negative tal",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  }
+}
   }
 }
