@@ -65,7 +65,7 @@ function InfoTask() {
         <div className="flex flex-col items-center justify-start p-6 relative">
           <button
             className="absolute top-4 right-6 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate("/gameSelection")}
             aria-label="Lukk aktivitetsside og gå tilbake"
           >
             ×

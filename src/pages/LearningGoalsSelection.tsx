@@ -23,7 +23,7 @@ function LearningGoalsSelection() {
           <div className="mb-8">
             <FilterButton
               text={` ${selectedGrade}`}
-              onClick={() => navigate("/Grade")}
+              onClick={() => navigate("/grade")}
             />
           </div>
           <h1>Velg kompetansemål</h1>
