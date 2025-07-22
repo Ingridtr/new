@@ -11,10 +11,8 @@ function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-4">
               <div className="space-y-3">
-                <h1 className="text-3xl lg:text-4xl font-bold text-black">
-                  Lær matematikk gjennom fysisk aktivitet
-                </h1>
-                <p className="text-base lg:text-lg text-gray-700">
+                <h1>Lær matematikk gjennom fysisk aktivitet</h1>
+                <p>
                   Over 300 aktiviteter basert på UDIR sin læreplan i matematikk
                   1.–7. trinn
                 </p>

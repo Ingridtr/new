@@ -27,7 +27,7 @@
     "description": "Vanlig stiv heks, men for å komme fri må man svare på et regnestykke. Lærer går rundt og gir oppgaver til de elevene som er tatt",
     "time": "5 min",
     "image": "/public/activityPictures/stivHeks.png",
-    "tools": "Ingen, for avansert regning kan penn og papir være lurt",
+    "tools": "Ingen, For avansert regning kan penn og papir være lurt",
     "location": "Inne",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -38,7 +38,7 @@
     "description": "Rundt omkring i klasserommet henger det poster. På hver post henger det matteoppgaver som må løses av elevene. Enten løse regneoppgaver eller koder for å komme videre.",
     "time": "15 min",
     "image": "",
-    "tools": "Penn og papir",
+    "tools": "Penn, Papir",
     "location": "Inne",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -60,7 +60,7 @@
     "description": "Hver elev har en hale rundt livet. Leken går ut på å nappe halen ut. Etter endt lek skal man regne ut antall poeng hver enkelt elev har fått. Halene representerer forskjellige verdier slik at det er lett å variere vanskelighetsgrad",
     "time": "15 min",
     "image": "",
-    "tools": "Hale (tøystykke / snor)",
+    "tools": "Hale, Evt tøystykke eller snor",
     "location": "Inne",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -159,7 +159,7 @@
     "description": "Elevene får et ark med et tall klistret på ryggen. Deretter må elevene gå rundt i klasserommet og stille ja/nei spørsmål til de andre elevene for å finne ut hvilket tall de er. Eks: 'Er jeg større enn 10?'",
     "time": "5 min",
     "image": "",
-    "tools": "Penn og papir",
+    "tools": "Penn, Papir",
     "location": "Inne",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -170,7 +170,7 @@
     "description": "Elevene danser til musikk og må utføre oppgaver lærerne sier. Dersom læreren sier 'trekant', må elevene enten alene eller med andre elever danne en trekant med kroppen",
     "time": "15 min",
     "image": "",
-    "tools": "Musikk og høyttaler",
+    "tools": "Høyttaler",
     "location": "Inne",
     "grade": "Andre årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
@@ -181,7 +181,7 @@
     "description": "Elever får utdelt kort med tall, brøker, tid, eller prosent. De skal stille seg i rekkefølgen gitt fra læreren",
     "time": "5 min",
     "image": "",
-    "tools": "Penn og papir",
+    "tools": "Penn, papir",
     "location": "Inne/ute",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -203,7 +203,7 @@
     "description": "Elevene skal løpe / hoppe / hinke / gå til andre siden, løse en matteoppgave og løpe tilbake",
     "time": "45 min",
     "image": "",
-    "tools": "Penn og papir",
+    "tools": "Penn, Papir",
     "location": "Inne/ute",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -214,7 +214,7 @@
     "description": "Et fysisk 10x10 rutenett legges på gulvet. Elever kaster eller plasserer brikker på ruter, og bruker tallet de lander på i ulike regneoppgaver (f.eks. +10, partall/oddetall, multipler).",
     "time": "45 min",
     "image": "",
-    "tools": "Penn og papir vs. et større, fysisk brett",
+    "tools": "Penn, Papir",
     "location": "Ute",
     "grade": "",
     "number_of_tasks": 9
@@ -236,7 +236,7 @@
     "description": "Læreren legger ut et stort koordinatsystem på gulvet eller ute i skolegården. Læreren gir et koordinat til elevene. Oppfordre elevene til å samarbeide om å finne frem til koordinaten. Læreren kan sirkulere rundt i koordinatsystemet og hjelpe de som trenger det eller kontrollere at de finner frem til rett koordinat.",
     "time": "45 min",
     "image": "",
-    "tools": "Koordinatsystem, evt hyssing, ark, kritt)",
+    "tools": "Koordinatsystem, Evt hyssing, ark, kritt",
     "location": "Ute",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 9
@@ -247,7 +247,7 @@
     "description": "Barna starter med å stå på en linje. Hver elev får utdelt et kort med et tall. Elevene stiller seg deretter på en stor tallinje tegnet med kritt på bakken, i rekkefølge etter hvilket tall de har på kortet. Etter at alle har funnet sin plass, diskuterer vi plasseringen med elevene. Er det noen annen måte de kunne ha stått på nummerlinjen? Hvordan kan vi plassere dem når vi teller baklengs? Deretter fjerner vi kortene og ber elevene huske hvor de stod, men endrer rekkefølgen ved å telle baklengs. Dette hjelper elevene med å visualisere tallsekvenser og forståelsen av rekkefølge på en tallinje.",
     "time": "45 min",
     "image": "",
-    "tools": "kortstokk, kritt",
+    "tools": "Kortstokk, Kritt",
     "location": "Ute",
     "grade": "Andre årstrinn",
     "number_of_tasks": 1
@@ -258,7 +258,7 @@
     "description": "Aktiviteten starter med at barna stiller seg på en valgt tall på tallinjen. Barna skal så hoppe framlengs og baklengs langs tallinjen med forskjellige differanser. Læreren roper ut instruksjoner som 'hopp tre steg frem' eller 'hopp to steg tilbake'. Barna skal også finne partall og oddetall, og vise dette ved å hoppe på det de tror er riktig. Til slutt skal barna plassere seg på forskjellige tall på linjen og si hvilket tall de står på etter flere hopp.",
     "time": "45 min",
     "image": "",
-    "tools": "tallinje, evt kritt",
+    "tools": "Tallinje, Evt kritt",
     "location": "Ute",
     "grade": "Andre årstrinn",
     "number_of_tasks": 1
@@ -280,7 +280,7 @@
     "description": "I denne leken vil elevene spille en versjon av spillet 'Twister' med et koordinatsystem malt på bakken. Læreren forklarer raskt hvordan et koordinatsystem fungerer og gir hver elev en tur der de skal plassere hender og føtter på bestemte koordinater på bakken. For eksempel, 'høyre hånd på (2,1)'. Etter aktiviteten kan læreren stille spørsmål til elevene om hvordan det var å finne de ulike punktene, og hvordan de oppfattet utfordringen.",
     "time": "45 min",
     "image": "",
-    "tools": "Koordinatsystem, evt kritt ",
+    "tools": "Koordinatsystem, Evt kritt ",
     "location": "Ute",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 1
@@ -291,7 +291,7 @@
     "description": "I denne aktiviteten skal elevene jobbe i grupper for å finne balanse. Læreren lager en linje på gulvet i klasserommet ved hjelp av teip eller stoler. Elevene skal deretter plassere seg selv og forskjellige gjenstander (for eksempel bøker). Målet er å oppnå balanse, hvor begge sider av linja er like tynget. Elevene må kommunisere med hverandre for å bestemme hvor de og gjenstandene skal plasseres for å oppnå balanse.",
     "time": "15 min",
     "image": "",
-    "tools": "Teip, gjenstander i klasserommet",
+    "tools": "Teip, Gjenstander i klasserommet",
     "location": "Inne",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 1
@@ -313,7 +313,7 @@
     "description": "Elevene deles inn i små grupper og skal utføre en dans som representerer divisjon. Hver gruppe starter med å stå sammen i en klynge. Læreren gir hver klynge et tall, for eksempel 12, og en divisjonstype, for eksempel delingsdivisjon. Elevene skal deretter fysisk dele seg opp i like grupper som illustrerer divisjonen, for eksempel 12 delt på 3. Gruppen skal så lage en enkel dans der de viser hvordan tallet (klyngen) deles opp, for eksempel ved å ta tre steg bakover og danne fire nye klynger av tre elever. Hver dans avsluttes med at gruppen roper svaret høyt.",
     "time": "15 min",
     "image": "",
-    "tools": "Ingen.",
+    "tools": "Ingen",
     "location": "Inne/ute",
     "grade": "Fjerde årstrinn",
     "number_of_tasks": 1
@@ -324,7 +324,7 @@
     "description": "Elevene skal delta i en stafettaktivitet hvor de undersøker og anvender målingsdivisjon i praktiske situasjoner. Klassen deles inn i små grupper, og hver gruppe får en oppgave som involverer deling av objekter som vann, kuler eller terninger i like deler. På stasjoner som er plassert rundt om i skolegården, vil elevene måtte løse ulike delings- og målingsoppgaver der de fysisk må bruke kroppen til å bære eller overføre objekter fra en stasjon til en annen. For eksempel kan en stasjon kreve at elevene måler opp en viss mengde vann fra en større beholder og leverer en nøyaktig mengde til neste gruppe ved å bruke kopper eller små bøtter. Den avsluttes med en refleksjon der elevene diskuterer løsningene og de ulike metodene de benyttet for å komme frem til målet.",
     "time": "45 min",
     "image": "",
-    "tools": "Vann, kopper, små bøtter, kuler, terninger",
+    "tools": "Vann, Kopper, Små bøtter, Kuler, Terninger",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
     "number_of_tasks": 3
@@ -334,8 +334,8 @@
     "title": "brokestafett",
     "description": "Bli med på en morsom og rask brøkstafett! Del klassen inn i grupper, og plasser hver gruppe ved startlinjen. Hver gruppe får et sett med kort hvor hver kort har en tegning av en brøk som del av en mengde. Deltakerne skal på skift løpe fra startlinjen til en oppgitt plass der de trekker et kort. De må så forklare hvordan brøken kan representere en del av en mengde og deretter plassere kortet i riktig rekkefølge på en tallinje som ligger på bakken. Målet er å legge brikkene i stigende rekkefølge fra 0 til 1. Laget som fullfører med riktig organisering først, vinner. Denne aktiviteten er ikke bare lærerik, men også perfekt for å få opp pulsen og engasjementet!",
     "time": "5 min",
-    "image": "https://example.com/image.jpg",
-    "tools": "Kort med brøkeksempler, kritt eller tape for tallinjen, start- og mållinje",
+    "image": "",
+    "tools": "Kort med brøkeksempler, Kritt eller tape for tallinjen",
     "location": "Utendørs eller i en gymsal",
     "grade": "Femte årstrinn",
     "number_of_tasks": 1
@@ -357,7 +357,7 @@
     "description": "I denne aktiviteten skal elevene delta i en stafett hvor de fysisk representerer ulike prosentandeler av en distanse. Læreren deler først klassen inn i lag, for eksempel fire til fem elever per lag. Deretter forklarer læreren hva prosentandeler er, og gir eksempler ved å bruke distansen som skal løpes. F.eks. om distansen totalt er 100 meter, skal en elev løpe til 25 meter (for å representere 25%). \n\nHvert lag får tre poser med ulike prosentandeler (f.eks. 25%, 50% og 75%), og når det er deres tur, trekker en elev fra laget en lapp fra en pose. Eleven løper deretter til det merket som tilsvarer prosentandelen på lappen. Etter at eleven har løpt sin del, leverer de lappen til neste elev i laget som trekker en ny lapp og løper til sin prosentandel. \n\nAktiviteten fortsetter til alle på laget har fått trekke minst én lapp. Læreren kan evaluere elevenes forståelse ved å diskutere hvordan de estimerte og visualiserte de forskjellige prosentandelene i forhold til hele distansen.",
     "time": "45 min",
     "image": "",
-    "tools": "kjegler, lapper med prosentandeler",
+    "tools": "Kjegler, Lapper med prosentandeler",
     "location": "Ute",
     "grade": "Femte årstrinn",
     "number_of_tasks": 3
@@ -401,7 +401,7 @@
     "description": "Del klassen inn i små grupper og organiser en stafett der hver delpost har oppgaver relatert til brøk, prosent og desimaltall. Hver gruppe får en startstasjon med brøk, og skal derfra løse en oppgave som konverterer brøken til prosent. Neste stasjon innebærer å konvertere prosent til desimaltall. Siste del av stafetten innebærer å forholde seg til en praktisk situasjon som krever å bruke alle tre representasjonsformene for å finne løsningen. Lag et skjema som gruppene skal fylle ut underveis og sørg for at det er en veileder på hver stasjon for å gi tilbakemelding.",
     "time": "45 min",
     "image": "",
-    "tools": "Papir, blyanter, kalkulatorer, oppgavekort",
+    "tools": "Papir, Blyanter, Kalkulatorer, Oppgavekort",
     "location": "Ute",
     "grade": "Syvende årstrinn",
     "number_of_tasks": 3
@@ -412,7 +412,7 @@
     "description": "Elevene får utdelt brøkkort, desimaltallkort og prosentkort som alle har referanse til samme verdi. For eksempel, ett kort vil vise 1/2, et annet 0,5, og et tredje 50%. Kortene er plassert tilfeldig rundt i klasserommet eller på skolegården. Elevene skal ved hjelp av kroppslig bevegelse (løpe, hoppe, gå) finne matchende sett av kort som representerer samme verdi. Dette er en aktivitet der elevene ikke skal snakke eller skrive, men bruke kroppen for å kommunisere. Når de finner et riktig sett med tre kort, viser de dette til læreren som godkjenner om det er korrekt. Aktiviteten avsluttes når alle sett er funnet eller tiden er over.",
     "time": "15 min",
     "image": "",
-    "tools": "Brøkkort, desimaltallkort, prosentkort",
+    "tools": "Brøkkort, Desimaltallkort, Prosentkort",
     "location": "Inne/ute",
     "grade": "Syvende årstrinn",
     "number_of_tasks": 1
@@ -423,7 +423,7 @@
     "description": "Elevene samles i et åpent område, for eksempel en skolegård eller et stort rom. Læreren gir hver elev et kort med et tall på (1 til 20). Deretter starter leken 'tallsisten'. Den som har 'sisten' roper et tall, og alle elever som har tallet som er større eller mindre må løpe og unngå å bli tatt. Hvis den som har 'sisten' klarer å ta noen, bytter de plass. Aktiviteten hjelper elevene med å reflektere over hvordan tall kan ordnes og sammenlignes ut fra deres egenskaper, samtidig som de er fysisk aktive.",
     "time": "5 min",
     "image": "",
-    "tools": "Kort med tall (1-20)",
+    "tools": "Kort med tall",
     "location": "Inne/ute",
     "grade": "Andre årstrinn",
     "number_of_tasks": 1
@@ -433,8 +433,8 @@
     "title": "Tallets reise",
     "description": "I aktiviteten skal elevene utforske tal og mengder gjennom en fysisk reisebane i klasserommet. Læreren forbereder på forhånd ulike stasjoner, hver med en bestemt aktivitet som elevene skal utføre. Hver stasjon representerer et tall eller en mengde, for eksempel fem hopp, åtte klapp, eller tre runder rundt en stol. Start med å be elevene stille seg på rekke. Når læreren sier \"start\", begynner elever å bevege seg fra den ene stasjonen til neste, og utfører aktiviteten som hører til hvert tall/mengde. ",
     "time": "15 min",
-    "image": "https://example.com/tallets_reise.jpg",
-    "tools": "Stasjoner med tall og beskrivelse av fysisk aktivitet, som å hoppe, klappe, gå rundt en stol osv.",
+    "image": "",
+    "tools": "Kjegle, Papir, Penn",
     "location": "Ute",
     "grade": "Andre årstrinn",
     "number_of_tasks": 5
@@ -444,8 +444,8 @@
     "title": "Tallstafett",
     "description": "Elevene deltar i en tallstafett for å utforske tall, mengder og telling. Hele klassen deles inn i mindre grupper, og de skal jobbe sammen for å løse ulike oppgaver som er plassert rundt på skolegården. Hver post inneholder en oppgave hvor elevene må telle objekter, sammenligne mengder, eller plassere tall på en tallinje. Gruppene starter ved ulike poster og roterer rundt til alle postene er besøkt. Aktiviteten krever samarbeid, fysisk bevegelse og problemløsning.",
     "time": "45 min",
-    "image": "https://example.com/tallstafett.jpg",
-    "tools": "Ingen fysisk utstyr nødvendig, men oppgaver og markører bør være forberedt i området.",
+    "image": "",
+    "tools": "Ingen",
     "location": "Ute",
     "grade": "Andre årstrinn",
     "number_of_tasks": 5
@@ -455,8 +455,8 @@
     "title": "Subtraksjonsstafett",
     "description": "Subtraksjonsstafett er en morsom og fysisk aktivitet hvor elevene utvikler strategier for subtraksjon gjennom et engasjerende stafettløp. Del elevene inn i små grupper. Langs en løype plasseres markører som representerer ulike subtraksjonsoppgaver. Når stafetten starter, løper første elev mot første markør, løser oppgaven (f.eks. 12 - 7), og løper tilbake for å veksle med neste elev på laget. De noterer svaret og fortsetter til neste oppgave. Hele laget samarbeider om å fullføre løypa på kortest mulig tid og med flest riktige svar. ",
     "time": "5 min",
-    "image": "https://example.com/subtraksjonsstafett.jpg",
-    "tools": "Papir, penn",
+    "image": "",
+    "tools": "Papir, Penn",
     "location": "Ute",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 5
@@ -466,20 +466,9 @@
     "title": "Koordinatsystem lek",
     "description": "Elevene deltar i en aktivitet der de skal navigere seg gjennom et stort koordinatsystem laget med tau/kritt. Læreren har på forhånd lagt ut tau/ tegnet et stort rutenett, der hver rute tilsvarer en enhet i et koordinatsystem. Elevene blir delt inn i par, der den ene er 'navigator' og den andre er 'utforsker'. Navigatoren får et sett med koordinater som de skal lede utforskeren til ved å bruke muntlige instrukser som: 'flytt to steg mot nord' eller 'ett steg mot øst'. Målet er å nå riktig koordinat så raskt som mulig uten å tråkke utenfor rutene. Gjennom denne prosessen får elevene en fysisk forståelse av hvordan et koordinatsystem fungerer og hvordan man navigerer i det.",
     "time": "15 min",
-    "image": "https://example.com/image.jpg",
+    "image": "",
     "tools": "Kritt",
     "location": "Ute",
-    "grade": "Tredje årstrinn",
-    "number_of_tasks": 1
-  },
-  {
-    "id": "balansespill",
-    "title": "balansespill",
-    "description": "I denne aktiviteten skal elevene utforske likevekt og balanse ved hjelp av en praktisk oppgave som involverer kroppen. Klassen deles inn i små grupper, og hver gruppe får utdelt et sett med balansebrett og ulike gjenstander med forskjellige vekter. Målet er å få brettet til å balansere ved å bruke de ulike gjenstandene. Hver gruppe begynner med å legge en gjenstand på den ene siden av balansebrettet, og må deretter prøve å finne en gjenstand med passende vekt for å oppnå balanse ved å plassere den på den andre siden. Gjennom prøving og feiling skal elevene diskutere og samarbeide for å finne de riktige kombinasjonene som fører til likevekt. Underveis skal elevene observere hvordan balanse endres med ulike gjenstander og reflektere over hvilke faktorer som påvirker balansen, som gjenstandenens plassering og vektfordeling.",
-    "time": "45 min",
-    "image": "https://example.com/balansespill.jpg",
-    "tools": "Balansebrett, gjenstander med ulik vekt",
-    "location": "Inne/Ute",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 1
   },
@@ -488,8 +477,8 @@
     "title": "Delingsspill sirkel",
     "description": "I denne aktiviteten skal elevene utforske delingsdivisjon ved å danne en sirkel. Læreren eller en elev begynner ved å holde en kurv med 12 gjenstander, for eksempel små steiner eller erter. Deretter velger læreren et antall elever som skal motta en lik mengde gjenstander fra kurven. De øvrige elevene danner en sirkel rundt dem. Læreren plasserer gjenstander i hendene til de elevene som mottar dem, en etter en, mens de øvrige teller høyt hvor mange som er utdelt til hver elev. Målet er å utforske hvordan man kan bruke delingsdivisjon for å fordele gjenstandene likt på flere. Etterpå diskuterer klassen hvordan fordelingen ble gjort og hvilke divisjonsstrategier som ble brukt.",
     "time": "5 min",
-    "image": "https://via.placeholder.com/150",
-    "tools": "Kurv, steiner",
+    "image": "",
+    "tools": "Kurv, Steiner",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
     "number_of_tasks": 1
@@ -499,8 +488,8 @@
     "title": "Delingsstafett",
     "description": "Elevene deltar i en stafett der de utforsker divisjon ved å dele gjenstander i like store grupper. Læreren setter opp flere stasjoner ute på skolens område, der hver stasjon representerer et delingsproblem. For eksempel kan en stasjon ha 24 kongler som skal deles på 4 lag. Elevene løper mellom stasjonene og løser hvert problem fysisk ved å dele gjenstandene.",
     "time": "45 min",
-    "image": "https://example.com/activity-image.jpg",
-    "tools": "Kongler, steiner, blader, pinner bøtter",
+    "image": "",
+    "tools": "Gjenstander i naturen (f.eks. kongler, steiner), Kritt",
     "location": "Ute",
     "grade": "Fjerde årstrinn",
     "number_of_tasks": 5
@@ -510,7 +499,7 @@
     "title": "Brøkstafett",
     "description": "Bli med på en morsom og lærerig stafett hvor elevene utforsker sammenhengen mellom brøker, desimaltall og prosent. Del klassen inn i små grupper og plasser konvolutter med forskjellige matematiske oppgaver rundt i skolegården. Hver gruppe mottar en startkonvolutt som inneholder et problem de må løse. For å kunne løpe videre til neste post må de finne den riktige sammenhengen mellom en gitt brøk, desimaltall og prosent. Når oppgaven er løst riktig, kan de fortsette til neste post hvor en ny utfordring venter. Aktiviteten avsluttes når alle gruppene har løst alle oppgavene.",
     "time": "15 min",
-    "image": "https://example.com/brokstafett.jpg",
+    "image": "",
     "tools": "Konvolutter, papir, penner",
     "location": "Ute",
     "grade": "Femte årstrinn",

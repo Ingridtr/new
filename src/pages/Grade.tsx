@@ -9,7 +9,7 @@ function Grade() {
 
       <div className="flex-1 flex flex-col justify-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold mb-6">Velg trinn</h1>
+          <h1>Velg trinn</h1>
           <GradeButton />
         </div>
       </div>
