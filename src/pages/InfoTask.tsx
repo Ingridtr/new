@@ -2,13 +2,11 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { CombinedActivity, Question } from "../../public/activityData/types";
-import activitiesMetadata from "../../public/activityData/activities.json";
+import { useState } from "react";
+import { useSingleActivity } from "../components/GetActivity";
 
 function InfoTask() {
   const navigate = useNavigate();
-  const [activity, setActivity] = useState<CombinedActivity | null>(null);
   const [showToolsDropdown, setShowToolsDropdown] = useState(false);
 
   const selectedGameId = localStorage.getItem("selectedGameId");
@@ -16,60 +14,12 @@ function InfoTask() {
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
   const currentGameImage = localStorage.getItem("selectedGameImage");
 
-  useEffect(() => {
-    const fetchActivityData = async () => {
-      if (!selectedGameId || !selectedGrade || !selectedLearningGoal) return;
-
-      try {
-        const meta = activitiesMetadata.find((a) => a.id === selectedGameId);
-        if (!meta) {
-          console.error("Fant ikke aktivitet med id:", selectedGameId);
-          return;
-        }
-
-        const detailRes = await fetch(
-          `/activityData/tasks/${selectedGameId}.json`
-        );
-        if (!detailRes.ok) {
-          console.error("Fant ikke oppgavedata for:", selectedGameId);
-          return;
-        }
-
-        const details = await detailRes.json();
-        const gradeData = details.grades[selectedGrade] ?? {};
-        const allTasks: Question[] = [
-          ...(gradeData.easy ?? []),
-          ...(gradeData.medium ?? []),
-          ...(gradeData.hard ?? []),
-        ];
-
-        const filteredTasks = allTasks.filter((t) =>
-          t.learningGoal.includes(selectedLearningGoal)
-        );
-
-        const learningGoals = Array.from(
-          new Set(filteredTasks.map((t) => t.learningGoal))
-        );
-
-        setActivity({
-          ...meta,
-          ...details,
-          grades: {
-            [selectedGrade]: {
-              easy: filteredTasks.filter((t) => t.difficulty === "easy"),
-              medium: filteredTasks.filter((t) => t.difficulty === "medium"),
-              hard: filteredTasks.filter((t) => t.difficulty === "hard"),
-            },
-          },
-          learningGoals,
-        });
-      } catch (error) {
-        console.error("Feil under lasting av aktivitet:", error);
-      }
-    };
-
-    fetchActivityData();
-  }, [selectedGameId, selectedGrade, selectedLearningGoal]);
+  // Use the consolidated hook instead of custom fetching
+  const { activity, loading, error } = useSingleActivity(
+    selectedGameId,
+    selectedGrade,
+    selectedLearningGoal
+  );
 
   const handleShowOnScreen = () => {
     if (currentGameImage) {
@@ -77,12 +27,24 @@ function InfoTask() {
     }
   };
 
-  if (!activity || !selectedGrade) {
+  if (loading) {
     return (
       <div className="flex flex-col min-h-screen bg-yellow-50">
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <p>Laster aktivitetsdata...</p>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
+  if (error || !activity || !selectedGrade) {
+    return (
+      <div className="flex flex-col min-h-screen bg-yellow-50">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <p>{error || "Kunne ikke laste aktivitetsdata."}</p>
         </div>
         <Footer />
       </div>
@@ -194,9 +156,10 @@ function InfoTask() {
                 <h1>{activity.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
+                  <p>
                   {activity.learningGoals.map((goal, index) => (
                     <li key={index}>{goal}</li>
-                  ))}
+                  ))}</p>
                 </ul>
               </div>
 
