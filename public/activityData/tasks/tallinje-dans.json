@@ -1,6 +1,6 @@
 {
-  "activityId": "tallinje-hopp",
-  "activityTitle": "Hopp på tallinje",
+  "activityId": "tallinje-dans",
+  "activityTitle": "Dans på tallinje",
   "totalTasks": 1,
   "tasksPerGrade": 9,
   "supportedGrades": [
@@ -10,7 +10,7 @@
     "Andre årstrinn": {
       "easy": [
         {
-          "id": "tallinje-hopp_andre_årstrinn_easy_1",
+          "id": "tallinje-dans_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -18,7 +18,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_easy_2",
+          "id": "tallinje-dans_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -26,7 +26,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_easy_3",
+          "id": "tallinje-dans_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -36,7 +36,7 @@
       ],
       "medium": [
         {
-          "id": "tallinje-hopp_andre_årstrinn_medium_1",
+          "id": "tallinje-dans_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -44,7 +44,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_medium_2",
+          "id": "tallinje-dans_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -52,7 +52,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_medium_3",
+          "id": "tallinje-dans_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -62,7 +62,7 @@
       ],
       "hard": [
         {
-          "id": "tallinje-hopp_andre_årstrinn_hard_1",
+          "id": "tallinje-dans_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -70,7 +70,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_hard_2",
+          "id": "tallinje-dans_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
@@ -78,7 +78,7 @@
           "answer": ""
         },
         {
-          "id": "tallinje-hopp_andre_årstrinn_hard_3",
+          "id": "tallinje-dans_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",

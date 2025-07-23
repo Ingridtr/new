@@ -1,6 +1,6 @@
 {
-  "activityId": "tallets-reise",
-  "activityTitle": "Tallets reise",
+  "activityId": "tallreise-i-jungelen",
+  "activityTitle": "Tallreise i jungelen",
   "totalTasks": 5,
   "tasksPerGrade": 9,
   "supportedGrades": [
@@ -10,7 +10,7 @@
     "Andre årstrinn": {
       "easy": [
         {
-          "id": "tallets-reise_andre_årstrinn_easy_1",
+          "id": "tallreise_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -18,7 +18,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_easy_2",
+          "id": "tallreise_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -26,7 +26,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_easy_3",
+          "id": "tallreise_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -36,7 +36,7 @@
       ],
       "medium": [
         {
-          "id": "tallets-reise_andre_årstrinn_medium_1",
+          "id": "tallreise_andre_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -44,7 +44,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_medium_2",
+          "id": "tallreise_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -52,7 +52,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_medium_3",
+          "id": "tallreise_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -62,7 +62,7 @@
       ],
       "hard": [
         {
-          "id": "tallets-reise_andre_årstrinn_hard_1",
+          "id": "tallreise_andre_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -70,7 +70,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_hard_2",
+          "id": "tallreise_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
@@ -78,7 +78,7 @@
           "answer": ""
         },
         {
-          "id": "tallets-reise_andre_årstrinn_hard_3",
+          "id": "tallreise_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",

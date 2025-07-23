@@ -13,7 +13,7 @@
   {
     "id": "tallinje",
     "title": "Tallinje",
-    "description": "Elevene skal plassere tall / regnestykker gitt fra lærer på en fysisk tallinje",
+    "description": "Elevene lager først en tallinje på gulvet ved å gå opp jevne skritt og merke hvert tall, slik at de kjenner avstandene i kroppen. Deretter jobber de i par: én elev klapper et bestemt antall rytmiske slag for å vise hvor mye som skal legges til eller trekkes fra, mens den andre beveger seg samme antall skritt på linjen og sier tallet der de stopper. De bytter roller flere ganger og varierer retning og fart, slik at de bruker kroppen og rytmen til å utforske hvordan tall flytter seg fremover og bakover på tallinjen. Til slutt samles klassen, viser én runde foran alle og skriver det de gjorde som et enkelt regnestykke, så bevegelsen kobles til det matematiske uttrykket.",
     "time": "45 min",
     "image": "/public/activityPictures/tallinje.png",
     "tools": "Papir, kritt, tape eller lignende",
@@ -46,7 +46,7 @@
   {
     "id": "pastandsveggene",
     "title": "Påstandveggene",
-    "description": "Læreren leser opp ulike oppgaver / påstander der hver vegg i klasserommet representerer et alternativ. Elevene skal bevege seg til den veggen de mener har rett svar",
+    "description": "Læreren leser opp en påstand om partall og oddetall, mens hver av de fire veggene er merket «Partall», «Oddetall», «Begge» og «Ingen». Elevene lukker øynene, velger kategori ved å holde en finger mot brystet (1 = Partall, 2 = Oddetall, 3 = Begge, 4 = Ingen), og på signalet «Vis – beveg!» åpner de øynene, viser fingeren et kort øyeblikk og løper eller hopper til veggen som samsvarer med det forhåndsvalget. Læreren ber én elev ved hver vegg begrunne valget; viser begrunnelsen seg å være feil, må hele gruppen tilbake til midten, velge på nytt og prøve igjen. Dermed må alle ta et selvstendig standpunkt, får brukt kroppen aktivt og øver på å utforske og forklare generelle egenskaper ved partall og oddetall.",
     "time": "15 min",
     "image": "/public/activityPictures/påstandsveggene.png",
     "tools": "Ingen",
@@ -57,7 +57,7 @@
   {
     "id": "nappe-hale",
     "title": "Nappe hale",
-    "description": "Hver elev har en hale rundt livet. Leken går ut på å nappe halen ut. Etter endt lek skal man regne ut antall poeng hver enkelt elev har fått. Halene representerer forskjellige verdier slik at det er lett å variere vanskelighetsgrad",
+    "description": "I halejakten deltar elevene i en fysisk lek der de prøver å fange hverandres haler, som har ulike poengverdier. Aktiviteten gjennomføres i tre runder med ulikt matematisk fokus. I runde 1 er hver hale verdt 1 poeng, og elevene teller framover én og én for å finne totalen. I runde 2 er halene verdt 2 eller 5 poeng, og elevene teller med ulik differanse og beskriver mønsteret de oppdager (f.eks. 2, 4, 6, ...). I runde 3 starter alle med 20 poeng og trekker fra poeng baklengs (f.eks. -2 eller -5) for haler de mister eller ikke får tak i. Etter hver runde snakker elevene om hvordan de telte, hva slags mønster de så, og hvordan startpunkt og differanse påvirker tellingen.",
     "time": "15 min",
     "image": "",
     "tools": "Hale (tøystykke / snor)",
@@ -112,7 +112,7 @@
   {
     "id": "hoderegning-kortstokk",
     "title": "Hoderegning med kortstokk",
-    "description": "Elevene deles inn i par eller større grupper. Legg kort med bildesiden ned utover et område. Etter tur trekker elevene kort. Kortene representerer verdier de skal putte inn i regnestykker de får fra læreren.",
+    "description": "Legg en kortstokk på bordet med baksiden opp; for grunnnivå brukes bare ess (= 1) til 10, mens du kan beholde flere kort for et høyere vanskelighetsnivå. Elevene arbeider i par: Først trekker de to kort, legger dem ned i den rekkefølgen de ble trukket og regner summen høyt. Deretter bytter de plass på kortene, regner igjen og ser at svaret er det samme – rekkefølgen påvirker ikke resultatet. Nå trekker de et tredje kort, legger sammen de to første tallene først og deretter det tredje, regner svaret, flytter «parentesen» ved å legge sammen andre og tredje kort først og regner på nytt; summen holder seg også her. Til slutt forklarer hver elev til partneren hvorfor bytting eller omgruppering ikke endrer resultatet, legger kortene tilbake og lar et nytt par prøve; for høyere vanskelighetsnivå kan læreren la parene bruke større tall eller fire kort i stedet for tre.",
     "time": "15 min",
     "image": "",
     "tools": "Kortstokk",
@@ -145,10 +145,10 @@
   {
     "id": "terningskast",
     "title": "Terningskast",
-    "description": "Elevene deles i grupper, og skal sammen kaste terning som blir verdien de skal putte inn i regnestykket de får fra læreren",
+    "description": "I denne aktiviteten teller elevene med kroppen ved å kombinere bevegelse, mønster og terning. Læreren oppgir et starttall og en differanse, for eksempel «start på 6 og tell framover med 3». En elev triller en terning som viser hvor mange trinn de skal telle – for eksempel 4. For hvert trinn skal elevene utføre bevegelsen (f.eks. trampe) like mange ganger som differansen. I dette eksempelet tramper de tre ganger, teller «9», tramper tre ganger igjen, sier «12», så «15» og til slutt «18». Hver bevegelsesserie representerer differansen, slik at elevene fysisk opplever hvert sprang i mønsteret. Aktiviteten kan også tilpasses til å telle baklengs og med ulike startpunkt. På denne måten får elevene eksperimentere med telling framover og bakover, ulike startpunkt og differanser, og kjenner mønsteret gjennom kroppen",
     "time": "15 min",
     "image": "",
-    "tools": "Penn, papir og terning",
+    "tools": "Terning",
     "location": "",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
@@ -156,7 +156,7 @@
   {
     "id": "hvem-er-jeg",
     "title": "Hvem er jeg?",
-    "description": "Elevene får et ark med et tall klistret på ryggen. Deretter må elevene gå rundt i klasserommet og stille ja/nei spørsmål til de andre elevene for å finne ut hvilket tall de er. Eks: 'Er jeg større enn 10?'",
+    "description": "Elevene får et ark med et tall klistret på ryggen. Deretter må elevene gå rundt i klasserommet og stille ja/nei spørsmål til de andre elevene for å finne ut hvilket tall de er. Eks: 'Er jeg større enn 10?' For å gjøre leken rettferdig og faglig meningsfull gjelder følgende regler: Alle starter samtidig, og ingen får si sitt eller andres tall høyt, selv om de tror de vet det. Hver elev må snakke med minst tre forskjellige personer før de gjetter, og de får kun to gjettemuligheter. Når en elev tror de har funnet tallet sitt, skal de skrive det ned på en lapp og levere det til læreren – uten å si det høyt. Dersom svaret er riktig, kan eleven få en ny lapp med et nytt tall og bli med på nytt",
     "time": "5 min",
     "image": "",
     "tools": "Penn og papir",
@@ -189,7 +189,7 @@
   {
     "id": "mattememory",
     "title": "Mattememory",
-    "description": "Legg en kortstokk spredt ned på bakken med bildesiden ned. Elevene skal på tur trekke to og to kort og prøve å finne tilhørende par. Parrene kommer frem fra oppgaver læreren gir. Feks: finn faktorene til 6",
+    "description": "Kortene spres med baksiden opp på gulvet. Elevene jobber i par og turer over gulvet som i «Memory»: hvert par snur to kort, men får beholde dem bare hvis de sammen oppfyller oppdraget læreren nettopp har ropt, for eksempel «to tall som til sammen gir 12», «faktorene til 6», «et tall som er 3 mer enn det andre», eller «to tall med differanse 5». Treffer de, forklarer paret høyt hvordan tallene passer til oppdraget (summen, differansen, produktet …) før de legger kortene i sin egen bunke; bommer de, snur de kortene tilbake og neste par prøver.",
     "time": "15 min",
     "image": "",
     "tools": "Kortstokk",
@@ -244,8 +244,8 @@
   {
     "id": "tallinje-oppdagelse",
     "title": "Tallinje oppdagelse",
-    "description": "Barna starter med å stå på en linje. Hver elev får utdelt et kort med et tall. Elevene stiller seg deretter på en stor tallinje tegnet med kritt på bakken, i rekkefølge etter hvilket tall de har på kortet. Etter at alle har funnet sin plass, diskuterer vi plasseringen med elevene. Er det noen annen måte de kunne ha stått på nummerlinjen? Hvordan kan vi plassere dem når vi teller baklengs? Deretter fjerner vi kortene og ber elevene huske hvor de stod, men endrer rekkefølgen ved å telle baklengs. Dette hjelper elevene med å visualisere tallsekvenser og forståelsen av rekkefølge på en tallinje.",
-    "time": "45 min",
+    "description": "Del ut et tallkort til hver elev, la dem stå på én linje, og pek deretter på en stor tallinje du har tegnet med kritt på bakken eller tape på gulvet. Be elevene gå fram én og én og stille seg i stigende rekkefølge ut fra tallet de holder; når alle er på plass bruker du et halvt minutt til å spørre om de er enige i rekkefølgen og hvorfor høyere tall står lengre til høyre. Deretter ber du dem, uten å bytte kort, raskt snu formasjonen ved å telle baklengs og finne den nye plassen sin på samme linje.",
+    "time": "5 min",
     "image": "",
     "tools": "kortstokk, kritt",
     "location": "Ute",
@@ -253,9 +253,9 @@
     "number_of_tasks": 1
   },
   {
-    "id": "tallinje-hopp",
-    "title": "Hopp på tallinje",
-    "description": "Aktiviteten starter med at barna stiller seg på en valgt tall på tallinjen. Barna skal så hoppe framlengs og baklengs langs tallinjen med forskjellige differanser. Læreren roper ut instruksjoner som 'hopp tre steg frem' eller 'hopp to steg tilbake'. Barna skal også finne partall og oddetall, og vise dette ved å hoppe på det de tror er riktig. Til slutt skal barna plassere seg på forskjellige tall på linjen og si hvilket tall de står på etter flere hopp.",
+    "id": "tallinje-dans",
+    "title": "Dans på tallinje",
+    "description": "Elevene lager en «danserute» over gulvet der hver gulvplate er et tall 0 – 20. De går først hele ruten i rolig rytme for å føle enhetssteget. Deretter deler læreren klassen i små «koreografi-grupper». Hver gruppe får tre kort: et starttall, en differanse (+2/–4/ +5 …) og en rytmemal (f.eks. klapp-klapp-tramp). Oppgaven er å komponere en 8-takters bevegelserekke som begynner på starttallet, bruker rytmemalen til å markere hvert hopp på tallgulvet, og ender på riktig sluttall. De øver, fremfører for klassen og forklarer hvordan bevegelsene viser regnestykket. Til slutt samles alle ved ett tallfelt, diskuterer hvordan rytme, plassering og bevegelses­mønster gjorde forskjellen mellom tallene synlig, og skriver regnestykkene sine på tavla",
     "time": "45 min",
     "image": "",
     "tools": "tallinje, evt kritt",
@@ -266,7 +266,7 @@
   {
     "id": "telleleken",
     "title": "Telleleken",
-    "description": "I denne aktiviteten vil elevene delta i leken tellingsaktivitet der de beveger seg, samarbeider og bruker kroppen for å forstå tallrekker. Start med å samle elevene i en sirkel ute i skolegården eller i gymsalen. En elev starter med å si tallet 1 og klapper én gang. Neste elev sier tallet 2 og klapper to ganger. Dette fortsetter rundt i sirkelen. Etter en runde endres reglene: Elevene beveger seg tre skritt fremover hvis tallet er et oddetall og hopper på stedet hvis det er et partall. Læreren kan gjøre det mer utfordrende ved å be dem telle baklengs eller begynne på et annet tall. Målet er å styrke forståelsen for tallrekker, partall og oddetall gjennom bevegelse.",
+    "description": "I denne aktiviteten deltar elevene i en bevegelseslek der de utforsker tallrekker og mønstre gjennom kroppslig deltakelse og samarbeid. Elevene samles i en sirkel, ute i skolegården eller inne i gymsalen. Den første eleven starter med å si tallet 1 og klapper én gang. Neste elev sier tallet 2 og klapper to ganger, og slik fortsetter det rundt i sirkelen – elevene teller framover og utfører like mange bevegelser som tallet de sier. Etter én runde endres reglene for å skape variasjon og matematisk refleksjon: Nå skal elevene for hvert tall bevege seg tre skritt framover hvis tallet er et oddetall, og hoppe på stedet hvis tallet er et partall. Læreren kan øke kompleksiteten ved å la elevene telle baklengs, starte på et annet tall enn 1, eller telle med en bestemt differanse (for eksempel telle med 5 eller 10). Aktiviteten gir elevene erfaring med å telle framover og bakover, velge ulike startpunkt, oppdage og beskrive mønstre, og skille mellom partall og oddetall – alt gjennom lek og bevegelse.",
     "time": "15 min",
     "image": "",
     "tools": "Ingen",
@@ -420,8 +420,7 @@
   {
     "id": "tallsisten",
     "title": "Tallsisten",
-    "description": "Elevene samles i et åpent område, for eksempel en skolegård eller et stort rom. Læreren gir hver elev et kort med et tall på (1 til 20). Deretter starter leken 'tallsisten'. Den som har 'sisten' roper et tall, og alle elever som har tallet som er større eller mindre må løpe og unngå å bli tatt. Hvis den som har 'sisten' klarer å ta noen, bytter de plass. Aktiviteten hjelper elevene med å reflektere over hvordan tall kan ordnes og sammenlignes ut fra deres egenskaper, samtidig som de er fysisk aktive.",
-    "time": "5 min",
+    "description": "Elevene samles i et åpent område, for eksempel skolegården, gymsalen eller et stort klasserom, og får utdelt hvert sitt kort med et tall fra 1 til 20. En elev starter med å ha 'sisten' og roper ut et tall, for eksempel 12. Alle som har et annet tall enn det som ble ropt ut – altså alle som har et tall som er større eller mindre – må løpe og forsøke å unngå å bli tatt. Bare den som har akkurat det tallet som ble ropt, får stå i ro. Dersom sisten klarer å ta noen, bytter de to plass og bytter også kort, slik at tallene sirkulerer i gruppa. Leken fortsetter med en ny runde, og elevene får gjennom bevegelse øvd på å sammenligne tall, bruke begrepene «større enn» og «mindre enn» og utvikle en intuitiv forståelse for tallinje og tallrelasjoner. Aktiviteten er kroppslig, engasjerende og kan varieres med ulike matematiske kriterier underveis. Tips: Bruk andre kriterier enn større/mindre enn, f.eks 'Alle med partall løper",
     "image": "",
     "tools": "Kort med tall (1-20)",
     "location": "Inne/ute",
@@ -429,10 +428,10 @@
     "number_of_tasks": 1
   },
   {
-    "id": "tallets-reise",
-    "title": "Tallets reise",
-    "description": "I aktiviteten skal elevene utforske tal og mengder gjennom en fysisk reisebane i klasserommet. Læreren forbereder på forhånd ulike stasjoner, hver med en bestemt aktivitet som elevene skal utføre. Hver stasjon representerer et tall eller en mengde, for eksempel fem hopp, åtte klapp, eller tre runder rundt en stol. Start med å be elevene stille seg på rekke. Når læreren sier \"start\", begynner elever å bevege seg fra den ene stasjonen til neste, og utfører aktiviteten som hører til hvert tall/mengde. ",
-    "time": "15 min",
+    "id": "tallreise-i-jungelen",
+    "title": "Tallreise i jungelen",
+    "description": "Elevene legger ut på en tallreise gjennom jungelen, der de besøker ulike stasjoner med tall og dyrebevegelser. Hver stasjon viser et tall på flere måter – som tallsymbol, mengde og ord – og er koblet til en bestemt bevegelse inspirert av et jungeldyr. Elevene går i små grupper og stopper ved hver stasjon. Én elev i gruppa leser høyt hva som står på stasjonen, og så utfører hele gruppa bevegelsen sammen. Aktiviteten kombinerer bevegelse, samarbeid og utforsking av tall gjennom ulike representasjoner, og gir elevene erfaring med å omsette mellom symbol, bilde, språk og handling.",
+    "time": "45 min",
     "image": "https://example.com/tallets_reise.jpg",
     "tools": "Stasjoner med tall og beskrivelse av fysisk aktivitet, som å hoppe, klappe, gå rundt en stol osv.",
     "location": "Ute",
