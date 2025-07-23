@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import LesMerButton from "../components/LesMerButton";
-import info_data from "/Users/ingrid/Desktop/sommer/new/public/info_data.json";
+import info_data from "../../public/info_data.json";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faSchool } from "@fortawesome/free-solid-svg-icons";
