@@ -213,7 +213,7 @@ function InfoTask() {
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
+                <h2>Refleksjonsspørsmål</h2>
                 <p>{activity.reflectionQuestions}</p>
               </div>
             </div>

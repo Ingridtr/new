@@ -1,0 +1,40 @@
+{
+  "about": {
+    "title": "Om Kalkulek",
+    "content": "Kalkulek er en nettbasert løsning som tilbyr varierte og engasjerende undervisningsopplegg for lærere på 1.-7. trinn, med mål om å integrere fysisk aktiv læring (FAL) i matematikkundervisningen. \n \n Oppleggene er utviklet med et solid pedagogisk grunnlag og er tett knyttet til kompetansemålene i LK20. Målet er å støtte elevenes faglige utvikling, styrke læringsmiljøet, og øke motivasjonen for matematikk - gjennom bevegelse og praktisk deltakelse. \n \n Forskning viser at i hver klasse er det i snitt tre elever som ikke mestrer grunnleggende regnearter som addisjon og subtraksjon. I tillegg har en betydelig andel elever utfordringer knyttet til matematikkvansker og ADHD. Studier peker på at fysisk aktiv læring bidrar til bedre faglig forståelse og inkluderer flere elever enn tradisjonelle undervisningsformer."
+  },
+  "knowledge": {
+    "title_1": "Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv Læring",
+    "content_1": "Helhetlig skoletilnærming handler om å se hele eleven - faglig, sosialt og emosjonelt- og skape et inkluderende læringsmiljø som legger tilrette for utvikling og deltakelse blant alle elever. Forskning viser at fysisk aktiv læring kan bidra til å fremme ...",
+    "title_1_les_mer": "Helhetlig skoletilnærming og inkludering gjennom Fysisk Aktiv Læring",
+    "content_1_les_mer": "Helhetlig skoletilnærming handler om å se hele eleven - faglig, sosialt og emosjonelt -  og skape et inkluderende læringsmiljø som legger til rette for utvikling og deltakelse blant alle elever. \n \n Forskning viser at fysisk aktiv læring kan bidra til å fremme inkludering ved å: \n • Tilby varierte læringskanaler som passer ulike læringsstiler \n • Redusere sosiale barrierer gjennom kroppslig aktivitet \n • Skape fellesskapsopplevelser som styrker klassemiljøet \n • Gi alle elever mulighet til å delta uavhengig av faglig nivå \n \n Fysisk aktiv læring kan være særlig effektivt for elever med ADHD, autisme eller andre utfordringer, da bevegelse kan hjelpe med konsentrasjon og regulering av oppmerksomhet. Den helhetlige tilnærmingen innebærer også tett samarbeid mellom lærere, spesialpedagoger og andre profesjoner for å sikre at alle elevers behov blir ivaretatt.",
+    "title_2": "Pedagogisk rammeverk",
+    "content_2": "Undervisningsopplegget er utviklet med utgangspunkt i kompetansemålene i LK20 og bygger på den sosiokulturelle læringsteorien, embodied learning og CAPAblE modellen. Målet er å legge til rette for aktiv og meningsfull læring for alle elever.",
+    "title_2_les_mer": "Pedagogisk rammeverk",
+    "content_2_les_mer": "Undervisningsopplegget er utviklet med utgangspunkt i kompetansemålene i LK20 og bygger på følgende pedagogiske teorier:\n\n• Sosiokulturell læringsteori: Læring skjer i samspill med andre og i meningsfulle kontekster\n• Embodied learning: Kropp og kognisjon er tett forbundet - vi lærer gjennom hele kroppen\n• CAPADIE-modellen: Core Aspects of Physically Active Learning Implementation\n\nRammeverket inkluderer:\n\n1. Strukturerte aktiviteter som integrerer bevegelse med faginnhold\n2. Fleksible tilpasninger for ulike læringsbehov\n3. Vurderingsstrategier som tar høyde for varierte uttrykksformer\n4. Progresjon fra enkle til mer komplekse bevegelsesoppgaver\n\nDette sikrer at alle elever kan delta aktivt i læringsprosessen uavhengig av utgangspunkt og forutsetninger."
+  },
+  "knowledge_links": {
+    "title": "Forskningsartikler",
+    "link1": "Beyond borders: developing the core aspects of physically active learning enactment (CAPABLE) model in the third space",
+    "link2": "Reframing physically active learning as movement-centred pedagogy: a European priority action framework",
+    "link3": "Embodying education - a bildung theoretical approach to movement integration"
+  },
+  "management": {
+    "title_1": "Hvorfor velge Kalkulek?",
+    "content_1": "Kalkulek gir lærere konkrete, forskningsbaserte verktøy for å integrere fysisk aktivitet i fagundervisningen – uten å ofre læringstid.\n\nFordeler for skolen:\n• Økt elevengasjement og læring\n• Bedre konsentrasjon og klassemiljø\n• Støtter helhetlig undervisning og LK20",
+    "title_1_les_mer": "",
+    "content_1_les_mer": "",
+    "title_2": "Implementering og kostnad ",
+    "content_2": "Kontakt oss for mer informasjon om implementering og kostnader.",
+    "title_2_les_mer": "",
+    "content_2_les_mer": "",
+    "title_3": "SEFAL - kompetanseheving for lærere  ",
+    "content_3": "SEFAL(Senter for Fysisk Aktiv Læring) tilbyr et program for systematisk kompetanseheving i fysisk aktiv læring, utviklet i samarbeid med Høgkulen på Vestlandet. \n\n Hva får lærerne? \n• Faglig påfyll og konkrete undervisningsopplegg \n• Støtte til implementering i egen praksis",
+    "title_3_les_mer": "",
+    "content_3_les_mer": "",
+    "title_4": "Erfaringer fra andre skoler",
+    "content_4": "Vår partnerskole i Kragerø, Helle skole, har jobbet med FAL som undervisningsmetode i teoretiske fag fra 2015 gjennom prosjektet Liv og Røre, i samarbeid med Høyskolen på Vestlandet.\n\n Resultatene fra prosjektet viser at fysisk aktiv læring (FAL) ikke kun styrker elevenes faglige forståelse, men også har positiv effekt på læringsmiljø, motivasjon og trivsel.",
+    "title_4_les_mer": "",
+    "content_4_les_mer": ""
+  }
+}
