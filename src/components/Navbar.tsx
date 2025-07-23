@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
           </li>
           <li role="none">
             <a href="/about" role="menuitem">
-              Om Kalkulek
+              Om oss
             </a>
           </li>
           <li role="none">
@@ -177,7 +177,7 @@ const Navbar: React.FC = () => {
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
-              <p>Om kalkulek</p>
+              <p>Om oss</p>
             </button>
           </li>
           <li role="none">
