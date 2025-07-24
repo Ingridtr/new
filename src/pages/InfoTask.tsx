@@ -4,6 +4,7 @@ import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useSingleActivity } from "../components/GetActivity";
+import { useEffect, useRef } from "react";
 
 function InfoTask() {
   const navigate = useNavigate();
@@ -13,6 +14,7 @@ function InfoTask() {
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
   const currentGameImage = localStorage.getItem("selectedGameImage");
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Use the consolidated hook instead of custom fetching
   const { activity, loading, error } = useSingleActivity(
@@ -26,6 +28,21 @@ function InfoTask() {
       window.open(currentGameImage, "_blank");
     }
   };
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setShowToolsDropdown(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   if (loading) {
     return (
@@ -52,10 +69,13 @@ function InfoTask() {
   }
 
   const gradeTasks = {
+    tips: activity.grades[selectedGrade]?.tips || "",
+    reflection: activity.grades[selectedGrade]?.reflection || "",
     easy: activity.grades[selectedGrade]?.easy ?? [],
     medium: activity.grades[selectedGrade]?.medium ?? [],
     hard: activity.grades[selectedGrade]?.hard ?? [],
   };
+  console.log("task:", gradeTasks.tips);
 
   return (
     <div className="flex flex-col min-h-screen bg-yellow-50">
@@ -93,7 +113,7 @@ function InfoTask() {
                   <p>{activity.tools[0] ?? "Ingen"}</p>
                 </div>
               ) : (
-                <div className="relative">
+                <div className="relative" ref={dropdownRef}>
                   <button
                     onClick={() => setShowToolsDropdown(!showToolsDropdown)}
                     className="flex items-center gap-2"
@@ -136,8 +156,6 @@ function InfoTask() {
                   medium: gradeTasks.medium.map((task) => task.question),
                   hard: gradeTasks.hard.map((task) => task.question),
                 }}
-                variations={activity.variations}
-                reflectionQuestions={activity.reflectionQuestions}
               />
               <button
                 className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
@@ -157,25 +175,32 @@ function InfoTask() {
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
                   <p>
-                  {activity.learningGoals.map((goal, index) => (
-                    <li key={index}>{goal}</li>
-                  ))}</p>
+                    {activity.learningGoals.map((goal, index) => (
+                      <li key={index}>{goal}</li>
+                    ))}
+                  </p>
                 </ul>
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Beskrivelse</h2>
-                <p>{activity.description}</p>
+                <p style={{ whiteSpace: "pre-line" }}>{activity.description}</p>
               </div>
 
               <div className="bg-white border border-black rounded-2xl p-6">
                 <h2>Oppgaver</h2>
+                {gradeTasks.tips.length > 0 && (
+                  <p style={{ whiteSpace: "pre-line" }}>{gradeTasks.tips}</p>
+                )}
+
                 {gradeTasks.easy.length > 0 && (
                   <>
                     <h3>Enkel</h3>
                     <ul className="list-disc list-inside mb-4">
                       {gradeTasks.easy.map((task, index) => (
-                        <li key={index}>{task.question}</li>
+                        <li style={{ whiteSpace: "pre-line" }} key={index}>
+                          {task.question}
+                        </li>
                       ))}
                     </ul>
                   </>
@@ -185,7 +210,9 @@ function InfoTask() {
                     <h3>Middels</h3>
                     <ul className="list-disc list-inside mb-4">
                       {gradeTasks.medium.map((task, index) => (
-                        <li key={index}>{task.question}</li>
+                        <li style={{ whiteSpace: "pre-line" }} key={index}>
+                          {task.question}
+                        </li>
                       ))}
                     </ul>
                   </>
@@ -195,7 +222,9 @@ function InfoTask() {
                     <h3>Vanskelig</h3>
                     <ul className="list-disc list-inside">
                       {gradeTasks.hard.map((task, index) => (
-                        <li key={index}>{task.question}</li>
+                        <li style={{ whiteSpace: "pre-line" }} key={index}>
+                          {task.question}
+                        </li>
                       ))}
                     </ul>
                   </>
@@ -207,15 +236,14 @@ function InfoTask() {
                   )}
               </div>
 
-              <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Variasjoner</h2>
-                <p>{activity.variations}</p>
-              </div>
-
-              <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Refleksjonsspørsmål</h2>
-                <p>{activity.reflectionQuestions}</p>
-              </div>
+              {gradeTasks.reflection.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Refleksjonsspørsmål</h2>
+                  <p style={{ whiteSpace: "pre-line" }}>
+                    {gradeTasks.reflection}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
