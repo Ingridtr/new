@@ -19,14 +19,14 @@ export interface ActivityTask {
   generatedAt: string;
   grades: {
     [grade: string]: {
+      tips?: string;
+      reflection?: string;
       easy?: Question[];
       medium?: Question[];
       hard?: Question[];
     };
   };
   learningGoals: string[];
-  reflectionQuestions: string;
-  variations: string;
 }
 
 export interface Question {

@@ -13,29 +13,31 @@
   ],
   "grades": {
     "Andre årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 2 + 3?",
-          "answer": "5"
+          "question": "2 + 1 = ?",
+          "answer": "3"
         },
         {
           "id": "mattesheriff_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 4 + 1?",
-          "answer": "5"
+          "question": "5 - 3 = ?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 6 - 2?",
+          "question": "4 + 0 = ?",
           "answer": "4"
         }
       ],
@@ -45,24 +47,24 @@
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 7 + 3?",
-          "answer": "10"
+          "question": "3 + 4 = ?",
+          "answer": "7"
         },
         {
           "id": "mattesheriff_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 9 - 4?",
-          "answer": "5"
+          "question": "6 - 2 = ?",
+          "answer": "4"
         },
         {
           "id": "mattesheriff_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 8 + 2?",
-          "answer": "10"
+          "question": "1 + 5 = ?",
+          "answer": "6"
         }
       ],
       "hard": [
@@ -71,52 +73,54 @@
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 12 + 6?",
-          "answer": "18"
+          "question": "7 - 4 = ?",
+          "answer": "3"
         },
         {
           "id": "mattesheriff_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 15 - 8?",
-          "answer": "7"
+          "question": "2 + 6 = ?",
+          "answer": "8"
         },
         {
           "id": "mattesheriff_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
-          "question": "Hva er 14 + 5?",
-          "answer": "19"
+          "question": "9 - 5 = ?",
+          "answer": "4"
         }
       ]
     },
     "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_tredje_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "question": "4 + 2 = ?",
+          "answer": "6"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "question": "8 - 3 = ?",
+          "answer": "5"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "question": "1 + 6 = ?",
+          "answer": "7"
         }
       ],
       "medium": [
@@ -125,24 +129,24 @@
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "question": "5 + 3 = ?",
+          "answer": "8"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "question": "10 - 4 = ?",
+          "answer": "6"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 6 × 3?",
-          "answer": "18"
+          "question": "2 + 7 = ?",
+          "answer": "9"
         }
       ],
       "hard": [
@@ -151,43 +155,45 @@
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 147 + 89?",
-          "answer": "236"
+          "question": "9 - 6 = ?",
+          "answer": "3"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 204 - 78?",
-          "answer": "126"
+          "question": "6 + 4 = ?",
+          "answer": "10"
         },
         {
           "id": "mattesheriff_tredje_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
-          "question": "Hva er 15 × 12?",
-          "answer": "180"
+          "question": "8 - 5 = ?",
+          "answer": "3"
         }
       ]
     },
     "Fjerde årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_fjerde_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 12 ÷ 3?",
-          "answer": "4"
+          "question": "2 × 1 = ?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 15 ÷ 5?",
+          "question": "6 ÷ 2 = ?",
           "answer": "3"
         },
         {
@@ -195,8 +201,8 @@
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 8 × 2?",
-          "answer": "16"
+          "question": "3 + 2 = ?",
+          "answer": "5"
         }
       ],
       "medium": [
@@ -205,24 +211,24 @@
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 24 ÷ 6?",
-          "answer": "4"
+          "question": "3 × 2 = ?",
+          "answer": "6"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 45 ÷ 9?",
-          "answer": "5"
+          "question": "8 ÷ 4 = ?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 7 × 8?",
-          "answer": "56"
+          "question": "5 + 3 = ?",
+          "answer": "8"
         }
       ],
       "hard": [
@@ -231,52 +237,54 @@
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 144 ÷ 12?",
-          "answer": "12"
+          "question": "4 × 2 = ?",
+          "answer": "8"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 168 ÷ 14?",
-          "answer": "12"
+          "question": "9 ÷ 3 = ?",
+          "answer": "3"
         },
         {
           "id": "mattesheriff_fjerde_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
-          "question": "Hva er 13 × 11?",
-          "answer": "143"
+          "question": "6 - 2 = ?",
+          "answer": "4"
         }
       ]
     },
     "Femte årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 1/2 + 1/4?",
-          "answer": "3/4"
+          "question": "Hva er 1/2 av 4?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 0.5 + 0.3?",
-          "answer": "0.8"
+          "question": "Hva er 50 % av 4?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 50% av 10?",
-          "answer": "5"
+          "question": "0.5 + 0.5 = ?",
+          "answer": "1.0"
         }
       ],
       "medium": [
@@ -285,24 +293,24 @@
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 2/3 + 1/6?",
-          "answer": "5/6"
+          "question": "Hva er 1/2 av 6?",
+          "answer": "3"
         },
         {
           "id": "mattesheriff_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 0.7 × 0.4?",
-          "answer": "0.28"
+          "question": "Hva er 25 % av 8?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 25% av 40?",
-          "answer": "10"
+          "question": "0.2 + 0.3 = ?",
+          "answer": "0.5"
         }
       ],
       "hard": [
@@ -311,52 +319,54 @@
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 3/4 - 2/5?",
-          "answer": "7/20"
+          "question": "Hva er 1/4 av 8?",
+          "answer": "2"
         },
         {
           "id": "mattesheriff_femte_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 1.25 × 3.2?",
-          "answer": "4"
+          "question": "Hva er 10 % av 10?",
+          "answer": "1"
         },
         {
           "id": "mattesheriff_femte_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
-          "question": "Hva er 15% av 80?",
-          "answer": "12"
+          "question": "0.3 + 0.3 = ?",
+          "answer": "0.6"
         }
       ]
     },
     "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_sjette_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 0.5 + 0.3?",
-          "answer": "0.8"
+          "question": "0.5 + 0.5 = ?",
+          "answer": "1.0"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 0.7 + 0.2?",
-          "answer": "0.9"
+          "question": "1.0 - 0.5 = ?",
+          "answer": "0.5"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 1.0 - 0.4?",
-          "answer": "0.6"
+          "question": "0.2 + 0.3 = ?",
+          "answer": "0.5"
         }
       ],
       "medium": [
@@ -365,24 +375,24 @@
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 1.5 × 0.4?",
-          "answer": "0.6"
+          "question": "0.4 + 0.4 = ?",
+          "answer": "0.8"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 2.4 ÷ 0.6?",
-          "answer": "4"
+          "question": "0.6 - 0.2 = ?",
+          "answer": "0.4"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 8.4 ÷ 2?",
-          "answer": "4.2"
+          "question": "1.5 - 0.5 = ?",
+          "answer": "1.0"
         }
       ],
       "hard": [
@@ -391,52 +401,54 @@
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 2.5 × 3.2?",
-          "answer": "8"
+          "question": "1.1 + 0.9 = ?",
+          "answer": "2.0"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 4.8 × 1.25?",
-          "answer": "6"
+          "question": "1.2 - 0.7 = ?",
+          "answer": "0.5"
         },
         {
           "id": "mattesheriff_sjette_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
-          "question": "Hva er 15.6 ÷ 3?",
-          "answer": "5.2"
+          "question": "0.3 + 0.6 = ?",
+          "answer": "0.9"
         }
       ]
     },
     "Syvende årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "mattesheriff_syvende_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 2³?",
-          "answer": "8"
+          "question": "0 - 1 = ?",
+          "answer": "-1"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 3²?",
-          "answer": "9"
+          "question": "-1 + 1 = ?",
+          "answer": "0"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 5²?",
-          "answer": "25"
+          "question": "-2 + 2 = ?",
+          "answer": "0"
         }
       ],
       "medium": [
@@ -445,24 +457,24 @@
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 4³?",
-          "answer": "64"
+          "question": "-3 + 2 = ?",
+          "answer": "-1"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 6²?",
-          "answer": "36"
+          "question": "-4 + 4 = ?",
+          "answer": "0"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 2⁴?",
-          "answer": "16"
+          "question": "0 - 2 = ?",
+          "answer": "-2"
         }
       ],
       "hard": [
@@ -471,24 +483,24 @@
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 3⁴?",
-          "answer": "81"
+          "question": "-5 + 3 = ?",
+          "answer": "-2"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 5³?",
-          "answer": "125"
+          "question": "-2 - 2 = ?",
+          "answer": "-4"
         },
         {
           "id": "mattesheriff_syvende_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "utforske negative tal i praktiske situasjonar",
-          "question": "Hva er 2⁵?",
-          "answer": "32"
+          "question": "-6 + 6 = ?",
+          "answer": "0"
         }
       ]
     }

@@ -1,36 +1,26 @@
 {
   "activityId": "tallinje",
   "activityTitle": "Tallinje",
-  "totalTasks": 18,
+  "totalTasks": 45,
   "tasksPerGrade": 9,
   "supportedGrades": [
-    "Andre årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn"
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
   ],
   "grades": {
     "Andre årstrinn": {
+      "tips": "",
+      "reflection": "Når alle har funnet plassen sin, ta en kort felles samtale: Er dere enige i rekkefølgen? Hva gjorde dere for å finne ut av det?",
       "easy": [
         {
           "id": "tallinje_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_easy_2",
-          "difficulty": "easy",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_easy_3",
-          "difficulty": "easy",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
+          "question": "Del ut ett tallkort til hver elev, gjerne fra 1 til  n (antall elever).  Forklar at de nå skal samarbeide om å plassere seg i stigende rekkefølge ut fra tallene de har fått på tallinjen. Oppfordre dem til å snakke sammen, sammenligne tall og diskutere rekkefølgen underveis.",
           "answer": ""
         }
       ],
@@ -40,78 +30,128 @@
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "?",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_medium_2",
-          "difficulty": "medium",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "?",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_medium_3",
-          "difficulty": "medium",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
-          "answer": ""
-        }
-      ],
-      "hard": [
-        {
-          "id": "tallinje_andre_årstrinn_hard_1",
-          "difficulty": "hard",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_andre_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Andre årstrinn",
-          "learningGoal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
-          "question": "",
+          "question": "Uten å bytte kort, skal de samarbeide igjen – denne gangen for å stille seg i synkende rekkefølge ved å telle baklengs. Oppfordre dem til å bruke felles strategi og hjelpe hverandre med å finne riktig plass på tallinjen.",
           "answer": ""
         }
       ]
     },
+    "Tredje årstrinn": {
+      "tips": "Elevene får instrukser om å starte på et felt og bevege seg et bestemt antall skritt fremover eller bakover, basert på en addisjons- eller subtraksjonsoppgave som lærer roper ut. For eksempel, om læreren sier 'start på 2 og legg til 3', skal elevene bevege seg til felt 5. Hvis oppgaven er 'start på 5 og trekk fra 4', skal elevene gå til felt 1. Etter hver oppgave diskuterer elevene med hverandre for å forklare hva de gjorde, og hvordan addisjon og subtraksjon henger sammen.",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "tallinje_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 3 og trekk fra 2",
+          "answer": "1"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 5 og trekk fra 1",
+          "answer": "4"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 0 og legg til 4",
+          "answer": "4"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_easy_4",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 0 og legg til 4",
+          "answer": "4"
+        }
+      ],
+      "medium": [
+        {
+          "id": "tallinje_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 6 og trekk fra 3",
+          "answer": "3"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 2 og legg til 5",
+          "answer": "7"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 9 og trekk fra 4",
+          "answer": "5"
+        }
+      ],
+      "hard": [
+        {
+          "id": "tallinje_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 7 og legg til 3",
+          "answer": "10"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 10 og trekk fra 6",
+          "answer": "4"
+        },
+        {
+          "id": "tallinje_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+          "question": "Start på 8 og legg til 2, og deretter trekk fra 5",
+          "answer": "5"
+        }
+      ]
+    },
     "Femte årstrinn": {
+      "tips": "Læreren deler elevene inn i små grupper og gir hver gruppe en bøtte med 10 småstein.",
+      "reflection": "",
       "easy": [
         {
           "id": "tallinje_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Du har 1 av 10 småstein – hvor stiller du deg?",
+          "answer": "0.1"
         },
         {
           "id": "tallinje_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Du har 5 av 10 småstein – hvor stiller du deg?",
+          "answer": "0.5"
         },
         {
           "id": "tallinje_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Du har 10 av 10 småstein – hvor stiller du deg?",
+          "answer": "1.0"
         }
       ],
       "medium": [
@@ -119,25 +159,25 @@
           "id": "tallinje_femte_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Still deg der 0,3 er. Hvor mange småstein må du ha?",
+          "answer": "3"
         },
         {
           "id": "tallinje_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Du har 40 %. Hvor skal du stå?",
+          "answer": "0.4"
         },
         {
           "id": "tallinje_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Du har 3 småstein – hva er det som desimaltall og prosent?",
+          "answer": "0.3 og 30%"
         }
       ],
       "hard": [
@@ -145,37 +185,22 @@
           "id": "tallinje_femte_årstrinn_hard_1",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_femte_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_femte_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Femte årstrinn",
-          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
-          "question": "",
+          "learningGoal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+          "question": "Elevene skal fordele småsteinene mellom seg. Tallinjen skal være nummerert fra 0 til 1, med mellomrom på 0,1. Elevene plasserer seg på linjen ut ifra hvor stor del av småsteinene deres representerer prosentvis. For eksempel, hvis en elev har 2 småstein, skal de stå på 0,2 på tallinjen. Etter å ha plassert seg, diskuterer elevene i gruppen sammenhengen mellom brøken av deres småstein, desimalen de står på, og prosentandelen de representerer. Læreren går rundt og veileder gruppene mens de sammenligner sine plasseringer og diskuterer hvorfor de står der de står.",
           "answer": ""
         }
       ]
     },
-
     "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "tallinje_sjette_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
+          "question": " Læreren sier ett og ett desimaltall høyt, og elevene skal gå og stille seg der tallet hører hjemme på tallinjen. Gi gjerne ett tall til hver elev eller la dem komme fram etter tur.",
           "answer": ""
         },
         {
@@ -183,7 +208,7 @@
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
+          "question": "Plasser deg på 5,5",
           "answer": ""
         },
         {
@@ -191,7 +216,31 @@
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
+          "question": "Plasser deg på 0,1",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_easy_4",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Plasser deg på 2,0",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_easy_5",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Plasser deg på 9,9",
+          "answer": ""
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_easy_6",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Plasser deg på 3,3",
           "answer": ""
         }
       ],
@@ -201,7 +250,7 @@
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
+          "question": "Nå jobber elevene med enkle beregninger eller tenking før de går. Les opp hvert oppdrag og be elevene tenke høyt eller diskutere i par før de plasserer seg.",
           "answer": ""
         },
         {
@@ -209,16 +258,24 @@
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
-          "answer": ""
+          "question": "Start på 2,0 og legg til 0,6",
+          "answer": "2.6"
         },
         {
           "id": "tallinje_sjette_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
-          "answer": ""
+          "question": "Hva er midt mellom 3,2 og 3,8? Gå dit!",
+          "answer": "3.5"
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_medium_4",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Start på 5,0 og gå tilbake 0,4",
+          "answer": "4.6"
         }
       ],
       "hard": [
@@ -227,7 +284,7 @@
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
+          "question": "Be elevene forklare strategien for å finne riktig sted, enten før eller etter de går.",
           "answer": ""
         },
         {
@@ -235,95 +292,45 @@
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
-          "answer": ""
+          "question": "Start på 3,75 og gå -0,25",
+          "answer": "3.5"
         },
         {
           "id": "tallinje_sjette_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
-          "question": "",
-          "answer": ""
+          "question": "Plasser deg på tallet tre tideler etter 4,6",
+          "answer": "4.9"
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_hard_4",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Gå til tallet som er 1,1 mer enn 2,9",
+          "answer": "4.0"
+        },
+        {
+          "id": "tallinje_sjette_årstrinn_hard_5",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske, namngi og plassere desimaltal på tallinja",
+          "question": "Gå til tallet som er 0,5 mindre enn 7,3",
+          "answer": "6.8"
         }
       ]
     },
     "Syvende årstrinn": {
-      "easy": [
-        {
-          "id": "tallinje_syvende_årstrinn_easy_1",
-          "difficulty": "easy",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_easy_2",
-          "difficulty": "easy",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_easy_3",
-          "difficulty": "easy",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        }
-      ],
+      "tips": "",
+      "reflection": "",
       "medium": [
         {
           "id": "tallinje_syvende_årstrinn_medium_1",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_medium_2",
-          "difficulty": "medium",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_medium_3",
-          "difficulty": "medium",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        }
-      ],
-      "hard": [
-        {
-          "id": "tallinje_syvende_årstrinn_hard_1",
-          "difficulty": "hard",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "tallinje_syvende_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Syvende årstrinn",
-          "learningGoal": "bruke tallinje i rekning med positive og negative tal",
-          "question": "",
+          "question": "Elevene deles inn i par. En elev i hvert par står på en verdi, mens den andre skal gi instruksjoner for hvor mange steg deres partner skal bevege seg, enten fremover (positivt) eller bakover (negativt) på tallinjen. Bytt roller etter hver oppgave slik at begge får prøve både å gi og motta instruksjoner. Etter flere runder samles klassen og reflekterer over hvilken effekt de ulike instruksjonene hadde og hvordan bevegelsene deres representerte positive og negative tall på tallinjen.",
           "answer": ""
         }
       ]

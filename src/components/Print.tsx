@@ -10,8 +10,6 @@ interface PrintComponentProps {
     medium: string[];
     hard: string[];
   };
-  variations: string;
-  reflectionQuestions: string;
 }
 
 function PrintComponent({
@@ -22,8 +20,6 @@ function PrintComponent({
   learningGoals,
   description,
   tasks,
-  variations,
-  reflectionQuestions,
 }: PrintComponentProps) {
   const handlePrint = () => {
     // Create a new window for printing
@@ -151,15 +147,7 @@ function PrintComponent({
               </ul>
             </div>
 
-            <div class="main-content">
-              <h2>Variasjoner</h2>
-              <p>${variations}</p>
-            </div>
-
-            <div class="main-content">
-              <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
-              <p>${reflectionQuestions}</p>
-            </div>
+           
           </div>
         </body>
         </html>
