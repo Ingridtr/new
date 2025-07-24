@@ -33,20 +33,20 @@
     "number_of_tasks": 9
   },
   {
-    "id": "poster-skattejakt",
-    "title": "Poster i klasserommet",
-    "description": "Rundt omkring i klasserommet henger det poster. På hver post henger det matteoppgaver som må løses av elevene. Enten løse regneoppgaver eller koder for å komme videre.",
-    "time": "15 min",
-    "image": "/activityPictures/poster-skattejakt.png",
+    "id": "mattejakt",
+    "title": "Mattejakt",
+    "description": "I denne aktiviteten skal elevene ut på en spennende mattejakt i klasseromme eller utet. Rundt om i rommet henger det ulike poster – hver med en matematisk utfordring som må løses for å kunne gå videre til neste post. Oppgavene kan være varierte og tilpasset tema og nivå: alt fra regnestykker i hodet, logiske gåter, koder som må knekkes, eller problemløsning med samarbeid. Elevene kan jobbe individuelt eller i små grupper, og de beveger seg fritt rundt i rommet. \n\n Del elevene inn i grupper på 4-5 elever. Fordel fire/fem poster med en oppgave ved hver post. Bruk kjegler eller markører for å tydeliggjøre postene. ",
+    "time": "45 min",
+    "image": "/activityPictures/mattejakt.png",
     "tools": "Penn,papir",
-    "location": "Inne",
+    "location": "Inne/ute",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
   },
   {
     "id": "pastandsveggene",
     "title": "Påstandveggene",
-    "description": "Læreren leser opp ulike oppgaver / påstander der hver vegg i klasserommet representerer et alternativ. Elevene skal bevege seg til den veggen de mener har rett svar",
+    "description": "Læreren presenterer ulike matematiske oppgaver eller påstander muntlig, hvor hver vegg i klasserommet representerer et svaralternativ. Når elevene har tenkt seg frem til hva de mener er riktig svar, beveger de seg fysisk til den veggen som tilsvarer deres valg. Etter at alle har valgt, gjennomgår læreren svaret sammen med klassen og inviterer til refleksjon: Hvorfor valgte du den veggen? Kunne man tenkt på det på en annen måte? \n\n  Dersom man opplever at elevene hermer etter hverandre, kan man utføre aktiviteten med lukkede øyne. Når elevene skal velge vegg kan de peke i den retningen veggen er. Dette bidrar til mer selvstendig tenkning. ",
     "time": "15 min",
     "image": "/activityPictures/påstandsveggene.png",
     "tools": "Ingen",
@@ -309,4 +309,3 @@
     "number_of_tasks": 1
   }
 ]
-

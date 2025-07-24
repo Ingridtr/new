@@ -6,6 +6,8 @@ interface PrintComponentProps {
   learningGoals: string[];
   description: string;
   tasks: {
+    tips: string;
+    reflection: string;
     easy: string[];
     medium: string[];
     hard: string[];
@@ -128,8 +130,10 @@ function PrintComponent({
               <p>${description}</p>
             </div>
 
+
             <div class="main-content">
               <h2>Oppgaver</h2>
+              <p>${tasks.tips}</p>
               
               <h3>Enkel</h3>
               <ul>
@@ -146,6 +150,9 @@ function PrintComponent({
                 ${tasks.hard.map((task) => `<li>${task}</li>`).join("")}
               </ul>
             </div>
+            <div class="main-content page-break">
+              <h2>Refleksjonsspørsmål</h2>
+              <p>${tasks.reflection}</p>
 
            
           </div>
@@ -167,7 +174,9 @@ function PrintComponent({
       onClick={handlePrint}
       aria-label="Print aktivitet"
     >
-      <span role="img" aria-label="Printer">🖨️</span>
+      <span role="img" aria-label="Printer">
+        🖨️
+      </span>
       <p>Print aktivitet</p>
     </button>
   );
