@@ -152,6 +152,8 @@ function InfoTask() {
                 learningGoals={activity.learningGoals}
                 description={activity.description}
                 tasks={{
+                  tips: gradeTasks.tips,
+                  reflection: gradeTasks.reflection,
                   easy: gradeTasks.easy.map((task) => task.question),
                   medium: gradeTasks.medium.map((task) => task.question),
                   hard: gradeTasks.hard.map((task) => task.question),

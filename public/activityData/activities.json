@@ -99,14 +99,14 @@
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "time": " min",
-    "image": "/activityPictures/.png",
-    "tools": "",
-    "location": "",
-    "grade": "",
+    "id": "nappe-hale",
+    "title": "Nappe hale",
+    "description": "I halejakten deltar elevene i en fysisk lek der de prøver å fange hverandres haler, som har ulike poengverdier. Gi hver elev en hale de fester rundt livet og la de løpe rundt i et oppmerket areal mens de napper hverandres haler.. Dette er en aktivitet som fungerer i et stort klasserom eller et oppmerket uteområde. Aktiviteten kan foregå i flere runder med ulikt matematisk fokus, eller avsluttes etter en gitt tidsperiode. Etter endt runde bruker man antall haler i et gitt mattestykke. Her er det åpent for refleksjon der elevene kan diskutere hvordan man kommer frem til svaret.",
+    "time": "45 min",
+    "image": "/activityPictures/nappe-hale.png",
+    "tools": "Haler ,(kan være bånd tøystykke eller lignende)",
+    "location": "Ute",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
   },
   {
