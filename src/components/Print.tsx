@@ -6,12 +6,12 @@ interface PrintComponentProps {
   learningGoals: string[];
   description: string;
   tasks: {
+    tips: string;
+    reflection: string;
     easy: string[];
     medium: string[];
     hard: string[];
   };
-  variations: string;
-  reflectionQuestions: string;
 }
 
 function PrintComponent({
@@ -22,8 +22,6 @@ function PrintComponent({
   learningGoals,
   description,
   tasks,
-  variations,
-  reflectionQuestions,
 }: PrintComponentProps) {
   const handlePrint = () => {
     // Create a new window for printing
@@ -132,8 +130,10 @@ function PrintComponent({
               <p>${description}</p>
             </div>
 
+
             <div class="main-content">
               <h2>Oppgaver</h2>
+              <p>${tasks.tips}</p>
               
               <h3>Enkel</h3>
               <ul>
@@ -150,16 +150,11 @@ function PrintComponent({
                 ${tasks.hard.map((task) => `<li>${task}</li>`).join("")}
               </ul>
             </div>
+            <div class="main-content page-break">
+              <h2>Refleksjonsspørsmål</h2>
+              <p>${tasks.reflection}</p>
 
-            <div class="main-content">
-              <h2>Variasjoner</h2>
-              <p>${variations}</p>
-            </div>
-
-            <div class="main-content">
-              <h2>Refleksjonsspørsmål [Etter aktiviteten]</h2>
-              <p>${reflectionQuestions}</p>
-            </div>
+           
           </div>
         </body>
         </html>
@@ -179,7 +174,9 @@ function PrintComponent({
       onClick={handlePrint}
       aria-label="Print aktivitet"
     >
-      <span role="img" aria-label="Printer">🖨️</span>
+      <span role="img" aria-label="Printer">
+        🖨️
+      </span>
       <p>Print aktivitet</p>
     </button>
   );

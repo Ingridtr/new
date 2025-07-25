@@ -1,0 +1,45 @@
+{
+  "activityId": "balanseleken",
+  "activityTitle": "Balanseleken",
+  "totalTasks": 9,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Tredje årstrinn"
+  ],
+  "grades": {
+    "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "balanseleken_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Elevene får beskjed om å legge 2 bøker på den ene siden av linja og finne noe annet som skal balansere vekten på den andre siden av linja",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "balanseleken_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Elevene får beskjed om å legge 1 penn på den ene siden av linja, og skal nå finne en annen gjenstand (som ikke er en penn) til å balansere vekten.",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "balanseleken_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Elevene får beskjed om å legge 1 stol på den ene siden av linja og finne en gjenstand (som ikke er en stol) til å balansere vekten. Her kan de også bruke pluss  og minus til å legge til og trekke fra vekt. (F.eks. kan en av elevene legge seg på motsatt side av stolen, også legger de 15 bøker på stolen sin side for å kompensere for overvekten på den ene siden.",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

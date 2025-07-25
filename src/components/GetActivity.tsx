@@ -68,18 +68,17 @@ export async function fetchSingleActivity(
     );
     const taskDetails = await fetchActivityTasks(activityId);
 
-    if (!rawActivity || !taskDetails) {
-      return null;
-    }
+    if (!rawActivity || !taskDetails) return null;
 
     const activity: Activity = {
       ...rawActivity,
-      tools: rawActivity.tools.split(",").map((tool: string) => tool.trim()), // Convert string to array
+      tools: rawActivity.tools.split(",").map((tool: string) => tool.trim()),
     };
 
     const gradeData = selectedGrade
       ? taskDetails.grades[selectedGrade] ?? {}
       : {};
+
     const allQuestions: Question[] = [
       ...(gradeData.easy ?? []),
       ...(gradeData.medium ?? []),
@@ -103,6 +102,8 @@ export async function fetchSingleActivity(
       grades: selectedGrade
         ? {
             [selectedGrade]: {
+              tips: gradeData.tips || "",
+              reflection: gradeData.reflection || "",
               easy: filteredQuestions.filter((q) => q.difficulty === "easy"),
               medium: filteredQuestions.filter(
                 (q) => q.difficulty === "medium"
@@ -117,7 +118,6 @@ export async function fetchSingleActivity(
     return null;
   }
 }
-
 export function useSingleActivity(
   activityId: string | null,
   selectedGrade: string | null,

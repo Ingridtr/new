@@ -14,6 +14,8 @@ def create_task_template(activity_id, title, grades_with_goals):
     for grade, goal in grades_with_goals.items():
         grade_key = grade
         data["grades"][grade_key] = {
+            "tips": "",
+            "reflection": "",
             "easy": [],
             "medium": [],
             "hard": []

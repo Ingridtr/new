@@ -13,30 +13,32 @@
   ],
   "grades": {
     "Andre årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_andre_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 2 + 3?",
-          "answer": "5"
+          "question": "Påstand: 6 er et partall",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 4 + 1?",
-          "answer": "5"
+          "question": "Påstand: Alle tall som slutter på 1, 3, 5, 7, 9 er partall",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 6 - 2?",
-          "answer": "4"
+          "question": "Hvilket av disse er et oddetall?\nA) 4 | B) 7 | C) 10 | D) 12",
+          "answer": ""
         }
       ],
       "medium": [
@@ -45,24 +47,24 @@
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 7 + 3?",
-          "answer": "10"
+          "question": "Påstand: Partall kan alltid deles likt mellom to personer",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 9 - 4?",
-          "answer": "5"
+          "question": "Hvilket tall er et partall?\nA) 9 | B) 11 | C) 14 | D) 7",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 8 + 2?",
-          "answer": "10"
+          "question": "Påstand: 0 er et oddetall",
+          "answer": ""
         }
       ],
       "hard": [
@@ -71,52 +73,54 @@
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 12 + 6?",
-          "answer": "18"
+          "question": "Hva er summen av to oddetall?\nA) Alltid partall | B) Alltid oddetall | C) Varierer",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 15 - 8?",
-          "answer": "7"
+          "question": "Påstand: Når du plusser et partall og et oddetall, får du alltid et oddetall",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_andre_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Andre årstrinn",
           "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
-          "question": "Hva er 14 + 5?",
-          "answer": "19"
+          "question": "Hvilket tall er partall og delelig med 3?\nA) 4 | B) 6 | C) 9 | D) 7",
+          "answer": ""
         }
       ]
     },
     "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_tredje_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 3 + 4?",
-          "answer": "7"
+          "question": "Påstand: 5 grupper med 2 epler i hver gir 10 epler totalt",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 5 + 2?",
-          "answer": "7"
+          "question": "Du deler 12 kaker på 3 barn. Får de 3 kaker hver?\nA) Ja | B) Nei | C) Kanskje | D) Vet ikke",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 8 - 3?",
-          "answer": "5"
+          "question": "Påstand: 3 × 4 = 12",
+          "answer": ""
         }
       ],
       "medium": [
@@ -125,24 +129,24 @@
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 12 + 8?",
-          "answer": "20"
+          "question": "Hvilket regnestykke passer til: Du har 4 poser med 3 kuler i hver\nA) 3 + 3 + 3 | B) 4 × 3 | C) 4 ÷ 3 | D) 3 − 4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 15 - 7?",
-          "answer": "8"
+          "question": "Påstand: 16 ÷ 4 = 4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 6 × 3?",
-          "answer": "18"
+          "question": "Du har 20 drops og deler dem på 5 barn. Hvor mange får hver?\nA) 5 | B) 3 | C) 4 | D) 2",
+          "answer": ""
         }
       ],
       "hard": [
@@ -151,52 +155,54 @@
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 147 + 89?",
-          "answer": "236"
+          "question": "Påstand: 24 ÷ 6 = 4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 204 - 78?",
-          "answer": "126"
+          "question": "Hvilket uttrykk passer til: 3 venner kjøper hver sin pakke med 5 klistremerker\nA) 5 + 5 | B) 3 + 3 + 3 | C) 3 × 5 | D) 3 ÷ 5",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_tredje_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Tredje årstrinn",
           "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
-          "question": "Hva er 15 × 12?",
-          "answer": "180"
+          "question": "Du har 36 kuler og skal legge 6 i hver eske. Hvor mange esker trenger du?\nA) 6 | B) 5 | C) 7 | D) 9",
+          "answer": ""
         }
       ]
     },
     "Fjerde årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_fjerde_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 12 ÷ 3?",
-          "answer": "4"
+          "question": "Hva passer best til uttrykket 3 × 4?\nA) 3 jenter deler 4 boller | B) 3 esker med 4 bøker i hver | C) 3 − 4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 15 ÷ 5?",
-          "answer": "3"
+          "question": "Påstand: 4 + 4 + 4 = 3 × 4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 8 × 2?",
-          "answer": "16"
+          "question": "Hvilket uttrykk passer: 5 kr per is, og du kjøper 2 is\nA) 5 + 2 | B) 5 × 2 | C) 5 − 2 | D) 5 ÷ 2",
+          "answer": ""
         }
       ],
       "medium": [
@@ -205,24 +211,24 @@
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 24 ÷ 6?",
-          "answer": "4"
+          "question": "Påstand: 4 + 5 + 4 = 2 × 5",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 45 ÷ 9?",
-          "answer": "5"
+          "question": "Hvilket uttrykk passer til: Du får 7 kr fra mamma og 3 kr fra pappa\nA) 7 × 3 | B) 7 + 3 | C) 7 − 3",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 7 × 8?",
-          "answer": "56"
+          "question": "Hva er riktig uttrykk: Du deler 20 kroner likt på 4 venner\nA) 20 × 4 | B) 20 ÷ 4 | C) 20 + 4",
+          "answer": ""
         }
       ],
       "hard": [
@@ -231,52 +237,54 @@
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 144 ÷ 12?",
-          "answer": "12"
+          "question": "Hvilket uttrykk passer til: Du kjøper 2 is til 25 kr og én brus til 20 kr\nA) 25 + 20 | B) 25 × 2 + 20 | C) 2 × (25 + 20)",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 168 ÷ 14?",
-          "answer": "12"
+          "question": "Påstand: 3 × 4 + 2 = 20",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_fjerde_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Fjerde årstrinn",
           "learningGoal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
-          "question": "Hva er 13 × 11?",
-          "answer": "143"
+          "question": "Du får 10 kr hver uke i 5 uker. Hvor mye har du til sammen?\nA) 10 + 5 | B) 10 × 5 | C) 5 ÷ 10",
+          "answer": ""
         }
       ]
     },
     "Femte årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_femte_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 1/2 + 1/4?",
-          "answer": "3/4"
+          "question": "Påstand: Når du kaster en terning, er det like stor sjanse for å få 1 som å få 6",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 0.5 + 0.3?",
-          "answer": "0.8"
+          "question": "Påstand: Når du trekker én lapp fra en bolle med 10 like store lapper, har alle like stor sjanse",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 50% av 10?",
-          "answer": "5"
+          "question": "Hvilken brøk viser én av fem like store deler?\nA) 1/2 | B) 1/3 | C) 1/5 | D) 5/5",
+          "answer": ""
         }
       ],
       "medium": [
@@ -285,24 +293,24 @@
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 2/3 + 1/6?",
-          "answer": "5/6"
+          "question": "Du har en pose med 3 røde, 2 blå og 5 grønne kuler. Hva er sannsynligheten for å trekke en blå kule?\nA) 2/10 | B) 5/10 | C) 3/10 | D) 1/10",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 0.7 × 0.4?",
-          "answer": "0.28"
+          "question": "Påstand: Hvis det er 4 røde og 6 blå kort i en bunke, er det større sjanse å trekke blått",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 25% av 40?",
-          "answer": "10"
+          "question": "Påstand: Når du trekker én kule fra en pose med 5 svarte og 5 hvite, er sjansen for å få svart 1/2",
+          "answer": ""
         }
       ],
       "hard": [
@@ -311,52 +319,54 @@
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 3/4 - 2/5?",
-          "answer": "7/20"
+          "question": "Påstand: Hvis du snurrer et hjul som er delt i 4 like store deler, og én av dem er gul, er sannsynligheten for å få gul 1/4",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 1.25 × 3.2?",
-          "answer": "4"
+          "question": "Du har 4 grønne, 2 røde og 4 blå kuler. Hva er sannsynligheten for å trekke en grønn kule?\nA) 4/10 | B) 2/10 | C) 1/5 | D) 6/10",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_femte_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Femte årstrinn",
           "learningGoal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
-          "question": "Hva er 15% av 80?",
-          "answer": "12"
+          "question": "Hvilket scenario har høyest sannsynlighet?\nA) Trekke 1 av 2 grønne fra 10 kuler | B) Trekke 3 av 5 grønne fra 10 kuler",
+          "answer": ""
         }
       ]
     },
     "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_sjette_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 0.5 + 0.3?",
-          "answer": "0.8"
+          "question": "Påstand: En firkant har alltid fire hjørner",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 0.7 + 0.2?",
-          "answer": "0.9"
+          "question": "Hvilken figur har kun én krum flate?\nA) Kule | B) Terning | C) Sylinder | D) Kjegle",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 1.0 - 0.4?",
-          "answer": "0.6"
+          "question": "Påstand: En sirkel har ingen rette kanter",
+          "answer": ""
         }
       ],
       "medium": [
@@ -365,24 +375,24 @@
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 1.5 × 0.4?",
-          "answer": "0.6"
+          "question": "Påstand: Alle trekanter har én rett vinkel",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 2.4 ÷ 0.6?",
-          "answer": "4"
+          "question": "Hvilken figur har seks flater og alle vinkler rette?\nA) Terning | B) Sylinder | C) Pyramide | D) Kjegle",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 8.4 ÷ 2?",
-          "answer": "4.2"
+          "question": "Påstand: En sylinder har to sirkelflater og én krum flate",
+          "answer": ""
         }
       ],
       "hard": [
@@ -391,52 +401,54 @@
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 2.5 × 3.2?",
-          "answer": "8"
+          "question": "Hvor mange kanter har en kube?\nA) 8 | B) 10 | C) 12 | D) 6",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 4.8 × 1.25?",
-          "answer": "6"
+          "question": "Hvilken figur har en spiss, en bunn og en krum flate?\nA) Kjegle | B) Sylinder | C) Kule | D) Terning",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_sjette_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
-          "question": "Hva er 15.6 ÷ 3?",
-          "answer": "5.2"
+          "question": "Påstand: En trekant kan ha én stump vinkel og én spiss vinkel",
+          "answer": ""
         }
       ]
     },
     "Syvende årstrinn": {
+      "tips": "",
+      "reflection": "",
       "easy": [
         {
           "id": "pastandsveggene_syvende_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 2³?",
-          "answer": "8"
+          "question": "Påstand: En tabell med fire kolonner og fem rader har 20 ruter",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_easy_2",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 3²?",
-          "answer": "9"
+          "question": "Påstand: I en tabell kan vi sortere data etter størrelse",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_easy_3",
           "difficulty": "easy",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 5²?",
-          "answer": "25"
+          "question": "Hvilket verktøy kan brukes til å lage en tabell med data?\nA) Word | B) Excel | C) Paint | D) Notatblokk",
+          "answer": ""
         }
       ],
       "medium": [
@@ -445,24 +457,24 @@
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 4³?",
-          "answer": "64"
+          "question": "Påstand: En datasett kan inneholde både tall og tekst",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_medium_2",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 6²?",
-          "answer": "36"
+          "question": "Hva kalles det når vi sorterer data fra lavest til høyest verdi?\nA) Filtrering | B) Gruppering | C) Sortering | D) Kopiering",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_medium_3",
           "difficulty": "medium",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 2⁴?",
-          "answer": "16"
+          "question": "Påstand: En dataserie kan vises som en graf",
+          "answer": ""
         }
       ],
       "hard": [
@@ -471,24 +483,24 @@
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 3⁴?",
-          "answer": "81"
+          "question": "Du har en tabell med temperaturmålinger fra hele uken. Hva slags visualisering kan du bruke for å se utviklingen?\nA) Stolpediagram | B) Linjediagram | C) Punktdiagram | D) Alle",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_hard_2",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 5³?",
-          "answer": "125"
+          "question": "Påstand: Du kan bruke et programmeringsverktøy til å hente ut spesifikke data fra en tabell",
+          "answer": ""
         },
         {
           "id": "pastandsveggene_syvende_årstrinn_hard_3",
           "difficulty": "hard",
           "grade": "Syvende årstrinn",
           "learningGoal": "bruke programmering til å utforske data i tabellar og datasett",
-          "question": "Hva er 2⁵?",
-          "answer": "32"
+          "question": "Hva skjer hvis du bruker en løkke til å gå gjennom alle rader i et datasett og sjekke om tallet er over 10?",
+          "answer": ""
         }
       ]
     }

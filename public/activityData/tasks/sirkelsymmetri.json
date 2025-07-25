@@ -1,36 +1,20 @@
 {
   "activityId": "sirkelsymmetri",
   "activityTitle": "Sirkelsymmetri",
-  "totalTasks": 1,
+  "totalTasks": 9,
   "tasksPerGrade": 9,
-  "supportedGrades": [
-    "Sjette årstrinn"
-  ],
+  "supportedGrades": ["Sjette årstrinn"],
   "grades": {
     "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "Etter hver runde samles elevene for kort å diskutere:  \n Hva var vanskelig? \n Var det noen bevegelser som var lettere å speile enn andre? \n Hvorfor må man bytte høyre og venstre for at det skal bli symmetrisk?",
       "easy": [
         {
           "id": "sirkelsymmetri_sjette_årstrinn_easy_1",
           "difficulty": "easy",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_easy_2",
-          "difficulty": "easy",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_easy_3",
-          "difficulty": "easy",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
+          "question": "Én elev i paret lager én bevegelse (f.eks. løft høyre arm opp). Partneren speiler bevegelsene over symmetrilinjen. Bytt rolle etter 5 runder.",
           "answer": ""
         }
       ],
@@ -40,23 +24,7 @@
           "difficulty": "medium",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_medium_2",
-          "difficulty": "medium",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_medium_3",
-          "difficulty": "medium",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
+          "question": "I par setter dere sammen en sekvens på 3–4 bevegelser (f.eks. løft arm–bøy kne–strekk ben–vrid overkropp). Partner 1 gjennomfører hele sekvensen, og deretter kopierer partner 2 og speiler. Bytt når ferdig.",
           "answer": ""
         }
       ],
@@ -66,23 +34,7 @@
           "difficulty": "hard",
           "grade": "Sjette årstrinn",
           "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_hard_2",
-          "difficulty": "hard",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
-          "answer": ""
-        },
-        {
-          "id": "sirkelsymmetri_sjette_årstrinn_hard_3",
-          "difficulty": "hard",
-          "grade": "Sjette årstrinn",
-          "learningGoal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
-          "question": "",
+          "question": "Partner 1 lager en tre‑trinns bevegelsessekvens der de bruker både armer og ben samtidig (f.eks. løft høyre arm mens du bøyer venstre kne – strekk begge armer ut til sidene – løft høyre fot bakover). Partner 2 speiler hele sekvensen jevnt og sammenhengende, uten pause eller stans. Bytt roller og gjenta.",
           "answer": ""
         }
       ]
