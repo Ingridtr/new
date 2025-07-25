@@ -1,0 +1,313 @@
+{
+  "activityId": "telleleken",
+  "activityTitle": "Telleleken",
+  "totalTasks": 45,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "telleleken_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Elevene klapper på partall ",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "telleleken_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Elevene hopper på oddetall",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "telleleken_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": " Elevene klapper på partall og hopper på oddetall",
+          "answer": ""
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "telleleken_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Elevene teller to og to: 2, 4, 6, 8, 10…til 20 høyt i kor. For hvert tall klapper de ",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "telleleken_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Elevene teller 2 og 2: 2,4,6,8…20.. Annenhvert tall hopper de. ",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "telleleken_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske multiplikasjon ved teljing",
+          "question": "Elevene teller 3 og 3: Annenhvert tall klapper de ",
+          "answer": ""
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "telleleken_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "Elevene deles inn i grupper på 2.\nLæreren sier tallrekken: 2, 4, 6, 8. \nHver gang et tall ropes ut, peker læreren på en gruppe som gjør en bevegelse (klapp eller hopp).",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "telleleken_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "telleleken_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "telleleken_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "telleleken_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "telleleken_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "telleleken_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "telleleken_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "telleleken_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "telleleken_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

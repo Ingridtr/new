@@ -110,14 +110,14 @@
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "time": " min",
-    "image": "/activityPictures/.png",
-    "tools": "",
-    "location": "",
-    "grade": "",
+    "id": "telleleken",
+    "title": "Telleleken",
+    "description": "Elevene står i ring enten i et klasserom eller ute. Klassen teller i kor og gjør en bevegelse til hvert tall. Læreren bestemmer hvilken bevegelse som hører til hvert tall eller mønster, f.eks. klapp, hopp, snurr. Reglene endres underveis: kanskje skal elevene si “BOING” i stedet for tall som er delelig med 3, eller kanskje de skal klappe på partall eller snurre på oddetall. Læreren kan variere i hvor langt han/hun vil at elevene skal telle, men 20 er et fint utgangspunkt",
+    "time": "15 min",
+    "image": "/activityPictures/telleleken.png",
+    "tools": "Ingen",
+    "location": "Inne/ute",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn",
     "number_of_tasks": 9
   },
   {
