@@ -199,7 +199,7 @@ function InfoTask() {
                     <ul className="list-disc list-inside mb-4">
                       {gradeTasks.easy.map((task, index) => (
                         <li style={{ whiteSpace: "pre-line" }} key={index}>
-                          {task.question}
+                         <p>{task.question}</p> 
                         </li>
                       ))}
                     </ul>
@@ -211,7 +211,7 @@ function InfoTask() {
                     <ul className="list-disc list-inside mb-4">
                       {gradeTasks.medium.map((task, index) => (
                         <li style={{ whiteSpace: "pre-line" }} key={index}>
-                          {task.question}
+                          <p>{task.question}</p> 
                         </li>
                       ))}
                     </ul>
@@ -223,7 +223,7 @@ function InfoTask() {
                     <ul className="list-disc list-inside">
                       {gradeTasks.hard.map((task, index) => (
                         <li style={{ whiteSpace: "pre-line" }} key={index}>
-                          {task.question}
+                          <p>{task.question}</p>
                         </li>
                       ))}
                     </ul>

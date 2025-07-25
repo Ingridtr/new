@@ -1,0 +1,152 @@
+{
+  "activityId": "geometriske-figurer",
+  "activityTitle": "Geometriske figurer",
+  "totalTasks": 18,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Sjette årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": " Nærmiljø‑safari \n\n Elevene går i små grupper på «figur‑safari» i skolegården eller nærområdet. De finner eksempler på geometriske figurer i naturen (stein, blader) og i menneskeskapte objekter (gjerdestolper, benker, flasker). Hver gruppe samler 3–5 eksempler, tar bilder eller noterer, og presenterer dem for klassen. De argumenterer for hvorfor hver gjenstand representerer en bestemt figur (sirkel, trekant, firkant osv.) og viser hvordan de kan sortere dem etter egenskaper som antall hjørner, sider eller symmetrilinjer. \n\n",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "geometriske-figurer_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "geometriske-figurer_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "geometriske-figurer_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "tips": " Tau‑figurer og areal‑utforsking \n Elevene skal delta i en uteaktivitet som kombinerer bevegelse med matematiske begreper knyttet til areal og omkrets. Aktiviteten vil foregå på skolens lekeplass eller en åpen idrettsplass, hvor elevene blir delt inn i små grupper.  \n\n Målet er å måle ulike former ved hjelp av tauet som omkrets. Elevene må samarbeide for å sikre at tauet danner en lukket figur. Så skal de utforske hvordan de kan finne arealet ved å bruke ulike strategier, som å dele opp figuren i mindre deler eller ved å estimere ved hjelp av kjeglene. \n\n",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Figur: Rektangel eller kvadrat \n \n Mål to ulike sider (lengde og bredde). Omkretsen er 2 × (lengde + bredde) ",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Finn arealet med formelen A = lengde × bredde.",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Diskuter: Hvordan endrer omkretsen seg om dere bytter lengde og bredde (f.eks. 2 m × 4 m vs. 1m × 8 m) mens arealet er lik?",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Figur: Trekant \n Gi elevene et trekant formet papir",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Elevene skal følge kantene til trekanten med tauset og markere på tauet der hvor formen blir lukket (til en trekant)",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Mål tauets lengde med målebånd – det er omkretsen.",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_medium_4",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Del trekanten inn i to rettvinklede trekanter (legg et ekstra tau eller tegn en linje).",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_medium_5",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Mål grunnlinje og høyde for hver av de to, bruk formelen A = (grunnlinje × høyde) / 2 for hver og summer for total areal.",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Figur: Femkant\n Mål omkretsen: Legg tauet rundt hele figuren og bruk målebånd til å finne hvor langt tauet er. Skriv ned tallet.",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Del opp figuren: Tegn linjer med krittpenn eller legg ekstra tau inni figuren slik at den blir delt inn i enkle trekanter og firkanter.",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Mål delarealene: \nFor hver trekant: mål grunnlinjen og høyden, og regn ut arealet med grunnlinje × høyde ÷ 2. \nFor hvert rektangel: mål lengden og bredden, og regn ut arealet med lengde × bredde. \nSkriv ned alle delarealene. ",
+          "answer": ""
+        },
+        {
+          "id": "geometriske-figurer_sjette_årstrinn_hard_4",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
+          "question": "Finn totalarealet: Legg sammen alle delarealene for å få figurens totale areal.",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}
