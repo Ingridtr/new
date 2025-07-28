@@ -229,8 +229,7 @@
     "location": "Ute",
     "grade": "Femte årstrinn",
     "number_of_tasks": 9
-  }
-  ,
+  },
   {
     "id": "areal-volum",
     "title": "Areal og volum",
@@ -241,8 +240,7 @@
     "location": "Inne",
     "grade": "Sjette årstrinn",
     "number_of_tasks": 9
-  }
-  ,
+  },
   {
     "id": "ulikheter-likninger",
     "title": "Ulikheter og likninger",
@@ -264,8 +262,7 @@
     "location": "Ute",
     "grade": "Femte årstrinn",
     "number_of_tasks": 9
-  }
-  ,
+  },
   {
     "id": "statistikk-sentralmål",
     "title": "Statistikk sentralmål",
@@ -275,6 +272,17 @@
     "tools": "Kritt",
     "location": "Ute",
     "grade": "Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "kortstokk-hoderegning",
+    "title": "Kortstokk hoderegning",
+    "description": "Legg en kortstokk på bordet med baksiden opp; for grunnnivå brukes bare ess (= 1) til 10, mens du kan beholde flere kort for et høyere vanskelighetsnivå. Elevene arbeider i par: Først trekker de to kort, legger dem ned i den rekkefølgen de ble trukket og regner summen høyt. Deretter bytter de plass på kortene, regner igjen og ser at svaret er det samme – rekkefølgen påvirker ikke resultatet. Nå trekker de et tredje kort, legger sammen de to første tallene først og deretter det tredje, regner svaret, flytter «parentesen» ved å legge sammen andre og tredje kort først og regner på nytt; summen holder seg også her. Til slutt forklarer hver elev til partneren hvorfor bytting eller omgruppering ikke endrer resultatet, legger kortene tilbake og lar et nytt par prøve; for høyere vanskelighetsnivå kan læreren la parene bruke større tall eller fire kort i stedet for tre.Praktiske tips \n\n Visuelle støtter: Tallinje 0–1, 100-rute (hundrerutenett), brøksirkler.\n\n Standardiser kortverdier (hold deg til 1–10) for å få «pene» brøker/oftere brøker under 1.\n\n Språkbevissthet: Be elevene alltid si tallet sitt i alle tre representasjoner.\n\n Strategier å etterspørre: 10 %-regelen (dele på 10), 1 % (dele på 100), 25 % (dele på 4), 50 % (halvere), og «gange/ dele for å lage 100 i nevner»",
+    "time": "15 min",
+    "image": "/activityPictures/kortstokk.png",
+    "tools": "Kortstokk",
+    "location": "Inne",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
   }
 ]

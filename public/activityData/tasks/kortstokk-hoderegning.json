@@ -1,0 +1,413 @@
+{
+  "activityId": "kortstokk-hoderegning",
+  "activityTitle": "Kortstokk hoderegning",
+  "totalTasks": 45,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Trekk 2 kort (1–10). Legg dem ned i den rekkefølgen de kom og si summen høyt.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Bytt plass på kortene. Regn på nytt. Er summen den samme? Si hvorfor dere tror det er sånn (kommutativitet – uten å bruke ordet).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Snakk sammen: «Hvilket tall startet du å telle fra? Hvorfor er det lurt?»",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Trekk 3 kort (1–10). Velg to kort først, legg dem sammen og legg så på det tredje.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Prøv en annen rekkefølge: Velg to andre kort først, og legg så på det siste. Ble summen den samme?",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Marker praktisk hvilke to du legger sammen først (legg dem tett, legg en blyant under dem, eller sirkle dem på arket).",
+          "answer": ""
+        }
+        ,
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_medium_4",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Snakk sammen: Fortell partneren «Først tok jeg … og …, da ble det …, så la jeg på … og da ble det …»",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_medium_5",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Tips: Bruk tallinje eller tierramme om det hjelper.",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Trekk 3 eller 4 små tall (for eksempel bare 1–6). Finn flest mulig måter å legge dem sammen på (velg to først, deretter et til …). Sjekk om dere alltid får samme sum. ",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Tiervenner-jakt: Hvis ett av tallene «nesten» passer med et annet til 10, legg sammen de to først. Forklar hvorfor det var lurt.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_andre_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
+          "question": "Snakk sammen: Lag en regel med egne ord «Når vi bare legger sammen, kan vi …» (bytte plass på tallene / velge hvilke to vi tar først), og gi et eksempel fra kortene deres.",
+          "answer": ""
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "tips": " Elevene jobber i par: Hver elev trekker to kort, regner summen høyt og forklarer hvordan de tenkte, og lager deretter de to tilhørende subtraksjonsstykkene (tallfamilien) som hører til summen, for eksempel 7 + 5 = 12, 12 − 7 = 5 og 12 − 5 = 7, og forklarer hvorfor disse henger sammen. Deretter finner de differansen mellom kortene (|største − minste|) og beskriver hvilken subtraksjonsstrategi de brukte (telle opp fra det minste til det største, tiervenner, kompensasjon osv.). Læreren kan så gi et måltall (f.eks. 20): Elevene undersøker hvor mye som “mangler” fra summen til måltallet og begrunner om de valgte å tenke additivt (8 + ? = 20) eller subtraktivt (20 − 8). Kortene legges tilbake og neste par prøver; for økt utfordring kan elevene trekke tre eller fire kort og lage komplette tallfamilier, arbeide mot større måltall eller bruke negative tall (for eksempel gjøre svarte kort negative). Til slutt oppsummerer hvert par hvilken strategi som var mest hensiktsmessig for subtraksjonen og hvorfor sammenhengen mellom addisjon og subtraksjon gjør det lettere å kontrollere svar. \n\n Observer/kyss av for om eleven: \nLager korrekte tallfamilier. \nBruker hensiktsmessige subtraksjonsstrategier (ikke bare teller alt). \nForklarer egen tenking med relevante begreper (sum, differanse, likhet, ulikhet, måltall, strategi).",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Trekk 2 kort (1–10). Regn summen høyt.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Lag de to subtraksjonsstykkene som hører til (tallfamilien).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Finn differansen mellom kortene (|største − minste|) og si hvordan du fant den (f.eks. «jeg telte opp fra 5 til 8»).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_easy_4",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Skriv 6 · 4 som en addisjon. Vis 24 : 6 som gjentatt subtraksjon (tell ned: 24, 18, 12, 6, 0).",
+          "answer": ""
+        }
+      ,
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_easy_5",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Måltall 20: Hvor mye mangler fra summen deres til 20? Vis både som addisjon (___ + □ = 20) og subtraksjon (20 − ___ = □).",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Trekk 3 kort (1–10). Velg to av kortene og lag: \n addisjonsstykket, \n de to tilhørende subtraksjonsstykkene, \n differansen mellom de to tallene. \n Gjenta med et annet par av kortene.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Måltall 30: Finn hvor mye som mangler fra hver sum dere har laget til måltallet.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Forklar muntlig i paret hvordan addisjon og subtraksjon henger sammen i ett av eksemplene deres.",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Trekk 3 eller 4 kort (1–10, eventuelt J=11, Q=12, K=13 hvis dere vil øke nivået litt). \n Lag minst to forskjellige summer (ved å velge ulike to-korts kombinasjoner). \n For én av summene: lag tallfamilien (to addisjon + to subtraksjon).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Måltall 50: Velg den største summen dere fikk og finn hvor mye som mangler til 50. Vis både som addisjon og subtraksjon.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom addisjon og subtraksjon og bruke det i hoderegning og problemløsing",
+          "question": "Strategivalg: For en av subtraksjonsoppgavene dere fikk, beskriv hvilken strategi som var smartest (telle opp, tiervenner, kompensasjon), og hvorfor.",
+          "answer": ""
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "tips": "Elevene trekker kort fra en kortstokk og bruker tallene til å lage par av regnestykker som viser sammenhenger mellom addisjon–subtraksjon og multiplikasjon–divisjon. Med tre (eller flere) kort utforsker de også distributiv egenskap og velger hensiktsmessige strategier for å nå et gitt måltall (f.eks. 50 eller 100). De forklarer underveis hvorfor regnestykkene henger sammen, og hvorfor valgte strategier er smarte i hoderegning.",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Trekk to kort (1–10). Regn summen og lag de to tilhørende subtraksjonsstykkene (tallfamilie).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Hvis begge tall > 1: Lag faktorfamilien i multiplikasjon og divisjon (a·b, b·a, c:a, c:b).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Forklar til partneren hvordan addisjon henger sammen med subtraksjon, og multiplikasjon med divisjon.",
+          "answer": ""
+        }
+        ,
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_easy_4",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Måltall 50: Bruk summen eller produktet dere fikk – hvor mye mangler til 50? Vis både som addisjon og subtraksjon.",
+          "answer": ""
+        }
+        ,
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_easy_5",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "La elevene vise multiplikasjon som gjentatt addisjon og divisjon som like store grupper.",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Trekk tre kort. Velg ett som «gange-tall». \n Legg sammen de to andre først. Regn produktet på to måter: \nAlt på én gang (f.eks. 7 · 13). \nDel opp (f.eks. 7 · 10 + 7 · 3).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Tegn et rutenett / to «felt» som viser at du egentlig ganger med to biter og legger dem sammen.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Forklar: Hvorfor ble svaret likt? Hvilken måte var lettest å regne i hodet?",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Trekk 4 kort. Skriv dem opp. Lag et uttrykk som kommer så nær 100 som mulig ved å bruke minst tre av disse: +, −, ·, :.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Sjekk svaret ved å bruke de inverse regneartene (subtraksjon for å kontrollere addisjon, divisjon for å kontrollere multiplikasjon).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Forklar skriftlig eller muntlig: Hvorfor valgte dere akkurat de regneartene? Hva gjorde hoderegningen enklere?",
+          "answer": ""
+        }
+        ,
+        {
+          "id": "kortstokk-hoderegning_fjerde_årstrinn_hard_4",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom de fire regneartene og bruke sammenhengene hensiktsmessig i utregninger",
+          "question": "Del 2:  Trekk 3 eller 4 kort. Velg ett som «gangetall». \n Legg sammen de to/tre andre først, og regn gangen på to måter: \n Alt på én gang (f.eks. 6 · 19). \n Del opp (f.eks. 6 · 10 + 6 · 9). \n\n Tegn et rutenett / flere «felt» som viser at du ganger med flere biter og legger sammen delproduktene til slutt. \n Forklar: Hvorfor ble svaret likt? Hvilken måte var lettest i hodet – og hvorfor?",
+          "answer": ""
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "tips": "Elevene trekker kort fra en kortstokk og bruker tallene til å lage brøker, desimaltall og prosent av det samme tallet, og til å konvertere mellom representasjonene. De sammenligner størrelser, finner «hvor mye som mangler til 1 (100 %)», plasserer tall på tallinja 0–1, og beregner enkle prosenter av hele tall ved å utnytte kjente sammenhenger (f.eks. 10 %, 25 %, 50 %). Aktiviteten kan utvides til å lage ekvivalente brøker, forenkle brøker, og å velge hensiktsmessige mentale strategier (dele på 10, 100, halvere, firedoble osv.) for å regne prosent i hodet. Verdier på kortene: Ess = 1, 2–10 som på kortet, eventuelt J=11, Q=12, K=13. (Du kan velge å holde deg til 1–10 for enklere regning.)",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "To kort → brøk → desimal → prosent\n  \n Trekk to kort, lag brøken minstestørste\frac{\text{minste}}{\text{største}}størsteminste​ (for å få en brøk < 1). \n Skriv om brøken til desimaltall (rund til to desimaler ved behov) og prosent. \n Finn komplementet til 1 / 100 %: Hvor mye mangler for å komme til 1 (100 %)?",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "To kort → desimal → prosent → brøk \n\n Trekk to kort og lag desimaltallet 0.ab (a = første kort, b = andre kort). \nSkriv det som prosent (ab %) og brøk over 100, og forenkle hvis mulig.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": " Plasser på tallinje\n\n Plasser tallet ditt som brøk/desimal/prosent på en tallinje fra 0 til 1. Sammenlign med en medelevs tall ved å bruke >, < eller =.",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Tre kort → velg representasjon og vis ekvivalens\n\n Trekk tre kort (a, b, c). Lag to ulike representasjoner av det samme tallet, f.eks.\n Lag brøk \frac{a}{b} og vis samme verdi som desimal og prosent.\n Eller lag et desimaltall 0.ab og vis samme verdi som prosent og brøk over 100.\n\n Forenkle brøken om mulig, og lag minst én ekvivalent brøk.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Benchmarking / nærmeste «kjent» brøk/prosent\n\n Sammenlign tallet ditt med 1/2 (50 %), 1/4 (25 %) og 3/4 (75 %). Hvilket ligger nærmest? Hvor stor er forskjellen (i prosent- eller desimalform)?",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Prosent av et helt tall (enkle procenter) \n\n Trekk to kort for å lage en prosent som er enkel å regne med (10 %, 20 %, 25 %, 50 %, 75 %). Trekk så et tredje kort for å lage et «helt tall» (f.eks. multipliser med 10: 6 → 60). Regn i hodet: 25 % av 60, 50 % av 80, 10 % av 90 osv.\n\n Forklar hvilken sammenheng du brukte (f.eks. 25 % = 14\frac{1}{4}41​, 10 % = 0,1).",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Fire kort → flere veier, samme verdi\nTrekk 4 kort. Lag minst to forskjellige uttrykk som ender på samme verdi, men skrevet som brøk, desimaltall og prosent.\nBegrunn hvilken vei som er lettest i hodet, og hvorfor (for eksempel fordi du kan bruke 10 %, 1 %, halvering, firedobling osv.).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Prosent til brøk (og omvendt) – forenkle og sammenligne\n\n Trekk to kort og lag en prosent ab %. Skriv det som brøk over 100 og forenkle (f.eks. 36 % = 36/100)\nSkriv desimaltallet og sammenlign med en medelevs tall (størst? minst? nærmest 50 %?).",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Kjeder av sammenhenger + hoderegningsstrategi \n\n Start med et tall i én representasjon (f.eks. 0,48). Bytt representasjon tre ganger (0,48 → 48 % → 48/100).Forklar hvordan hver overgang ble gjort i hodet, og hvorfor det var nyttig.",
+          "answer": ""
+        },
+        {
+          "id": "kortstokk-hoderegning_femte_årstrinn_hard_4",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "utforske og forklare sammenhenger mellom brøker, desimaltall og prosent og bruke det i hoderegning",
+          "question": "Finn «manglende del» med flere representasjoner\n\nDu har 3/8​. Hvor mye mangler til 1? Vis svaret som brøk, desimaltall og prosent.\n\nGeneraliser for et annet tall du trekker (f.eks. 0,37 → 0,63 = 63 %).",
+          "answer": ""
+        }
+      ]
+    }
+    
+    
+  }
+}
