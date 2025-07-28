@@ -286,37 +286,108 @@
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "time": "15 min",
+    "id": "divisjonslek",
+    "title": "Divisjonslek",
+    "description": "Læreren gir en startsum, for eksempel 24, og ber elevene om å dele seg i grupper som er delelig med summen, slik som grupper på 3, 4 eller 6 elever. Elevene må raskt lage gruppene, og når de har funnet en løsning står de stille. Så går læreren i gjennom løsningen og gir tilbakemelding på om det er lett. Dette gjentas med forskjellige startsummer. ",
+    "time": "5 min",
     "image": "/activityPictures/.png",
-    "tools": "",
-    "location": "Inne",
-    "grade": "",
+    "tools": "Ingen",
+    "location": "Inne/ute",
+    "grade": "Tredje årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
+    "id": "stigespill",
+    "title": "Stigespill",
+    "description": "Læreren lager en stigebane på bakken ved hjelp av kritt, som består av 10-15 trinn. Ved starten av aktiviteten deler læreren klassen inn i små grupper. Hver gruppe starter på firkant nummer 1 på stigen. Læreren gir deretter gruppene en rekke instruksjoner som de må følge for å bevege seg oppover stigen. Instruksjonene kan være av typen ta tre steg fremover, hopp til neste trinn, eller gå baklengs to trinn. Elevene må samarbeide og kommunisere for å følge instruksjonene korrekt. Målet er å nå toppen av stigen.  Slik lager læreren banen: Bruk kritt til å lage en rett linje av 12–15 ruter (som stigetrinn). Nummerér hvert trinn: 1 til 12 eller 15, avhengig av plass.",
+    "time": "15 min",
+    "image": "/activityPictures/stigespill.png",
+    "tools": "Kritt",
+    "location": "Ute",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+
+  {
+    "id": "oppdag-mønstre",
+    "title": "Oppdag mønstre",
+    "description": "Læreren starter med å vise et enkelt bevegelsesmønster, for eksempel klapp-klapp-stamp. Elevene skal så gjenta mønsteret. Deretter skal elevene deles inn i små grupper på 3-4, hvor de skal lage sine egne bevegelsesmønstre ved å legge til nye bevegelser. Hver gruppe viser så sitt mønster for de andre, som igjen skal prøve å gjenta det. Aktiviteten avsluttes med en felles refleksjon hvor elevene diskuterer hva slags mønstre og strukturer de har laget, og hvordan disse kan beskrives med ord.",
     "time": "15 min",
     "image": "/activityPictures/.png",
-    "tools": "",
-    "location": "Inne",
-    "grade": "",
+    "tools": "Ingen",
+    "location": "Ute",
+    "grade": "Andre årstrinn, Fjerde årstrinn",
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
+    "id": "hvem-er-jeg",
+    "title": "Hvem er jeg?",
+    "description": "Elevene får et ark med et tall klistret på ryggen. Deretter må elevene gå rundt i klasserommet og stille ja/nei spørsmål til de andre elevene for å finne ut hvilket tall de er. Eks: 'Er jeg større enn 10?' For å gjøre leken rettferdig og faglig meningsfull gjelder følgende regler: Alle starter samtidig, og ingen får si sitt eller andres tall høyt, selv om de tror de vet det. Hver elev må snakke med minst tre forskjellige personer før de gjetter, og de får kun to gjettemuligheter. Når en elev tror de har funnet tallet sitt, skal de skrive det ned på en lapp og levere det til læreren – uten å si det høyt. Dersom svaret er riktig, kan eleven få en ny lapp med et nytt tall og bli med på nytt",
     "time": "15 min",
     "image": "/activityPictures/.png",
-    "tools": "",
+    "tools": "Penn, Papir",
     "location": "Inne",
-    "grade": "",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
     "number_of_tasks": 9
+  },
+  {
+    "id": "brok-praktisk",
+    "title": "Brøk – Praktisk",
+    "description": "Aktiviteten går ut på å dele klassen inn i små grupper, hvor hver gruppe skal lage en sirkel som etterhvert skal bli et kakestykke. Oppgaven går ut på å dele denne kaken i ulike brøkdeler, for eksempel halvdeler, tredjedeler og firedeler og svare på spørsmål fra læreren.",
+    "time": "15 min",
+    "image": "/activityPictures/brok-praktisk.png",
+    "tools": "Kritt",
+    "location": "Ute",
+    "grade": "Femte årstrinn",
+    "number_of_tasks": 9
+  },
+
+  {
+    "id": "budsjettlop",
+    "title": "Budsjettløp",
+    "description": "Elevene skal delta i en aktivitetsløype der de lager og vurderer et budsjett samt fører regnskap. Aktiviteten foregår utendørs, hvor klassen deles inn i små grupper. Hver gruppe får utdelt en fiktiv sum penger og skal ved ulike stasjoner møte utfordringer som krever budsjettavgjørelser, som for eksempel å planlegge innkjøp til en klassefest. ",
+    "time": "45 min",
+    "image": "/activityPictures/budsjettlop.png",
+    "tools": "Penn, papir",
+    "location": "Ute",
+    "grade": "Femte årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "ranger-meg",
+    "title": "Ranger meg",
+    "description": "Hver elev får utdelt et kort med en verdi (f.eks. tall, brøk, prosent eller tid). Elevene deles i grupper på 3–4, og får vite hva som er den største og minste verdien blant alle kortene i klassen. I gruppene skal de diskutere og samarbeide om å plassere seg i riktig rekkefølge innad i gruppa ved å sammenligne verdiene på kortene. Når gruppene har funnet sin interne rekkefølge, skal de samarbeide med andre grupper for å danne én samlet tallinje for hele klassen – fra laveste til høyeste verdi. Til slutt gjennomgås rekka i plenum, med refleksjonsspørsmål som: Hva gjorde det vanskelig å sammenligne? Hvilke strategier brukte dere? Hvordan visste dere hva som var størst?",
+    "time": "15 min",
+    "image": "/activityPictures/rangermeg.png",
+    "tools": "Penn, Papir",
+    "location": "Ute",
+    "grade": [
+      "Andre årstrinn",
+      "Tredje årstrinn",
+      "Fjerde årstrinn",
+      "Femte årstrinn",
+      "Sjette årstrinn",
+      "Syvende årstrinn"
+    ],
+    "number_of_tasks": 18
+  },
+  {
+    "id": "mattememory",
+    "title": "Mattememory",
+    "description": "Kortene spres med baksiden opp på gulvet. Elevene jobber i par og turer over gulvet som i «Memory»: hvert par snur to kort, men får beholde dem bare hvis de sammen oppfyller oppdraget læreren nettopp har ropt, for eksempel «to tall som til sammen gir 12», «faktorene til 6», «et tall som er 3 mer enn det andre», eller «to tall med differanse 5». Treffer de, forklarer paret høyt hvordan tallene passer til oppdraget (summen, differansen, produktet …) før de legger kortene i sin egen bunke; bommer de, snur de kortene tilbake og neste par prøver.",
+    "time": "15 min",
+    "image": "/activityPictures/mattememory.png",
+    "tools": "Penn, Papir",
+    "location": "Inne",
+    "grade": [
+      "Andre årstrinn",
+      "Tredje årstrinn",
+      "Fjerde årstrinn",
+      "Femte årstrinn",
+      "Sjette årstrinn",
+      "Syvende årstrinn"
+    ],
+    "number_of_tasks": 18
   },
   {
     "id": "",
