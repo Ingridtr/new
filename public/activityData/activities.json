@@ -197,4 +197,16 @@
     "grade": "Tredje årstrinn",
     "number_of_tasks": 9
   }
+  ,
+  {
+    "id": "bingo",
+    "title": "Bingo",
+    "description": "Elevene får utdelt bingokort. Alle elevene har ulike kombinasjoner av et  3 x3 rutenett der det står svar på ulike regnestykker. Rundt i klasserommet er det plassert ulike poster med mattestykker. Elevene går rundt i klasserommet og svarer på mattestykkene. Dersom de finner et mattestykke de har svaret på på sitt bingokort, kan de markere dette på kortet. Dersom en elev har fått tre på rad roper han/hun bingo. Klassen setter seg ned igjen og alle går gjennom regnestykkene sammen på tavla.",
+    "time": "45 min",
+    "image": "/activityPictures/bingo.png",
+    "tools": "Bingokort, Penn, Papir",
+    "location": "Inne / ute",
+    "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  }
 ]
