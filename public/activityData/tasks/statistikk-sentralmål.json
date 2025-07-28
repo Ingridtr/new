@@ -1,0 +1,43 @@
+{
+  "activityId": "statistikk-sentralmål",
+  "activityTitle": "Statistikk sentralmål",
+  "totalTasks": 9,
+  "tasksPerGrade": 9,
+  "supportedGrades": ["Syvende årstrinn"],
+  "grades": {
+    "Syvende årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "statistikk-sentralmål_syvende_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+          "question": "Tallrekke: 2, 2, 2, 4, 6, 8, 10 \n\n Sentralmål: \nTypetall: 2 \nMedian: 4 \nGjennomsnitt: (2+2+2+4+6+8+10)/7 = 4.86",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "statistikk-sentralmål_syvende_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+          "question": "Tallrekke: 3, 4, 5, 6, 7, 8, 9 \n\n Sentralmål: \nTypetall: Ingen (alle er ulike) \nMedian: 6 \nGjennomsnitt: (3+4+5+6+7+8+9)/7 = 6.0",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "statistikk-sentralmål_syvende_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+          "question": "Tallrekke: 1, 1, 3, 6, 9, 9, 20 \n\n Sentralmål: \nTypetall: 1 og 9 \nMedian: 6 \nGjennomsnitt: (1+1+3+6+9+9+20)/7 = 7.0",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

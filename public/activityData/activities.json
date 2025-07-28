@@ -242,4 +242,39 @@
     "grade": "Sjette årstrinn",
     "number_of_tasks": 9
   }
+  ,
+  {
+    "id": "ulikheter-likninger",
+    "title": "Ulikheter og likninger",
+    "description": "Elevene deles inn i par. Deretter skal hvert par få en lapp med en likning på. Paret skal deretter løse likningen eller ulikheten sammen, og lage en bevegelse med trinn tilsvarende svaret de fikk. Etter å ha gjennomført bevegelsen, fortsetter de til neste ulikhet/likning. Etter fullført løype, samles alle parene for en felles refleksjonsrunde hvor de diskuterer de ulike strategiene de brukte for å løse ligningene og vurdere gyldigheten av løsningene sine.",
+    "time": "45 min",
+    "image": "/activityPictures/ulikheter-og-likninger.png",
+    "tools": "Penn, Papir",
+    "location": "Inne",
+    "grade": "Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "myntkast",
+    "title": "Myntkast",
+    "description": "Klassen deles inn i små grupper og får 10 steiner og en mynt hver. Hver runde starter med at gruppen kaster mynten. Hvis mynten lander på krone, får kun én elev i gruppen kaste én stein denne runden. Hvis mynten lander på mynt, får alle i gruppen kaste én stein hver. Etterpå kaster gruppen steinene mot et markert målområde på bakken. Når kastene er gjennomført, teller gruppen opp hvor mange av steinene som landet innenfor målområdet, og hvor mange steiner som ble kastet totalt i runden. Resultatet uttrykkes som en brøk – antall treff delt på antall kast. For eksempel, hvis 2 av 4 steiner traff, skrives det som 2/4. Deretter trekkes de kastede steinene fra gruppens totale beholdning. Runden gjentas på samme måte helt til alle steinene i gruppen er brukt opp.",
+    "time": "15 min",
+    "image": "/activityPictures/myntkast.png",
+    "tools": "Mynter, Steiner",
+    "location": "Ute",
+    "grade": "Femte årstrinn",
+    "number_of_tasks": 9
+  }
+  ,
+  {
+    "id": "statistikk-sentralmål",
+    "title": "Statistikk sentralmål",
+    "description": "Læreren setter opp tre store sirkler på bakken, hver merket med et sentralmål: gjennomsnitt, median og typetall. Læreren deler så elevene inn i små grupper og gir gruppen et tallkort. Gruppene skal prøve å plassere seg i riktig sirkel i forhold til hva de tror er riktig sentralmål for tallet de har fått utdelt. For eksempel: Hvis tallrekken er 2,2,4,6,8, så kan en gruppe med tallet 6 stelle seg i gjennomsnitt-sirkelen siden gjennomsnittet er 5,5. En elev med tallet 2 kan stille seg i typetall-sirkelen, og en elev med tallet 4 kan stille seg i median sirkelen. Elevene som har et tall som ikke samsvarer direkte med noen, kan enten stille seg utenfor eller i den sirkelen som føles mest korrekt. Deretter diskuterer klassen raskt hva som var riktig, og hvordan de kom frem til det. ",
+    "time": "15 min",
+    "image": "/activityPictures/sentralmål.png",
+    "tools": "Kritt",
+    "location": "Ute",
+    "grade": "Syvende årstrinn",
+    "number_of_tasks": 9
+  }
 ]
