@@ -1,0 +1,93 @@
+{
+  "activityId": "areal-volum",
+  "activityTitle": "Areal og volum",
+  "totalTasks": 9,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Sjette årstrinn"
+  ],
+  "grades": {
+    "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "Hvordan valgte dere rekkefølgen på målene? \n Hvorfor ganger vi lengde × bredde uten å dele på to her, mens vi må dele på to for trekantareal? \n Hvordan fordelte dere oppgavene – hvem målte, hvem skrev – og byttet dere underveis? \n Hvis vi doblet høyden på boksen med samme bunn, hva ville skje med volumet – hvorfor? \n Kan dere finne to bokser som har likt bunnareal, men ulikt volum? Hva viser det om sammenhengen mellom høyde og volum?",
+      "easy": [
+        {
+          "id": "areal-volum_sjette_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "areal-volum_sjette_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "areal-volum_sjette_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "areal-volum_sjette_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}

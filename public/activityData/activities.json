@@ -196,8 +196,7 @@
     "location": "Ute",
     "grade": "Tredje årstrinn",
     "number_of_tasks": 9
-  }
-  ,
+  },
   {
     "id": "bingo",
     "title": "Bingo",
@@ -207,6 +206,40 @@
     "tools": "Bingokort, Penn, Papir",
     "location": "Inne / ute",
     "grade": "Andre årstrinn, Tredje årstrinn, Fjerde årstrinn, Femte årstrinn, Sjette årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "mattesisten",
+    "title": "Mattesisten",
+    "description": "Elevene samles i et åpent område, for eksempel skolegården, gymsalen eller et stort klasserom, og får utdelt hvert sitt kort med et tall fra 1 til 20. En elev starter med å ha 'sisten' og roper ut et tall, for eksempel 12. Alle som har et annet tall enn det som ble ropt ut må løpe og forsøke å unngå å bli tatt. Bare den som har akkurat det tallet som ble ropt, får stå i ro. Dersom sisten klarer å ta noen, bytter de to plass og bytter også kort, slik at tallene sirkulerer i gruppa. Leken fortsetter med en ny runde, og elevene får gjennom bevegelse øvd på å sammenligne tall, bruke begrepene «større enn» og «mindre enn» og utvikle en intuitiv forståelse for tallinje og tallrelasjoner. Aktiviteten er kroppslig, engasjerende og kan varieres med ulike matematiske kriterier underveis. Tips: Bruk andre kriterier enn større/mindre enn, f.eks 'Alle med partall løper",
+    "time": "45 min",
+    "image": "/activityPictures/tallsisten.png",
+    "tools": "Ingen",
+    "location": "Inne / ute",
+    "grade": "Andre årstrinn, Tredje årstrinn, Syvende årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "likninger",
+    "title": "Likninger",
+    "description": "Elevene deles inn i små grupper på 4-5 deltakere. Hver gruppe får en stor, lett ball som representerer variabelen 'x'. På bakken er det tegnet to store sirkler med kritt, én for venstre og én for høyre side av likningen med et likhetstegn imellom. Læreren leser opp ulike enkle likninger, som for eksempel 'x + 3 = 5'. Målet for elevene er å plassere riktig antall steiner i hver sirkel slik at balansen opprettholdes. For eksempel, hvis likningen er 'x + 3 = 5', plasserer elevene ballen og 3 steiner i den venstre sirkelen og 5 steiner i den høyre sirkelen. Når alle gruppene har funnet balansen, kan gruppen prøve å finne ut hva x kan være ved å ta vekk/legge til steiner/baller. I eksempelet blir det å ta vekk 2 steiner på venstre og høyre side for å opprettholde balansen. Da får man til slutt at x = 3. ",
+    "time": "45 min",
+    "image": "/activityPictures/likninger.png",
+    "tools": "Kritt, Steiner, Ball",
+    "location": "Ute",
+    "grade": "Femte årstrinn",
+    "number_of_tasks": 9
+  }
+  ,
+  {
+    "id": "areal-volum",
+    "title": "Areal og volum",
+    "description": "",
+    "time": "45 min",
+    "image": "/activityPictures/areal-og-volum.png",
+    "tools": "Bok, Linjal",
+    "location": "Inne",
+    "grade": "Sjette årstrinn",
     "number_of_tasks": 9
   }
 ]
