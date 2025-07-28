@@ -165,14 +165,36 @@
     "number_of_tasks": 9
   },
   {
-    "id": "",
-    "title": "",
-    "description": "",
-    "time": " min",
-    "image": "/activityPictures/.png",
-    "tools": "",
-    "location": "",
-    "grade": "",
+    "id": "utforske-partall-oddetall",
+    "title": "Utforske partall og oddetall",
+    "description": "Læreren deler klassen inn i to grupper og gir hver elev et tallkort som enten er partall eller oddetall. Elevene skal gå rolig rundt i en sirkel, og når læreren roper “partall”, skal alle med et partallskort utføre en gitt bevegelse, mens ved “oddetall” skal de med oddetallskort utføre en annen bevegelse. ",
+    "time": "5 min",
+    "image": "/activityPictures/utforske-partall-oddetall.png",
+    "tools": "Ingen",
+    "location": "Inne",
+    "grade": "Andre årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "koordinatsystemet",
+    "title": "Koordinatsystemet",
+    "description": "Læreren markerer fire til fem store koordinatsystem (10x10) med for eksempel kritt i skolegården. Elevene deles inn i fire til fem grupper, avhengig av hvor mange koordinatsystem læreren har tegnet opp. Elevene får utdelt eller opplest koordinateret som de skal finne ved å bevege seg til riktig punkt i rutenettet. ",
+    "time": "45 min",
+    "image": "/activityPictures/koordinatsystemet.png",
+    "tools": "Kritt",
+    "location": "Ute",
+    "grade": "Tredje årstrinn",
+    "number_of_tasks": 9
+  },
+  {
+    "id": "koordinat-twister",
+    "title": "Koordinat Twister",
+    "description": "Aktiviteten er en variant av twister. Elevene står klare rundt et  koordinatsystem. Læreren leser én og én kommando høyt. Én elev om gangen går inn og plasserer en kroppsdel som som  fortalt. Når én elev har fått en kommando, er det neste sin tur – og så videre i rundgang. Innen runden er ferdig, vil hver elev ha én eller flere kroppsdeler plassert i rutenettet.",
+    "time": "45 min",
+    "image": "/activityPictures/koordinat-twister.png",
+    "tools": "Kritt",
+    "location": "Ute",
+    "grade": "Tredje årstrinn",
     "number_of_tasks": 9
   }
 ]

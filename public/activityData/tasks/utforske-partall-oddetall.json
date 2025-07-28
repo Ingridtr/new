@@ -1,0 +1,26 @@
+{
+  "activityId": "utforske-partall-oddetall",
+  "activityTitle": "Utforske partall og oddetall",
+  "totalTasks": 9,
+  "tasksPerGrade": 9,
+  "supportedGrades": ["Andre årstrinn"],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": "Gjenta 4–5 runder.",
+      "reflection": "",
+      "easy": [],
+      "medium": [
+        {
+          "id": "utforske-partall-oddetall_andre_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
+          "question": "Første gang lærere sier et partall: sitt ned \n Andre gang lærere sier et partall: klappe \n Tredje gang lærere sier et partall: rulle \n Første gang lærer sier et oddetall: hopp \n Første gang lærer sier et oddetall: snurr \n Første gang lærer sier et oddetall: smil",
+
+          "answer": ""
+        }
+      ],
+      "hard": []
+    }
+  }
+}
