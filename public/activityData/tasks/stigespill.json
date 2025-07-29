@@ -1,0 +1,412 @@
+{
+  "activityId": "stigespill",
+  "activityTitle": "Stigespill",
+  "totalTasks": 54,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_andre_årstrinn_easy_1_9075",
+          "difficulty": "easy",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Gå ett trinn fremover \n Gå to trinn fremover \n Gå ett trinn bakover \n Hopp til neste trinn \n Gå til neste trinn på ett bein \n Snurr én gang rundt, og gå videre \n Stå stille og tell til fem \n Klapp tre ganger før du går videre \n Gå videre med høyre fot først ",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_andre_årstrinn_medium_1_9075",
+          "difficulty": "medium",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Gå ett trinn frem, deretter ett tilbake, så to frem \n Hopp over ett trinn og gå til neste \n Gå til neste trinn og si et dyr du liker \n Gå to trinn frem, snurr rundt, og gå ett til \n Gå tre trinn frem, si alfabetet fra A til D \n Gå til trinn 6, deretter lukk øynene og gå ett trinn til \n Gå til neste trinn uten å snakke \n Gå to trinn frem og ta på bakken \n Hopp ett trinn og gi high-five til noen i gruppa \n Gå fremover mens du teller høyt til fem \n",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_andre_årstrinn_hard_1_9075",
+          "difficulty": "hard",
+          "grade": "Andre årstrinn",
+          "learningGoal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+          "question": "Hvis du er på et partall, gå til trinn 7 – ellers, gå ett trinn tilbake \n Hopp over ett trinn, snu deg rundt og gå ett til \n Gå til nærmeste trinn med et oddetall \n Gå til trinn 3, så til trinnet som er dobbelt så høyt \n Gå til trinn 5 og rop et dyr på engelsk \n Hvis du ser noen foran deg, stå stille i én runde ",
+          "answer": ""
+        }
+      ]
+    },
+    "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_tredje_årstrinn_easy_1_3744",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Gå så mange trinn som 3 + 2 \n Gå ett trinn frem, så ett tilbake \n Gå til trinn 5, og trekk fra 2 – gå dit \n Start på trinn 4, og gå to trinn bakover \n Gå så mange trinn som 6 – 3 \n Hopp ett trinn frem og si “+1” høyt",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_tredje_årstrinn_medium_1_3744",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Gå frem så mange trinn som 7 – 4 + 2 \n Hopp over ett trinn, gå tilbake 1, så frem 3 \n Gå til trinn 3, legg til 4 i hodet og gå dit \n Si et tall, partneren trekker fra 2, og du går så mange trinn \n Gå tre trinn, si hvor du er, gå ett tilbake og regn: Hva er forskjellen? \n ",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_tredje_årstrinn_hard_1_3744",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+          "question": "Du er på trinn 2. Hvor må du gå for å komme til trinnet som er 3 mer enn 2 + 2?\n Gå til trinnet som gjør at du har gått 4 mer enn forrige gang\n Hvis du går tre trinn, og så minus to, hvor havner du? Gå dit\n Lag en kort regnefortelling for partneren og la dem løse den fysisk\n Stå stille. Hvis trinnnummeret ditt er summen av 3 og 4, gjør en snurr og gå 2 frem\n ",
+          "answer": ""
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_fjerde_årstrinn_easy_1_2962",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_easy_2_2962",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_easy_3_2962",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_fjerde_årstrinn_medium_1_2962",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_medium_2_2962",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_medium_3_2962",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_fjerde_årstrinn_hard_1_2962",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_hard_2_2962",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_fjerde_årstrinn_hard_3_2962",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Femte årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_femte_årstrinn_easy_1_2199",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_easy_2_2199",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_easy_3_2199",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_femte_årstrinn_medium_1_2199",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_medium_2_2199",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_medium_3_2199",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_femte_årstrinn_hard_1_2199",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_hard_2_2199",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_femte_årstrinn_hard_3_2199",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Sjette årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_sjette_årstrinn_easy_1_2146",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_easy_2_2146",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_easy_3_2146",
+          "difficulty": "easy",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_sjette_årstrinn_medium_1_2146",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_medium_2_2146",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_medium_3_2146",
+          "difficulty": "medium",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_sjette_årstrinn_hard_1_2146",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_hard_2_2146",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_sjette_årstrinn_hard_3_2146",
+          "difficulty": "hard",
+          "grade": "Sjette årstrinn",
+          "learningGoal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "stigespill_syvende_årstrinn_easy_1_4678",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_easy_2_4678",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_easy_3_4678",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "stigespill_syvende_årstrinn_medium_1_4678",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_medium_2_4678",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_medium_3_4678",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "stigespill_syvende_årstrinn_hard_1_4678",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_hard_2_4678",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        },
+        {
+          "id": "stigespill_syvende_årstrinn_hard_3_4678",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+          "question": "",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}
