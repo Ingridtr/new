@@ -1,0 +1,173 @@
+{
+  "activityId": "divisjonslek",
+  "activityTitle": "Divisjonslek",
+  "totalTasks": 18,
+  "tasksPerGrade": 9,
+  "supportedGrades": ["Tredje årstrinn", "Fjerde årstrinn"],
+  "grades": {
+    "Tredje årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "divisjonslek_tredje_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "6 (kan deles i 2, 3)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "8 (kan deles i 2, 4)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "10 (kan deles i 2, 5)",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "divisjonslek_tredje_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "12 (kan deles i 2, 3, 4, 6)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "15 (kan deles i 3, 5)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "18 (kan deles i 2, 3, 6, 9)",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "divisjonslek_tredje_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "14 (kan deles i 2, 7)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "17 (primtall – kun delbart på 1 og 17)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_tredje_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Tredje årstrinn",
+          "learningGoal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+          "question": "20 (kan deles i 2, 4, 5, 10)",
+          "answer": ""
+        }
+      ]
+    },
+    "Fjerde årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "divisjonslek_fjerde_årstrinn_easy_1",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "10 (kan deles på 2,5)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_easy_2",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "8 (kan deles på 2,4)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_easy_3",
+          "difficulty": "easy",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "12 (kan deles på 2,5)",
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "divisjonslek_fjerde_årstrinn_medium_1",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "14 (kan deles på 7,2)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_medium_2",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "16 (kan deles på 4,2,8)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_medium_3",
+          "difficulty": "medium",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "21 (kan deles på (7,3)",
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "divisjonslek_fjerde_årstrinn_hard_1",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "23 primtall! (kun 23,1)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_hard_2",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "27 (kan deles på 9,3)",
+          "answer": ""
+        },
+        {
+          "id": "divisjonslek_fjerde_årstrinn_hard_3",
+          "difficulty": "hard",
+          "grade": "Fjerde årstrinn",
+          "learningGoal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+          "question": "54 (kan deles på 9,6,3,18)",
+          "answer": ""
+        }
+      ]
+    }
+  }
+}
