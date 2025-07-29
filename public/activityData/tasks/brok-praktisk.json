@@ -1,0 +1,93 @@
+{
+  "activityId": "brok-praktisk",
+  "activityTitle": "Brøk-praktisk",
+  "totalTasks": 9,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Femte årstrinn"
+  ],
+  "grades": {
+    "Femte årstrinn": {
+      "tips": "",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "brok-praktisk_femte_årstrinn_easy_1_7215",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn et kakestykke som er delt i to like store deler med en rett strek. Fargelegg én av stykkene.\nSpørsmål: Hva kaller vi denne delen?”",
+          "answer": " En halv"
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_easy_2_7215",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn et kakestykke som er delt i tre like store deler med en rett strek.\nSpørsmål: Hvor mange stykker får dere da? Hvis dere fargelegger ett stykke, hvor mye av kaka er det?”",
+          "answer": "En tredjedel"
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_easy_3_7215",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn et kakestykke som er delt i fire like store deler med en rett strek.\nÉn elev går og stiller seg i hver del.\nTell høyt sammen: ‘Én firedel, to firedeler, …’\nSpørsmål: Hvor mange firedeler trenger vi for å få en hel kake?",
+          "answer": "Fire firedeler"
+        }
+      ],
+      "medium": [
+        {
+          "id": "brok-praktisk_femte_årstrinn_medium_1_7215",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn et kakestykke som er delt i fire like store deler med en rett strek.\nElevene fargelegger to deler.\nSpørsmål: Hvilken brøk viser de fargede delene? Er det like mye som én halv?",
+          "answer": "To firedeler"
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_medium_2_7215",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn et kakestykke som er delt i åtte like store deler med en rett strek.\nÉn og én elev får gå og stille seg i del nummer 1, 2, 3 osv.\nHver gang dere flytter dere, skal dere si hvor mye av kaken de får: ⅛.\nSpørsmål: Hva skjer når vi kommer til åtte åttedeler?”",
+          "answer": "Åtte åttedeler"
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_medium_3_7215",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn to kakestykker der den ene er delt i 4 og den andre er delt i 2. Fargelegg én del i hver kake.\nSpørsmål: Hvilken del er størst? Hvorfor? Hvilken kake er lettest å dele likt mellom flere?",
+          "answer": "En halv"
+        }
+      ],
+      "hard": [
+        {
+          "id": "brok-praktisk_femte_årstrinn_hard_1_7215",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "La to elever stå i hver sin “kake” på bakken:\n– Elev A står i en kake delt i 6 og fargelegger 3 deler\n– Elev B står i en kake delt i 8 og fargelegger 4 deler\nSpørsmål: Hvem har størst del? Er det likt? Hvordan kan dere vise det?",
+          "answer": ""
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_hard_2_7215",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Tegn én kake delt i 4 og én kake delt i 8.\nFargelegg 2 av 4 deler i den ene og 4 av 8 i den andre.\nSpørsmål: Har vi farget like mye i begge kakene?\nEkstra: Kan vi skrive det med like brøker?",
+          "answer": "Ja, vi har farget like mye i begge kakene. Vi kan skrive det som 2/4 = 4/8."
+        },
+        {
+          "id": "brok-praktisk_femte_årstrinn_hard_3_7215",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+"question": "Be gruppa lage sin egen kake med valgfritt antall deler.\nFargelegg noen deler og skriv brøken.\nBytt kake med en annen gruppe og la dem gjette brøken.\nSpørsmål: Kan dere vise den samme brøken på en annen måte?\n",
+          "answer": "Ja, vi kan vise den samme brøken på en annen måte ved å bruke ulike representasjoner, som for eksempel å tegne kaken på nytt med et annet antall deler."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "activityId": "hvem-er-jeg",
+  "activityTitle": "Hvem er jeg?",
+  "totalTasks": 54,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Andre årstrinn",
+    "Tredje årstrinn",
+    "Fjerde årstrinn",
+    "Femte årstrinn",
+    "Sjette årstrinn",
+    "Syvende årstrinn"
+  ],
+  "grades": {
+    "Andre årstrinn": {
+      "tips": "Elevene får et ark med et tall (mellom 1 og 20) klistret på ryggen, uten at de selv vet hvilket tall det er. ",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    },
+    "Tredje årstrinn": {
+      "tips": "Elevene får et ark med et tall (mellom 1 og 50) klistret på ryggen, uten at de selv vet hvilket tall det er. ",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    },
+    "Fjerde årstrinn": {
+      "tips": "Elevene får en lapp på ryggen med navnet på en todimensjonal eller tredimensjonal figur (f.eks. trekant, sylinder, prisme, rektangel). De går rundt i klasserommet og stiller ja/nei-spørsmål til medelever for å finne ut hvilken figur de er, f.eks. «Har jeg rette vinkler?», «Har jeg mer enn tre ",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    },
+    "Femte årstrinn": {
+      "tips": "Elevene får en lapp med en brøk, et desimaltall eller en prosent (f.eks. 1/2, 0,25, 75 %) på ryggen. De må stille spørsmål som «Er jeg mer enn 50 %?», «Er jeg mindre enn 1/2?», «Er jeg 0,25?». Samtalen dreier seg om å forstå hvordan brøk, desimal og prosent uttrykker det samme på ulike måter. Etter at de gjetter, diskuterer de i par hvilke egenskaper som hjalp dem.",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    },
+    "Sjette årstrinn": {
+      "tips": "Elevene har en figur-lapp på ryggen, f.eks. «parallellogram», «rombe», «rektangel», «prisme», «kjegle». De må stille spørsmål som tester egenskaper: «Har jeg fire rette vinkler?», «Har jeg to parallelle sider?», «Har jeg en toppflate?». Målet er at elevene skal finne fram til figurens identitet ved å forstå og bruke minimumsdefinisjoner og skille mellom lignende figurer.",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    },
+    "Syvende årstrinn": {
+      "tips": " Hver elev får et enkelt regneuttrykk eller ligning (f.eks. 3x − 2 = 10) på ryggen. De går rundt og stiller spørsmål som «Er x større enn 5?», «Er uttrykket mitt et produkt?», «Inneholder det en variabel?». Ut fra svarene må de bruke logiske resonnementer for å finne hvilket uttrykk eller hvilken ligning de har. Etterpå forklarer de hvordan de løste den, og om svaret gir mening.",
+      "reflection": "",
+      "easy": [
+        
+      ],
+      "medium": [
+        
+      ],
+      "hard": [
+        
+      ]
+    }
+  }
+}

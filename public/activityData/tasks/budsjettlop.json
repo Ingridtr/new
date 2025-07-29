@@ -1,0 +1,190 @@
+{
+  "activityId": "budsjettlop",
+  "activityTitle": "Budsjettløp",
+  "totalTasks": 18,
+  "tasksPerGrade": 9,
+  "supportedGrades": [
+    "Femte årstrinn",
+    "Syvende årstrinn"
+  ],
+  "grades": {
+    "Femte årstrinn": {
+      "tips": "Gruppene starter ute med en fiktiv sum, for eksempel 500 kr, som de disponerer på tre stasjoner: mat, pynt og aktiviteter. Ved hver stasjon fører de kostnader på et enkelt budsjettark (pen og papir). Etter løypa åpner de et ferdig oppsett i Google Sheets eller Excel med tomme celler for hver varekategori.",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "budsjettlop_femte_årstrinn_easy_1_9791",
+          "difficulty": "easy",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": {
+            "text": "Papir versjon\n\nHver gruppe får 2 kategorier (mat, pynt) og et budsjettark på papir. Før kostnadene per kategori og summer manuelt med blyant.",
+            "table": {
+              "headers": [["Kategori", "Kostnad"]],
+              "rows": [
+                ["Mat", "Fyll inn"],
+                ["Pynt", "Fyll inn"],
+                ["Sum", "Regn ut"]
+              ],
+              "highlight": {
+                "headers": [0,1],
+                "rows": [0,1,2],
+                "cells": [[2,1]]
+              }
+            }
+          },
+          "answer": ""
+        }
+      ],
+      "medium": [
+        {
+          "id": "budsjettlop_femte_årstrinn_medium_1_9791",
+          "difficulty": "medium",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": {
+            "text": "Enkel formel\n\nHver gruppe får 3 kategorier (mat, pynt, aktiviteter) og et budsjettark på papir. Før kostnadene per kategori og summer og regn ut gjennomsnittlig utgift manuelt med blyant.",
+            "table": {
+              "headers": [["Kategori", "Kostnad"]],
+              "rows": [
+                ["Mat", "Fyll inn"],
+                ["Pynt", "Fyll inn"],
+                ["Aktiviteter", "Fyll inn"],
+                ["Sum", "Regn ut"]
+              ],
+              "highlight": {
+                "headers": [0,1],
+                "rows": [0,1,2,3],
+                "cells": [[3,1]]
+              }
+            }
+          },
+          "answer": ""
+        }
+      ],
+      "hard": [
+        {
+          "id": "budsjettlop_femte_årstrinn_hard_1_9791",
+          "difficulty": "hard",
+          "grade": "Femte årstrinn",
+          "learningGoal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+          "question": {
+            "text": "Justere budsjettet\n\nHver gruppe får 3 kategorier (mat, pynt, aktiviteter) og et budsjettark på papir. Utvid arket med en kolonne for 'Korrigert budsjett'. Bruk formel =IF(SUMMER(B2:B4)>500; 'Over budsjett'; 'Under budsjett') i celle C5, og tilpass én utgift for å komme under 500 kr.",
+            "table": {
+              "headers": [["Kategori", "Kostnad", "Korrigert budsjett"]],
+              "rows": [
+                ["Mat", "Fyll inn", ""],
+                ["Pynt", "Fyll inn", ""],
+                ["Aktiviteter", "Fyll inn", ""],
+                ["Sum", "Regn ut", ""],
+                ["Status", "Regn ut", ""]
+              ],
+              "highlight": {
+                "headers": [0,1,2],
+                "rows": [0,1,2,3,4],
+                "cells": [[3,1],[4,1]]
+              }
+            }
+          },
+          "answer": ""
+        }
+      ]
+    },
+    "Syvende årstrinn": {
+      "tips": "Gruppene får utdelt et budsjettoppsett i regneark med flere kategorier (lokale, mat, dekor, uforutsette utgifter). Underveis i hinderløypa registrerer de kjøp og opptjente \"rabatter\" direkte i arket. I Excel bygger de deretter et kort regneark som bruker cellehenvisninger og formler (f.eks. =B3–C3 for å trekke fra rabatt, =SUMMER(B2:E2) for totalkostnad) og en enkel IF‑formel (=HVIS(F2>0; \"Under budsjett\"; \"Over budsjett\")). Hver gruppe oppretter et diagram som viser forbruk per kategori, vurderer om budsjettet holdt og foreslår justeringer for neste arrangement.",
+      "reflection": "",
+      "easy": [
+        {
+          "id": "budsjettlop_syvende_årstrinn_easy_1_7374",
+          "difficulty": "easy",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+          "question": {
+            "text": "Før alle kjøp i kolonne B (B2:B6). Bruk =SUMMER(B2:B6) i B7 for å finne totalkostnad.",
+            "table": {
+              "headers": [
+                ["Kateogri", "Kostnad (kr)"]
+              ],
+              "rows": [
+                ["Lokale", "Fyll inn"],
+                ["Mat", "Fyll inn"],
+                ["Dekor", "Fyll inn"],
+                ["Uforutsette utgifter", "Fyll inn"],
+                ["Annet", "Fyll inn"],
+                ["Totalkostnad", "Regn ut"]
+              ],
+              "highlight": {
+                "headers": [0,1],
+                "rows": [0,3,5]
+              }
+            }
+          },
+          "answer": ""
+        }
+        
+      ],
+      "medium": [
+        {
+          "id": "budsjettlop_syvende_årstrinn_medium_1_7374",
+          "difficulty": "medium",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+          "question": {
+            "text": "Legg til kolonne C med rabatter per post. I kolonne D bruker dere =B2–C2 og drar formelen nedover. Summer D2:D6 for netto kostnad med =SUMMER(D2:D6).",
+            "table": {
+              "headers": [
+                ["Kateogri", "Kostnad (kr)", "Rabatt", "Netto"]
+              ],
+              "rows": [
+                ["Lokale", "Fyll inn", "Fyll inn", "Regn ut"],
+                ["Mat", "Fyll inn", "Fyll inn", "Regn ut"],
+                ["Dekor", "Fyll inn", "Fyll inn", "Regn ut"],
+                ["Uforutsette utgifter", "Fyll inn", "Fyll inn", "Regn ut"],
+                ["Annet", "Fyll inn", "Fyll inn", "Regn ut"],
+                ["Totalkostnad", "Fyll inn", "Fyll inn", "Regn ut"]
+              ],
+              "highlight": {
+                "headers": [0,1,2,3],
+                "rows": [0,3,5]
+              }
+            }
+          },
+          "answer": ""
+        }
+        
+      ],
+      "hard": [
+        {
+          "id": "budsjettlop_syvende_årstrinn_hard_1_7374",
+          "difficulty": "hard",
+          "grade": "Syvende årstrinn",
+          "learningGoal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+          "question": {
+            "text": "Lag celle F1 med budsjett (f.eks. 2000 kr). I G2–G6 beregner dere differansen for hver rad med =F1–D2 osv. Til slutt bruker dere =IF(SUMMER(D2:D6)<=F1; \"OK\"; \"Over budsjett\") i G7.",
+            "table": {
+              "headers": [
+                ["Kateogri", "Kostnad (kr)", "Rabatt", "Netto", "Differanse fra budsjett"]
+              ],
+              "rows": [
+                ["Lokale", "Fyll inn", "", "Regn ut", "Regn ut"],
+                ["Mat", "Fyll inn", "", "Regn ut", "Regn ut"],
+                ["Dekor", "Fyll inn", "", "Regn ut", "Regn ut"],
+                ["Uforutsette utgifter", "Fyll inn", "", "Regn ut", "Regn ut"],
+                ["Annet", "Fyll inn", "", "Regn ut", "Regn ut"],
+                ["Totalkostnad netto", "Fyll inn", "", "Regn ut", "———"],
+                ["Vurdering", "", "", "———", "Regn ut"]
+              ],
+              "highlight": {
+                "headers": [0,1,2,3,4],
+                "rows": [0,3,5,6],
+                "cells": [[5,3],[6,3]]
+              }
+            }
+          },
+          "answer": ""
+        }
+        
+      ]
+    }
+  }
+}
