@@ -9,11 +9,24 @@ import {
 
 import activitiesMetadataUrl from "../../public/activityData/activities.json?url";
 
-const metadataCache = new Map<string, any>();
+// Interface for raw activity data from JSON (before processing)
+interface RawActivity {
+  id: string;
+  title: string;
+  description: string;
+  time: string;
+  image: string;
+  tools: string; // This is a string that gets split into array
+  location: string;
+  grade: string;
+  number_of_tasks: number;
+}
+
+const metadataCache = new Map<string, RawActivity[]>();
 const taskCache = new Map<string, ActivityTask>();
-async function fetchActivitiesMetadata(): Promise<any[]> {
+async function fetchActivitiesMetadata(): Promise<RawActivity[]> {
   if (metadataCache.has("activities")) {
-    return metadataCache.get("activities");
+    return metadataCache.get("activities")!;
   }
 
   try {
@@ -64,7 +77,7 @@ export async function fetchSingleActivity(
   try {
     const activitiesMetadata = await fetchActivitiesMetadata();
     const rawActivity = activitiesMetadata.find(
-      (a: any) => a.id === activityId
+      (a: RawActivity) => a.id === activityId
     );
     const taskDetails = await fetchActivityTasks(activityId);
 
@@ -185,7 +198,7 @@ export function useActivities(
         const activitiesMetadata = await fetchActivitiesMetadata();
 
         const baseActivities: Activity[] = activitiesMetadata.map(
-          (rawActivity: any) => ({
+          (rawActivity: RawActivity) => ({
             ...rawActivity,
             tools: rawActivity.tools
               .split(",")
