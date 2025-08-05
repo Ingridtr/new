@@ -84,35 +84,43 @@ function InfoTask() {
         </button>
 
         {/* Innhold */}
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-8 mt-12">
-          {/* Venstre boks */}
-          <div className="bg-sky-100 border lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 w-full lg:w-1/5 h-fit">
-            <div className="flex items-center gap-2">
-              <span role="img" aria-label="Sted">
-                📍
-              </span>
-              <p>{activity.location}</p>
-            </div>
-            <div className="flex items-center gap-2">
-              <span role="img" aria-label="Varighet">
-                ⏱️
-              </span>
-              <p>{activity.time} min</p>
-            </div>
-            <div className="flex items-center gap-2">
-              <span role="img" aria-label="Utstyr">
-                🛠️
-              </span>
-              <p>{activity.tools}</p>
-            </div>
-            <div className="flex items-center gap-2">
-              <span role="img" aria-label="Gruppe">
-                👥
-              </span>
-              <p>{activity.groupsize}</p>
-            </div>
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12">
+          {/* Venstre kolonne - Info og Tips */}
+          <div className="flex flex-col gap-6 w-full lg:w-64 lg:sticky lg:top-40 lg:self-start">
+            {/* Info boks */}
+            <div className="bg-green-100 border rounded-2xl py-6 px-6 space-y-4 h-fit">
+              <div className="flex items-center gap-2">
+                <span role="img" aria-label="Sted">
+                  📍
+                </span>
+                <p>{activity.location}</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <span role="img" aria-label="Varighet">
+                  ⏱️
+                </span>
+                <p>{activity.time} min</p>
+              </div>
+              <div className="flex items-start gap-2">
+                <span role="img" aria-label="Utstyr">
+                  🛠️
+                </span>
+                <div>
+                  {activity.tools.map((tool: string, index: number) => (
+                    <p key={index}>
+                      {tool}
+                    </p>
+                  ))}
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <span role="img" aria-label="Gruppe">
+                  👥
+                </span>
+                <p>{activity.groupsize}</p>
+              </div>
 
-            {/* <Print
+              {/* <Print
                 id={activity.id}
                 title={activity.title}
                 location={activity.location}
@@ -140,9 +148,33 @@ function InfoTask() {
                 </span>
                 <p>Vis på skjerm</p>
               </button>*/}
+            </div>
+
+            {/* Tips boks */}
+            {activity.gradeContent?.tips &&
+              activity.gradeContent.tips.length > 0 && (
+                <div className="bg-yellow-50 border border-yellow-200 space-y-4 rounded-2xl py-6 px-6">
+                  {/* Overskrift med ikon */}
+                  <div className="flex items-center gap-3">
+                    <span role="img" aria-label="Tips" className="text-3xl">
+                      💡
+                    </span>
+                    <h3 className="text-2xl font-bold">Tips</h3>
+                  </div>
+
+                  {/* Tips-innhold under */}
+                  <div>
+                    {activity.gradeContent.tips.map((item, index) => (
+                      <p key={index} className="mb-2 text-gray-800">
+                        {item}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
           </div>
 
-          <div className="flex flex-col space-y-6 w-full lg:w-3/5">
+          <div className="flex flex-col space-y-6 flex-1">
             {/* <div className="bg-white  p-6">
                 <h1>{activity.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
@@ -214,30 +246,6 @@ function InfoTask() {
                     ))}
                   </ul>
                 </div>
-              )}
-          </div>
-
-          <div className="lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 w-full lg:w-1/5 h-fit">
-            {activity.gradeContent?.tips &&
-              activity.gradeContent.tips.length > 0 && (
-                <>
-                  {/* Overskrift med ikon */}
-                  <div className="flex items-center gap-3">
-                    <span role="img" aria-label="Tips" className="text-3xl">
-                      💡
-                    </span>
-                    <h3 className="text-2xl font-bold">Tips</h3>
-                  </div>
-
-                  {/* Tips-innhold under */}
-                  <div>
-                    {activity.gradeContent.tips.map((item, index) => (
-                      <p key={index} className="mb-2 text-gray-800">
-                        {item}
-                      </p>
-                    ))}
-                  </div>
-                </>
               )}
           </div>
         </div>
