@@ -9,7 +9,8 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
   const navigate = useNavigate();
 
   const handleLearningGoalsClick = (goal: string, index: number) => {
-    localStorage.setItem("selectedLearningGoal", goal);
+    // Store both the goal text and a parseable identifier
+    localStorage.setItem("selectedLearningGoal", `Kompetansemål ${index + 1}: ${goal}`);
     announceSuccess(`Kompetansemål ${index + 1} er valgt. Navigerer til aktiviteter.`);
     navigate(`/gameSelection`);
   };
