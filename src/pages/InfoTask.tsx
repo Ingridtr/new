@@ -85,35 +85,34 @@ function InfoTask() {
 
         {/* Innhold */}
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-8 mt-12">
-          <div className="flex flex-col lg:flex-row justify-between max-w-7xl w-full mt-8 gap-6">
-            <div className="flex flex-col lg:flex-row justify-between w-full max-w-screen-xl mx-auto mt-8 gap-6 px-4">
-              <div className="bg-sky-100 border lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 w-full lg:w-64 h-fit">
-                <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Sted">
-                    📍
-                  </span>
-                  <p>{activity.location}</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Varighet">
-                    ⏱️
-                  </span>
-                  <p>{activity.time} min</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Utstyr">
-                    🛠️
-                  </span>
-                  <p>{activity.tools}</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Gruppe">
-                    👥
-                  </span>
-                  <p>{activity.groupsize}</p>
-                </div>
+          {/* Venstre boks */}
+          <div className="bg-sky-100 border lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 w-full lg:w-1/5 h-fit">
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Sted">
+                📍
+              </span>
+              <p>{activity.location}</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Varighet">
+                ⏱️
+              </span>
+              <p>{activity.time} min</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Utstyr">
+                🛠️
+              </span>
+              <p>{activity.tools}</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <span role="img" aria-label="Gruppe">
+                👥
+              </span>
+              <p>{activity.groupsize}</p>
+            </div>
 
-                {/* <Print
+            {/* <Print
                 id={activity.id}
                 title={activity.title}
                 location={activity.location}
@@ -141,10 +140,10 @@ function InfoTask() {
                 </span>
                 <p>Vis på skjerm</p>
               </button>*/}
-              </div>
+          </div>
 
-              <div className="flex flex-col space-y-6 w-full lg:w-2/3">
-                {/* <div className="bg-white  p-6">
+          <div className="flex flex-col space-y-6 w-full lg:w-3/5">
+            {/* <div className="bg-white  p-6">
                 <h1>{activity.title}</h1>
                 <h2>Kobling til kompetansemål</h2>
                 <ul className="list-disc list-inside">
@@ -156,105 +155,94 @@ function InfoTask() {
                 </ul>
               </div> */}
 
-                {/* Introduction Section */}
-                <h1>{activity.title}</h1>
-                {activity.gradeContent?.introduction &&
-                  activity.gradeContent.introduction.length > 0 && (
-                    <div>
-                      {activity.gradeContent.introduction.map((item, index) => (
-                        <p key={index} className="mb-2">
-                          {item}
-                        </p>
-                      ))}
-                    </div>
-                  )}
+            {/* Introduction Section */}
+            <h1>{activity.title}</h1>
+            {activity.gradeContent?.introduction &&
+              activity.gradeContent.introduction.length > 0 && (
+                <div>
+                  {activity.gradeContent.introduction.map((item, index) => (
+                    <p key={index} className="mb-2">
+                      {item}
+                    </p>
+                  ))}
+                </div>
+              )}
 
-                {/* Main Activity Section */}
-                {activity.gradeContent?.main &&
-                  activity.gradeContent.main.length > 0 && (
-                    <div>
-                      <h3>Slik gjør du</h3>
-                      <ol className="list-decimal list-inside space-y-2 text-base sm:text-lg lg:text-xl text-black">
-                        {activity.gradeContent.main.map((item, index) => (
-                          <li key={index}>{item}</li>
-                        ))}
-                      </ol>
-                    </div>
-                  )}
+            {/* Main Activity Section */}
+            {activity.gradeContent?.main &&
+              activity.gradeContent.main.length > 0 && (
+                <div>
+                  <h3>Slik gjør du</h3>
+                  <ol className="list-decimal list-inside space-y-2 text-base sm:text-lg lg:text-xl text-black">
+                    {activity.gradeContent.main.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ol>
+                </div>
+              )}
 
-                {activity.gradeContent?.examples &&
-                  activity.gradeContent.examples.length > 0 && (
-                    <div>
-                      <h3>Eksempler</h3>
-                      <ul className="list-disc list-inside space-y-1 text-base sm:text-lg lg:text-xl text-black">
-                        {activity.gradeContent.examples.flatMap(
-                          (example, exampleIndex) =>
-                            example
-                              .split("–") // Bruk lang tankestrek (ikke vanlig bindestrek)
-                              .map((part, partIndex) => {
-                                const trimmed = part.trim();
-                                return trimmed ? (
-                                  <li key={`${exampleIndex}-${partIndex}`}>
-                                    {trimmed}
-                                  </li>
-                                ) : null;
-                              })
-                        )}
-                      </ul>
-                    </div>
-                  )}
+            {activity.gradeContent?.examples &&
+              activity.gradeContent.examples.length > 0 && (
+                <div>
+                  <h3>Eksempler</h3>
+                  <ul className="list-disc list-inside space-y-1 text-base sm:text-lg lg:text-xl text-black">
+                    {activity.gradeContent.examples.flatMap(
+                      (example, exampleIndex) =>
+                        example
+                          .split("–") // Bruk lang tankestrek (ikke vanlig bindestrek)
+                          .map((part, partIndex) => {
+                            const trimmed = part.trim();
+                            return trimmed ? (
+                              <li key={`${exampleIndex}-${partIndex}`}>
+                                {trimmed}
+                              </li>
+                            ) : null;
+                          })
+                    )}
+                  </ul>
+                </div>
+              )}
 
-                {/* Tips Section */}
-                {activity.gradeContent?.tips &&
-                  activity.gradeContent.tips.length > 0 && (
-                    <div className="bg-white border border-black rounded-2xl p-6">
-                      <h2>Tips</h2>
-                      {activity.gradeContent.tips.map((item, index) => (
-                        <p key={index} className="mb-2 text-gray-800">
-                          {item}
-                        </p>
-                      ))}
-                    </div>
-                  )}
+            {/* Reflection Section */}
+            {activity.gradeContent?.reflection &&
+              activity.gradeContent.reflection.length > 0 && (
+                <div>
+                  <h3>Refleksjonsspørsmål</h3>
+                  <ul className="list-disc list-inside space-y-1 text-base sm:text-lg lg:text-xl text-black">
+                    {activity.gradeContent.reflection.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+          </div>
 
-                {/* Reflection Section */}
-                {activity.gradeContent?.reflection &&
-                  activity.gradeContent.reflection.length > 0 && (
-                    <div className="bg-white border border-black rounded-2xl p-6">
-                      <h2>Refleksjonsspørsmål</h2>
-                      <ul className="list-disc list-inside space-y-1">
-                        {activity.gradeContent.reflection.map((item, index) => (
-                          <li key={index} className="text-gray-800">
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+          <div className="lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 w-full lg:w-1/5 h-fit">
+            {activity.gradeContent?.tips &&
+              activity.gradeContent.tips.length > 0 && (
+                <>
+                  {/* Overskrift med ikon */}
+                  <div className="flex items-center gap-3">
+                    <span role="img" aria-label="Tips" className="text-3xl">
+                      💡
+                    </span>
+                    <h3 className="text-2xl font-bold">Tips</h3>
+                  </div>
 
-                {/* Extra Section */}
-                {activity.gradeContent?.extra &&
-                  activity.gradeContent.extra.length > 0 && (
-                    <div className="bg-white border border-black rounded-2xl p-6">
-                      <h2>Utvidelser</h2>
-                      {activity.gradeContent.extra.map((item, index) => (
-                        <p key={index} className="mb-2 text-gray-800">
-                          {item}
-                        </p>
-                      ))}
-                    </div>
-                  )}
-              </div>
-            </div>
-            <div className="lg:sticky lg:top-40 rounded-2xl p-6 space-y-4 space-x-18 w-full lg:w-64 h-fit">
-                   <span role="img" aria-label="Tips">
-      💡 Tips 
-    </span>
-         
-            </div>
+                  {/* Tips-innhold under */}
+                  <div>
+                    {activity.gradeContent.tips.map((item, index) => (
+                      <p key={index} className="mb-2 text-gray-800">
+                        {item}
+                      </p>
+                    ))}
+                  </div>
+                </>
+              )}
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
