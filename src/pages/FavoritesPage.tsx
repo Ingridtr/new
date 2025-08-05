@@ -10,7 +10,6 @@ import { Activity } from "../data/types";
 
 const FavoritesPage = () => {
     const [favorites, setFavorites] = useState<Activity[]>([]);
-
     const navigate = useNavigate(); 
     
     useEffect( () => {
@@ -40,8 +39,16 @@ return (
             <p>Du har ingen favoritter enda.</p>
         ): (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {favorites.map((activity) => (
-            const handleClick
+          {favorites.map((activity) => {
+            const handleClick = () => {
+                localStorage.setItem("selectedGame", activity.title);
+                localStorage.setItem("selectedGameId", activity.id);
+                localStorage.setItem("selectedGameImage", activity.image);
+                localStorage.setItem("selectedActivity", JSON.stringify(activity)); 
+                navigate("/infoTask");
+            }
+    
+            return (
             <GameCard
               key={activity.id}
               title={activity.title}
@@ -49,18 +56,17 @@ return (
               time={activity.time}
               location={activity.location}
               tools={activity.tools.join(", ")}
-              onClick={() => navigate("/infoTask")}
-            />
-          ))}
+              onClick={handleClick}
+            />);
+          })};
         </div>
-      )}
-        
+        )}
     </div>
     
     <Footer/>
     </div>
     
-);
-}; 
+        );   
+}
 
 export default FavoritesPage;
