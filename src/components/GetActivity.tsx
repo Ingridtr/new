@@ -11,26 +11,84 @@ import {
   GradeActivity,
 } from "../../public/activityData/gradeTypes";
 
-import gradeActivitiesUrl from "../../public/activityData/grades/andre_aarstrinn.json?url";
-
 // Cache for grade-based activities
 const gradeCache = new Map<string, GradeData>();
 
+// Map grade names to JSON filenames
+// Grade to file mapping
+const gradeFileMap: { [key: string]: string } = {
+  "Andre årstrinn": "2.grade.json",
+  "Tredje årstrinn": "3.grade.json",
+  "Fjerde årstrinn": "4.grade.json",
+  "Femte årstrinn": "5.grade.json",
+  "Sjette årstrinn": "6.grade.json",
+  "Sjuende årstrinn": "7.grade.json",
+};// Extract learning goal number from activity ID (format: 2XXZZ where XX is learning goal number)
+function extractLearningGoalNumber(activityId: string): number | null {
+  if (activityId.length >= 4 && activityId.startsWith('2')) {
+    // For learning goals 1-9: format is 20XZZ (e.g., 20101, 20201)
+    // For learning goals 10-13: format is 21XZZ (e.g., 21001, 21101)
+    
+    if (activityId.startsWith('20')) {
+      // Learning goals 1-9: extract single digit from position 2
+      const lgStr = activityId.substring(2, 3);
+      const lgNum = parseInt(lgStr, 10);
+      return isNaN(lgNum) ? null : lgNum;
+    } else if (activityId.startsWith('21')) {
+      // Learning goals 10-13: map the third character to the correct learning goal
+      const thirdChar = activityId.substring(2, 3);
+      switch (thirdChar) {
+        case '0': return 10;
+        case '1': return 11;
+        case '2': return 12;
+        case '3': return 13;
+        default: return null;
+      }
+    }
+  }
+  return null;
+}
+
+// Extract learning goal number from API learning goal selection (e.g., "Kompetansemål 8" -> 8)
+function extractLearningGoalFromSelection(selectedGoal: string): number | null {
+  // Handle cases like "Kompetansemål 8", "kompetansemål 8", "Kompetansemål 11:", or just "8"
+  // Look for numbers, prioritizing two-digit numbers over single digits
+  const matches = selectedGoal.match(/(\d+)/g);
+  if (matches) {
+    // Find the learning goal number (usually the first or largest number)
+    const numbers = matches.map(m => parseInt(m, 10)).filter(n => n >= 1 && n <= 13);
+    if (numbers.length > 0) {
+      // If we have multiple numbers, prefer the one that looks like a learning goal (1-13)
+      return numbers.find(n => n >= 10) || numbers[0];
+    }
+  }
+  return null;
+}
+
 // Fetch grade-based activities from the new structure
-async function fetchGradeActivities(): Promise<GradeActivity[]> {
-  if (gradeCache.has("andre_aarstrinn")) {
-    return gradeCache.get("andre_aarstrinn")!.activities;
+async function fetchGradeActivities(gradeName?: string | null): Promise<GradeActivity[]> {
+  const filename = gradeName ? gradeFileMap[gradeName] : "2.grade.json";
+  const cacheKey = filename || "2.grade.json";
+  
+  if (gradeCache.has(cacheKey)) {
+    return gradeCache.get(cacheKey)!.activities;
   }
 
   try {
-    const response = await fetch(gradeActivitiesUrl);
+    const url = `/activityData/grades/${filename || "2.grade.json"}`;
+    const response = await fetch(url);
     if (!response.ok) {
+      // If the specific grade file doesn't exist, fall back to 2nd grade
+      if (filename !== "2.grade.json") {
+        console.warn(`Grade file ${filename} not found, falling back to 2nd grade`);
+        return fetchGradeActivities("Andre årstrinn");
+      }
       throw new Error(
         `Failed to fetch grade activities: ${response.status}`
       );
     }
     const data: GradeData = await response.json();
-    gradeCache.set("andre_aarstrinn", data);
+    gradeCache.set(cacheKey, data);
     return data.activities;
   } catch (error) {
     console.error("Failed to load grade activities:", error);
@@ -39,7 +97,7 @@ async function fetchGradeActivities(): Promise<GradeActivity[]> {
 }
 
 // Convert GradeActivity to the old Activity format for compatibility
-function convertGradeActivityToActivity(gradeActivity: GradeActivity): Activity {
+function convertGradeActivityToActivity(gradeActivity: GradeActivity, gradeName?: string): Activity {
   return {
     id: gradeActivity.id,
     title: gradeActivity.title,
@@ -48,22 +106,23 @@ function convertGradeActivityToActivity(gradeActivity: GradeActivity): Activity 
     image: "", // No image in new structure, could be added later
     tools: gradeActivity.tools.split(",").map(tool => tool.trim()),
     location: gradeActivity.location,
-    grade: "Andre årstrinn", // Fixed to 2nd grade for now
+    grade: gradeName || "Andre årstrinn", // Use provided grade or default
     number_of_tasks: 1 // Default value
   };
 }
 
 // Create mock ActivityTask data from GradeActivity for compatibility
-function createMockActivityTask(gradeActivity: GradeActivity): ActivityTask {
+function createMockActivityTask(gradeActivity: GradeActivity, gradeName?: string): ActivityTask {
+  const currentGrade = gradeName || "Andre årstrinn";
   return {
     activityId: gradeActivity.id,
     activityTitle: gradeActivity.title,
     totalTasks: 1,
     tasksPerGrade: 1,
-    supportedGrades: ["Andre årstrinn"],
+    supportedGrades: [currentGrade],
     generatedAt: new Date().toISOString(),
     grades: {
-      "Andre årstrinn": {
+      [currentGrade]: {
         tips: gradeActivity.content.tips.join(" "),
         reflection: gradeActivity.content.reflection.join(" "),
         easy: [],
@@ -76,10 +135,11 @@ function createMockActivityTask(gradeActivity: GradeActivity): ActivityTask {
 }
 
 export async function fetchActivityTasks(
-  activityId: string
+  activityId: string,
+  gradeName?: string | null
 ): Promise<ActivityTask | null> {
   try {
-    const gradeActivities = await fetchGradeActivities();
+    const gradeActivities = await fetchGradeActivities(gradeName);
     const gradeActivity = gradeActivities.find(activity => activity.id === activityId);
     
     if (!gradeActivity) {
@@ -87,7 +147,7 @@ export async function fetchActivityTasks(
       return null;
     }
 
-    return createMockActivityTask(gradeActivity);
+    return createMockActivityTask(gradeActivity, gradeName || undefined);
   } catch (error) {
     console.error(`Failed to load tasks for ${activityId}:`, error);
     return null;
@@ -100,7 +160,7 @@ export async function fetchSingleActivity(
   selectedLearningGoal?: string
 ): Promise<CombinedActivity | null> {
   try {
-    const gradeActivities = await fetchGradeActivities();
+    const gradeActivities = await fetchGradeActivities(selectedGrade);
     const gradeActivity = gradeActivities.find(activity => activity.id === activityId);
     
     if (!gradeActivity) {
@@ -108,17 +168,89 @@ export async function fetchSingleActivity(
       return null;
     }
 
-    const activity = convertGradeActivityToActivity(gradeActivity);
-    const taskDetails = createMockActivityTask(gradeActivity);
+    const activity = convertGradeActivityToActivity(gradeActivity, selectedGrade || undefined);
+    const taskDetails = createMockActivityTask(gradeActivity, selectedGrade || undefined);
 
     // Filter based on learning goal if provided
     const learningGoals = selectedLearningGoal 
-      ? [gradeActivity.learning_goal].filter(goal => 
-          goal.toLowerCase().includes(selectedLearningGoal.toLowerCase())
-        )
+      ? [gradeActivity.learning_goal].filter(goal => {
+          const searchGoalNumber = extractLearningGoalFromSelection(selectedLearningGoal);
+          const activityGoalNumber = extractLearningGoalNumber(gradeActivity.id);
+          
+          // If we can extract numbers from both, use ID-based matching (more reliable)
+          if (searchGoalNumber !== null && activityGoalNumber !== null) {
+            return searchGoalNumber === activityGoalNumber;
+          }
+          
+          // Fallback to text matching with normalization for edge cases
+          const activityGoal = goal.toLowerCase();
+          const searchGoal = selectedLearningGoal.toLowerCase();
+          
+          // Direct match
+          if (activityGoal.includes(searchGoal)) {
+            return true;
+          }
+          
+          // Handle Nynorsk/Bokmål spelling variations (fallback)
+          const normalizedActivityGoal = activityGoal
+            .replace(/eigenskapen/g, 'egenskapen')
+            .replace(/eigenskapar/g, 'egenskaper')
+            .replace(/hovudrekning/g, 'hoderegning')
+            .replace(/framlengs/g, 'fremover')
+            .replace(/teljing/g, 'telling')
+            .replace(/nærmiljø/g, 'nærområde')
+            .replace(/teikne/g, 'tegne')
+            .replace(/korleis/g, 'hvordan')
+            .replace(/måtar/g, 'måter')
+            .replace(/figurar/g, 'figurer')
+            .replace(/samanlikne/g, 'sammenligne')
+            .replace(/storleikar/g, 'størrelser')
+            .replace(/måleiningar/g, 'måleenheter')
+            .replace(/problemløysing/g, 'problemløsning')
+            .replace(/løyse/g, 'løse')
+            .replace(/repeterande/g, 'repeterende')
+            .replace(/einingar/g, 'enheter')
+            .replace(/følgje/g, 'følge')
+            .replace(/kjenne att/g, 'kjenne igjen')
+            .replace(/eige/g, 'eget')
+            .replace(/frå/g, 'fra')
+            .replace(/teljingane/g, 'tellingene')
+            .replace(/mønster i teljingane/g, 'mønstre i tellingene')
+            .replace(/ulike startpunkt/g, 'forskjellige startpunkt')
+            .replace(/dei/g, 'dem');
+          
+          const normalizedSearchGoal = searchGoal
+            .replace(/eigenskapen/g, 'egenskapen')
+            .replace(/eigenskapar/g, 'egenskaper')
+            .replace(/hovudrekning/g, 'hoderegning')
+            .replace(/framlengs/g, 'fremover')
+            .replace(/teljing/g, 'telling')
+            .replace(/nærmiljø/g, 'nærområde')
+            .replace(/teikne/g, 'tegne')
+            .replace(/korleis/g, 'hvordan')
+            .replace(/måtar/g, 'måter')
+            .replace(/figurar/g, 'figurer')
+            .replace(/samanlikne/g, 'sammenligne')
+            .replace(/storleikar/g, 'størrelser')
+            .replace(/måleiningar/g, 'måleenheter')
+            .replace(/problemløysing/g, 'problemløsning')
+            .replace(/løyse/g, 'løse')
+            .replace(/repeterande/g, 'repeterende')
+            .replace(/einingar/g, 'enheter')
+            .replace(/følgje/g, 'følge')
+            .replace(/kjenne att/g, 'kjenne igjen')
+            .replace(/eige/g, 'eget')
+            .replace(/frå/g, 'fra')
+            .replace(/teljingane/g, 'tellingene')
+            .replace(/mønster i teljingane/g, 'mønstre i tellingene')
+            .replace(/ulike startpunkt/g, 'forskjellige startpunkt')
+            .replace(/dei/g, 'dem');
+          
+          return normalizedActivityGoal.includes(normalizedSearchGoal);
+        })
       : [gradeActivity.learning_goal];
 
-    // Use selectedGrade for future compatibility (currently fixed to "Andre årstrinn")
+    // Use selectedGrade, fallback to "Andre årstrinn" if no grade is selected
     const currentGrade = selectedGrade || "Andre årstrinn";
 
     return {
@@ -202,26 +334,105 @@ export function useActivities(
       setError(null);
 
       try {
-        const gradeActivities = await fetchGradeActivities();
+        const gradeActivities = await fetchGradeActivities(selectedGrade);
         
         // Filter activities based on learning goal if provided
         const filteredActivities = selectedGoal
-          ? gradeActivities.filter(gradeActivity =>
-              gradeActivity.learning_goal.toLowerCase().includes(selectedGoal.toLowerCase())
-            )
+          ? gradeActivities.filter(gradeActivity => {
+              const searchGoalNumber = extractLearningGoalFromSelection(selectedGoal);
+              const activityGoalNumber = extractLearningGoalNumber(gradeActivity.id);
+              
+              // Debug logging for learning goals 10-13
+              if (searchGoalNumber && searchGoalNumber >= 10) {
+                console.log(`DEBUG: Filtering for LG ${searchGoalNumber}`);
+                console.log(`Activity ${gradeActivity.id}: extracted LG ${activityGoalNumber}`);
+                console.log(`Match: ${searchGoalNumber === activityGoalNumber}`);
+              }
+              
+              // If we can extract numbers from both, use ID-based matching (more reliable)
+              if (searchGoalNumber !== null && activityGoalNumber !== null) {
+                return searchGoalNumber === activityGoalNumber;
+              }
+              
+              // Fallback to text matching with normalization for edge cases
+              const activityGoal = gradeActivity.learning_goal.toLowerCase();
+              const searchGoal = selectedGoal.toLowerCase();
+              
+              // Direct match
+              if (activityGoal.includes(searchGoal)) {
+                return true;
+              }
+              
+              // Handle Nynorsk/Bokmål spelling variations (fallback)
+              const normalizedActivityGoal = activityGoal
+                .replace(/eigenskapen/g, 'egenskapen')
+                .replace(/eigenskapar/g, 'egenskaper')
+                .replace(/hovudrekning/g, 'hoderegning')
+                .replace(/framlengs/g, 'fremover')
+                .replace(/teljing/g, 'telling')
+                .replace(/nærmiljø/g, 'nærområde')
+                .replace(/teikne/g, 'tegne')
+                .replace(/korleis/g, 'hvordan')
+                .replace(/måtar/g, 'måter')
+                .replace(/figurar/g, 'figurer')
+                .replace(/samanlikne/g, 'sammenligne')
+                .replace(/storleikar/g, 'størrelser')
+                .replace(/måleiningar/g, 'måleenheter')
+                .replace(/problemløysing/g, 'problemløsning')
+                .replace(/løyse/g, 'løse')
+                .replace(/repeterande/g, 'repeterende')
+                .replace(/einingar/g, 'enheter')
+                .replace(/følgje/g, 'følge')
+                .replace(/kjenne att/g, 'kjenne igjen')
+                .replace(/eige/g, 'eget')
+                .replace(/frå/g, 'fra')
+                .replace(/teljingane/g, 'tellingene')
+                .replace(/mønster i teljingane/g, 'mønstre i tellingene')
+                .replace(/ulike startpunkt/g, 'forskjellige startpunkt')
+                .replace(/dei/g, 'dem');
+              
+              const normalizedSearchGoal = searchGoal
+                .replace(/eigenskapen/g, 'egenskapen')
+                .replace(/eigenskapar/g, 'egenskaper')
+                .replace(/hovudrekning/g, 'hoderegning')
+                .replace(/framlengs/g, 'fremover')
+                .replace(/teljing/g, 'telling')
+                .replace(/nærmiljø/g, 'nærområde')
+                .replace(/teikne/g, 'tegne')
+                .replace(/korleis/g, 'hvordan')
+                .replace(/måtar/g, 'måter')
+                .replace(/figurar/g, 'figurer')
+                .replace(/samanlikne/g, 'sammenligne')
+                .replace(/storleikar/g, 'størrelser')
+                .replace(/måleiningar/g, 'måleenheter')
+                .replace(/problemløysing/g, 'problemløsning')
+                .replace(/løyse/g, 'løse')
+                .replace(/repeterande/g, 'repeterende')
+                .replace(/einingar/g, 'enheter')
+                .replace(/følgje/g, 'følge')
+                .replace(/kjenne att/g, 'kjenne igjen')
+                .replace(/eige/g, 'eget')
+                .replace(/frå/g, 'fra')
+                .replace(/teljingane/g, 'tellingene')
+                .replace(/mønster i teljingane/g, 'mønstre i tellingene')
+                .replace(/ulike startpunkt/g, 'forskjellige startpunkt')
+                .replace(/dei/g, 'dem');
+              
+              return normalizedActivityGoal.includes(normalizedSearchGoal);
+            })
           : gradeActivities;
 
         // Convert to CombinedActivity format
         const combinedActivities: CombinedActivity[] = filteredActivities.map(gradeActivity => {
-          const activity = convertGradeActivityToActivity(gradeActivity);
-          const taskDetails = createMockActivityTask(gradeActivity);
+          const activity = convertGradeActivityToActivity(gradeActivity, selectedGrade || undefined);
+          const taskDetails = createMockActivityTask(gradeActivity, selectedGrade || undefined);
 
           return {
             ...activity,
             ...taskDetails,
             learningGoals: [gradeActivity.learning_goal],
             grades: {
-              "Andre årstrinn": {
+              [selectedGrade || "Andre årstrinn"]: {
                 tips: gradeActivity.content.tips.join(" "),
                 reflection: gradeActivity.content.reflection.join(" "),
                 easy: [],
