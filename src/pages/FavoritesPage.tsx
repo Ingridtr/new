@@ -29,6 +29,14 @@ const FavoritesPage = () => {
         setFavorites(favActivities);
     }, []);
 
+    const removeFavorite = (id: string) => {
+        const stored = JSON.parse(localStorage.getItem("favorites") || "[]");
+        const updated = stored.filter((favId: string) => favId !== id);
+        localStorage.setItem("favorites", JSON.stringify(updated));
+        setFavorites((prev) => prev.filter((a) => a.id !== id));
+    };
+
+
 return (
     <div className="flex flex-col min-h-screen bg-gray-50">
     <Navbar/>
@@ -38,7 +46,7 @@ return (
         {favorites.length === 0 ? (
             <p>Du har ingen favoritter enda.</p>
         ): (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           {favorites.map((activity) => {
             const handleClick = () => {
                 localStorage.setItem("selectedGame", activity.title);
@@ -49,15 +57,27 @@ return (
             }
     
             return (
-            <GameCard
-              key={activity.id}
-              title={activity.title}
-              image={activity.image}
-              time={activity.time}
-              location={activity.location}
-              tools={activity.tools.join(", ")}
-              onClick={handleClick}
-            />);
+    <div key={activity.id} className="relative">
+      <GameCard
+        title={activity.title}
+        image={activity.image}
+        time={activity.time}
+        location={activity.location}
+        tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
+        onClick={handleClick}
+      />
+      <button
+        onClick={(e) => {
+          e.stopPropagation(); // hindrer at GameCard-klikk trigges
+          removeFavorite(activity.id);
+        }}
+        className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
+        aria-label="Fjern fra favoritter"
+      >
+        ❌
+      </button>
+    </div>
+  );
           })};
         </div>
         )}
