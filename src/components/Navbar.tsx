@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className="bg-sky-200 py-6 px-6"
+      className="sticky top-0 z-50 bg-sky-100 py-6 px-6 shadow-md"
       role="navigation"
       aria-label="Hovednavigasjon"
     >
