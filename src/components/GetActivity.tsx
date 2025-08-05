@@ -257,6 +257,7 @@ export async function fetchSingleActivity(
       ...activity,
       ...taskDetails,
       learningGoals: learningGoals,
+      groupsize: gradeActivity.groupsize, // Add groupsize field
       grades: {
         [currentGrade]: {
           tips: gradeActivity.content.tips.join(" "),
@@ -431,6 +432,7 @@ export function useActivities(
             ...activity,
             ...taskDetails,
             learningGoals: [gradeActivity.learning_goal],
+            groupsize: gradeActivity.groupsize, // Add groupsize field
             grades: {
               [selectedGrade || "Andre årstrinn"]: {
                 tips: gradeActivity.content.tips.join(" "),

@@ -42,6 +42,7 @@ export interface Question {
 export type CombinedActivity = Activity &
   ActivityTask & {
     learningGoals: string[]; // Use learningGoals to match ActivityTask
+    groupsize: string; // Add groupsize field
     gradeContent?: {
       introduction: string[];
       main: string[];
