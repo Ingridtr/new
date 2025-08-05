@@ -42,4 +42,12 @@ export interface Question {
 export type CombinedActivity = Activity &
   ActivityTask & {
     learningGoals: string[]; // Use learningGoals to match ActivityTask
+    gradeContent?: {
+      introduction: string[];
+      main: string[];
+      examples: string[];
+      reflection: string[];
+      tips: string[];
+      extra: string[];
+    };
   };

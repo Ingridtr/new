@@ -184,66 +184,69 @@ function InfoTask() {
                 </ul>
               </div>
 
-              <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Beskrivelse</h2>
-                <p style={{ whiteSpace: "pre-line" }}>{activity.description}</p>
-              </div>
+              {/* Introduction Section */}
+              {activity.gradeContent?.introduction && activity.gradeContent.introduction.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Introduksjon</h2>
+                  {activity.gradeContent.introduction.map((item, index) => (
+                    <p key={index} className="mb-2">{item}</p>
+                  ))}
+                </div>
+              )}
 
-              <div className="bg-white border border-black rounded-2xl p-6">
-                <h2>Oppgaver</h2>
-                {gradeTasks.tips.length > 0 && (
-                  <p style={{ whiteSpace: "pre-line" }}>{gradeTasks.tips}</p>
-                )}
+              {/* Main Activity Section */}
+              {activity.gradeContent?.main && activity.gradeContent.main.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Gjennomføring</h2>
+                  <ol className="list-decimal list-inside space-y-2">
+                    {activity.gradeContent.main.map((item, index) => (
+                      <li key={index} className="text-gray-800">{item}</li>
+                    ))}
+                  </ol>
+                </div>
+              )}
 
-                {gradeTasks.easy.length > 0 && (
-                  <>
-                    <h3>Enkel</h3>
-                    <ul className="list-disc list-inside mb-4">
-                      {gradeTasks.easy.map((task, index) => (
-                        <li style={{ whiteSpace: "pre-line" }} key={index}>
-                         <p>{task.question}</p> 
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-                {gradeTasks.medium.length > 0 && (
-                  <>
-                    <h3>Middels</h3>
-                    <ul className="list-disc list-inside mb-4">
-                      {gradeTasks.medium.map((task, index) => (
-                        <li style={{ whiteSpace: "pre-line" }} key={index}>
-                          <p>{task.question}</p> 
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-                {gradeTasks.hard.length > 0 && (
-                  <>
-                    <h3>Vanskelig</h3>
-                    <ul className="list-disc list-inside">
-                      {gradeTasks.hard.map((task, index) => (
-                        <li style={{ whiteSpace: "pre-line" }} key={index}>
-                          <p>{task.question}</p>
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-                {gradeTasks.easy.length === 0 &&
-                  gradeTasks.medium.length === 0 &&
-                  gradeTasks.hard.length === 0 && (
-                    <p>Ingen oppgaver tilgjengelig for dette trinnet.</p>
-                  )}
-              </div>
+              {/* Examples Section */}
+              {activity.gradeContent?.examples && activity.gradeContent.examples.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Eksempler</h2>
+                  <ul className="list-disc list-inside space-y-1">
+                    {activity.gradeContent.examples.map((item, index) => (
+                      <li key={index} className="text-gray-800">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
-              {gradeTasks.reflection.length > 0 && (
+              {/* Tips Section */}
+              {activity.gradeContent?.tips && activity.gradeContent.tips.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Tips</h2>
+                  {activity.gradeContent.tips.map((item, index) => (
+                    <p key={index} className="mb-2 text-gray-800">{item}</p>
+                  ))}
+                </div>
+              )}
+
+              {/* Reflection Section */}
+              {activity.gradeContent?.reflection && activity.gradeContent.reflection.length > 0 && (
                 <div className="bg-white border border-black rounded-2xl p-6">
                   <h2>Refleksjonsspørsmål</h2>
-                  <p style={{ whiteSpace: "pre-line" }}>
-                    {gradeTasks.reflection}
-                  </p>
+                  <ul className="list-disc list-inside space-y-1">
+                    {activity.gradeContent.reflection.map((item, index) => (
+                      <li key={index} className="text-gray-800">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Extra Section */}
+              {activity.gradeContent?.extra && activity.gradeContent.extra.length > 0 && (
+                <div className="bg-white border border-black rounded-2xl p-6">
+                  <h2>Utvidelser</h2>
+                  {activity.gradeContent.extra.map((item, index) => (
+                    <p key={index} className="mb-2 text-gray-800">{item}</p>
+                  ))}
                 </div>
               )}
             </div>

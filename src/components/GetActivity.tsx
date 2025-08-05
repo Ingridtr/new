@@ -4,65 +4,90 @@ import {
   Activity,
   ActivityTask,
   CombinedActivity,
-  Question,
 } from "../../public/activityData/types";
 
-import activitiesMetadataUrl from "../../public/activityData/activities.json?url";
+import {
+  GradeData,
+  GradeActivity,
+} from "../../public/activityData/gradeTypes";
 
-// Interface for raw activity data from JSON (before processing)
-interface RawActivity {
-  id: string;
-  title: string;
-  description: string;
-  time: string;
-  image: string;
-  tools: string; // This is a string that gets split into array
-  location: string;
-  grade: string;
-  number_of_tasks: number;
-}
+import gradeActivitiesUrl from "../../public/activityData/grades/andre_aarstrinn.json?url";
 
-const metadataCache = new Map<string, RawActivity[]>();
-const taskCache = new Map<string, ActivityTask>();
-async function fetchActivitiesMetadata(): Promise<RawActivity[]> {
-  if (metadataCache.has("activities")) {
-    return metadataCache.get("activities")!;
+// Cache for grade-based activities
+const gradeCache = new Map<string, GradeData>();
+
+// Fetch grade-based activities from the new structure
+async function fetchGradeActivities(): Promise<GradeActivity[]> {
+  if (gradeCache.has("andre_aarstrinn")) {
+    return gradeCache.get("andre_aarstrinn")!.activities;
   }
 
   try {
-    const response = await fetch(activitiesMetadataUrl);
+    const response = await fetch(gradeActivitiesUrl);
     if (!response.ok) {
       throw new Error(
-        `Failed to fetch activities metadata: ${response.status}`
+        `Failed to fetch grade activities: ${response.status}`
       );
     }
-    const data = await response.json();
-    metadataCache.set("activities", data);
-    return data;
+    const data: GradeData = await response.json();
+    gradeCache.set("andre_aarstrinn", data);
+    return data.activities;
   } catch (error) {
-    console.error("Failed to load activities metadata:", error);
+    console.error("Failed to load grade activities:", error);
     return [];
   }
+}
+
+// Convert GradeActivity to the old Activity format for compatibility
+function convertGradeActivityToActivity(gradeActivity: GradeActivity): Activity {
+  return {
+    id: gradeActivity.id,
+    title: gradeActivity.title,
+    description: gradeActivity.content.introduction.join(" ") + " " + gradeActivity.content.main.join(" "),
+    time: gradeActivity.time,
+    image: "", // No image in new structure, could be added later
+    tools: gradeActivity.tools.split(",").map(tool => tool.trim()),
+    location: gradeActivity.location,
+    grade: "Andre årstrinn", // Fixed to 2nd grade for now
+    number_of_tasks: 1 // Default value
+  };
+}
+
+// Create mock ActivityTask data from GradeActivity for compatibility
+function createMockActivityTask(gradeActivity: GradeActivity): ActivityTask {
+  return {
+    activityId: gradeActivity.id,
+    activityTitle: gradeActivity.title,
+    totalTasks: 1,
+    tasksPerGrade: 1,
+    supportedGrades: ["Andre årstrinn"],
+    generatedAt: new Date().toISOString(),
+    grades: {
+      "Andre årstrinn": {
+        tips: gradeActivity.content.tips.join(" "),
+        reflection: gradeActivity.content.reflection.join(" "),
+        easy: [],
+        medium: [],
+        hard: []
+      }
+    },
+    learningGoals: [gradeActivity.learning_goal]
+  };
 }
 
 export async function fetchActivityTasks(
   activityId: string
 ): Promise<ActivityTask | null> {
-  if (taskCache.has(activityId)) {
-    return taskCache.get(activityId)!;
-  }
-
   try {
-    const response = await fetch(`/activityData/tasks/${activityId}.json`);
-    if (!response.ok) {
-      console.error(`Failed to fetch ${activityId}.json: ${response.status}`);
+    const gradeActivities = await fetchGradeActivities();
+    const gradeActivity = gradeActivities.find(activity => activity.id === activityId);
+    
+    if (!gradeActivity) {
+      console.error(`Activity not found: ${activityId}`);
       return null;
     }
-    const data = await response.json();
 
-    // Cache the result
-    taskCache.set(activityId, data);
-    return data;
+    return createMockActivityTask(gradeActivity);
   } catch (error) {
     console.error(`Failed to load tasks for ${activityId}:`, error);
     return null;
@@ -75,56 +100,42 @@ export async function fetchSingleActivity(
   selectedLearningGoal?: string
 ): Promise<CombinedActivity | null> {
   try {
-    const activitiesMetadata = await fetchActivitiesMetadata();
-    const rawActivity = activitiesMetadata.find(
-      (a: RawActivity) => a.id === activityId
-    );
-    const taskDetails = await fetchActivityTasks(activityId);
+    const gradeActivities = await fetchGradeActivities();
+    const gradeActivity = gradeActivities.find(activity => activity.id === activityId);
+    
+    if (!gradeActivity) {
+      console.error(`Activity not found: ${activityId}`);
+      return null;
+    }
 
-    if (!rawActivity || !taskDetails) return null;
+    const activity = convertGradeActivityToActivity(gradeActivity);
+    const taskDetails = createMockActivityTask(gradeActivity);
 
-    const activity: Activity = {
-      ...rawActivity,
-      tools: rawActivity.tools.split(",").map((tool: string) => tool.trim()),
-    };
-
-    const gradeData = selectedGrade
-      ? taskDetails.grades[selectedGrade] ?? {}
-      : {};
-
-    const allQuestions: Question[] = [
-      ...(gradeData.easy ?? []),
-      ...(gradeData.medium ?? []),
-      ...(gradeData.hard ?? []),
-    ];
-
-    const filteredQuestions = selectedLearningGoal
-      ? allQuestions.filter((q) =>
-          q.learningGoal.includes(selectedLearningGoal)
+    // Filter based on learning goal if provided
+    const learningGoals = selectedLearningGoal 
+      ? [gradeActivity.learning_goal].filter(goal => 
+          goal.toLowerCase().includes(selectedLearningGoal.toLowerCase())
         )
-      : allQuestions;
+      : [gradeActivity.learning_goal];
 
-    const learningGoals = Array.from(
-      new Set(filteredQuestions.map((q) => q.learningGoal))
-    );
+    // Use selectedGrade for future compatibility (currently fixed to "Andre årstrinn")
+    const currentGrade = selectedGrade || "Andre årstrinn";
 
     return {
       ...activity,
       ...taskDetails,
       learningGoals: learningGoals,
-      grades: selectedGrade
-        ? {
-            [selectedGrade]: {
-              tips: gradeData.tips || "",
-              reflection: gradeData.reflection || "",
-              easy: filteredQuestions.filter((q) => q.difficulty === "easy"),
-              medium: filteredQuestions.filter(
-                (q) => q.difficulty === "medium"
-              ),
-              hard: filteredQuestions.filter((q) => q.difficulty === "hard"),
-            },
-          }
-        : taskDetails.grades,
+      grades: {
+        [currentGrade]: {
+          tips: gradeActivity.content.tips.join(" "),
+          reflection: gradeActivity.content.reflection.join(" "),
+          easy: [],
+          medium: [],
+          hard: []
+        }
+      },
+      // Add the original content structure for InfoTask to use
+      gradeContent: gradeActivity.content
     };
   } catch (error) {
     console.error("Error fetching single activity:", error);
@@ -191,77 +202,38 @@ export function useActivities(
       setError(null);
 
       try {
-        const gradeFromStorage =
-          selectedGrade || localStorage.getItem("selectedGrade");
-        const goalFromStorage =
-          selectedGoal || localStorage.getItem("selectedLearningGoal");
-        const activitiesMetadata = await fetchActivitiesMetadata();
+        const gradeActivities = await fetchGradeActivities();
+        
+        // Filter activities based on learning goal if provided
+        const filteredActivities = selectedGoal
+          ? gradeActivities.filter(gradeActivity =>
+              gradeActivity.learning_goal.toLowerCase().includes(selectedGoal.toLowerCase())
+            )
+          : gradeActivities;
 
-        const baseActivities: Activity[] = activitiesMetadata.map(
-          (rawActivity: RawActivity) => ({
-            ...rawActivity,
-            tools: rawActivity.tools
-              .split(",")
-              .map((tool: string) => tool.trim()), // Convert string to array
-          })
-        );
+        // Convert to CombinedActivity format
+        const combinedActivities: CombinedActivity[] = filteredActivities.map(gradeActivity => {
+          const activity = convertGradeActivityToActivity(gradeActivity);
+          const taskDetails = createMockActivityTask(gradeActivity);
 
-        const fetchPromises = baseActivities.map(async (activity) => {
-          const details = await fetchActivityTasks(activity.id);
-          if (!details) return null;
-
-          const gradeData = gradeFromStorage
-            ? details.grades[gradeFromStorage] ?? {}
-            : {};
-          const allQuestions: Question[] = [
-            ...(gradeData.easy ?? []),
-            ...(gradeData.medium ?? []),
-            ...(gradeData.hard ?? []),
-          ];
-
-          const filteredQuestions = goalFromStorage
-            ? allQuestions.filter((q) =>
-                q.learningGoal.includes(goalFromStorage)
-              )
-            : allQuestions;
-          if (
-            filteredQuestions.length > 0 ||
-            (!gradeFromStorage && !goalFromStorage)
-          ) {
-            const learningGoals = Array.from(
-              new Set(filteredQuestions.map((q) => q.learningGoal))
-            );
-
-            return {
-              ...activity,
-              ...details,
-              learningGoals: learningGoals,
-              grades: gradeFromStorage
-                ? {
-                    [gradeFromStorage]: {
-                      easy: filteredQuestions.filter(
-                        (q) => q.difficulty === "easy"
-                      ),
-                      medium: filteredQuestions.filter(
-                        (q) => q.difficulty === "medium"
-                      ),
-                      hard: filteredQuestions.filter(
-                        (q) => q.difficulty === "hard"
-                      ),
-                    },
-                  }
-                : details.grades,
-            };
-          }
-          return null;
+          return {
+            ...activity,
+            ...taskDetails,
+            learningGoals: [gradeActivity.learning_goal],
+            grades: {
+              "Andre årstrinn": {
+                tips: gradeActivity.content.tips.join(" "),
+                reflection: gradeActivity.content.reflection.join(" "),
+                easy: [],
+                medium: [],
+                hard: []
+              }
+            },
+            gradeContent: gradeActivity.content
+          };
         });
 
-        const results = await Promise.all(fetchPromises);
-        const validResults = results.filter(
-          (result): result is CombinedActivity => result !== null
-        );
-
-        setActivities(validResults);
+        setActivities(combinedActivities);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Unknown error");
         console.error("Feil ved henting av aktiviteter:", err);
