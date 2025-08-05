@@ -81,6 +81,11 @@ const Navbar: React.FC = () => {
           role="menubar"
         >
           <li role="none">
+            <a href="/favorites" role="menuitem">
+              Min side
+            </a>
+          </li>
+          <li role="none">
             <a href="/management" role="menuitem">
               For ledelsen
             </a>
@@ -178,6 +183,15 @@ const Navbar: React.FC = () => {
               role="menuitem"
             >
               <p>Om oss</p>
+            </button>
+          </li>
+          <li role="none">
+            <button
+              onClick={() => closeMenuAndNavigate("/favorites")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
+              <p>Min side</p>
             </button>
           </li>
           <li role="none">

@@ -5,9 +5,9 @@ import {
   ActivityTask,
   CombinedActivity,
   Question,
-} from "../../public/activityData/types";
+} from "../data/types";
 
-import activitiesMetadataUrl from "../../public/activityData/activities.json?url";
+import activitiesMetadataUrl from "../../src/data/activities.json?url";
 
 // Interface for raw activity data from JSON (before processing)
 interface RawActivity {

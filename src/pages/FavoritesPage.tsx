@@ -1,14 +1,66 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
+import { useNavigate } from 'react-router-dom'; 
 
-import {Link} from 'react-router-dom'; 
-
-import {pages as allPages} from "../data/pagesData"; 
-
-
-const stored = localStorage.getItem("favorites"); 
-const favoritesId = JSON.parse(stored || "[]" )
-
-const favorites = allPages.filter(p => favoritesId.includes(p.id))
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"
+import activities from "../data/activities.json";
+import GameCard from "../components/GameCard";
+import { Activity } from "../data/types";
 
 
+const FavoritesPage = () => {
+    const [favorites, setFavorites] = useState<Activity[]>([]);
 
+    const navigate = useNavigate(); 
+    
+    useEffect( () => {
+        const stored = localStorage.getItem("favorites");
+        const favoriteIds = JSON.parse(stored || "[]");
+        const favActivities = activities .filter((activity) => favoriteIds.includes(activity.id))
+            .map((activity) => ({
+                ...activity,
+                tools: typeof activity.tools === "string"
+                    ? activity.tools.split(",").map((t) => t.trim())
+                    : activity.tools,
+                grade: Array.isArray(activity.grade)
+            ? activity.grade.join(", ") 
+            : activity.grade,
+  }));
+        
+        setFavorites(favActivities);
+    }, []);
+
+return (
+    <div className="flex flex-col min-h-screen bg-gray-50">
+    <Navbar/>
+    
+    <div className = "p-4">
+        <h1 className ="text-xl font-bold mb-4">Dine favoritter</h1>
+        {favorites.length === 0 ? (
+            <p>Du har ingen favoritter enda.</p>
+        ): (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {favorites.map((activity) => (
+            const handleClick
+            <GameCard
+              key={activity.id}
+              title={activity.title}
+              image={activity.image}
+              time={activity.time}
+              location={activity.location}
+              tools={activity.tools.join(", ")}
+              onClick={() => navigate("/infoTask")}
+            />
+          ))}
+        </div>
+      )}
+        
+    </div>
+    
+    <Footer/>
+    </div>
+    
+);
+}; 
+
+export default FavoritesPage;

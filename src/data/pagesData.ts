@@ -2,9 +2,16 @@
 export const pages = [
     {
         id: "home",
-        title: "Hjem", 
+        title: "Home", 
         url: "/" 
     }, 
+    
+    {
+        id: "management", 
+        title: "Management", 
+        url: "/management"
+
+    },
     
     {
         id: "about", 
@@ -26,12 +33,12 @@ export const pages = [
     {
         id: "learningGoalSelection", 
         title: "LearningGoalSelection", 
-        url: "/learningGoalSelection"
+        url: "/learninggoals"
     }, 
     {
         id: "infoTask", 
         title: "Infotask", 
-        url: "/infotask"
+        url: "/infoTask"
     }, 
     {
         id: "knowledge", 

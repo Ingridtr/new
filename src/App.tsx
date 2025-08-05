@@ -13,6 +13,7 @@ const InfoTask = lazy(() => import("./pages/InfoTask"));
 const LearningGoalsSelection = lazy(
   () => import("./pages/LearningGoalsSelection")
 );
+const FavoritesPage = lazy( () => import("./pages/FavoritesPage"))
 //const Testfile = lazy(() => import("./pages/Testfile"));
 // Accessible loading component
 const LoadingSpinner = () => (
@@ -44,6 +45,7 @@ export default function App() {
             <Route path="/grade" element={<Grade />} />
             <Route path="/gameSelection" element={<GameSelection />} />
             <Route path="/infoTask" element={<InfoTask />} />
+            <Route path="/favorites" element={<FavoritesPage/>} />
           </Routes>
         </Suspense>
       </Router>

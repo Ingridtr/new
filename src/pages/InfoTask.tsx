@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
+import HeartButton from "../components/HeartButton";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useSingleActivity } from "../components/GetActivity";
 import { useEffect, useRef } from "react";
+
 
 function InfoTask() {
   const navigate = useNavigate();
@@ -170,6 +172,7 @@ function InfoTask() {
                 <p>Vis på skjerm</p>
               </button>
             </div>
+            <HeartButton pageId={activity.id} />
 
             <div className="flex flex-col space-y-6 w-full">
               <div className="bg-white border border-black rounded-2xl p-6">
