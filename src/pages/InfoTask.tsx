@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { act, useState } from "react";
 import { useSingleActivity } from "../components/GetActivity";
 import { useEffect, useRef } from "react";
-import { a } from "vitest/dist/chunks/suite.d.FvehnV49.js";
 
 function InfoTask() {
   const navigate = useNavigate();
@@ -77,13 +76,12 @@ function InfoTask() {
       <div className="relative flex-1 px-4">
         {/* Lukkeknapp øverst til høyre (under Navbar) */}
         <button
-          className="absolute top-6 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           onClick={() => navigate("/gameSelection")}
           aria-label="Lukk aktivitetsside og gå tilbake"
         >
           ×
         </button>
-
         {/* Innhold */}
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12">
           {/* Venstre kolonne - Info og Tips */}
