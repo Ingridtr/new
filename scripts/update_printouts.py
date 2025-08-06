@@ -10,6 +10,8 @@ Supported file formats:
 File naming convention:
 - With descriptor: {activityId}_{descriptor}.{extension} (e.g., 20502_bamse.png)
 - Without descriptor: {activityId}.{extension} (e.g., 20301.png)
+
+Run command in terminal: python3 scripts/update_printouts.py
 """
 
 import os
