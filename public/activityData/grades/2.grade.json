@@ -31,7 +31,9 @@
           "Kunne noen ting passe i flere grupper?"
         ],
         "tips": [],
-        "extra": []
+        "extra": [
+          "printOuts/20101.png"
+        ]
       }
     },
     {
@@ -256,7 +258,9 @@
           "Elevene hopper like mange ganger som frasen ble sagt (f.eks. 15 hopp).",
           "Snakk sammen om antallet."
         ],
-        "examples": ["“Hey Macarena, ay!” (15 ganger)"],
+        "examples": [
+          "“Hey Macarena, ay!” (15 ganger)"
+        ],
         "reflection": [
           "– Hvor mange ganger hørte dere frasen?\n– Hoppet alle like mange ganger?"
         ],
@@ -300,7 +304,9 @@
         ],
         "reflection": [],
         "tips": [],
-        "extra": ["Printout av fortellingen"]
+        "extra": [
+          "Printout av fortellingen"
+        ]
       }
     },
     {
@@ -402,7 +408,9 @@
         "tips": [
           "Kan også brukes til å innføre begreper som oddetall og partall, plassering, og tallinjer."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/20301.png"
+        ]
       }
     },
     {
@@ -530,7 +538,10 @@
           "Elevene kan eksperimentere med å gjøre forskjellige variasjoner av den samme bevegelsen",
           "De skal sammenligne forskjellen i hvor lang tid de bruker på de ulike variasjonene."
         ],
-        "examples": ["Hoppe 10 ganger.", "Krabbe 5 ganger."],
+        "examples": [
+          "Hoppe 10 ganger.",
+          "Krabbe 5 ganger."
+        ],
         "reflection": [
           "Hva påvirket tiden – var det hastigheten eller intensiteten på bevegelsen?",
           "Hvordan endret tidens gang seg med forskjellige hastigheter eller variasjoner?",
@@ -760,7 +771,20 @@
           "lapper i stedet for én 100",
           "lapp."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/20502_eventyr.png",
+          "printOuts/20502_iskrem.png",
+          "printOuts/20502_pizza.png",
+          "printOuts/20502_ryggsekk.png",
+          "printOuts/20502_lekebil.png",
+          "printOuts/20502_fotball.png",
+          "printOuts/20502_juice.png",
+          "printOuts/20502_sykkel.png",
+          "printOuts/20502_t-skjorte.png",
+          "printOuts/20502_bamse.png",
+          "printOuts/20502_melk.png",
+          "printOuts/20502_penger.png"
+        ]
       }
     },
     {
@@ -924,7 +948,9 @@
         "tips": [
           "Bruk kjente karakterer og lag små historier i hver oppgave. La gruppene tegne sin egen tallinje på papir eller med kritt ute. Pass på at alle får samarbeide om både fysisk og skriftlig del."
         ],
-        "extra": ["???? Gåter?"]
+        "extra": [
+          "???? Gåter?"
+        ]
       }
     },
     {
@@ -991,7 +1017,9 @@
         "tips": [
           "Tegn tall i rutene for å styrke koblingen til tallinje. Still spørsmål som “Hvilket tall kommer før/etter?”. Tilpass vanskelighetsgrad ved å endre antall ruter."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/20605.png"
+        ]
       }
     },
     {
@@ -1200,7 +1228,12 @@
         "tips": [
           "Bytt ut trygge tall og legg inn nye summer etter hvert. Diskuter hvordan ulike kombinasjoner gir samme resultat (f.eks. 3+5 og 5+3)."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/20802_6.png",
+          "printOuts/20802_5.png",
+          "printOuts/20802_4.png",
+          "printOuts/20802_3.png"
+        ]
       }
     },
     {
@@ -1296,7 +1329,9 @@
         "tips": [
           "La elevene selv velge rekkefølge på figurene, og snakk om hvordan lengden rundt påvirker hvor sliten man blir. Marker figurene på bakken med tau eller kjegler hvis det er vanskelig å se formen."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/21001.docx"
+        ]
       }
     },
     {
@@ -1366,9 +1401,9 @@
           "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
         ],
         "extra": [
-          "/printOuts/21003_firkant_720.png",
-          "/printOuts/21003_sirkel_720.png",
-          "/printOuts/21003_trekant_720.png"
+          "printOuts/21003_firkant.png",
+          "printOuts/21003_sirkel.png",
+          "printOuts/21003_trekant.png"
         ]
       }
     },
