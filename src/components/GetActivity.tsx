@@ -335,6 +335,13 @@ export function useActivities(
       setError(null);
 
       try {
+        // If no grade is selected, don't load any activities
+        if (!selectedGrade) {
+          setActivities([]);
+          setLoading(false);
+          return;
+        }
+
         const gradeActivities = await fetchGradeActivities(selectedGrade);
         
         // Filter activities based on learning goal if provided

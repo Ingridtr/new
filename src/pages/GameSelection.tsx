@@ -11,16 +11,37 @@ import useActivities from "../components/GetActivity";
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   const [selectedGoal, setSelectedGoal] = useState<string | null>(null);
+  const [isInitialized, setIsInitialized] = useState(false);
   
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
     const storedGoal = localStorage.getItem("selectedLearningGoal");
     setSelectedGrade(storedGrade);
     setSelectedGoal(storedGoal);
+    setIsInitialized(true);
   }, []);
 
   const navigate = useNavigate();
-  const { activities } = useActivities(selectedGrade, selectedGoal);
+  
+  // Only fetch activities after we've initialized the state from localStorage
+  const { activities } = useActivities(
+    isInitialized ? selectedGrade : null, 
+    isInitialized ? selectedGoal : null
+  );
+
+  // Show loading while initializing from localStorage
+  if (!isInitialized) {
+    return (
+      <div className="flex flex-col min-h-screen bg-gray-50">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />
