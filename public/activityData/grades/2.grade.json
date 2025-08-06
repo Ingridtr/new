@@ -256,9 +256,7 @@
           "Elevene hopper like mange ganger som frasen ble sagt (f.eks. 15 hopp).",
           "Snakk sammen om antallet."
         ],
-        "examples": [
-          "“Hey Macarena, ay!” (15 ganger)"
-        ],
+        "examples": ["“Hey Macarena, ay!” (15 ganger)"],
         "reflection": [
           "– Hvor mange ganger hørte dere frasen?\n– Hoppet alle like mange ganger?"
         ],
@@ -302,9 +300,7 @@
         ],
         "reflection": [],
         "tips": [],
-        "extra": [
-          "Printout av fortellingen"
-        ]
+        "extra": ["Printout av fortellingen"]
       }
     },
     {
@@ -534,10 +530,7 @@
           "Elevene kan eksperimentere med å gjøre forskjellige variasjoner av den samme bevegelsen",
           "De skal sammenligne forskjellen i hvor lang tid de bruker på de ulike variasjonene."
         ],
-        "examples": [
-          "Hoppe 10 ganger.",
-          "Krabbe 5 ganger."
-        ],
+        "examples": ["Hoppe 10 ganger.", "Krabbe 5 ganger."],
         "reflection": [
           "Hva påvirket tiden – var det hastigheten eller intensiteten på bevegelsen?",
           "Hvordan endret tidens gang seg med forskjellige hastigheter eller variasjoner?",
@@ -931,9 +924,7 @@
         "tips": [
           "Bruk kjente karakterer og lag små historier i hver oppgave. La gruppene tegne sin egen tallinje på papir eller med kritt ute. Pass på at alle får samarbeide om både fysisk og skriftlig del."
         ],
-        "extra": [
-          "???? Gåter?"
-        ]
+        "extra": ["???? Gåter?"]
       }
     },
     {
@@ -1374,7 +1365,11 @@
         "tips": [
           "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
         ],
-        "extra": []
+        "extra": [
+          "/printOuts/21003_firkant_720.png",
+          "/printOuts/21003_sirkel_720.png",
+          "/printOuts/21003_trekant_720.png"
+        ]
       }
     },
     {

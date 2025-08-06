@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
+import PrintOutComponent from "../components/PrintOuts";
 import { useNavigate } from "react-router-dom";
 
 import { useSingleActivity } from "../components/GetActivity";
@@ -107,18 +108,11 @@ function InfoTask() {
               </div>
             </div>
             <div className="bg-pink-100 border border-pink-100 space-y-4 rounded-2xl py-6 px-6">
-              {activity.gradeContent?.extra &&
-                activity.gradeContent.extra.length > 0 && (
-                  <button
-                    className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
-                    onClick={handleShowOnScreen}
-                    aria-label="Print hjelpemidler"
-                  >
-                    <span role="img" aria-label="Skjerm">
-                      Print ut hjelpemidler
-                    </span>
-                  </button>
-                )}
+              <PrintOutComponent
+                id={activity.id}
+                title={activity.title}
+                extra={activity.gradeContent?.extra ?? []}
+              />
 
               <Print
                 id={activity.id}
