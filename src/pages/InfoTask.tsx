@@ -2,9 +2,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { act, useState } from "react";
 import { useSingleActivity } from "../components/GetActivity";
 import { useEffect, useRef } from "react";
+import { a } from "vitest/dist/chunks/suite.d.FvehnV49.js";
 
 function InfoTask() {
   const navigate = useNavigate();
@@ -107,17 +108,25 @@ function InfoTask() {
                 </span>
                 <div>
                   {activity.tools.map((tool: string, index: number) => (
-                    <p key={index}>
-                      {tool}
-                    </p>
+                    <p key={index}>{tool}</p>
                   ))}
                 </div>
               </div>
+
               <div className="flex items-center gap-2">
-                <span role="img" aria-label="Gruppe">
-                  👥
-                </span>
-                <p>{activity.groupsize}</p>
+                {activity.groupsize && activity.groupsize != "Alle" && (
+                  <>
+                    <span role="img" aria-label="Gruppe">
+                      👥
+                    </span>
+                    <p>{activity.groupsize} per gruppe</p>
+                  </>
+                )}
+                {activity.groupsize === "Alle" && (
+                  <span role="img" aria-label="Gruppe">
+                    👥 {activity.groupsize}
+                  </span>
+                )}
               </div>
 
               {/* <Print
