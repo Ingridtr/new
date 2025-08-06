@@ -127,35 +127,27 @@ function PrintComponent({
 
             <div class="main-content">
               <h1>${title}</h1>
-              <h2>Kobling til kompetansemål</h2>
-              <ul>
-                ${learning_goals.map((goal) => `<li>${goal}</li>`).join("")}
-              </ul>
-            </div>
-
-            <div class="main-content">
-              <h2>Introduksjon</h2>
+            
               <p>${introduction}</p>
-
-              <h2>Hoveddel</h2>
+              <h2>Slik gjør du</h2>
               <p>${main}</p>
-
               <h2>Eksempler</h2>
               <ul>
                 ${examples.map((ex) => `<li>${ex}</li>`).join("")}
               </ul>
-
               <h2>Tips</h2>
               <p>${tips}</p>
-
               <h2>Refleksjonsspørsmål</h2>
               <ul>
                 ${reflection.map((q) => `<li>${q}</li>`).join("")}
               </ul>
-
-              <h2>Ekstra</h2>
-              <p>${extra}</p>
+              
+    
             </div>
+            <h2>Kobling til kompetansemål</h2>
+              <ul>
+                ${learning_goals.map((goal) => `<li>${goal}</li>`).join("")}
+              </ul>
           </div>
         </body>
         </html>
@@ -171,14 +163,13 @@ function PrintComponent({
 
   return (
     <button
-      className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+      className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
       onClick={handlePrint}
       aria-label="Print aktivitet"
     >
       <span role="img" aria-label="Printer">
-        🖨️
+        Print ut aktivitet som PDF
       </span>
-      <p>Print aktivitet</p>
     </button>
   );
 }

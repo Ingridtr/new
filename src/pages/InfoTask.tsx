@@ -2,19 +2,16 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import { useNavigate } from "react-router-dom";
-import { act, useState } from "react";
+
 import { useSingleActivity } from "../components/GetActivity";
-import { useEffect, useRef } from "react";
 
 function InfoTask() {
   const navigate = useNavigate();
-  const [showToolsDropdown, setShowToolsDropdown] = useState(false);
 
   const selectedGameId = localStorage.getItem("selectedGameId");
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
   const currentGameImage = localStorage.getItem("selectedGameImage");
-  const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Use the consolidated hook instead of custom fetching
   const { activity, loading, error } = useSingleActivity(
@@ -28,21 +25,6 @@ function InfoTask() {
       window.open(currentGameImage, "_blank");
     }
   };
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
-        setShowToolsDropdown(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
 
   if (loading) {
     return (
@@ -123,8 +105,22 @@ function InfoTask() {
                   </span>
                 )}
               </div>
+            </div>
+            <div className="bg-pink-100 border border-pink-100 space-y-4 rounded-2xl py-6 px-6">
+              {activity.gradeContent?.extra &&
+                activity.gradeContent.extra.length > 0 && (
+                  <button
+                    className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
+                    onClick={handleShowOnScreen}
+                    aria-label="Print hjelpemidler"
+                  >
+                    <span role="img" aria-label="Skjerm">
+                      Print ut hjelpemidler
+                    </span>
+                  </button>
+                )}
 
-              {/* <Print
+              <Print
                 id={activity.id}
                 title={activity.title}
                 location={activity.location}
@@ -142,16 +138,16 @@ function InfoTask() {
                 tips={activity.gradeContent?.tips?.join("\n") ?? ""}
                 extra={activity.gradeContent?.extra?.join("\n") ?? ""}
               />
+
               <button
-                className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+                className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
                 onClick={handleShowOnScreen}
                 aria-label="Vis aktivitet på skjerm"
               >
                 <span role="img" aria-label="Skjerm">
-                  🖥️
+                  Vis på skjerm
                 </span>
-                <p>Vis på skjerm</p>
-              </button>*/}
+              </button>
             </div>
 
             {/* Tips boks */}
