@@ -58,7 +58,7 @@ function GameSelection() {
 
             {selectedGoal && (
               <FilterButton
-                text={`Kompetansemål: ${selectedGoal}`}
+                text={selectedGoal}
                 onClick={() => navigate("/grade/learninggoals")}
               />
             )}
