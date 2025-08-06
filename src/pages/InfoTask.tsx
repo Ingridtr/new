@@ -83,30 +83,28 @@ function InfoTask() {
           ×
         </button>
         {/* Innhold */}
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12">
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12 mb-12">
           {/* Venstre kolonne - Info og Tips */}
           <div className="flex flex-col gap-6 w-full lg:w-64 lg:sticky lg:top-40 lg:self-start">
             {/* Info boks */}
             <div className="bg-green-100 border rounded-2xl py-6 px-6 space-y-4 h-fit">
               <div className="flex items-center gap-2">
                 <span role="img" aria-label="Sted">
-                  📍
+                  📍 {activity.location}
                 </span>
-                <p>{activity.location}</p>
               </div>
               <div className="flex items-center gap-2">
                 <span role="img" aria-label="Varighet">
-                  ⏱️
+                  ⏱️ {activity.time} min
                 </span>
-                <p>{activity.time} min</p>
               </div>
               <div className="flex items-start gap-2">
                 <span role="img" aria-label="Utstyr">
                   🛠️
                 </span>
-                <div>
+                <div className="space-y-1">
                   {activity.tools.map((tool: string, index: number) => (
-                    <p key={index}>{tool}</p>
+                    <div key={index}>{tool}</div>
                   ))}
                 </div>
               </div>
@@ -115,9 +113,8 @@ function InfoTask() {
                 {activity.groupsize && activity.groupsize != "Alle" && (
                   <>
                     <span role="img" aria-label="Gruppe">
-                      👥
+                      👥 {activity.groupsize} per gruppe
                     </span>
-                    <p>{activity.groupsize} per gruppe</p>
                   </>
                 )}
                 {activity.groupsize === "Alle" && (
@@ -166,15 +163,13 @@ function InfoTask() {
                     <span role="img" aria-label="Tips" className="text-3xl">
                       💡
                     </span>
-                    <h3 className="text-2xl font-bold">Tips</h3>
+                    <h3>Tips</h3>
                   </div>
 
                   {/* Tips-innhold under */}
                   <div>
                     {activity.gradeContent.tips.map((item, index) => (
-                      <p key={index} className="mb-2 text-gray-800">
-                        {item}
-                      </p>
+                      <div key={index}>{item}</div>
                     ))}
                   </div>
                 </div>
@@ -182,25 +177,13 @@ function InfoTask() {
           </div>
 
           <div className="flex flex-col space-y-6 flex-1">
-            {/* <div className="bg-white  p-6">
-                <h1>{activity.title}</h1>
-                <h2>Kobling til kompetansemål</h2>
-                <ul className="list-disc list-inside">
-                  <p>
-                    {activity.learningGoals.map((goal, index) => (
-                      <li key={index}>{goal}</li>
-                    ))}
-                  </p>
-                </ul>
-              </div> */}
-
             {/* Introduction Section */}
             <h1>{activity.title}</h1>
             {activity.gradeContent?.introduction &&
               activity.gradeContent.introduction.length > 0 && (
                 <div>
                   {activity.gradeContent.introduction.map((item, index) => (
-                    <p key={index} className="mb-2">
+                    <p key={index} className="mb-2 text-lg">
                       {item}
                     </p>
                   ))}
@@ -212,7 +195,7 @@ function InfoTask() {
               activity.gradeContent.main.length > 0 && (
                 <div>
                   <h3>Slik gjør du</h3>
-                  <ol className="list-decimal list-inside space-y-2 text-base sm:text-lg lg:text-xl text-black">
+                  <ol className="list-decimal list-inside space-y-2 text-lg text-black">
                     {activity.gradeContent.main.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -224,7 +207,7 @@ function InfoTask() {
               activity.gradeContent.examples.length > 0 && (
                 <div>
                   <h3>Eksempler</h3>
-                  <ul className="list-disc list-inside space-y-1 text-base sm:text-lg lg:text-xl text-black">
+                  <ul className="list-disc list-inside space-y-1 text-lg text-black">
                     {activity.gradeContent.examples.flatMap(
                       (example, exampleIndex) =>
                         example
@@ -247,13 +230,25 @@ function InfoTask() {
               activity.gradeContent.reflection.length > 0 && (
                 <div>
                   <h3>Refleksjonsspørsmål</h3>
-                  <ul className="list-disc list-inside space-y-1 text-base sm:text-lg lg:text-xl text-black">
+                  <ul className="list-disc list-inside space-y-1 text-lg text-black">
                     {activity.gradeContent.reflection.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
                 </div>
               )}
+            {activity.learningGoals && activity.learningGoals.length > 0 && (
+              <div>
+                <h3>Kobling til kompetansemål</h3>
+                <ul className="list-disc list-inside">
+                  <p className="text-lg text-black">
+                    {activity.learningGoals.map((goal, index) => (
+                      <li key={index}>{goal}</li>
+                    ))}
+                  </p>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
