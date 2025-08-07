@@ -3,7 +3,7 @@
   "total_activities": 45,
   "activities": [
     {
-      "id": "20101",
+      "id": "A0101",
       "title": "Lag en maurtue! Gruppering etter konkreter",
       "time": "15",
       "location": "Inne / ute",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "20102",
+      "id": "A0102",
       "title": "Kongen befaler! Sortering etter egenskaper",
       "time": "15",
       "location": "Inne / ute",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "20103",
+      "id": "A0103",
       "title": "Sammenlikning av tegning",
       "time": "15",
       "location": "Inne",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "20104",
+      "id": "A0104",
       "title": "Røvere på jakt etter farger",
       "time": "15",
       "location": "Inne / ute",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "20105",
+      "id": "A0105",
       "title": "Marked - sammenlign egenskaper",
       "time": "45",
       "location": "Ute",
@@ -179,7 +179,7 @@
       }
     },
     {
-      "id": "20106",
+      "id": "A0106",
       "title": "Sorter og samarbeid! Objekter i rekkefølge",
       "time": "15",
       "location": "Inne / ute",
@@ -208,7 +208,7 @@
       }
     },
     {
-      "id": "20107",
+      "id": "A0107",
       "title": "Alle mann av hus",
       "time": "15",
       "location": "Ute",
@@ -239,7 +239,7 @@
       }
     },
     {
-      "id": "20201",
+      "id": "A0201",
       "title": "Danseleken!",
       "time": "5,15",
       "location": "Inne",
@@ -271,7 +271,7 @@
       }
     },
     {
-      "id": "20202",
+      "id": "A0202",
       "title": "Skuespill",
       "time": "5,15",
       "location": "Inne",
@@ -310,7 +310,7 @@
       }
     },
     {
-      "id": "20203",
+      "id": "A0203",
       "title": "Hopp og tenk!",
       "time": "15",
       "location": "Ute",
@@ -344,7 +344,7 @@
       }
     },
     {
-      "id": "20204",
+      "id": "A0204",
       "title": "Tell som en fugl! Observasjon og telling i naturen",
       "time": "45",
       "location": "Ute",
@@ -380,7 +380,7 @@
       }
     },
     {
-      "id": "20301",
+      "id": "A0301",
       "title": "Telletoget",
       "time": "15",
       "location": "Inne",
@@ -409,12 +409,12 @@
           "Kan også brukes til å innføre begreper som oddetall og partall, plassering, og tallinjer."
         ],
         "extra": [
-          "printOuts/20301.png"
+          "printOuts/A0301.png"
         ]
       }
     },
     {
-      "id": "20302",
+      "id": "A0302",
       "title": "Skattefrakt over havet",
       "time": "15",
       "location": "Ute",
@@ -451,7 +451,7 @@
       }
     },
     {
-      "id": "20303",
+      "id": "A0303",
       "title": "15-gjelder",
       "time": "15",
       "location": "Ute",
@@ -484,7 +484,7 @@
       }
     },
     {
-      "id": "20304",
+      "id": "A0304",
       "title": "Gå planken: telling og eksperimentering med skritt",
       "time": "15",
       "location": "Ute",
@@ -521,7 +521,7 @@
       }
     },
     {
-      "id": "20305",
+      "id": "A0305",
       "title": "Tid og bevegelse",
       "time": "15",
       "location": "Ute",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "id": "20401",
+      "id": "A0401",
       "title": "Sjørøverjakt etter partall- og oddetallskonkreter",
       "time": "15",
       "location": "Inne / ute",
@@ -583,7 +583,7 @@
       }
     },
     {
-      "id": "20402",
+      "id": "A0402",
       "title": "Jakte og sanke",
       "time": "15",
       "location": "Ute",
@@ -614,7 +614,7 @@
       }
     },
     {
-      "id": "20403",
+      "id": "A0403",
       "title": "Sortere i bunker",
       "time": "15",
       "location": "Inne / ute",
@@ -644,7 +644,7 @@
       }
     },
     {
-      "id": "20404",
+      "id": "A0404",
       "title": "Dobling og halvering",
       "time": "15",
       "location": "Inne / ute",
@@ -675,7 +675,7 @@
       }
     },
     {
-      "id": "20405",
+      "id": "A0405",
       "title": "Kari og Knut - sistemann ut",
       "time": "15",
       "location": "Ute",
@@ -707,7 +707,7 @@
       }
     },
     {
-      "id": "20501",
+      "id": "A0501",
       "title": "Legobygging med bøker",
       "time": "15",
       "location": "Inne",
@@ -740,7 +740,7 @@
       }
     },
     {
-      "id": "20502",
+      "id": "A0502",
       "title": "Shopping!",
       "time": "45",
       "location": "Inne",
@@ -772,23 +772,23 @@
           "lapp."
         ],
         "extra": [
-          "printOuts/20502_eventyr.png",
-          "printOuts/20502_iskrem.png",
-          "printOuts/20502_pizza.png",
-          "printOuts/20502_ryggsekk.png",
-          "printOuts/20502_lekebil.png",
-          "printOuts/20502_fotball.png",
-          "printOuts/20502_juice.png",
-          "printOuts/20502_sykkel.png",
-          "printOuts/20502_t-skjorte.png",
-          "printOuts/20502_bamse.png",
-          "printOuts/20502_melk.png",
-          "printOuts/20502_penger.png"
+          "printOuts/A0502_penger.png",
+          "printOuts/A0502_ryggsekk.png",
+          "printOuts/A0502_fotball.png",
+          "printOuts/A0502_lekebil.png",
+          "printOuts/A0502_bamse.png",
+          "printOuts/A0502_eventyr.png",
+          "printOuts/A0502_melk.png",
+          "printOuts/A0502_sykkel.png",
+          "printOuts/A0502_t-skjorte.png",
+          "printOuts/A0502_pizza.png",
+          "printOuts/A0502_iskrem.png",
+          "printOuts/A0502_juice.png"
         ]
       }
     },
     {
-      "id": "20503",
+      "id": "A0503",
       "title": "Kaste på blink",
       "time": "15",
       "location": "Ute",
@@ -820,7 +820,7 @@
       }
     },
     {
-      "id": "20504",
+      "id": "A0504",
       "title": "Beat-box posisjonssystemet",
       "time": "15",
       "location": "Inne",
@@ -852,7 +852,7 @@
       }
     },
     {
-      "id": "20601",
+      "id": "A0601",
       "title": "Fyll tallinja med konkreter",
       "time": "15",
       "location": "Ute",
@@ -886,7 +886,7 @@
       }
     },
     {
-      "id": "20602",
+      "id": "A0602",
       "title": "Hopp deg gjennom tallinja",
       "time": "15",
       "location": "Ute",
@@ -920,7 +920,7 @@
       }
     },
     {
-      "id": "20603",
+      "id": "A0603",
       "title": "Hjelp Donald Duck med å finne adressen til bestemor",
       "time": "45",
       "location": "Ute",
@@ -954,7 +954,7 @@
       }
     },
     {
-      "id": "20604",
+      "id": "A0604",
       "title": "Utforskning av sanser",
       "time": "15",
       "location": "Ute",
@@ -988,7 +988,7 @@
       }
     },
     {
-      "id": "20605",
+      "id": "A0605",
       "title": "Hoppe paradis",
       "time": "15",
       "location": "Ute",
@@ -1018,12 +1018,12 @@
           "Tegn tall i rutene for å styrke koblingen til tallinje. Still spørsmål som “Hvilket tall kommer før/etter?”. Tilpass vanskelighetsgrad ved å endre antall ruter."
         ],
         "extra": [
-          "printOuts/20605.png"
+          "printOuts/A0605.png"
         ]
       }
     },
     {
-      "id": "20701",
+      "id": "A0701",
       "title": "Rødt og grønt lys",
       "time": "15",
       "location": "Ute",
@@ -1057,7 +1057,7 @@
       }
     },
     {
-      "id": "20702",
+      "id": "A0702",
       "title": "Enspretten - med en addisjons- og subtraksjonsvri",
       "time": "15",
       "location": "Ute",
@@ -1091,7 +1091,7 @@
       }
     },
     {
-      "id": "20703",
+      "id": "A0703",
       "title": "Minus og pluss",
       "time": "15",
       "location": "Ute",
@@ -1125,7 +1125,7 @@
       }
     },
     {
-      "id": "20704",
+      "id": "A0704",
       "title": "Høl i hatten",
       "time": "15",
       "location": "Ute",
@@ -1162,7 +1162,7 @@
       }
     },
     {
-      "id": "20801",
+      "id": "A0801",
       "title": "Prikken",
       "time": "15",
       "location": "Ute",
@@ -1196,7 +1196,7 @@
       }
     },
     {
-      "id": "20802",
+      "id": "A0802",
       "title": "Haien kommer",
       "time": "15",
       "location": "Ute",
@@ -1229,15 +1229,15 @@
           "Bytt ut trygge tall og legg inn nye summer etter hvert. Diskuter hvordan ulike kombinasjoner gir samme resultat (f.eks. 3+5 og 5+3)."
         ],
         "extra": [
-          "printOuts/20802_6.png",
-          "printOuts/20802_5.png",
-          "printOuts/20802_4.png",
-          "printOuts/20802_3.png"
+          "printOuts/A0802_5.png",
+          "printOuts/A0802_4.png",
+          "printOuts/A0802_6.png",
+          "printOuts/A0802_3.png"
         ]
       }
     },
     {
-      "id": "20901",
+      "id": "A0901",
       "title": "Klappelek",
       "time": "5,15",
       "location": "Inne",
@@ -1267,7 +1267,7 @@
       }
     },
     {
-      "id": "20902",
+      "id": "A0902",
       "title": "Kråka",
       "time": "15",
       "location": "Inne/Ute",
@@ -1299,7 +1299,7 @@
       }
     },
     {
-      "id": "21001",
+      "id": "A1001",
       "title": "Slå på ring",
       "time": "15",
       "location": "Ute",
@@ -1330,12 +1330,12 @@
           "La elevene selv velge rekkefølge på figurene, og snakk om hvordan lengden rundt påvirker hvor sliten man blir. Marker figurene på bakken med tau eller kjegler hvis det er vanskelig å se formen."
         ],
         "extra": [
-          "printOuts/21001.docx"
+          "printOuts/A1001.png"
         ]
       }
     },
     {
-      "id": "21002",
+      "id": "A1002",
       "title": "Alle mann av hus",
       "time": "15",
       "location": "Ute",
@@ -1369,7 +1369,7 @@
       }
     },
     {
-      "id": "21003",
+      "id": "A1003",
       "title": "Hauk og due",
       "time": "15",
       "location": "Ute",
@@ -1401,14 +1401,14 @@
           "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
         ],
         "extra": [
-          "printOuts/21003_firkant.png",
-          "printOuts/21003_sirkel.png",
-          "printOuts/21003_trekant.png"
+          "printOuts/A1003_firkant.png",
+          "printOuts/A1003_trekant.png",
+          "printOuts/A1003_sirkel.png"
         ]
       }
     },
     {
-      "id": "21101",
+      "id": "A1101",
       "title": "Spensthopp",
       "time": "15",
       "location": "Ute",
@@ -1441,7 +1441,7 @@
       }
     },
     {
-      "id": "21201",
+      "id": "A1201",
       "title": "15-gjelder",
       "time": "15",
       "location": "Ute",
@@ -1476,7 +1476,7 @@
       }
     },
     {
-      "id": "21301",
+      "id": "A1301",
       "title": "Strikk-leken",
       "time": "15",
       "location": "Ute",
@@ -1508,7 +1508,7 @@
       }
     },
     {
-      "id": "21302",
+      "id": "A1302",
       "title": "danseleken",
       "time": "5,15",
       "location": "Inne",

@@ -23,27 +23,18 @@ const gradeFileMap: { [key: string]: string } = {
   "Femte årstrinn": "5.grade.json",
   "Sjette årstrinn": "6.grade.json",
   "Sjuende årstrinn": "7.grade.json",
-};// Extract learning goal number from activity ID (format: 2XXZZ where XX is learning goal number)
+};
+
+// Extract learning goal number from activity ID (format: AXXYY where XX is learning goal number)
 function extractLearningGoalNumber(activityId: string): number | null {
-  if (activityId.length >= 4 && activityId.startsWith('2')) {
-    // For learning goals 1-9: format is 20XZZ (e.g., 20101, 20201)
-    // For learning goals 10-13: format is 21XZZ (e.g., 21001, 21101)
+  if (activityId.length >= 5 && activityId.startsWith('A')) {
+    // Extract XX from AXXYY format (positions 1-2 after 'A')
+    const lgStr = activityId.substring(1, 3);
+    const lgNum = parseInt(lgStr, 10);
     
-    if (activityId.startsWith('20')) {
-      // Learning goals 1-9: extract single digit from position 2
-      const lgStr = activityId.substring(2, 3);
-      const lgNum = parseInt(lgStr, 10);
-      return isNaN(lgNum) ? null : lgNum;
-    } else if (activityId.startsWith('21')) {
-      // Learning goals 10-13: map the third character to the correct learning goal
-      const thirdChar = activityId.substring(2, 3);
-      switch (thirdChar) {
-        case '0': return 10;
-        case '1': return 11;
-        case '2': return 12;
-        case '3': return 13;
-        default: return null;
-      }
+    // Validate that it's a reasonable learning goal number (1-13 for 2nd grade)
+    if (!isNaN(lgNum) && lgNum >= 1 && lgNum <= 13) {
+      return lgNum;
     }
   }
   return null;
