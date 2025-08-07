@@ -14,7 +14,7 @@ function Grade() {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
-      <Navbar />
+      <Navbar backgroundColor="bg-gray-50" />
 
       <div className="flex-1 flex flex-col justify-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

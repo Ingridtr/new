@@ -38,7 +38,7 @@ function GameSelection() {
   if (!isInitialized) {
     return (
       <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
-        <Navbar />
+        <Navbar backgroundColor={pageBackgroundClass} />
         <div className="flex-1 flex items-center justify-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
         </div>
@@ -51,7 +51,7 @@ function GameSelection() {
   if (loading) {
     return (
       <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
-        <Navbar />
+        <Navbar backgroundColor={pageBackgroundClass} />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
@@ -65,7 +65,7 @@ function GameSelection() {
 
   return (
     <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
-      <Navbar />
+      <Navbar backgroundColor={pageBackgroundClass} />
 
       <div className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">

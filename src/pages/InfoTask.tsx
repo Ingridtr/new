@@ -30,7 +30,7 @@ function InfoTask() {
   if (loading) {
     return (
       <div className="flex flex-col min-h-screen bg-yellow-50">
-        <Navbar />
+        <Navbar backgroundColor="bg-yellow-50" />
         <div className="flex-1 flex items-center justify-center">
           <p>Laster aktivitetsdata...</p>
         </div>
@@ -42,7 +42,7 @@ function InfoTask() {
   if (error || !activity || !selectedGrade) {
     return (
       <div className="flex flex-col min-h-screen bg-yellow-50">
-        <Navbar />
+        <Navbar backgroundColor="bg-yellow-50" />
         <div className="flex-1 flex items-center justify-center">
           <p>{error || "Kunne ikke laste aktivitetsdata."}</p>
         </div>
@@ -53,7 +53,7 @@ function InfoTask() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <Navbar />
+      <Navbar backgroundColor="bg-white" />
 
       {/* Innholdsseksjon med relativ posisjon for knappen */}
       <div className="relative flex-1 px-4">

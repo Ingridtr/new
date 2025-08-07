@@ -3,7 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  backgroundColor?: string;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -49,7 +53,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className="sticky top-0 z-50 border py-4 px-6"
+      className={`sticky top-0 z-50 ${backgroundColor} py-4 px-6`}
       role="navigation"
       aria-label="Hovednavigasjon"
     >

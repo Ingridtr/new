@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <Navbar />
+      <Navbar backgroundColor="bg-white" />
 
       <main className="flex-1 flex items-center" role="main">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
