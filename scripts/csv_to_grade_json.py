@@ -87,19 +87,63 @@ def extract_grade_from_learning_goal(learning_goal: str, grade_column: str = Non
     # Default fallback - you might want to handle this differently
     return "Generelt"
 
-def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/activityData/grades", force_grade: str = None):
+def detect_delimiter(file_path: str) -> str:
+    """
+    Detect the delimiter used in the CSV/TSV file.
+    Returns the most likely delimiter based on the first few lines.
+    """
+    with open(file_path, 'r', encoding='utf-8') as f:
+        # Read first few lines to detect delimiter
+        sample = f.read(2048)
+        
+    # Use csv.Sniffer to detect delimiter
+    sniffer = csv.Sniffer()
+    try:
+        delimiter = sniffer.sniff(sample, delimiters=',;\t').delimiter
+        print(f"🔍 Detected delimiter: {'TAB' if delimiter == '\\t' else repr(delimiter)}")
+        return delimiter
+    except:
+        # Fallback: manually check for common patterns
+        if sample.count('\t') > sample.count(','):
+            print("🔍 Detected delimiter: TAB (fallback detection)")
+            return '\t'
+        elif sample.count(';') > sample.count(','):
+            print("🔍 Detected delimiter: ; (fallback detection)")
+            return ';'
+        else:
+            print("🔍 Detected delimiter: , (default)")
+            return ','
+
+def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/activityData/grades", force_grade: str = None, delimiter: str = None):
     """
     Convert CSV file to grade-based JSON files
     """
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
     
+    # Auto-detect delimiter if not specified
+    if delimiter is None:
+        delimiter = detect_delimiter(csv_file_path)
+    
     # Dictionary to store activities by grade
     activities_by_grade: Dict[str, List[Dict[str, Any]]] = {}
     
     # Read and process CSV
     with open(csv_file_path, 'r', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        # Read all lines and skip initial empty lines
+        lines = csvfile.readlines()
+        
+        # Find the first non-empty line (should contain headers)
+        non_empty_lines = []
+        for line in lines:
+            if line.strip() and not all(c in '\t\n\r ' for c in line):
+                non_empty_lines.append(line)
+        
+        # Create a new file-like object from non-empty lines
+        from io import StringIO
+        cleaned_csv = StringIO(''.join(non_empty_lines))
+        
+        reader = csv.DictReader(cleaned_csv, delimiter=delimiter)
         
         # Clean up column names (remove extra whitespace)
         reader.fieldnames = [field.strip() if field else field for field in reader.fieldnames]
@@ -108,21 +152,38 @@ def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/ac
             # Create a cleaned row dictionary with trimmed keys
             cleaned_row = {key.strip(): value for key, value in row.items() if key}
             
+            # Skip completely empty rows
+            if not cleaned_row or all(not str(value).strip() for value in cleaned_row.values()):
+                continue
+            
+            # Create case-insensitive lookup for common variations
+            def get_field(field_name, variations=None):
+                if variations is None:
+                    variations = [field_name]
+                for var in variations:
+                    if var in cleaned_row:
+                        return cleaned_row[var].strip()
+                    # Try case-insensitive match
+                    for key in cleaned_row.keys():
+                        if key.lower() == var.lower():
+                            return cleaned_row[key].strip()
+                return ''
+            
             try:
                 # Extract and clean data with better error handling
-                activity_id = cleaned_row.get('ID', '').strip()
-                learning_goal = cleaned_row.get('Learning goal', '').strip()
-                title = cleaned_row.get('Title', '').strip()
-                time = cleaned_row.get('Time', '').strip()
-                location = cleaned_row.get('Location', '').strip()
-                tools = cleaned_row.get('Tools', '').strip()
-                groupsize = cleaned_row.get('Groupsize', '').strip()
-                introduction = parse_text_content(cleaned_row.get('Introduction', ''))
-                main = parse_text_content(cleaned_row.get('Main', ''))
-                examples = parse_text_content(cleaned_row.get('Examples', ''))
-                reflection = parse_text_content(cleaned_row.get('Reflection', ''))
-                tips = parse_text_content(cleaned_row.get('Tips', ''))
-                extra = parse_text_content(cleaned_row.get('Extra', ''))
+                activity_id = get_field('ID', ['ID', 'Id', 'id'])
+                learning_goal = get_field('Learning goal', ['Learning goal', 'Kompetansemål'])
+                title = get_field('Title', ['Title', 'Tittel'])
+                time = get_field('Time')
+                location = get_field('Location')
+                tools = get_field('Tools')
+                groupsize = get_field('Groupsize')
+                introduction = parse_text_content(get_field('Introduction'))
+                main = parse_text_content(get_field('Main'))
+                examples = parse_text_content(get_field('Examples', ['Examples', 'Example']))
+                reflection = parse_text_content(get_field('Reflection'))
+                tips = parse_text_content(get_field('Tips'))
+                extra = parse_text_content(get_field('Extra'))
                 
                 # Skip rows with missing essential data
                 if not activity_id or not title:
@@ -134,7 +195,7 @@ def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/ac
                     grade = force_grade
                 else:
                     # Check if there's a dedicated Grade column
-                    grade_column = cleaned_row.get('Grade', '')
+                    grade_column = get_field('Grade')
                     # Determine grade from learning goal or grade column
                     grade = extract_grade_from_learning_goal(learning_goal, grade_column)
                 
@@ -170,9 +231,24 @@ def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/ac
     
     # Write JSON files for each grade
     for grade, activities in activities_by_grade.items():
-        # Create safe filename
-        safe_grade = grade.lower().replace(' ', '_').replace('å', 'aa')
-        filename = f"{safe_grade}.json"
+        # Create filename based on grade name to match existing convention
+        grade_filename_map = {
+            "Andre årstrinn": "2.grade.json",
+            "Tredje årstrinn": "3.grade.json",
+            "Fjerde årstrinn": "4.grade.json",
+            "Femte årstrinn": "5.grade.json",
+            "Sjette årstrinn": "6.grade.json",
+            "Syvende årstrinn": "7.grade.json",
+            "Sjuende årstrinn": "7.grade.json",
+        }
+        
+        # Use mapped filename or create safe filename for other grades
+        if grade in grade_filename_map:
+            filename = grade_filename_map[grade]
+        else:
+            safe_grade = grade.lower().replace(' ', '_').replace('å', 'aa')
+            filename = f"{safe_grade}.json"
+            
         filepath = os.path.join(output_dir, filename)
         
         # Create grade object
@@ -197,6 +273,8 @@ def main():
     parser.add_argument('--output-dir', default='./public/activityData/grades', 
                        help='Output directory for JSON files (default: ./public/activityData/grades)')
     parser.add_argument('--force-grade', help='Force all activities to use this grade level (e.g., "Andre årstrinn")')
+    parser.add_argument('--delimiter', choices=[',', ';', 'tab'], 
+                       help='Specify delimiter: comma (,), semicolon (;), or tab. Auto-detected if not specified.')
     
     args = parser.parse_args()
     
@@ -204,8 +282,16 @@ def main():
         print(f"Error: CSV file '{args.csv_file}' not found!")
         return
     
+    # Convert delimiter argument
+    delimiter = None
+    if args.delimiter:
+        if args.delimiter == 'tab':
+            delimiter = '\t'
+        else:
+            delimiter = args.delimiter
+    
     print(f"Converting {args.csv_file} to grade-based JSON files...")
-    convert_csv_to_grade_json(args.csv_file, args.output_dir, args.force_grade)
+    convert_csv_to_grade_json(args.csv_file, args.output_dir, args.force_grade, delimiter)
 
 if __name__ == "__main__":
     main()

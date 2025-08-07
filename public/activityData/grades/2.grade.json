@@ -1,6 +1,6 @@
 {
   "grade": "Andre årstrinn",
-  "total_activities": 45,
+  "total_activities": 48,
   "activities": [
     {
       "id": "A0101",
@@ -31,9 +31,7 @@
           "Kunne noen ting passe i flere grupper?"
         ],
         "tips": [],
-        "extra": [
-          "printOuts/20101.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -57,7 +55,7 @@
         "examples": [
           "Sortering:",
           "Still dere i rekkefølge etter høyde – lavest til høyest!",
-          "Sorter dere etter skostørrelse!\nGruppering:",
+          "Sorter dere etter skostørrelse! Gruppering:",
           "Finn andre med samme øyenfarge som deg!",
           "Lag grupper etter fargen på genseren deres!",
           "Grupper dere etter hvilken farge det er mest av på skoene deres!"
@@ -70,7 +68,7 @@
           "Kan man være usikker på hvor man passer inn?"
         ],
         "tips": [
-          "Vær tydelig i befalingen: si for eksempel «Sorter etter skostørrelse – liten til stor» heller enn bare «Sorter etter sko».\nKombiner gjerne med begrepslæring i matematikk (måling, sammenligning, kategorisering).\nPass på at alle føler seg inkludert – fokuser på samarbeid fremfor konkurranse.\nAktiviteten egner seg også godt som overgangsaktivitet eller pause."
+          "Vær tydelig i befalingen: si for eksempel «Sorter etter skostørrelse – liten til stor» heller enn bare «Sorter etter sko». Kombiner gjerne med begrepslæring i matematikk (måling, sammenligning, kategorisering). Pass på at alle føler seg inkludert – fokuser på samarbeid fremfor konkurranse. Aktiviteten egner seg også godt som overgangsaktivitet eller pause."
         ],
         "extra": []
       }
@@ -129,14 +127,14 @@
           "Samle alle og start diskusjon"
         ],
         "examples": [
-          "Brun: kongler, bark, visne blader, pinner\nBlå: blomster, blåbær\nGrønn: blader, gress"
+          "Brun: kongler, bark, visne blader, pinner Blå: blomster, blåbær Grønn: blader, gress"
         ],
         "reflection": [
           "Er det mulig å gruppere gjenstandene deres i undergrupper? (f.eks. “myke ting”, “ting som kommer fra trær”, “runde ting”)",
           "Hvordan kan man sortere tingene på andre måter enn bare farge? (f.eks. størrelse, form, tekstur)"
         ],
         "tips": [
-          "For å gjøre det mer krevende: si at ingen i gruppen får hente helt like ting (alle må bidra med noe unikt).\nBegrens hvor mange gjenstander hver elev kan hente.",
+          "For å gjøre det mer krevende: si at ingen i gruppen får hente helt like ting (alle må bidra med noe unikt). Begrens hvor mange gjenstander hver elev kan hente.",
           "Bruk aktiviteten som inngang til naturfaglige begreper som materialer, kategorisering og mangfold i naturen.",
           "Oppmuntre til kreativ tenkning: Hva gjør noe “brunt”? Kan én ting høre hjemme i flere grupper?"
         ],
@@ -173,7 +171,7 @@
           "Hva lærte de om likhet og forskjell? Hvordan kan man vurdere om noe er \"like\"?"
         ],
         "tips": [
-          "Denne aktiviteten fungerer godt både ute og inne – innendørs kan gjenstandene være papirbiter, plastobjekter eller små blokker, mens utendørs kan man bruke steiner, blader, kongler, pinner osv.\n\nLegg vekt på samarbeid og kreativ tenkning, og oppmuntre til diskusjon og refleksjon om hvilke egenskaper som gjør at to objekter kan byttes."
+          "Denne aktiviteten fungerer godt både ute og inne – innendørs kan gjenstandene være papirbiter, plastobjekter eller små blokker, mens utendørs kan man bruke steiner, blader, kongler, pinner osv.  Legg vekt på samarbeid og kreativ tenkning, og oppmuntre til diskusjon og refleksjon om hvilke egenskaper som gjør at to objekter kan byttes."
         ],
         "extra": []
       }
@@ -198,10 +196,10 @@
           "Gruppene deler strategiene sine med resten av klassen."
         ],
         "examples": [
-          "– Sortering etter farge (grønne, brune, mørke)\n– Størrelse (små til store steiner)\n– Vekt (lette blader til tyngre kongler)\n– Tekstur (glatt, ru, piggete)\n– Antall (parvise gjenstander, telle og sammenligne mengder)"
+          "– Sortering etter farge (grønne, brune, mørke) – Størrelse (små til store steiner) – Vekt (lette blader til tyngre kongler) – Tekstur (glatt, ru, piggete) – Antall (parvise gjenstander, telle og sammenligne mengder)"
         ],
         "reflection": [
-          "– Hvordan valgte dere å sortere objektene?\n– Kunne gjenstandene sorteres på flere måter?\n– Var det vanskelig å bli enige?\n– Hvilke egenskaper var lettest å sortere etter?"
+          "– Hvordan valgte dere å sortere objektene? – Kunne gjenstandene sorteres på flere måter? – Var det vanskelig å bli enige? – Hvilke egenskaper var lettest å sortere etter?"
         ],
         "tips": [],
         "extra": []
@@ -233,7 +231,7 @@
         ],
         "reflection": [],
         "tips": [
-          "– Varier hvor mange former du bruker, og hvilke.\n– Snakk kort om navnet på formene og hva som kjennetegner dem."
+          "– Varier hvor mange former du bruker, og hvilke. – Snakk kort om navnet på formene og hva som kjennetegner dem."
         ],
         "extra": []
       }
@@ -262,10 +260,10 @@
           "“Hey Macarena, ay!” (15 ganger)"
         ],
         "reflection": [
-          "– Hvor mange ganger hørte dere frasen?\n– Hoppet alle like mange ganger?"
+          "– Hvor mange ganger hørte dere frasen? – Hoppet alle like mange ganger?"
         ],
         "tips": [
-          "– Bruk sanger med tydelig og repeterende tekst.\n– Oppmuntre til å telle stille for seg selv mens de danser.\n– Repetér sangen og se om elevene får likt svar andre gang."
+          "– Bruk sanger med tydelig og repeterende tekst. – Oppmuntre til å telle stille for seg selv mens de danser. – Repetér sangen og se om elevene får likt svar andre gang."
         ],
         "extra": []
       }
@@ -288,19 +286,19 @@
           "For hvert spørsmål skal de gjøre en bevegelse som passer til tallet."
         ],
         "examples": [
-          "Espen Askeladd som kappåt med trollet\n\nDet var en gang en bonde som hadde tre sønner. Bonden var gammel og fattig, men sønnene hans ville ikke gjøre noe på gården.\nDet hørte en stor skog til gården, og faren ville at sønnene skulle hogge i skogen. \n\nSpørsmål: “Hvor mange sønner hadde bonden? Hopp antallet!”\n \nFørst skulle den eldste ut og hogge. Da han hadde kommet ut i skogen og hadde begynt å hogge på en gran, kom det et stort troll bort til ham.",
-          "Hvis du hogger i min skog, så dreper jeg deg! brølte trollet.\nDa gutten hørte det, kastet han øksa og løp hjem så fort han kunne. \nDa han kom hjem, ble faren sint, og sa at trollene aldri hadde skremt ham da han var ung.\n\nSpørsmål: “Hvem av sønnene skulle ut og hogge først? Klapp antallet!”\n \nNeste dag skulle den andre sønnen ut i skogen. Det gikk ikke bedre med ham. Da han hadde begynt å hogge på grana, kom trollet.",
-          "Hvis du hogger i min skog, så dreper jeg deg! Brølte det.\nGutten kastet øksa og løp så fort han kunne. \nDa han kom hjem, ble faren sint, og sa at han aldri var blitt skremt av trollene da han var ung.\n\nSpørsmål: “Hvilken sønn skulle ut denne dagen? Snurr antallet!”\n​\nDen tredje dagen ville den yngste av brødrene prøve seg. Den yngste ble kalt Askeladden.\nAskeladden la en fersk ost i skreppa og dro til skogs.\nDa han hadde hogd en stund, kom trollet.",
-          "Hvis du hogger i min skog, dreper jeg deg! Brølte det.\nAskeladden tok osten ut av skreppa og klemte den så hardt at det rant av den.",
+          "Espen Askeladd som kappåt med trollet  Det var en gang en bonde som hadde tre sønner. Bonden var gammel og fattig, men sønnene hans ville ikke gjøre noe på gården. Det hørte en stor skog til gården, og faren ville at sønnene skulle hogge i skogen.   Spørsmål: “Hvor mange sønner hadde bonden? Hopp antallet!”   Først skulle den eldste ut og hogge. Da han hadde kommet ut i skogen og hadde begynt å hogge på en gran, kom det et stort troll bort til ham.",
+          "Hvis du hogger i min skog, så dreper jeg deg! brølte trollet. Da gutten hørte det, kastet han øksa og løp hjem så fort han kunne.  Da han kom hjem, ble faren sint, og sa at trollene aldri hadde skremt ham da han var ung.  Spørsmål: “Hvem av sønnene skulle ut og hogge først? Klapp antallet!”   Neste dag skulle den andre sønnen ut i skogen. Det gikk ikke bedre med ham. Da han hadde begynt å hogge på grana, kom trollet.",
+          "Hvis du hogger i min skog, så dreper jeg deg! Brølte det. Gutten kastet øksa og løp så fort han kunne.  Da han kom hjem, ble faren sint, og sa at han aldri var blitt skremt av trollene da han var ung.  Spørsmål: “Hvilken sønn skulle ut denne dagen? Snurr antallet!” ​ Den tredje dagen ville den yngste av brødrene prøve seg. Den yngste ble kalt Askeladden. Askeladden la en fersk ost i skreppa og dro til skogs. Da han hadde hogd en stund, kom trollet.",
+          "Hvis du hogger i min skog, dreper jeg deg! Brølte det. Askeladden tok osten ut av skreppa og klemte den så hardt at det rant av den.",
           "Hvis du ikke tier stille, så skal jeg klemme deg akkurat som jeg klemmer vannet ut av denne hvite steinen!",
-          "Å nei, vær så snill! Jeg skal hjelpe deg å hogge.\nTrollet var flink til å hogge, så det ble mye ved den dagen.\n\nSpørsmål: “Hvilken plass i søskenrekken hadde Askeladden? Vis antallet med fingrene og tramp antallet!”\n\nDa kvelden kom, sa trollet:",
-          "Du kan bli med meg hjem. Det er lengre vei til deg enn til meg.\nDette syns Askeladden var en god idé.\n \nDa de kom frem, ville trollet tenne i peisen mens gutten skulle gå etter vann til grøten. \nTrollet ga ham to jernbøtter, så tunge at gutten ikke kunne løfte på dem.",
+          "Å nei, vær så snill! Jeg skal hjelpe deg å hogge. Trollet var flink til å hogge, så det ble mye ved den dagen.  Spørsmål: “Hvilken plass i søskenrekken hadde Askeladden? Vis antallet med fingrene og tramp antallet!”  Da kvelden kom, sa trollet:",
+          "Du kan bli med meg hjem. Det er lengre vei til deg enn til meg. Dette syns Askeladden var en god idé.   Da de kom frem, ville trollet tenne i peisen mens gutten skulle gå etter vann til grøten.  Trollet ga ham to jernbøtter, så tunge at gutten ikke kunne løfte på dem.",
           "Disse bøttene er for små, sa Askeladden. Det er bedre at jeg henter hele brønnen.",
-          "Åh nei, jeg kan ikke miste brønnen min. Du kan tenne i peisen, så skal jeg gå etter vann.\n\nSpørsmål: “Hvor mange bøtter ga trollet Askeladden? Lat som du løfter opp antallet bøtte!”\n\nDa trollet kom tilbake med vannet, kokte de en stor grøt",
+          "Åh nei, jeg kan ikke miste brønnen min. Du kan tenne i peisen, så skal jeg gå etter vann.  Spørsmål: “Hvor mange bøtter ga trollet Askeladden? Lat som du løfter opp antallet bøtte!”  Da trollet kom tilbake med vannet, kokte de en stor grøt",
           "gryte.",
-          "Hvis du vil, kan vi spise om kapp? sa Askeladden\nJa dette ville trollet, for han var sikker på å vinne. \n\nSpørsmål: “Hvor mange personer spiste grøt sammen? Sitt ned og lat som du spiser med skje antallet ganger”\n\nAskeladden tok skinnskreppa foran seg uten at trollet så det, og så øste han mer i den, enn i seg selv. Da skreppa var full, tok han kniven sin og stakk hull på den. Trollet så på ham, men sa ikke noe.\nDa de hadde spist en stund, la trollet fra seg skjeen.",
+          "Hvis du vil, kan vi spise om kapp? sa Askeladden Ja dette ville trollet, for han var sikker på å vinne.   Spørsmål: “Hvor mange personer spiste grøt sammen? Sitt ned og lat som du spiser med skje antallet ganger”  Askeladden tok skinnskreppa foran seg uten at trollet så det, og så øste han mer i den, enn i seg selv. Da skreppa var full, tok han kniven sin og stakk hull på den. Trollet så på ham, men sa ikke noe. Da de hadde spist en stund, la trollet fra seg skjeen.",
           "Nei, nå orker jeg ikke mer!",
-          "Jo, nå får du spise. Du kan bare gjøre slik som jeg. Skjær hull på magen, så kan du spise så mye du vil.\nSå gjorde trollet som gutten sa, men du kan vel tenke deg hvordan det gikk? Trollet døde med en gang.\nAskeladden tok med seg alt det gullet og sølvet han fant, og gikk glad og fornøyd hjem."
+          "Jo, nå får du spise. Du kan bare gjøre slik som jeg. Skjær hull på magen, så kan du spise så mye du vil. Så gjorde trollet som gutten sa, men du kan vel tenke deg hvordan det gikk? Trollet døde med en gang. Askeladden tok med seg alt det gullet og sølvet han fant, og gikk glad og fornøyd hjem."
         ],
         "reflection": [],
         "tips": [],
@@ -334,7 +332,7 @@
           "Kombiner med rim eller sang: «Hopp det dobbelte av to, 1–2–3–4 GO!»"
         ],
         "reflection": [
-          "Hva betyr «dobbelt så mange»?\n– Var det lettere med halvparten eller dobbelt av?"
+          "Hva betyr «dobbelt så mange»? – Var det lettere med halvparten eller dobbelt av?"
         ],
         "tips": [
           "– Juster tallene etter nivået på elevene",
@@ -362,7 +360,7 @@
           "Etterpå sammenlignes og diskuteres observasjonene."
         ],
         "examples": [
-          "– En gruppe ser på måker: «Vi så én måke hoppe 6 ganger og rope 8 ganger.»\n– En annen gruppe observerer duer: «To duer fløy opp samtidig og lagde 10 lyder på 2 minutter.»\n– «3 fugler satt i flokk, 2 var alene»"
+          "– En gruppe ser på måker: «Vi så én måke hoppe 6 ganger og rope 8 ganger.» – En annen gruppe observerer duer: «To duer fløy opp samtidig og lagde 10 lyder på 2 minutter.» – «3 fugler satt i flokk, 2 var alene»"
         ],
         "reflection": [
           "Etter observasjonene samles alle for å dele funnene sine.",
@@ -380,6 +378,71 @@
       }
     },
     {
+      "id": "A0205",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "Utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren si ulike tall, og elevene skal finne på en vilkårlig bevegelse til tallet."
+        ],
+        "main": [
+          "Læreren sier ett tall mellom 1-10",
+          "Elevene skal mime tallet ved å gjøre en vilkårlig bevegelse, for eksempel: hopp, klapp eller andre bevegelser like mange ganger som tallet tilsier.",
+          "Aktiviteten kan gjentas flere ganger"
+        ],
+        "examples": [
+          "Læreren sier tallet 6 – noen i klassen hopper 6 ganger, noen klapper 6 ganger, noen snurrer 6 ganger."
+        ],
+        "reflection": [
+          "Hvordan kan vi vise tall med kroppen?",
+          "Hvilke andre måter kan vi representere tall på?",
+          "Hvordan vet vi at det var for eksempel 6 hopp og ikke 5?"
+        ],
+        "tips": [
+          "Bruk musikk for rytme."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "A0206",
+      "title": "Mimeleken",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Tallkort",
+      "groupsize": "4-5",
+      "learning_goal": "Utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene trekke et tallkort og deretter prøve å mime tallet til gruppen sin. gruppen skal prøve å gjette tallet."
+        ],
+        "main": [
+          "Læreren skriver lapper med forskjellige tall på fra for eksempel 1-10 (Det er også mulighet for å printe ut klare tallkort)",
+          "Én elev i gruppen trekker et tallkort og prøver å mime det",
+          "Resten av gruppa skal prøve å gjette det",
+          "Rullerer innad i gruppen for at alle skal få prøve"
+        ],
+        "examples": [
+          "Eleven trekker tallet 4 og gjør 4 hopp. Gruppen gjetter deretter 4."
+        ],
+        "reflection": [
+          "Hvordan kan vi vise tall med kroppen?",
+          "Hvilke andre måter kan vi representere tall på?",
+          "Hvordan vet vi at det var for eksempel 6 hopp og ikke 5?"
+        ],
+        "tips": [
+          "Bruk musikk for å få det mer lekent. Hvis det er noen som er usikre, sett dem i par slik at man kan prøve å mime sammen."
+        ],
+        "extra": [
+          "Printout laget"
+        ]
+      }
+    },
+    {
       "id": "A0301",
       "title": "Telletoget",
       "time": "15",
@@ -394,23 +457,21 @@
         ],
         "main": [
           "Del ut ark med tall fra 1 til 20 (eller tilsvarende antall elever). Hvert tall må være representert én gang.",
-          "Gå sammen gjennom tallrekken før dere starter – hvem kommer før og etter? \n“Hvem har 1? Hvem har 2? … Hvem kommer etter deg? Hvem kommer før?”",
+          "Gå sammen gjennom tallrekken før dere starter – hvem kommer før og etter?  “Hvem har 1? Hvem har 2? … Hvem kommer etter deg? Hvem kommer før?”",
           "Start tellingen: elev med tall 1 reiser seg, viser arket og setter seg. Så tall 2, osv.",
           "Når klassen mestrer dette, kan to og to elever gå sammen og telle  (f.eks. 2 og 2 – partall, 5 og 5, osv.)",
           "Utvid med ulike mønster eller startpunkt. Tell forlengs eller baklengs."
         ],
         "examples": [
-          "– Telle fra 1 til 20\n– Telle baklengs fra 20 til 1\n– Telle 2 og 2: 2, 4, 6, 8 …\n– Telle 5 og 5: 5, 10, 15 …\n– Starte på 3 og telle 3 og 3: 3, 6, 9, 12…"
+          "– Telle fra 1 til 20 – Telle baklengs fra 20 til 1 – Telle 2 og 2: 2, 4, 6, 8 … – Telle 5 og 5: 5, 10, 15 … – Starte på 3 og telle 3 og 3: 3, 6, 9, 12…"
         ],
         "reflection": [
-          "– Hvem var før deg? Etter deg?\n– Hvorfor er det lurt å vite hvilket tall som kommer etterpå?\n– Hva slags mønster ser dere?\n– Var det lettere å telle 1 og 1 eller 2 og 2?\n– Klarte dere å følge med på rekkefølgen?"
+          "– Hvem var før deg? Etter deg? – Hvorfor er det lurt å vite hvilket tall som kommer etterpå? – Hva slags mønster ser dere? – Var det lettere å telle 1 og 1 eller 2 og 2? – Klarte dere å følge med på rekkefølgen?"
         ],
         "tips": [
           "Kan også brukes til å innføre begreper som oddetall og partall, plassering, og tallinjer."
         ],
-        "extra": [
-          "printOuts/A0301.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -431,11 +492,11 @@
           "Læreren deler klassen inn i grupper",
           "Hver gruppe skal finne en gjenstand som skal bli deres \"skatt\"",
           "Læreren markerer et startpunkt og et sluttpunkt med ca. 15–20 meters avstand – dette er havet som skatten skal fraktes over.",
-          "Forklar reglene tydelig:\n  • Skatten må ikke røre bakken underveis.\n  • Den kan ikke kastes, sparkes eller trilles.\n  • Den som holder skatten, må stå helt stille – det er ikke lov å gå mens man holder den.\n  • Hver gang en ny person tar i skatten, telles det som én berøring.",
-          "Målet er å få skatten over havet med færrest mulig berøringer. Hver gang en ny elev tar i skatten, teller det som én berøring. Læreren kan velge å legge inn en tidsbegrensning, et maks antall forsøk, eller begge deler.\n."
+          "Forklar reglene tydelig:   • Skatten må ikke røre bakken underveis.   • Den kan ikke kastes, sparkes eller trilles.   • Den som holder skatten, må stå helt stille – det er ikke lov å gå mens man holder den.   • Hver gang en ny person tar i skatten, telles det som én berøring.",
+          "Målet er å få skatten over havet med færrest mulig berøringer. Hver gang en ny elev tar i skatten, teller det som én berøring. Læreren kan velge å legge inn en tidsbegrensning, et maks antall forsøk, eller begge deler. ."
         ],
         "examples": [
-          "En elev løfter skatten og holder den ut til neste elev. Den neste eleven må stå klar og ta imot – ingen av dem har lov til å gå mens de holder skatten. Etter at skatten er overlevert, kan eleven som nettopp har sluppet skatten løpe frem og stille seg i rekken igjen, klar til å ta imot neste gang.\nGruppen må derfor planlegge hvor de står, og hvordan de skal samarbeide for å få skatten frem – kanskje ved å danne en kjede, bruke armene på smarte måter, eller flytte seg raskt mellom overleveringene."
+          "En elev løfter skatten og holder den ut til neste elev. Den neste eleven må stå klar og ta imot – ingen av dem har lov til å gå mens de holder skatten. Etter at skatten er overlevert, kan eleven som nettopp har sluppet skatten løpe frem og stille seg i rekken igjen, klar til å ta imot neste gang. Gruppen må derfor planlegge hvor de står, og hvordan de skal samarbeide for å få skatten frem – kanskje ved å danne en kjede, bruke armene på smarte måter, eller flytte seg raskt mellom overleveringene."
         ],
         "reflection": [
           "Hva var vanskelig med å frakte skatten?",
@@ -472,13 +533,13 @@
           "Leken fortsetter til alle er funnet. Den siste som blir funnet, blir neste teller."
         ],
         "examples": [
-          "– Starter med “15 gjelder!”, neste runde “14 gjelder!” \n– Elever gjemmer seg etter å ha tatt på telleren \n– Telleren tar kun to skritt før leting"
+          "– Starter med “15 gjelder!”, neste runde “14 gjelder!”  – Elever gjemmer seg etter å ha tatt på telleren  – Telleren tar kun to skritt før leting"
         ],
         "reflection": [
-          "– Var det lett eller vanskelig å telle baklengs? \n– Hvorfor tror du det ble lettere etter flere runder? \n– Hva skjer med tiden man får når tallet går ned? \n– Hvordan påvirket det hvordan dere gjemte dere?"
+          "– Var det lett eller vanskelig å telle baklengs?  – Hvorfor tror du det ble lettere etter flere runder?  – Hva skjer med tiden man får når tallet går ned?  – Hvordan påvirket det hvordan dere gjemte dere?"
         ],
         "tips": [
-          "– Start med lavere tall for yngre elever (f.eks. 10) \n– Telleren må telle tydelig og høyt \n– Kombiner gjerne med telling forlengs som variasjon"
+          "– Start med lavere tall for yngre elever (f.eks. 10)  – Telleren må telle tydelig og høyt  – Kombiner gjerne med telling forlengs som variasjon"
         ],
         "extra": []
       }
@@ -508,11 +569,11 @@
           "Gå 3 skritt frem, deretter 2 skritt tilbake."
         ],
         "reflection": [
-          "– Hva startet du på, og hvor endte du?\n– Hvordan vet du at du har gått riktig?\n– Hva skjer når du går frem og så like mange tilbake?",
+          "– Hva startet du på, og hvor endte du? – Hvordan vet du at du har gått riktig? – Hva skjer når du går frem og så like mange tilbake?",
           "Hva skjedde da de måtte gå baklengs? Hvordan påvirket det tellingen?"
         ],
         "tips": [
-          "– Marker tall på planken for ekstra støtte\n– Kan brukes med par: én gir instruksjoner, den andre går",
+          "– Marker tall på planken for ekstra støtte – Kan brukes med par: én gir instruksjoner, den andre går",
           "Sørg for at alle elevene får muligheten til å delta både i å gå og i å gi instruksjoner.",
           "Bruk aktiviteten som en mulighet til å diskutere tall, retninger og differanser i en fysisk og engasjerende setting.",
           "For å gjøre det mer utfordrende kan du bruke flere eller mindre skritt, eller endre på instruksjonene for å få elevene til å reflektere mer over retningene de velger."
@@ -573,10 +634,10 @@
           "En oddetallsgruppe kan hente 2 kongler + 1 stein = 3 gjenstander."
         ],
         "reflection": [
-          "– Hvilket tall fikk dere?\n– Er det partall eller oddetall? Hvordan vet dere det?\n– Hva skjer når man legger sammen to partall?\n– Hva skjer når man legger sammen et partall og et oddetall?"
+          "– Hvilket tall fikk dere? – Er det partall eller oddetall? Hvordan vet dere det? – Hva skjer når man legger sammen to partall? – Hva skjer når man legger sammen et partall og et oddetall?"
         ],
         "tips": [
-          "– Snakk kort om partall/oddetall før dere starter\n– La elevene telle høyt og sammenligne funnene\n– Bruk skatte",
+          "– Snakk kort om partall/oddetall før dere starter – La elevene telle høyt og sammenligne funnene – Bruk skatte",
           "tema for å gjøre det engasjerende"
         ],
         "extra": []
@@ -602,13 +663,13 @@
           "Gjenta gjerne med motsatt fangst (det andre parets), og diskuter forskjeller."
         ],
         "examples": [
-          "– Ett par har 7 steiner og skal dele med et annet par: 3 og 4 steiner blir ikke likt.\n– Et annet par har 8 blader: 4 og 4 → delt likt.\n– Hva må man gjøre hvis det ikke går opp?"
+          "– Ett par har 7 steiner og skal dele med et annet par: 3 og 4 steiner blir ikke likt. – Et annet par har 8 blader: 4 og 4 → delt likt. – Hva må man gjøre hvis det ikke går opp?"
         ],
         "reflection": [
-          "– Kunne dere dele alt likt?\n– Hvilke antall var enklest å dele?\n– Hva skjer når man deler et oddetall?\n– Hvordan kan vi vite på forhånd om noe kan deles helt likt?"
+          "– Kunne dere dele alt likt? – Hvilke antall var enklest å dele? – Hva skjer når man deler et oddetall? – Hvordan kan vi vite på forhånd om noe kan deles helt likt?"
         ],
         "tips": [
-          "Klargjør begrepene partall og oddetall før aktiviteten\n– Ha felles gjennomgang etterpå\n– La elevene tegne og vise fordelingen\n– Still spørsmål underveis for å fremme refleksjon"
+          "Klargjør begrepene partall og oddetall før aktiviteten – Ha felles gjennomgang etterpå – La elevene tegne og vise fordelingen – Still spørsmål underveis for å fremme refleksjon"
         ],
         "extra": []
       }
@@ -635,7 +696,7 @@
         ],
         "examples": [],
         "reflection": [
-          "– Hvilke tall kunne du dele helt likt?\n– Hvilke tall gikk ikke opp?\n– Hvordan visste du at et tall var delelig på 2, 3 eller 4?\n– Ser du et mønster i hvilke tall som kan deles på hva?"
+          "– Hvilke tall kunne du dele helt likt? – Hvilke tall gikk ikke opp? – Hvordan visste du at et tall var delelig på 2, 3 eller 4? – Ser du et mønster i hvilke tall som kan deles på hva?"
         ],
         "tips": [
           "Introduser begrepet “delelig med” før aktiviteten – og bruk det underveis"
@@ -698,7 +759,7 @@
         ],
         "examples": [],
         "reflection": [
-          "– Hva var vanskelig med å ta igjen en som løp?\n– Hvordan samarbeidet dere?\n– Hva gjorde det lettere å klare å fange noen?\n– Hvordan var det å stå alene foran?"
+          "– Hva var vanskelig med å ta igjen en som løp? – Hvordan samarbeidet dere? – Hva gjorde det lettere å klare å fange noen? – Hvordan var det å stå alene foran?"
         ],
         "tips": [
           "Sørg for at barna vet hvem de skal løpe med og hvilken side de skal ta"
@@ -771,20 +832,7 @@
           "lapper i stedet for én 100",
           "lapp."
         ],
-        "extra": [
-          "printOuts/A0502_penger.png",
-          "printOuts/A0502_ryggsekk.png",
-          "printOuts/A0502_fotball.png",
-          "printOuts/A0502_lekebil.png",
-          "printOuts/A0502_bamse.png",
-          "printOuts/A0502_eventyr.png",
-          "printOuts/A0502_melk.png",
-          "printOuts/A0502_sykkel.png",
-          "printOuts/A0502_t-skjorte.png",
-          "printOuts/A0502_pizza.png",
-          "printOuts/A0502_iskrem.png",
-          "printOuts/A0502_juice.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -1017,9 +1065,7 @@
         "tips": [
           "Tegn tall i rutene for å styrke koblingen til tallinje. Still spørsmål som “Hvilket tall kommer før/etter?”. Tilpass vanskelighetsgrad ved å endre antall ruter."
         ],
-        "extra": [
-          "printOuts/A0605.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -1228,12 +1274,7 @@
         "tips": [
           "Bytt ut trygge tall og legg inn nye summer etter hvert. Diskuter hvordan ulike kombinasjoner gir samme resultat (f.eks. 3+5 og 5+3)."
         ],
-        "extra": [
-          "printOuts/A0802_5.png",
-          "printOuts/A0802_4.png",
-          "printOuts/A0802_6.png",
-          "printOuts/A0802_3.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -1329,9 +1370,7 @@
         "tips": [
           "La elevene selv velge rekkefølge på figurene, og snakk om hvordan lengden rundt påvirker hvor sliten man blir. Marker figurene på bakken med tau eller kjegler hvis det er vanskelig å se formen."
         ],
-        "extra": [
-          "printOuts/A1001.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -1400,11 +1439,7 @@
         "tips": [
           "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
         ],
-        "extra": [
-          "printOuts/A1003_firkant.png",
-          "printOuts/A1003_trekant.png",
-          "printOuts/A1003_sirkel.png"
-        ]
+        "extra": []
       }
     },
     {
@@ -1476,6 +1511,39 @@
       }
     },
     {
+      "id": "A1202",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "forklare hvordan man kan beskrive tid ved hjelp av klokke og kalender",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren si en bafaling som handler om tid, også skal elevene gjøre den tingen de oftest gjør på det tidspunktet."
+        ],
+        "main": [
+          "Læreren sier Kongen befaler med et tidspunkt, for eksempel: \"Kongen befaler at nå er klokken 7!\"",
+          "Elevene skal prøve å mime hva de ville gjort på det tidspunktet."
+        ],
+        "examples": [
+          "Læreren sier et klokkeslett, f.eks. “Klokken er 07:00”. Noen elever legger seg ned for å sove, andre spiser, noen pusser tennene.",
+          "Lærer sier: “Klokken er 12:00” → Elevene later som de spiser lunsj."
+        ],
+        "reflection": [
+          "Hvordan kan klokkeslett hjelpe oss med å planlegge dagen?",
+          "Hvilke tider på dagen er viktigst for deg, og hvorfor?",
+          "Hvordan hjelper kalender og klokke oss i hverdagen?"
+        ],
+        "tips": [
+          "Bruk bilder av klokkeslett som støtte.",
+          "Still oppfølgingsspørsmål: “Hva gjør du før/etter dette?”",
+          "Varier med tider på både dag og kveld."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "A1301",
       "title": "Strikk-leken",
       "time": "15",
@@ -1498,11 +1566,11 @@
           "To elever hopper i strikken mens de sier “inn, ut, inn, hopp” og følger mønsteret nøyaktig."
         ],
         "reflection": [
-          "Husk å øve inn reglene i forkant. Strikken kan heves etter hvert for større utfordring. Oppmuntre til samarbeid og rettferdig bytting."
-        ],
-        "tips": [
           "Hvordan hjalp det å kunne reglene på forhånd?",
           "Hva var mest utfordrende med å følge mønsteret?"
+        ],
+        "tips": [
+          "Husk å øve inn reglene i forkant. Strikken kan heves etter hvert for større utfordring. Oppmuntre til samarbeid og rettferdig bytting."
         ],
         "extra": []
       }
@@ -1530,11 +1598,11 @@
           "Læreren setter på en poplåt og stopper brått – elevene fryser og står som statuer."
         ],
         "reflection": [
-          "Velg en sang elevene liker for å øke motivasjonen – øk gjerne vanskelighetsgraden ved å stoppe musikken oftere."
-        ],
-        "tips": [
           "Hvordan opplevde du å følge reglene i denne leken?",
           "Hva gjør det vanskelig eller lett å stoppe raskt?"
+        ],
+        "tips": [
+          "Velg en sang elevene liker for å øke motivasjonen – øk gjerne vanskelighetsgraden ved å stoppe musikken oftere."
         ],
         "extra": []
       }

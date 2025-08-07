@@ -1,0 +1,605 @@
+{
+  "grade": "Femte årstrinn",
+  "total_activities": 18,
+  "activities": [
+    {
+      "id": "D0101",
+      "title": "Sola skinner på",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Ingen",
+      "groupsize": "5",
+      "learning_goal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene koble brøk, prosent og desimaltall ved å observere og telle hvor mange som oppfyller en bestemt egenskap i gruppa."
+        ],
+        "main": [
+          "Del elevene inn i grupper på",
+          "Læreren sier en “sola skinner på”-setning, f.eks. “Sola skinner på alle med blå bukser”.",
+          "Alle det gjelder setter seg ned.",
+          "Gruppene teller hvor mange som sitter, og uttrykker det som en brøk av gruppa.",
+          "Læreren ber dem gjøre om til prosent og desimaltall.",
+          "Gjenta med nye utsagn og diskuter sammenhenger."
+        ],
+        "examples": [
+          "- 3 elever sitter i en gruppe på",
+          "Elevene sier: 3/5, som er 0,6 = 60 %. - Sola skinner på alle som sykla til skolen idag - Sola skinner på alle med blå genser"
+        ],
+        "reflection": [
+          "Hvordan visste du at 2/5 er 40 %?",
+          "Hva betyr det at 4/5 er 0,8?",
+          "Er det lettere å starte med brøk eller med prosent? Hvorfor?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0201",
+      "title": "Pizzadeling",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Papp-pizzastykker",
+      "groupsize": "4-5",
+      "learning_goal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke konkreter til å forstå og sammenligne brøker som del av en hel, mengde og størrelse."
+        ],
+        "main": [
+          "Print ut vedlagte pizzastykker i papir",
+          "Del klassen opp i grupper på 4-5, og gi hver gruppe ulike “pizzaerbiter”",
+          "Læreren gir muntlige oppdrag: “Vis 3/4”, “Del pizzaen på deg og 4 venner”, “Hvem har fått mest?”",
+          "Elevene bruker bitene for å vise brøkene og forklare.",
+          "Sammenlign like mange stykker av ulike hele: Er 2/3 mer enn 2/4? Hvorfor?"
+        ],
+        "examples": [
+          "Gruppe 1 viser 3/4 ved å ta 3 av 4 pizzastykker. Gruppe 2 viser 2/3 og sammenligner hvem som har mest. Gruppene diskuterer hvilken brøk som er størst."
+        ],
+        "reflection": [
+          "Hvordan kan vi vite hvem som fikk størst del?",
+          "Hva betyr det at du har 3/4 av en pizza?",
+          "Er 1/2 alltid mer enn 1/3? Hvorfor eller hvorfor ikke?"
+        ],
+        "tips": [],
+        "extra": [
+          "printouts"
+        ]
+      }
+    },
+    {
+      "id": "D0202",
+      "title": "Steinfordeling",
+      "time": "15",
+      "location": "Inne/Ute",
+      "tools": "Småstein, Kritt",
+      "groupsize": "4-5",
+      "learning_goal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke konkrete gjenstander og fysisk tallinje for å koble sammen brøk, desimal og prosent."
+        ],
+        "main": [
+          "Del klassen i grupper på",
+          "Gi et ulikt antall småstein til hver elev i en gruppe. Totalen i hver gruppe skal være",
+          "Lag en tallinje på bakken fra 0 til 1 med merker for 0.1, 0.2 osv med kritt eller lignende",
+          "Elevene stiller seg på tallinja der deres andel småstein hører hjemme (f.eks. 2 småstein = 0.2).",
+          "Etterpå forklarer de: Hva er brøken? Hva er desimalen? Hva er prosentandelen?",
+          "Læreren går rundt og veileder gruppesamtalene."
+        ],
+        "examples": [
+          "Elev A har 3 av 10 steiner, stiller seg på 0.3 og sier: “Jeg har 3/10, som er 0,3 og 30 %.” Elev B har 1 stein og står på 0.",
+          "Brøken deres er 1/10, som er 10 %."
+        ],
+        "reflection": [
+          "Hvordan fant du ut hvor du skulle stå på tallinja?",
+          "Hva betyr 0.4 når du har 4 steiner?",
+          "Hvordan henger 2/10 og 20 % sammen? Kan flere elever ha samme plassering?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0301",
+      "title": "Sola skinner på",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Ingen",
+      "groupsize": "5-6",
+      "learning_goal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene trene på å representere brøker, desimaltall og prosent gjennom en bevegelseslek."
+        ],
+        "main": [
+          "Del elevene inn i grupper.",
+          "Læreren sier “Sola skinner på...” etterfulgt av en egenskap (f.eks. “alle med blå bukser”).",
+          "De det gjelder setter seg ned.",
+          "Elevene regner ut hvor mange av gruppa som sitter, som en brøk.",
+          "Gjør om til prosent og desimaltall i fellesskap.",
+          "Gjenta med nye utsagn og sammenlign svar."
+        ],
+        "examples": [
+          "2 av 5 elever i en gruppe har blå bukser og setter seg. Brøk: 2/",
+          "Desimaltall: 0,",
+          "Prosent: 40 %."
+        ],
+        "reflection": [
+          "Hva betyr det at 2/5 sitter?",
+          "Hvordan kan vi finne ut hva det blir i prosent?",
+          "Er 1/2 det samme som 0,5 og 50 %?",
+          "Hvilken form synes du er enklest å forstå – brøk, desimal eller prosent?"
+        ],
+        "tips": [
+          "Lag et ark eller vis tallinja på tavla der elevene ser koblingen mellom brøk, desimal og prosent. Varier med grupper på 4, 10 osv. for ekstra utfordring."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0302",
+      "title": "Brøk-hopp",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt, brøk-kort",
+      "groupsize": "5-7",
+      "learning_goal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kroppen for å hoppe til riktig verdi på en tallinje og omsette mellom brøk, desimaltall og prosent."
+        ],
+        "main": [
+          "Print ut vedlagte tall-kort",
+          "Del elvene opp i grupper på 5-7 stik, og tegn tilvarende antall  tallinjer på bakken med kritt (med brøker, f.eks. ⅛, ¼, ⅓, ½, ⅔, ¾ og 1).",
+          "Elevene steller seg på",
+          "Læreren viser et kort med f.eks. 0,75, og elevene hopper til riktig posisjon på tallinja (¾).",
+          "Eleven sier de to andre formene (f.eks. ¾ og 75 %).",
+          "Gjenta med flere kort og elever."
+        ],
+        "examples": [
+          "Et kort med 0,25 vises. En elev hopper til ¼ på tallinja og sier: \"¼, 0,25 og 25 %\""
+        ],
+        "reflection": [
+          "Hvordan visste du hvor 0,75 skulle være?",
+          "Hvilken måte er enklest for deg å forstå?",
+          "Hva betyr det når ⅔ og 0,66 nesten er det samme?",
+          "Er det lettere å tenke i prosent når du vet det er 100 % totalt?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0401",
+      "title": "Plussing med konkreter",
+      "time": "5",
+      "location": "Inne /Ute",
+      "tools": "Ingen",
+      "groupsize": "3-4",
+      "learning_goal": "utvikle og bruke ulike strategiar for rekning med positive tal og brøk og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke konkreter til å utforske hva som kan legges sammen – og hvorfor noen ting ikke kan. De skal forklare hvordan og hvorfor."
+        ],
+        "main": [
+          "Del elevene i grupper på 3-4",
+          "Gi hver gruppe en blanding av objekter (f.eks. 3 penner, 2 viskelær, 4 klosser, 1 linjal)",
+          "Gi oppdraget: «Sorter tingene deres! Hva hører sammen? Hva kan legges sammen – og hva gir ikke mening å legge sammen?»",
+          "Diskuter i plenum etter endt øvelse",
+          "Hver gruppe forklarer minst én kombinasjon de mener ikke kan legges sammen, og hvorfor."
+        ],
+        "examples": [
+          "«3 penner + 2 viskelær = 5…? Nei! Det blir ikke 5 penner. Vi må si: 3 penner og 2 viskelær.»",
+          "«4 klosser + 1 kloss = 5 klosser – det gir mening!»"
+        ],
+        "reflection": [
+          "– Hvorfor gir noen summer mening og andre ikke? – Hvorfor må vi vite hva vi legger sammen i matte? – Hva skjer hvis vi bare tenker på tall – og ikke på enhetene?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0501",
+      "title": "Pizzadeling",
+      "time": "15",
+      "location": "Inne",
+      "tools": "Papp-pizzastykker",
+      "groupsize": "4-5",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med brøk å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke konkreter til å forstå og sammenligne brøker som del av en hel, mengde og størrelse."
+        ],
+        "main": [
+          "Gi hver gruppe ulike “pizzaer” delt i forskjellige antall stykker (f.eks. 1/2, 1/3, 1/4, 1/6).",
+          "Læreren gir muntlige oppdrag: “Vis 3/4”, “Del pizzaen på deg og 4 venner”, “Hvem har fått mest?”",
+          "Elevene bruker bitene for å vise brøkene og forklare.",
+          "Sammenlign like mange stykker av ulike hele: Er 2/3 mer enn 2/4? Hvorfor?"
+        ],
+        "examples": [
+          "Elev A viser 3/4 ved å ta 3 av 4 pizzastykker. Elev B viser 2/3 og sammenligner hvem som har mest. Gruppa diskuterer hvilken brøk som er størst."
+        ],
+        "reflection": [
+          "Hvordan kan vi vite hvem som fikk størst del?",
+          "Hva betyr det at du har 3/4 av en pizza?",
+          "Er 1/2 alltid mer enn 1/3? Hvorfor eller hvorfor ikke?"
+        ],
+        "tips": [],
+        "extra": [
+          "printouts"
+        ]
+      }
+    },
+    {
+      "id": "D0502",
+      "title": "Piknik på deling",
+      "time": "15",
+      "location": "Inne/Ute",
+      "tools": "Tallkort, teppe",
+      "groupsize": "4-5",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med brøk å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene løse delingsproblemer gjennom en piknik"
+        ],
+        "main": [
+          "Del klassen i grupper på 5 og gi vedlagte figurer av “mat” (f.eks. 3 epler, 5 kjeks, 4 pizzabiter) til hver gruppe.",
+          "Be elevene fordele maten “rettferdig” mellom seg",
+          "La dem diskutere og bli enige om hvordan maten skal fordeles.",
+          "Når alle har delt, spør: Hva gjorde dere? Hvordan visste dere at det ble rettferdig?",
+          "Til slutt kan læreren introdusere begrepet “brøk” som en refleksjon."
+        ],
+        "examples": [
+          "En gruppe har 3 epler og 4 personer. De skjærer eplene i biter slik at alle får like mye. De sier: “Vi delte hvert eple i fire.” Etterpå viser læreren at det betyr at hver fikk 3/4 eple."
+        ],
+        "reflection": [
+          "Hvordan visste dere at alle fikk like mye?",
+          "Hva gjorde dere når det ikke gikk opp i hele biter?",
+          "Hvordan kan vi forklare det dere gjorde med tall etterpå?"
+        ],
+        "tips": [],
+        "extra": [
+          "printouts"
+        ]
+      }
+    },
+    {
+      "id": "D0601",
+      "title": "Mynt og kast",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Erteposer,  Bøtte, Mynter, vedlagt skjema",
+      "groupsize": "5-6",
+      "learning_goal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene oppleve hvordan tilfeldighet påvirker resultatet, og samle data for å se variasjon"
+        ],
+        "main": [
+          "Hver elev kaster en mynt: Mynt = du får kaste, Kron = du må vente.",
+          "De som får mynt får én ertepose og prøver å treffe bøtta.",
+          "Gruppene registrerer hvor mange som fikk kaste, og hvor mange som traff.",
+          "Gjenta runden 4–5 ganger.",
+          "Etterpå diskuterer dere: Hvor mange fikk kaste totalt? Hvor mange traff? Var det forskjell mellom rundene? Hva skyldes det?"
+        ],
+        "examples": [
+          "I én runde fikk 3 av 5 elever mynt. Av de 3 som kastet, traff",
+          "Neste runde fikk 4 av 5 mynt, og 2 traff. Elevene oppdager at antall som får kaste varierer tilfeldig."
+        ],
+        "reflection": [
+          "Hvor mange fikk lov til å kaste i de ulike rundene?",
+          "Hvor ofte traff dere?",
+          "Hva betyr det at det varierer selv om vi bruker samme regler hver gang?",
+          "Hvordan kan vi skrive resultatene som brøk?"
+        ],
+        "tips": [
+          "La elevene tegne søylediagram for antall treff per runde. Koble det til brøk: f.eks. 2 av 5 = 2/",
+          "Sammenlign ulike grupper."
+        ],
+        "extra": [
+          "prinputs av registrerings ark"
+        ]
+      }
+    },
+    {
+      "id": "D0602",
+      "title": "Brøk-kast med terninger",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Terninger, Skrivesaker, vedlagt skjema",
+      "groupsize": "2-3",
+      "learning_goal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle inn data ved å kaste en terning 20 ganger og utforske sammenheng mellom tilfeldighet, sannsynlighet og brøk."
+        ],
+        "main": [
+          "Hver elev får én terning og et blankt ark.",
+          "Eleven kaster terningen 20 ganger.",
+          "Etter hvert kast noterer de tallet som kommer opp.",
+          "Etter 20 kast, lager eleven et skjema der de teller hvor mange ganger hvert tall (1–6) ble kastet.",
+          "De regner ut hvor stor andel (i brøkform) hvert tall fikk."
+        ],
+        "examples": [
+          "En elev fikk tallet 3 hele 6 ganger. Det gir 6/",
+          "Tallet 1 kom bare 2 ganger = 2/",
+          "Tallet 5 kom 4 ganger = 4/",
+          "Elevene sammenligner resultatene."
+        ],
+        "reflection": [
+          "Hvor mange ganger fikk du hver side?",
+          "Hvilken side fikk du flest ganger?",
+          "Hva ble brøken for tallet 2?",
+          "Er det sikkert at alle tallene kommer like mange ganger?"
+        ],
+        "tips": [
+          "Lærer kan bruke felles oppsummering på tavla og lage søylediagram med klassen. Be elevene sammenligne resultatet sitt med andres."
+        ],
+        "extra": [
+          "printouts av telleark"
+        ]
+      }
+    },
+    {
+      "id": "D0604",
+      "title": "Terningkamp",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Terning",
+      "groupsize": "3 - 4",
+      "learning_goal": "diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten lærer elevene hvor sannsynlig det er at et bestemt tall dukker opp ved å kaste terninger"
+        ],
+        "main": [
+          "Del elevene inn i grupper på 3–",
+          "Hver gruppe får én terning.",
+          "Hver elev i gruppa velger ett tall fra 1 til",
+          "Kast terningen 10 ganger (bytt på).",
+          "Etter 10 kast skal gruppa diskutere: Hvor mange ganger kom ditt tall opp? Hva er det som skjedde i brøkform?"
+        ],
+        "examples": [
+          "«Tallet mitt kom opp 3 av 10 ganger → 3/10»"
+        ],
+        "reflection": [
+          "Hvilke tall kom oftest?",
+          "Var det tilfeldig hvem som “vant”?",
+          "Hva burde skjedd om det var helt rettferdig?",
+          "Hva er sannsynligheten for å få et bestemt tall på en terning? (1/6)",
+          "Hva betyr det når vi sier at noe er tilfeldig?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0701",
+      "title": "Marshmallowbalanse",
+      "time": "45",
+      "location": "Inne/Ute",
+      "tools": "Spaghetti, marshmallows",
+      "groupsize": "4-5",
+      "learning_goal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bygge en bro av spaghetti og marshmallows og utforske hvordan balanse og ubalanse kan knyttes til ideen om likninger og ulikskaper."
+        ],
+        "main": [
+          "Del elevene inn i grupper og gi dem en mengde med spaghetti og marshmallows.",
+          "Elevene skal bygge en bro av marshmallows og spagetthi! Pass på at broa er stabil og opprettholder balanse og likevekt",
+          "Etter flere runder spør læreren: “Hvor kan  du legge ting på broa for at det blir likt?” – og diskuterer hva det vil si at noe er i balanse."
+        ],
+        "examples": [],
+        "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0801",
+      "title": "Vikingmarkedet",
+      "time": "45",
+      "location": "Inne/Ute",
+      "tools": "Konkreter, vedlagt skjema",
+      "groupsize": "Alle",
+      "learning_goal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene være vikinger som samler ressurser og bytter dem med hverandre, og trene på å argumentere for verdi og likhet."
+        ],
+        "main": [
+          "Elevene starter som vikinger og får i oppdrag å samle 5–10 ressurser (f.eks. steiner, kongler, skjell, småleker).",
+          "Etter innsamling går de til “markedet” og får bytte med hverandre.",
+          "For hvert bytte må de argumentere: Hva gjør disse to tingene like mye verdt?",
+          "Etterpå lager elevene et enkelt regneark hvor de gir hver gjenstand en “verdi” og fører inn byttene som transaksjoner."
+        ],
+        "examples": [
+          "Elev A har 3 små steiner og bytter dem mot én flat fin kongle. “Denne er stor og sjelden, og jeg synes den er like mye verdt som tre små steiner.” I regnearket setter de verdien 3 for steinene og 3 for kongla."
+        ],
+        "reflection": [
+          "– Hvordan visste du at to ting var like verdifulle?  – Hvilke egenskaper brukte du for å vurdere verdi?  – Hvordan kan du bruke et regneark til å vise hva du byttet og hvor mye det var verdt?"
+        ],
+        "tips": [
+          "La elevene selv finne på “valuta” eller poengsystem i etterarbeidet."
+        ],
+        "extra": [
+          "printout"
+        ]
+      }
+    },
+    {
+      "id": "D0802",
+      "title": "Budsjett på 300 kr",
+      "time": "15",
+      "location": "Inne",
+      "tools": "Papir, Skrivesaker, Prisliste",
+      "groupsize": "3-4",
+      "learning_goal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samarbeide om å lage et enkelt budsjett og ta valg innenfor en økonomisk ramme, samtidig som de lærer å prioritere utgifter."
+        ],
+        "main": [
+          "Del klassen i grupper og gi hver gruppe et budsjettkort: “Dere har 300 kr.”",
+          "Skriv en prisliste på tavla (f.eks. Is: 20 kr, Kino: 100 kr, Tusenfryd: 200 kr, Leker: 60 kr).",
+          "Gruppene skal velge hva de vil bruke pengene på, og fylle ut et enkelt budsjett på papir.",
+          "De må regne ut totalsummen og hvor mye penger de har igjen.",
+          "Etterpå diskuterer dere: Hva prioriterte dere? Hvorfor? Kunne dere fått mer for pengene?"
+        ],
+        "examples": [
+          "En gruppe kjøper én kinobillett (100 kr), én is (20 kr), én leke (60 kr). Total: 180 kr. De har 120 kr igjen og vurderer om de heller burde valgt Tusenfryd."
+        ],
+        "reflection": [
+          "– Hva var viktigst for dere å bruke penger på?  – Hvordan regnet dere ut totalen?  – Hva hadde skjedd om dere hadde hatt 100 kr mer?  – Hvordan kan dere vise valgene deres i et regneark?"
+        ],
+        "tips": [],
+        "extra": [
+          "Printouts av regneark:"
+        ]
+      }
+    },
+    {
+      "id": "D0901",
+      "title": "Hvor lang tid tar det?",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Stoppeklokke",
+      "groupsize": "2-3",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene anså hvor lang tid de bruker på en hverdagslig ting, og deretter utføre øvelsen. Klarer de å gjette riktig tid?"
+        ],
+        "main": [
+          "Del elevene i par eller treere",
+          "Forklar at hver gruppe skal utføre en øvelse",
+          "Elevene skal før de gjør oppgaven, anslå hvor lang tid de tror det vil ta (i sekunder eller minutter).",
+          "En av elevene utfører oppgaven mens en annen tar tiden. Etterpå sammenligner de estimat og faktisk tid.",
+          "Diskuter til slutt i fellesskap:"
+        ],
+        "examples": [
+          "Kle på jakke og sko",
+          "Hente noe fra gangen",
+          "Skrive navnet sitt med én hånd bak ryggen",
+          "Hente og legge tilbake en bok",
+          "Hoppe 10 ganger på ett bein"
+        ],
+        "reflection": [
+          "Hvilken oppgave tok lengst tid?",
+          "Hva var differansen på anslått tid og målt tid?"
+        ],
+        "tips": [
+          "La elevene lage egne oppgaver basert på ting de gjør i hverdagen og få andre til å anslå tid."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0902",
+      "title": "Potetløp",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Potet, skje, stoppeklokke eller tidtaker-app",
+      "groupsize": "2",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene formulere og løse problemer om tid fra egen hverdag ved å måle løpstid i et potetløp."
+        ],
+        "main": [
+          "Del klassen i par.;",
+          "Marker en løype på 10 m tur/retur (20 m totalt).;",
+          "Gi hvert par en potet på en skje og en stoppeklokke eller app.;",
+          "Elev A løper først, mens Elev B måler tiden t₁.;",
+          "Bytt roller, Elev B løper og Elev A måler tiden t₂.;",
+          "Beregn gjennomsnittstiden: (t₁ + t₂) ÷ 2.;",
+          "Diskuter hva denne tiden forteller dere om innsatsen og samarbeidet."
+        ],
+        "examples": [
+          "t₁ = 11 s, t₂ = 13 s → gj.snittstid = (11 + 13) ÷ 2 = 12 s."
+        ],
+        "reflection": [
+          "Hvordan formulerte dere problemet om gjennomsnittstid?;",
+          "Hvilke steg fulgte dere for å finne løsningen?;",
+          "Hvordan kan dere bruke denne metoden til å løse andre tidspreget hverdagsutfordringer?"
+        ],
+        "tips": [
+          "Vis hvordan man skriver problemstillingen på tavla: “Hvor lang tid bruker vi i gjennomsnitt?”; La elevene notere t₁ og t₂ skriftlig før de regner; Oppmuntre dem til å sammenligne resultatene med andre par."
+        ],
+        "extra": [
+          "??"
+        ]
+      }
+    },
+    {
+      "id": "D1001",
+      "title": "Kodekongen!",
+      "time": "15",
+      "location": "Inne/Ute",
+      "tools": "Papir, Skrivesaker",
+      "groupsize": "4-5",
+      "learning_goal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene styre en “robot” ved å lage og gi instruksjoner i form av korte kommandoer, som gjennomføres i rekkefølge. De utforsker vilkår og løkker uten å bruke kodespråk."
+        ],
+        "main": [
+          "Læreren er “robotkongen” som følger instruksjoner slavisk.",
+          "Elevene skriver korte kommandoer på lapper (f.eks. “Gå frem 3 steg”, “Snurr én gang”, “Hopp”).",
+          "De kan legge inn *vilkår* (“Hvis du ser noe grønt – snurr”) og *løkker* (“Gjenta 2 ganger: Gå frem 1 steg, klapp”).",
+          "Lærer følger lappene i rekkefølge. Elevene observerer og justerer.",
+          "Etterpå diskuterer dere: Hva fungerte? Hva er en “løkke”?"
+        ],
+        "examples": [
+          "Hvis robotkongen får: “Gå frem 1 steg”, “Gjenta 2 ganger: klapp og hopp”, “Hvis du ser en grønn ting – snurr”, så utfører læreren alt i rekkefølge og elevene ser hvordan instruksjonene virker."
+        ],
+        "reflection": [
+          "– Hva betyr det å *gjenta* noe i en algoritme?  – Hva skjer hvis vi ikke skriver riktig rekkefølge?  – Hvordan vet roboten hva den skal gjøre?  – Hva er en *hvis",
+          "setning* og når brukte dere det?"
+        ],
+        "tips": [
+          "La elevene være roboter for hverandre."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "D1002",
+      "title": "Hvis-så!",
+      "time": "5",
+      "location": "Inne /Ute",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+      "content": {
+        "introduction": [
+          "I denne leken skal elevene følge og lage egne “hvis–så”",
+          "regler basert på klærne til hverandre – akkurat som en datamaskin følger programmeringskode."
+        ],
+        "main": [
+          "Be elevene se rundt seg og observere klærne til klassekameratene.",
+          "Skriv opp ulike “algoritme-regler” på tavla",
+          "Deretter legger du til en løkke (feks gjenta reglene 3 ganger).",
+          "La elevene prøve dette i praksis, en og en, eller i par."
+        ],
+        "examples": [
+          "Variabel: plagg =  hettegenser. Vilkår: Hvis plagg er rød → reis deg. Hvis plagg har hette → klapp to ganger.",
+          "Hvis noen har på seg røde sokker, så klapp tre ganger.",
+          "Hvis du ser noen med briller, så hopp én gang.",
+          "Gjenta å snurre én gang for hver person med en caps i rommet.",
+          "Antall elever med hettegenser = Y → Hvis Y = 0, så gjør robotdans i 3 sekunder."
+        ],
+        "reflection": [
+          "La elevene lage egne algoritme",
+          "regler"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    }
+  ]
+}

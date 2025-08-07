@@ -25,16 +25,22 @@ const gradeFileMap: { [key: string]: string } = {
   "Sjuende årstrinn": "7.grade.json",
 };
 
-// Extract learning goal number from activity ID (format: AXXYY where XX is learning goal number)
+// Extract learning goal number from activity ID (format: PXXYY where P is grade prefix, XX is learning goal number)
 function extractLearningGoalNumber(activityId: string): number | null {
-  if (activityId.length >= 5 && activityId.startsWith('A')) {
-    // Extract XX from AXXYY format (positions 1-2 after 'A')
-    const lgStr = activityId.substring(1, 3);
-    const lgNum = parseInt(lgStr, 10);
+  if (activityId.length >= 5) {
+    // Check for grade prefixes: A (2nd), B (3rd), C (4th), D (5th), E (6th), F (7th)
+    const gradePrefix = activityId.charAt(0);
+    const validPrefixes = ['A', 'B', 'C', 'D', 'E', 'F'];
     
-    // Validate that it's a reasonable learning goal number (1-13 for 2nd grade)
-    if (!isNaN(lgNum) && lgNum >= 1 && lgNum <= 13) {
-      return lgNum;
+    if (validPrefixes.includes(gradePrefix)) {
+      // Extract XX from PXXYY format (positions 1-2 after prefix)
+      const lgStr = activityId.substring(1, 3);
+      const lgNum = parseInt(lgStr, 10);
+      
+      // Validate that it's a reasonable learning goal number (1-15 to accommodate different grades)
+      if (!isNaN(lgNum) && lgNum >= 1 && lgNum <= 15) {
+        return lgNum;
+      }
     }
   }
   return null;
@@ -47,9 +53,9 @@ function extractLearningGoalFromSelection(selectedGoal: string): number | null {
   const matches = selectedGoal.match(/(\d+)/g);
   if (matches) {
     // Find the learning goal number (usually the first or largest number)
-    const numbers = matches.map(m => parseInt(m, 10)).filter(n => n >= 1 && n <= 13);
+    const numbers = matches.map(m => parseInt(m, 10)).filter(n => n >= 1 && n <= 15);
     if (numbers.length > 0) {
-      // If we have multiple numbers, prefer the one that looks like a learning goal (1-13)
+      // If we have multiple numbers, prefer the one that looks like a learning goal (1-15)
       return numbers.find(n => n >= 10) || numbers[0];
     }
   }
@@ -341,7 +347,7 @@ export function useActivities(
               const searchGoalNumber = extractLearningGoalFromSelection(selectedGoal);
               const activityGoalNumber = extractLearningGoalNumber(gradeActivity.id);
               
-              // Debug logging for learning goals 10-13
+              // Debug logging for learning goals 10+
               if (searchGoalNumber && searchGoalNumber >= 10) {
                 console.log(`DEBUG: Filtering for LG ${searchGoalNumber}`);
                 console.log(`Activity ${gradeActivity.id}: extracted LG ${activityGoalNumber}`);
