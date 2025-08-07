@@ -52,8 +52,8 @@ function InfoTask() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
-      <Navbar backgroundColor="bg-white" />
+    <div className="flex flex-col min-h-screen bg-gray-50">
+      <Navbar backgroundColor="bg-gray-50" />
 
       {/* Innholdsseksjon med relativ posisjon for knappen */}
       <div className="relative flex-1 px-4">

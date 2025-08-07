@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
 
   return (
     <nav
-      className={`sticky top-0 z-50 ${backgroundColor} py-4 px-6`}
+      className={`sticky top-0 z-50 border ${backgroundColor} py-4 px-6`}
       role="navigation"
       aria-label="Hovednavigasjon"
     >
