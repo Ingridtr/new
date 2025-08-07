@@ -166,7 +166,7 @@ function InfoTask() {
               )}
           </div>
 
-          <div className="flex flex-col space-y-6 flex-1">
+          <div className="flex flex-col space-y-6 flex-1 pl-8">
             {/* Introduction Section */}
             <h1>{activity.title}</h1>
             {activity.gradeContent?.introduction &&
