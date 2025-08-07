@@ -12,7 +12,7 @@
       "learning_goal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samarbeide om å koble brøk, desimaltall og prosent ved hjelp av papir",
+          "I denne aktiviteten skal læreren være kongen i kongen befaler og gi én befaling om at elevene må dele opp en pizza i like store deler, seg i mellom.",
           "pizzastykker."
         ],
         "main": [
@@ -44,25 +44,26 @@
       "learning_goal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
       "content": {
         "introduction": [
-          "BINGO! I denne aktiviteten skal elevene finne sammenhengen mellom ulike representasjoner av samme verdi ved hjelp av et bingospill."
+          "BINGO! I denne aktiviteten skal elevene finne sammenhengen mellom brøk, prosent og desimaltall ved hjelp av et bingospill."
         ],
         "main": [
           "Print ut vedlagte bingokort.",
           "Del klassen i par og del ut bingokort til hvert par.",
           "Læreren trekker ett og ett tallkort og sier verdien høyt, for eksempel “0,25”.",
           "Elevene må finne riktig rute med samme verdi, men i en annen form, f.eks. “1/4” eller “25 %”.",
-          "Det første parret som får én, to eller tre rekker roper “Bingo!”.",
+          "Det første paret som får éntre rekke roper “Bingo!”.",
           "De som får bingo må forklare hvilke ruter de hadde, og hvordan de visste at de hørte sammen."
+          
         ],
         "examples": [
-          "Læreren sier “0,25”, og eleven krysser av på “1/4”. Når eleven får Bingo, forklarer de: “Jeg krysset av 1/4, fordi det er det samme som 0,25 – altså 25 prosent.”"
+          "Læreren sier “0,25”, og eleven krysser av på “1/4”. Når eleven får Bingo, forklarer de: “Jeg krysset av 1/4, fordi det er det samme som 0,25, altså 25 prosent.”"
         ],
         "reflection": [
           "Hvordan visste du at 1/4 og 0,25 hører sammen?",
           "Hva er forskjellen på prosent og desimaltall?",
           "Hvordan kan du bruke det du lærte i dag i andre situasjoner?"
         ],
-        "tips": [],
+        "tips": ["Øvelsen kan også spilles med flere rekker."],
         "extra": []
       }
     },
@@ -79,15 +80,15 @@
           "Er du kald, varm eller helt passe? I denne aktiviteten skal elevene bruke kroppen til å utforske temperaturendringer og bevege seg på en tallinje med både positive og negative tall."
         ],
         "main": [
-          "Lag en stor tallinje ute på bakken fra +10 til –10 med kritt. Hvis det er plass er det fint å fordele seg på flere tallinjer.",
           "Del klassen i grupper på 6–7",
+          "Lag tallinjer til antall grupper ute på bakken fra +10 til –10 med kritt.",
           "Fortell at 0 er startposisjon, og at mellom hver oppgave skal alle tilbake hit.",
-          "Én og én elev trekker et kort, for eksempel: «det blir 3 grader kaldere».",
+          "Læreren sier befalinger, for eksempel: «det blir 3 grader kaldere».",
           "Gruppen beveger seg tilsvarende antall trinn bakover eller fremover på tallinjen.",
           "På hvert nytt tall skal elevene utføre en bevegelse som passer til temperaturen: gå vanlig dersom det blir varmere, gni hendene dersom det blir kaldere, hopp og skjelv ved minusgrader (alt under 0), legg seg ned ved ekstrem kulde (dersom man når -10)."
         ],
         "examples": [
-          "Gruppen står på 0 og trekker “–4 grader”. De flytter seg til –4 og begynner å gjøre småhopp og late som de skjelver."
+          "Gruppen står på 0 og trekker “ minus 4 grader”. De flytter seg til minus 4 og begynner å gjøre småhopp og late som de skjelver."
         ],
         "reflection": [
           "Hvordan kjente dere igjen hvilke tall som var negative?",
@@ -104,38 +105,36 @@
     },
     {
       "id": "F0302",
-      "title": "Steingjetting",
+      "title": "Byttehandel av stein",
       "time": "15",
       "location": "Ute",
-      "tools": "Småstein, beger/kopp, ark og blyant",
+      "tools": "Småstein,Kopp",
       "groupsize": "2",
       "learning_goal": "utforske negative tal i praktiske situasjonar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske negative tall ved å betale differanser i et steingjettingspill og se hvordan gjeld fungerer."
+          "I denne aktiviteten skal elevene utforske negative tall ved å gi og ta stein."
         ],
         "main": [
-          "Presenter aktiviteten og del klassen i par.",
-          "Gå ut i skolegården og gi hvert par 10–30 små steiner i hvert sitt beger.",
-          "Elev A gjemmer et antall steiner i knyttet hånd mens B lukker øynene.;",
-          "Elev B gjetter antall steiner.;",
-          "Hvis gjetningen er riktig, får B de gjetta steinene.;",
-          "Hvis gjetningen er feil, må B “betale” A antall steiner lik differansen (gjetning – faktisk);",
-          "Bytt roller og fortsett til én parter har mistet alle steinene."
+          "Del klassen i par.",
+          "Be barne gå ut og finne 10 småstein hver.",
+          "Elev A gjemmer et antall steiner i knyttet hånd bak ryggen mens B lukker øynene.",
+          "Elev B gjetter antall steiner elev A har.",
+          "Hvis gjetningen er riktig, får B disse steinene.",
+          "Hvis gjetningen er feil, må B “betale” A antall steiner elev B har gjettet feil.",
+          "Bytt roller og fortsett til én elev har mistet alle steinene."
         ],
         "examples": [
-          "Gruppespill: A hadde 15 steiner, B gjettet 12 → differanse 3, B betaler 3 til A og får saldo –3; neste runde bytter de rolle."
+          "A hadde 15 steiner og B gjettet 12. Da må elev B gi 3 steiner til elev A."
         ],
         "reflection": [
           "Hvordan kan vi skrive minus 3 med negativt tall?",
-          "Hjalp spillet deres å forstå noe om gjeld (å skylde noen)?"
+          "Hjalp spillet å forstå hvordan man regner differanse?"
         ],
         "tips": [
-          "– Oppmuntre elevene til å si høyt når de “betaler” (f.eks. “Jeg skylder 3”)."
+          "Oppmuntre elevene til å si \"Du skylder meg... steiner\""
         ],
-        "extra": [
-          "??"
-        ]
+        "extra": []
       }
     },
     {
@@ -148,25 +147,24 @@
       "learning_goal": "bruke tallinje i rekning med positive og negative tal",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bruke tallinjen for å regne med positive og negative tall ved å navigere mellom tidssoner."
+          "I denne aktiviteten skal elevene bruke tallinjen for å regne med positive og negative tall ved å navigere mellom tidssoner. Her jobber elevene i par der en er pilot og en er flyleder. Flylederens oppgave er å gi instruksjoner til piloten. Pilotens oppgave er å følge instruksjonene og telle seg frem til riktig tidssone."
         ],
         "main": [
           "Print ut vedlagte reisekort,startkort og stedskort",
-          "Lag en stor horisontal tallinje ute  fra –12 til +12, og merk sonene med land og flagg.",
+          "Lag en stor horisontal tallinje ute  fra –12 til +12, og merk sonene med land.",
           "Del elevene i par: én er pilot, én er flyleder.",
-          "Flylederen trekker et startkort med en starttidssone.",
-          "Flylederen trekker deretter et pilotkort og gir en kommando med retningsendring i tidssoner (f.eks. \"Fly 6 soner vestover (mot venstre)\").",
-          "Piloten går fysisk langs tallinja og teller høyt mens han/hun flytter seg.",
+          "Flylederen trekker et startkort med en tidssone.",
+          "Flylederen trekker deretter et pilotkort og gir en kommando med retningsendring i tidssoner (Eks: Fly 6 soner mot venstre).",
+          "Piloten går fysisk langs tallinja og teller høyt mens piloten flytter seg.",
           "Piloten stopper i ny tidssone og leser landet.",
-          "De noterer startpunkt og endepunkt.",
           "Bytt roller og gjenta."
         ],
         "examples": [
-          "Flyleder sier: Dere skal fra Nairobe til Santiago i Chile! =3 – 6 = –3 (start i Nairobi, lander i Santiago 🇨🇱)"
+          "Flyleder sier: Du skal 6 skritt til venstre, hvor landet du?"
         ],
         "reflection": [
-          "Hva skjer når vi flyr østover?",
-          "Hva med vestover?",
+          "Hva skjer når vi flyr mot høyre?",
+          "Hva med venstre?",
           "Hvilke regnestykker måtte dere gjøre?",
           "Hvordan kan du vite at du havnet riktig uten å gå hele veien?"
         ],
@@ -189,14 +187,15 @@
       "learning_goal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene løse matematiske gåter på ulike poster og kombinere delresultater til å finne ett felles svar."
+          "I denne aktiviteten skal elevene løse matematiske gåter på ulike poster og komme frem til et felles tall."
         ],
         "main": [
           "Print ut vedlagte gåter",
-          "Del elevene i grupper på",
-          "Lag 6 poster med hver sin gåte (gåtene handler om tekstforståelse og samansette rekneuttrykk).",
+          "Del elevene i grupper på 5 til 6",
+          "Lag 6 poster med hver sin gåte.",
+          "Alle postene har samme tallsvar, så dette er lurt på holde hemmelig.",
           "Elevene går fra post til post og løser gåtene sammen – hver gåte gir dem et tall.",
-          "Når alle postene er fullført, skal de bruke svarene for å finne ut hva som er felles – nemlig tallet",
+          "Når alle postene er fullført, skal de finne ut hva som er det hemmelige tallet– nemlig tallet 16",
           "Klassen samles til slutt for å diskutere hvordan de løste uttrykkene."
         ],
         "examples": [
@@ -208,7 +207,8 @@
           "Hvilke strategier hjalp gruppa deres å samarbeide?"
         ],
         "tips": [
-          "Vis hintkort for grupper som står fast."
+          "Vis hintkort for grupper som står fast.",
+          "Tilpass gåtene og det hemmelige tallet ved gjenbruk av aktiviteten. "
         ],
         "extra": [
           "printOuts/F0501.docx"
@@ -225,23 +225,27 @@
       "learning_goal": "bruke ulike strategiar for å løyse lineære likningar og ulikskapar og vurdere om løysingar er gyldige",
       "content": {
         "introduction": [
-          "I denne leken skal elevene bytte på å tenke på et tall for variabelen x, og den andre eleven skal prøve å gjette hva x er."
+          "I denne leken skal to par bytte på å tenke på et tall for variabelen x, og gjette hva x er. Par 1 tenker på et tall for x, og par 2 prøver å gjette svaret på likningen. Deretter bytter de roller."
         ],
         "main": [
-          "Én elev i hver gruppe blir \"X-mesteren\" og snur ryggen til de to andre.",
-          "De to andre elevene blir enige om et hemmelig tall for x (f.eks. x = 4).",
-          "Læreren leser opp en likning høyt til hele klassen (f.eks. \"x + 2 = ?\").",
-          "De to elevene som kjenner x, regner ut svaret (f.eks. 4 + 2 = 6) og viser det med kroppen (f.eks. hopper 6 ganger, klapper 6 ganger eller holder opp 6 fingre).",
-          "X-mesteren snur seg, observerer bevegelsene og gjetter svaret på likningen (f.eks. \"Svaret er 6\").",
-          "Hvis svaret er riktig, skal de to elevene vise hvilket tall x er (f.eks. ved å hoppe 4 ganger).",
-          "X-mesteren forsøker nå å finne ut hvilket tall x er, og sier svaret høyt (f.eks. \"Da må x være 4!\").",
-          "X-mesteren skriver ned likningen og løsningen på et ark (f.eks. \"x + 2 = 6, x = 4\") og viser det til de to andre i gruppa.",
-          "De to andre verifiserer at løsningen er riktig.",
-          "Bytt roller slik at alle i gruppa får prøve å være både X-mester og \"visere\"."
+          "Par 1 snur rygen til de to andre.",
+          "Par 2 blir enige om et hemmelig tall for x (f.eks. x = 1).",
+          "Læreren leser opp en likning høyt til hele klassen (f.eks. x + 2 = ?).",
+          "Par 2 regner ut svaret (f.eks. 1 + 2 = 3) og viser det med kroppen (f.eks. hopper 3 ganger, klapper 3 ganger eller holder opp 3 fingre).",
+          "Par 1 snur seg, observerer bevegelsene og gjetter svaret på likningen (f.eks. \"Svaret er 3\").",
+          "Nå vet Par 1 at likningen er 3 og skjønner da at x må være 1.",
+          "Par 1 responderer Par 2 med å gjøre en bevegelse som viser x (f.eks. hopper 1 gang).",
+          "Læreren spør til slutt gruppene: \"Hva var x, og hva var svaret?\""
+
         ],
         "examples": [
-          "Elevene i en gruppe bestemmer at x =",
-          "Læreren sier: x + 5 = ?\" De to viser tallet 8 med kroppen – for eksempel ved å:  - Hoppe 8 ganger - Klappe 8 ganger - Vise 8 fingre X-mesteren snur seg, ser bevegelsene og sier:  \"Svaret er 8!\"  De to andre elevene nikker, og viser nå x = 3 ved å: -  Hoppe 3 ganger  X-mesteren sier:  \"Da må x være 3!\"  X-mesteren skriver ned likningen: x + 5 = 8 x = 3   De to andre elevene leser og bekrefter svaret. Så bytter de roller slik at en ny elev er X-mester."
+          "Par 2 bestemmer at x=3",
+          "Læreren sier: x + 1 = ?",
+          "Par 2 viser tallet 4 med kroppen, ved for eksempel hoppe/snurre/klappe 4 ganger.",
+          "Par 1 regner: x+1=4, ergo x må være 3.",
+          "Par 1 hopper/snurrer/klapper 3 ganger til Par 1.",
+          "Lærer spør: Hva var svaret?",
+          "Par 1 svarer: x må være 3 "
         ],
         "reflection": [
           "Hvordan hjalp kroppslig aktivitet deg å forstå likningen?",
@@ -258,20 +262,20 @@
       "id": "F0701",
       "title": "Tall-agentene",
       "time": "5",
-      "location": "Inne",
+      "location": "Inne/Ute",
       "tools": "Ingen",
       "groupsize": "3-4",
       "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene være små statistikere! De får velge et spørsmål, samle inn ekte data fra medelever, og bruke statistiske mål som gjennomsnitt, typetall og median for å utforske resultatene. Til slutt sammenlignes funnene – og vi ser hvilken informasjon de ulike målene faktisk gir oss."
+          "I denne aktiviteten skal elevene være små statistikere! De får velge et spørsmål, samle inn ekte data fra medelever, og bruke det til å renge ut gjennomsnitt, typetall og median. Til slutt sammenlignes funnene – og vi ser hvilken informasjon de ulike målene faktisk gir oss."
         ],
         "main": [
           "Del klassen inn i grupper på 3–4 elever.",
           "Gi hver gruppe et spørsmål å undersøke (f.eks. «Hvor mange søsken har dere?», «Hvor mange minutter bruker dere på lekser hver dag?»).",
           "Gruppa samler inn svar fra de andre i klassen.",
-          "Sammen skal de finne: gjennomsnitt, typetall, median",
-          "Klassen diskuterer funnne samlet"
+          "Etterpå samles samles gruppa og regner ut: gjennomsnitt, typetall, median",
+          "Klassen diskuterer funnne samlet."
         ],
         "examples": [
           "Hvor mange søsken har dere ?",
@@ -298,17 +302,16 @@
       "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samle inn data, organisere den i tabeller og presentere resultatene i diagram."
+          "I denne aktiviteten skal elevene samle inn informasjon, organisere den i tabeller og presentere resultatene i diagram."
         ],
         "main": [
-          "Print ut vedlagte registreringsskjema",
-          "La gruppene velge 2-3 temaer for datainnsamling.",
+          "Print ut vedlagte registreringsskjema.",
+          "La gruppene velge 2-3 temaer.",
           "Elevene går ut og registrerer data med skjemaer, fordelt på temaene.",
-          "Tilbake i klasserommet: organiser data i tabell og lag et diagram.",
-          "Gruppene presenterer funnene og forklarer valgene sine."
+          "Tilbake i klasserommet: organiser data i tabell og lag et diagram."
         ],
         "examples": [
-          "Mulige temaer: Biltyper utenfor skolen – SUV, elbil, varebil, liten bil, stor bil. Sparkesykler og sykler på skoleområdet – Elektrisk sparkesykkel, vanlig sparkesykkel, barnesykkel, sykkel med støttehjul. Kjæledyr i klassen – Hund, katt, hamster, fisk, kanin. Fuglearter observert i skolegården – Kråke, due, spurv, måke, blåmeis. Farger på jakker i garderoben – Rød, blå, grønn, svart, gul. Insekter funnet ute – Maur, marihøne, sommerfugl, bille, bie. Antall søppelbiter i skolegården – Plast, papir, matavfall, metall, annet."
+          "Mulige temaer: - Biltyper – Sykler – Kjæledyr i klassen – Fuglearter i skolegården – Farger på jakker - Insekter funnet ute - Antall søppelbiter i skolegården "
         ],
         "reflection": [
           "Hvordan bestemte dere hvilke data dere ville samle inn?",
@@ -333,8 +336,7 @@
       "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samle inn data gjennom å ha et mini",
-          "OL og bruke resultatene til å lage tabeller og diagram."
+          "I denne aktiviteten skal elevene samle inn data gjennom å ha et mini-OL og bruke resultatene til å lage tabeller og diagram."
         ],
         "main": [
           "Print ut vedlagte skjemaer",
