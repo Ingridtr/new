@@ -438,7 +438,7 @@
           "Bruk musikk for å få det mer lekent. Hvis det er noen som er usikre, sett dem i par slik at man kan prøve å mime sammen."
         ],
         "extra": [
-          "Printout laget"
+          "printOuts/A0206.png"
         ]
       }
     },
@@ -471,7 +471,9 @@
         "tips": [
           "Kan også brukes til å innføre begreper som oddetall og partall, plassering, og tallinjer."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A0301.png"
+        ]
       }
     },
     {
@@ -832,7 +834,20 @@
           "lapper i stedet for én 100",
           "lapp."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A0502_penger.png",
+          "printOuts/A0502_ryggsekk.png",
+          "printOuts/A0502_fotball.png",
+          "printOuts/A0502_lekebil.png",
+          "printOuts/A0502_bamse.png",
+          "printOuts/A0502_eventyr.png",
+          "printOuts/A0502_melk.png",
+          "printOuts/A0502_sykkel.png",
+          "printOuts/A0502_t-skjorte.png",
+          "printOuts/A0502_pizza.png",
+          "printOuts/A0502_iskrem.png",
+          "printOuts/A0502_juice.png"
+        ]
       }
     },
     {
@@ -1065,7 +1080,9 @@
         "tips": [
           "Tegn tall i rutene for å styrke koblingen til tallinje. Still spørsmål som “Hvilket tall kommer før/etter?”. Tilpass vanskelighetsgrad ved å endre antall ruter."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A0605.png"
+        ]
       }
     },
     {
@@ -1274,7 +1291,12 @@
         "tips": [
           "Bytt ut trygge tall og legg inn nye summer etter hvert. Diskuter hvordan ulike kombinasjoner gir samme resultat (f.eks. 3+5 og 5+3)."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A0802_5.png",
+          "printOuts/A0802_4.png",
+          "printOuts/A0802_6.png",
+          "printOuts/A0802_3.png"
+        ]
       }
     },
     {
@@ -1370,7 +1392,9 @@
         "tips": [
           "La elevene selv velge rekkefølge på figurene, og snakk om hvordan lengden rundt påvirker hvor sliten man blir. Marker figurene på bakken med tau eller kjegler hvis det er vanskelig å se formen."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A1001.png"
+        ]
       }
     },
     {
@@ -1439,7 +1463,11 @@
         "tips": [
           "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/A1003_firkant.png",
+          "printOuts/A1003_trekant.png",
+          "printOuts/A1003_sirkel.png"
+        ]
       }
     },
     {
