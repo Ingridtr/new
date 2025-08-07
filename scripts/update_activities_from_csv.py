@@ -108,6 +108,36 @@ def load_existing_grade_data(grade_file_path: str) -> Dict[str, Any]:
             "activities": []
         }
 
+def show_activity_differences(old_activity: Dict[str, Any], new_activity: Dict[str, Any], activity_id: str) -> None:
+    """Show what fields are being updated in an activity."""
+    changes = []
+    
+    # Check top-level fields
+    for field in ['title', 'time', 'location', 'tools', 'groupsize', 'learning_goal', 'image']:
+        old_value = old_activity.get(field, '')
+        new_value = new_activity.get(field, '')
+        if old_value != new_value:
+            changes.append(f"    {field}: '{old_value}' → '{new_value}'")
+    
+    # Check content fields
+    old_content = old_activity.get('content', {})
+    new_content = new_activity.get('content', {})
+    
+    for content_field in ['introduction', 'main', 'examples', 'reflection', 'tips', 'extra']:
+        old_value = old_content.get(content_field, [])
+        new_value = new_content.get(content_field, [])
+        if old_value != new_value:
+            old_str = ' | '.join(old_value) if isinstance(old_value, list) else str(old_value)
+            new_str = ' | '.join(new_value) if isinstance(new_value, list) else str(new_value)
+            changes.append(f"    content.{content_field}: '{old_str}' → '{new_str}'")
+    
+    if changes:
+        print(f"  📝 Changes for {activity_id}:")
+        for change in changes[:5]:  # Limit to first 5 changes to avoid spam
+            print(change)
+        if len(changes) > 5:
+            print(f"    ... and {len(changes) - 5} more changes")
+
 def create_activity_from_csv_row(row: Dict[str, str]) -> Dict[str, Any]:
     """Create activity object from CSV row data."""
     # Clean up the row data
@@ -121,6 +151,10 @@ def create_activity_from_csv_row(row: Dict[str, str]) -> Dict[str, Any]:
         "tools": cleaned_row.get('Tools', ''),
         "groupsize": cleaned_row.get('Groupsize', ''),
         "learning_goal": cleaned_row.get('Learning goal', ''),
+        # Add image field if present in CSV
+        "image": cleaned_row.get('Image', ''),
+        # Add learningGoals array if present (for compatibility)
+        "learningGoals": parse_text_content(cleaned_row.get('Learning goal', '')),
         "content": {
             "introduction": parse_text_content(cleaned_row.get('Introduction', '')),
             "main": parse_text_content(cleaned_row.get('Main', '')),
@@ -130,6 +164,13 @@ def create_activity_from_csv_row(row: Dict[str, str]) -> Dict[str, Any]:
             "extra": parse_text_content(cleaned_row.get('Extra', ''))
         }
     }
+    
+    # Remove empty fields to keep JSON clean
+    activity = {k: v for k, v in activity.items() if v or k in ['content']}
+    
+    # Clean up content - remove empty content sections
+    if 'content' in activity:
+        activity['content'] = {k: v for k, v in activity['content'].items() if v}
     
     return activity
 
@@ -144,7 +185,8 @@ def update_activities_from_csv(csv_files: List[str],
                              output_dir: str = "./public/activityData/grades", 
                              force_grade: str = None,
                              create_backup: bool = False,
-                             dry_run: bool = False) -> None:
+                             dry_run: bool = False,
+                             allow_deletion: bool = True) -> None:
     """Update JSON files with activities from CSV files."""
     
     # Ensure output directory exists
@@ -152,6 +194,8 @@ def update_activities_from_csv(csv_files: List[str],
     
     # Dictionary to store all changes by grade
     changes_by_grade: Dict[str, Dict[str, List[Dict[str, Any]]]] = {}
+    # Track all activity IDs found in CSV files by grade
+    csv_activity_ids_by_grade: Dict[str, set] = {}
     
     # Process each CSV file
     for csv_file in csv_files:
@@ -186,6 +230,11 @@ def update_activities_from_csv(csv_files: List[str],
                     # Initialize grade in changes dict
                     if grade not in changes_by_grade:
                         changes_by_grade[grade] = {"new": [], "updated": []}
+                    if grade not in csv_activity_ids_by_grade:
+                        csv_activity_ids_by_grade[grade] = set()
+                    
+                    # Track this activity ID as present in CSV
+                    csv_activity_ids_by_grade[grade].add(activity['id'])
                     
                     changes_by_grade[grade]["new"].append(activity)
                     
@@ -205,34 +254,63 @@ def update_activities_from_csv(csv_files: List[str],
         # Create a map of existing activities by ID for quick lookup
         existing_by_id = {activity["id"]: activity for activity in existing_activities}
         
+        print(f"\n🎯 Processing grade: {grade}")
+        print(f"   📁 File: {grade_file_path}")
+        print(f"   📊 Existing activities: {len(existing_activities)}")
+        print(f"   📄 CSV activities: {len(csv_activity_ids_by_grade.get(grade, set()))}")
+        
         # Separate new activities from updates
         new_activities = []
         updated_activities = []
+        deleted_activities = []
         
         for activity in changes["new"]:
             if activity["id"] in existing_by_id:
+                # This is an update to an existing activity
                 updated_activities.append(activity)
+                print(f"🔄 Found existing activity to update: {activity['id']} - {activity['title']}")
             else:
+                # This is a new activity
                 new_activities.append(activity)
+                print(f"➕ Found new activity to add: {activity['id']} - {activity['title']}")
+        
+        # Find activities that exist in JSON but not in CSV (these should be deleted)
+        csv_ids = csv_activity_ids_by_grade.get(grade, set())
+        if allow_deletion:
+            for existing_activity in existing_activities:
+                if existing_activity["id"] not in csv_ids:
+                    deleted_activities.append(existing_activity)
+                    print(f"🗑️  Found activity to delete: {existing_activity['id']} - {existing_activity.get('title', 'No Title')}")
+        else:
+            print(f"ℹ️  Deletion disabled - keeping all existing activities")
         
         # Update existing activities and add new ones
         final_activities = []
         
-        # Keep existing activities, update if needed
+        # Process existing activities, replace with updated version if available, skip deleted ones
         for existing_activity in existing_activities:
             activity_id = existing_activity["id"]
+            
+            # Skip activities that should be deleted (only if deletion is allowed)
+            if allow_deletion and activity_id not in csv_ids:
+                continue
+            
             updated_activity = next((a for a in updated_activities if a["id"] == activity_id), None)
             
             if updated_activity:
+                # Replace existing activity with updated data from CSV
                 final_activities.append(updated_activity)
-                print(f"🔄 Will update activity {activity_id}: {updated_activity['title']}")
+                print(f"🔄 Updated activity {activity_id}: {updated_activity['title']}")
+                if not dry_run:  # Only show detailed changes in non-dry-run mode to avoid spam
+                    show_activity_differences(existing_activity, updated_activity, activity_id)
             else:
+                # Keep existing activity as-is (it exists in CSV but wasn't changed, or deletion is disabled)
                 final_activities.append(existing_activity)
         
-        # Add new activities
+        # Add all new activities
         for new_activity in new_activities:
             final_activities.append(new_activity)
-            print(f"➕ Will add new activity {new_activity['id']}: {new_activity['title']}")
+            print(f"➕ Added new activity {new_activity['id']}: {new_activity['title']}")
         
         # Create updated grade data
         updated_grade_data = {
@@ -245,7 +323,15 @@ def update_activities_from_csv(csv_files: List[str],
         print(f"\n📊 Summary for {grade}:")
         print(f"   📈 New activities: {len(new_activities)}")
         print(f"   🔄 Updated activities: {len(updated_activities)}")
-        print(f"   📝 Total activities: {len(final_activities)}")
+        print(f"   �️  Deleted activities: {len(deleted_activities)}")
+        print(f"   �📝 Total activities: {len(final_activities)} (was {len(existing_activities)})")
+        
+        if deleted_activities:
+            print(f"   📋 Deleted activity details:")
+            for deleted in deleted_activities[:5]:  # Show first 5 deleted activities
+                print(f"      - {deleted['id']}: {deleted.get('title', 'No Title')}")
+            if len(deleted_activities) > 5:
+                print(f"      ... and {len(deleted_activities) - 5} more")
         
         if dry_run:
             print(f"   🧪 [DRY RUN] Would save to: {grade_file_path}")
@@ -288,6 +374,8 @@ Examples:
                        help='Create backup files before making changes')
     parser.add_argument('--dry-run', action='store_true',
                        help='Show what would be changed without making actual changes')
+    parser.add_argument('--no-delete', action='store_true',
+                       help='Prevent deletion of activities not found in CSV (only add/update)')
     
     args = parser.parse_args()
     
@@ -306,6 +394,8 @@ Examples:
         print(f"💾 Backup enabled")
     if args.dry_run:
         print(f"🧪 DRY RUN mode - no files will be modified")
+    if args.no_delete:
+        print(f"🚫 Deletion disabled - will only add and update activities")
     print()
     
     update_activities_from_csv(
@@ -313,7 +403,8 @@ Examples:
         args.output_dir,
         args.force_grade,
         args.backup,
-        args.dry_run
+        args.dry_run,
+        not args.no_delete  # allow_deletion is opposite of no_delete
     )
 
 if __name__ == "__main__":
