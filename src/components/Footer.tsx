@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-gray-200 w-full mt-auto py-4 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+    <footer className="bg-gray-50 border-2  w-full mt-auto py-4 px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
       <div className="flex gap-4 items-center">
         <a href="https://udir.no" target="_blank" rel="noopener noreferrer">
           <img src="/udir_logo.png" alt="Udir Logo" className="h-6 w-auto" />

@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
             />
           </button>
           <button
-            className="lg:text-3xl sm:text-xl font-semi-bold cursor-pointer text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+            className="text-2xl font-semi-bold cursor-pointer text-black hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
             onClick={() => navigate("/")}
             aria-label="Kalkulek - gå til forsiden"
           >
