@@ -24,7 +24,7 @@ function GameSelection() {
   const navigate = useNavigate();
   
   // Only fetch activities after we've initialized the state from localStorage
-  const { activities } = useActivities(
+  const { activities, loading } = useActivities(
     isInitialized ? selectedGrade : null, 
     isInitialized ? selectedGoal : null
   );
@@ -36,6 +36,22 @@ function GameSelection() {
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
+  // Show loading while fetching/filtering activities
+  if (loading) {
+    return (
+      <div className="flex flex-col min-h-screen bg-gray-50">
+        <Navbar />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Laster aktiviteter...</p>
+          </div>
         </div>
         <Footer />
       </div>
