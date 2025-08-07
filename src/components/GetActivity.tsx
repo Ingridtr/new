@@ -22,7 +22,7 @@ const gradeFileMap: { [key: string]: string } = {
   "Fjerde årstrinn": "4.grade.json",
   "Femte årstrinn": "5.grade.json",
   "Sjette årstrinn": "6.grade.json",
-  "Sjuende årstrinn": "7.grade.json",
+  "Syvende årstrinn": "7.grade.json",
 };
 
 // Extract learning goal number from activity ID (format: PXXYY where P is grade prefix, XX is learning goal number)
@@ -67,12 +67,17 @@ async function fetchGradeActivities(gradeName?: string | null): Promise<GradeAct
   const filename = gradeName ? gradeFileMap[gradeName] : "2.grade.json";
   const cacheKey = filename || "2.grade.json";
   
+  console.log(`fetchGradeActivities called with gradeName: "${gradeName}"`);
+  console.log(`Mapped to filename: "${filename}"`);
+  
   if (gradeCache.has(cacheKey)) {
+    console.log(`Using cached data for: ${cacheKey}`);
     return gradeCache.get(cacheKey)!.activities;
   }
 
   try {
     const url = `/activityData/grades/${filename || "2.grade.json"}`;
+    console.log(`Fetching from URL: ${url}`);
     const response = await fetch(url);
     if (!response.ok) {
       // If the specific grade file doesn't exist, fall back to 2nd grade
@@ -85,6 +90,7 @@ async function fetchGradeActivities(gradeName?: string | null): Promise<GradeAct
       );
     }
     const data: GradeData = await response.json();
+    console.log(`Successfully loaded ${data.activities.length} activities for ${data.grade}`);
     gradeCache.set(cacheKey, data);
     return data.activities;
   } catch (error) {

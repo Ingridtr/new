@@ -239,7 +239,6 @@ def convert_csv_to_grade_json(csv_file_path: str, output_dir: str = "./public/ac
             "Femte årstrinn": "5.grade.json",
             "Sjette årstrinn": "6.grade.json",
             "Syvende årstrinn": "7.grade.json",
-            "Sjuende årstrinn": "7.grade.json",
         }
         
         # Use mapped filename or create safe filename for other grades

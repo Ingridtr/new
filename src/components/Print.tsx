@@ -17,7 +17,7 @@ interface PrintComponentProps {
 }
 
 function PrintComponent({
-  id,
+
   title,
   time,
   location,
@@ -26,7 +26,7 @@ function PrintComponent({
   learning_goals,
   content: { introduction, main, examples, reflection },
   tips,
-  extra,
+
 }: PrintComponentProps) {
   const handlePrint = () => {
     const printWindow = window.open("", "_blank");
