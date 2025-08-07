@@ -39,7 +39,7 @@
     {
       "id": "A0102",
       "title": "Kongen befaler! Sortering etter egenskaper",
-      "time": "15",
+      "time": "5",
       "location": "Inne / ute",
       "tools": "Ingen",
       "groupsize": "Alle",
@@ -241,7 +241,7 @@
     {
       "id": "A0201",
       "title": "Danseleken!",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne",
       "tools": "Høyttaler",
       "groupsize": "Alle",
@@ -273,7 +273,7 @@
     {
       "id": "A0202",
       "title": "Skuespill",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne",
       "tools": "Fortelling",
       "groupsize": "Alle",
@@ -1239,7 +1239,7 @@
     {
       "id": "A0901",
       "title": "Klappelek",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne",
       "tools": "Ingen",
       "groupsize": "2",
@@ -1510,7 +1510,7 @@
     {
       "id": "A1302",
       "title": "danseleken",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne",
       "tools": "Ingen",
       "groupsize": "Alle",
