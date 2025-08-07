@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import GradeButton from "../components/GradeButton";
 
 function Grade() {
+  // Clear selected grade when returning to grade selection
+  useEffect(() => {
+    localStorage.removeItem("selectedGrade");
+    localStorage.removeItem("selectedLearningGoal");
+    // Dispatch event to update navbar
+    window.dispatchEvent(new CustomEvent("gradeChanged", { detail: { grade: null } }));
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar />

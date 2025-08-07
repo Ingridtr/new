@@ -30,7 +30,7 @@ function GameCard({
     <button
       onClick={onClick}
       onKeyDown={handleKeyPress}
-      className="border border-black rounded-md max-w-80 bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      className="border border-black rounded-md w-80 h-96 bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex flex-col"
       aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
       type="button"
     >
@@ -46,7 +46,7 @@ function GameCard({
       <ImagePreloader
         src={image}
         alt={`Illustrasjon for aktiviteten ${title}`}
-        className="w-full h-96 object-cover rounded-b-md"
+        className="w-full flex-1 object-cover rounded-b-md"
         placeholder="/logo.png"
         fallback=""
       />

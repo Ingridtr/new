@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import FilterButton from "../components/FilterButton";
+import { getGradeColors } from "../utils/gradeColors";
 
 function LearningGoalsSelection() {
   const navigate = useNavigate();
@@ -14,8 +15,12 @@ function LearningGoalsSelection() {
     setSelectedGrade(storedGrade);
   }, []);
 
+  // Get background color based on selected grade
+  const gradeColors = selectedGrade ? getGradeColors(selectedGrade) : { pageBackground: "bg-gray-50" };
+  const pageBackgroundClass = gradeColors.pageBackground;
+
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
       <Navbar />
 
       <div className="flex-1">
@@ -24,6 +29,7 @@ function LearningGoalsSelection() {
             <FilterButton
               text={` ${selectedGrade}`}
               onClick={() => navigate("/grade")}
+              grade={selectedGrade || undefined}
             />
           </div>
           <h1>Velg kompetansemål</h1>

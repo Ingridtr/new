@@ -6,6 +6,8 @@ function GradeButton() {
 
   const handleGradeClick = (grade: string, label: string) => {
     localStorage.setItem("selectedGrade", grade);
+    // Dispatch custom event to update navbar and other components immediately
+    window.dispatchEvent(new CustomEvent("gradeChanged", { detail: { grade } }));
     announceSuccess(`${label} er valgt. Navigerer til kompetansemål.`);
     navigate(`learninggoals`);
   };
