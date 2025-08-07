@@ -65,17 +65,9 @@ return (
         location={activity.location}
         tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
         onClick={handleClick}
+        onDelete={() => removeFavorite(activity.id)}
       />
-      <button
-        onClick={(e) => {
-          e.stopPropagation(); // hindrer at GameCard-klikk trigges
-          removeFavorite(activity.id);
-        }}
-        className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
-        aria-label="Fjern fra favoritter"
-      >
-        ❌
-      </button>
+    
     </div>
   );
           })};

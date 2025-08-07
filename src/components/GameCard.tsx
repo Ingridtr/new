@@ -9,6 +9,7 @@ interface GameCardProps {
   location?: string;
   tools: string;
   learningGoal?: string[];
+  onDelete?: () => void;
 }
 
 function GameCard({
@@ -18,6 +19,7 @@ function GameCard({
   time = "5 min",
   location = "Inne/ute",
   tools = "Ingen",
+  onDelete,
 }: GameCardProps) {
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -26,37 +28,50 @@ function GameCard({
     }
   };
 
-  return (
-    <button
-      onClick={onClick}
-      onKeyDown={handleKeyPress}
-      className="border border-black rounded-md max-w-80 bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-      aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
-      type="button"
-    >
-      <div
-        className="flex justify-between px-3 pt-3  text-sm"
-        aria-hidden="true"
-      >
-        <p>🕒 {time}</p>
-        <p>📍 {location}</p>
-        <p>🛠️ Utstyr</p>
-      </div>
-      <p className="font-semibold">{title}</p>
-      <ImagePreloader
-        src={image}
-        alt={`Illustrasjon for aktiviteten ${title}`}
-        className="w-full h-96 object-cover rounded-b-md"
-        placeholder="/logo.png"
-        fallback=""
-      />
+  
 
-      {/* Screen reader only content with better description */}
-      <div className="sr-only">
-        Aktivitet: {title}. Varighet: {time}. Kan utføres: {location}. Nødvendig
-        utstyr: {tools}. Trykk for å se mer informasjon og oppgaver.
-      </div>
-    </button>
+  return (
+     <div className="relative w-full max-w-xs mx-auto">
+      <button
+        type="button"
+        onClick={onClick}
+        onKeyDown={handleKeyPress}
+        className="relative block w-full border border-black rounded-md bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-left overflow-hidden"
+        aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
+      >
+        <div className="flex justify-between px-3 pt-3 text-sm" aria-hidden="true">
+          <p>🕒 {time}</p>
+          <p>📍 {location}</p>
+          <p>🛠️ {tools}</p>
+        </div>
+
+        <p className="font-semibold px-3 mt-1">{title}</p>
+
+        <ImagePreloader
+          src={image}
+          alt={`Illustrasjon for aktiviteten ${title}`}
+          className="w-full h-96 object-cover"
+          placeholder="/logo.png"
+          fallback=""
+        />
+
+        <div className="sr-only">
+          Aktivitet: {title}. Varighet: {time}. Kan utføres: {location}. Utstyr: {tools}. Trykk for mer info.
+        </div>
+      </button>
+
+      {onDelete && (
+        <button
+          onClick={e => { e.stopPropagation(); onDelete(); }}
+          className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
+          aria-label="Fjern fra favoritter"
+          type="button"
+        >
+          X
+        </button>
+      )}
+    </div>
+
   );
 }
 
