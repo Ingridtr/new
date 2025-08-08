@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useEffect, useMemo, useState} from "react";
 import { useNavigate } from 'react-router-dom'; 
 
 import Navbar from "../components/Navbar";
@@ -36,6 +36,32 @@ const FavoritesPage = () => {
         setFavorites((prev) => prev.filter((a) => a.id !== id));
     };
 
+    const gradeKey = (g: string) => {
+        const m = g.match(/\d+/);
+        return m ? `${parseInt(m[0], 10)}. trinn` : g.trim();
+};
+
+    
+    const groupedByGrade = useMemo(() => {
+  return favorites.reduce<Record<string, Activity[]>>((acc, a) => {
+    const key = gradeKey(a.grade);
+    (acc[key] ??= []).push(a);   // <-- bare ÉN push per aktivitet
+    return acc;
+  }, {});
+}, [favorites]);
+
+    //Sorter numerisk på tallet i teksten 
+    const gradeNum = (label: string) => {
+        const num = (label.match(/\d+/));
+        return num ? parseInt(num[0], 10) :999;
+     }
+    const sortedGradeLabels = useMemo(
+        () => Object.keys(groupedByGrade).sort((a, b) => gradeNum(a) - gradeNum(b) || a.localeCompare(b, 'nb') ), 
+        [groupedByGrade]
+    );
+
+
+
 
 return (
     <div className="flex flex-col min-h-screen bg-gray-50">
@@ -46,32 +72,32 @@ return (
         {favorites.length === 0 ? (
             <p>Du har ingen favoritter enda.</p>
         ): (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {favorites.map((activity) => {
-            const handleClick = () => {
-                localStorage.setItem("selectedGame", activity.title);
-                localStorage.setItem("selectedGameId", activity.id);
-                localStorage.setItem("selectedGameImage", activity.image);
-                localStorage.setItem("selectedActivity", JSON.stringify(activity)); 
-                navigate("/infoTask");
-            }
-    
-            return (
-    <div key={activity.id} className="relative">
-      <GameCard
-        title={activity.title}
-        image={activity.image}
-        time={activity.time}
-        location={activity.location}
-        tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
-        onClick={handleClick}
-        onDelete={() => removeFavorite(activity.id)}
-      />
-    
-    </div>
-  );
-          })};
-        </div>
+            sortedGradeLabels.map(gradeLabel => (
+        <section key={gradeLabel} className="mb-6">
+          <h2 className="text-lg font-semibold mb-2">{gradeLabel}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {groupedByGrade[gradeLabel].map(activity => (
+              <GameCard
+                key={activity.id}
+                title={activity.title}
+                image={activity.image}
+                time={activity.time}
+                location={activity.location}
+                tools={activity.tools.join(", ")}  // Activity.tools er string[]
+                onClick={() => {
+                  localStorage.setItem("selectedGame", activity.title);
+                  localStorage.setItem("selectedGameId", activity.id);
+                  localStorage.setItem("selectedGameImage", activity.image);
+                  localStorage.setItem("selectedActivity", JSON.stringify(activity));
+                  navigate("/infoTask");
+                }}
+                onDelete={() => removeFavorite(activity.id)} // X kun på favorittsiden
+              />
+            ))}
+          </div>
+        </section>
+      ))
+            
         )}
     </div>
     
