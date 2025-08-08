@@ -29,18 +29,14 @@ function GameCard({
   };
 
   
-
   return (
-    <button
-      onClick={onClick}
-      onKeyDown={handleKeyPress}
-      className="border border-black rounded-md w-full max-w-xs min-h-[25rem] bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex flex-col"
-      aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
-      type="button"
-    >
-      <div
-        className="flex justify-between px-3 pt-3  text-sm"
-        aria-hidden="true"
+    <div className="relative w-full max-w-xs">
+      <button
+        type="button"
+        onClick={onClick}
+        onKeyDown={handleKeyPress}
+        className="border border-black rounded-md w-full min-h-[25rem] bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex flex-col text-left overflow-hidden"
+        aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
       >
         <div className="flex justify-between px-3 pt-3 text-sm" aria-hidden="true">
           <p>🕒 {time}</p>
@@ -65,17 +61,15 @@ function GameCard({
 
       {onDelete && (
         <button
-          onClick={e => { e.stopPropagation(); onDelete(); }}
+          type="button"
+          onClick={(e) => { e.stopPropagation(); onDelete(); }}
           className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
           aria-label="Fjern fra favoritter"
-          type="button"
         >
           X
         </button>
       )}
     </div>
-
-  )
+  );
 }
-
-export default GameCard;
+export default GameCard; 

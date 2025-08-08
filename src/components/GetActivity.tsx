@@ -9,7 +9,7 @@ import {
 import {
   GradeData,
   GradeActivity,
-} from "../../src/data/gradeTypes";
+} from "../data/gradeTypes";
 
 // Cache for grade-based activities
 const gradeCache = new Map<string, GradeData>();
