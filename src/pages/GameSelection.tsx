@@ -68,6 +68,14 @@ function GameSelection() {
       <Navbar backgroundColor={pageBackgroundClass} />
 
       <div className="flex-1">
+        <button
+          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          onClick={() => navigate("")}
+          aria-label="Lukk aktivitetsside og gå tilbake"
+        >
+          ×
+        </button>
+        
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex gap-4 mb-8 flex-wrap">
             {selectedGrade && (
