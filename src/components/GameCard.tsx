@@ -31,13 +31,16 @@ function GameCard({
   
 
   return (
-     <div className="relative w-full max-w-xs mx-auto">
-      <button
-        type="button"
-        onClick={onClick}
-        onKeyDown={handleKeyPress}
-        className="relative block w-full border border-black rounded-md bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-left overflow-hidden"
-        aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
+    <button
+      onClick={onClick}
+      onKeyDown={handleKeyPress}
+      className="border border-black rounded-md w-full max-w-xs min-h-[25rem] bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex flex-col"
+      aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
+      type="button"
+    >
+      <div
+        className="flex justify-between px-3 pt-3  text-sm"
+        aria-hidden="true"
       >
         <div className="flex justify-between px-3 pt-3 text-sm" aria-hidden="true">
           <p>🕒 {time}</p>

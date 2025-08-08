@@ -6,24 +6,66 @@ import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 
 import useActivities from "../components/GetActivity";
+import { getGradeColors } from "../utils/gradeColors";
 
 
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   const [selectedGoal, setSelectedGoal] = useState<string | null>(null);
+  const [isInitialized, setIsInitialized] = useState(false);
   
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
     const storedGoal = localStorage.getItem("selectedLearningGoal");
     setSelectedGrade(storedGrade);
     setSelectedGoal(storedGoal);
+    setIsInitialized(true);
   }, []);
 
   const navigate = useNavigate();
-  const { activities } = useActivities(selectedGrade, selectedGoal);
+  
+  // Only fetch activities after we've initialized the state from localStorage
+  const { activities, loading } = useActivities(
+    isInitialized ? selectedGrade : null, 
+    isInitialized ? selectedGoal : null
+  );
+
+  // Get background color based on selected grade
+  const gradeColors = selectedGrade ? getGradeColors(selectedGrade) : { pageBackground: "bg-gray-50" };
+  const pageBackgroundClass = gradeColors.pageBackground;
+
+  // Show loading while initializing from localStorage
+  if (!isInitialized) {
+    return (
+      <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
+        <Navbar backgroundColor={pageBackgroundClass} />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
+  // Show loading while fetching/filtering activities
+  if (loading) {
+    return (
+      <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
+        <Navbar backgroundColor={pageBackgroundClass} />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Laster aktiviteter...</p>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
-      <Navbar />
+    <div className={`flex flex-col min-h-screen ${pageBackgroundClass}`}>
+      <Navbar backgroundColor={pageBackgroundClass} />
 
       <div className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -32,13 +74,18 @@ function GameSelection() {
               <FilterButton
                 text={` ${selectedGrade}`}
                 onClick={() => navigate("/grade")}
+                grade={selectedGrade}
               />
             )}
 
             {selectedGoal && (
               <FilterButton
-                text={`Kompetansemål: ${selectedGoal}`}
+                text={(() => {
+                  const goalText = selectedGoal.includes(':') ? selectedGoal.split(': ')[1] : selectedGoal;
+                  return goalText.charAt(0).toUpperCase() + goalText.slice(1);
+                })()}
                 onClick={() => navigate("/grade/learninggoals")}
+                grade={selectedGrade || undefined}
               />
             )}
           </div>
@@ -61,7 +108,7 @@ function GameSelection() {
                   key={index}
                   title={activity.title}
                   image={activity.image}
-                  time={activity.time}
+                  time={`${activity.time} min`}
                   location={activity.location}
                   tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
                   learningGoal={activity.learningGoals}

@@ -1,30 +1,34 @@
 interface PrintComponentProps {
+  id: string;
   title: string;
+  time: string;
   location: string;
-  duration: string;
   tools: string[];
-  learningGoals: string[];
-  description: string;
-  tasks: {
-    tips: string;
-    reflection: string;
-    easy: string[];
-    medium: string[];
-    hard: string[];
+  groupsize: string;
+  learning_goals: string[];
+  content: {
+    introduction: string;
+    main: string;
+    examples: string[];
+    reflection: string[];
   };
+  tips: string;
+  extra: string;
 }
 
 function PrintComponent({
+
   title,
+  time,
   location,
-  duration,
   tools,
-  learningGoals,
-  description,
-  tasks,
+  groupsize,
+  learning_goals,
+  content: { introduction, main, examples, reflection },
+  tips,
+
 }: PrintComponentProps) {
   const handlePrint = () => {
-    // Create a new window for printing
     const printWindow = window.open("", "_blank");
 
     if (printWindow) {
@@ -108,53 +112,42 @@ function PrintComponent({
                 </div>
                 <div class="info-item">
                   <span role="img" aria-label="Varighet">⏱️</span>
-                  <span>${duration}</span>
+                  <span>${time}</span>
                 </div>
                 <div class="info-item">
                   <span role="img" aria-label="Utstyr">🛠️</span>
-                  <span>${tools}</span>
+                  <span>${tools.join(", ")}</span>
+                </div>
+                <div class="info-item">
+                  <span role="img" aria-label="Gruppe">👥</span>
+                  <span>${groupsize}</span>
                 </div>
               </div>
             </div>
 
             <div class="main-content">
               <h1>${title}</h1>
-              <h2>Kobling til kompetansemål</h2>
+            
+              <p>${introduction}</p>
+              <h2>Slik gjør du</h2>
+              <p>${main}</p>
+              <h2>Eksempler</h2>
               <ul>
-                ${learningGoals.map((goal) => `<li>${goal}</li>`).join("")}
+                ${examples.map((ex) => `<li>${ex}</li>`).join("")}
               </ul>
-            </div>
-
-            <div class="main-content">
-              <h2>Beskrivelse</h2>
-              <p>${description}</p>
-            </div>
-
-
-            <div class="main-content">
-              <h2>Oppgaver</h2>
-              <p>${tasks.tips}</p>
-              
-              <h3>Enkel</h3>
-              <ul>
-                ${tasks.easy.map((task) => `<li>${task}</li>`).join("")}
-              </ul>
-
-              <h3>Middels</h3>
-              <ul>
-                ${tasks.medium.map((task) => `<li>${task}</li>`).join("")}
-              </ul>
-
-              <h3>Vanskelig</h3>
-              <ul>
-                ${tasks.hard.map((task) => `<li>${task}</li>`).join("")}
-              </ul>
-            </div>
-            <div class="main-content page-break">
+              <h2>Tips</h2>
+              <p>${tips}</p>
               <h2>Refleksjonsspørsmål</h2>
-              <p>${tasks.reflection}</p>
-
-           
+              <ul>
+                ${reflection.map((q) => `<li>${q}</li>`).join("")}
+              </ul>
+              
+    
+            </div>
+            <h2>Kobling til kompetansemål</h2>
+              <ul>
+                ${learning_goals.map((goal) => `<li>${goal}</li>`).join("")}
+              </ul>
           </div>
         </body>
         </html>
@@ -170,14 +163,13 @@ function PrintComponent({
 
   return (
     <button
-      className="flex items-center gap-2 hover:bg-gray-50 rounded cursor-pointer transition-colors w-full text-left"
+      className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
       onClick={handlePrint}
       aria-label="Print aktivitet"
     >
       <span role="img" aria-label="Printer">
-        🖨️
+        Print ut aktivitet som PDF
       </span>
-      <p>Print aktivitet</p>
     </button>
   );
 }

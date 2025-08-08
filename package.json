@@ -13,7 +13,15 @@
     "test:run": "vitest run",
     "generate-tasks": "node scripts/generateTaskFiles.js",
     "generate-tasks:help": "node scripts/generateTaskFiles.js --help",
-    "update-activities": "node scripts/updateActivities.js"
+    "update-activities": "node scripts/updateActivities.js",
+    "convert-csv": "python scripts/csv_to_grade_json.py",
+    "convert-csv:help": "python scripts/csv_to_grade_json.py --help",
+    "convert-csv:2nd": "python scripts/csv_to_grade_json.py --force-grade 'Andre årstrinn'",
+    "convert-csv:3rd": "python scripts/csv_to_grade_json.py --force-grade 'Tredje årstrinn'",
+    "convert-csv:4th": "python scripts/csv_to_grade_json.py --force-grade 'Fjerde årstrinn'",
+    "convert-csv:5th": "python scripts/csv_to_grade_json.py --force-grade 'Femte årstrinn'",
+    "convert-csv:6th": "python scripts/csv_to_grade_json.py --force-grade 'Sjette årstrinn'",
+    "convert-csv:7th": "python scripts/csv_to_grade_json.py --force-grade 'Syvende årstrinn'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

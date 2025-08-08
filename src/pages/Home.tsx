@@ -1,10 +1,21 @@
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 function Home() {
+  // Clear any selected grade/learning goal when returning to home
+  useEffect(() => {
+    localStorage.removeItem("selectedGrade");
+    localStorage.removeItem("selectedLearningGoal");
+    // Dispatch event to update navbar to sky blue
+    window.dispatchEvent(
+      new CustomEvent("gradeChanged", { detail: { grade: null } })
+    );
+  }, []);
+
   return (
-    <div className="flex flex-col min-h-screen bg-white">
-      <Navbar />
+    <div className="flex flex-col min-h-screen bg-gray-50">
+      <Navbar backgroundColor="bg-gray-50" />
 
       <main className="flex-1 flex items-center" role="main">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

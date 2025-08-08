@@ -1,0 +1,450 @@
+{
+  "grade": "Syvende årstrinn",
+  "total_activities": 12,
+  "activities": [
+    {
+      "id": "F0101",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "A3-Papir, Penn, Saks",
+      "groupsize": "Tilfeldig antall",
+      "learning_goal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren være kongen i kongen befaler og gi én befaling om at elevene må dele opp en pizza i like store deler, seg i mellom.",
+          "pizzastykker."
+        ],
+        "main": [
+          "Del klassen inn i grupper av forskjellig størrelse. Noen kan være 2 og 2, andre kan være 4,5,6,7 stykker osv.",
+          "Gi et A3-papir, penner og én saks til hver gruppe",
+          "Læreren sier \"Kongen befaler: Dere skal spise pizza sammen! Tegn en  pizza og del den mellom dere slik at alle i gruppen får et like stort stykke hver!\"",
+          "Lagene samarbeider om å tegne pizzaen og tegne opp pizzabitene og klippe dem ut"
+        ],
+        "examples": [
+          "En gruppe på 4 vil tegne opp en pizza, opg dele den i 4 deler og klippe den ut."
+        ],
+        "reflection": [
+          "Hva slags strategi brukte dere for å dele opp riktig?",
+          "Hvordan samarbeidet dere i gruppa?"
+        ],
+        "tips": [
+          "Juster vanskelighetsgrad etter nivå: mindre grupper for de som trenger mer støtte, større grupper for de som trenger mindre."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0201",
+      "title": "Brøk-bingo",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Bingokort",
+      "groupsize": "2",
+      "learning_goal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+      "content": {
+        "introduction": [
+          "BINGO! I denne aktiviteten skal elevene finne sammenhengen mellom brøk, prosent og desimaltall ved hjelp av et bingospill."
+        ],
+        "main": [
+          "Print ut vedlagte bingokort.",
+          "Del klassen i par og del ut bingokort til hvert par.",
+          "Læreren trekker ett og ett tallkort og sier verdien høyt, for eksempel “0,25”.",
+          "Elevene må finne riktig rute med samme verdi, men i en annen form, f.eks. “1/4” eller “25 %”.",
+          "Det første paret som får éntre rekke roper “Bingo!”.",
+          "De som får bingo må forklare hvilke ruter de hadde, og hvordan de visste at de hørte sammen."
+          
+        ],
+        "examples": [
+          "Læreren sier “0,25”, og eleven krysser av på “1/4”. Når eleven får Bingo, forklarer de: “Jeg krysset av 1/4, fordi det er det samme som 0,25, altså 25 prosent.”"
+        ],
+        "reflection": [
+          "Hvordan visste du at 1/4 og 0,25 hører sammen?",
+          "Hva er forskjellen på prosent og desimaltall?",
+          "Hvordan kan du bruke det du lærte i dag i andre situasjoner?"
+        ],
+        "tips": ["Øvelsen kan også spilles med flere rekker."],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0301",
+      "title": "Temperatur",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "6–7",
+      "learning_goal": "utforske negative tal i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "Er du kald, varm eller helt passe? I denne aktiviteten skal elevene bruke kroppen til å utforske temperaturendringer og bevege seg på en tallinje med både positive og negative tall."
+        ],
+        "main": [
+          "Del klassen i grupper på 6–7",
+          "Lag tallinjer til antall grupper ute på bakken fra +10 til –10 med kritt.",
+          "Fortell at 0 er startposisjon, og at mellom hver oppgave skal alle tilbake hit.",
+          "Læreren sier befalinger, for eksempel: «det blir 3 grader kaldere».",
+          "Gruppen beveger seg tilsvarende antall trinn bakover eller fremover på tallinjen.",
+          "På hvert nytt tall skal elevene utføre en bevegelse som passer til temperaturen: gå vanlig dersom det blir varmere, gni hendene dersom det blir kaldere, hopp og skjelv ved minusgrader (alt under 0), legg seg ned ved ekstrem kulde (dersom man når -10)."
+        ],
+        "examples": [
+          "Gruppen står på 0 og trekker “ minus 4 grader”. De flytter seg til minus 4 og begynner å gjøre småhopp og late som de skjelver."
+        ],
+        "reflection": [
+          "Hvordan kjente dere igjen hvilke tall som var negative?",
+          "Hvordan vet dere om dere skal gå fremover eller bakover?",
+          "Hva betyr det når det blir kaldere?",
+          "Var dere noen gang under null?"
+        ],
+        "tips": [
+          "Bruk kritt, tau eller pinner til å lage tallinjen ute.",
+          "La elevene bestemme nye bevegelser ved temperaturendringer"
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0302",
+      "title": "Byttehandel av stein",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Småstein,Kopp",
+      "groupsize": "2",
+      "learning_goal": "utforske negative tal i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene utforske negative tall ved å gi og ta stein."
+        ],
+        "main": [
+          "Del klassen i par.",
+          "Be barne gå ut og finne 10 småstein hver.",
+          "Elev A gjemmer et antall steiner i knyttet hånd bak ryggen mens B lukker øynene.",
+          "Elev B gjetter antall steiner elev A har.",
+          "Hvis gjetningen er riktig, får B disse steinene.",
+          "Hvis gjetningen er feil, må B “betale” A antall steiner elev B har gjettet feil.",
+          "Bytt roller og fortsett til én elev har mistet alle steinene."
+        ],
+        "examples": [
+          "A hadde 15 steiner og B gjettet 12. Da må elev B gi 3 steiner til elev A."
+        ],
+        "reflection": [
+          "Hvordan kan vi skrive minus 3 med negativt tall?",
+          "Hjalp spillet å forstå hvordan man regner differanse?"
+        ],
+        "tips": [
+          "Oppmuntre elevene til å si \"Du skylder meg... steiner\""
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0401",
+      "title": "Flykaptein på tidssoneoppdrag!",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt, Reisekort, Startkort, Stedskort",
+      "groupsize": "2",
+      "learning_goal": "bruke tallinje i rekning med positive og negative tal",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke tallinjen for å regne med positive og negative tall ved å navigere mellom tidssoner. Her jobber elevene i par der en er pilot og en er flyleder. Flylederens oppgave er å gi instruksjoner til piloten. Pilotens oppgave er å følge instruksjonene og telle seg frem til riktig tidssone."
+        ],
+        "main": [
+          "Print ut vedlagte reisekort,startkort og stedskort",
+          "Lag en stor horisontal tallinje ute  fra –12 til +12, og merk sonene med land.",
+          "Del elevene i par: én er pilot, én er flyleder.",
+          "Flylederen trekker et startkort med en tidssone.",
+          "Flylederen trekker deretter et pilotkort og gir en kommando med retningsendring i tidssoner (Eks: Fly 6 soner mot venstre).",
+          "Piloten går fysisk langs tallinja og teller høyt mens piloten flytter seg.",
+          "Piloten stopper i ny tidssone og leser landet.",
+          "Bytt roller og gjenta."
+        ],
+        "examples": [
+          "Flyleder sier: Du skal 6 skritt til venstre, hvor landet du?"
+        ],
+        "reflection": [
+          "Hva skjer når vi flyr mot høyre?",
+          "Hva med venstre?",
+          "Hvilke regnestykker måtte dere gjøre?",
+          "Hvordan kan du vite at du havnet riktig uten å gå hele veien?"
+        ],
+        "tips": [
+          "Bruk kapteinlue eller pilotmerker for ekstra engasjement",
+          "Elevene kan også finne på egne destinasjoner og så regne ut forskjell i tidssoner"
+        ],
+        "extra": [
+          "printOuts/F0401.docx"
+        ]
+      }
+    },
+    {
+      "id": "F0501",
+      "title": "Detektivene!",
+      "time": "45",
+      "location": "Inne",
+      "tools": "Papir, Skrivesaker, Gåter",
+      "groupsize": "5-6",
+      "learning_goal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene løse matematiske gåter på ulike poster og komme frem til et felles tall."
+        ],
+        "main": [
+          "Print ut vedlagte gåter",
+          "Del elevene i grupper på 5 til 6",
+          "Lag 6 poster med hver sin gåte.",
+          "Alle postene har samme tallsvar, så dette er lurt på holde hemmelig.",
+          "Elevene går fra post til post og løser gåtene sammen – hver gåte gir dem et tall.",
+          "Når alle postene er fullført, skal de finne ut hva som er det hemmelige tallet– nemlig tallet 16",
+          "Klassen samles til slutt for å diskutere hvordan de løste uttrykkene."
+        ],
+        "examples": [
+          "På én post står det: “Jeg har fire ben, men kan ikke gå. Tell bokstavene i navnet mitt og gang med antall bein.” Elevene svarer “bord”: 4 bokstaver x 4 bein = 16."
+        ],
+        "reflection": [
+          "Hvordan tenkte dere for å løse gåtene?",
+          "Hva slags regneuttrykk brukte dere mest?",
+          "Hvilke strategier hjalp gruppa deres å samarbeide?"
+        ],
+        "tips": [
+          "Vis hintkort for grupper som står fast.",
+          "Tilpass gåtene og det hemmelige tallet ved gjenbruk av aktiviteten. "
+        ],
+        "extra": [
+          "printOuts/F0501.docx"
+        ]
+      }
+    },
+    {
+      "id": "F0601",
+      "title": "Gjett X!",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Papir, Skrivesaker",
+      "groupsize": "4",
+      "learning_goal": "bruke ulike strategiar for å løyse lineære likningar og ulikskapar og vurdere om løysingar er gyldige",
+      "content": {
+        "introduction": [
+          "I denne leken skal to par bytte på å tenke på et tall for variabelen x, og gjette hva x er. Par 1 tenker på et tall for x, og par 2 prøver å gjette svaret på likningen. Deretter bytter de roller."
+        ],
+        "main": [
+          "Par 1 snur rygen til de to andre.",
+          "Par 2 blir enige om et hemmelig tall for x (f.eks. x = 1).",
+          "Læreren leser opp en likning høyt til hele klassen (f.eks. x + 2 = ?).",
+          "Par 2 regner ut svaret (f.eks. 1 + 2 = 3) og viser det med kroppen (f.eks. hopper 3 ganger, klapper 3 ganger eller holder opp 3 fingre).",
+          "Par 1 snur seg, observerer bevegelsene og gjetter svaret på likningen (f.eks. \"Svaret er 3\").",
+          "Nå vet Par 1 at likningen er 3 og skjønner da at x må være 1.",
+          "Par 1 responderer Par 2 med å gjøre en bevegelse som viser x (f.eks. hopper 1 gang).",
+          "Læreren spør til slutt gruppene: \"Hva var x, og hva var svaret?\""
+
+        ],
+        "examples": [
+          "Par 2 bestemmer at x=3",
+          "Læreren sier: x + 1 = ?",
+          "Par 2 viser tallet 4 med kroppen, ved for eksempel hoppe/snurre/klappe 4 ganger.",
+          "Par 1 regner: x+1=4, ergo x må være 3.",
+          "Par 1 hopper/snurrer/klapper 3 ganger til Par 1.",
+          "Lærer spør: Hva var svaret?",
+          "Par 1 svarer: x må være 3 "
+        ],
+        "reflection": [
+          "Hvordan hjalp kroppslig aktivitet deg å forstå likningen?",
+          "Hva gjorde det enklere eller vanskeligere å finne x?",
+          "Hvordan samarbeidet dere i gruppa?"
+        ],
+        "tips": [
+          "Varier likningene med både pluss og minus. Oppfordre til kreative måter å vise tall på med kroppen."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0701",
+      "title": "Tall-agentene",
+      "time": "5",
+      "location": "Inne/Ute",
+      "tools": "Ingen",
+      "groupsize": "3-4",
+      "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene være små statistikere! De får velge et spørsmål, samle inn ekte data fra medelever, og bruke det til å renge ut gjennomsnitt, typetall og median. Til slutt sammenlignes funnene – og vi ser hvilken informasjon de ulike målene faktisk gir oss."
+        ],
+        "main": [
+          "Del klassen inn i grupper på 3–4 elever.",
+          "Gi hver gruppe et spørsmål å undersøke (f.eks. «Hvor mange søsken har dere?», «Hvor mange minutter bruker dere på lekser hver dag?»).",
+          "Gruppa samler inn svar fra de andre i klassen.",
+          "Etterpå samles samles gruppa og regner ut: gjennomsnitt, typetall, median",
+          "Klassen diskuterer funnne samlet."
+        ],
+        "examples": [
+          "Hvor mange søsken har dere ?",
+          "Hvor mange kjæledyr har dere?",
+          "Hvor mange sporter driver dere med?",
+          "Hvor mange steder har dere bodd?"
+        ],
+        "reflection": [
+          "Kan samme datasett gi ulike inntrykk avhengig av hvilket mål vi bruker?"
+        ],
+        "tips": [
+          "Still spørsmål som knytter statistikken til elevenes hverdag"
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0801",
+      "title": "Statistikksamlerne",
+      "time": "45",
+      "location": "Inne/Ute",
+      "tools": "Registreringsskjemaer, skrivesaker,",
+      "groupsize": "2–3",
+      "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle inn informasjon, organisere den i tabeller og presentere resultatene i diagram."
+        ],
+        "main": [
+          "Print ut vedlagte registreringsskjema.",
+          "La gruppene velge 2-3 temaer.",
+          "Elevene går ut og registrerer data med skjemaer, fordelt på temaene.",
+          "Tilbake i klasserommet: organiser data i tabell og lag et diagram."
+        ],
+        "examples": [
+          "Mulige temaer: - Biltyper – Sykler – Kjæledyr i klassen – Fuglearter i skolegården – Farger på jakker - Insekter funnet ute - Antall søppelbiter i skolegården "
+        ],
+        "reflection": [
+          "Hvordan bestemte dere hvilke data dere ville samle inn?",
+          "Hva var lett eller vanskelig med å samle data?",
+          "Hvorfor valgte dere akkurat den måten å vise resultatene på?"
+        ],
+        "tips": [
+          "Bruk froskjellige farger for å skille søylene i søylediagrammet."
+        ],
+        "extra": [
+          "printOuts/F0801.docx"
+        ]
+      }
+    },
+    {
+      "id": "F0802",
+      "title": "Mini-OL",
+      "time": "45",
+      "location": "Ute",
+      "tools": "Stoppeklokke, Målebånd, Papir, Skrivesaker",
+      "groupsize": "Alle",
+      "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle inn data gjennom å ha et mini-OL og bruke resultatene til å lage tabeller og diagram."
+        ],
+        "main": [
+          "Print ut vedlagte skjemaer",
+          "Forklar at elevene skal konkurrere i øvelser og loggføre resultatene.",
+          "Gjennomfør øvelsene: lengdehopp, kast med liten ball, kast med stor ball og 60-meterløp.",
+          "Gruppene måler og logger resultatene.",
+          "Når alle har gjennomført, setter gruppene seg sammen og lager tabeller.",
+          "Elevene velger en type diagram og presenterer dataene sine."
+        ],
+        "examples": [
+          "Et lag finner ut at gjennomsnittlig tid på 60",
+          "meteren var 10,2 sekunder, og lager et stolpediagram som viser dette for hver elev."
+        ],
+        "reflection": [
+          "Hvilket diagram ga best oversikt?",
+          "Var det stor forskjell på hvem som var raskest og hvem som hoppet lengst?",
+          "Hva var mest gøy – samle inn data eller lage diagram?"
+        ],
+        "tips": [
+          "La elevene prøve å tolke hverandres diagram. Bruk farger for å gjøre diagrammene tydeligere. Juster øvelsene etter tilgjengelig plass."
+        ],
+        "extra": [
+          "printOuts/F0802.docx"
+        ]
+      }
+    },
+    {
+      "id": "F0901",
+      "title": "Budsjettjakt- Hva blir ditt liv?",
+      "time": "15",
+      "location": "Inne/Ute",
+      "tools": "Pengekort",
+      "groupsize": "Alle",
+      "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene utforske økonomi ved å dra på skattejakt og velge 3 kort: 1 inntekt, 1 utgift og 1 hobby. Deretter skal de regne ut hvor mye de har igen."
+        ],
+        "main": [
+          "Print ut vedlagte pengekort",
+          "Gjem tre typer kort (grønne for inntekt, røde for faste utgifter, blå for hobby)",
+          "Elevene skal finne ett kort av hver farge.",
+          "Når de har funnet kortene, setter de seg ned og regner ut gjenstående beløp.",
+          "Læreren kan deretter stille refleksjonsspørsmål knyttet til balanse i budsjett og bruk av rekneark."
+        ],
+        "examples": [
+          "En elev finner kortene: Grønt: Youtuber = 4000 kr, Rødt: Husleie = 4 000 kr, Blått: Hund = 1 200 kr. Budsjett:4 000",
+          "4 000",
+          "1 200 = 1200 i minus!"
+        ],
+        "reflection": [
+          "Gikk du i pluss eller minus?",
+          "Hva kunne du endret for å få bedre balanse?",
+          "Hvordan kunne et regneark hjulpet deg å holde oversikt?",
+          "Kunne du brukt en formel for å løse oppgaven kjappere?"
+        ],
+        "tips": [
+          "Lærer går og sjekker utregningene når alle er ferdig."
+        ],
+        "extra": [
+          "printOuts/F0901.png"
+        ]
+      }
+    },
+    {
+      "id": "F1001",
+      "title": "Kongen befaler!",
+      "time": "15",
+      "location": "Inne/Ute",
+      "tools": "Datakort",
+      "groupsize": "Alle",
+      "learning_goal": "bruke programmering til å utforske data i tabellar og datasett",
+      "content": {
+        "introduction": [
+          "Denne aktiviteten er en variant av kongen befaler der kongen skal gi instrukser som likner på excel kommandoer, og elever skal sortere seg/ gruppere seg deretter."
+        ],
+        "main": [
+          "Print ut vedlagte datakort",
+          "Del ut ett kort til hver elev.",
+          "Kongen (læreren) sier én kommando av gangen.",
+          "Elevene følger instruksjonen fysisk – de sorterer seg, grupperer seg, filtrerer seg ut eller stiller seg i rekkefølge.",
+          "Etter 3–5 kommandoer kan du ta en kort refleksjon i plenum."
+        ],
+        "examples": [
+          "Filtrering (if",
+          "setning):",
+          "Kongen befaler: Alle med favorittfargen blå, still dere langs veggen!",
+          "Kongen befaler: Hvis du har frukt i matboksen, klapp to ganger og sett deg på huk!  Kombinert filter:",
+          "Kongen befaler: Alle som er 12 år OG har favorittfargen grønn, lag en trekant!",
+          "Kongen befaler: Hvis du er 13 år ELLER har høyde 'lav', hopp tre ganger!   Sortering:",
+          "Kongen befaler: Sorter dere i stigende rekkefølge etter alder!",
+          "Kongen befaler: Alle med høyde 'middels' – still dere fra blå til gul i farge!   Gruppering:",
+          "Kongen befaler: Finn de andre med samme favorittfarge og lag en sirkel!",
+          "Kongen befaler: Grupper dere etter om dere har frukt eller ikke!   Ekstra utfordring:",
+          "Kongen befaler: Finn tre andre som har én ting til felles med deg – lag en firkant!",
+          "Kongen befaler: Lag to rekker – én med alder 11 og én med alder 12, sortert etter høyde!"
+        ],
+        "reflection": [
+          "Hvordan fant dere ut hvem som passet til kriteriene?",
+          "Hvordan kunne programmering gjort dette enklere eller raskere?"
+        ],
+        "tips": [
+          "Forklar hva hver kolonne i datakortet er:  Navn, alder, høyde, favorittfarge og frukt i matboksen."
+        ],
+        "extra": [
+          "printOuts/F1001.docx"
+        ]
+      }
+    }
+  ]
+}
