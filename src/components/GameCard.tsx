@@ -72,7 +72,7 @@ function GameCard({
       )}
     </div>
 
-  );
+  )
 }
 
 export default GameCard;
