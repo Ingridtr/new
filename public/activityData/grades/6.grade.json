@@ -12,32 +12,34 @@
       "learning_goal": "utforske, namngi og plassere desimaltal på tallinja",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene fysisk utforske tallinja ved å kaste risposer på en tallinje og selv vurdere hvor den landet"
+          "I denne aktiviteten skal elevene fysisk utforske tallinja ved å kaste erteposer på en tallinje og selv vurdere hvor den landet."
         ],
         "main": [
-          "Læreren tegner en stor tallinje på bakken fra 0 til 1, med tydelige tidelsmarkeringer (0.1, 0.2, ..., 1.0).",
-          "Del klassen i grupper på 3-4 elever, og la én elev om gangen kaste en rispose mot tallinja.",
-          "Etter kastet diskuterer gruppa: Hvor landet den? Hvilket desimaltall er det nærmest?",
+          "Læreren tegner en stor tallinje på bakken fra 0 til 1, med tydelige tiendelsmarkeringer uten å skrive tallet.",
+          "Del klassen i grupper på 3-4 elever, og la én elev om gangen kaste en ertepose mot tallinja.",
+          "Etter kastet diskuterer gruppa: Hvor landet den? Hvilket desimaltall er det nærmeste?",
           "Eleven må velge og si: “Jeg tror det er 0.6.”",
           "Lærer spør oppfølgingsspørsmål og hjelper til med å plassere.",
           "Gjenta flere runder, og la elevene få sammenligne resultater."
         ],
         "examples": [
-          "Elev B kaster og posen lander mellom 0.3 og 0.",
-          "Gruppa blir enige om at den landet på 0,35 og forklarer at det var omtrent midt mellom. Klassen diskuterer – er det nærmere 0.3 eller 0.4?"
+          "Elev B kaster og posen lander mellom 0,3 og 0,4",
+          "Gruppa blir enige om at den landet på 0,35 og forklarer at det var omtrent midt mellom. Klassen diskuterer: Er det nærmere 0.3 eller 0.4?"
         ],
         "reflection": [
-          "– Hvordan bestemte dere hvilket tall posen landet på?   – Hvorfor valgte dere akkurat 0.6 og ikke 0.5?   – Hva betyr det at noe ligger “mellom 0.3 og 0.4”?   – Kan to kast være “nesten like” selv om de har ulike tall?"
+          "Hvordan bestemte dere hvilket tall posen landet på?",
+          "Hvorfor valgte dere akkurat 0.35 og ikke 0.4?",
+          "Hva betyr det at noe ligger “mellom 0.3 og 0.4”?",
+          "Hva betyr det at disse erteposene ligger så nærme hverandre på tallinja?"
         ],
         "tips": [
-          "Start med bare tideler, og utvid til hundredeler for mer utfordring.",
-          "brukk kritt, teip, tråd, tau, etc for oppmerking av tallinja"
+          "Start med bare tideler, og utvid til hundredeler for mer utfordring."
         ],
         "extra": []
       }
     },
     {
-      "id": "E0101",
+      "id": "E0102",
       "title": "Mimeleken",
       "time": "5",
       "location": "Inne",
@@ -64,22 +66,22 @@
           "Hva lærte du om hvordan desimaltall kan vises visuelt?"
         ],
         "tips": [
-          "Bruk kjente referanser som penger (f.eks. en tier for 0,10) eller mat (halvt eple, kvart pizzastykke) for å gjøre mimingen lettere."
+          "Bruk kjente referanser som mat (halvt eple), vann i en kopp, ark, for å gjøre mimingen lettere."
         ],
         "extra": []
       }
     },
     {
       "id": "E0201",
-      "title": "Tall på kropp!",
-      "time": "15",
+      "title": "Plassér tallene!",
+      "time": "5",
       "location": "Ute",
       "tools": "Tallkort, kritt",
       "groupsize": "4-6",
       "learning_goal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bruke kroppen og samarbeid for å representere desimaltall, brøker og prosent – og oppdage likheter og forskjeller mellom dem."
+          "I denne aktiviteten skal vi bruke hele kroppen til å vise tall på forksjellige måter. Vi øver på å kjenne igjen og oversette mellom brøk, prosent og desimaltall - men denne gangen må dere samarbeide og plassere dere riktig for å lage svaret."
         ],
         "main": [
           "Læreren tegner tre store symboler på bakken: en brøkstrek, et prosenttegn og en kommastrek.",
@@ -89,58 +91,80 @@
           "Etter oppstilling: diskuter i klassen – hvordan kunne dette også vært vist som prosent eller desimaltall?"
         ],
         "examples": [
-          "Lærer roper “0,25” → En elev med 2 stiller seg etter komma, og en med 5 stiller seg etter det. Samtidig diskuterer klassen: \"Hva er dette som brøk? Som prosent?\""
+          "Lærer roper “0,25”",
+          "Eleven med 0 stiller seg foran komma, og eleven med 2 stiller seg etter komma, og eleven med 5 stiller seg etter der igjen. Samtidig diskuterer klassen: \"Hva er dette som brøk? Som prosent?\""
         ],
         "reflection": [
-          "– Hvordan visste dere hvor dere skulle stå?   – Hva er likt mellom 3/4, 0,75 og 75 %?   – Hvordan kan vi bruke de samme tallene i ulike representasjoner?   – Hva er forskjellen på å regne med 0,25 og 25?"
+          "Hvordan visste dere hvor dere skulle stå?",
+          "Hva er likt mellom 3/4, 0,75 og 75 %?",
+          "Hvordan kan vi bruke de samme tallene i ulike representasjoner?",
+          "Hva er forskjellen på å regne med 0,25 og 25?"
         ],
         "tips": [
-          "La grupper jobbe roterende mellom komma, brøk og prosent. Bruk samme tall i ulike formater og be dem oppdage mønstre og sammenhenger."
+          "Her kan man tegne opp tallene på noen papirlapper selv eller få elevene til å gjøre det."
         ],
         "extra": [
-          "printouts"
+          "printOuts/E0201.png"
         ]
       }
     },
     {
       "id": "E0301",
-      "title": "Kart-lek: Steinturen 0–10",
+      "title": "Steinreisen",
       "time": "15",
-      "location": "Inne/Ute",
-      "tools": "Kritt, Småstein, Skjema",
+      "location": "Ute",
+      "tools": "Kritt, Skjema",
       "groupsize": "4-6",
       "learning_goal": "formulere og løyse problem frå sin eigen kvardag som har med desimaltal, brøk og prosent å gjere, og forklare eigne tenkjemåtar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene fordele steiner langs en reiserute med 5 holdeplasser og bruke brøk, desimal og prosent for å forklare valgene sine."
+          "I denne aktiviteten skal elevene fordele steiner langs en reiserute med 5 holdeplasser og bruke brøk, desimaltall og prosent for å forklare valgene sine."
         ],
         "main": [
-          "Lag en fysisk rute eller tegn en tallinje fra 0 til 10 med 5 holdeplasser (f.eks. 2, 4, 5, 7, 10).",
-          "Alle elevene får 10 steiner som de skal “reise med” og fordele på holdeplassene.",
-          "De må bestemme selv hvor mange steiner som skal “bli igjen” på hvert stopp.",
-          "Etterpå beskriver de fordelingen som brøk, prosent og/eller desimaltall.",
-          "Elevene forklarer hvorfor de valgte som de gjorde – f.eks. “Jeg la 3 steiner på holdeplass 4 fordi det er midt på reisen.”"
+  
+          "Tegn opp 5 sirkler (holdeplasser) på bakken, og merk dem med tall fra 1 til 5.",
+          "Alle gruppene skal finne 10 steiner som de skal reise med og fordele på holdeplassene.",
+          "La elevene skrive ned valgene sine i skjemaet.",
+          "Hver holdeplass representerer en bensinstasjon, der elevene må gi fra seg steiner, og får valget om å fylle på bensin (steiner).",
+          "Regel 1: Elevene må minst gi fra seg 2 stein på hver holdeplass.",
+          "Regel 2: Elevene kan fylle opp til full tank på kun en av holdeplassene, men må fortsatt gi fra seg et antall etter tanken er blitt full. For eksempel: dersom gruppen har 7 steiner igjen og velger å fylle, får de 3 steiner ekstra slik at de har 10 steiner. Så gir de fra seg 2 steiner igjen.",
+          "Det vil si at elevene hele tiden må være klar over hvor mange steiner de har igjen å fordele.",
+          "Mellom hver holdeplass skriver gruppen fordelingen som brøk, prosent og desimaltall inn i skjemaet."
+
         ],
         "examples": [
-          "En elev la 2 steiner på holdeplass 2 → 2/10 = 0,2 = 20 %. 3 steiner på holdeplass 4 → 3/10 = 0,3 = 30 %. De sier: “Jeg fordelte mest på midten fordi det er viktigst.”"
+          "En gruppe la igjen 2 steiner på holdeplass 1",
+          "2/10 = 0,2 = 20 %.",
+          "Videre la de igjen 2 steiner på holdeplass 2",
+          "2/8 = 0,25 = 25 %.",
+          "På holdeplass 3 fylte de de opp til 10 steiner igjen, og la igjen 3 steiner",
+          "3/10 = 0,3 = 30 %.",
+          "På holdeplass 4 la de igjen 5 steiner",
+          "5/7 = 0,71 = 71 %.",
+          "Og på holdeplass 5 så la de igjen resten av steinene, 2 steiner",
+          "2/2 = 1 = 100 %."
         ],
         "reflection": [
-          "– Hvorfor valgte du å legge flest steiner på én plass?   – Hvordan regner du ut hvor stor del 3 av 10 er?   – Hva er forskjellen på å skrive det som brøk, prosent og desimaltall?"
+          "Hvorfor valgte dere å legge flest steiner på én plass?",
+          "Hvordan regner dere ut hvor stor del 3 av 10 er?",
+          "Hva er likheten på å skrive det som brøk, prosent og desimaltall?",
+          "Hvorfor valgte dere full tank på en bestemt holdeplass?"
         ],
         "tips": [
-          "La elevene skrive ned valgene sine i en tabell med kolonne for antall steiner, brøk, prosent og desimal. Bruk gjerne rutenett på gulvet eller ute."
+          "I denne aktiviteten går antall holdeplasser opp med antall steiner man må fordele.",
+          "For å gjøre det vanskeligere kan man øke antall holdeplasser slik at det ikke går opp med antall steiner, og gruppene blir tvunget til å fylle opp én gang. "
         ],
         "extra": [
-          "printouts"
+          "printOuts/E0301.png"
         ]
       }
     },
     {
       "id": "E0302",
-      "title": "Følg med!",
+      "title": "Klokka tikker!",
       "time": "5",
       "location": "Inne",
-      "tools": "Tavle, Tusj",
+      "tools": "Ingen",
       "groupsize": "Alle",
       "learning_goal": "formulere og løyse problem frå sin eigen kvardag som har med desimaltal, brøk og prosent å gjere, og forklare eigne tenkjemåtar",
       "content": {
@@ -148,13 +172,16 @@
           "I denne aktiviteten skal elevene bruke prosent, brøk og desimaltal i praksis ved å følge tidsregler knyttet til en vanlig time."
         ],
         "main": [
-          "Skriv opp \"tidsregler\" på tavla før timen startar.",
-          "Forklar at de skal gjennomføre vanlig fagarbeid, men stoppe opp ved visse tidspunkter.",
-          "Når 1/4 av timen har gått, si til klassen: \"Nå er det 1/4 av timen – hva skal vi gjøre?\"",
+          "Skriv opp tidsregler på tavla før timen starter.",
+          "Forklar at de skal gjennomføre vanlig undervisning, men stoppe opp ved visse tidspunkter.",
+          "Når 1/4 av timen har gått, sier læreren til klassen: \"Nå er det 1/4 av timen – hva skal vi gjøre?\"",
           "Gjenta dette ved 30 min (50 %), 45 min (3/4) og til slutt ved 60 min (100 %). Elevene utfører handlingene som står ved hvert tidspunkt."
         ],
         "examples": [
-          "⏱️ Når 1/4 av timen har gått (15 min) → Bytt plass med en annen!  ⏱️Når 50 % av timen har gått (30 min) → Snu deg og si noe hyggelig til sidemannen!  ⏱️Når 3/4 av timen har gått (45 min) → Bytt plass igjen!  ⏱️Når 100 % (1 hel time) har gått → Reis dere og si i kor: \"Tusen takk, lærer!\""
+          "Når 1/4 av timen har gått (15 min) → Bytt plass med en annen!",
+          "Når 50 % av timen har gått (30 min) → Snu deg og si noe hyggelig til sidemannen!",
+          "Når 3/4 av timen har gått (45 min) → Bytt plass igjen!",
+          "Når 100 % (1 hel time) har gått → Reis dere og si i kor: \"Tusen takk, lærer!\""
         ],
         "reflection": [
           "Hvilke brøk, desimaltal og prosent brukte vi i denne aktiviteten?",
@@ -162,84 +189,82 @@
           "Hvorfor er det nyttig å kunne regne med tid i prosent i hverdagen?"
         ],
         "tips": [
-          "Ha reglene stående på tavlen hele timen slik at elevene ikke glemmer tidspunktene."
+          "Variér vanskelighetsgraden: For eksempler kan man skrive brøker som 25/60, 1/3, 2/5 osv."
         ],
         "extra": []
       }
     },
     {
       "id": "E0401",
-      "title": "Formjakt i 3D",
-      "time": "45",
-      "location": "Inne/Ute",
-      "tools": "Vedlagte figurer",
+      "title": "Figurjakt i 3D",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
       "groupsize": "5-6",
       "learning_goal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
       "content": {
         "introduction": [
-          "I denne aktiviteten får elevene utdelt ulike 2D figurer og skal deretter prøve å finne liknende figurer i 3D!"
+          "I denne aktiviteten får elevene tildelt ulike figurer og skal deretter prøve å finne liknende figurer i 3D!"
         ],
         "main": [
-          "Del klassen i grupper  på 2",
-          "Gi hver gruppe et oppdrag: “Finn noe som har en firkant i seg”, “Finn noe som har en trekant i seg”, “Finn noe som er kuleformet”, “Finn noe med rektangulære sider”.",
-          "Gruppene går på “formejakt” og dokumenterer hvert funn.",
-          "Når de kommer tilbake, presenterer de funnene.",
+          "Del klassen inn i grupper og tildel hver gruppe en figur (kvadrat, trekant, sirkel, rektangel).",
+          "Fortell elevene at de skal finne 3D-versjoner av figurene (eller gjenstander som inneholder figuren, for eksempel: et dukkehus med et rektangulært vindu) sine i omgivelsene",
+          "La gruppene dra på en figurjakt og be dem komme tilbake med 1 gjenstand som representerer figuren de fikk.",
           "Læreren hjelper med å navngi 3D-formene og samtaler om hvilke 2D-former de består av."
         ],
         "examples": [
           "En gruppe finner en bok (rektangel) → Lærer forklarer at det er et prisme. En annen finner en ball → kule"
         ],
         "reflection": [
-          "– Hvilke 2D",
-          "former kunne du se på 3D",
-          "figuren?   – Hva gjør en kule forskjellig fra en kube?   – Hvor mange hjørner eller kanter fant dere?   – Hva har formene til felles?"
+          "Hvilke 2D former kunne du se på 3D-figuren?",
+          "Hva gjør en kule forskjellig fra en kube?",
+          "Hvor mange hjørner eller kanter fant dere?",
+          "Hva har formene til felles, og hva skiller dem?"
         ],
         "tips": [
-          "Bruk vedlagte figurer og gi til elevene for visuell støtte"
+          "Øk vanskelighetsgraden med andre figurerer som parallellogram, trapes, oval"
         ],
         "extra": [
-          "printouts"
+
         ]
       }
     },
     {
       "id": "E0402",
-      "title": "Kongen befaler",
+      "title": "Kongen befaler!",
       "time": "5",
-      "location": "Inne/Ute",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "Alle",
       "learning_goal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal læreren være kongen befaler der elevene sakl følge kommandoer som handler om geometriske figurer og deres egenskaper"
+          "I denne aktiviteten skal læreren være kongen i kongen befaler der elevene skal følge kommandoer som handler om geometriske figurer og deres egenskaper."
         ],
         "main": [
-          "Læreren er “Kongen” og gir kommandoer som elevene må følge – men kun hvis kommandoen starter med “Kongen befaler!”",
-          "Læreren observerer og gir rask tilbakemelding."
+          "Læreren er “kongen” og gir kommandoer som elevene må følge."
         ],
         "examples": [
-          "2D",
-          "former:",
+          "2D - former:",
           "Kongen befaler: finn noe som har form som en sirkel!",
           "Kongen befaler: pek på noe som er et rektangel!",
           "Kongen befaler: legg hånden på noe med tre hjørner!",
           "Kongen befaler: still deg ved noe som har like lange sider!",
-          "Kongen befaler: vis med kroppen en firkant! 3D",
-          "former:",
+          "Kongen befaler: vis med kroppen en firkant!",
+          "3D - former:",
           "Kongen befaler: rør noe som er en kube!",
           "Kongen befaler: finn en gjenstand som er en sylinder!",
           "Kongen befaler: pek på noe som har form som en kjegle!",
-          "Kongen befaler: finn noe med minst ett krumt (buet) område!",
-          "Kongen befaler: stå ved noe som har en kuleform! Egenskaper og sammenlikning:",
+          "Kongen befaler: finn noe med minst ett buet område!",
+          "Kongen befaler: stå ved noe som har en kuleform!",
+          "Egenskaper og sammenlikning:",
           "Kongen befaler: finn to ting med ulikt antall hjørner!",
-          "Kongen befaler: finn noe som har både hjørner og kanter!",
-          "Kongen befaler: pek på noe som ruller lett – hvorfor?",
-          "Kongen befaler: vis forskjellen på noe flatt og noe romlig! Kongen befaler: vis med hendene en form med ingen rette kanter!"
+          "Kongen befaler: pek på noe som ruller lett",
+          "Kongen befaler: vis forskjellen på noe flatt og noe romlig!",
+          "Kongen befaler: vis med hendene en form med ingen rette kanter!"
         ],
         "reflection": [
           "Hva måtte du se etter for å løse oppgaven?",
-          "Hvordan visste du at objektet passet til formen?",
           "Hvilke former var lettest og vanskeligst å finne?"
         ],
         "tips": [],
@@ -248,33 +273,32 @@
     },
     {
       "id": "E0501",
-      "title": "4 på rad – Symmetriutfordring",
+      "title": "Bondesjakk!",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt",
-      "groupsize": "3-4",
+      "groupsize": "4",
       "learning_goal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene spille et utendørs 4 på rad",
-          "spill der de må bruke kongruente eller speilvendte objekter for å vinne. Dette gir fysisk og visuell trening i symmetri og kongruens."
+          "I denne aktiviteten skal elevene spille et utendørs 4 på rad-spill der de må bruke kongruente og speilvendte objekter. Dette gir fysisk og visuell trening i symmetri og kongruens."
         ],
         "main": [
-          "Lag et stort rutenett på bakken (f.eks. 6 x 6 ruter).",
-          "Del elevene inn i grupper eller par.",
-          "Hver elev samler objekter fra naturen (blad, pinne, stein, osv.).",
-          "På tur legger de objektene sine i rutenettet og forsøker å få fire på rad – enten med kongruente objekter (samme type og form) eller speilvendte mønster.",
-          "Første som klarer fire på rad vinner."
+          "Del klassen inn i grupper på 4, der hver gruppe skal tegne et rutenett på 3x3 med kritt.",
+          "Hvert par velger en figur de har lyst til å spille med, for eksempel rektangel, trekant eller diamant (ikke sirkel eller kvadrat).",
+          "Hvert tegner sin figur første runde. Påfølgenede runder får de kun til å ha en variant av denne (ikke symmetrisk). Enten kongruent/symmetrisk.",
+          "På tur tegner de figurene sine i rutenettet, og forsøker å få tre på rad.",
+          "Første par som klarer tre på rad vinner."
         ],
         "examples": [
-          "Fire like blader lagt i en horisontal linje",
-          "fire firkanter (bok, linjal, bok, kortstokk)"
+          
         ],
         "reflection": [
-          "– Hvordan ser vi at to objekter er speilvendte?   – Hva betyr det at noe er kongruent?   – Kan dere forklare hvordan dere tenkte da dere la ut objektene?"
+          "Hvordan ser vi at to objekter er speilvendte?",
+          "Hva betyr det at noe er kongruent?"
         ],
         "tips": [
-          "Kan enkelt gjennomføres inne dersom man dropper rutenettet og heller lar elevene legge konkretene på rekke selv"
+          "Bruk ulike farger på paret sine figurer for å gjøre det mer visuelt."
         ],
         "extra": []
       }
@@ -283,58 +307,61 @@
       "id": "E0502",
       "title": "Hermegåsa!",
       "time": "5",
-      "location": "Inne/Ute",
-      "tools": "Kritt",
+      "location": "Inne/ute",
+      "tools": "Ingen",
       "groupsize": "2",
       "learning_goal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene speile hverandre over en symmetrilinje."
+          "I denne aktiviteten skal elevene speile hverandre over en imaginær symmetrilinje."
         ],
         "main": [
-          "Lag en speillinje på gulvet med tape eller tegnet med kritt.",
-          "Elevparet stiller seg på hver sin side av speillinjen.",
-          "Én elev i paret utfører en bevegelse foran speillinjen.",
+          "Del elevene inn i par.",
+          "Elevparet stiller seg på hver sin side av en imaginær symmetrilinje.",
+          "Én elev i paret utfører en bevegelse som å løfte en arm eller stå på én fot.",
           "Den andre eleven speiler bevegelsen så nøyaktig som mulig.",
           "Etter noen runder, bytter de roller."
         ],
         "examples": [
-          "Én elev løfter høyre arm, den andre løfter venstre arm slik at det ser ut som en speiling i speil."
+          "Én elev løfter høyre arm, den andre løfter venstre arm."
         ],
         "reflection": [
-          "Hvordan vet du at bevegelsen din er en speiling?",
           "Hva må du tenke på når du speiler noen andres bevegelse?",
           "Hvordan kan vi kjenne igjen symmetri i mønstre og bevegelser?"
         ],
         "tips": [
-          "Bruk musikk for å gjøre det mer rytmisk og engasjerende. Gjennomfør ute om det er behov for mer plass."
+          "Bruk musikk for å gjøre det mer rytmisk og engasjerende.",
+          "For mer visuell støtte kan man lage/tegne symmetrilinjen på bakken."
         ],
         "extra": []
       }
     },
     {
       "id": "E0601",
-      "title": "Sirkeljakten",
-      "time": "15",
+      "title": "Omkretsjegerne!",
+      "time": "5",
       "location": "Ute",
-      "tools": "Kritt, målebånd",
-      "groupsize": "3-5",
+      "tools": "Kritt",
+      "groupsize": "4-5",
       "learning_goal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samarbeide om å lage en sirkel, måle radius og diameter, og utforske hvordan disse henger sammen med omkrets."
+          "I denne aktiviteten skal elevene samarbeide om å lage en sirkel, måle diameter, og utforske hvordan disse henger sammen med omkrets."
         ],
         "main": [
           "Hver gruppe bruker kritt til å forme en sirkel på bakken.",
-          "De måler diameteren og beregner radius.",
+          "De måler diameteren",
+          "Elevene skal måle diameteren med føttene.",
           "Deretter går de rundt sirkelen med skritt og sammenligner omkretsen med målt diameter.",
-          "Til slutt konkurrerer gruppene: Hvilken gruppe laget den mest nøyaktige sirkelen, der omkrets ≈ diameter × π?"
+          "La gruppene utforske at omkretsen er omtrent 3 ganger diameteren ved å bruke formelen Omkrets ≈ Diameter × π."
+
         ],
         "examples": [
-          "En gruppe lager en sirkel med 2 meter diameter. Radius blir da 1 meter, og de forventer at omkretsen skal være ca. 6,28 meter."
+          "En gruppe lager en sirkel med 1 meter diameter. Omkretsen skal være ca. 3,14 meter."
         ],
         "reflection": [
-          "– Hvordan fant dere radius og diameter?   – Hvorfor er omkretsen alltid omtrent 3 ganger diameteren?   – Hvordan visste dere om deres sirkel var nøyaktig?"
+          "Hvordan fant dere diameter?",
+          "Hvorfor er omkretsen alltid omtrent 3 ganger diameteren?"
         ],
         "tips": [
           "Kan enkelt bytte kritt med hyssing, tau, pinner. Bruk det dere har tilgjengelig!"
@@ -345,7 +372,7 @@
     {
       "id": "E0701",
       "title": "Hopp og mål!",
-      "time": "15",
+      "time": "5",
       "location": "Ute",
       "tools": "Kritt",
       "groupsize": "2",
@@ -355,21 +382,24 @@
           "I denne aktiviteten skal elevene utforske hvordan areal kan forstås som lengde × bredde ved hjelp av fysisk aktivitet. Én elev hopper bortover (bredde), den andre hopper fremover (lengde). Sammen danner de et rektangel."
         ],
         "main": [
-          "Lag et stort rutenett på bakken.  Feks 10 x 10",
-          "Én elev hopper f.eks. 3 ruter fremover.",
-          "Den andre hopper f.eks. 4 ruter til siden.",
+          "Lag et stort rutenett på bakken. For eksempel 10 x 10",
+          "Én elev hopper for eksempel 3 ruter fremover.",
+          "Den andre hopper for eksempel 4 ruter til siden.",
           "Elevene teller hvor mange ruter rektangelet dekker.",
-          "Sammen regner de ut arealet: lengde × bredde."
+          "Sammen regner de ut arealet: lengde × bredde.",
+          "Gjenta flere ganger med ulike metoder som å hinke, ta et steg eller hoppe lengre. Klarer de å få et større areal?"
         ],
         "examples": [
           "Elev A hopper 3 ruter fremover, elev B hopper 4 ruter til siden. Arealet = 3 × 4 = 12 ruter."
         ],
         "reflection": [
-          "– Hvordan fant dere arealet?   – Hva skjer med arealet hvis dere bytter hvem som hopper hva?   – Hvordan kan dere vise dette på en tegning eller med konkreter?"
+          "Hvordan fant dere arealet?",
+          "Hva skjer med arealet hvis dere bytter hvem som hopper hvor?",
+          "Hvordan kan dere vise dette på en tegning eller med ting?"
         ],
         "tips": [
-          "La elevene tegne opp rektangelet med tau eller kritt etter at de har hoppet. Varier ved å bruke større rutenett eller ulike kroppsbevegelser."
-        ],
+          "La elevene fargelegge rutene i for visuell støtte."
+  ],
         "extra": []
       }
     },
@@ -377,28 +407,30 @@
       "id": "E0702",
       "title": "Bygg en kube!",
       "time": "5",
-      "location": "Inne/Ute",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "4-5",
       "learning_goal": "utforske mål for areal og volum i praktiske situasjonar og representere dei på ulike måtar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bygge et kvadrat med bruk av selvvalgte gjenstander."
+          "I denne aktiviteten skal elevene bygge et kvadrat med bruk av gjenstander elevene finner i rommet/ute."
         ],
         "main": [
+          "Del klassen i grupper på 4–5 elever.", 
           "Sett på en timer på 2 min.",
           "Be gruppene om å hente valgfrie konkreter og deretter samarbeide om å lage en kube (boks)",
-          "Når tiden er ute og kuben er bygget, skal alle gruppene gjette på hver av gruppenes gjenstand- hva er volumet?"
+          "Når tiden er ute og kuben er bygget, skal alle gruppene gjette volumet på hverandres kube, uten å bruke enheter."
         ],
         "examples": [
-          "En gruppe bygger en kube ved å ta 4 bøker oppå hverandre. De gjetter et volum på 0,5 liter."
+          "En gruppe bygger en kube ved å ta 4 bøker oppå hverandre. Etter å ha sett på andre gruppers kuber, gjetter de et volum på 2."
         ],
         "reflection": [
           "Hva tenker dere på som en kube? Hva er egenskapene til en kube?",
           "Hvilke refleksjoner gjorde dere for å komme frem til svaret deres?"
         ],
         "tips": [
-          "Bruk målebåndet for å ettermåle og se hva volumet blir."
+          "Bruk målebåndet for å ettermåle og se hva volumet blir.",
+          "Utfordre elevene til å bruke enheter som cm³ eller liter."
         ],
         "extra": []
       }
@@ -408,38 +440,38 @@
       "title": "Papirtårn",
       "time": "15",
       "location": "Inne",
-      "tools": "Papir, tape, linjal ruteark",
+      "tools": "Ark,Linjal,Teip",
       "groupsize": "3–4",
       "learning_goal": "utforske mål for areal og volum i praktiske situasjoner og representere dem på ulike måter",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bygge tårn, måle arealet av basen og volumet enkelt og vise resultatene på ulike måter."
+          "I denne aktiviteten skal elevene bygge tårn med papir og deretter regne ut volumet ved hjelp av å grunnflaten og høyden."
         ],
         "main": [
           "Del klassen i grupper på 3–4 elever.",
-          "Gi hver gruppe noen ark med rutenett, papir og teip.",
-          "Bygg et enkelt tårn av arkene på rutenettet og bruk max 7 min.",
-          "Tell hvor mange hele ruter basen dekker for å finne arealet.;",
-          "Mål tårnets høyde med linjal og multipliser med arealet for å anslå volumet.;",
-          "Velg å vise resultatene med tegning, tabell eller setning."
+          "Gi hver gruppe noen ark og teip.",
+          "La elevene være kreative og bygge tårn ved hjelp av arkene.",
+          "Sett en timer på 7 minutter til byggingen.",
+          "Når tiden er ute skal elevene bruke linjalen til å måle lengden, bredden og høyden på tårnet.",
+          "Deretter skal de regne ut grunnflaten ved å ta lengde × bredde, og til slutt gange med høyden for å få volumet."
         ],
         "examples": [
-          "Gruppen målte tårnets base til 4 hele ruter (4 cm²) og høyden til 20 cm, og anslo volumet til 4 cm² × 20 cm = 80 cm³.; De tegnet tårnet og skrev “Volum = 80 cm³”."
+          "Gruppen målte tårnets grunnflate til 4 cm² og høyden til 20 cm, og anslo volumet til 4 cm² × 20 cm = 80 cm³."
         ],
         "reflection": [
-          "Hvilket målte dere først, areal eller høyde?;",
-          "Hvordan valgte dere å vise resultatene deres (tegning, tabell, tekst)?;",
+          "Hva målte dere først, areal eller høyde?",
           "Hva synes dere var lettest og vanskeligst med å finne volumet?"
         ],
         "tips": [
-          "Vise et ferdig utfylt rutenett som eksempel.; La elevene bruke farger for basen og høyden i tegningen.; Hjelp dem med setningsstruktur: “Basen er __ cm², høyden er __ cm, volumet er __ cm³.”"
+          "La elevene bruke forskjellige farger for grunnflaten og høyden.",
+          "Hjelp dem med setningsstruktur: “Grunnflaten er __ cm², høyden er __ cm, volumet er __ cm³.”"
         ],
         "extra": []
       }
     },
     {
       "id": "E0801",
-      "title": "Figurjakten",
+      "title": "Den perfekte firkant",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt",
@@ -447,21 +479,33 @@
       "learning_goal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene lage ulike figurer på et 6x6",
-          "brett ut fra instruksjoner om areal og/eller omkrets. De bruker strategier for å finne hvilke figurer som passer, og ser sammenhengen mellom areal og omkrets."
+          "Klarer dere å tegne den perfekte firkanten? I denne aktiviteten skal elevene få instrukser om areal/omkrets og lage en passende firkant på et rutenett."
         ],
         "main": [
-          "Lag et rutenett med kritt ute.",
-          "Læreren gir åpne instruksjoner som f.eks. “Lag en figur med areal 8” eller “Lag en figur med areal 6 og omkrets 10”.",
+          "Del klassen i grupper på 3–4 elever.",
+          "Hver gruppe tegner et 6x6 rutenett med kritt.",
+          "Læreren gir instruksjoner som f.eks. “Lag en firkant med areal 8” eller .",
           "Elevene markerer figuren på rutenettet.",
-          "De regner ut både areal og omkrets og vurderer om den stemmer med oppgaven.",
-          "Diskuter flere mulige løsninger."
+          "De regner ut både areal og omkrets og vurderer om den stemmer med oppgaven."
         ],
         "examples": [
-          "Oppgave = “Lag en figur med omkrets 10.”  Elevgruppen lager et rektangel og sjekker at det stemmer."
+          "Lett:",
+          "Lag en firkant med omkrets 8.",
+          "Lag en firkant med areal 4.",
+
+          "Middels:",
+          "Lag en firkant med areal 12.",
+          "Lag en firkant med omkrets 16.",
+
+
+          "Vanskelig:",
+          "Lag en firkant med areal 12 og omkrets 16. Svar: firkant med lengde 6 og bredde 2.",
+          "Lag en firkant med areal 9 og omkrets 12. Svar: firkant med lengde 3 og bredde 3."
         ],
         "reflection": [
-          "– Fant dere flere figurer med samme areal?  – Hvilke figurer hadde lavest/høyest omkrets med samme areal?  – Hva skjer med omkretsen når figuren endrer form, men arealet er likt?"
+          "Fant dere flere figurer med samme areal?",
+          "Hvilke figurer hadde minst/størst omkrets med samme areal?",
+          "Hva skjer med omkretsen når figuren endrer form, men arealet er likt?"
         ],
         "tips": [
           "La elevene lage egne oppgaver for hverandre etter hvert."
@@ -471,7 +515,7 @@
     },
     {
       "id": "E0802",
-      "title": "Utforsk forholdstallet med pi!",
+      "title": "Utforsk forholdstallet pi!",
       "time": "5",
       "location": "Ute",
       "tools": "Kritt",
@@ -479,13 +523,16 @@
       "learning_goal": "bruke ulike strategiar for å rekne ut areal og omkrins og utforske samanhengar mellom desse",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene måle diameter og omkrets ved å skritte opp! Så skal de finne forholdet mellom de."
+          "I denne aktiviteten skal elevene måle diameter og omkrets ved å måle med føttene! Så skal de finne forholdet mellom de."
         ],
         "main": [
-          "Lag sirkler på bakken i ulik størrelse og fordel hver gruppe på en sirkel",
-          "EN elev skal telle antall skritt fra den ene siden av sirkelen til den andre. En annen skal telle skritt rundt sirkelen.",
-          "Den siste eleven skrivet ned tallene de får og sammen regner de ut",
-          "Gå inn i klasserommet og sammenlikn, hvilke svar fikk de andre gruppene?"
+          "Del klassen i grupper på 3 elever.",
+          "Fordel roller: Én skal måle diameter, en annen skal måle omkrets, og den siste skal skrive ned tallene.",
+          "Elevene tegner sirkler på bakken",
+          "En elev skal telle antall skritt fra den ene siden av sirkelen til den andre. En annen skal telle skritt rundt sirkelen.",
+          "Den siste eleven skriver ned tallene de får og sammen regner de ut forholdet mellom omkrets og diameter ved å bruke formelen Omkrets / Diameter.",
+          "Gå inn i klasserommet og sammenlikn, hvilke svar fikk de andre gruppene?",
+          "Dette svaret skal være omtrent 3,14."
         ],
         "examples": [
           "En gruppe måler diameter til 7 skritt og omkrets til 22 skritt. De regner 22 / 7 ≈ 3,14."
@@ -493,11 +540,11 @@
         "reflection": [
           "Hva skjer med forholdet omkrets / diameter uansett størrelse på sirkelen?",
           "Hva forteller dette oss om sirkler generelt?",
-          "Hvordan kan dette hjelpe oss på regne ut omkrets hvis vi bare kjenner diameter?"
+          "Hvordan kan dette hjelpe oss med å regne ut omkrets hvis vi bare kjenner diameter?"
         ],
         "tips": [
           "Minn elevene på å gå med like lange skritt for mer presise målinger.",
-          "Bruk kritt til å hjelpe med å markere diameteren."
+          "Be elevene markere diameteren for å gjøre det lettere."
         ],
         "extra": []
       }
@@ -512,11 +559,11 @@
       "learning_goal": "bruke variablar og formlar til å uttrykkje samanhengar i praktiske situasjonar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene finne fysiske objekter og gi dem en verdi. Deretter lager de mattestykker med symbolene, som de plasserer på bakken og regner ut. De trener på å bruke variabler og formler i praktiske situasjoner."
+          "I denne aktiviteten skal elevene finne gjenstander og gi dem en verdi. Deretter lager de mattestykker med gjenstandene som de skal bruke i regnestykker."
         ],
         "main": [
-          "La elevene finne 2–3 ulike konkreter i skolegården eller klasserommet (f.eks. eple, stein, pinne).",
-          "De gir hvert konkret en tallverdi (f.eks. eple = 3, stein = 5, pinne = 2).",
+          "La elevene finne 2–3 ulike gjenstander i skolegården eller klasserommet (f.eks. eple, stein, pinne).",
+          "Bli enige i klassen: Hvilken verdi har hver gjenstand? Skriv ned på tavla. For eksempel: eple = 3, stein = 5 og pinne = 2.",
           "Lag uttrykk som «3 epler + 2 steiner».",
           "Bytt ut med tall og regn ut totalverdien: 3×3 + 2×5 = 19."
         ],
@@ -524,7 +571,8 @@
           "Hvis eple = 3 og stein = 5: 3 × eple + 2 × stein = 3×3 + 2×5 = 9 + 10 = 19."
         ],
         "reflection": [
-          "– Hvilket konkret var mest verdt? – Kan du lage et uttrykk som blir 20? – Hvordan kan du endre verdiene for å få samme svar på nytt?"
+          "– Hvilket konkret var mest verdt?",
+          "Kan du lage et uttrykk som blir for eksempel 20?"
         ],
         "tips": [],
         "extra": []
@@ -535,12 +583,12 @@
       "title": "Kongen befaler!",
       "time": "5",
       "location": "Inne",
-      "tools": "Tavle, Tusj",
+      "tools": "Ingen",
       "groupsize": "Alle",
       "learning_goal": "bruke variablar og formlar til å uttrykkje samanhengar i praktiske situasjonar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal læreren være kongen og befale elevene til å gjøre forskjellige predefinerte bevegelser, der hver bevegelse er knyttet til en variabel."
+          "I denne aktiviteten skal læreren være kongen og befale elevene til å gjøre forskjellige bevegelser, der hver bevegelse er knyttet til en variabel."
         ],
         "main": [
           "Skriv opp  reglene for hva hver variabel betyr på tavla (x = hopp, y = snurr rundt, osv.).",
@@ -550,7 +598,29 @@
           "Avslutt med en kort refleksjon i plenum."
         ],
         "examples": [
-          "x= Hopp y= Snurr rundt z=Klapp a=Knebøy b=Sprett opp c=Touch bakken d= Hopp sideveis  Kommandoer:  Lett: x + y → Hopp + Snurr rundt z + z + x → Klapp, klapp, hopp a + b → Knebøy, sprett opp x + x + x → Hopp tre ganger Middels: 2x + y → Hopp, hopp, snurr rundt a + b + z → Knebøy, sprett opp, klapp x + y + z + x → Hopp, snurr rundt, klapp, hopp 2z + c → Klapp, klapp, touch bakken Utfordrende: 3x + 2y + d → Hopp x3, snurr x2, hopp sideveis x + a + z + x + b → Hopp, knebøy, klapp, hopp, sprett opp 2(x + z) → Hopp + klapp, hopp + klapp (x + y) + (a + b) → Hopp + snurr, knebøy + sprett"
+          "x= Hopp",
+          "y= Snurr rundt",
+          "z=Klapp",
+          "a=Knebøy",
+          "b=Sprett opp",
+          "c=Touch bakken",
+          "d= Hopp sideveis",
+          "Kommandoer: ",
+          "Lett: ",
+          "x + y → Hopp + Snurr rundt",
+          "z + z + x → Klapp, klapp, hopp",
+          "a + b → Knebøy, sprett opp",
+          "x + x + x → Hopp tre ganger",
+          "Middels: ",
+          "2x + y → Hopp, hopp, snurr rundt",
+          "a + b + z → Knebøy, sprett opp, klapp",
+          "x + y + z + x → Hopp, snurr rundt, klapp, hopp",
+          "2z + c → Klapp, klapp, touch bakken",
+          "Utfordrende: ",
+          "3x + 2y + d → Hopp x3, snurr x2, hopp sideveis",
+          "x + a + z + x + b → Hopp, knebøy, klapp, hopp, sprett opp",
+          "2(x + z) → Hopp + klapp, hopp + klapp",
+          "(x + y) + (a + b) → Hopp + snurr, knebøy + sprett"
         ],
         "reflection": [
           "Hva betyr det når det står 2x i en formel?",
@@ -572,23 +642,27 @@
       "learning_goal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene programmere en 'robot' ved å skrive instruksjonskort for en medelev med bind for øynene. Målet er å lage den korteste veien til mål, uten å krasje i hindringer."
+          "I denne aktiviteten skal en elev være robot, og de andre skal være medhjelpere. Roboten har bind for øynene. Målet er å dirigere roboten fra start til mål, uten å krasje i hindringer."
         ],
         "main": [
-          "Lag et rutenett (f.eks. 5x5) med startpunkt og mål.",
-          "Én elev får bind for øynene og er roboten.",
-          "Læreren tegner inn hindringer i rutenettet",
-          "Elevene  planlegger ruten til målet",
-          "Elevene skriver kommandoer som: 'Gå frem 2 steg', 'Snu 90° høyre', osv.",
-          "Test ruten og tell antall instruksjoner – prøv å gjøre det kortere i neste forsøk."
+          "Del klassen i grupper på 4-5 elever og gi hver gruppe en start - og målplass med hindringer i mellom. ",
+          "En elev på hver gruppe får bind for øynene og er roboten.",
+          "Elevene får ett minutt til å planlegge ruten roboten skal gå for å komme seg til målet. Her er det lurt å tegne ruten på et ark.",
+          "Eksempel: 'Gå frem 2 steg', 'Snu 90° høyre', osv.",
+          "Gjennomfør ruten flere ganger, klarer dere å minimere antall instruksjoner?"
         ],
         "examples": [
-          "Instruksjoner: Gå frem 1 – Snu høyre – Gå frem 1 – Snu venstre – Gå frem 2."
+          "Instruksjoner:",
+          "Gå 1 skritt frem",
+          "Snu 90° til høyre",
+          "Gå 2 skritt bakover"
         ],
         "reflection": [
-          "– Hvor mange instruksjoner brukte dere? – Hva skjedde da dere traff en hindring? – Hvordan kunne dere gjort programmet kortere?"
+          "Hvor mange instruksjoner brukte dere?",
+          "Hva skjedde da dere traff en hindring?",
+          "Hvordan kunne dere gitt færre instruksjoner?"
         ],
-        "tips": [],
+        "tips": ["Her trenger man ikke å rydde klasserommet - det er gøy med hindringer!"],
         "extra": []
       }
     }
