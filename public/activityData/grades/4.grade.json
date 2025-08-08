@@ -12,50 +12,55 @@
       "learning_goal": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
       "content": {
         "introduction": [
-          "Kongen befaler at alle elever skal være snille:)  I denne aktiviteten skal læreren være kongen og elevene skal følge instruksjonene som blir gitt"
+          "I denne aktiviteten skal læreren være kongen i kongen befaler. Kongen skal befale til å dele seg opp i grupper av ulik størrelse."
         ],
         "main": [
-          "Forklar at læreren er \"kongen\" og gir kommandoer som elevene skal følge",
-          "Gi kommandoer som handler om å dele inn klassen i ulike grupper",
-          "Still oppfølgingsspørsmål etter hver kommando (f.eks. hvor mange grupper? hvor mange per gruppe?).",
+          "Læreren gir befalinger som: “Del dere i grupper på 3”.",
+          "Elevene må raskt finne ut hvor mange grupper det blir, og gruppere seg deretter.",
           "Varier mellom målingsdivisjon (f.eks. lag 5 grupper) og delingsdivisjon (f.eks. grupper på 3).",
           "Gjenta med nye oppgaver, og diskuter løsninger underveis."
         ],
         "examples": [
-          "- Kongen befaler at alle deler seg i grupper på",
-          "Klassen har 24 elever, så det blir 8 grupper.  - \"Bli 4 grupper!\". Da må elevene finne ut at det blir 6 elever per gruppe."
+          "Kongens befalinger: ",
+          "Bli 4 grupper", 
+          "Fordel dere på de 4 veggene.",
+          "Del klassen i to, og så to igjen.",
+          "Del dere i grupper på 6.",
+          "Lag 5 grupper.",
+          "Del dere i grupper på 3."
+          
         ],
         "reflection": [
           "Hva var forskjellen på når vi lagde grupper på 3, og når vi skulle bli 3 grupper?",
           "Hvordan fant dere ut hvor mange det ble i hver gruppe?",
-          "Kan du forklare hvordan du delte opp?"
+          "Kan dere forklare hvordan dere delte opp?"
         ],
         "tips": [
-          "La elevene selv få komme med forslag til kommandoer."
+          "Tegn gruppene med antallet på tavla om nødvendig."
         ],
         "extra": []
       }
     },
     {
       "id": "C0102",
-      "title": "Ballongstafett",
-      "time": "15",
+      "title": "Bokstafett!",
+      "time": "45",
       "location": "Ute",
-      "tools": "Ballonger, stoppeklokke, målebånd",
+      "tools": "Bøker, Stoppeklokke",
       "groupsize": "4",
       "learning_goal": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske målings",
-          "og delingsdivisjon ved å måle tid og beregne fart i en ballongstafett."
+          "I denne aktiviteten skal elevene utforske målings- og delingsdivisjon ved å måle tid og beregne fart i en bokstafett."
         ],
         "main": [
-          "Del klassen i grupper på 4 elever og del ut 2 ballonger som de må blåse opp selv.",
+          "Del klassen i grupper på 4 elever og del ut 2 bøker til hver gruppe.",
           "Hver gruppe deler seg i to par.",
           "Marker en løype på for eksempel 10 m",
-          "Parene plasserer ballongen mellom pannene.",
-          "På signal løper de til enden av løypa og tilbake mens en elev tidtar. Her er det om å gjøre å ikke miste ballongen i bakken!",
+          "Det ene paret plasserer en bok mellom pannene deres.",
+          "På signal løper de til enden av løypa og tilbake mens det andre paret tar tiden. Her er det om å gjøre å ikke miste boken i bakken!",
           "Noter tiden for hver runde.",
+          "Paret bytter roller og gjentar.",
           "Beregn gjennomsnittsfarten ved å dele distansen (m) på tiden (s) og diskuter sammenhengen"
         ],
         "examples": [
@@ -66,7 +71,7 @@
           "Hva lærte dere om sammenhengen mellom tid, avstand og fart?"
         ],
         "tips": [
-          "Kan endre fra ballong til noe annet dere har liggende"
+          "For å gjøre det mer morsomt så kan man bruke ballonger."
         ],
         "extra": []
       }
@@ -81,7 +86,7 @@
       "learning_goal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke med en tilhørende kant og mengde."
+          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke. Delestykket skal settes sammen med en annen brikke som har svaret på sin kant."
         ],
         "main": [
           "Print ut vedlagte puslespillbrikker i papir",
