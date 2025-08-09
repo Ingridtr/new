@@ -14,18 +14,20 @@ const HeartButton = ({ pageId }: Props) => {
 
     const pickFavorites = () => {
         const stored = JSON.parse(localStorage.getItem("favorites") || "[]"); 
-        //const currentFavorites = JSON.parse(localStorage.)
         let updated; 
 
-    if (stored.includes(pageId)){
-        updated = stored.filter((favId: string) => favId !==pageId); 
-    } else {
-        updated = [...stored, pageId];
-    }
+        if (stored.includes(pageId)){
+            updated = stored.filter((favId: string) => favId !== pageId); 
+        } else {
+            updated = [...stored, pageId];
+        }
 
-    localStorage.setItem("favorites", JSON.stringify(updated));
-    setIsFavorite(!isFavorite);
-}; 
+        localStorage.setItem("favorites", JSON.stringify(updated));
+        setIsFavorite(!isFavorite);
+        
+        // Dispatch custom event to notify other components
+        window.dispatchEvent(new CustomEvent("favoritesChanged"));
+    }; 
 
 return (
     <button 

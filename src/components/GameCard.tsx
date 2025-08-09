@@ -1,5 +1,6 @@
 import React from "react";
 import { ImagePreloader } from "./ImagePreloader";
+import HeartButton from "./HeartButton";
 
 interface GameCardProps {
   title: string;
@@ -10,6 +11,8 @@ interface GameCardProps {
   tools: string;
   learningGoal?: string[];
   onDelete?: () => void;
+  activityId?: string; // Add activityId prop for heart button
+  showHeartButton?: boolean; // Add option to show heart button
 }
 
 function GameCard({
@@ -20,6 +23,8 @@ function GameCard({
   location = "Inne/ute",
   tools = "Ingen",
   onDelete,
+  activityId,
+  showHeartButton = false,
 }: GameCardProps) {
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -68,6 +73,15 @@ function GameCard({
         >
           X
         </button>
+      )}
+
+      {showHeartButton && activityId && (
+        <div
+          className="absolute top-2 right-2 z-10"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <HeartButton pageId={activityId} />
+        </div>
       )}
     </div>
   );

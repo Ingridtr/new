@@ -90,6 +90,11 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
             </a>
           </li>
           <li role="none">
+            <a href="/grade" role="menuitem">
+              Oppgaver
+            </a>
+          </li>
+          <li role="none">
             <a href="/management" role="menuitem">
               For ledelsen
             </a>
@@ -97,6 +102,11 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
           <li role="none">
             <a href="/knowledge" role="menuitem">
               Kunnskapssiden
+            </a>
+          </li>
+          <li role="none">
+            <a href="/search" role="menuitem">
+              🔍 Søk
             </a>
           </li>
           <li role="none">
@@ -182,6 +192,15 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
           </li>
           <li role="none">
             <button
+              onClick={() => closeMenuAndNavigate("/search")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
+              <p>🔍 Søk</p>
+            </button>
+          </li>
+          <li role="none">
+            <button
               onClick={() => closeMenuAndNavigate("/about")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
@@ -196,6 +215,15 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
               role="menuitem"
             >
               <p>Min side</p>
+            </button>
+          </li>
+          <li role="none">
+            <button
+              onClick={() => closeMenuAndNavigate("/grade")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
+              <p>Oppgaver</p>
             </button>
           </li>
           <li role="none">
