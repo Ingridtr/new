@@ -22,7 +22,7 @@ function GameCard({
   title,
   image,
   onClick,
-  time = "5 min",
+  time = "5",
   location = "Inne/ute",
   tools = "Ingen",
   onDelete,

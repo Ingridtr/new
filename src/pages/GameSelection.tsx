@@ -132,7 +132,7 @@ function GameSelection() {
                   key={index}
                   title={activity.title}
                   image={activity.image}
-                  time={`${activity.time} min`}
+                  time={`${activity.time}`}
                   location={activity.location}
                   tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
                   learningGoal={activity.learningGoals}
