@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
       ) {
         setMenuOpen(false);
       }
-      
+
       if (
         rightMenuRef.current &&
         !rightMenuRef.current.contains(e.target as Node) &&
@@ -106,27 +106,13 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
             role="menubar"
           >
             <li role="none">
-              <a href="/favorites" role="menuitem">
-                Min side
-              </a>
-            </li>
-            <li role="none">
-              <a href="/grade" role="menuitem">
-                Oppgaver
-              </a>
-            </li>
-            <li role="none">
               <a href="/search" role="menuitem">
-                🔍 Søk
+                Søk aktiviteter
               </a>
             </li>
             <li role="none">
               <a href="/" role="menuitem" aria-label="Gå til forsiden">
-                <FontAwesomeIcon
-                  icon={faHouse}
-                  className="h-5 w-5"
-                  aria-hidden="true"
-                />
+                  <FontAwesomeIcon icon={faHouse} className="h-5 w-5" aria-hidden="true" />
                 <span>Hjem</span>
               </a>
             </li>
@@ -175,14 +161,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
                 >
                   Kunnskapssiden
                 </a>
-                <a
-                  href="/about"
-                  className="block px-4 py-2 text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded mx-1"
-                  role="menuitem"
-                  onClick={() => setRightMenuOpen(false)}
-                >
-                  Om oss
-                </a>
+
                 <a
                   href="/management"
                   className="block px-4 py-2 text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded mx-1"
@@ -190,6 +169,23 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
                   onClick={() => setRightMenuOpen(false)}
                 >
                   For ledelsen
+                </a>
+                <a
+                  href="/favorites"
+                  className="block px-4 py-2 text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded mx-1"
+                  role="menuitem"
+                  onClick={() => setRightMenuOpen(false)}
+                >
+                  Mine favoritter
+                </a>
+
+                <a
+                  href="/about"
+                  className="block px-4 py-2 text-black hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded mx-1"
+                  role="menuitem"
+                  onClick={() => setRightMenuOpen(false)}
+                >
+                  Om oss
                 </a>
               </div>
             )}
@@ -253,38 +249,11 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
           </li>
           <li role="none">
             <button
-              onClick={() => closeMenuAndNavigate("/favorites")}
-              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
-              <p>Min side</p>
-            </button>
-          </li>
-          <li role="none">
-            <button
-              onClick={() => closeMenuAndNavigate("/grade")}
-              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
-              <p>Oppgaver</p>
-            </button>
-          </li>
-          <li role="none">
-            <button
               onClick={() => closeMenuAndNavigate("/knowledge")}
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
               <p>Kunnskapssiden</p>
-            </button>
-          </li>
-          <li role="none">
-            <button
-              onClick={() => closeMenuAndNavigate("/about")}
-              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
-              role="menuitem"
-            >
-              <p>Om oss</p>
             </button>
           </li>
           <li role="none">
@@ -296,6 +265,26 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
               <p>For ledelsen</p>
             </button>
           </li>
+          <li role="none">
+            <button
+              onClick={() => closeMenuAndNavigate("/favorites")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
+              <p>Mine favoritter</p>
+            </button>
+          </li>
+
+          <li role="none">
+            <button
+              onClick={() => closeMenuAndNavigate("/about")}
+              className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
+              role="menuitem"
+            >
+              <p>Om oss</p>
+            </button>
+          </li>
+
           <li role="none">
             <button
               onClick={() => closeMenuAndNavigate("/")}

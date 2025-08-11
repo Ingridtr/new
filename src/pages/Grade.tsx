@@ -4,16 +4,20 @@ import Footer from "../components/Footer";
 import GradeButton from "../components/GradeButton";
 import Breadcrumb from "../components/Breadcrumb";
 import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
+import { useNavigate } from "react-router-dom";
 
 function Grade() {
   const breadcrumbs = useBreadcrumbs();
-  
+  const navigate = useNavigate();
+
   // Clear selected grade when returning to grade selection
   useEffect(() => {
     localStorage.removeItem("selectedGrade");
     localStorage.removeItem("selectedLearningGoal");
     // Dispatch event to update navbar
-    window.dispatchEvent(new CustomEvent("gradeChanged", { detail: { grade: null } }));
+    window.dispatchEvent(
+      new CustomEvent("gradeChanged", { detail: { grade: null } })
+    );
   }, []);
 
   return (
@@ -24,6 +28,14 @@ function Grade() {
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={breadcrumbs} className="mb-6" />
           <h1>Velg trinn</h1>
+          <div className="flex justify-center mb-8">
+            <button
+              onClick={() => navigate("/search")}
+              className="inline-flex items-center justify-center bg-white hover:bg-gray-50 border border-gray-300 font-medium rounded-xl px-4 py-2 transition-colors text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              🔍 Søk etter aktiviteter
+            </button>
+          </div>
           <GradeButton />
         </div>
       </div>
