@@ -1,8 +1,8 @@
-import {useEffect, useMemo, useState} from "react";
-import { useNavigate } from 'react-router-dom'; 
+import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 import Breadcrumb from "../components/Breadcrumb";
 
 import GameCard from "../components/GameCard";
@@ -11,8 +11,11 @@ import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 const GRADES_BASE = "/activityData/grades";
 const gradeFiles = [
-  "2.grade.json","3.grade.json",
-  "4.grade.json","5.grade.json","6.grade.json",
+  "2.grade.json",
+  "3.grade.json",
+  "4.grade.json",
+  "5.grade.json",
+  "6.grade.json",
   "7.grade.json",
 ];
 
@@ -56,10 +59,20 @@ const FavoritesPage = () => {
       lists.forEach((x: any) => {
         if (Array.isArray(x)) {
           // If it's already an array, add each item with default grade
-          flatRaw.push(...x.map((activity: any) => ({ ...activity, parentGrade: "Ukjent trinn" })));
+          flatRaw.push(
+            ...x.map((activity: any) => ({
+              ...activity,
+              parentGrade: "Ukjent trinn",
+            }))
+          );
         } else if (Array.isArray(x?.activities)) {
           // If it has activities property, add each activity with the parent grade
-          flatRaw.push(...x.activities.map((activity: any) => ({ ...activity, parentGrade: x.grade || "Ukjent trinn" })));
+          flatRaw.push(
+            ...x.activities.map((activity: any) => ({
+              ...activity,
+              parentGrade: x.grade || "Ukjent trinn",
+            }))
+          );
         }
       });
 
@@ -69,7 +82,10 @@ const FavoritesPage = () => {
         title: String(a.title ?? ""),
         description: String(a.learning_goal ?? ""), // Use learning_goal as description since that's available
         time: String(a.time ?? ""),
-        image: `/activityPictures/${String(a.title ?? "").toLowerCase().replace(/[^a-zæøå0-9\s]+/g, "").replace(/\s+/g, "-")}.png`, // Generate proper image path
+        image: `/activityPictures/${String(a.title ?? "")
+          .toLowerCase()
+          .replace(/[^a-zæøå0-9\s]+/g, "")
+          .replace(/\s+/g, "-")}.png`, // Generate proper image path
         location: String(a.location ?? ""),
         grade: String(a.parentGrade ?? "Ukjent trinn"), // Use the parent grade we extracted
         number_of_tasks: 1, // Default since not available in grade data
@@ -108,7 +124,7 @@ const FavoritesPage = () => {
     const handleCustomStorageChange = () => {
       loadFavorites();
     };
-    
+
     window.addEventListener("favoritesChanged", handleCustomStorageChange);
 
     return () => {
@@ -123,7 +139,7 @@ const FavoritesPage = () => {
     const updated = stored.filter((favId) => favId !== String(id));
     localStorage.setItem("favorites", JSON.stringify(updated));
     setFavorites((prev) => prev.filter((a) => a.id !== id));
-    
+
     // Dispatch custom event to notify other components
     window.dispatchEvent(new CustomEvent("favoritesChanged"));
   };
@@ -163,16 +179,16 @@ const FavoritesPage = () => {
 
       <div className="p-4">
         <Breadcrumb items={breadcrumbs} className="mb-4" />
-        <h1 className="text-xl font-bold mb-4">Dine favoritter</h1>
+        <h1>Dine favoritter</h1>
 
         {favorites.length === 0 ? (
           <p>Du har ingen favoritter enda.</p>
         ) : (
           sortedGradeLabels.map((gradeLabel) => (
             <section key={gradeLabel} className="mb-6">
-              <h2 className="text-lg font-semibold mb-2">{gradeLabel}</h2>
+              <h2>{gradeLabel}</h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 {groupedByGrade[gradeLabel].map((activity) => (
                   <GameCard
                     key={activity.id}
@@ -180,13 +196,17 @@ const FavoritesPage = () => {
                     image={activity.image}
                     time={activity.time}
                     location={activity.location}
-                    tools={activity.tools.join(", ")} // GameCard forventer string
+                    tools={activity.tools.join(", ")}
+                    showHeartButton={true}
                     onClick={() => {
                       localStorage.setItem("selectedGame", activity.title);
                       localStorage.setItem("selectedGameId", activity.id);
                       localStorage.setItem("selectedGameImage", activity.image);
                       localStorage.setItem("selectedGrade", activity.grade);
-                      localStorage.setItem("selectedLearningGoal", activity.description);
+                      localStorage.setItem(
+                        "selectedLearningGoal",
+                        activity.description
+                      );
                       localStorage.setItem("previousPage", "/favorites");
                       localStorage.setItem(
                         "selectedActivity",
@@ -194,7 +214,7 @@ const FavoritesPage = () => {
                       );
                       navigate("/infoTask");
                     }}
-                    onDelete={() => removeFavorite(activity.id)} // X vises kun her
+                    onDelete={() => removeFavorite(activity.id)}
                   />
                 ))}
               </div>

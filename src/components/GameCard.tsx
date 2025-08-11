@@ -2,6 +2,9 @@ import React from "react";
 import { ImagePreloader } from "./ImagePreloader";
 import HeartButton from "./HeartButton";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart as faHeartSolid } from "@fortawesome/free-solid-svg-icons";
+
 interface GameCardProps {
   title: string;
   image: string;
@@ -70,10 +73,10 @@ function GameCard({
             e.stopPropagation();
             onDelete();
           }}
-          className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
+          className="absolute top-2 right-2 z-10 mx-3  "
           aria-label="Fjern fra favoritter"
         >
-          X
+          <FontAwesomeIcon icon={faHeartSolid} style={{ color: "#e32400" }} />
         </button>
       )}
 

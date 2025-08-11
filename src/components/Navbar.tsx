@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse as faRegular} from "@fortawesome/free-solid-svg-icons";
+import { faHeart as faHeartRegular } from "@fortawesome/free-regular-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 interface NavbarProps {
@@ -105,15 +106,19 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
             className="hidden md:flex items-center space-x-16 lg:text-xl sm:text-sm font-semi-bold text-black"
             role="menubar"
           >
-            <li role="none">
-              <a href="/search" role="menuitem">
-                Søk aktiviteter
-              </a>
-            </li>
-            <li role="none">
-              <a href="/" role="menuitem" aria-label="Gå til forsiden">
-                  <FontAwesomeIcon icon={faRegular} style={{color: "#000000",}} className="h-5 w-5" aria-hidden="true" />
-                <span>Hjem</span>
+            <li role="none" className="flex items-center gap-6 cursor-pointer">
+              <FontAwesomeIcon
+                onClick={() => navigate("/search")}
+                icon={faMagnifyingGlass}
+                style={{ color: "#000000", fontSize: "1.5rem" }}
+              />
+              <FontAwesomeIcon
+                onClick={() => navigate("/favorites")}
+                icon={faHeartRegular}
+                style={{ color: "#000000", fontSize: "1.5rem" }}
+              />
+              <a href="/" role="menuitem" className="flex items-center gap-1">
+                <img src="/Home-3.png" alt="Hjem" className="h-6 w-6" />
               </a>
             </li>
           </ul>
