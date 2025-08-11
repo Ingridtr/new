@@ -185,62 +185,10 @@ function GameSelection() {
             )}
           </div>
           
-          {/* Show active filters */}
-          {(() => {
-            const timeFilter = localStorage.getItem("timeFilter");
-            const toolsFilter = localStorage.getItem("toolsFilter");
-            
-            if (!timeFilter && !toolsFilter) return null;
-            
-            return (
-              <div className="mb-6 p-3 bg-blue-50 rounded-lg border border-blue-200">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm font-medium text-blue-700">Aktive filtre:</span>
-                    {timeFilter && (
-                      <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
-                        Tid: {timeFilter} min
-                      </span>
-                    )}
-                    {toolsFilter && (
-                      <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
-                        Hjelpemidler: {
-                          toolsFilter === "ingen" ? "Ingen" :
-                          toolsFilter === "minimum" ? "Minimum" :
-                          toolsFilter === "mer" ? "Mer" : toolsFilter
-                        }
-                      </span>
-                    )}
-                  </div>
-                  <button 
-                    onClick={() => {
-                      localStorage.removeItem("timeFilter");
-                      localStorage.removeItem("toolsFilter");
-                      window.location.reload();
-                    }}
-                    className="text-xs text-blue-600 hover:text-blue-800 underline"
-                  >
-                    Fjern filtre
-                  </button>
-                </div>
-              </div>
-            );
-          })()}
-          
           <h1 className="text-3xl font-bold mb-6">Velg aktivitet</h1>
           {filteredActivities.length === 0 && activities.length > 0 ? (
             <div className="text-center py-8">
               <p className="text-gray-600">Ingen aktiviteter matcher dine filterkriterier.</p>
-              <button 
-                onClick={() => {
-                  localStorage.removeItem("timeFilter");
-                  localStorage.removeItem("toolsFilter");
-                  window.location.reload();
-                }}
-                className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-              >
-                Fjern filtre
-              </button>
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">

@@ -4,34 +4,15 @@ function FilterSystem() {
   // Filter states
   const [selectedTimeFilter, setSelectedTimeFilter] = useState<string>("");
   const [selectedToolsFilter, setSelectedToolsFilter] = useState<string>("");
-
-  // Save filters to localStorage whenever they change
-  useEffect(() => {
-    if (selectedTimeFilter) {
-      localStorage.setItem("timeFilter", selectedTimeFilter);
-    } else {
-      localStorage.removeItem("timeFilter");
-    }
-    // Dispatch event to notify other components of filter changes
-    window.dispatchEvent(new CustomEvent("filtersChanged"));
-  }, [selectedTimeFilter]);
-
-  useEffect(() => {
-    if (selectedToolsFilter) {
-      localStorage.setItem("toolsFilter", selectedToolsFilter);
-    } else {
-      localStorage.removeItem("toolsFilter");
-    }
-    // Dispatch event to notify other components of filter changes
-    window.dispatchEvent(new CustomEvent("filtersChanged"));
-  }, [selectedToolsFilter]);
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
 
   // Load filters from localStorage on mount
   useEffect(() => {
-    const savedTimeFilter = localStorage.getItem("timeFilter");
-    const savedToolsFilter = localStorage.getItem("toolsFilter");
-    if (savedTimeFilter) setSelectedTimeFilter(savedTimeFilter);
-    if (savedToolsFilter) setSelectedToolsFilter(savedToolsFilter);
+    const savedTimeFilter = localStorage.getItem("timeFilter") || "";
+    const savedToolsFilter = localStorage.getItem("toolsFilter") || "";
+    setSelectedTimeFilter(savedTimeFilter);
+    setSelectedToolsFilter(savedToolsFilter);
+    setIsInitialized(true);
 
     // Listen for external filter changes (like from remove buttons)
     const handleExternalFilterChange = () => {
@@ -47,6 +28,31 @@ function FilterSystem() {
       window.removeEventListener("filtersChanged", handleExternalFilterChange);
     };
   }, []);
+
+  // Save filters to localStorage only after initialization and when user changes them
+  useEffect(() => {
+    if (!isInitialized) return; // Don't save during initial load
+    
+    if (selectedTimeFilter) {
+      localStorage.setItem("timeFilter", selectedTimeFilter);
+    } else {
+      localStorage.removeItem("timeFilter");
+    }
+    // Dispatch event to notify other components of filter changes
+    window.dispatchEvent(new CustomEvent("filtersChanged"));
+  }, [selectedTimeFilter, isInitialized]);
+
+  useEffect(() => {
+    if (!isInitialized) return; // Don't save during initial load
+    
+    if (selectedToolsFilter) {
+      localStorage.setItem("toolsFilter", selectedToolsFilter);
+    } else {
+      localStorage.removeItem("toolsFilter");
+    }
+    // Dispatch event to notify other components of filter changes
+    window.dispatchEvent(new CustomEvent("filtersChanged"));
+  }, [selectedToolsFilter, isInitialized]);
 
   const removeTimeFilter = () => {
     localStorage.removeItem("timeFilter");
