@@ -46,7 +46,7 @@ function GameCard({
         aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
       >
         <div className="flex px-3 gap-3 pt-3 text-sm" aria-hidden="true">
-          <p>🕒 {time}</p>
+          <p>🕒 {time} min</p>
           <p>📍 {location}</p>
         </div>
 
@@ -68,7 +68,6 @@ function GameCard({
 
       {onDelete && (
         <div
-          
           onClick={(e) => {
             e.stopPropagation();
             onDelete();
