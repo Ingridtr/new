@@ -33,7 +33,6 @@ function GameCard({
     }
   };
 
-  
   return (
     <div className="relative w-full max-w-xs">
       <button
@@ -43,10 +42,9 @@ function GameCard({
         className="border border-black rounded-md w-full min-h-[25rem] bg-white shadow hover:shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex flex-col text-left overflow-hidden"
         aria-label={`Velg aktivitet: ${title}. Varighet: ${time}. Sted: ${location}. Utstyr: ${tools}`}
       >
-        <div className="flex justify-between px-3 pt-3 text-sm" aria-hidden="true">
+        <div className="flex px-3 gap-3 pt-3 text-sm" aria-hidden="true">
           <p>🕒 {time}</p>
           <p>📍 {location}</p>
-          <p>🛠️ {tools}</p>
         </div>
 
         <p className="font-semibold px-3 mt-1">{title}</p>
@@ -60,14 +58,18 @@ function GameCard({
         />
 
         <div className="sr-only">
-          Aktivitet: {title}. Varighet: {time}. Kan utføres: {location}. Utstyr: {tools}. Trykk for mer info.
+          Aktivitet: {title}. Varighet: {time}. Kan utføres: {location}. Utstyr:{" "}
+          {tools}. Trykk for mer info.
         </div>
       </button>
 
       {onDelete && (
         <button
           type="button"
-          onClick={(e) => { e.stopPropagation(); onDelete(); }}
+          onClick={(e) => {
+            e.stopPropagation();
+            onDelete();
+          }}
           className="absolute top-2 right-2 z-10 text-red-600 hover:scale-110 text-xl"
           aria-label="Fjern fra favoritter"
         >
@@ -77,7 +79,7 @@ function GameCard({
 
       {showHeartButton && activityId && (
         <div
-          className="absolute top-2 right-2 z-10"
+          className="absolute top-2 right-2 z-10 mx-3"
           onClick={(e) => e.stopPropagation()}
         >
           <HeartButton pageId={activityId} />
@@ -86,4 +88,4 @@ function GameCard({
     </div>
   );
 }
-export default GameCard; 
+export default GameCard;

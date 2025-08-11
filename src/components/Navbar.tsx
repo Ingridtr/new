@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faHouse as faRegular} from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 interface NavbarProps {
@@ -112,7 +112,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
             </li>
             <li role="none">
               <a href="/" role="menuitem" aria-label="Gå til forsiden">
-                  <FontAwesomeIcon icon={faHouse} className="h-5 w-5" aria-hidden="true" />
+                  <FontAwesomeIcon icon={faRegular} style={{color: "#000000",}} className="h-5 w-5" aria-hidden="true" />
                 <span>Hjem</span>
               </a>
             </li>
