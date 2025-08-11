@@ -6,7 +6,7 @@
       "id": "F0101",
       "title": "Kongen befaler!",
       "time": "5",
-      "location": "Inne/Ute",
+      "location": "Inne/ute",
       "tools": "A3-Papir, Penn, Saks",
       "groupsize": "Tilfeldig antall",
       "learning_goal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
@@ -262,7 +262,7 @@
       "id": "F0701",
       "title": "Tall-agentene",
       "time": "5",
-      "location": "Inne/Ute",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "3-4",
       "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
@@ -296,7 +296,7 @@
       "id": "F0801",
       "title": "Statistikksamlerne",
       "time": "45",
-      "location": "Inne/Ute",
+      "location": "Inne/ute",
       "tools": "Registreringsskjemaer, skrivesaker,",
       "groupsize": "2–3",
       "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
@@ -336,7 +336,7 @@
       "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samle inn data gjennom å ha et mini-OL og bruke resultatene til å lage tabeller og diagram."
+          "I denne aktiviteten skal elevene samle inn data gjennom å ha et mini-OL og bruke resultatene til å lage tabeller og diagrammer."
         ],
         "main": [
           "Print ut vedlagte skjemaer",
@@ -344,11 +344,10 @@
           "Gjennomfør øvelsene: lengdehopp, kast med liten ball, kast med stor ball og 60-meterløp.",
           "Gruppene måler og logger resultatene.",
           "Når alle har gjennomført, setter gruppene seg sammen og lager tabeller.",
-          "Elevene velger en type diagram og presenterer dataene sine."
+          "Elevene velger en type diagram og lager det."
         ],
         "examples": [
-          "Et lag finner ut at gjennomsnittlig tid på 60",
-          "meteren var 10,2 sekunder, og lager et stolpediagram som viser dette for hver elev."
+          "Et lag finner ut at gjennomsnittlig tid på 60 meteren var 10,2 sekunder, og lager et stolpediagram som viser dette for hver elev."
         ],
         "reflection": [
           "Hvilket diagram ga best oversikt?",
@@ -367,31 +366,29 @@
       "id": "F0901",
       "title": "Budsjettjakt- Hva blir ditt liv?",
       "time": "15",
-      "location": "Inne/Ute",
-      "tools": "Pengekort",
+      "location": "Inne/ute",
+      "tools": "Pengekort, Papir, Skrivesaker",
       "groupsize": "Alle",
       "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske økonomi ved å dra på skattejakt og velge 3 kort: 1 inntekt, 1 utgift og 1 hobby. Deretter skal de regne ut hvor mye de har igen."
+          "I denne aktiviteten skal elevene utforske økonomi ved å dra på jakt og velge 3 kort: 1 inntekt, 1 utgift og 1 hobby. Deretter skal de regne ut hvor mye penger de har igjen."
         ],
         "main": [
           "Print ut vedlagte pengekort",
-          "Gjem tre typer kort (grønne for inntekt, røde for faste utgifter, blå for hobby)",
+          "Gjem tre typer kort rundt i klasserommet eller ute (grønne for inntekt, røde for faste utgifter, blå for hobby)",
           "Elevene skal finne ett kort av hver farge.",
-          "Når de har funnet kortene, setter de seg ned og regner ut gjenstående beløp.",
+          "Når de har funnet kortene, setter de seg ned og regner ut gjenstående beløp på ark.",
           "Læreren kan deretter stille refleksjonsspørsmål knyttet til balanse i budsjett og bruk av rekneark."
         ],
         "examples": [
-          "En elev finner kortene: Grønt: Youtuber = 4000 kr, Rødt: Husleie = 4 000 kr, Blått: Hund = 1 200 kr. Budsjett:4 000",
-          "4 000",
-          "1 200 = 1200 i minus!"
+          "En elev finner kortene: Grønt: Youtuber = 4000 kr, Rødt: Husleie = 4 000 kr, Blått: Hund = 1 200 kr. Budsjett:4 000 - 4 000- 1200= 1200 i minus!"
         ],
         "reflection": [
           "Gikk du i pluss eller minus?",
           "Hva kunne du endret for å få bedre balanse?",
           "Hvordan kunne et regneark hjulpet deg å holde oversikt?",
-          "Kunne du brukt en formel for å løse oppgaven kjappere?"
+          "Kunne du brukt en kommando i excel for å løse oppgaven kjappere? (Hint: SUM())"
         ],
         "tips": [
           "Lærer går og sjekker utregningene når alle er ferdig."
@@ -404,42 +401,48 @@
     {
       "id": "F1001",
       "title": "Kongen befaler!",
-      "time": "15",
-      "location": "Inne/Ute",
+      "time": "5",
+      "location": "Inne/ute",
       "tools": "Datakort",
       "groupsize": "Alle",
       "learning_goal": "bruke programmering til å utforske data i tabellar og datasett",
       "content": {
         "introduction": [
-          "Denne aktiviteten er en variant av kongen befaler der kongen skal gi instrukser som likner på excel kommandoer, og elever skal sortere seg/ gruppere seg deretter."
+          "Denne aktiviteten er en variant av kongen befaler der kongen skal gi instrukser som likner på excel kommandoer, og elever skal sortere/gruppere seg deretter."
         ],
         "main": [
-          "Print ut vedlagte datakort",
+          "Print ut vedlagte datakort og forklar hva hver kolonne er:  Navn, alder, høyde, favorittfarge og frukt i matboksen.",
+          "Skriv kolonneoverskriftene på tavla for at elevene skal huske hva hver kolonne betyr.",
           "Del ut ett kort til hver elev.",
           "Kongen (læreren) sier én kommando av gangen.",
-          "Elevene følger instruksjonen fysisk – de sorterer seg, grupperer seg, filtrerer seg ut eller stiller seg i rekkefølge.",
+          "Elevene følger instruksjonene fysisk – de sorterer,grupperer, filtrerer seg.",
           "Etter 3–5 kommandoer kan du ta en kort refleksjon i plenum."
         ],
         "examples": [
-          "Filtrering (if",
-          "setning):",
-          "Kongen befaler: Alle med favorittfargen blå, still dere langs veggen!",
-          "Kongen befaler: Hvis du har frukt i matboksen, klapp to ganger og sett deg på huk!  Kombinert filter:",
-          "Kongen befaler: Alle som er 12 år OG har favorittfargen grønn, lag en trekant!",
-          "Kongen befaler: Hvis du er 13 år ELLER har høyde 'lav', hopp tre ganger!   Sortering:",
-          "Kongen befaler: Sorter dere i stigende rekkefølge etter alder!",
-          "Kongen befaler: Alle med høyde 'middels' – still dere fra blå til gul i farge!   Gruppering:",
-          "Kongen befaler: Finn de andre med samme favorittfarge og lag en sirkel!",
-          "Kongen befaler: Grupper dere etter om dere har frukt eller ikke!   Ekstra utfordring:",
-          "Kongen befaler: Finn tre andre som har én ting til felles med deg – lag en firkant!",
-          "Kongen befaler: Lag to rekker – én med alder 11 og én med alder 12, sortert etter høyde!"
+          "Filtrering (if-setning):",
+          "Kongens befalinger: ",
+          "Alle med favorittfargen blå, still dere langs veggen!",
+          "Hvis du har frukt i matboksen, klapp to ganger og sett deg på huk!",
+          "Kombinert filter (betingelse 1 & betingelse 2) :",
+          "Alle som er 12 år OG har favorittfargen grønn, rekk opp en hånd!",
+          "Hvis du er 13 år ELLER har høyde 'lav', hopp tre ganger!",
+          "Sortering:",
+          "Sorter dere i stigende rekkefølge etter alder!",
+          "Alle med høyde 'middels' – grupper dere etter favorittfargene deres!",
+          "Gruppering: ",
+          "Finn de andre med samme favorittfarge og ta en high-five!",
+          "Grupper dere etter om dere har frukt eller ikke!", 
+          "Ekstra utfordring:",
+          "Finn tre andre som har én ting til felles med deg – lag en firkant!",
+          "Lag to rekker – én med alder 11 og én med alder 12, sortert etter høyde!"
         ],
         "reflection": [
           "Hvordan fant dere ut hvem som passet til kriteriene?",
           "Hvordan kunne programmering gjort dette enklere eller raskere?"
         ],
         "tips": [
-          "Forklar hva hver kolonne i datakortet er:  Navn, alder, høyde, favorittfarge og frukt i matboksen."
+          
+          "Trenger ikke å bruke datakortene, man kan også bruke elevene selv som data: øyenfarge, hårfarge, favorittfarge osv."
         ],
         "extra": [
           "printOuts/F1001.docx"
