@@ -75,7 +75,7 @@ function FilterSystem() {
   };
 
   return (
-    <div className="fixed top-36 right-20 z-40 flex items-center gap-3">
+    <div className="fixed top-36 right-20 z-50 flex items-center gap-3">
       {/* Active filter indicators - show to the left of dropdowns */}
       {(selectedTimeFilter || selectedToolsFilter) && (
         <div className="flex gap-2">
