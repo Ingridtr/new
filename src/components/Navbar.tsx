@@ -118,7 +118,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
                 style={{ color: "#000000", fontSize: "1.5rem" }}
               />
               <a href="/" role="menuitem" className="flex items-center gap-1">
-                <img src="/Home-3.png" alt="Hjem" className="h-6 w-6" />
+                <img src="/Home-3.png" alt="Hjem" className="h-8 w-8" />
               </a>
             </li>
           </ul>
@@ -249,7 +249,7 @@ const Navbar: React.FC<NavbarProps> = ({ backgroundColor = "bg-white" }) => {
               className="block w-full text-left hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
               role="menuitem"
             >
-              <p>🔍 Søk</p>
+              <p>Søk aktiviteter</p>
             </button>
           </li>
           <li role="none">
