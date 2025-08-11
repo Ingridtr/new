@@ -2,6 +2,7 @@ import LearningGoals from "../components/LearningGoals";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Breadcrumb from "../components/Breadcrumb";
+import FilterSystem from "../components/FilterSystem";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -36,6 +37,9 @@ function LearningGoalsSelection() {
         >
           ×
         </button>
+
+        {/* Filter system with dropdowns and active indicators */}
+        <FilterSystem />
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={breadcrumbs} className="mb-6" />
           <div className="mb-8">

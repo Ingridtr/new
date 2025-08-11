@@ -4,6 +4,7 @@ import Print from "../components/Print";
 import HeartButton from "../components/HeartButton";
 import PrintOutComponent from "../components/PrintOuts";
 import Breadcrumb from "../components/Breadcrumb";
+import FilterSystem from "../components/FilterSystem";
 import { useNavigate } from "react-router-dom";
 
 import { useSingleActivity } from "../components/GetActivity";
@@ -72,6 +73,9 @@ function InfoTask() {
         >
           ×
         </button>
+
+        {/* Filter system with dropdowns and active indicators */}
+        <FilterSystem />
 
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12 mb-12">
           <div className="flex flex-col gap-6 w-full lg:w-64 lg:sticky lg:top-40 lg:self-start">

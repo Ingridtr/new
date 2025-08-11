@@ -21,6 +21,8 @@ const gradeFiles = [
 
 const FavoritesPage = () => {
   const [favorites, setFavorites] = useState<Activity[]>([]);
+  const [timeFilter, setTimeFilter] = useState<string>("");
+  const [toolsFilter, setToolsFilter] = useState<string>("");
   const navigate = useNavigate();
   const breadcrumbs = useBreadcrumbs();
 
@@ -151,14 +153,44 @@ const FavoritesPage = () => {
     return m ? `${parseInt(m[0], 10)}. trinn` : g.trim();
   };
 
+  // Filter activities based on time and tools
+  const filteredFavorites = useMemo(() => {
+    return favorites.filter((activity) => {
+      // Time filter
+      if (timeFilter) {
+        const activityTime = parseInt(activity.time);
+        const filterTime = parseInt(timeFilter);
+        if (isNaN(activityTime) || isNaN(filterTime)) return false;
+        // Allow some tolerance (±5 minutes)
+        if (Math.abs(activityTime - filterTime) > 5) return false;
+      }
+
+      // Tools filter
+      if (toolsFilter) {
+        const activityToolsString = activity.tools.join(' ').toLowerCase();
+        const searchTerms = toolsFilter.toLowerCase().split(' ').filter(term => term.trim());
+        // Check if all search terms are found in the tools
+        if (!searchTerms.every(term => activityToolsString.includes(term))) return false;
+      }
+
+      return true;
+    });
+  }, [favorites, timeFilter, toolsFilter]);
+
+  // Get unique time values for filter dropdown
+  const availableTimes = useMemo(() => {
+    const times = favorites.map(activity => activity.time).filter(Boolean);
+    return [...new Set(times)].sort((a, b) => parseInt(a) - parseInt(b));
+  }, [favorites]);
+
   // Gruppér etter én nøkkel per aktivitet
   const groupedByGrade = useMemo(() => {
-    return favorites.reduce<Record<string, Activity[]>>((acc, a) => {
+    return filteredFavorites.reduce<Record<string, Activity[]>>((acc, a) => {
       const key = gradeKey(a.grade);
       (acc[key] ??= []).push(a);
       return acc;
     }, {});
-  }, [favorites]);
+  }, [filteredFavorites]);
 
   // Sortér trinn 1..7
   const gradeNum = (label: string) => {
@@ -190,8 +222,66 @@ const FavoritesPage = () => {
           <Breadcrumb items={breadcrumbs} className="mb-6" />
           <h1>Dine favoritter</h1>
 
+          {/* Filter controls */}
+          <div className="mb-6 p-4 bg-white rounded-lg shadow-sm">
+            <h3 className="text-lg font-semibold mb-3">Filtrer aktiviteter</h3>
+            <div className="flex flex-col sm:flex-row gap-4">
+              {/* Time filter */}
+              <div className="flex-1">
+                <label htmlFor="time-filter" className="block text-sm font-medium text-gray-700 mb-2">
+                  Tid (minutter):
+                </label>
+                <select
+                  id="time-filter"
+                  value={timeFilter}
+                  onChange={(e) => setTimeFilter(e.target.value)}
+                  className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  <option value="">Alle tider</option>
+                  {availableTimes.map((time) => (
+                    <option key={time} value={time}>
+                      {time} min
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Tools filter */}
+              <div className="flex-1">
+                <label htmlFor="tools-filter" className="block text-sm font-medium text-gray-700 mb-2">
+                  Søk i hjelpemidler:
+                </label>
+                <input
+                  id="tools-filter"
+                  type="text"
+                  value={toolsFilter}
+                  onChange={(e) => setToolsFilter(e.target.value)}
+                  placeholder="f.eks. ball, terning, papir..."
+                  className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                />
+              </div>
+
+              {/* Clear filters button */}
+              {(timeFilter || toolsFilter) && (
+                <div className="flex items-end">
+                  <button
+                    onClick={() => {
+                      setTimeFilter("");
+                      setToolsFilter("");
+                    }}
+                    className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md transition-colors"
+                  >
+                    Nullstill filtre
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+
           {favorites.length === 0 ? (
             <p>Du har ingen favoritter enda.</p>
+          ) : filteredFavorites.length === 0 ? (
+            <p>Ingen aktiviteter matcher dine filterkriterier.</p>
           ) : (
             sortedGradeLabels.map((gradeLabel) => (
               <section key={gradeLabel} className="mb-6">
