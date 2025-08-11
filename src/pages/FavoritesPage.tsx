@@ -175,60 +175,64 @@ const FavoritesPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
-      <Navbar />
+      <Navbar backgroundColor="bg-gray-50" />
 
-      <div className="p-4">
+      <div className="flex-1 flex flex-col justify-center">
         <button
           className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           onClick={() => navigate(-1)}
-          aria-label="Lukk aktivitetsside og gå tilbake"
+          aria-label="Lukk favorittside og gå tilbake"
         >
           ×
         </button>
+        <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
+          <h1>Dine favoritter</h1>
 
-        <Breadcrumb items={breadcrumbs} className="mb-4" />
-        <h1>Dine favoritter</h1>
+          {favorites.length === 0 ? (
+            <p>Du har ingen favoritter enda.</p>
+          ) : (
+            sortedGradeLabels.map((gradeLabel) => (
+              <section key={gradeLabel} className="mb-6">
+                <h2>{gradeLabel}</h2>
 
-        {favorites.length === 0 ? (
-          <p>Du har ingen favoritter enda.</p>
-        ) : (
-          sortedGradeLabels.map((gradeLabel) => (
-            <section key={gradeLabel} className="mb-6">
-              <h2>{gradeLabel}</h2>
-
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {groupedByGrade[gradeLabel].map((activity) => (
-                  <GameCard
-                    key={activity.id}
-                    title={activity.title}
-                    image={activity.image}
-                    time={activity.time}
-                    location={activity.location}
-                    tools={activity.tools.join(", ")}
-                    showHeartButton={true}
-                    onClick={() => {
-                      localStorage.setItem("selectedGame", activity.title);
-                      localStorage.setItem("selectedGameId", activity.id);
-                      localStorage.setItem("selectedGameImage", activity.image);
-                      localStorage.setItem("selectedGrade", activity.grade);
-                      localStorage.setItem(
-                        "selectedLearningGoal",
-                        activity.description
-                      );
-                      localStorage.setItem("previousPage", "/favorites");
-                      localStorage.setItem(
-                        "selectedActivity",
-                        JSON.stringify(activity)
-                      );
-                      navigate("/infoTask");
-                    }}
-                    onDelete={() => removeFavorite(activity.id)}
-                  />
-                ))}
-              </div>
-            </section>
-          ))
-        )}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+                  {groupedByGrade[gradeLabel].map((activity) => (
+                    <GameCard
+                      key={activity.id}
+                      title={activity.title}
+                      image={activity.image}
+                      time={activity.time}
+                      location={activity.location}
+                      tools={activity.tools.join(", ")}
+                      showHeartButton={true}
+                      onClick={() => {
+                        localStorage.setItem("selectedGame", activity.title);
+                        localStorage.setItem("selectedGameId", activity.id);
+                        localStorage.setItem(
+                          "selectedGameImage",
+                          activity.image
+                        );
+                        localStorage.setItem("selectedGrade", activity.grade);
+                        localStorage.setItem(
+                          "selectedLearningGoal",
+                          activity.description
+                        );
+                        localStorage.setItem("previousPage", "/favorites");
+                        localStorage.setItem(
+                          "selectedActivity",
+                          JSON.stringify(activity)
+                        );
+                        navigate("/infoTask");
+                      }}
+                      onDelete={() => removeFavorite(activity.id)}
+                    />
+                  ))}
+                </div>
+              </section>
+            ))
+          )}
+        </div>
       </div>
 
       <Footer />

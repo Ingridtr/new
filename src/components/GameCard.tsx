@@ -67,17 +67,17 @@ function GameCard({
       </button>
 
       {onDelete && (
-        <button
-          type="button"
+        <div
+          
           onClick={(e) => {
             e.stopPropagation();
             onDelete();
           }}
-          className="absolute top-2 right-2 z-10 mx-3  "
+          className=" absolute text-2xl hover:scale-110 transition-transform top-2 right-2 z-10 mx-3  "
           aria-label="Fjern fra favoritter"
         >
           <FontAwesomeIcon icon={faHeartSolid} style={{ color: "#e32400" }} />
-        </button>
+        </div>
       )}
 
       {showHeartButton && activityId && (
