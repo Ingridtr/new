@@ -3,10 +3,12 @@ import FilterButton from "../components/FilterButton";
 import Footer from "../components/Footer";
 import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
+import Breadcrumb from "../components/Breadcrumb";
 import { useEffect, useState } from "react";
 
 import useActivities from "../components/GetActivity";
 import { getGradeColors } from "../utils/gradeColors";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 
 function GameSelection() {
@@ -23,6 +25,7 @@ function GameSelection() {
   }, []);
 
   const navigate = useNavigate();
+  const breadcrumbs = useBreadcrumbs();
   
   // Only fetch activities after we've initialized the state from localStorage
   const { activities, loading } = useActivities(
@@ -69,6 +72,8 @@ function GameSelection() {
 
       <div className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
+          
           <div className="flex gap-4 mb-8 flex-wrap">
             {selectedGrade && (
               <FilterButton
@@ -96,12 +101,10 @@ function GameSelection() {
                 localStorage.setItem("selectedGame", activity.title);
                 localStorage.setItem("selectedGameId", activity.id);
                 localStorage.setItem("selectedGameImage", activity.image);
+                localStorage.setItem("previousPage", "/gameSelection"); // Store where we came from
                 localStorage.setItem("selectedActivity", JSON.stringify(activity)); 
                 navigate("/infoTask");
               };
-              console.log("Aktivitet:", activity.title);
-              console.log("Aktivitet ID:", activity.time);
-              console.log("Aktivitet bilde:", activity.tools);
 
               return (
                 <GameCard
@@ -113,6 +116,8 @@ function GameSelection() {
                   tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
                   learningGoal={activity.learningGoals}
                   onClick={handleGameClick}
+                  activityId={activity.id}
+                  showHeartButton={true}
                 />
               );
             })}

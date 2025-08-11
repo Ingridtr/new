@@ -1,8 +1,11 @@
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 function Home() {
+  const navigate = useNavigate();
+  
   // Clear any selected grade/learning goal when returning to home
   useEffect(() => {
     localStorage.removeItem("selectedGrade");
@@ -35,13 +38,21 @@ function Home() {
                   alt="Illustrasjon av fugl som representerer læring gjennom bevegelse"
                   className="w-24 h-auto md:w-32 lg:w-40 max-w-xs"
                 />
-                <a
-                  href="/grade"
-                  className="inline-flex items-center justify-center bg-sky-200 hover:bg-sky-300 focus:bg-sky-300 font-bold rounded-xl px-6 py-3 transition-colors min-w-44 min-h-14 text-black focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
-                  aria-label="Start med å velge trinn for matematikkaktiviteter"
-                >
-                  Hopp i gang!
-                </a>
+                <div className="flex flex-col gap-3">
+                  <a
+                    href="/grade"
+                    className="inline-flex items-center justify-center bg-sky-200 hover:bg-sky-300 focus:bg-sky-300 font-bold rounded-xl px-6 py-3 transition-colors min-w-44 min-h-14 text-black focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+                    aria-label="Start med å velg trinn for matematikkaktiviteter"
+                  >
+                    Hopp i gang!
+                  </a>
+                  <button
+                    onClick={() => navigate("/search")}
+                    className="inline-flex items-center justify-center bg-white hover:bg-gray-50 border border-gray-300 font-medium rounded-xl px-4 py-2 transition-colors text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  >
+                    🔍 Søk etter aktiviteter
+                  </button>
+                </div>
               </div>
             </div>
             <div className="hidden lg:flex justify-center lg:justify-end">

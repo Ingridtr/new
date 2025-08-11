@@ -2,8 +2,12 @@ import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import GradeButton from "../components/GradeButton";
+import Breadcrumb from "../components/Breadcrumb";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 function Grade() {
+  const breadcrumbs = useBreadcrumbs();
+  
   // Clear selected grade when returning to grade selection
   useEffect(() => {
     localStorage.removeItem("selectedGrade");
@@ -18,6 +22,7 @@ function Grade() {
 
       <div className="flex-1 flex flex-col justify-center">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
           <h1>Velg trinn</h1>
           <GradeButton />
         </div>

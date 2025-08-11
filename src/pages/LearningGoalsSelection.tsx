@@ -1,14 +1,17 @@
 import LearningGoals from "../components/LearningGoals";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Breadcrumb from "../components/Breadcrumb";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import FilterButton from "../components/FilterButton";
 import { getGradeColors } from "../utils/gradeColors";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 function LearningGoalsSelection() {
   const navigate = useNavigate();
+  const breadcrumbs = useBreadcrumbs();
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
@@ -25,6 +28,7 @@ function LearningGoalsSelection() {
 
       <div className="flex-1">
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
           <div className="mb-8">
             <FilterButton
               text={` ${selectedGrade}`}

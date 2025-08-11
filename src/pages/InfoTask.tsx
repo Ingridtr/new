@@ -3,18 +3,22 @@ import Navbar from "../components/Navbar";
 import Print from "../components/Print";
 import HeartButton from "../components/HeartButton";
 import PrintOutComponent from "../components/PrintOuts";
+import Breadcrumb from "../components/Breadcrumb";
 import { useNavigate } from "react-router-dom";
 
 import { useSingleActivity } from "../components/GetActivity";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 
 function InfoTask() {
   const navigate = useNavigate();
+  const breadcrumbs = useBreadcrumbs();
 
   const selectedGameId = localStorage.getItem("selectedGameId");
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
   const currentGameImage = localStorage.getItem("selectedGameImage");
+  const previousPage = localStorage.getItem("previousPage") || "/gameSelection";
 
   // Use the consolidated hook instead of custom fetching
   const { activity, loading, error } = useSingleActivity(
@@ -58,9 +62,13 @@ function InfoTask() {
       <Navbar backgroundColor="bg-gray-50" />
 
       <div className="relative flex-1 px-4">
+        <div className="max-w-screen-xl mx-auto pt-4">
+          <Breadcrumb items={breadcrumbs} className="mb-4" />
+        </div>
+        
         <button
           className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-          onClick={() => navigate("/gameSelection")}
+          onClick={() => navigate(previousPage)}
           aria-label="Lukk aktivitetsside og gå tilbake"
         >
           ×
