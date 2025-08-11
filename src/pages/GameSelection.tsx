@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import useActivities from "../components/GetActivity";
 import { getGradeColors } from "../utils/gradeColors";
 import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
+import { getLearningGoalLabel } from "../utils/learningGoalMapping";
 
 
 function GameSelection() {
@@ -94,8 +95,20 @@ function GameSelection() {
             {selectedGoal && (
               <FilterButton
                 text={(() => {
+                  // Extract the goal text (remove "Kompetansemål X:" prefix if present)
                   const goalText = selectedGoal.includes(':') ? selectedGoal.split(': ')[1] : selectedGoal;
-                  return goalText.charAt(0).toUpperCase() + goalText.slice(1);
+                  
+                  // Get the index from the selectedGoal string (e.g., "Kompetansemål 1:" -> index 0)
+                  const goalMatch = selectedGoal.match(/Kompetansemål\s+(\d+)/i);
+                  const goalIndex = goalMatch ? parseInt(goalMatch[1], 10) - 1 : 0;
+                  
+                  // Use the mapping function to get the proper label
+                  const displayLabel = selectedGrade ? getLearningGoalLabel(selectedGrade, goalText, goalIndex) : `Kompetansemål ${goalIndex + 1}`;
+                  
+                  // Return the display label or fallback to capitalized goal text
+                  return displayLabel.includes('Kompetansemål') 
+                    ? goalText.charAt(0).toUpperCase() + goalText.slice(1)
+                    : displayLabel;
                 })()}
                 onClick={() => navigate("/grade/learninggoals")}
                 grade={selectedGrade || undefined}
