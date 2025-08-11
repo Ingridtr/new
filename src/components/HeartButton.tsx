@@ -13,7 +13,7 @@ const HeartButton = ({ pageId }: Props) => {
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("favorites") || "[]");
     setIsFavorite(stored.includes(pageId));
-  }, []);
+  }, [pageId]);
 
   const pickFavorites = () => {
     const stored = JSON.parse(localStorage.getItem("favorites") || "[]");

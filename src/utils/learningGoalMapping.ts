@@ -38,10 +38,10 @@ export const learningGoalLabels: { [grade: string]: { [goalText: string]: string
 
 // Initialize mappings from JSON data
 Object.keys(learningGoalsByGrade).forEach(grade => {
-  const goals = (learningGoalsByGrade as any)[grade];
+  const goals = (learningGoalsByGrade as Record<string, unknown>)[grade];
   const labels = gradeLabelMappings[grade];
   
-  if (goals && labels && goals.length === labels.length) {
+  if (goals && labels && Array.isArray(goals) && goals.length === labels.length) {
     learningGoalLabels[grade] = {};
     goals.forEach((goal: string, index: number) => {
       learningGoalLabels[grade][goal] = labels[index];

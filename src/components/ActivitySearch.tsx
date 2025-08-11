@@ -69,19 +69,19 @@ const ActivitySearch: React.FC<ActivitySearchProps> = ({
         
         lists.forEach((gradeData) => {
           if (gradeData?.activities) {
-            gradeData.activities.forEach((activity: any) => {
+            gradeData.activities.forEach((activity: Record<string, unknown>) => {
               allActivities.push({
-                id: activity.id,
-                title: activity.title || '',
-                description: activity.learning_goal || '',
-                time: activity.time || '',
+                id: String(activity.id || ''),
+                title: String(activity.title || ''),
+                description: String(activity.learning_goal || ''),
+                time: String(activity.time || ''),
                 image: ``,
-                location: activity.location || '',
+                location: String(activity.location || ''),
                 grade: gradeData.grade || '',
                 number_of_tasks: 1,
-                tools: activity.tools ? activity.tools.split(',').map((t: string) => t.trim()) : [],
-                learning_goal: activity.learning_goal || '',
-                content: activity.content
+                tools: typeof activity.tools === 'string' ? activity.tools.split(',').map((t: string) => t.trim()) : [],
+                learning_goal: String(activity.learning_goal || ''),
+                content: activity.content as { introduction?: string[]; main?: string[]; examples?: string[]; reflection?: string[]; tips?: string[]; extra?: string[]; } | undefined
               });
             });
           }

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
@@ -29,14 +29,14 @@ const FavoritesPage = () => {
     try {
       const raw = localStorage.getItem("favorites");
       const parsed = JSON.parse(raw || "[]");
-      return Array.isArray(parsed) ? parsed.map((x: any) => String(x)) : [];
+      return Array.isArray(parsed) ? parsed.map((x: unknown) => String(x)) : [];
     } catch {
       return [];
     }
   };
 
   // Function to load favorites
-  const loadFavorites = async () => {
+  const loadFavorites = useCallback(async () => {
     const favoriteIds = readFavoriteIds();
     if (favoriteIds.length === 0) {
       setFavorites([]);
@@ -55,29 +55,30 @@ const FavoritesPage = () => {
       );
 
       // Noen filer kan ha { activities: [...] } i stedet for [...]
-      const flatRaw: any[] = [];
-      lists.forEach((x: any) => {
+      const flatRaw: Record<string, unknown>[] = [];
+      lists.forEach((x: unknown) => {
         if (Array.isArray(x)) {
           // If it's already an array, add each item with default grade
           flatRaw.push(
-            ...x.map((activity: any) => ({
-              ...activity,
+            ...x.map((activity: unknown) => ({
+              ...(activity as Record<string, unknown>),
               parentGrade: "Ukjent trinn",
             }))
           );
-        } else if (Array.isArray(x?.activities)) {
+        } else if (x && typeof x === 'object' && 'activities' in x && Array.isArray(x.activities)) {
           // If it has activities property, add each activity with the parent grade
+          const gradeData = x as { activities: unknown[]; grade?: string };
           flatRaw.push(
-            ...x.activities.map((activity: any) => ({
-              ...activity,
-              parentGrade: x.grade || "Ukjent trinn",
+            ...gradeData.activities.map((activity: unknown) => ({
+              ...(activity as Record<string, unknown>),
+              parentGrade: gradeData.grade || "Ukjent trinn",
             }))
           );
         }
       });
 
       // Normaliser til Activity-typen din
-      const all: Activity[] = flatRaw.map((a: any) => ({
+      const all: Activity[] = flatRaw.map((a: Record<string, unknown>) => ({
         id: String(a.id),
         title: String(a.title ?? ""),
         description: String(a.learning_goal ?? ""), // Use learning_goal as description since that's available
@@ -103,11 +104,11 @@ const FavoritesPage = () => {
       console.error("Failed to load grade files:", err);
       setFavorites([]);
     }
-  };
+  }, []);
 
   useEffect(() => {
     loadFavorites();
-  }, []);
+  }, [loadFavorites]);
 
   // Listen for storage changes to update favorites when they change in other tabs/components
   useEffect(() => {
@@ -131,7 +132,7 @@ const FavoritesPage = () => {
       window.removeEventListener("storage", handleStorageChange);
       window.removeEventListener("favoritesChanged", handleCustomStorageChange);
     };
-  }, []);
+  }, [loadFavorites]);
 
   // Fjern fra favoritter (localStorage + state)
   const removeFavorite = (id: string) => {

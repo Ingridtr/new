@@ -52,7 +52,7 @@ const generateBreadcrumbs = (pathname: string): BreadcrumbItem[] => {
       items.push({ label: 'Velg aktivitet', isActive: true });
       break;
 
-    case '/infoTask':
+    case '/infoTask': {
       const selectedGame = localStorage.getItem('selectedGame');
       
       // Add breadcrumbs based on where we came from
@@ -79,6 +79,7 @@ const generateBreadcrumbs = (pathname: string): BreadcrumbItem[] => {
         items.push({ label: 'Aktivitetsinformasjon', isActive: true });
       }
       break;
+    }
 
     case '/favorites':
       items.push({ label: 'Mine favoritter', isActive: true });
@@ -96,12 +97,13 @@ const generateBreadcrumbs = (pathname: string): BreadcrumbItem[] => {
       items.push({ label: 'Kunnskap', isActive: true });
       break;
 
-    default:
+    default: {
       // For any other path, just show the current page
       const pathParts = pathname.split('/').filter(Boolean);
       if (pathParts.length > 0) {
         items.push({ label: pathParts[pathParts.length - 1], isActive: true });
       }
+    }
   }
 
   return items;

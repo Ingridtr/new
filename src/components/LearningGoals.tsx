@@ -22,7 +22,7 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
 
       try {
         // Get learning goals directly from the imported JSON file
-        const goals = (learningGoalsByGrade as any)[selectedGrade];
+        const goals = (learningGoalsByGrade as Record<string, unknown>)[selectedGrade];
         
         if (goals && Array.isArray(goals)) {
           setState({
