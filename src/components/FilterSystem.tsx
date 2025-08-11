@@ -72,7 +72,7 @@ function FilterSystem() {
     } else if (filterType === "tools") {
       switch (value) {
         case "ingen": return "Ingen";
-        case "minimum": return "Minimum";
+        case "minimum": return "Penn og papir";
         case "mer": return "Mer";
         default: return value;
       }
@@ -151,7 +151,7 @@ function FilterSystem() {
           >
             <option value="">Utstyr</option>
             <option value="ingen">Ingen</option>
-            <option value="minimum">Minimum</option>
+            <option value="minimum">Penn og papir</option>
             <option value="mer">Mer</option>
           </select>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">

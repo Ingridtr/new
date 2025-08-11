@@ -77,17 +77,18 @@ function GameSelection() {
           }
           
           case "minimum": {
-            // Check for basic tools like papir, penn, skrivesaker
-            const basicTools = ["papir", "penn", "blyant", "skriv", "tavle", "kritt"];
-            const hasOnlyBasicTools = basicTools.some(tool => activityTools.includes(tool));
-            const hasNoComplexTools = !["ball", "terning", "konkreter", "målebånd", "stoppeklokke"].some(tool => activityTools.includes(tool));
-            return hasOnlyBasicTools && hasNoComplexTools;
+            // Check for only "Papir" and "Skrivesaker" - Penn og papir
+            const pennOgPapirTools = ["Papir", "Skrivesaker", "Ark","Penn", "Blyant", "Kritt"];
+            return pennOgPapirTools.some(tool => activityTools.includes(tool));
           }
           
           case "mer": {
-            // Check for more advanced tools
-            const advancedTools = ["ball", "terning", "konkreter", "målebånd", "stoppeklokke", "ballonger"];
-            return advancedTools.some(tool => activityTools.includes(tool));
+            // Check for anything more than just papir and skrivesaker
+            const pennOgPapirTools = ["papir", "skrivesaker"];
+            const activityToolsList = activityTools.toLowerCase().split(' ').filter(tool => tool.trim() !== '' && tool.trim() !== 'ingen');
+            
+            // Return true if it has any tools other than just papir and skrivesaker
+            return activityToolsList.some(tool => !pennOgPapirTools.includes(tool.trim()));
           }
           
           default:
