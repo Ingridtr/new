@@ -1,17 +1,21 @@
 import { useNavigate } from "react-router-dom";
 import { announceSuccess } from "../utils/accessibility";
+import { getLearningGoalLabel } from "../utils/learningGoalMapping";
 
 interface LearningGoalsComponentProps {
   goals: string[];
+  selectedGrade?: string;
 }
 
-function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
+function LearningGoalsComponent({ goals, selectedGrade }: LearningGoalsComponentProps) {
   const navigate = useNavigate();
 
   const handleLearningGoalsClick = (goal: string, index: number) => {
-    // Store both the goal text and a parseable identifier
-    localStorage.setItem("selectedLearningGoal", `Kompetansemål ${index + 1}: ${goal}`);
-    announceSuccess(`Kompetansemål ${index + 1} er valgt. Navigerer til aktiviteter.`);
+    const displayLabel = selectedGrade ? getLearningGoalLabel(selectedGrade, goal, index) : `Kompetansemål ${index + 1}`;
+    // Always store in the original format for backend compatibility, regardless of display label
+    const storageFormat = `Kompetansemål ${index + 1}: ${goal}`;
+    localStorage.setItem("selectedLearningGoal", storageFormat);
+    announceSuccess(`${displayLabel} er valgt. Navigerer til aktiviteter.`);
     navigate(`/gameSelection`);
   };
 
@@ -47,29 +51,33 @@ function LearningGoalsComponent({ goals }: LearningGoalsComponentProps) {
           Tilgjengelige kompetansemål for valgt trinn
         </h2>
         
-        {goals.map((goal, index) => (
-          <button
-            key={index}
-            className="w-full max-w-4xl min-w-0 bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md focus:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all cursor-pointer text-left mb-4"
-            onClick={() => handleLearningGoalsClick(goal, index)}
-            onKeyDown={(e) => handleKeyPress(e, goal, index)}
-            aria-label={`Velg kompetansemål ${index + 1}: ${goal}`}
-            type="button"
-          >
-            <h3 aria-hidden="true">
-              Kompetansemål {index + 1}
-            </h3>
-            <p aria-hidden="true">
-              {goal}
-            </p>
-            
-            {/* Screen reader content */}
-            <p className="sr-only">
-              Kompetansemål {index + 1} av {goals.length}: {goal}. 
-              Trykk for å se tilgjengelige aktiviteter for dette målet.
-            </p>
-          </button>
-        ))}
+        {goals.map((goal, index) => {
+          const displayLabel = selectedGrade ? getLearningGoalLabel(selectedGrade, goal, index) : `Kompetansemål ${index + 1}`;
+          
+          return (
+            <button
+              key={index}
+              className="w-full max-w-4xl min-w-0 bg-white p-6 rounded-lg border border-gray-200 hover:shadow-md focus:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all cursor-pointer text-left mb-4"
+              onClick={() => handleLearningGoalsClick(goal, index)}
+              onKeyDown={(e) => handleKeyPress(e, goal, index)}
+              aria-label={`Velg ${displayLabel}: ${goal}`}
+              type="button"
+            >
+              <h3 aria-hidden="true">
+                {displayLabel}
+              </h3>
+              <p aria-hidden="true">
+                {goal}
+              </p>
+              
+              {/* Screen reader content */}
+              <p className="sr-only">
+                {displayLabel} av {goals.length}: {goal}. 
+                Trykk for å se tilgjengelige aktiviteter for dette målet.
+              </p>
+            </button>
+          );
+        })}
       </div>
     </div>
   );

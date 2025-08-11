@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LearningGoalsComponent from "./LearningGoalsComponent";
 import { announceError } from "../utils/accessibility";
+import learningGoalsByGrade from '../learning_goals_by_grade.json';
 
 interface LearningGoalsState {
   goals: string[];
@@ -20,59 +21,22 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
       setState((prev) => ({ ...prev, loading: true, error: null }));
 
       try {
-        const localRes = await fetch("/MAT01-05.json");
-        if (!localRes.ok) {
-          throw new Error(
-            `Kunne ikke laste kompetansemål-data: ${localRes.status}`
-          );
+        // Get learning goals directly from the imported JSON file
+        const goals = (learningGoalsByGrade as any)[selectedGrade];
+        
+        if (goals && Array.isArray(goals)) {
+          setState({
+            goals: goals,
+            loading: false,
+            error: null,
+          });
+        } else {
+          setState({
+            goals: [],
+            loading: false,
+            error: `Fant ingen kompetansemål for ${selectedGrade}`,
+          });
         }
-
-        const localJson = await localRes.json();
-        const learningGoalsChapters =
-          localJson["kompetansemaal-kapittel"]?.kompetansemaalsett;
-
-        if (!learningGoalsChapters) {
-          throw new Error("Fant ikke kompetansemål-kapitler i dataene");
-        }
-
-        for (const i of learningGoalsChapters) {
-          const url = i["url-data"];
-          if (!url) continue;
-
-          const res = await fetch(url);
-          if (!res.ok) {
-            console.warn(`Kunne ikke laste data fra ${url}: ${res.status}`);
-            continue;
-          }
-
-          const json = await res.json();
-          const grade = json["etter-aarstrinn"] ?? [];
-          const gradeTitle = grade[0]?.tittel ?? "Ukjent trinn";
-
-          if (gradeTitle === selectedGrade) {
-            const learningGoals = json["kompetansemaal"] ?? [];
-            const goalList: string[] = [];
-
-            for (const goal of learningGoals) {
-              if (typeof goal.tittel === "string") {
-                goalList.push(goal.tittel);
-              }
-            }
-
-            setState({
-              goals: goalList,
-              loading: false,
-              error: null,
-            });
-            return;
-          }
-        }
-
-        setState({
-          goals: [],
-          loading: false,
-          error: `Fant ingen kompetansemål for ${selectedGrade}`,
-        });
       } catch (err) {
         const errorMessage =
           err instanceof Error
@@ -143,7 +107,7 @@ function LearningGoals({ selectedGrade }: { selectedGrade: string }) {
   return (
     <div className="p-4">
       <h2 className="text-center mb-4">{selectedGrade}</h2>
-      <LearningGoalsComponent goals={state.goals} />
+      <LearningGoalsComponent goals={state.goals} selectedGrade={selectedGrade} />
     </div>
   );
 }

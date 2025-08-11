@@ -19,6 +19,18 @@ interface BreadcrumbProps {
 const DEFAULT_HIDE: RegExp[] = [
   /^\d+\.\s?trinn$/i, // "2. trinn", "10. trinn"
   /^kompetansemål/i, // "Kompetansemål 1: ..."
+  // Andre årstrinn labels
+  /^(Sortering|Tallene|Hvor mange|Rekketall|Tiervenner|Plusstykker|Minusstykker|Hoderegning|Geometri|Programmering)$/i,
+  // Tredje årstrinn labels  
+  /^(Subtraksjon|Multiplikasjon|Multiplikasjon\/Divisjon|Multiplikasjonsformer|Regnegenskaper|Likhet\/ulikhet|Likevekt|Måleenheter|Koordinatsystemet)$/i,
+  // Fjerde årstrinn labels
+  /^(Divisjon|Divisjonsformer|Divisjonsstrategier|Hverdagssituasjoner|Situasjonsforståelse|Regneuttrykk|Figuranalyse|Algoritmer)$/i,
+  // Femte årstrinn labels
+  /^(Brøk, prosent, desimal|Brøk|Brøkrepresentasjon|Brøkstrategier|Sannsynlighet|Likninger\/Ulikheter|Økonomi|Programmering)$/i,
+  // Sjette årstrinn labels
+  /^(Tallinja|Desimalregning|Hverdagssituasjoner|Figurer|Symmetri\/Kongruens|Sirkelen|Areal\/volum|Areal\/omkrets|Formler|Programmering)$/i,
+  // Syvende årstrinn labels
+  /^(Regnestrategier|Brøk, desimal og prosent|Negative tall|Tallinja|Sammensatte uttrykk|Likninger\/ulikheter|Statistikk|Tabeller\/diagram|Budsjett\/regnskap|Programmering)$/i,
 ];
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({
