@@ -12,61 +12,59 @@
       "learning_goal": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
       "content": {
         "introduction": [
-          "Kongen befaler at alle elever skal være snille:)  I denne aktiviteten skal læreren være kongen og elevene skal følge instruksjonene som blir gitt"
+          "I denne aktiviteten skal læreren være kongen og elevene skal følge instruksjonene som blir gitt."
         ],
         "main": [
-          "Forklar at læreren er \"kongen\" og gir kommandoer som elevene skal følge",
-          "Gi kommandoer som handler om å dele inn klassen i ulike grupper",
-          "Still oppfølgingsspørsmål etter hver kommando (f.eks. hvor mange grupper? hvor mange per gruppe?).",
-          "Varier mellom målingsdivisjon (f.eks. lag 5 grupper) og delingsdivisjon (f.eks. grupper på 3).",
-          "Gjenta med nye oppgaver, og diskuter løsninger underveis."
+          "Forklar at læreren er \"kongen\" og som gir kommandoer elevene skal følge",
+          "Gi kommandoer som handler om å dele klassen inn i ulike grupper (divisjon)",
+          "Still oppfølgingsspørsmål etter hver kommando (for eksempel: hvor mange grupper? Hvor mange per gruppe?).",
+          "Varier mellom målingsdivisjon (for eksempel: lag 5 grupper) og delingsdivisjon (for eksempel: grupper på 3).",
+          "Gjenta med nye oppgaver og diskuter løsninger underveis."
         ],
         "examples": [
-          "- Kongen befaler at alle deler seg i grupper på",
-          "Klassen har 24 elever, så det blir 8 grupper.  - \"Bli 4 grupper!\". Da må elevene finne ut at det blir 6 elever per gruppe."
+          "Kongen befaler at alle deler seg i grupper på 3. Klassen har 24 elever, så det blir 8 grupper.",
+          "\"Bli 4 grupper!\". Da må elevene finne ut at det blir 6 elever per gruppe."
         ],
         "reflection": [
           "Hva var forskjellen på når vi lagde grupper på 3, og når vi skulle bli 3 grupper?",
           "Hvordan fant dere ut hvor mange det ble i hver gruppe?",
-          "Kan du forklare hvordan du delte opp?"
+          "Kan dere forklare hvordan dere delte opp?"
         ],
         "tips": [
-          "La elevene selv få komme med forslag til kommandoer."
         ],
         "extra": []
       }
     },
     {
       "id": "C0102",
-      "title": "Ballongstafett",
+      "title": "Bokstafett",
       "time": "15",
       "location": "Ute",
-      "tools": "Ballonger, stoppeklokke, målebånd",
+      "tools": "Skrivebøker, Stoppeklokke, Målebånd",
       "groupsize": "4",
       "learning_goal": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske målings",
-          "og delingsdivisjon ved å måle tid og beregne fart i en ballongstafett."
+          "I denne aktiviteten skal elevene utforske målings-og delingsdivisjon ved å måle tid og beregne fart i en skrivebokstafett."
         ],
         "main": [
-          "Del klassen i grupper på 4 elever og del ut 2 ballonger som de må blåse opp selv.",
+          "Del klassen i grupper på 4 elever der hvert par har 1 skrivebok som de må bruke i stafetten.",
           "Hver gruppe deler seg i to par.",
-          "Marker en løype på for eksempel 10 m",
-          "Parene plasserer ballongen mellom pannene.",
-          "På signal løper de til enden av løypa og tilbake mens en elev tidtar. Her er det om å gjøre å ikke miste ballongen i bakken!",
-          "Noter tiden for hver runde.",
+          "Marker en løype på for eksempel 10 meter",
+          "Det ene paret plasserer boken mellom pannene sine.",
+          "På signal løper de til enden av løypa og tilbake mens det andre paret tar tiden. Her er det om å gjøre å ikke miste boken i bakken!",
+          "Notér tiden for hver runde.",
           "Beregn gjennomsnittsfarten ved å dele distansen (m) på tiden (s) og diskuter sammenhengen"
         ],
         "examples": [
-          "Et par brukte 8 s på 10 m = 1,25 m/s."
+          "Et par brukte 8 sekunder på 10 meter = 1,25 m/s."
         ],
         "reflection": [
           "Hvordan brukte dere divisjon for å finne farten?",
           "Hva lærte dere om sammenhengen mellom tid, avstand og fart?"
         ],
         "tips": [
-          "Kan endre fra ballong til noe annet dere har liggende"
+          "Kan endre til en ballong instedenfor en bok for å gjøre det mer gøy!"
         ],
         "extra": []
       }
@@ -76,18 +74,18 @@
       "title": "Puslespill med divisjon",
       "time": "15",
       "location": "Inne/ute",
-      "tools": "Vedlagte puslespillbrikker",
+      "tools": "Puslespillbrikker",
       "groupsize": "2-3",
       "learning_goal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke med en tilhørende kant og mengde."
+          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke. Delingsstykkene skal kobles til den tilhørende svar-kanten."
         ],
         "main": [
           "Print ut vedlagte puslespillbrikker i papir",
           "Del klassen i grupper på 3 og gi hver gruppe et sett med puslespillbrikker.",
-          "Hver brikke har et divisjonsstykke på én kant og et visuelt svar (f.eks. pizzabiter, grupper) på en annen.",
-          "Elevene skal finne riktige koblinger (f.eks. 6 ÷ 2 med bilde av 3 grupper).",
+          "Hver brikke har et divisjonsstykke på én kant og et tallsvar på en annen.",
+          "Elevene skal finne riktige koblinger (f.eks. den ene kankten som er  6 ÷ 2 skal kobles med tallet 3).",
           "Brikkene har også unike former på kantene som må passe sammen.",
           "Øk aktivitetsnivået ved å legge halvparten av puslespillbrikkene på den ene enden av klasserommet og resten på den andre. Elevene må løpe frem for å hente brikken som samsvarer med den som ligger på den andre siden.",
           "Når hele puslespillet er lagt, skal elevene forklare hva de ser."
@@ -99,7 +97,7 @@
         "reflection": [],
         "tips": [],
         "extra": [
-          "Printoupt av puslespill"
+          "PrintOuts/C0201.pdf"
         ]
       }
     },
@@ -337,7 +335,7 @@
     {
       "id": "C0901",
       "title": "Herme-gåsa",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "2",
