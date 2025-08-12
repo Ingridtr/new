@@ -75,29 +75,28 @@
       "time": "15",
       "location": "Inne/ute",
       "tools": "Puslespillbrikker",
-      "groupsize": "2-3",
+      "groupsize": "4-6",
       "learning_goal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke. Delingsstykkene skal kobles til den tilhørende svar-kanten."
+          "I denne aktiviteten skal eleven pusle med brikker der hver kant representerer et delingsstykke. Divisjonsuttrykkene skal kobles til den tilhørende svar-kanten."
         ],
         "main": [
-          "Print ut vedlagte puslespillbrikker i papir",
-          "Del klassen i grupper på 3 og gi hver gruppe et sett med puslespillbrikker.",
+          "Print ut vedlagte puslespillbrikker i papir. Her kan det være lurt å laminere dem for å gjøre dem mer holdbare.",
+          "Del klassen i grupper på 4-6 og gi hver gruppe et sett med puslespillbrikker.",
           "Hver brikke har et divisjonsstykke på én kant og et tallsvar på en annen.",
           "Elevene skal finne riktige koblinger (f.eks. den ene kankten som er  6 ÷ 2 skal kobles med tallet 3).",
           "Brikkene har også unike former på kantene som må passe sammen.",
-          "Øk aktivitetsnivået ved å legge halvparten av puslespillbrikkene på den ene enden av klasserommet og resten på den andre. Elevene må løpe frem for å hente brikken som samsvarer med den som ligger på den andre siden.",
-          "Når hele puslespillet er lagt, skal elevene forklare hva de ser."
+          "Øk aktivitetsnivået ved å legge halvparten av puslespillbrikkene på den ene enden av klasserommet og resten på den andre. Elevene må løpe frem for å hente brikken som samsvarer med den som ligger på den andre siden."
         ],
         "examples": [
-          "Brikken «4 ÷ 2» skal kobles med en brikke som viser to pizzastykker.",
-          "En annen brikke «9 ÷ 3» skal kobles med bilde av 3 grupper med 3 kuler."
+          "Brikken «4 ÷ 2» skal kobles med en brikke som viser tallet 2.",
+          "En annen brikke, «9 ÷ 3», skal kobles med svaret 3."
         ],
         "reflection": [],
-        "tips": [],
+        "tips": ["Endre divisjonsstykkene på puslespillbrikkene etter nivå."],
         "extra": [
-          "PrintOuts/C0201.pdf"
+          "PrintOuts/C0201.docx"
         ]
       }
     },
@@ -111,27 +110,26 @@
       "learning_goal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene følge kongens instruksjoner som innebærer å dele seg i grupper på ulike måter, og utforsker strategier for delings",
-          "og målingsdivisjon."
+          "I denne aktiviteten skal elevene følge kongens instruksjoner som innebærer å dele seg i grupper på ulike måter, og utforsker strategier for delings -og målingsdivisjon."
         ],
         "main": [
-          "Forklar at læreren er “kongen” og gir kommandoer som alle må følge.",
-          "Gi kommandoer som: “Del dere i grupper på 3”, “Bli 4 grupper”, “Del dere på de 4 veggene”, “Del klassen i to, og så to igjen”.",
+          "Forklar at læreren er “kongen” som gir kommandoer som alle må følge.",
+          "Gi kommandoer som: “del dere i grupper på 3”, “bli 4 grupper”, “del dere på de 4 veggene”, “del klassen i to, og så to igjen”.",
           "Etter hver kommando: diskuter hvor mange grupper det ble, eller hvor mange per gruppe.",
           "Be elevene forklare hvordan de fant svaret.",
           "Gjenta med ulike tall og situasjoner."
         ],
         "examples": [
-          "Kongen sier: “Del dere i grupper på 3!” Klassen er 24 elever, så elevene finner ut at det blir 8 grupper.",
-          "“Bli 4 grupper”. Elevene må dele seg slik at det blir 6 elever i hver gruppe."
+          "Kongen sier: “del dere i grupper på 3!” Klassen er 24 elever, så elevene finner ut at det blir 8 grupper.",
+          "“bli 4 grupper”. Elevene må dele seg slik at det blir 6 elever i hver gruppe."
         ],
         "reflection": [
-          "Hvordan fant du ut hvor mange grupper det ble?",
+          "Hvordan fant dere ut hvor mange grupper det ble?",
           "Hva var forskjellen på å vite hvor mange grupper man skal ha, og hvor mange elever det skal være i hver?",
-          "Hvilken strategi brukte du?"
+          "Hvilken strategi brukte dere?"
         ],
         "tips": [
-          "Bruk konkreter eller tegn antall på tavla om nødvendig. La elevene selv få komme med forslag til kommandoer."
+          "Etter gruppene har gruppert seg så kan man tegne oppg gruppene som sirkler på tavla, for visuell støtte."
         ],
         "extra": []
       }
@@ -146,26 +144,25 @@
       "learning_goal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene velge riktig vegg basert på hvilken regneart de mener passer til en oppgave – og begrunner valget sitt."
+          "I denne aktiviteten skal elevene velge riktig vegg basert på hvilken regneart de mener passer til en oppgave."
         ],
         "main": [
           "Velg fire vegger og merk dem som +, –, × og ÷ .",
           "Læreren sier en oppgave eller en påstand høyt, f.eks. “Sofie har tre tikroninger. Hva bør hun gjøre for å finne ut hvor mye penger hun har?”",
-          "Elevene går fysisk til den veggen de mener viser riktig regneart.",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig regneart. Læreren skal bestemme hvordan de skal gå dit.",
           "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
           "Repeter med nye oppgaver."
         ],
         "examples": [
-          "Sofie har 3 ti",
-          "kroninger. Riktig regneart er multiplikasjon (3 × 10 = 30), så elevene går til veggen merket \"×\"."
+          "Sofie har 3 tikroninger. Riktig regneart er multiplikasjon (3 × 10 = 30), så elevene går til veggen merket × (multiplikasjon)."
         ],
         "reflection": [
           "Hvordan visste du hvilken regneart som passet?",
           "Kunne du løst oppgaven på flere måter?",
-          "Når er det smart å bruke ganging i stedet for pluss?"
+          "Når er det smart å bruke multiplikasjon i stedet for pluss?"
         ],
         "tips": [
-          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig"
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
         ],
         "extra": []
       }
@@ -175,37 +172,39 @@
       "title": "Kims lek",
       "time": "5",
       "location": "Inne",
-      "tools": "Tallkort, Teppe, penn, papir",
+      "tools": "Teppe, Skrivesaker, Papir",
       "groupsize": "5-6",
       "learning_goal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene memorere en samling med tall og regnearter, og deretter prøve å huske hva som blir tatt vekk"
+          "Hvordan er hukommelsen deres? I denne aktiviteten skal elevene memorere en samling med tall og regnearter, og deretter prøve å huske hva som blir tatt vekk."
         ],
         "main": [
-          "Læreren legger frem tall og regneart-symboler på bordet eller gulvet – f.eks. 3, 6, +, ÷.",
-          "Elevene får 1 min til å se og memorere innholdet.",
+          "Skriv på tavla: de fire regneartene (+, –, × og ÷) tall fra 1-20 og begreper som deling, multiplikasjon, addisjon, divisjon, subtraksjon.",
+          "Be hver elev skrive ned 2 tall og 2 regnearter/begreper på et ark.",
+          "Disse arkene skal bli kortene de skal huske i Kims lek.",
+          "Læreren legger frem tall og regneart-symboler på bordet eller gulvet. For eksempel 3, 6, +, ÷ osv. Variér antallet etter vanskelighetsgrad.",
+          "Elevene får 30 sek - 1 min (varíer tid etter vanskelighetsgrad)til å se og memorere innholdet.",
           "Læreren dekker til med et teppe.",
           "Elevene skriver ned på et ark hvilke symboler/tall de mener er forsvunnet"
         ],
         "examples": [
-          "Elevene husker at de så 4, 2 og ÷."
+          "Elevene husker at de så 4, 2, -, ÷ og 10."
         ],
         "reflection": [],
         "tips": [
           "Ha med både symboler og ordkort som \"delt\", \"sum\", \"forskjell\" for begrepsstøtte. Øk vanskelighetsgrad gradvis."
         ],
         "extra": [
-          "Printouts av tallkort"
         ]
       }
     },
     {
       "id": "C0501",
-      "title": "Byggmester bob",
+      "title": "Byggmester Bob",
       "time": "15",
       "location": "Inne/ute",
-      "tools": "Konkreter, gjenstander fra klasserommet",
+      "tools": "Ingen",
       "groupsize": "2",
       "learning_goal": "Modellere situasjonar frå sin eigen kvardag og forklare tenkjemåtane sine",
       "content": {
@@ -213,15 +212,17 @@
           "I denne aktiviteten skal elevene bruke ulike gjenstander til å bygge ting!"
         ],
         "main": [
-          "Læreren gir instruksjon: “Finn noe materiale og bygg noe som finnes i din hverdag – et rom, en gjenstand eller en opplevelse.”",
+          "Læreren gir instruksjonen: “finn noe materiale og bygg noe som finnes i din hverdag – et rom, en gjenstand eller en opplevelse.”",
           "Elevene får 5 minutter til å bygge.",
           "Etterpå forteller de kort hva de har laget og hvorfor, og læreren åpner opp for refleksjon"
         ],
         "examples": [
-          "Elev A bygger en seng med bøker og papir og sier: “Jeg valgte å lage rommet mitt. Dette er senga mi, og det gule papiret er dynen.”"
+          "En elev bygger en seng med bøker og papir og sier: “jeg valgte å lage rommet mitt. Dette er senga mi, og det gule papiret er dynen.”"
         ],
         "reflection": [
-          "Hvordan valgte du hva du ville lage? Hva tenkte du underveis? Hvordan viser det du bygget en situasjon fra din egen hverdag?"
+          "Hvordan valgte du hva du ville lage?",
+          "Hva tenkte du underveis?",
+          "Hvordan viser det du bygget en situasjon fra din egen hverdag?"
         ],
         "tips": [
           "La elevene velge mellom å bygge individuelt eller i par. Du kan gi små temautfordringer som “bygg noe fra badet” eller “bygg noe som kan rulle”."
@@ -231,34 +232,35 @@
     },
     {
       "id": "C0601",
-      "title": "Sola skinner på",
+      "title": "Bytt plass!",
       "time": "15",
-      "location": "Inne eller ute",
-      "tools": "Vedlagte tall",
+      "location": "Inne/ute",
+      "tools": "Tallkort",
       "groupsize": "Alle",
       "learning_goal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene øve på å lage og koble regneuttrykk til riktige svar."
+          "I denne aktiviteten skal elevene få instruksjoner av læreren, et regnestykke med svar, og deretter skal elevene med uttrykket og svaret bytte plass."
         ],
         "main": [
-          "1.Fortell at elevene skal stelle seg i en sirkel.",
-          "Del ut vedlagte lapper til alle elevene, enten med et regneuttrykk (f.eks. 4×2) eller et tall (f.eks. 8).",
-          "Én elev står i midten og roper ut et regneuttrykk eller spørsmål, som “Hvem har 6+4?” eller “Hvem har 10 som svar?”",
-          "De som har matchende uttrykk/svar løper inn og bytter plass, mens eleven i midten prøver å ta en ledig plass.",
-          "Den som blir stående igjen, stiller neste spørsmål."
+          "Print ut vedlagte tallkort.",
+          "Fortell at elevene skal stelle seg i en sirkel.",
+          "Del ut tallkort til alle elevene, enten med et regneuttrykk (f.eks. 4×2) eller et tall (f.eks. 8).",
+          "Læreren står i midten og roper ut et regneuttrykk med et svar, som “6+4=10, bytt plass!” eller “7+3=10, bytt plass!”",
+          "Den eleven som har uttrykket bytter plass med den eleven som har svaret.",
+          "Læreren stiller et nytt spørsmål."
         ],
         "examples": [
-          "Elev A roper “Hvem har 5×3?”, og eleven som har “15” og “5+5+5” løper inn og bytter plass. Elev A prøver å ta én av plassene."
+          "Læreren sier: “2+2=4, bytt plass!”",
+          "Læreren sier: “5×3=15, bytt plass!”",
+          "Læreren sier: “12-4=8, bytt plass!”"
         ],
         "reflection": [
-          "Hvordan fant du ut hvilke regneuttrykk som passet sammen?",
-          "Kunne samme tall ha flere uttrykk?",
-          "Hvordan kan du finne på et regnestykke som passer til 18?"
+          "Hvordan fant du ut hvem du skulle bytte plass med?",
+          "Hvilke strategier brukte du for å finne riktig svar?"
         ],
         "tips": [
-          "Bruk både konkrete uttrykk og visuelle lapper (f.eks. bilder eller mengder) for å støtte ulike nivåer. Lag egne lapper til tema dere jobber med.",
-          "For tryggere rammer kan elevene deles inn i par"
+          "For tryggere rammer kan elevene deles inn i par."
         ],
         "extra": [
           "Printouts av tall"
@@ -268,19 +270,18 @@
     {
       "id": "C0701",
       "title": "Trill meg!",
-      "time": "15",
-      "location": "Inne /Ute",
-      "tools": "Konkreter",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
       "groupsize": "2-3",
       "learning_goal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske hvilke 3D",
-          "former som triller godt, og bruke begreper som hjørner, kanter og flater for å forklare hvorfor."
+          "I denne aktiviteten skal elevene utforske hvilke 3D-former som triller godt, og bruke begreper som hjørner, kanter og flater for å forklare hvorfor."
         ],
         "main": [
-          "Ta fram ulike gjenstander med forskjellige former (f.eks. ball = kule, terning = kube, bok = prisme).",
-          "La elevene trille én og én form på gulvet.",
+          "Del klassen i grupper på 2-3 og be de finne 3-4 gjenstander (f.eks. ball = kule, terning = kube, bok = prisme).",
+          "Læreren forklarer at elevene skal trille én og én form på gulvet.",
           "Be dem observere: Hvilken form triller best? Hvilken stopper raskt?",
           "Snakk sammen: Hva har formene til felles? Hva gjør at noen ruller bedre enn andre?",
           "La elevene forklare ved å bruke begreper som kanter, hjørner, flater."
@@ -289,12 +290,11 @@
           "Elevgruppe A prøver å trille en pyramide og oppdager at den ikke triller rett, mens en sylinder triller lett og langt. De sier: “Den har rund side uten hjørner.”"
         ],
         "reflection": [
-          "Hvilken form trilla best? Hvorfor det?",
+          "Hvilken form trillet best? Hvorfor det?",
           "Har formene som triller få eller mange kanter og hjørner?",
           "Hva skjer om du triller en kube på et hjørne? Hvordan kan du beskrive forskjellene på formene?"
         ],
         "tips": [
-          "Bruk former fra natur eller klasserommet."
         ],
         "extra": []
       }
@@ -312,8 +312,8 @@
           "I denne aktiviteten skal elevene bruke kroppen sin som måleverktøy for å utforske areal og forklare hvordan og hvorfor de måler på ulike måter."
         ],
         "main": [
-          "Del elevene i grupper og forklar at de skal måle ulike uteområder (f.eks. en benk, en sandkasse, en dør, en plen) ved å bruke kroppen som måleenhet.",
-          "La elevene velge én metode og bruke den konsekvent for hvert område.",
+          "Del elevene i grupper og forklar at de skal måle ulike uteområder (f.eks. en benk, en sandkasse, en dør) ved å bruke kroppen som måleenhet.",
+          "La elevene velge én metode (for eksempel en fot, en armbredde, en hånd osv.) og bruke den konsekvent for hvert område.",
           "Be gruppene sammenligne: ble resultatene like? Hvorfor eller hvorfor ikke?",
           "Diskuter i plenum hvilke måleenheter som var mest praktiske og hvorfor."
         ],
@@ -327,14 +327,14 @@
           "Hva var fordelen med å bruke kroppen – og hva var utfordrende?"
         ],
         "tips": [
-          "La elevene tegne området de målte og skrive inn måleresultatet. Snakk om fordeler og ulemper ved ulike måter å måle på."
+          "La elevene tegne området de målte og skrive inn måleresultatet."
         ],
         "extra": []
       }
     },
     {
       "id": "C0901",
-      "title": "Herme-gåsa",
+      "title": "Hermegåsa",
       "time": "5",
       "location": "Inne/ute",
       "tools": "Ingen",
@@ -352,14 +352,12 @@
           "Etterpå samles elevene og snakker om hvilke mønstre og rytmer de oppdaget."
         ],
         "examples": [
-          "Elev A hopper to ganger og klapper én gang. Elev B gjør det samme. Deretter bytter de. De oppdager at de lagde et mønster: hopp",
-          "hopp",
-          "klapp."
+          "Elev A hopper to ganger og klapper én gang. Elev B gjør det samme. Deretter bytter de. De oppdager at de lagde et mønster: hopp-hopp-klapp."
         ],
         "reflection": [
           "Hva slags bevegelser brukte dere?",
           "Lagde dere et mønster?",
-          "Hvordan visste du hva som kom etterpå?",
+          "Hvordan visste dere hva som kom etterpå?",
           "Var det lettere å herme når bevegelsene hadde rytme eller gjentakelse?"
         ],
         "tips": [
@@ -370,10 +368,10 @@
     },
     {
       "id": "C0902",
-      "title": "Tre på rad",
+      "title": "Bondesjakk!",
       "time": "15",
-      "location": "Inne",
-      "tools": "Papir, penn, 3×3-rutenett og brikker",
+      "location": "Ute",
+      "tools": "Kritt",
       "groupsize": "2",
       "learning_goal": "utforske og beskrive strukturar og mønster i leik og spel",
       "content": {
@@ -381,22 +379,23 @@
           "I denne aktiviteten skal elevene utforske og beskrive strukturer og mønster i spillet Tre på rad."
         ],
         "main": [
-          "Del klassen i par og gi hvert par ett 3×3-rutenett på papir eller tavle.;",
-          "Forklar reglene kort.;",
-          "La elevene spille én runde og stoppe opp for å identifisere mønster (horisontale, vertikale, diagonale).;",
-          "Bytt brikker og be dem spille igjen med mål om å lage et bestemt mønster (for eksempel diagonal eller kant).;",
-          "Diskuter mønstrene dere fant og hvordan de påvirker sjansene for å vinne."
+          "Del klassen i par og la paret tegne et 3×3-rutenett på bakken med kritt.",
+          "Forklar reglene for Bondesjakk: to spillere tegner vekselvis brikker (f.eks. X og O) i rutenettet.",
+          "Målet med spillet er å få tre på rad (horisontalt, vertikalt eller diagonalt).",
+          "La elevene spille et par runder."
         ],
         "examples": [
-          "Et par vant ved å plassere tre på rad diagonalt; et annet la merke til at midtfeltet gir størst oversikt."
+          "Elev A tegner en X i midten, elev B svarer med en O i høyre hjørnet.",
+          "Elev A tegner en X i midten venstre, og elev B tegner en O i nederst venstre hjørne.",
+          "Elev A vinner ved å tegne en X i midten høyre. Da har elev A tre på rad horisontalt på midterste rad."
         ],
         "reflection": [
-          "Hvilke mønstre la dere merke til og hvor ofte dukket de opp?;",
-          "Hvor mange ulike vinnermønstre kan dere finne i rutenettet?;",
+          "Hvilke mønstre la dere merke til og hvor ofte dukket de opp?",
+          "Hvor mange ulike vinnermønstre kan dere finne i rutenettet?",
           "Hvordan kan kunnskap om mønstre hjelpe dere å planlegge trekk?"
         ],
         "tips": [
-          "Oppmuntre bruk av farger for å markere ulike mønstre.; Bruk et stort rutenett på tavla for felles analyse.; Still spørsmål underveis som «Hvor mange måter kan dere vinne på nå?»"
+          "Oppmuntre bruk av farger for å markere ulike mønstre."
         ],
         "extra": []
       }
@@ -406,7 +405,7 @@
       "title": "Veiviseren",
       "time": "15",
       "location": "Inne/ute",
-      "tools": "Tøystykke, enkle hinder, målområde",
+      "tools": "Bind for øynene",
       "groupsize": "2",
       "learning_goal": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
       "content": {
@@ -429,7 +428,7 @@
           "Hvordan kan slike bevegelser og instruksjoner oversettes til et dataspråk?"
         ],
         "tips": [
-          "Start med kort og enkel løype, og bygg ut etter hvert. Bruk tape eller kjegler til å markere løype og mål. La elevene lage egne “programmer” til løypene."
+          "Varíer vanskelighetsgraden ved å legge til flere hindringer eller la veiviseren bruke flere instruksjoner."
         ],
         "extra": []
       }
