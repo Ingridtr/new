@@ -1,18 +1,23 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Print from "../components/Print";
+import HeartButton from "../components/HeartButton";
 import PrintOutComponent from "../components/PrintOuts";
+import Breadcrumb from "../components/Breadcrumb";
 import { useNavigate } from "react-router-dom";
 
 import { useSingleActivity } from "../components/GetActivity";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 function InfoTask() {
   const navigate = useNavigate();
+  const breadcrumbs = useBreadcrumbs();
 
   const selectedGameId = localStorage.getItem("selectedGameId");
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
   const currentGameImage = localStorage.getItem("selectedGameImage");
+  const previousPage = localStorage.getItem("previousPage") || "/gameSelection";
 
   // Use the consolidated hook instead of custom fetching
   const { activity, loading, error } = useSingleActivity(
@@ -55,21 +60,21 @@ function InfoTask() {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Navbar backgroundColor="bg-gray-50" />
 
-      {/* Innholdsseksjon med relativ posisjon for knappen */}
       <div className="relative flex-1 px-4">
-        {/* Lukkeknapp øverst til høyre (under Navbar) */}
+        <div className="max-w-screen-xl mx-auto pt-4">
+          <Breadcrumb items={breadcrumbs} className="mb-4" />
+        </div>
+
         <button
           className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-          onClick={() => navigate("/gameSelection")}
+          onClick={() => navigate(previousPage)}
           aria-label="Lukk aktivitetsside og gå tilbake"
         >
           ×
         </button>
-        {/* Innhold */}
+
         <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-6 mt-12 mb-12">
-          {/* Venstre kolonne - Info og Tips */}
           <div className="flex flex-col gap-6 w-full lg:w-64 lg:sticky lg:top-40 lg:self-start">
-            {/* Info boks */}
             <div className="bg-green-100 border rounded-2xl py-6 px-6 space-y-4 h-fit">
               <div className="flex items-center gap-2">
                 <span role="img" aria-label="Sted">
@@ -144,11 +149,9 @@ function InfoTask() {
               </button>
             </div>
 
-            {/* Tips boks */}
             {activity.gradeContent?.tips &&
               activity.gradeContent.tips.length > 0 && (
                 <div className="bg-yellow-50 border border-yellow-200 space-y-4 rounded-2xl py-6 px-6">
-                  {/* Overskrift med ikon */}
                   <div className="flex items-center gap-3">
                     <span role="img" aria-label="Tips" className="text-3xl">
                       💡
@@ -156,7 +159,6 @@ function InfoTask() {
                     <h3>Tips</h3>
                   </div>
 
-                  {/* Tips-innhold under */}
                   <div>
                     {activity.gradeContent.tips.map((item, index) => (
                       <div key={index}>{item}</div>
@@ -167,8 +169,14 @@ function InfoTask() {
           </div>
 
           <div className="flex flex-col space-y-6 flex-1 pl-8">
-            {/* Introduction Section */}
-            <h1>{activity.title}</h1>
+            <div className="flex items-start  gap-3">
+              <h1 className="text-2xl font-bold leading-tight m-0 max-w-[75%]">
+                {activity.title}
+              </h1>
+              <div className="shrink-0 self-center">
+                <HeartButton pageId={activity.id} />
+              </div>
+            </div>
             {activity.gradeContent?.introduction &&
               activity.gradeContent.introduction.length > 0 && (
                 <div>
@@ -180,7 +188,6 @@ function InfoTask() {
                 </div>
               )}
 
-            {/* Main Activity Section */}
             {activity.gradeContent?.main &&
               activity.gradeContent.main.length > 0 && (
                 <div>
@@ -215,7 +222,6 @@ function InfoTask() {
                 </div>
               )}
 
-            {/* Reflection Section */}
             {activity.gradeContent?.reflection &&
               activity.gradeContent.reflection.length > 0 && (
                 <div>

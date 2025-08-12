@@ -4,12 +4,12 @@ import {
   Activity,
   ActivityTask,
   CombinedActivity,
-} from "../../public/activityData/types";
+} from "../data/types";
 
 import {
   GradeData,
   GradeActivity,
-} from "../../public/activityData/gradeTypes";
+} from "../data/gradeTypes";
 
 // Cache for grade-based activities
 const gradeCache = new Map<string, GradeData>();
