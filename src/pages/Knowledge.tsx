@@ -80,11 +80,7 @@ function Knowledge() {
                   <p>Henrik Løvmyr</p>
                   <p>Spesialpedagog</p>
                 </div>
-                <div className="text-center">
-                  <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
-                  <p>Hanan Abdelrahman</p>
-                  <p>Matematikklærer</p>
-                </div>
+
                 <div className="text-center">
                   <FontAwesomeIcon icon={faUser} className="text-4xl mb-2" />
                   <p>Joschua Liedtke</p>
