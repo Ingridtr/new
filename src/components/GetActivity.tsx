@@ -4,12 +4,9 @@ import {
   Activity,
   ActivityTask,
   CombinedActivity,
-} from "../data/types";
-
-import {
   GradeData,
   GradeActivity,
-} from "../data/gradeTypes";
+} from "../../public/activityData/types";
 
 // Cache for grade-based activities
 const gradeCache = new Map<string, GradeData>();
@@ -101,13 +98,16 @@ async function fetchGradeActivities(gradeName?: string | null): Promise<GradeAct
 
 // Convert GradeActivity to the old Activity format for compatibility
 function convertGradeActivityToActivity(gradeActivity: GradeActivity, gradeName?: string): Activity {
+  const introText = Array.isArray(gradeActivity.content.introduction) ? gradeActivity.content.introduction.join(" ") : (gradeActivity.content.introduction || "");
+  const mainText = Array.isArray(gradeActivity.content.main) ? gradeActivity.content.main.join(" ") : (gradeActivity.content.main || "");
+  
   return {
     id: gradeActivity.id,
     title: gradeActivity.title,
-    description: gradeActivity.content.introduction.join(" ") + " " + gradeActivity.content.main.join(" "),
+    description: introText + " " + mainText,
     time: gradeActivity.time,
     image: "", // No image in new structure, could be added later
-    tools: gradeActivity.tools.split(",").map(tool => tool.trim()),
+    tools: gradeActivity.tools.split(",").map((tool: string) => tool.trim()),
     location: gradeActivity.location,
     grade: gradeName || "Andre årstrinn", // Use provided grade or default
     number_of_tasks: 1 // Default value
@@ -126,8 +126,8 @@ function createMockActivityTask(gradeActivity: GradeActivity, gradeName?: string
     generatedAt: new Date().toISOString(),
     grades: {
       [currentGrade]: {
-        tips: gradeActivity.content.tips.join(" "),
-        reflection: gradeActivity.content.reflection.join(" "),
+        tips: Array.isArray(gradeActivity.content.tips) ? gradeActivity.content.tips.join(" ") : (gradeActivity.content.tips || ""),
+        reflection: Array.isArray(gradeActivity.content.reflection) ? gradeActivity.content.reflection.join(" ") : (gradeActivity.content.reflection || ""),
         easy: [],
         medium: [],
         hard: []
@@ -263,8 +263,8 @@ export async function fetchSingleActivity(
       groupsize: gradeActivity.groupsize, // Add groupsize field
       grades: {
         [currentGrade]: {
-          tips: gradeActivity.content.tips.join(" "),
-          reflection: gradeActivity.content.reflection.join(" "),
+          tips: Array.isArray(gradeActivity.content.tips) ? gradeActivity.content.tips.join(" ") : (gradeActivity.content.tips || ""),
+          reflection: Array.isArray(gradeActivity.content.reflection) ? gradeActivity.content.reflection.join(" ") : (gradeActivity.content.reflection || ""),
           easy: [],
           medium: [],
           hard: []
@@ -445,8 +445,8 @@ export function useActivities(
             groupsize: gradeActivity.groupsize, // Add groupsize field
             grades: {
               [selectedGrade || "Andre årstrinn"]: {
-                tips: gradeActivity.content.tips.join(" "),
-                reflection: gradeActivity.content.reflection.join(" "),
+                tips: Array.isArray(gradeActivity.content.tips) ? gradeActivity.content.tips.join(" ") : (gradeActivity.content.tips || ""),
+                reflection: Array.isArray(gradeActivity.content.reflection) ? gradeActivity.content.reflection.join(" ") : (gradeActivity.content.reflection || ""),
                 easy: [],
                 medium: [],
                 hard: []
