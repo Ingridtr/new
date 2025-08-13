@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Breadcrumb from "../components/Breadcrumb";
 
 import GameCard from "../components/GameCard";
-import { Activity } from "../data/types";
+import { Activity } from "../../public/activityData/types";
 import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 const GRADES_BASE = "/activityData/grades";
