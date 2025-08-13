@@ -345,7 +345,7 @@
       "learning_goal": "Utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal læreren si ulike tall, og elevene skal finne på en vilkårlig bevegelse til tallet."
+          "I denne aktiviteten skal læreren være \"kongen\" i Kongen befaler. \"Kongen\" sier ulike tall, og elevene skal finne på en vilkårlig bevegelse til tallet."
         ],
         "main": [
           "Læreren sier ett tall mellom 1-10",
@@ -353,7 +353,7 @@
           "Aktiviteten kan gjentas flere ganger"
         ],
         "examples": [
-          "Læreren sier tallet 6 – noen i klassen hopper 6 ganger, noen klapper 6 ganger, noen snurrer 6 ganger."
+          "Læreren sier tallet 6: Noen i klassen hopper 6 ganger, noen klapper 6 ganger, noen snurrer 6 ganger, andre lager tallet 6 med kroppen"
         ],
         "reflection": [
           "Hvordan kan vi vise tall med kroppen?",
@@ -374,12 +374,12 @@
       "learning_goal": "Utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur, representere tala på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene trekke et tallkort og deretter prøve å mime tallet til gruppen sin. gruppen skal prøve å gjette tallet."
+          "I denne aktiviteten skal elevene trekke et tallkort og deretter prøve å mime tallet til gruppen sin. Gruppen skal prøve å gjette tallet."
         ],
         "main": [
-          "Læreren skriver lapper med forskjellige tall på fra for eksempel 1-10 (Det er også mulighet for å printe ut klare tallkort)",
-          "Én elev i gruppen trekker et tallkort og prøver å mime det",
-          "Resten av gruppa skal prøve å gjette det",
+          "Læreren skriver lapper med forskjellige tall på fra for eksempel 1-10 (Se vedlagte hjelpemidler dersom du heller vil printe ut)",
+          "Én elev i gruppen trekker et tallkort og prøver å mime det.",
+          "Resten av gruppa skal prøve å gjette det.",
           "Rullerer innad i gruppen for at alle skal få prøve"
         ],
         "examples": [
@@ -388,7 +388,7 @@
         "reflection": [
           "Hvordan kan vi vise tall med kroppen?",
           "Hvilke andre måter kan vi representere tall på?",
-          "Hvordan vet vi at det var for eksempel 6 hopp og ikke 5?"
+          "Hvordan vet vi at det var for eksempel 4 hopp og ikke 5?"
         ],
         "tips": [
           "Bruk musikk for å få det mer lekent. Hvis det er noen som er usikre, sett dem i par slik at man kan prøve å mime sammen."
@@ -399,15 +399,14 @@
     {
       "id": "A0301",
       "title": "Telletoget",
-      "time": "15",
+      "time": "5",
       "location": "Inne",
       "tools": "Tallkort",
       "groupsize": "Alle",
       "learning_goal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
       "content": {
         "introduction": [
-          "I denne aktiviteten følger elevene en rekkefølge sammen som et “telle",
-          "tog”. Elevene reiser seg etter tur og viser tallet sitt – en morsom og visuell måte å øve på tall og mønster."
+          "I denne aktiviteten følger elevene en rekkefølge sammen som et “telletog”. Elevene reiser seg etter tur og viser tallet sitt."
         ],
         "main": [
           "Del ut ark med tall fra 1 til 20 (eller tilsvarende antall elever). Hvert tall må være representert én gang.",
@@ -420,11 +419,13 @@
           "– Telle fra 1 til 20 – Telle baklengs fra 20 til 1 – Telle 2 og 2: 2, 4, 6, 8 … – Telle 5 og 5: 5, 10, 15 … – Starte på 3 og telle 3 og 3: 3, 6, 9, 12…"
         ],
         "reflection": [
-          "– Hvem var før deg? Etter deg? – Hvorfor er det lurt å vite hvilket tall som kommer etterpå? – Hva slags mønster ser dere? – Var det lettere å telle 1 og 1 eller 2 og 2? – Klarte dere å følge med på rekkefølgen?"
+          "Hvem var før deg? Etter deg?",
+          "Hvorfor er det lurt å vite hvilket tall som kommer etterpå?",
+          "Hva slags mønster ser dere?",
+          "Var det lettere å telle 1 og 1 eller 2 og 2?",
+          "Klarte dere å følge med på rekkefølgen?"
         ],
-        "tips": [
-          "Kan også brukes til å innføre begreper som oddetall og partall, plassering, og tallinjer."
-        ],
+        "tips": ["Innfør en dans/regle som elevene kan følge mens de teller."],
         "extra": ["printOuts/A0301.png"]
       }
     },
@@ -438,19 +439,18 @@
       "learning_goal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene samarbeide om å frakte en gjenstand fra et startpunkt til et sluttpunkt",
-          "med så få berøringer som mulig. Målet er å komme seg over til den andre siden, uten å bryte reglene."
+          "I denne aktiviteten skal elevene samarbeide om å frakte en gjenstand fra et startpunkt til et sluttpunkt med så få berøringer som mulig. Målet er å komme seg over til den andre siden, uten å bryte reglene."
         ],
         "main": [
           "Elevene skal frakte en skatt trygt over et «hav» (bakken)– uten å miste den i vannet.",
-          "Læreren deler klassen inn i grupper",
-          "Hver gruppe skal finne en gjenstand som skal bli deres \"skatt\"",
+          "Læreren deler klassen inn i grupper.",
+          "Hver gruppe skal finne en gjenstand som skal bli deres \"skatt\".",
           "Læreren markerer et startpunkt og et sluttpunkt med ca. 15–20 meters avstand – dette er havet som skatten skal fraktes over.",
-          "Forklar reglene tydelig:   • Skatten må ikke røre bakken underveis.   • Den kan ikke kastes, sparkes eller trilles.   • Den som holder skatten, må stå helt stille – det er ikke lov å gå mens man holder den.   • Hver gang en ny person tar i skatten, telles det som én berøring.",
-          "Målet er å få skatten over havet med færrest mulig berøringer. Hver gang en ny elev tar i skatten, teller det som én berøring. Læreren kan velge å legge inn en tidsbegrensning, et maks antall forsøk, eller begge deler. ."
+          "Forklar reglene tydelig: Skatten må ikke røre bakken underveis. Den kan ikke kastes, sparkes eller trilles. Den som holder skatten, kan ikke bevege føttene (Han må altså ha samme posisjon på føttene, men kan bevege overkroppen så mye han vil). Hver gang en ny person tar i skatten, telles det som én berøring.",
+          "Målet er å få skatten over havet med færrest mulig berøringer. Læreren kan velge å legge inn en tidsbegrensning, et maks antall forsøk, eller begge deler."
         ],
         "examples": [
-          "En elev løfter skatten og holder den ut til neste elev. Den neste eleven må stå klar og ta imot – ingen av dem har lov til å gå mens de holder skatten. Etter at skatten er overlevert, kan eleven som nettopp har sluppet skatten løpe frem og stille seg i rekken igjen, klar til å ta imot neste gang. Gruppen må derfor planlegge hvor de står, og hvordan de skal samarbeide for å få skatten frem – kanskje ved å danne en kjede, bruke armene på smarte måter, eller flytte seg raskt mellom overleveringene."
+          "En elev løfter skatten og holder den ut til neste elev. Den neste eleven må stå klar og ta imot. Ingen av dem har lov til å gå mens de holder skatten. Etter at skatten er overlevert, kan eleven som nettopp har sluppet skatten løpe frem og stille seg i rekken igjen, klar til å ta imot neste gang. Gruppen må derfor planlegge hvor de står, og hvordan de skal samarbeide for å få skatten frem. Kanskje ved å danne en kjede, bruke armene på smarte måter, legge seg langflat på bakken (med føttene i samme posisjon) mens de holder skatten."
         ],
         "reflection": [
           "Hva var vanskelig med å frakte skatten?",
@@ -475,8 +475,7 @@
       "learning_goal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske å telle baklengs med leken 15",
-          "gjelder."
+          "I denne aktiviteten skal elevene utforske å telle baklengs med leken 15 - gjelder."
         ],
         "main": [
           "Velg én elev som skal telle og lukke øynene.",
@@ -487,20 +486,23 @@
           "Leken fortsetter til alle er funnet. Den siste som blir funnet, blir neste teller."
         ],
         "examples": [
-          "– Starter med “15 gjelder!”, neste runde “14 gjelder!”  – Elever gjemmer seg etter å ha tatt på telleren  – Telleren tar kun to skritt før leting"
+          "– Starter med “15 gjelder!”, neste runde “14 gjelder!” Elever gjemmer seg etter å ha tatt på telleren. Telleren tar kun to skritt før leting"
         ],
         "reflection": [
-          "– Var det lett eller vanskelig å telle baklengs?  – Hvorfor tror du det ble lettere etter flere runder?  – Hva skjer med tiden man får når tallet går ned?  – Hvordan påvirket det hvordan dere gjemte dere?"
+          "Var det lett eller vanskelig å telle baklengs?",
+          "Hvorfor tror du det ble lettere etter flere runder?",
+          "Hva skjer med tiden man får når tallet går ned?",
+          "Hvordan påvirket det hvordan dere gjemte dere?"
         ],
         "tips": [
-          "– Start med lavere tall for yngre elever (f.eks. 10)  – Telleren må telle tydelig og høyt  – Kombiner gjerne med telling forlengs som variasjon"
+          "Start med lavere tall for yngre elever (f.eks. 10). Kombiner gjerne med telling forlengs som variasjon"
         ],
         "extra": []
       }
     },
     {
       "id": "A0304",
-      "title": "Gå planken: telling og eksperimentering med skritt",
+      "title": "Gå planken",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt",
@@ -523,15 +525,12 @@
           "Gå 3 skritt frem, deretter 2 skritt tilbake."
         ],
         "reflection": [
-          "– Hva startet du på, og hvor endte du? – Hvordan vet du at du har gått riktig? – Hva skjer når du går frem og så like mange tilbake?",
-          "Hva skjedde da de måtte gå baklengs? Hvordan påvirket det tellingen?"
+          "Hva startet du på, og hvor endte du?",
+          "Hvordan vet du at du har gått riktig?",
+          "Hva skjer når du går frem og så like mange tilbake?",
+          "Hva skjedde da dere måtte gå baklengs? Hvordan påvirket det tellingen?"
         ],
-        "tips": [
-          "– Marker tall på planken for ekstra støtte – Kan brukes med par: én gir instruksjoner, den andre går",
-          "Sørg for at alle elevene får muligheten til å delta både i å gå og i å gi instruksjoner.",
-          "Bruk aktiviteten som en mulighet til å diskutere tall, retninger og differanser i en fysisk og engasjerende setting.",
-          "For å gjøre det mer utfordrende kan du bruke flere eller mindre skritt, eller endre på instruksjonene for å få elevene til å reflektere mer over retningene de velger."
-        ],
+        "tips": ["La elevene gi instruksjoner til hverandre."],
         "extra": []
       }
     },
@@ -539,7 +538,7 @@
       "id": "A0305",
       "title": "Tid og bevegelse",
       "time": "15",
-      "location": "Ute",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "2",
       "learning_goal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
@@ -550,13 +549,13 @@
         "main": [
           "Forklar at elevene skal samarbeide i par for å eksperimentere med tid ved å telle.",
           "Den ene eleven skal gjøre en fysisk bevegelse (hoppe, krabbe, osv.) et bestemt antall ganger, mens den andre eleven skal \"ta tiden\" ved å telle hvor mange sekunder det tar å fullføre bevegelsen.",
-          "Elevene kan eksperimentere med å gjøre forskjellige variasjoner av den samme bevegelsen",
+          "Elevene kan eksperimentere med å gjøre forskjellige variasjoner av den samme bevegelsen.",
           "De skal sammenligne forskjellen i hvor lang tid de bruker på de ulike variasjonene."
         ],
         "examples": ["Hoppe 10 ganger.", "Krabbe 5 ganger."],
         "reflection": [
           "Hva påvirket tiden – var det hastigheten eller intensiteten på bevegelsen?",
-          "Hvordan endret tidens gang seg med forskjellige hastigheter eller variasjoner?",
+
           "Hva kan vi lære om tid ved å eksperimentere med bevegelse?"
         ],
         "tips": [],
@@ -565,9 +564,9 @@
     },
     {
       "id": "A0401",
-      "title": "Sjørøverjakt etter partall- og oddetallskonkreter",
-      "time": "15",
-      "location": "Inne / ute",
+      "title": "Sjørøverjakt",
+      "time": "5",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "4",
       "learning_goal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
@@ -585,12 +584,12 @@
           "En oddetallsgruppe kan hente 2 kongler + 1 stein = 3 gjenstander."
         ],
         "reflection": [
-          "– Hvilket tall fikk dere? – Er det partall eller oddetall? Hvordan vet dere det? – Hva skjer når man legger sammen to partall? – Hva skjer når man legger sammen et partall og et oddetall?"
+          "Hvilket tall fikk dere?",
+          "Er det partall eller oddetall? Hvordan vet dere det?",
+          "Hva skjer når man legger sammen to partall?",
+          "Hva skjer når man legger sammen et partall og et oddetall?"
         ],
-        "tips": [
-          "– Snakk kort om partall/oddetall før dere starter – La elevene telle høyt og sammenligne funnene – Bruk skatte",
-          "tema for å gjøre det engasjerende"
-        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -600,7 +599,7 @@
       "time": "15",
       "location": "Ute",
       "tools": "Ingen",
-      "groupsize": "2-4",
+      "groupsize": "2",
       "learning_goal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
       "content": {
         "introduction": [
@@ -614,14 +613,17 @@
           "Gjenta gjerne med motsatt fangst (det andre parets), og diskuter forskjeller."
         ],
         "examples": [
-          "– Ett par har 7 steiner og skal dele med et annet par: 3 og 4 steiner blir ikke likt. – Et annet par har 8 blader: 4 og 4 → delt likt. – Hva må man gjøre hvis det ikke går opp?"
+          "Ett par har 7 steiner og skal dele med et annet par: 3 og 4 steiner blir ikke likt.",
+          "Et annet par har 8 blader: 4 og 4 → delt likt."
         ],
         "reflection": [
-          "– Kunne dere dele alt likt? – Hvilke antall var enklest å dele? – Hva skjer når man deler et oddetall? – Hvordan kan vi vite på forhånd om noe kan deles helt likt?"
+          "Kunne dere dele alt likt?",
+          "Hvilke antall var enklest å dele?",
+          "Hva skjer når man deler et oddetall?",
+          "Hvordan kan vi vite på forhånd om noe kan deles helt likt?",
+          "Hva må man gjøre hvis det ikke går opp?"
         ],
-        "tips": [
-          "Klargjør begrepene partall og oddetall før aktiviteten – Ha felles gjennomgang etterpå – La elevene tegne og vise fordelingen – Still spørsmål underveis for å fremme refleksjon"
-        ],
+        "tips": ["La elevene tegne og vise fordelingen."],
         "extra": []
       }
     },
@@ -629,13 +631,13 @@
       "id": "A0403",
       "title": "Sortere i bunker",
       "time": "15",
-      "location": "Inne / ute",
+      "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "Alle",
       "learning_goal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske hva det vil si at et tall kan deles i like store deler, og hvilke tall det kan deles på."
+          "I denne aktiviteten skal elevene samle konkreter og deretter sortere dem. Elevene skal utforske hva det vil si at et tall kan deles i like store deler, og hvilke tall det kan deles på."
         ],
         "main": [
           "Be elevene samle så mange objekter de kan på 10 minutter.",
@@ -647,11 +649,12 @@
         ],
         "examples": [],
         "reflection": [
-          "– Hvilke tall kunne du dele helt likt? – Hvilke tall gikk ikke opp? – Hvordan visste du at et tall var delelig på 2, 3 eller 4? – Ser du et mønster i hvilke tall som kan deles på hva?"
+          "Hvilke tall kunne du dele helt likt?",
+          "Hvilke tall gikk ikke opp?",
+          "Hvordan visste du at et tall var delelig på 2, 3 eller 4?",
+          "Ser du et mønster i hvilke tall som kan deles på hva?"
         ],
-        "tips": [
-          "Introduser begrepet “delelig med” før aktiviteten – og bruk det underveis"
-        ],
+        "tips": ["Introduser begrepet “delelig med” før aktiviteten"],
         "extra": []
       }
     },
@@ -659,7 +662,7 @@
       "id": "A0404",
       "title": "Dobling og halvering",
       "time": "15",
-      "location": "Inne / ute",
+      "location": "Inne",
       "tools": "Ingen",
       "groupsize": "2",
       "learning_goal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
@@ -674,7 +677,7 @@
           "Skriv på tavla de ulike regneartene: pluss = hopping og minus = tramping"
         ],
         "examples": [
-          "Eleven tenker på tallet",
+          "Eleven tenker på tallet 4",
           "Da hopper hen 10 ganger og tramper 6 ganger. 10 - 6 = 4"
         ],
         "reflection": [
@@ -696,10 +699,10 @@
       "learning_goal": "utforske og beskrive generelle eigenskapar ved partal og oddetal",
       "content": {
         "introduction": [
-          "Denne klassikeren lærer barna og tenke på partall og oddetall på en morsom og leken måte. Målet er å bli partall"
+          "Denne klassikeren lærer barna og tenke på partall og oddetall på en morsom og leken måte. Målet for alle er å holde seg som partall"
         ],
         "main": [
-          "Elevene står i par på en rekke bakover.",
+          "Elevene står to og to på en rekke bakover.",
           "Ett barn står alene foran rekken – dette barnet starter leken.",
           "Den som står alene roper: “Kari og Knut – sistemann ut!”",
           "Det bakerste paret løper fremover, en på hver side av rekken.",
@@ -710,10 +713,13 @@
         ],
         "examples": [],
         "reflection": [
-          "– Hva var vanskelig med å ta igjen en som løp? – Hvordan samarbeidet dere? – Hva gjorde det lettere å klare å fange noen? – Hvordan var det å stå alene foran?"
+          "Hva var vanskelig med å ta igjen en som løp?",
+          "hvordan samarbeidet dere?",
+          "Hva gjorde det lettere å klare å fange noen?",
+          "Hvordan var det å stå alene foran?"
         ],
         "tips": [
-          "Sørg for at barna vet hvem de skal løpe med og hvilken side de skal ta"
+          "Sørg for at barna vet hvem de skal løpe med og hvilken side de skal ta."
         ],
         "extra": []
       }
@@ -723,7 +729,7 @@
       "title": "Legobygging med bøker",
       "time": "15",
       "location": "Inne",
-      "tools": "Bøker, Klosser",
+      "tools": "Bøker",
       "groupsize": "4–5",
       "learning_goal": "Beskrive posisjonssystemet ved hjelp av ulike representasjonar",
       "content": {
@@ -732,8 +738,8 @@
         ],
         "main": [
           "Del klassen i grupper på 4–5 elever.",
-          "Læreren gir hvert lag et tall, f.eks.",
-          "Én elev fra hver gruppe henter bøker/klosser.",
+          "Læreren gir hvert lag et tall, for eksempel 356.",
+          "Én elev fra hver gruppe henter noen bøker.",
           "Gruppene stabler først 3 bøker i hundrerplassen, deretter 5 i tierplassen, og til slutt 6 i enerplassen.",
           "Gjenta med nye tall og bytt på hvem som henter og stabler."
         ],
@@ -741,12 +747,11 @@
           "En gruppe får tallet 241 og stabler 2 bøker i hundrerfeltet, 4 i tierfeltet og 1 i enerfeltet."
         ],
         "reflection": [
-          "Hva skjer med tallet hvis du flytter én bok fra ener",
-          "til tierplassen?",
+          "Hva skjer med tallet hvis du flytter én bok fra ener til tierplassen?",
           "Hvordan hjalp stablingen deg å forstå verdien til hvert siffer?"
         ],
         "tips": [
-          "Bruk ulike farger på bøkene for hver posisjon hvis mulig. La elevene skrive tallene ved siden av og diskutere hvilken plass som har størst verdi."
+          "La elevene skrive tallene ved siden av og diskutere hvilken plass som har størst verdi."
         ],
         "extra": []
       }
@@ -756,7 +761,7 @@
       "title": "Shopping!",
       "time": "45",
       "location": "Inne",
-      "tools": "Papirpenger, Prislapper, Konkreter",
+      "tools": "Papirpenger, papirvarer",
       "groupsize": "Alle",
       "learning_goal": "Beskrive posisjonssystemet ved hjelp av ulike representasjonar",
       "content": {
@@ -764,14 +769,15 @@
           "I denne aktiviteten skal elevene bruke lekepenger for å utforske pengenes verdi og plassverdisystemet gjennom praktisk regning."
         ],
         "main": [
-          "Del ut 500 kr i papirpenger til hver elev.",
-          "Forklar at de skal på shopping og vise fram varene og prisene.",
-          "Elevene går rundt til ulike “butikker” og kjøper varer ved å bruke riktige pengelapper.",
+          "Del ut 300 kr i papirpenger til hver elev.",
+          "Forklar at de skal på shopping og vis fram varene og prisene.",
+          "Læreren er \"butikken\", og elevene er kundene.",
+          "Elevene går på rundgang til “butikken” og kjøper varer ved å bruke riktige pengelapper.",
           "De må selv holde oversikt over hvor mye de bruker og hva de har igjen.",
-          "Etterpå samtaler klassen om erfaringene og hvordan de regnet."
+          "Etterpå snakker klassen om erfaringene og hvordan de regnet."
         ],
         "examples": [
-          "En elev kjøper en burger (50 kr), en badeball (20 kr) og en kjole (150 kr), og regner at de har brukt 220 kr og har 280 kr igjen."
+          "En elev kjøper en burger (50 kr), en badeball (20 kr) og en kjole (150 kr), og regner at de har brukt 220 kr og har 80 kr igjen."
         ],
         "reflection": [
           "Hvordan visste du hvilke sedler du skulle bruke?",
@@ -779,9 +785,7 @@
           "Hva lærte du om verdien til pengene?"
         ],
         "tips": [
-          "Bruk ekte objekter for økt realisme. Juster prisene etter nivå. Oppfordre elevene til å finne flere måter å betale på – f.eks. to 50",
-          "lapper i stedet for én 100",
-          "lapp."
+          "Oppfordre elevene til å finne flere måter å betale på, f.eks. to 50-lapper i stedet for én 100-lapp."
         ],
         "extra": [
           "printOuts/A0502_penger.png",
@@ -805,7 +809,7 @@
       "time": "15",
       "location": "Ute",
       "tools": "Erteposer, Kritt",
-      "groupsize": "4-5",
+      "groupsize": "1-2",
       "learning_goal": "Beskrive posisjonssystemet ved hjelp av ulike representasjonar",
       "content": {
         "introduction": [
@@ -819,14 +823,14 @@
           "Repeter med nye runder og bytt på hvem som kaster først."
         ],
         "examples": [
-          "En elev treffer 100, 10 og 1 – og regner ut poengsummen som 111."
+          "En elev treffer 100, 10 og 1, og regner ut poengsummen som 111."
         ],
         "reflection": [
           "Hvordan visste du hvor mye poeng du fikk totalt?",
           "Hva betyr plasseringen til hvert treff for verdien av tallet?"
         ],
         "tips": [
-          "Tegn poengverdiene tydelig i sirklene. La elevene samarbeide to og to og hjelpe hverandre med å regne. Varier plasseringen for å gjøre det mer utfordrende."
+          "Tegn poengverdiene tydelig i sirklene. La elevene samarbeide to og to og hjelpe hverandre med å regne."
         ],
         "extra": []
       }
@@ -844,9 +848,9 @@
           "I denne aktiviteten skal elevene bruke rytme og klapping for å representere og forstå posisjonssystemet."
         ],
         "main": [
-          "Forklar at taktene representerer posisjoner i et tall (f.eks. hundrer, tiere, enere).",
+          "Forklar at taktene representerer posisjoner i et tall.",
           "Elevene velger eller trekker et tall.",
-          "De skal lage en rytme med klapping som representerer tallet (f.eks. tre klapp i hundrer, to i tiere, én i enere for tallet 321).",
+          "De skal lage en rytme med klapping som representerer tallet (f.eks. tre klapp for hundreplassen, to for tierplassen, én for enerplassen for tallet 321).",
           "Partneren lytter og prøver å gjette hvilket tall rytmen representerer.",
           "Bytt roller."
         ],
@@ -855,11 +859,10 @@
         ],
         "reflection": [
           "Hvordan hjalp rytmen deg å forstå hvilket tall det var?",
-          "Hva skjer om du bytter rekkefølgen på klappene?"
+          "Hva skjer om du bytter rekkefølgen på klappene?",
+          "Hvordan påvirker rekkefølgen verdien av tallet?"
         ],
-        "tips": [
-          "Bruk gjerne trommestikker eller bordoverflate for variasjon. Start med lave tall og øk vanskelighetsgrad. Snakk om hvordan rekkefølgen påvirker verdien."
-        ],
+        "tips": ["Oppfordre til å endre rytmen/bevegelse for hver plassverdi."],
         "extra": []
       }
     },
