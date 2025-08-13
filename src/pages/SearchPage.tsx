@@ -2,12 +2,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ActivitySearch from "../components/ActivitySearch";
-import Breadcrumb from "../components/Breadcrumb";
-import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 import { useNavigate } from "react-router-dom";
 
 const SearchPage: React.FC = () => {
-  const breadcrumbs = useBreadcrumbs();
   const navigate = useNavigate();
 
   return (
@@ -23,8 +20,6 @@ const SearchPage: React.FC = () => {
           ×
         </button>
         <div className="container mx-auto px-4 py-8">
-          <Breadcrumb items={breadcrumbs} className="mb-6" />
-
           <div className="max-w-2xl mx-auto">
             <h1 className="text-3xl font-bold text-center mb-2">
               Søk etter aktiviteter
