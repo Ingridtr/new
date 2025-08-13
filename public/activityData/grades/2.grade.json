@@ -984,10 +984,10 @@
     },
     {
       "id": "A0603",
-      "title": "Hjelp Donald Duck med å finne adressen til bestemor",
+      "title": "Donald duck på eventyr!",
       "time": "45",
       "location": "Ute",
-      "tools": "Oppgavekort, Ark, Skrivesaker",
+      "tools": "Gåter, Ark, Skrivesaker",
       "groupsize": "4-5",
       "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
       "content": {
@@ -1018,22 +1018,22 @@
     },
     {
       "id": "A0604",
-      "title": "Utforskning av sanser",
+      "title": "Partesten!",
       "time": "15",
       "location": "Ute",
-      "tools": "Kritt, Tøystykke",
+      "tools": "Kritt, Bind for øynene",
       "groupsize": "2",
       "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene erfare en tallinje og tallrekkefølge gjennom samarbeid der den ene leder den andre."
+          "I denne aktiviteten skal elevene erfare en tallinje og tallrekkefølge gjennom samarbeid der den ene leder den andre som har bind for øynene."
         ],
         "main": [
-          "Del elevene i par.",
+          "Del klassen inn i par.",
           "Den ene får bind for øynene, den andre er ledsager.",
-          "Start på et vilkårlig punkt og gå sammen oppover en tenkt tallinje til tallet",
+          "Start på et vilkårlig punkt og gå sammen oppover en tenkt tallinje til tallet ledsageren har bestemt.",
           "Ledsageren signaliserer uten ord når de skal stoppe og hvilket tall de har nådd (f.eks. trykk i hånden).",
-          "Den med bind for øynene tegner en strek og skriver tallet.",
+          "Den med bind for øynene tegner en strek og skriver tallet (antall trykk i hånden).",
           "Fortsett steg for steg til de har nådd tallet",
           "Bytt roller."
         ],
@@ -1045,25 +1045,26 @@
           "Hvordan hjelper det å bruke kroppen til å forstå tallinje?"
         ],
         "tips": [
-          "Be elevene bruke jevne skritt og snakk om hva som skjer hvis avstanden varierer. Diskuter ulike måter å formidle tall nonverbalt på."
+          "Be elevene bruke jevne skritt og snakk om hva som skjer hvis avstanden varierer. Diskuter ulike måter å formidle tall nonverbalt på i forkant av leken."
         ],
         "extra": []
       }
     },
     {
       "id": "A0605",
-      "title": "Hoppe paradis",
+      "title": "Hoppe paradis!",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt, Stein",
-      "groupsize": "Alle",
+      "groupsize": "4-5",
       "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bruke kropp og bevegelse for å visualisere tallinjen og utforske tallrekkefølge gjennom lek."
+          "I denne aktiviteten skal elevene hoppe den kjente leken paradis for å visualisere tallinjen og utforske tallrekkefølge gjennom lek."
         ],
         "main": [
-          "Tegn paradismønsteret (Vedlagt finner man bilde av mønsteret).",
+          "Klassen blir delt inn i grupper på 4-5.",
+          "Hver gruppe tegner et paradis-mønster på bakken med kritt.",
           "Hver rute representerer et tall i stigende rekkefølge.",
           "Første spiller kaster en stein i rute",
           "Spilleren kan bare ha ett bein i hver rute, så eleven hinker  gjennom rutene i rekkefølge, men hopper over ruten med steinen.",
@@ -1095,36 +1096,36 @@
       "learning_goal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene øve på å legge til og trekke fra ved å samle og holde oversikt over poeng i en variant av leken \"Rødt og grønt lys\"."
+          "I denne aktiviteten skal elevene leke en variant av rødt og grønt lys. Elevene starter med 10 poeng og mister ett poeng for hver gang de blir tatt."
         ],
         "main": [
-          "Læreren står i enden av banen og vender ryggen til.",
-          "Elevene står på en startstrek.",
-          "Når læreren roper “Grønt lys!”, kan elevene bevege seg framover og får f.eks. +2 poeng.",
-          "Når læreren roper “Rødt lys!”, må elevene stå stille. Beveger noen seg, får de –1 poeng.",
-          "Elevene må hele tiden holde oversikt over sin egen poengsum.",
-          "Leken avsluttes når noen når mållinjen.",
-          "På slutten regner elevene ut totalsummen sin."
+          "Elevene steller seg på en felles startlinje.",
+          "Én elev står på andre siden av området med ryggen til gruppen og roper: “1,2,3 Rødt og grønt lys!”",
+          "Alle elevene beveger seg fremover imens eleven sier regla.",
+          "Når /\"1,2,3, Rødt og grønt lys/\" er sagt, snur eleven seg, og ser på resten av klassen.",
+          "Alle elevene må da stå stille, for hvis de beveger seg så blir de tatt.",
+          "Alle starter med 10 poeng. Hvis en elev blir “tatt” i bevegelse, mister de 1 poeng og må gå tilbake til startlinjen.",
+          "Målet med spillet er å ta på ryggen til den som står på andre siden, uten å bli tatt.",
+          "Når én elev har vunnet, må alle elevene regne ut hvor mange poeng de står igjen med."
         ],
         "examples": [
-          "En elev får +2, +2, –1 og +2 poeng i løpet av leken og regner ut totalen: 2 + 2 – 1 + 2 = 5 poeng."
+          "En elev blir bett om å gå tilbake til startlinjen 3 ganger, og har derfor 7 poeng igjen."
         ],
         "reflection": [
           "Hvordan holdt du oversikt over poengene dine?",
           "Hvordan brukte du hoderegning for å finne totalsummen?"
         ],
         "tips": [
-          "Bruk fingersymboler eller farger for “grønt” og “rødt” hvis det hjelper. Gi variasjoner i poeng for ekstra utfordring. La elevene føre poeng med steiner eller ark hvis det er vanskelig å huske."
         ],
         "extra": []
       }
     },
     {
       "id": "A0702",
-      "title": "Enspretten - med en addisjons- og subtraksjonsvri",
+      "title": "Enspretten!",
       "time": "15",
       "location": "Ute",
-      "tools": "Ball, Papir, Skrivesaker",
+      "tools": "Fotball",
       "groupsize": "4-5",
       "learning_goal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
       "content": {
@@ -1132,30 +1133,28 @@
           "I denne aktiviteten skal elevene bruke kropp og hoderegning for å samle og regne ut poeng i en variant av enspretten."
         ],
         "main": [
-          "Del elevene i små grupper.",
-          "Forklar at hver kroppsdel gir ulik poengsum (f.eks. hånd = -1, lår = +1, fot = +2).",
-          "Elevene skal holde ballen i spill så lenge de klarer – én poenggivende berøring per gang.",
-          "To–tre elever fører poeng og regner sammen totalen underveis.",
-          "Bytt roller etter en stund slik at alle får spille og telle.",
-          "Etter runden skal gruppene legge sammen poengene og diskutere hvilke kombinasjoner som ga høyest sum."
+          "Del elevene i grupper på 4-5.",
+          "Forklar at de skal spille ensprettet og telle hvor lenge de klarer å holde ballen i spill.",
+          "Hver berøring gir poeng, unntatt henda som gir ett minuspoeng.",
+          "De kan holde på med aktiviteten i 7 minutter.", 
+          "Etter runden kan gruppene sammenlikne med de andre gruppene."
         ],
         "examples": [
-          "En elev bruker hånden (–1), en annen låret (+1), og en tredje foten (+2). Poeng: –1 + 1 + 2 = 2."
+          "En elev bruker hånden (–1), en annen låret (+1), og en tredje foten (+1). Poeng: –1 + 1 + 1 = 1."
         ],
         "reflection": [
-          "Hvilke kroppsdeler ga flest poeng?",
-          "Hvordan regnet dere ut totalsummen?",
-          "Hvordan påvirket poengsystemet måten dere spilte på?"
+          "Hvordan regnet dere ut totalsummen?"
+
         ],
         "tips": [
-          "Tilpass poengsystemet etter nivå. La elevene selv finne på poengverdier og diskutere hvilke strategier som gir høy score. Introduser begreper som “differanse”, “sum” og “kombinasjon”."
+          "Tilpass poengsystemet etter nivå. La elevene selv finne på poengverdier og diskutere hvilke strategier som gir høy score."
         ],
         "extra": []
       }
     },
     {
       "id": "A0703",
-      "title": "Minus og pluss",
+      "title": "Reven og Gåsa",
       "time": "15",
       "location": "Ute",
       "tools": "Ingen",
@@ -1163,12 +1162,13 @@
       "learning_goal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene erfare forskjellen på addisjon og subtraksjon gjennom bevegelse og samspill."
+          "I denne aktiviteten skal elevene erfare forskjellen på addisjon og subtraksjon gjennom en variant av leken Reven og Gåsa."
         ],
         "main": [
           "Elevene står i en sirkel og holder hender.",
+          "Dette blir en slags portal for reven (minus) og gåsa (pluss) som skal løpe imellom.",
           "Velg én elev som “pluss” og én som “minus”.",
-          "Pluss og minus løper innenfor sirkelen – minus prøver å ta pluss.",
+          "Pluss og minus løper innenfor sirkelen. Minus prøver å ta pluss.",
           "De andre elevene kan hjelpe pluss ved å holde opp hendene og lage åpninger slik at pluss kan løpe ut og inn av sirkelen.",
           "Minus kan også følge, men må finne egne åpninger.",
           "Når pluss blir tatt, byttes rollene og nye elever prøver."
@@ -1192,67 +1192,69 @@
       "title": "Høl i hatten",
       "time": "15",
       "location": "Ute",
-      "tools": "Basketball",
+      "tools": "Ball som spretter",
       "groupsize": "5-6",
       "learning_goal": "utforske addisjon og subtraksjon og bruke dette til å formulere og løyse problem frå leik og eigen kvardag",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene trene på tallforståelse, addisjon og subtraksjon ved å løse ledetråder og handle raskt i lek."
+          "I denne aktiviteten skal elevene være hekser og prøve å gjette tallet som trollmannen tenker på."
         ],
         "main": [
           "Del klassen i mindre grupper.",
-          "I hver gruppe velges én trollmann som tenker på et tall og holder basketballen.",
+          "I hver gruppe velges én trollmann som tenker på et tall og holder ballen.",
           "De andre er hekser og gjetter tallet, én og én.",
-          "Trollmannen gir hint underveis, f.eks. “Større enn 5 og mindre enn 15”.",
+          "Trollmannen gir hint underveis, f.eks. “Tallet er mellom 1-20”, “Det er større enn 10” osv.",
           "Når noen gjetter riktig, sier ikke trollmannen noe før alle i runden har gjettet.",
-          "Da roper trollmannen “Høl i hatten på [navn]!” og spretter ballen i bakken.",
+          "Da roper trollmannen “Høl i hatten på [navn som gjettet riktig]!” og spretter ballen i bakken.",
           "Trollmannen løper bort, mens den som gjettet riktig henter ballen, roper “stopp”, tar 3 skritt og prøver å kaste ballen gjennom armringen til trollmannen.",
           "Bytt roller og spill igjen."
         ],
         "examples": [
-          "En elev tenker på tallet",
-          "Når en heks gjetter 10, sier trollmannen: “Det er større enn 10 og mindre enn 15.” Til slutt gjetter noen 12 og får prøve å treffe."
+          "Trollmannen tenker på tallet 12.",
+          "Når flere hekser prøver å gjette men ikke får det til, sier trollmannen: “Det er større enn 10 og mindre enn 15.” Til slutt gjetter Turi 12.",
+          "Runden går slik at alle heksene får gjettet, men når runden er ferdig kaster trollmannen ballen hardt i bakken og roper \"Høl i hatten på Turi!\"",
+          "Turi løper for å hente ballen, roper “stopp” slik at trollmannen skall slutte å rømme. Nå kan Turi ta 3 skritt og prøver å kaste ballen gjennom armringen til trollmannen."
         ],
         "reflection": [
           "Hvordan fant du fram til riktig tall?",
-          "Hvilke hint hjalp deg mest?",
-          "Hva slags regnestykker brukte du for å sjekke mulige tall?"
+          "Hvilke hint hjalp deg mest?"
         ],
         "tips": [
-          "La elevene bruke små kort eller tallinje for å støtte tenkningen. Øv på å formulere presise hint og bruk samtale for å forklare hvordan man tenker seg fram til et tall."
+          "Øv på å formulere presise hint og bruk samtale for å forklare hvordan man tenker seg fram til et tall."
         ],
         "extra": []
       }
     },
+    
     {
       "id": "A0801",
       "title": "Prikken",
       "time": "15",
       "location": "Ute",
-      "tools": "Ball",
+      "tools": "Fotball",
       "groupsize": "Alle",
       "learning_goal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene trene på hoderegning ved å holde oversikt over prikker og vurdere risiko i et spill med tall."
+          "I denne aktiviteten skal elevene trene på hoderegning ved å holde oversikt over prikker man har i fotballspillet prikken."
         ],
         "main": [
           "Alle spillerne stiller seg på en rekke bak en linje. Én elev starter som keeper.",
-          "Førstemann skyter på mål – scorer man, får keeperen en prikk.",
+          "Førstemann skyter på mål- scorer man, får keeperen en prikk.",
           "Bommer man eller keeper redder, må skytteren inn i mål som ny keeper. Keeperen går da bakerst i køen.",
+          "Neste spiller i køen kan skyte når han har fått ballen, så det gjelder å være rask til målet for å redde skuddet.",
           "Hver spiller holder styr på sine egne prikker.",
           "Når en spiller får to prikker, er de ute.",
           "Fortsett til det bare er én spiller igjen – denne vinner."
         ],
         "examples": [
-          "En spiller sier: “Jeg har én prikk – hvis jeg scorer nå, er keeperen ute!” – og velger å ta et hardt skudd."
+          "En spiller sier: “Jeg har én prikk og hvis jeg scorer nå, er keeperen ute!” Eleven velger å ta et hardt skudd, og scorer."
         ],
         "reflection": [
           "Hvordan visste du hvor mange prikker du eller andre hadde?",
           "Hva slags regnestykker brukte du underveis?"
         ],
         "tips": [
-          "La elevene føre prikker med små steiner eller på tavle for å støtte hoderegningen. Diskuter hvordan de tenker når de velger strategi.",
           "Hvis man ikke har tilgang på fotballmål så kan man bruke en vegg."
         ],
         "extra": []
@@ -1268,19 +1270,21 @@
       "learning_goal": "utforske den kommutative og den assosiative egenskapen ved addisjon og bruke dette i hoderegning",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske addisjon gjennom lek ved å bruke tallkombinasjoner for å unngå å bli tatt av haien."
+          "I denne aktiviteten skal elevene utforske addisjon gjennom lek ved å bruke tallkombinasjoner for å unngå å bli tatt av haien i haien kommer."
         ],
         "main": [
-          "Marker øyer på lekeområdet og legg et tall (f.eks. 3, 4, 5, 6) på hver øy.",
+          "Marker øyer på lekeområdet og legg et tall (3, 4, 5, 6) på hver øy.",
+          "I midten kan man tegne en sirkel, det er her haien står og venter.",
           "Forklar at 8 er et \"trygt tall\". Hvis to elever står på øyer hvor tallene summerer seg til 8, kan de løpe sammen og være trygge.",
           "Én elev er hai og står i midten.",
-          "Haien roper “Øy [nummer] ut og svøm!” og de på den øya begynner å bevege seg rundt haien.",
-          "Når haien roper “Haien kommer!”, må de løpe til en ny øy – enten alene, eller sammen med en annen elev slik at deres tall blir",
+          "Haien roper “Øy [nummer] ut og svøm!” og de på den øya begynner å løpe i sirkler rundt haien.",
+          "Når haien roper “Haien kommer!”, må de løpe til en ny øy – enten alene, eller sammen med en annen elev slik at deres tall blir 8.",
+          "Hvis man løper alene, kan haien ta deg. Hvis du løper sammen med en annen, er du trygg.",
           "Blir de tatt, blir de også haier.",
           "Leken gjentas til én fisk står igjen."
         ],
         "examples": [
-          "En elev står på øy 3 og finner en elev fra øy",
+          "En elev står på øy 3 og finner en elev fra øy 5. De løper sammen og sier: “Vi er trygge fordi 3 + 5 = 8.”",
           "Sammen løper de over som en trygg duo fordi 3 + 5 = 8."
         ],
         "reflection": [
@@ -1312,19 +1316,19 @@
           "I denne aktiviteten skal elevene lage og utforske repeterende mønstre gjennom en klappelek."
         ],
         "main": [
-          "Del elevene i par.",
-          "Hvert par lager et klappemønster sammen – de kan finne på sitt eget eller herme etter et annet par.",
+          "Del klassen i par.",
+          "Hvert par lager et klappemønster sammen. De kan finne på sitt eget eller herme etter et annet par.",
           "La dem øve og gjenta mønsteret flere ganger."
         ],
         "examples": [
-          "Et par klapper: egne hender – partnerens hender – knær – partnerens hender – gjentas."
+          "Et par klapper: egne hender, partnerens hender, knær, partnerens hender. Dette gjentas."
         ],
         "reflection": [
           "Hvordan visste du hva som kom etter i mønsteret?",
           "Hva gjorde mønsteret enkelt eller vanskelig å huske?"
         ],
         "tips": [
-          "Oppmuntre til kreativitet og samarbeid. Spør gjerne: \"Hva skjer etter dette klappet?\" for å styrke bevisstheten om mønster."
+          "Spør gjerne: \"Hva skjer etter dette klappet?\" for å styrke bevisstheten om mønster."
         ],
         "extra": []
       }
@@ -1343,8 +1347,8 @@
         ],
         "main": [
           "Del elevene i to rekker som stiller seg etter hverandre nær en vegg.",
-          "Førstemann i hver rekke kaster en tennisball på veggen og utfører et selvvalgt mønster (for eksempel hoppe over ballen når den spretter tilbake, klappe før man tar den, snurre rundt, etc.).",
-          "Alle andre i rekka skal gjenta akkurat samme mønster.",
+          "Førstemann i hver rekke kaster en tennisball på veggen og utfører et selvvalgt mønster (for eksempel hoppe over ballen når den spretter tilbake, klappe før man tar den, snurre rundt osv.).",
+          "Alle andre i rekken skal gjenta akkurat samme mønster.",
           "Når alle har utført mønsteret, går personen foran bakerst i rekka, og ny person bestemmer nytt mønster.",
           "Fortsett til alle har fått prøve."
         ],
@@ -1371,19 +1375,20 @@
       "learning_goal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene få en kroppslig forståelse av omkrets ved å bevege seg rundt ulike geometriske figurer."
+          "I denne aktiviteten skal elevene få en kroppslig forståelse av omkrets ved å bevege seg rundt ulike geometriske figurer i leken \"slå på ring\"."
         ],
         "main": [
-          "Del klassen inn i grupper og la dem stille seg opp i form av ulike figurer: sirkel, trekant, firkant, rektangel.",
+          "Klassen steller seg i en formasjon, for eksempel: sirkel, trekant, firkant, rektangel. Poenget er at man må prøve ihvertfall to av disse formasjonenne for å kunne sammenlikne.",
           "Alle elevene skal synge regla \"Slå på [figur], slå på [figur], slå på hvem du vil, slå på kjæresten din om du vil, er du snill. Den du slår den slår du så hardt, så hardt, så hardt, så hardt.....\" imens en elev løper rundt formen.",
+          "For eksempel: slå på sirkel, slå på sirkel, slå på hvem du vil, slå på kjæresten din om du vil, er du snill. Den du slår den slår du så hardt, så hardt, så hardt...",
           "Eleven som løper plukker seg ut en annen elev som den slår på ryggen.",
           "Da er det første-mann til å nå tilbake til der eleven sto som vinner plassen.",
           "Den som ikke rekker rundt før den andre, må løpe rundt formen igjen.",
-          "Gjenta med nye figurer.",
+          "Gjenta med nye figurerformasjoner, for eksempel kan dere nå prøve trekant.",
           "Etter et par runder samles klassen og reflekterer over hvilke figurer som tok lengst tid å løpe rundt."
         ],
         "examples": [
-          "Elevene former en trekant. De synger regla mens én elev løper rundt. Etter å ha slått en annen på ryggen, løper begge – den som ikke når tilbake først må løpe en runde til."
+          "Elevene former en trekant. De synger regla mens én elev løper rundt. Etter å ha slått en annen på ryggen, løper begge for å ta plassen først. Den som ikke når tilbake først må løpe en runde til."
         ],
         "reflection": [
           "Hvilken figur var raskest å løpe rundt?",
@@ -1393,7 +1398,6 @@
           "La elevene selv velge rekkefølge på figurene, og snakk om hvordan lengden rundt påvirker hvor sliten man blir. Marker figurene på bakken med tau eller kjegler hvis det er vanskelig å se formen."
         ],
         "extra": [
-          "printOuts/A1001.png"
         ]
       }
     },
@@ -1407,26 +1411,27 @@
       "learning_goal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene øve på å kjenne igjen og sortere geometriske figurer gjennom leken \"Alle mann av hus\""
+          "I denne aktiviteten skal elevene øve på å kjenne igjen geometriske figurer gjennom leken \"alle mann av hus\""
         ],
         "main": [
-          "Tegn opp ulike geometriske figurer på bakken (f.eks. trekanter, sirkler, kvadrater, rektangler).",
-          "Alle barna starter inne i et område kalt “hus”.",
-          "Én elev står utenfor og roper “Alle mann av hus + [figur]” (f.eks. “Alle mann av hus – trekanter!”).",
+          "Tegn opp fire geometriske figurer formet som en firkant på bakken: en trekant, en sirkel, et kvadrat, et rektangel.",
+          "Hver figur er nå et område kalt “hus”.",
+          "Elevene fordeler seg på på et tilfeldig valgt hus, for eksempel en trekant.",
+          "Én elev står i midten av de fire husene og roper “Alle mann av hus + [figur]” (for eksempel “Alle mann av hus – trekanter!”).",
           "Barna som er i huset formet som en trekant må da løpe ut og finne et nytt hus med en ny form.",
           "Den som roper, prøver å ta så mange som mulig mens de løper.",
           "De som blir tatt, hjelper til i neste runde.",
           "Leken fortsetter til alle er tatt eller alle har vært ute."
         ],
         "examples": [
-          "Læreren roper “Alle mann av hus – sirkler!” og barna som er i huset formet som en sirkel må løpe fra sitt nåværende hus til et annet hus som ikke er formet som en sirkel."
+          "Den i midten roper “Alle mann av hus – sirkler!” og barna som er i huset formet som en sirkel må løpe fra sitt nåværende hus til et annet hus som ikke er formet som en sirkel."
         ],
         "reflection": [
           "Hvordan fant du ut hvilken figur du skulle løpe til?",
           "Hva slags likheter og forskjeller har figurene vi brukte?"
         ],
         "tips": [
-          "Bruk mange figurer og variasjon i størrelse. Etter leken kan elevene sortere figurer etter hjørner, kanter eller symmetri."
+          "Man kan bruke mange figurer, og bruke samme figur flere ganger. Da er det bare flere som løper og det blir mer kaos."
         ],
         "extra": []
       }
@@ -1441,20 +1446,22 @@
       "learning_goal": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske og sortere geometriske figurer gjennom lek."
+          "I denne aktiviteten skal elevene leke en variant av hauk og due, der hauken jakter geometriske figurer, og duebarna er figurene."
         ],
         "main": [
-          "Del ut ett kort med en geometrisk figur til hver elev.",
+          "Del ut ett figurkort til hver elev.",
           "Velg én elev som hauk og én som figur-mor.",
           "Figur-mor står på én side av banen, hauken i midten, og resten på motsatt side.",
           "Figur-mor roper: “Alle mine duer som har [figur], kom hjem til meg!”",
-          "Barna med riktig figur svarer: “Vi tør ikke, for hauken tar oss!” og så: “Men kom allikevel!”",
-          "Barna med den figuren løper over – blir de tatt av hauken, blir de også hauker.",
+          "Barna med riktig figur svarer: “Vi tør ikke, for hauken tar oss!” og så duemor: “Men kom allikevel!”",
+          "Da må barna med den figuren prøve å løpe over til duemor  – blir de tatt av hauken, blir de også hauker.",
           "Fortsett til alle er tatt."
         ],
         "examples": [
-          "Figur",
-          "mor roper: “Alle som har trekanter, kom hjem!” og barna med trekantkort løper mens hauken prøver å fange dem."
+          "Figur-mor roper: “Alle som har trekanter, kom hjem!”",
+           "Barna med trekantkort svarer: 'Vi tør ikke, for hauken tar oss!'",
+           "Duemor svarer: 'Men kom allikevel!'",
+           "Da løper trekantbarna mens hauken prøver å fange dem."
         ],
         "reflection": [
           "Hvordan visste du hvilken figur du hadde?",
@@ -1480,13 +1487,13 @@
       "learning_goal": "måle og sammenligne størrelser som gjelder lengde og areal, ved hjelp av ikke-standardiserte og standardiserte måleenheter, beskrive hvordan og samtale om resultatene",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske måling av lengde ved hjelp av ikke",
-          "standardiserte måleenheter."
+          "I denne aktiviteten skal elevene utforske måling av lengde ved hjelp av ikke-standardiserte måleenheter."
         ],
         "main": [
-          "Del elevene i par.",
+          "Del klassen inn i par.",
           "Hver elev hopper så langt de klarer fra en startlinje.",
-          "Den andre i paret måler hoppet med skritt og teller antall skritt.",
+          "Etter hoppet kommer skal den andre i paret målet lengden ved å bruke sine egne skritt.",
+          "Når det har blitt målt, skal de skrive ned lengden i skritt på et ark.",
           "Bytt roller.",
           "Elevene kan ta flere hopp og legge sammen lengdene."
         ],
@@ -1513,20 +1520,22 @@
       "learning_goal": "forklare hvordan man kan beskrive tid ved hjelp av klokke og kalender",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene utforske hvordan tid fungerer, ved å telle baklengs og erfare at tiden \"går nedover\"."
+          "I denne aktiviteten skal elevene utforske hvordan tid fungerer, ved å telle baklengs og erfare at tiden går nedover."
         ],
         "main": [
           "En elev velges som teller og lukker øynene.",
-          "Telleren roper “15 gjelder!” og teller baklengs fra 15 til",
-          "De andre elevene tar på telleren og løper for å gjemme seg.",
+          "Telleren roper “15 gjelder!” og teller baklengs fra 15 til 0.",
+          "I løpet av denne tiden, skal alle løpe innom telleren og ta han på ryggen for å vise at de er med.",
+          "Elevene skal, etter å ha tatt på telleren, løpe og gjemme seg igjen.",
           "Når telleren når 0, åpner han øynene, tar to skritt og prøver å finne så mange som mulig.",
           "De som blir funnet, er ute.",
-          "Telleren teller baklengs fra ett lavere tall neste runde.",
+          "Telleren teller baklengs fra ett lavere tall neste runde. Nå er det 14 som gjelder.",
           "Slik fortsetter leken til alle er funnet.",
           "Den som blir funnet sist, er neste teller."
         ],
         "examples": [
-          "Telleren roper “15 gjelder!” og begynner å telle – de andre løper og gjemmer seg, og runden repeteres med nedtelling fra 14 neste gang."
+          "Telleren roper “15 gjelder!” og begynner å telle.",
+          "De andre løper og gjemmer seg, og runden repeteres med nedtelling fra 14 neste gang."
         ],
         "reflection": [
           "Hvordan opplevde du å telle nedover i leken?",
@@ -1548,15 +1557,15 @@
       "learning_goal": "forklare hvordan man kan beskrive tid ved hjelp av klokke og kalender",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal læreren si en bafaling som handler om tid, også skal elevene gjøre den tingen de oftest gjør på det tidspunktet."
+          "I denne aktiviteten skal læreren si en befaling som handler om tid, også skal elevene gjøre den tingen de pleier å gjøre på det tidspunktet."
         ],
         "main": [
-          "Læreren sier Kongen befaler med et tidspunkt, for eksempel: \"Kongen befaler at nå er klokken 7!\"",
+          "Læreren sier kongen befaler med et tidspunkt, for eksempel: \"Kongen befaler: klokken er 7!\"",
           "Elevene skal prøve å mime hva de ville gjort på det tidspunktet."
         ],
         "examples": [
-          "Læreren sier et klokkeslett, f.eks. “Klokken er 07:00”. Noen elever legger seg ned for å sove, andre spiser, noen pusser tennene.",
-          "Lærer sier: “Klokken er 12:00” → Elevene later som de spiser lunsj."
+          "Læreren sier et klokkeslett, f.eks. “Kongen befaler: klokken er 07:00!”  → Noen elever legger seg ned for å sove, andre spiser, noen pusser tennene.",
+          "Lærer sier: “Kongen befaler: klokken er 12:00” → Elevene later som de spiser lunsj."
         ],
         "reflection": [
           "Hvordan kan klokkeslett hjelpe oss med å planlegge dagen?",
@@ -1564,13 +1573,14 @@
           "Hvordan hjelper kalender og klokke oss i hverdagen?"
         ],
         "tips": [
-          "Bruk bilder av klokkeslett som støtte.",
-          "Still oppfølgingsspørsmål: “Hva gjør du før/etter dette?”",
+          "For visuell støtte kan man tegne en klokke på tavle, og bruke den til å vise ulike klokkeslett.",
           "Varier med tider på både dag og kveld."
         ],
         "extra": []
       }
     },
+
+    
     {
       "id": "A1301",
       "title": "Strikk-leken",
@@ -1581,12 +1591,12 @@
       "learning_goal": "lage og følge regler og trinnvise instruksjoner i lek og spill",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene øve på å følge regler og instruksjoner ved å utføre en kjent hoppelek."
+          "I denne aktiviteten skal elevene bruke rytme og mønster for å hoppe samtidig i en strikk."
         ],
         "main": [
           "Del klassen i grupper på fire.",
-          "To elever står i hver sin ende og holder strikken med beina.",
-          "De to andre elevene hopper etter en fast regle.",
+          "To elever står i hver sin ende og holder strikken i strekk med beina. Strikken blir hinderet som det andre paret skal hoppe over.",
+          "De to andre elevene hopper etter en fast regle som de bestemmer selv.",
           "Reglene kan være for eksempel “inn, ut, hopp, kryss” og skal følges nøyaktig.",
           "Bytt roller etter noen runder."
         ],
@@ -1613,17 +1623,17 @@
       "learning_goal": "lage og følge regler og trinnvise instruksjoner i lek og spill",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene øve på å følge regler og instruksjoner gjennom lek."
+          "I denne aktiviteten skal elevene danse til musikken, men når læreren stopper musikken, skal alle fryse."
         ],
         "main": [
           "Læreren setter på en sang.",
           "Elevene danser fritt til musikken.",
           "Når læreren stopper musikken, skal alle fryse og stå helt stille.",
-          "Dersom alle står stille, starter musikken igjen.",
+          "Dersom alle står stille, starter musikken igjen. Hvis noen beveger seg så er de ute.",
           "Gjenta i flere runder."
         ],
         "examples": [
-          "Læreren setter på en poplåt og stopper brått – elevene fryser og står som statuer."
+          "Læreren setter på en poplåt og stopper musikken brått. Elevene fryser og står som statuer."
         ],
         "reflection": [
           "Hvordan opplevde du å følge reglene i denne leken?",
