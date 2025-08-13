@@ -916,7 +916,7 @@
     },
     {
       "id": "A0601",
-      "title": "Fyll tallinja med konkreter",
+      "title": "Tallheltene vs. tallskurkene!",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt",
@@ -930,9 +930,9 @@
           "Læreren tegner en tallinje på bakken (f.eks. 0–10).",
           "Elevene jobber sammen for å finne konkreter fra naturen som matcher tallene på linja – 2 steiner på 2, 4 kongler på 4 osv.",
           "Flere gjenstandstyper kan kombineres for samme tall.",
-          "Når hele tallinja er fylt opp, får noen elever i hemmelighet rollen som tallskurker.",
-          "Tallskurker fjerner stille gjenstander.",
-          "Tallheltene må oppdage endringen og rette opp – finne ut hvilket tall som er feil, og fylle opp igjen."
+          "Når hele tallinja er fylt opp, får noen elever i hemmelighet rollen som tallskurker (2-3 stykker).",
+          "Tallskurker løper og fjerner gjenstander.",
+          "Tallheltene må oppdage endringen og rette opp. Finne ut hvilket tall som er feil, og fylle opp igjen."
         ],
         "examples": [
           "Elevene legger 5 kongler på tallet",
@@ -950,7 +950,7 @@
     },
     {
       "id": "A0602",
-      "title": "Hopp deg gjennom tallinja",
+      "title": "Froskehopp!",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt",
@@ -958,19 +958,20 @@
       "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bruke kroppen til å utforske en tallinje og regning gjennom hopping som frosker."
+          "I denne aktiviteten skal elevene bruke kroppen til å utforske en tallinje gjennom hopping som frosker."
         ],
         "main": [
-          "Læreren tegner en tallinje på bakken, fra 0 og oppover.",
-          "Hver elev later som de er en frosk og starter på",
-          "Elevene hopper framover og ser hvilket tall de lander på.",
+          "Del klassen inn i par.",
+          "Parene tegner tallinjen på bakken (f.eks. 0–10) Her kan det være greit at den er litt stor. Hjelp elevene med å ha ca. like mye avstand mellom hvert tall.",
+          "Hver elev later som de er en frosk og starter på 0.",
+          "Elevene bytter på å hoppe framover og ser hvilket tall de lander på.",
           "De kan prøve å hoppe fram og tilbake, legge sammen hopp, eller samarbeide i grupper og telle hvor langt de hopper til sammen.",
           "Læreren stiller spørsmål underveis for å hjelpe elevene å reflektere over tallene."
         ],
         "examples": [
-          "En elev hopper tre ganger og lander på",
-          "En annen hopper 4 og lander på",
-          "Sammen har de hoppet 14."
+          "En elev hopper tre ganger og lander på 6",
+          "En annen hopper 4 og lander på 10",
+          "Sammen har de hoppet 16."
         ],
         "reflection": [
           "Hvordan visste du hvilket tall du landet på?",
@@ -987,33 +988,64 @@
       "title": "Donald duck på eventyr!",
       "time": "45",
       "location": "Ute",
-      "tools": "Gåter, Ark, Skrivesaker",
+      "tools": "Gåter",
       "groupsize": "4-5",
       "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene bruke tallinjen aktivt for å løse oppgaver og plassere tall i riktig rekkefølge."
+          "Donald Duck har glemt husnumrene til vennene sine! Den eneste måten å finne fram er å følge en magisk tallinje. For hvert riktig svar på en gåte, får gruppene beskjed om hvor mange steg de skal gå frem eller tilbake. Når alle oppgavene er løst, ender hver gruppe opp på et husnummer som er til en av vennene hans."
         ],
         "main": [
-          "Del elevene i små grupper og gi hver gruppe en oppdragsløype med gåter og aktiviteter.",
-          "Fortell at de skal hjelpe Donald Duck med å finne bestemors adresse ved å følge en rute på en tallinje.",
-          "Underveis må de løse oppgaver (f.eks. “Hopp 3 ganger fremover”, “Samle 5 kongler”) og føre tallene de kommer til på sin egen tallinje.",
-          "Etter hver oppgave tegner de streken for hvor langt de har kommet og skriver riktig tall.",
-          "Når alle har fullført ruten, sammenlignes gruppenes tallinjer og adresser."
+          "Lag en stor tallinje på bakken som har plass til at alle elevene kan være på tallinjen. Merk tallene tydelig fra 0-10.",
+          "Del klassen i små grupper. Gi hver gruppe et startpunkt på tallinja (kan være 0, 2, 5 osv.).",
+          "Gi gåtene én og én. Når gruppa svarer riktig, får de en instruksjon som “Gå 3 steg fram” eller “Hopp 2 steg tilbake”.",
+          "Etter alle gruppene har fått 3 gåter hver, sjekker de hvor gruppene havnet, og dette er husnummeret."
         ],
         "examples": [
-          "En gruppe hopper 3 steg frem (til 3), samler 4 kongler (+4 = 7), og avslutter med å løpe 2 tilbake (–2 = 5). De avslutter på 5 og skriver det på tallinjen sin."
+          "Gruppe 2 starter på tallet 2 på tallinja. Første oppgave: “Donald har 2 epler og finner 3 til.” Elevene svarer 5, og læreren sier: “Gå fram 3 steg.” De hopper til tallet 5.",
+          "Neste oppgave: “Donald ser 4 ender, 2 svømmer bort.” Elevene svarer 2, og får beskjed: “Gå tilbake 2 steg.” De står nå på 3.",
+          "Siste oppgave: “Donald plukker 4 blomster, mister 1 og finner 5 til.” Svaret er 8, og de går fram 4 steg til 7 som viser seg å være Onkel skrues husnummer."
         ],
         "reflection": [
           "Hvordan brukte dere tallinjen for å løse oppgavene?",
           "Hvordan visste dere hvilket tall dere kom til etter hvert steg?"
         ],
         "tips": [
-          "Bruk kjente karakterer og lag små historier i hver oppgave. La gruppene tegne sin egen tallinje på papir eller med kritt ute. Pass på at alle får samarbeide om både fysisk og skriftlig del."
+          "Elvene kan ha med papir og blyant for å notere svarene sine hvis det er lettere."
         ],
         "extra": [
-          "???? Gåter?"
+          "printOuts/A0603.png"
         ]
+      }
+    },
+    {
+      "id": "A0604",
+      "title": "Pynte tallinja!!",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "Alle",
+      "learning_goal": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke konkrete gjenstander for å fylle ut og kontrollere en tallinje sammen."
+        ],
+        "main": [
+          "Læreren tegner en stor tallinje på bakken (f.eks. 0–10).",
+          "Elevene jobber sammen for å finne konkreter fra naturen som matcher tallene på linja. For eksempel 2 steiner på 2, 4 kongler på 4 osv.",
+          "Flere gjenstandstyper kan kombineres for samme tall.",
+          "Leken er ferdig når hele tallinje er fyllt opp."
+        ],
+        "examples": [
+          "Elevene legger 5 kongler på tallet",
+          "Etter hvert er det bare 3 igjen – tallheltene oppdager det og finner 2 nye for å gjøre det riktig."
+        ],
+        "reflection": [
+          "Hvordan visste dere hvor mange gjenstander som skulle være på hvert tall?"
+        ],
+        "tips": [
+        ],
+        "extra": []
       }
     },
     {
