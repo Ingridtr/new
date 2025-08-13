@@ -1066,9 +1066,7 @@
         "tips": [
           "Tegn tall i rutene for å styrke koblingen til tallinje. Still spørsmål som “Hvilket tall kommer før/etter?”. Tilpass vanskelighetsgrad ved å endre antall ruter."
         ],
-        "extra": [
-          "printOuts/A0605.png"
-        ]
+        "extra": ["printOuts/A0605.png"]
       }
     },
     {
@@ -1384,6 +1382,7 @@
         ],
         "extra": [
         ]
+
       }
     },
     {
