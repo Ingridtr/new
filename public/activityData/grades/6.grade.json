@@ -103,9 +103,32 @@
         "tips": [
           "Her kan man tegne opp tallene på noen papirlapper selv eller få elevene til å gjøre det."
         ],
-        "extra": [
-          "printOuts/E0201.png"
-        ]
+        "extra": ["printOuts/E0201.png"]
+      }
+    },
+    {
+      "id": "E0202",
+      "title": "Rangér meg",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene plassere seg i stigende rekkefølge ut i fra tallet de har fått tildelt. Start i små grupper og deretter avslutt en runde med hele klassen!"
+        ],
+        "main": [
+          "Lag regneuttrykk og tall på ulike lapper. For eksmpel en lapp med 2.8, en lapp med 1 + 3.4, osv. ",
+          "Del elevene i grupper på 5-6.",
+          "Gi hver elev ark med tall eller regnestykker.",
+          "Be elevene sortere seg etter størrelsen på tallene og regneuttrykket.",
+          "Diskuter i plenum "
+        ],
+        "examples": ["1 + 3.4", "0.2 + 0.2", "4.4", "2.8"],
+        "reflection": [],
+        "tips": [],
+        "extra": []
       }
     },
     {
@@ -121,7 +144,6 @@
           "I denne aktiviteten skal elevene fordele steiner langs en reiserute med 5 holdeplasser og bruke brøk, desimaltall og prosent for å forklare valgene sine."
         ],
         "main": [
-  
           "Tegn opp 5 sirkler (holdeplasser) på bakken, og merk dem med tall fra 1 til 5.",
           "Alle gruppene skal finne 10 steiner som de skal reise med og fordele på holdeplassene.",
           "La elevene skrive ned valgene sine i skjemaet.",
@@ -130,7 +152,6 @@
           "Regel 2: Elevene kan fylle opp til full tank på kun en av holdeplassene, men må fortsatt gi fra seg et antall etter tanken er blitt full. For eksempel: dersom gruppen har 7 steiner igjen og velger å fylle, får de 3 steiner ekstra slik at de har 10 steiner. Så gir de fra seg 2 steiner igjen.",
           "Det vil si at elevene hele tiden må være klar over hvor mange steiner de har igjen å fordele.",
           "Mellom hver holdeplass skriver gruppen fordelingen som brøk, prosent og desimaltall inn i skjemaet."
-
         ],
         "examples": [
           "En gruppe la igjen 2 steiner på holdeplass 1",
@@ -154,9 +175,7 @@
           "I denne aktiviteten går antall holdeplasser opp med antall steiner man må fordele.",
           "For å gjøre det vanskeligere kan man øke antall holdeplasser slik at det ikke går opp med antall steiner, og gruppene blir tvunget til å fylle opp én gang. "
         ],
-        "extra": [
-          "printOuts/E0301.png"
-        ]
+        "extra": ["printOuts/E0301.png"]
       }
     },
     {
@@ -224,9 +243,7 @@
         "tips": [
           "Øk vanskelighetsgraden med andre figurerer som parallellogram, trapes, oval"
         ],
-        "extra": [
-
-        ]
+        "extra": []
       }
     },
     {
@@ -241,9 +258,7 @@
         "introduction": [
           "I denne aktiviteten skal læreren være kongen i kongen befaler der elevene skal følge kommandoer som handler om geometriske figurer og deres egenskaper."
         ],
-        "main": [
-          "Læreren er “kongen” og gir kommandoer som elevene må følge."
-        ],
+        "main": ["Læreren er “kongen” og gir kommandoer som elevene må følge."],
         "examples": [
           "2D - former:",
           "Kongen befaler: finn noe som har form som en sirkel!",
@@ -290,9 +305,7 @@
           "På tur tegner de figurene sine i rutenettet, og forsøker å få tre på rad.",
           "Første par som klarer tre på rad vinner."
         ],
-        "examples": [
-          
-        ],
+        "examples": [],
         "reflection": [
           "Hvordan ser vi at to objekter er speilvendte?",
           "Hva betyr det at noe er kongruent?"
@@ -322,9 +335,7 @@
           "Den andre eleven speiler bevegelsen så nøyaktig som mulig.",
           "Etter noen runder, bytter de roller."
         ],
-        "examples": [
-          "Én elev løfter høyre arm, den andre løfter venstre arm."
-        ],
+        "examples": ["Én elev løfter høyre arm, den andre løfter venstre arm."],
         "reflection": [
           "Hva må du tenke på når du speiler noen andres bevegelse?",
           "Hvordan kan vi kjenne igjen symmetri i mønstre og bevegelser?"
@@ -354,7 +365,6 @@
           "Elevene skal måle diameteren med føttene.",
           "Deretter går de rundt sirkelen med skritt og sammenligner omkretsen med målt diameter.",
           "La gruppene utforske at omkretsen er omtrent 3 ganger diameteren ved å bruke formelen Omkrets ≈ Diameter × π."
-
         ],
         "examples": [
           "En gruppe lager en sirkel med 1 meter diameter. Omkretsen skal være ca. 3,14 meter."
@@ -366,6 +376,41 @@
         "tips": [
           "Kan enkelt bytte kritt med hyssing, tau, pinner. Bruk det dere har tilgjengelig!"
         ],
+        "extra": []
+      }
+    },
+    {
+      "id": "E0602",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren komme med påstander om sirkelen, og elevene skal velge den veggen de mener påstanden passer best til."
+        ],
+        "main": [
+          "Forklar at læreren skal si en påstand, og de fire veggene i klasserommet har hvert sitt svar. Læreren kommer til å tildele et svar til hver vegg mellom hvert mattestykke.",
+          "Læreren sier en påstand høyt, f.eks. 'Radius er alltid halvparten av diameteren.'",
+          "Læreren peker på hver vegg og sier tilhørende svar. 'Vegg A: ja | Vegg B: nei | Vegg C: Bare noen ganger | Vegg D: vet ikke'",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig svar. Læreren skal bestemme hvordan de skal gå dit. For eksempel 'Nå skal dere hinke på et bein til riktig vegg'",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye påstander."
+        ],
+        "examples": [
+          "Radius er alltid halvparten av diameteren. ✅",
+          "Omkretsen av en sirkel er alltid 2 × π × radius. ✅",
+          "Diameteren er alltid større enn radius. ✅",
+          "Hvis radiusen er 3 cm, er omkretsen 6 cm. ❌",
+          "Arealet av en sirkel regnes ut med formelen π × radius². ✅",
+          "Alle punktene på en sirkel ligger like langt fra midtpunktet. ✅",
+          "En sirkel har fire hjørner. ❌",
+          "Hvis du øker radiusen, blir arealet mindre. ❌"
+        ],
+        "reflection": [],
+        "tips": [],
         "extra": []
       }
     },
@@ -397,9 +442,7 @@
           "Hva skjer med arealet hvis dere bytter hvem som hopper hvor?",
           "Hvordan kan dere vise dette på en tegning eller med ting?"
         ],
-        "tips": [
-          "La elevene fargelegge rutene i for visuell støtte."
-  ],
+        "tips": ["La elevene fargelegge rutene i for visuell støtte."],
         "extra": []
       }
     },
@@ -416,7 +459,7 @@
           "I denne aktiviteten skal elevene bygge et kvadrat med bruk av gjenstander elevene finner i rommet/ute."
         ],
         "main": [
-          "Del klassen i grupper på 4–5 elever.", 
+          "Del klassen i grupper på 4–5 elever.",
           "Sett på en timer på 2 min.",
           "Be gruppene om å hente valgfrie konkreter og deretter samarbeide om å lage en kube (boks)",
           "Når tiden er ute og kuben er bygget, skal alle gruppene gjette volumet på hverandres kube, uten å bruke enheter."
@@ -497,7 +540,6 @@
           "Lag en firkant med areal 12.",
           "Lag en firkant med omkrets 16.",
 
-
           "Vanskelig:",
           "Lag en firkant med areal 12 og omkrets 16. Svar: firkant med lengde 6 og bredde 2.",
           "Lag en firkant med areal 9 og omkrets 12. Svar: firkant med lengde 3 og bredde 3."
@@ -507,9 +549,7 @@
           "Hvilke figurer hadde minst/størst omkrets med samme areal?",
           "Hva skjer med omkretsen når figuren endrer form, men arealet er likt?"
         ],
-        "tips": [
-          "La elevene lage egne oppgaver for hverandre etter hvert."
-        ],
+        "tips": ["La elevene lage egne oppgaver for hverandre etter hvert."],
         "extra": []
       }
     },
@@ -626,9 +666,7 @@
           "Hva betyr det når det står 2x i en formel?",
           "Hva skjer med bevegelsene om vi bytter x og z?"
         ],
-        "tips": [
-          "Start enkelt og øk vanskelighetsgrad gradvis."
-        ],
+        "tips": ["Start enkelt og øk vanskelighetsgrad gradvis."],
         "extra": []
       }
     },
@@ -662,7 +700,46 @@
           "Hva skjedde da dere traff en hindring?",
           "Hvordan kunne dere gitt færre instruksjoner?"
         ],
-        "tips": ["Her trenger man ikke å rydde klasserommet - det er gøy med hindringer!"],
+        "tips": [
+          "Her trenger man ikke å rydde klasserommet - det er gøy med hindringer!"
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "E1002",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren komme med påstander om programmering, og elevene skal velge den veggen de mener påstanden passer best til."
+        ],
+        "main": [
+          "Forklar at læreren skal si en påstand, og de fire veggene i klasserommet har hvert sitt svar. Læreren kommer til å tildele et svar til hver vegg mellom hvert mattestykke.",
+          "Læreren sier en påstand høyt, f.eks. “En for-løkke kan brukes til å kjøre kode et bestemt antall ganger.”",
+          "Læreren peker på hver vegg og sier tilhørende svar. 'Vegg A: ja | Vegg B: nei | Vegg C: Bare noen ganger | Vegg D: vet ikke'",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig svar. Læreren skal bestemme hvordan de skal gå dit. For eksempel 'Nå skal dere hinke på et bein til riktig vegg'",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye påstander."
+        ],
+        "examples": [
+          "En variabel kan lagre lengden på en side av en trekant. ✅",
+          "En funksjon kan regne ut arealet av et rektangel. ✅",
+          "En variabel kan bare brukes én gang. ❌",
+          "En funksjon kan regne ut omkretsen av en sirkel. ✅",
+          "Variabler kan ikke brukes til å lagre tall. ❌",
+          "En funksjon kan bruke variabler som bredde og høyde for å regne ut arealet. ✅",
+          "Variabler kan ha navn som radius eller diameter. ✅",
+          "En funksjon kan bare regne ut areal, ikke noe annet. ❌",
+          "En variabel kan endre verdi underveis i programmet. ✅",
+          "En funksjon kan tegne en firkant på skjermen hvis vi gir den riktige verdiene. ✅"
+        ],
+        "reflection": [],
+        "tips": [],
         "extra": []
       }
     }
