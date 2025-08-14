@@ -77,6 +77,43 @@
       }
     },
     {
+      "id": "C0103",
+      "title": "Mimeleken!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "utforske, namngi og plassere desimaltal på tallinja",
+      "content": {
+          "introduction": [
+            "I denne aktiviteten skal elevene mime en praktisk situasjon som kan løses med målings- eller delingsdivisjon, mens partneren prøver å gjette situasjonen og løsningen."
+          ],
+          "main": [
+            "Del inn klassen i par.",
+            "Den ene eleven skal finne på en praktisk oppgave som involverer målings- eller delingsdivisjon, f.eks. '8 kaker deles på 4 personer'.",
+            "Eleven mimer situasjonen uten å bruke ord eller skrive.",
+            "Partneren prøver å forstå situasjonen og si både hva den handler om og svaret på regnestykket.",
+            "Når partneren har gjettet riktig, bytter de roller.",
+            "Aktiviteten kan gjentas med ulike eksempler."
+          ],
+          "examples": [
+            "En elev får oppgaven '12 liter saft helles i kanner som rommer 3 liter hver' og later som om han heller saft i flere kanner. Partneren svarer: '4 kanner!'.",
+            "En elev får '15 drops deles likt mellom 5 barn' og mimer å gi drops til hvert barn. Partneren svarer: '3 drops hver!'."
+          ],
+          "reflection": [
+            "Hvilke tegn eller bevegelser gjorde det lett å forstå situasjonen?",
+            "Hvordan kunne du se om det var målingsdivisjon eller delingsdivisjon?",
+            "Hva lærte du om å bruke deling i praktiske situasjoner?"
+          ],
+          "tips": [
+            "Bruk tydelige kroppsspråk og overdriv bevegelsene for å gjøre situasjonen lett å forstå.",
+            "Varier oppgavene slik at noen er målingsdivisjon (hvor mange enheter får plass) og andre er delingsdivisjon (hvor mye får hver).",
+            "Ha noen ekstra oppgaver klare på lapper hvis elevene står fast på idéer."
+          ],
+          "extra": []
+          }
+    },
+    {
       "id": "C0201",
       "title": "Puslespill med divisjon",
       "time": "15",
@@ -238,6 +275,42 @@
       }
     },
     {
+      "id": "C0502",
+      "title": "Mimeleken!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "Modellere situasjonar frå sin eigen kvardag og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene mime en situasjon fra sin egen hverdag, mens partneren prøver å gjette hva situasjonen er og hvordan den kan beskrives eller løses."
+        ],
+        "main": [
+          "Den ene eleven tenker ut en situasjon fra hverdagen som kan beskrives med tall, former, målinger eller enkle regnestykker.",
+          "Eleven mimer situasjonen uten å bruke ord eller skrive.",
+          "Partneren prøver å gjette situasjonen og forklare hvordan den kan forstås eller løses.",
+          "Når partneren har gjettet riktig, bytter de roller.",
+          "Gjenta med flere ulike hverdagssituasjoner."
+        ],
+        "examples": [
+          "En elev later som om han kjøper tre epler i butikken og betaler. Partneren sier: 'Du kjøper epler, og vi kan regne ut hvor mye det koster totalt.'",
+          "En elev mimer at hun måler lengden på et bord med en linjal. Partneren sier: 'Du måler lengden på bordet, kanskje for å finne ut om det passer inn i rommet.'"
+        ],
+        "reflection": [
+          "Hvordan hjalp mimingen deg å se situasjonen for deg?",
+          "Hvordan ville du forklart tenkemåten din i situasjonen du mimet?",
+          "Hva lærte du om å se matematikk i hverdagsaktiviteter?"
+        ],
+        "tips": [
+          "Velg situasjoner som er kjente for alle, for eksempel fra skole, fritid eller hjem.",
+          "Bruk tydelige og store bevegelser for å gjøre situasjonen lett å forstå.",
+          "Oppmuntre elevene til å velge situasjoner som kan beskrives både med ord og med matematikk."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "C0601",
       "title": "Bytt plass!",
       "time": "15",
@@ -302,6 +375,40 @@
           "Hva skjer om du triller en kube på et hjørne? Hvordan kan du beskrive forskjellene på formene?"
         ],
         "tips": [
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0702",
+      "title": "Mimeleken!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene mime en to- eller tredimensjonal figur, mens partneren prøver å gjette hvilken figur det er."
+        ],
+        "main": [
+          "Den ene eleven får (eller velger) en figur, for eksempel en trekant, kube eller sylinder.",
+          "Eleven mimer figurens form ved å vise med armer og kropp hvordan den ser ut.",
+          "Partneren prøver å gjette hvilken figur det er med hvor mange kanter og hjørner.",
+          "Når figuren er gjettet riktig, bytter de roller.",
+          "Gjenta med flere ulike figurer, både 2D og 3D."
+        ],
+        "examples": [
+          "En elev later som hun lager en kube med hendene ved å vise hjørnene og kantene i luften. Partneren sier: 'En kube! 6 kanter, 8 hjørner!'",
+          "En elev lager en trekantform med armene. Partneren sier: 'En trekant! 3 kanter, 3 hjørner!'"
+        ],
+        "reflection": [
+          "Hva gjorde det lett å kjenne igjen figuren som ble mimet?",
+          "Hvordan kan du beskrive forskjellen mellom en 2D-figur og en 3D-figur?",
+          "Hvilke nye begreper om figurer lærte du i dag?"
+        ],
+        "tips": [
+          "Velg både kjente figurer og noen som er litt mer utfordrende."
         ],
         "extra": []
       }
@@ -435,10 +542,48 @@
           "Hvordan kan slike bevegelser og instruksjoner oversettes til et dataspråk?"
         ],
         "tips": [
-          "Varíer vanskelighetsgraden ved å legge til flere hindringer eller la veiviseren bruke flere instruksjoner."
+          "Varier vanskelighetsgraden ved å legge til flere hindringer eller la veiviseren bruke flere instruksjoner."
         ],
         "extra": []
       }
-    }
+    },
+    {
+      "id": "C1002",
+      "title": "Mimeleken!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "lage algoritmer og uttrykke dem ved bruk av variabler, vilkår og løkker",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene lage og mime et mønster, som den andre må gjette og beskrive som en algoritme med variabler, vilkår eller løkker."
+        ],
+        "main": [
+          "Elev A finner på et kort mønster med kroppsbevegelser, for eksempel klapp, tramp, snurr eller hopp. Mønsteret kan gjentas (løkke) eller endres basert på et «vilkår» (for eksempel klapp bare hvis partneren løfter hånden).",
+          "Elev A mimer mønsteret 2–3 ganger.",
+          "Elev B prøver å beskrive mønsteret som en algoritme, og si om det inneholder variabler (ting som kan endres), vilkår (hvis/ellers) eller løkker (gjentakelse).",
+          "Bytt roller og gjenta med nye mønstre.",
+          "Utfordring: Prøv å lage et mønster som kombinerer både en løkke og et vilkår."
+        ],
+        "examples": [
+          "Elev A klapper to ganger og tramper én gang, gjentar dette tre ganger. Elev B sier: «Løkke: gjenta (klapp, klapp, tramp) tre ganger».",
+          "Elev A klapper bare hvis Elev B løfter høyre hånd, ellers tramper han. Elev B sier: «Vilkår: hvis partner løfter hånden, klapp, ellers tramp».",
+          "Elev A lager mønster: hopp, klapp, hopp, klapp, som går om igjen uten stopp. Elev B sier: «Uendelig løkke med to steg: hopp, klapp»."
+        ],
+        "tips": [
+          "Start med enkle mønstre slik at alle forstår konseptet.",
+          "Avtal på forhånd hva som er 'vilkårssignalet', for eksempel løftet hånd eller snu seg.",
+          "Varier kompleksiteten – først bare løkker, deretter legg til vilkår."
+        ],
+        "reflection": [
+          "Hva gjorde det lett å kjenne igjen mønsteret?",
+          "Hvordan kan en mønsterbeskrivelse bli til en algoritme?",
+          "Hvordan kan vi bruke løkker og vilkår til å gjøre mønstre mer spennende?"
+        ],
+        "extra": []
+      }
+  }
+
   ]
 }
