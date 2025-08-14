@@ -67,6 +67,41 @@
       }
     },
     {
+      "id": "F0202",
+      "title": "Tre på rad!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Par",
+      "learning_goal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene vise samme verdi som brøk, desimaltall og prosent på maks 30 sekunder."
+        ],
+        "main": [
+          "Læreren sier en verdi eller situasjon (f.eks. «halvparten», «0,2», «30 av 50»).",
+          "Elevene jobber i par: Én sier brøken, den andre sier desimaltallet, begge sier prosent.",
+          "Bytt roller og gjenta med ny verdi."
+        ],
+        "examples": [
+          "«0,5» → 1/2, 0,5, 50%.",
+          "«30 av 50» → 3/5, 0,6, 60%.",
+          "«12 av 48» → 1/4, 0,25, 25%."
+        ],
+        "reflection": [
+          "- Hvilken representasjon fant du raskest?",
+          "- Hvordan hjelper forenkling av brøk?",
+          "- Når er desimaltall mest praktisk?"
+        ],
+        "tips": [
+          "Gi 10–15 sekunder per runde.",
+          "Velg verdier som lett kan forenkles.",
+          "La noen par demonstrere høyt."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "F0301",
       "title": "Temperatur",
       "time": "15",
@@ -137,6 +172,41 @@
       }
     },
     {
+      "id": "F0303",
+      "title": "Temperatur-tagger’n",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske negative tal i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten gir læreren kommandoer om temperaturendringer, og elevene beveger seg opp og ned en imaginær tallinje for å beskrive temperaturendringen."
+        ],
+        "main": [
+          "Midtlinjen i rommet = 0 °C. Én side er plussgrader, den andre minusgrader.",
+          "La elevene plassere seg hvor de vil i klasserommet i forhold til denne midtlinjen.",
+          "Læreren roper temperaturendringer (f.eks. «ned 3», «opp 5»).",
+          "Elevene tar skritt frem/tilbake langs den imaginære tallinja.",
+          "Etter 3–4 kommandoer roper læreren «rapport!» og noen elever sier slutt-temperaturen som de gjetter utifra hvor de står i forhold til midtlinjen."
+
+        ],
+        "examples": [
+          "Start 0 → ned 3 → opp 5 → ned 7 = −5.",
+          "Start +4 → ned 6 → opp 1 = −1."
+        ],
+        "reflection": [
+          "Hva betyr «ned» og «opp» når du allerede er under 0?",
+          "Hvordan kan negative tall brukes i andre situasjoner?",
+          "Hva hjalp deg å holde oversikten?"
+        ],
+        "tips": [
+          "Velg kun de sterkere elevene som skal svare på hvor de står hen - slik at de får mer utfordring."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "F0401",
       "title": "Flykaptein på tidssoneoppdrag!",
       "time": "15",
@@ -177,6 +247,43 @@
       }
     },
     {
+      "id": "F0402",
+      "title": "Levende tallinje",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke tallinje i rekning med positive og negative tal",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten blir klasserommet en tallinje, og elevene regner med positive og negative tall ved å gå og hoppe."
+        ],
+        "main": [
+          "Merk gulvet som tallinje fra −10 til +10.",
+          "Læreren gir startposisjon og regneuttrykk (f.eks. «start −3, +5, −4»).",
+          "Elevene går og hopper for å utføre regnestykket.",
+          "Svarer høyt sluttposisjon.",
+          "Gjenta 3–4 ganger."
+        ],
+        "examples": [
+          "Start −3, +5, −4 → −2.",
+          "Start 6, −8, +1 → −1.",
+          "Start −2, −5, +7 → 0."
+        ],
+        "reflection": [
+          "Hvordan hjalp tallinjen deg?",
+          "Hva gjør vi når vi passerer 0?",
+          "Når er tallinje nyttig i regning?"
+        ],
+        "tips": [
+          "Bruk store tall i starten.",
+          "La elever være ‘human markers’.",
+          "Varier startpunkt."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "F0501",
       "title": "Detektivene!",
       "time": "45",
@@ -212,6 +319,58 @@
         "extra": [
           "printOuts/F0501.docx"
         ]
+      }
+    },
+     {
+      "id": "F0502",
+      "title": "Kroppskode",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke samansette rekneuttrykk til å beskrive og utføre utrekningar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten bruker elevene kroppen til å utføre sammensatte regneuttrykk."
+        ],
+        "main": [
+          "Læreren sier et uttrykk (f.eks. (2 + 3) × 2).",
+          "Elevene utfører i to trinn: først vise resultatet av parentesen med hopp, deretter multiplisere med klapp eller nye hopp.",
+          "Gjenta med 4–5 uttrykk."
+        ],
+        "examples": [
+        "Lett:",
+        "(2 + 3) × 2 → hopp 5 ganger, deretter 2 runder = 10 hopp.",
+        "4 + (6 ÷ 2) → hopp 4 ganger, deretter 3 ganger = 7 hopp.",
+        "(10 − 4) × 3 → hopp 6 ganger, deretter 3 runder = 18 hopp.",
+        "(5 + 5) × 2 → hopp 10 ganger, deretter 2 runder = 20 hopp.",
+        "(8 − 3) + 4 → hopp 5 ganger, deretter 4 ganger = 9 hopp.",
+        "",
+        "Middels:",
+        "(5 + 5) × 4 → hopp 10 ganger, deretter 4 runder = 40 hopp.",
+        "(12 ÷ 3) + 7 → hopp 4 ganger, deretter 7 ganger = 11 hopp.",
+        "(9 − 5) × (2 + 1) → hopp 4 ganger, deretter 3 runder = 12 hopp.",
+        "(6 + 2) × (5 − 3) → hopp 8 ganger, deretter 2 runder = 16 hopp.",
+        "20 ÷ (8 − 3) → hopp 5 ganger (fordi 8 − 3 = 5).",
+        "",
+        "Vanskelig:",
+        "((4 + 6) ÷ 2) × 3 → hopp 5 ganger, deretter 3 runder = 15 hopp.",
+        "((12 − 4) ÷ 2) + 9 → hopp 4 ganger, deretter 9 ganger = 13 hopp.",
+        "(15 − (6 + 3)) × 2 → hopp 6 ganger, deretter 2 runder = 12 hopp.",
+        "((8 + 4) × 2) − 5 → hopp 24 ganger, deretter trekk fra 5 hopp = 19 hopp.",
+        "((10 ÷ 2) + (8 ÷ 4)) × 3 → hopp 7 ganger, deretter 3 runder = 21 hopp."
+        ],
+        "reflection": [
+          "Hvordan hjalp det å dele uttrykket i deler?",
+          "Hvorfor begynte vi med parentesene?",
+          "Hvordan kan denne metoden brukes i hoderegning?"
+        ],
+        "tips": [
+          "Start med små tall.",
+          "Visualiser parenteser som stopp-punkter.",
+          "Bruk både hopp og klapp for variasjon."
+        ],
+        "extra": []
       }
     },
     {
@@ -258,10 +417,47 @@
       }
     },
     {
-      "id": "F0701",
-      "title": "Tall-agentene",
+      "id": "F0602",
+      "title": "Liknings-løype",
       "time": "5",
       "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke ulike strategiar for å løyse lineære likningar og ulikskapar og vurdere om løysingar er gyldige",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene løpe til riktig svar på en lineær likning eller ulikhet."
+        ],
+        "main": [
+          "Læreren skriver eller sier en likning (f.eks. 2x + 3 = 9).",
+          "Tre ‘svarstasjoner’ plasseres i rommet med ulike verdier av x.",
+          "Elevene løper til stasjonen de mener er riktig løsning.",
+          "Noen elever forklarer hvorfor løsningen er riktig.",
+          "Gjenta 3–4 ganger."
+        ],
+        "examples": [
+          "2x + 3 = 9 → x = 3.",
+          "5x − 4 = 11 → x = 3.",
+          "x + 7 > 10 → x > 3."
+        ],
+        "reflection": [
+          "Hvilken strategi brukte du for å løse?",
+          "Hvordan kan du sjekke om svaret stemmer?",
+          "Hva gjør ulikheter annerledes enn likninger?"
+        ],
+        "tips": [
+          "Bruk enkle tall for fart.",
+          "Varier med ulikheter.",
+          "La elever lage egne oppgaver."
+        ],
+        "extra": []
+      }
+  },
+  {
+    "id": "F0701",
+    "title": "Tall-agentene",
+    "time": "5",
+    "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "3-4",
       "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
@@ -287,6 +483,59 @@
         ],
         "tips": [
           "Still spørsmål som knytter statistikken til elevenes hverdag"
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0702",
+      "title": "Statistikkstafett",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Kalkulator",
+      "groupsize": "4-6",
+      "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten samler lagene rask data og beregner gjennomsnitt, typetall og median."
+        ],
+        "main": [
+          "Del klassen inn i grupper på 4-6 elever.",
+          "Læreren gir et tema (f.eks. skostørrelse i laget, antall søsken).",
+          "Lagene samler data ved å spørre hverandre raskt.",
+          "De beregner gjennomsnitt, median og typetall.",
+          "Når alle lag er ferdige, går læreren over svarene til hver gruppe.",
+          "Gjenta med nytt tema."
+        ],
+        "examples": [
+          "Lett:",
+          "Skostørrelse i gruppa",
+          "Antall søsken",
+          "Antall kjæledyr",
+          "Antall frukter du spiste i dag",
+          "",
+          "Middels:",
+          "Høyde i cm",
+          "Tid (i minutter) brukt på lekser i går",
+          "Antall bøker lest siste måned",
+          "Antall minutter det tar å gå til skolen",
+          "Antall meldinger sendt i går",
+          "",
+          "Vanskelig:",
+          "Antall timer søvn siste uke (per natt, i desimaler)",
+          "Lengde på skrittet ditt i cm",
+          "Tid brukt på skjerm siste døgn (i minutter)",
+          "Antall milliliter vann du drakk i dag",
+          "Vekt på skoleveska (i kg)"
+        ],
+        "reflection": [
+          "Hvilket sentralmål var raskest å finne?",
+          "Når gir gjennomsnitt mest mening?",
+          "Når er median eller typetall bedre?"
+        ],
+        "tips": [
+          "Velg enkle tema for at det skal gå raskt å samle inn data."
+
         ],
         "extra": []
       }
@@ -362,6 +611,37 @@
       }
     },
     {
+      "id": "F0803",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "logge, sortere, presentere og lese data i tabellar og diagram og grunngi valet av framstilling",
+      "content": {
+        "introduction": [
+          "Kongen befaler! I denne aktiviteten skal elevene lage levende diagrammer med kroppen og forklare hvorfor det passer best."
+        ],
+        "main": [
+          "Læreren er kongen og sier et tema (f.eks. favorittfarge, antall søsken).",
+          "Elevene roper ut sitt svar og løper til den ‘kolonnen’ i rommet som representerer svaret. Her må elevene snakke sammen.",
+          "Gjenta med 2–3 tema."
+        ],
+        "examples": [
+          "Tema: favorittfarge → blå (6 elever), rød (4), grønn (5) → elevene står som levende stolpediagram.",
+          "Tema: antall søsken → 0 (3 elever), 1 (8), 2 (4)."
+        ],
+        "reflection": [
+          "Hvilket diagram passet best for denne typen data?",
+          "Hvordan gjorde dere sorteringen?"
+        ],
+        "tips": [
+          "Velg enkle tema for å holde tempo."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "F0901",
       "title": "Budsjettjakt- Hva blir ditt liv?",
       "time": "15",
@@ -395,6 +675,40 @@
         "extra": [
           "printOuts/F0901.png"
         ]
+      }
+    },
+    {
+      "id": "F0902",
+      "title": "Budsjettløpet",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Pengelapper, utgiftslapper",
+      "groupsize": "Lag",
+      "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten lager lagene et fysisk budsjett på gulvet og må holde oversikt over inntekter og utgifter."
+        ],
+        "main": [
+          "Lagene får ‘inntektskort’ (penger) og ‘utgiftskort’ (regninger).",
+          "Læreren roper en situasjon, f.eks. «kjøp en bussbillett til 40 kr».",
+          "Lagene må fysisk levere riktig beløp fra sin ‘budsjettbunke’.",
+          "Etter 4–5 runder teller lagene hvor mye de har igjen og vurderer om budsjettet gikk i pluss eller minus."
+        ],
+        "examples": [
+          "Inntekt: 500 kr, Utgifter: 100 kr mat, 40 kr buss, 60 kr kino → igjen: 300 kr.",
+          "Inntekt: 400 kr, Utgifter: 300 kr sko, 120 kr spill → igjen: −20 kr (må låne)."
+        ],
+        "reflection": [
+          "Hva var viktig for å holde oversikt over budsjettet?",
+          "Hva skjer hvis vi bruker mer enn vi tjener?",
+          "Hvordan kunne vi planlagt bedre?"
+        ],
+        "tips": [
+          "Bruk store lapper så alle ser beløpene.",
+          "La lagene stå på hvert sitt ‘kontor’."
+        ],
+        "extra": ["Printouts!!"]
       }
     },
     {
@@ -446,6 +760,41 @@
         "extra": [
           "printOuts/F1001.docx"
         ]
+      }
+    },
+    {
+      "id": "F1002",
+      "title": "Datajakten!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "bruke programmering til å utforske data i tabellar og datasett",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten trener elevene på å tenke som et program som filtrerer og henter ut data."
+        ],
+        "main": [
+          "Del klassen i par.",
+          "Læreren er ‘dataserver’ og har en tabell med informasjon (f.eks. navn, alder, favorittsport).",
+          "Parene sender ‘programmeringskommandoer’ muntlig (f.eks. «vis alle over 12 år som liker fotball»).",
+          "Læreren roper ut de ‘filtrerte’ radene.",
+          "Etter et par runder bytter dere roller slik at elever kan være ‘server’."
+        ],
+        "examples": [
+          "Tabell med 10 personer → kommando: ‘alder > 12 og sport = fotball’ → returnerer 3 navn.",
+          "Kommando: ‘favorittfarge = blå’ → returnerer 4 navn."
+        ],
+        "reflection": [
+          "Hvordan er dette likt å bruke filtre i programmering?",
+          "Hva skjer hvis vi legger til flere vilkår?",
+          "Hva er fordelen med å hente ut bare deler av data?"
+        ],
+        "tips": [
+          "Bruk enkel tabell på tavla for fart.",
+          "Start med én betingelse og legg til flere."
+        ],
+        "extra": []
       }
     }
   ]

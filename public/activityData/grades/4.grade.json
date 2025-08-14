@@ -145,6 +145,61 @@
       }
     },
     {
+      "id": "C0202",
+      "title": "Delingsstafett",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-6",
+      "learning_goal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene løpe stafett, få en divisjonsoppgave av læreren som gruppen må vise fysisk."
+        ],
+        "main": [
+          "Del klassen inn i lag med 4-6 elever per lag.",
+          "Læreren står i den ene enden av rommet eller uteområdet.",
+          "Regler: det er ikke lov til å bruke en bevegelse flere ganger, og alle i gruppa må delta på å vise svaret.",
+          "Første elev fra hvert lag løper til læreren.",
+          "Læreren gir muntlig en enkel divisjonsoppgave (for eksempel «12 delt på 3» eller «8 delt på 2»).",
+          "Eleven løper tilbake til laget sitt og forteller oppgaven.",
+          "Laget må komme på en fysisk måte å vise svaret for eksempel hoppe, klappe, dele seg opp i grupper eller bruke gjenstander i rommet.",
+          "Når læreren sier at svaret er riktig, løper neste eleven fram til læreren og får en ny oppgave.",
+          "Gjenta så lenge det er tid."
+        ],
+        "examples": [
+          "Lett:",
+          "6 ÷ 2",
+          "8 ÷ 4",
+          "10 ÷ 5",
+          "12 ÷ 3",
+          "9 ÷ 3",
+          "",
+          "Middels:",
+          "15 ÷ 3",
+          "18 ÷ 6",
+          "20 ÷ 4",
+          "16 ÷ 2",
+          "24 ÷ 8",
+          "",
+          "Vanskelig:",
+          "27 ÷ 3",
+          "28 ÷ 4",
+          "32 ÷ 8",
+          "36 ÷ 6",
+          "45 ÷ 5"
+        ],
+        "reflection": [
+          "Hvilke måter brukte dere for å vise svaret fysisk?",
+          "Hvilken metode var raskest å vise?"
+        ],
+        "tips": [
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "C0301",
       "title": "Kongen befaler!",
       "time": "5",
@@ -178,6 +233,48 @@
         "extra": []
       }
     },
+    {
+      "id": "C0302",
+      "title": "Del deg smart!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene løse enkle delingsoppgaver fysisk, men strategien de bruker endres fra runde til runde."
+        ],
+        "main": [
+          "Alle elevene starter samlet.",
+          "Læreren gir en muntlig oppgave, for eksempel «12 delt på 3».",
+          "Hver runde har én strategi som må brukes:",
+          "Runde 1: Gruppestrategi: Elevene deler seg inn i like store grupper.",
+          "Runde 2: Telle/hoppe-strategi: Elevene teller eller hopper for å finne svaret.",
+          "Runde 3: Gjenta subtraksjon: Elevene setter seg ned og fjerner like mange om gangen til de når null.",
+          "Runde 4 (hvis tid): Lag modell: Elevene bruker ting i rommet eller uteområdet for å vise svaret.",
+          "Etter hver runde velger læreren én elev som forklarer hvordan de tenkte."
+        ],
+        "examples": [
+          "Runde 1: Gruppestrategi: Oppgave «12 ÷ 3» → Elevene lager 3 like grupper med 4 i hver.",
+          "Runde 2: Telle/hoppe: Oppgave «15 ÷ 5» → Elevene teller 5, 10, 15 og ser at det blir 3 hopp.",
+          "Runde 3: Gjenta subtraksjon: Oppgave «8 ÷ 2» → Elevene setter seg ned 8, 6, 4, 2, 0 og teller at det ble 4 ganger.",
+          "Runde 4: Lag modell: Oppgave «10 ÷ 2» → Elevene legger 10 bøker i to hauger."
+        ],
+        "reflection": [
+          "Hvilken strategi syntes du var raskest?",
+          "Hvilken strategi var morsomst å bruke?",
+          "Hvordan kan vi velge riktig strategi når vi får en ny oppgave?"
+        ],
+        "tips": [
+          "Bruk små tall for å holde tempoet oppe.",
+          "Bestem på forhånd hvor mange runder dere rekker.",
+          "Oppmuntre til at elevene varierer hvordan de viser strategien fysisk."
+        ],
+        "extra": []
+      }
+    },
+
     {
       "id": "C0401",
       "title": "Påstandsveggene",
@@ -348,6 +445,95 @@
       }
     },
     {
+      "id": "C0602",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-6",
+      "learning_goal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+      "content": {
+        "introduction": [
+          "Kongen befaler! I denne aktiviteten skal elevene lage enkle regneuttrykk til praktiske situasjoner og finne situasjoner som passer til regneuttrykk kongen gir."
+        ],
+        "main": [
+          "Del klassen inn i grupper på 4-6.",
+          "Læreren er «kongen» og gir korte befalinger i to varianter:",
+          "A) Finn situasjonen: Kongen sier et enkelt regneuttrykk (for eksempel 2 + 3 eller 4 × 2). Elevene må lage en liten situasjon som passer (for eksempel 2 jenter og 3 gutter i en gruppe).",
+          "B) Lag uttrykket: Kongen beskriver en enkel situasjon (for eksempel 3 bord med 2 stoler på hvert). Elevene lager et regneuttrykk (3 × 2).",
+          "Elevene viser løsningen ved å stille seg i grupper eller bruke ting i rommet som eksempel.",
+          "Etter hver befaling kan én gruppe forklare tenkemåten sin kort."
+        ],
+        "examples": [
+          "Kongen: «2 + 4» → Elevene viser 2 elever på ett sted og 4 på et annet sted.",
+          "Kongen: «Situasjon: 3 grupper med 2 elever i hver» → Elevene lager uttrykket «3 × 2».",
+          "Kongen: «5 − 2» → Elevene starter som 5 og fjerner 2, så står det 3 igjen.",
+          "Kongen: «4 × 2» → Elevene lager 4 rekker med 2 i hver."
+        ],
+        "reflection": [
+          "Hvordan visste dere at situasjonen passet til uttrykket?",
+          "Kunne dere laget en annen situasjon som passet til samme uttrykk?",
+          "Hva skjer med uttrykket hvis vi får én person mer eller én gruppe mindre?"
+        ],
+        "tips": [
+          "Bruk små tall (opptil 5–6) i starten, og øk gradvis etter hvert som elevene mestrer.",
+          "La flere grupper vise ulike løsninger på samme uttrykk.",
+          "Bland oppgaver med pluss, minus og enkel gange."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0603",
+      "title": "Hopperegning!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "2-3",
+      "learning_goal": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kroppen til å vise regneuttrykk med to eller tre ledd."
+        ],
+        "main": [
+          "Del elevene inn i grupper på 2–3 elever.",
+          "Læreren sier et enkelt regneuttrykk med to eller tre ledd (for eksempel 2 + 3 eller 1 + 2 + 4).",
+          "Hvis det er to ledd og gruppen har to personer: Én elev hopper det første tallet, den andre hopper det andre tallet.",
+          "Hvis det er tre ledd og gruppen har tre personer: Første elev hopper første tallet, andre elev hopper andre tallet, tredje elev hopper tredje tallet.",
+          "Hvis det er tre ledd, men gruppen bare har to personer: Fordel hoppene slik at én elev tar to av leddene.",
+          "Variér med pluss, minus og enkel gange for variasjon.",
+          "Gjenta med nye uttrykk i rask rekkefølge."
+        ],
+        "examples": [
+          "2 personer:",
+          "Lærer: «2 + 3» → Elev 1 hopper 2 ganger, Elev 2 hopper 3 ganger.",
+          "Lærer: «4 − 1» → Elev 1 hopper 4 ganger, Elev 2 tar 1 skritt bakover.",
+          "Lærer: «2 × 3» → Begge hopper 2 hopp tre ganger og teller sammen.",
+          "5 + 4 → Elev 1 hopper 5 ganger, Elev 2 hopper 4 ganger.",
+          "6 − 2 → Elev 1 hopper 6 ganger, Elev 2 tar 2 skritt bakover.",
+          "3 + 1 → Elev 1 hopper 3 ganger, Elev 2 hopper 1 gang.",
+          "3 personer:",
+          "Lærer: «1 + 2 + 4» → Elev 1 hopper 1 gang, Elev 2 hopper 2 ganger, Elev 3 hopper 4 ganger.",
+          "Lærer: «5 − 2 + 1» → Elev 1 hopper 5 ganger, Elev 2 går 2 skritt bakover, Elev 3 hopper 1 gang.",
+          "Lærer: «2 × 2 + 3» → Elev 1 hopper 2 hopp to ganger, Elev 2 hopper 3 ganger, Elev 3 blir med å telle til slutt.",
+          "Lærer: «3 + 3 + 2» → Elev 1 hopper 3 ganger, Elev 2 hopper 3 ganger, Elev 3 hopper 2 ganger.",
+          "Lærer: «4 + 1 + 4» → Elev 1 hopper 4 ganger, Elev 2 hopper 1 gang, Elev 3 hopper 4 ganger.",
+          "Lærer: «6 − 2 + 2» → Elev 1 hopper 6 ganger, Elev 2 går 2 skritt bakover, Elev 3 hopper 2 ganger."
+        ],
+        "reflection": [
+          "Hvordan hjalp det å fordele hoppene mellom dere?",
+          "Hva var forskjellen på å gjøre oppgaver med to og tre ledd?",
+          "Hvilke regnearter var enklest å vise med hopp?"
+        ],
+        "tips": [
+          "Bruk små tall i starten for å holde tempoet oppe."
+        ],
+        "extra": []
+      }
+    },
+
+
+    {
       "id": "C0701",
       "title": "Trill meg!",
       "time": "5",
@@ -446,6 +632,52 @@
         "extra": []
       }
     },
+    {
+      "id": "C0802",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-6",
+      "learning_goal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene leke kongen befaler der læreren gir befalinger om å måle ting med forskjellige enheter."
+        ],
+        "main": [
+          "Del klassen inn i grupper på 4-6.",
+          "Læreren er «kongen» og gir kommandoer der elevene skal måle ulike ting i rommet eller ute, men bare med ikke-standardiserte måleenheter (for eksempel fotlengder, håndflater, bøker, blyanter eller plastkopper).",
+          "Elevene får et oppdrag, for eksempel: «Mål pulten med bøker» eller «Finn volumet av boksen ved å fylle den med kopper vann».",
+          "Etter at målingen er gjort, må gruppen si hvor mange måleenheter de brukte.",
+          "Kongen kan variere med oppdrag for både areal (flate) og volum (rominnhold).",
+          "Gjenta med nye kommandoer og ulike måleenheter."
+        ],
+        "examples": [
+          "Kongen bestemmer måleenhet:",
+          "«Kongen befaler: Mål pulten din med viskelær.»",
+          "«Kongen befaler: Mål lengden på gangen med blyanter.»",
+          "«Kongen befaler: Finn volumet av bøtta ved å bruke plastkopper.»",
+          "«Kongen befaler: Mål bredden på døra med hendene dine.»",
+          "",
+          "Elevene finner måleenheten selv:",
+          "«Kongen befaler: Mål tavla.» (Elevene velger om de bruker bøker, armer, linjaler, hender osv.)",
+          "«Kongen befaler: Mål gulvplassen foran tavla.» (Elevene velger måleenhet og forklarer valget.)",
+          "«Kongen befaler: Finn volumet av en liten kasse.» (Elevene velger om de fyller med klosser, kopper eller noe annet.)",
+          "«Kongen befaler: Mål bredden på klasserommet.» (Elevene finner selv en måte å måle på.)"
+        ],
+        "reflection": [
+          "Hvorfor valgte dere akkurat den måleenheten?",
+          "Hvilke måleenheter passet best til store ting? Små ting?",
+          "Hvordan ville resultatet blitt hvis vi brukte en annen måleenhet?"
+        ],
+        "tips": [
+
+
+        ],
+        "extra": []
+      }
+    },
+
     {
       "id": "C0901",
       "title": "Hermegåsa",
@@ -583,7 +815,67 @@
         ],
         "extra": []
       }
-  }
-
+  },
+  {
+      "id": "C1003",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "lage algoritmer og uttrykke dem ved bruk av variabler, vilkår og løkker",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene utføre kommandoer fra «kongen» som inneholder elementer fra programmering: variabler, vilkår og løkker."
+        ],
+        "main": [
+          "Læreren er «kongen» og gir kommandoer som må følges nøyaktig, men med programmeringslogikk.",
+          "Bruk løkker ved å gjenta en handling flere ganger (f.eks. «Gjenta 3 ganger: hopp 2 ganger og klapp 1 gang»).",
+          "Bruk variabler ved å la et tall eller et ord stå for noe (f.eks. «X = antall bokstaver i navnet ditt. Hopp X ganger»).",
+          "Bruk vilkår ved å lage situasjoner som «Hvis du har på blå genser, snurr rundt. Ellers klapp to ganger».",
+          "Variér kommandoene mellom rene bevegelser, kombinasjoner og morsomme utfordringer.",
+          "La gjerne elevene selv få være «kongen» etter hvert."
+        ],
+        "examples": [
+          "Lett:",
+          "Kongen befaler: Gjenta 3 ganger: hopp én gang.",
+          "Kongen befaler: Klapp 2 ganger.",
+          "Kongen befaler: Hvis du har på noe blått, hopp én gang. Ellers stå stille.",
+          "Kongen befaler: X = antall sko du har på. Hopp X ganger.",
+          "Kongen befaler: Gjenta 2 ganger: snurr én gang.",
+          "Kongen befaler: Hvis du har på bukse, klapp én gang.",
+          "Kongen befaler: X = antall fingre du holder opp. Klapp X ganger.",
+          "Kongen befaler: Gjenta 4 ganger: ta et skritt frem.",
+          "",
+          "Middels:",
+          "Kongen befaler: Gjenta 3 ganger: hopp én gang, klapp én gang.",
+          "Kongen befaler: Hvis du har på sokker, ta 2 skritt frem. Ellers snurr én gang rundt.",
+          "Kongen befaler: X = antall bokstaver i fornavnet ditt. Gjenta X ganger: klapp én gang.",
+          "Kongen befaler: Gjenta 4 ganger: hopp 2 ganger.",
+          "Kongen befaler: Hvis du har briller, klapp 3 ganger. Ellers hopp 1 gang.",
+          "Kongen befaler: X = antall stoler i rekka di. Hopp X ganger.",
+          "Kongen befaler: Gjenta 2 ganger: hvis du har på hettegenser, snurr én gang, ellers klapp én gang.",
+          "Kongen befaler: Hvis du er født i januar, februar eller mars, ta 2 hopp. Ellers klapp 2 ganger.",
+          "",
+          "Vanskelig:",
+          "Kongen befaler: Gjenta 3 ganger: hvis du har på sko, klapp 2 ganger, ellers hopp 1 gang.",
+          "Kongen befaler: X = antall bokstaver i etternavnet ditt. Gjenta X ganger: hopp 1 gang og klapp 1 gang.",
+          "Kongen befaler: Hvis du er født i vår eller sommer, ta 2 hopp. Ellers klapp 3 ganger og ta 1 skritt tilbake.",
+          "Kongen befaler: Gjenta 4 ganger: hopp antall ganger som bokstavene i fornavnet ditt.",
+          "Kongen befaler: Hvis du har på genser med glidelås, snurr 2 ganger. Ellers hopp 2 ganger og klapp 1 gang.",
+          "Kongen befaler: Hvis du er født i en måned med R i navnet, hopp 2 ganger, ellers snurr én gang.",
+          "Kongen befaler: X = antall vinduer du ser i rommet. Klapp X ganger.",
+          "Kongen befaler: Gjenta 2 ganger: hvis du har på hvite sokker, hopp 2 ganger, ellers si «kode»."
+        ],
+        "reflection": [
+          "Hvordan visste du hva du skulle gjøre når det var et vilkår?",
+          "Hvordan hjalp det å bruke variabler i oppgaven?"
+        ],
+        "tips": [
+          "Start enkelt med bare én type logikk (løkke, variabel eller vilkår) og bygg opp til kombinasjoner."
+        ],
+        "extra": []
+      }
+    }
   ]
 }
