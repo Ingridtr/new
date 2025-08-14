@@ -37,6 +37,72 @@
       }
     },
     {
+      "id": "B0102",
+      "title": "Stiv heks",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene leke stiv heks, men for å komme fri må man svare på et regnestykke. Lærer går rundt og gir oppgaver til de elevene som er tatt for å befri dem. Rekker de å svare før heksen vinner?"
+        ],
+        "main": [
+          "Fortell elevene at de skal leke stiv heks, men med en vri!",
+          "Én elev er «heks» og forsøker å fange de andre ved å ta på dem.",
+          "Når noen blir tatt, må de fryse i den posisjonen de ble tatt i.",
+          "For å bli befridd må læreren komme bort og gi et regnestykke. Læreren tilpasser vanskelighetsgraden etter nivået, ved å variere mellom enkle hoderegningsoppgaver eller mer utfordrende oppgaver.",
+          "Når heksen har klart å fange fem elever samtidig, bytter læreren hvem som er heks, slik får flere prøvd rollen og leken holder tempoet oppe. "
+        ],
+        "examples": [
+          "Lett",
+          "5 − 2 = ?",
+          "9 − 3 = ?",
+          "7 − 1 = ?",
+          "Middels",
+          "13 − 4 = ?",
+          "15 − 6 = ?",
+          "18 − 7 = ?",
+          "Vanskelig",
+          "21 − 9 = ?",
+          "24 − 8 = ?",
+          "30 − 10 = ?"
+        ],
+        "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0103",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren være 'kongen' i Kongen befaler, der elevene skal følge kongens instruksjoner som innebærer å utføre en fysisk aktivitet ut ifra et regnestykke."
+        ],
+        "main": [
+          "En elev eller læreren er 'Kongen' og gir kommandoer som starter med 'Kongen befaler'.",
+          "Kommandoen består av en subtraksjonsoppgave, for eksempel: 'Kongen befaler: 15 minus 7. Hopp svaret'.",
+          "Elevene finner svaret på oppgaven, og utfører en avtalt handling tilsvarende svaret (f.eks. hopper så mange ganger som svaret).",
+          "Avtal med elevene for hver gang hva de skal gjøre når de har funnet svaret."
+        ],
+        "examples": [
+          "Kongen befaler: 12 minus 4. Hopp svaret → Elevene hopper 8 ganger.",
+          "Kongen befaler: 9 minus 3. Klapp svaret → Elevene klapper 6 ganger.",
+          "Kongen befaler: 7 minus 7. Hopp svaret → Elevene gjør ingen bevegelse (0)."
+        ],
+        "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
       "id": "B0201",
       "title": "Rødt og grønt lys",
       "time": "15",
@@ -64,6 +130,80 @@
           "Var det lettere å få mange poeng ved å være forsiktig eller å ta sjanser?"
         ],
         "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0202",
+      "title": "Hoderegning med kortstokk",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Kortstokk",
+      "groupsize": "2",
+      "learning_goal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kort for å trene på subtraksjon og oppdage sammenhengen mellom addisjon og subtraksjon. Elevene jobber i par, trekker kort og løser oppgaver muntlig, med fokus på å forklare tenkemåten sin."
+        ],
+        "main": [
+          "Legg flere kortstokker (uten bildekort) på bordet med baksiden opp og del klassen i par.",
+          "Hvert par trekker to kort.",
+          "De regner summen av kortene høyt og forklarer hverandre hvordan de tenkte.",
+          "Deretter lager de to tilhørende subtraksjonsstykker (tallfamilien) som hører til summen. For eksempel: 7 + 5 = 12, 12 − 7 = 5 og 12 − 5 = 7.",
+          "Elevene forklarer hvorfor disse henger sammen.",
+          "Deretter finner de differansen mellom kortene (største − minste) og beskriver hvilken subtraksjonsstrategi de brukte (telle opp fra det minste til det største, tiervenner osv.).",
+          "Læreren kan gi et måltall (f.eks. 20) der elevene undersøker hvor mye som mangler fra summen til måltallet.",
+          "Elevene begrunner om de valgte å tenke additivt (8 + ? = 20) eller subtraktivt (20 − 8).",
+          "Kortene legges tilbake og de prøver på nytt."
+        ],
+        "examples": [
+          "Trekker 7 og 5 → Summen er 12 → Tallfamilien: 7 + 5 = 12, 12 − 7 = 5, 12 − 5 = 7.",
+          "Trekker 9 og 4 → Summen er 13 → Tallfamilien: 9 + 4 = 13, 13 − 9 = 4, 13 − 4 = 9.",
+          "Trekker 8 og 3, måltall 20 → 20 − 11 = 9 eller 11 + 9 = 20."
+        ],
+        "reflection": [
+          "Hvordan kan det hjelpe å lage tallfamilier for å løse subtraksjon?",
+          "Hvilken strategi for subtraksjon fungerte best?",
+          "Hvordan hjelper sammenhengen mellom addisjon og subtraksjon dere med å kontrollere svarene?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0203",
+      "title": "Mattememory",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Kortstokk",
+      "groupsize": "2",
+      "learning_goal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene spille en variant av Memory for å trene på addisjon, subtraksjon og sammenhengen mellom dem."
+        ],
+        "main": [
+          "Del klassen i 3 grupper og plasser 3 kortstokker (ikke bildekort) med baksiden opp.",
+          "Innad i gruppene jobber to og to elever sammen.",
+          "Læreren roper ut et oppdrag som involverer addisjon, subtraksjon eller sammenhengen mellom dem. Eksempler: 'To tall som til sammen blir 15', 'To tall med differanse 4', 'Et tall som er 5 mer enn det andre'",
+          "Hvert par snur to kort.",
+          "Hvis tallene oppfyller oppdraget, får paret beholde kortene, men de må forklare høyt hvordan tallene passer til de andre i gruppa.",
+          "Forklaringen skal inneholde matematiske begreper som sum, forskjell, mer enn og mindre enn.",
+          "Dersom de bommer, snur de kortene tilbake på plass.",
+          "Neste par får prøve."
+        ],
+        "examples": [
+          "Oppdrag: To tall som til sammen blir 15 → Paret snur 9 og 6 → \"9 pluss 6 er 15, så summen er riktig.\"",
+          "Oppdrag: To tall med differanse 4 → Paret snur 8 og 4 → \"8 minus 4 er 4, så forskjellen stemmer.\"",
+          "Oppdrag: Et tall som er 5 mer enn det andre → Paret snur 12 og 7 → \"12 er 5 mer enn 7.\""
+        ],
+        "reflection": [
+          "Hvordan hjalp det å bruke begreper som sum og forskjell i forklaringene?",
+          "Var det lettere å løse oppdrag med addisjon eller subtraksjon? Hvorfor?"
+        ],
+        "tips": [
+          "Tilpass vanskelighetsgraden ved å bruke høyere eller lavere tallkort. Varier oppdragene slik at de noen ganger krever flere mulige løsninger."
+        ],
         "extra": []
       }
     },
@@ -99,8 +239,41 @@
           "Hva betyr det å hoppe tre ganger så langt?",
           "Hvordan henger dette sammen med ganging?"
         ],
-        "tips": [
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0302",
+      "title": "Telleleken",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske multiplikasjon ved teljing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten står elevene i ring og telle høyt i kor mens de gjør en bevegelse til hvert tall. Læreren står i midten. Læreren kan lage regler som gjør tellingen mer utfordrende, for eksempel å si 'BOING' i stedet for tall som er delelig med 3, klappe på partall eller snurre på oddetall. Reglene kan variere underveis for å trene konsentrasjon og tallforståelse."
         ],
+        "main": [
+          "Elevene står i ring.",
+          "Klassen teller høyt i kor mens de utfører en bevegelse til hvert tall.",
+          "Læreren bestemmer hvilken bevegelse som hører til hvert tall eller mønster.",
+          "Variér reglene underveis for å øke utfordringen.",
+          "Tellelengden kan tilpasses, men 20 er et fint utgangspunkt.",
+          "Variasjon: Elevene deles inn i grupper og blir enige om en bevegelse de skal gjøre når læreren peker på dem. Eksempel: Grupper på 2. Læreren teller to og to opp til 10 (2, 4, 6, 8, 10). For hvert tall peker læreren på en gruppe som gjør bevegelsen. Etterpå spør læreren: 'Hvor mange personer har klappet til sammen?' → 5 grupper à 2 = 10."
+        ],
+        "examples": [
+          "Easy: Elevene teller to og to: 2, 4, 6, 8, 10… opp til 20. For hvert tall klapper de.",
+          "Medium: Elevene teller to og to: 2, 4, 6, 8… opp til 20. Annenhvert tall hopper de.",
+          "Hard: Elevene teller tre og tre: 3, 6, 9… opp til 18. Annenhvert tall klapper de."
+        ],
+        "reflection": [
+          "Hvordan hjalp tellingen dere med å finne svaret?",
+          "Hva er sammenhengen mellom antall grupper og hvor mange som klappet til sammen?",
+          "Hvordan viser dette at addisjon og multiplikasjon henger sammen?"
+        ],
+        "tips": ["Øk eller reduser tellelengden avhengig av elevenes nivå."],
         "extra": []
       }
     },
@@ -125,20 +298,14 @@
           "Runde 2: Nå skal elevene ha 2 personer på fraktsiden og resten på mottakersiden. Her skal elevene forstå at de burde gå to ganger hver for å frakte de 4 gjenstandene.",
           "Runde 3: Nå skal elevene ha 4 personer på fraktsiden og 1 person på mottakersiden. Her skal elevene forstå at de burde gå én gang hver for å frakte de 4 gjenstandene."
         ],
-        "examples": [
-          "Se vedlagt illustrasjon."
-        ],
+        "examples": ["Se vedlagt illustrasjon."],
         "reflection": [
           "Hvordan kan dere samarbeide smartest?",
           "Hvilken løsning gir færrest turer?",
           "Hva lærte du om sammenhengen mellom antall personer og arbeidsmengde?"
         ],
-        "tips": [
-          "Bruk kritt som markering for lavagulv."
-        ],
-        "extra": [
-          "printOuts/B0401.png"
-        ]
+        "tips": ["Bruk kritt som markering for lavagulv."],
+        "extra": ["printOuts/B0401.png"]
       }
     },
     {
@@ -209,10 +376,8 @@
           "Hva lærte dere om multiplikasjon gjennom denne aktiviteten?",
           "Opplevde dere at det var flere gruppeformasjoner som kunne gi samme svar?",
           "Hvordan kan dere bruke dette i andre sammenhenger?"
-          
         ],
-        "tips": [ "Variér vanskelighetsgraden etter nivået til elevene."
-        ],
+        "tips": ["Variér vanskelighetsgraden etter nivået til elevene."],
         "extra": []
       }
     },
@@ -241,9 +406,7 @@
           "Hvis dere nå hadde gått sammen i grupper på 4 elever, hvor mange gjenstander hadde dere hatt til sammen da?",
           "Hvordan kan dette knyttes til multiplikasjon?"
         ],
-        "tips": [
-          "Bruk konkreter som er lett å telle og dele opp."
-        ],
+        "tips": ["Bruk konkreter som er lett å telle og dele opp."],
         "extra": []
       }
     },
@@ -303,12 +466,11 @@
           "La elevene konkurrere i tautrekking igjen.",
           "Til slutt: la elevene reflektere rundt likheten og ulikheten i balansen: var det lettere å vinne den første runden enn den andre runden?"
         ],
-        "examples": [
-        ],
+        "examples": [],
         "reflection": [
           "Hva betyr likevekt i denne leken?",
           "Hva skjedde da det var like mange på hvert lag?"
-          ],
+        ],
         "tips": [
           "Bruk begreper som balanse, likevekt, ulikhet og ujevn fordeling."
         ],
@@ -406,10 +568,7 @@
           "Hvilke ord brukte du for å vise retning eller avstand?",
           "Er det noen andre måter dere kan beskrive posisjonene deres på?"
         ],
-        "tips": [        
-
-
-        ],
+        "tips": [],
         "extra": []
       }
     },
