@@ -912,6 +912,45 @@
       }
     },
     {
+      "id": "C0903",
+      "title": "Bingo",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Bingokort",
+      "groupsize": "2",
+      "learning_goal": "utforske og beskrive strukturar og mønster i leik og spel",
+      "content": {
+        "introduction": [
+          "BINGO! I denne aktiviteten skal elevene finne sammenhengen blant mønster"
+        ],
+        "main": [
+          "Print ut vedlagte bingokort.",
+          "Del klassen i par og del ut bingokort til hvert par.",
+          "Læreren står foran klassen og leser høyt ulike oppgaver (se vedlagte eksempler). Dersom læreren sier en oppgave elevene har svaret på på bingokortet, setter de et kryss i ruta.",
+          "Det første paret som får éntre rekke roper “Bingo!”.",
+          "De som får bingo må forklare hvilke ruter de hadde, og hvordan de visste at de hørte sammen.",
+          "Underveis i leken kan læreren sette på en bingosang (Bingo av The Little Sunshine Kids) slik at elevene kan danse :) "
+        ],
+        "examples": [
+          "Hva er neste figur i rekken?",
+          "● ▲ ● ▲ ● ▲",
+          "■ ■ ▲ ■ ■ ▲",
+          "★ ♥ ★ ♥ ★ ♥",
+          "Mønsterrekker med tall:",
+          "2, 4, 6, 8, 10, …",
+          "5, 10, 15, 20, 25, …",
+          "1, 2, 4, 8, 16, …",
+          "Mønsterrekker med bevegelser:",
+          "Klapp, Hopp, Klapp, Hopp, Klapp, Hopp",
+          "Hopp, Hopp, Klapp, Hopp, Hopp, Klapp",
+          "Klapp, Hopp, Snurr, Klapp, Hopp, Snurr"
+        ],
+        "reflection": [],
+        "tips": ["Lag dine egene bingoark for variasjoner!"],
+        "extra": ["printout"]
+      }
+    },
+    {
       "id": "C1001",
       "title": "Veiviseren",
       "time": "15",
