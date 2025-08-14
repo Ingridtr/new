@@ -22,22 +22,19 @@
         ],
         "examples": [
           "Kongens befalinger: ",
-          "Bli 4 grupper", 
+          "Bli 4 grupper",
           "Fordel dere på de 4 veggene.",
           "Del klassen i to, og så to igjen.",
           "Del dere i grupper på 6.",
           "Lag 5 grupper.",
           "Del dere i grupper på 3."
-          
         ],
         "reflection": [
           "Hva var forskjellen på når vi lagde grupper på 3, og når vi skulle bli 3 grupper?",
           "Hvordan fant dere ut hvor mange det ble i hver gruppe?",
           "Kan dere forklare hvordan dere delte opp?"
         ],
-        "tips": [
-          "Tegn gruppene med antallet på tavla om nødvendig."
-        ],
+        "tips": ["Tegn gruppene med antallet på tavla om nødvendig."],
         "extra": []
       }
     },
@@ -63,16 +60,12 @@
           "Paret bytter roller og gjentar.",
           "Beregn gjennomsnittsfarten ved å dele distansen (m) på tiden (s) og diskuter sammenhengen"
         ],
-        "examples": [
-          "Et par brukte 8 sekunder på 10 meter = 1,25 m/s."
-        ],
+        "examples": ["Et par brukte 8 sekunder på 10 meter = 1,25 m/s."],
         "reflection": [
           "Hvordan brukte dere divisjon for å finne farten?",
           "Hva lærte dere om sammenhengen mellom tid, avstand og fart?"
         ],
-        "tips": [
-          "For å gjøre det mer morsomt så kan man bruke ballonger."
-        ],
+        "tips": ["For å gjøre det mer morsomt så kan man bruke ballonger."],
         "extra": []
       }
     },
@@ -85,33 +78,33 @@
       "groupsize": "2",
       "learning_goal": "utforske, namngi og plassere desimaltal på tallinja",
       "content": {
-          "introduction": [
-            "I denne aktiviteten skal elevene mime en praktisk situasjon som kan løses med målings- eller delingsdivisjon, mens partneren prøver å gjette situasjonen og løsningen."
-          ],
-          "main": [
-            "Del inn klassen i par.",
-            "Den ene eleven skal finne på en praktisk oppgave som involverer målings- eller delingsdivisjon, f.eks. '8 kaker deles på 4 personer'.",
-            "Eleven mimer situasjonen uten å bruke ord eller skrive.",
-            "Partneren prøver å forstå situasjonen og si både hva den handler om og svaret på regnestykket.",
-            "Når partneren har gjettet riktig, bytter de roller.",
-            "Aktiviteten kan gjentas med ulike eksempler."
-          ],
-          "examples": [
-            "En elev får oppgaven '12 liter saft helles i kanner som rommer 3 liter hver' og later som om han heller saft i flere kanner. Partneren svarer: '4 kanner!'.",
-            "En elev får '15 drops deles likt mellom 5 barn' og mimer å gi drops til hvert barn. Partneren svarer: '3 drops hver!'."
-          ],
-          "reflection": [
-            "Hvilke tegn eller bevegelser gjorde det lett å forstå situasjonen?",
-            "Hvordan kunne du se om det var målingsdivisjon eller delingsdivisjon?",
-            "Hva lærte du om å bruke deling i praktiske situasjoner?"
-          ],
-          "tips": [
-            "Bruk tydelige kroppsspråk og overdriv bevegelsene for å gjøre situasjonen lett å forstå.",
-            "Varier oppgavene slik at noen er målingsdivisjon (hvor mange enheter får plass) og andre er delingsdivisjon (hvor mye får hver).",
-            "Ha noen ekstra oppgaver klare på lapper hvis elevene står fast på idéer."
-          ],
-          "extra": []
-          }
+        "introduction": [
+          "I denne aktiviteten skal elevene mime en praktisk situasjon som kan løses med målings- eller delingsdivisjon, mens partneren prøver å gjette situasjonen og løsningen."
+        ],
+        "main": [
+          "Del inn klassen i par.",
+          "Den ene eleven skal finne på en praktisk oppgave som involverer målings- eller delingsdivisjon, f.eks. '8 kaker deles på 4 personer'.",
+          "Eleven mimer situasjonen uten å bruke ord eller skrive.",
+          "Partneren prøver å forstå situasjonen og si både hva den handler om og svaret på regnestykket.",
+          "Når partneren har gjettet riktig, bytter de roller.",
+          "Aktiviteten kan gjentas med ulike eksempler."
+        ],
+        "examples": [
+          "En elev får oppgaven '12 liter saft helles i kanner som rommer 3 liter hver' og later som om han heller saft i flere kanner. Partneren svarer: '4 kanner!'.",
+          "En elev får '15 drops deles likt mellom 5 barn' og mimer å gi drops til hvert barn. Partneren svarer: '3 drops hver!'."
+        ],
+        "reflection": [
+          "Hvilke tegn eller bevegelser gjorde det lett å forstå situasjonen?",
+          "Hvordan kunne du se om det var målingsdivisjon eller delingsdivisjon?",
+          "Hva lærte du om å bruke deling i praktiske situasjoner?"
+        ],
+        "tips": [
+          "Bruk tydelige kroppsspråk og overdriv bevegelsene for å gjøre situasjonen lett å forstå.",
+          "Varier oppgavene slik at noen er målingsdivisjon (hvor mange enheter får plass) og andre er delingsdivisjon (hvor mye får hver).",
+          "Ha noen ekstra oppgaver klare på lapper hvis elevene står fast på idéer."
+        ],
+        "extra": []
+      }
     },
     {
       "id": "C0201",
@@ -139,15 +132,13 @@
         ],
         "reflection": [],
         "tips": ["Endre divisjonsstykkene på puslespillbrikkene etter nivå."],
-        "extra": [
-          "PrintOuts/C0201.docx"
-        ]
+        "extra": ["PrintOuts/C0201.docx"]
       }
     },
     {
       "id": "C0202",
       "title": "Delingsstafett",
-      "time": "5",
+      "time": "15",
       "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "4-6",
@@ -193,8 +184,37 @@
           "Hvilke måter brukte dere for å vise svaret fysisk?",
           "Hvilken metode var raskest å vise?"
         ],
-        "tips": [
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0203",
+      "title": "Kortstokkregning",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Kortstokk",
+      "groupsize": "4-6",
+      "learning_goal": "representere divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kortstokker for å løse divisjonsoppgaver."
         ],
+        "main": [
+          "Del klassen inn i lag med 4-6 elever per lag.",
+          "Fordel en kortstokk per gruppe og spre utover gulvet med bildeside ned",
+          "Be en elev i hver gruppe trekke to kort. Gruppen skal sammen diskutere hvordan man kan dele de to kortene på hverandre, og finne ut hva svaret blir.",
+          "Fortsett slik at alle elevene på gruppa får trekke kort"
+        ],
+        "examples": [
+          "Elev A trekker tallene dronning og 2. Gruppa diskuterer at man kan dele 12 på 2 og få 6! Før de kommer frem til svaret diskuterer de om man kan 2 på 12."
+        ],
+        "reflection": [
+          "Hvordan tenkte dere da dere delte det høyeste på det lave og ikke omvendt? ",
+          "Hva skjer hvis man deler det lave tallet på det høye?",
+          "Hva skjer når man deler et oddetall på et tall?"
+        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -236,7 +256,7 @@
     {
       "id": "C0302",
       "title": "Del deg smart!",
-      "time": "5",
+      "time": "15",
       "location": "Inne/ute",
       "tools": "Ingen",
       "groupsize": "Alle",
@@ -271,6 +291,46 @@
           "Bestem på forhånd hvor mange runder dere rekker.",
           "Oppmuntre til at elevene varierer hvordan de viser strategien fysisk."
         ],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0303",
+      "title": "Rangér meg",
+      "time": "15",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, bruke og beskrive ulike divisjonsstrategiar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene plassere seg i stigende rekkefølge ut i fra tallet de har fått tildelt. Start i små grupper og deretter avslutt en runde med hele klassen!"
+        ],
+        "main": [
+          "Lag divisjonsoppgaver i ulike strategier på noen lapper.",
+          "Del elevene i grupper på 5-6.",
+          "Gi hver elev en lapp med divisjonsstykkene på.",
+          "Be elevene sortere seg etter størrelsen på tallene på lørsningen.",
+          "Diskuter i plenum "
+        ],
+        "examples": [
+          " Delingsdivisjon (dele på antall grupper)",
+          "20 : 5 → Du har 20 kjeks og skal dele dem likt på 5 barn. Hvor mange kjeks får hvert barn? (Svar: 4)",
+          "18 : 6 → Du har 18 blyanter og skal dele dem likt på 6 elever. (Svar: 3)",
+
+          "Målingsdivisjon (finne antall grupper med gitt størrelse)",
+          "24 : 4 → Du har 24 epler og vil pakke dem i poser med 4 epler i hver. Hvor mange poser får du? (Svar: 6)",
+          "30 : 10 → Du har 30 kuler og vil legge 10 kuler i hver skål. Hvor mange skåler blir det? (Svar: 3)",
+
+          "Divisjon som gjentatt subtraksjon (trekke fra samme mengde til du når 0)",
+          "15 : 3 → Hvor mange ganger kan du trekke 3 fra 15 før du kommer til 0? (Svar: 5 ganger)",
+          "28 : 7 → Hvor mange ganger kan du trekke 7 fra 28 før du kommer til 0? (Svar: 4 ganger)"
+        ],
+        "reflection": [
+          "Hvilken strategi syntes du var raskest?",
+          "Hvilken strategi var morsomst å bruke?"
+        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -329,15 +389,35 @@
           "Læreren dekker til med et teppe.",
           "Elevene skriver ned på et ark hvilke symboler/tall de mener er forsvunnet"
         ],
-        "examples": [
-          "Elevene husker at de så 4, 2, -, ÷ og 10."
-        ],
+        "examples": ["Elevene husker at de så 4, 2, -, ÷ og 10."],
         "reflection": [],
         "tips": [
           "Ha med både symboler og ordkort som \"delt\", \"sum\", \"forskjell\" for begrepsstøtte. Øk vanskelighetsgrad gradvis."
         ],
-        "extra": [
-        ]
+        "extra": []
+      }
+    },
+    {
+      "id": "C0403",
+      "title": "Hvem er jeg?",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske og forklare samanhengar mellom dei fire rekneartane og bruke samanhengane formålstenleg i utrekningar",
+      "content": {
+        "introduction": [
+          "Hvem er jeg? I denne aktiviteten skal elevene ha klistret et ukjent tall i panna og skal gjette seg frem til hvilket tall det er ved å stille spørsmål til de andre elevene."
+        ],
+        "main": [
+          "Lag lapper med ulike tall eller reknearter (+ , - , * , /). Be hver elev klistre lappen i panna uten å se på den først. Post-it lapper funnker fint til dette formålet.",
+          "Forklar at elevene skal gå rundt i klasserommet og stille hverandre spørsmål for å finne ut hva de er! Det er ikke lov å si hva tallet er, og det er kun lov å stille ja/nei spørsmål.",
+          "Elevene skal stille spørsmål som handler om de fire rekneartene. For eksempel: Kan man dele meg og få et heltall?"
+        ],
+        "examples": ["Lapper: 4, +, 10, 1, -"],
+        "reflection": [],
+        "tips": ["Gi små tall slik at det blir enklere for elevene å regne."],
+        "extra": []
       }
     },
     {
@@ -408,6 +488,39 @@
       }
     },
     {
+      "id": "C0503",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "Modellere situasjonar frå sin eigen kvardag og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene velge riktig vegg basert på hvilken påstand de mener passer."
+        ],
+        "main": [
+          "Forklar at læreren skal si et mattestykke, og de fire veggene i klasserommet har hvert sitt svar. Læreren kommer til å tildele et svar til hver vegg mellom hvert mattestykke.",
+          "Læreren sier en oppgave eller en påstand høyt, f.eks. “Hvis du har 10 drops og deler dem på 5 venner, får alle 2 drops hver  ”",
+          "Læreren peker på hver vegg og sier tilhørende svar. 'Vegg A: ja | Vegg B: nei | Vegg C: kanskje | Vegg D: vet ikke'",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig svar. Læreren skal bestemme hvordan de skal gå dit. For eksempel 'Nå skal dere hinke på et bein til riktig vegg'",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye oppgaver."
+        ],
+        "examples": [
+          "Hvis du har 20 kr og kjøper en bolle til 15 kr, har du 5 kr igjen – stemmer det?",
+          "Hvis jeg løper 100 meter to ganger, har jeg løpt 200 meter – er det sant?",
+          "Hvis en pizza koster 80 kr, koster to pizzaer 160 kr – er det riktig?",
+          "Hvis et glass rommer 2 dl, rommer to glass 4 dl – stemmer det?"
+        ],
+        "reflection": [],
+        "tips": [
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "C0601",
       "title": "Bytt plass!",
       "time": "15",
@@ -436,12 +549,8 @@
           "Hvordan fant du ut hvem du skulle bytte plass med?",
           "Hvilke strategier brukte du for å finne riktig svar?"
         ],
-        "tips": [
-          "For tryggere rammer kan elevene deles inn i par."
-        ],
-        "extra": [
-          "Printouts av tall"
-        ]
+        "tips": ["For tryggere rammer kan elevene deles inn i par."],
+        "extra": ["Printouts av tall"]
       }
     },
     {
@@ -525,13 +634,10 @@
           "Hva var forskjellen på å gjøre oppgaver med to og tre ledd?",
           "Hvilke regnearter var enklest å vise med hopp?"
         ],
-        "tips": [
-          "Bruk små tall i starten for å holde tempoet oppe."
-        ],
+        "tips": ["Bruk små tall i starten for å holde tempoet oppe."],
         "extra": []
       }
     },
-
 
     {
       "id": "C0701",
@@ -560,8 +666,7 @@
           "Har formene som triller få eller mange kanter og hjørner?",
           "Hva skjer om du triller en kube på et hjørne? Hvordan kan du beskrive forskjellene på formene?"
         ],
-        "tips": [
-        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -600,6 +705,34 @@
       }
     },
     {
+      "id": "C0703",
+      "title": "Finn en venn!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal hver elev finne en gjenstand hver og deretter finne en venn i klassen som har tilsvarende figur på gjenstanden."
+        ],
+        "main": [
+          "Si til elevene at de skal finne en gjenstand hver som har en geometrisk figur de kjenner til. De må klare å navngi figuren",
+          "Etter 2 minutter ber du elevene møtes i midten. Nå skal de finne en i klassen som har tilsvarende figur på sin gjenstand!",
+          "Her må elevene være kreative"
+        ],
+        "examples": [
+          "En elev finner en bok de mener er en firkant mens en annen finner en kortstokk-som også er en firkant!"
+        ],
+        "reflection": [
+          "Hvordan klarte dere å finne en medelev med samme geometriske figur?",
+          "Var det vanskelig å finne en gjenstand med en figur dere kjenner til?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
       "id": "C0801",
       "title": "Kroppsmål",
       "time": "15",
@@ -617,9 +750,7 @@
           "Be gruppene sammenligne: ble resultatene like? Hvorfor eller hvorfor ikke?",
           "Diskuter i plenum hvilke måleenheter som var mest praktiske og hvorfor."
         ],
-        "examples": [
-          "Måleenheter: fotlengder, armslengder, antall skritt."
-        ],
+        "examples": ["Måleenheter: fotlengder, armslengder, antall skritt."],
         "reflection": [
           "Hvilken kroppsdel brukte dere for å måle?",
           "Hvorfor valgte dere den?",
@@ -670,9 +801,45 @@
           "Hvilke måleenheter passet best til store ting? Små ting?",
           "Hvordan ville resultatet blitt hvis vi brukte en annen måleenhet?"
         ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0803",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene gå til den veggen de mener har rett svar til påstanden"
+        ],
+        "main": [
+          "Velg to vegger og marker dem med 'sann' og 'usann'",
+          "Læreren sier en påstand høyt, f.eks. “Vi kan bruke håndflater for å måle bredden på en bok ”",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig regneart. Læreren skal bestemme hvordan de skal gå dit.",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye påstander."
+        ],
+        "examples": [
+          "Du kan måle klasserommet med antall skritt ✅",
+          "En person er ca 100-200 meter høy ❌",
+          "En person er ca 150-200 centimeter høy✅",
+          "Skritt kan brukes til å måle lengden på fotballbanen ✅",
+          "Håndflater kan brukes til å måle bredden på en bok ✅",
+          "Bøker kan brukes til å måle høyden på pulten ✅",
+          "Du kan ikke måle høyden på pulten med en linjal ❌",
+          "Hender kan brukes til å måle lengden på en blyant ✅"
+        ],
+        "reflection": [
+          "Hvilke måleenheter passet best til store ting? Små ting?",
+          "Hvordan ville resultatet blitt hvis vi brukte en annen måleenhet?"
+        ],
         "tips": [
-
-
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
         ],
         "extra": []
       }
@@ -740,10 +907,47 @@
           "Hvor mange ulike vinnermønstre kan dere finne i rutenettet?",
           "Hvordan kan kunnskap om mønstre hjelpe dere å planlegge trekk?"
         ],
-        "tips": [
-          "Oppmuntre bruk av farger for å markere ulike mønstre."
-        ],
+        "tips": ["Oppmuntre bruk av farger for å markere ulike mønstre."],
         "extra": []
+      }
+    },
+    {
+      "id": "C0903",
+      "title": "Bingo",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Bingokort",
+      "groupsize": "2",
+      "learning_goal": "utforske og beskrive strukturar og mønster i leik og spel",
+      "content": {
+        "introduction": [
+          "BINGO! I denne aktiviteten skal elevene finne sammenhengen blant mønster"
+        ],
+        "main": [
+          "Print ut vedlagte bingokort.",
+          "Del klassen i par og del ut bingokort til hvert par.",
+          "Læreren står foran klassen og leser høyt ulike oppgaver (se vedlagte eksempler). Dersom læreren sier en oppgave elevene har svaret på på bingokortet, setter de et kryss i ruta.",
+          "Det første paret som får éntre rekke roper “Bingo!”.",
+          "De som får bingo må forklare hvilke ruter de hadde, og hvordan de visste at de hørte sammen.",
+          "Underveis i leken kan læreren sette på en bingosang (Bingo av The Little Sunshine Kids) slik at elevene kan danse :) "
+        ],
+        "examples": [
+          "Hva er neste figur i rekken?",
+          "● ▲ ● ▲ ● ▲",
+          "■ ■ ▲ ■ ■ ▲",
+          "★ ♥ ★ ♥ ★ ♥",
+          "Mønsterrekker med tall:",
+          "2, 4, 6, 8, 10, …",
+          "5, 10, 15, 20, 25, …",
+          "1, 2, 4, 8, 16, …",
+          "Mønsterrekker med bevegelser:",
+          "Klapp, Hopp, Klapp, Hopp, Klapp, Hopp",
+          "Hopp, Hopp, Klapp, Hopp, Hopp, Klapp",
+          "Klapp, Hopp, Snurr, Klapp, Hopp, Snurr"
+        ],
+        "reflection": [],
+        "tips": ["Lag dine egene bingoark for variasjoner!"],
+        "extra": ["printout"]
       }
     },
     {
@@ -815,8 +1019,8 @@
         ],
         "extra": []
       }
-  },
-  {
+    },
+    {
       "id": "C1003",
       "title": "Kongen befaler!",
       "time": "5",
