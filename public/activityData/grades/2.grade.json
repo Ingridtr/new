@@ -1349,7 +1349,7 @@
       }
     },
     {
-      "id": "A1001",
+      "id": "A0A01",
       "title": "Slå på ring",
       "time": "15",
       "location": "Ute",
@@ -1386,7 +1386,7 @@
       }
     },
     {
-      "id": "A1002",
+      "id": "A0A02",
       "title": "Alle mann av hus",
       "time": "15",
       "location": "Ute",
@@ -1421,7 +1421,7 @@
       }
     },
     {
-      "id": "A1003",
+      "id": "A0A03",
       "title": "Hauk og due",
       "time": "15",
       "location": "Ute",
@@ -1462,7 +1462,7 @@
       }
     },
     {
-      "id": "A1101",
+      "id": "A0B01",
       "title": "Spensthopp",
       "time": "15",
       "location": "Ute",
@@ -1495,7 +1495,7 @@
       }
     },
     {
-      "id": "A1201",
+      "id": "A0C01",
       "title": "15-gjelder",
       "time": "15",
       "location": "Ute",
@@ -1532,7 +1532,7 @@
       }
     },
     {
-      "id": "A1202",
+      "id": "A0C02",
       "title": "Kongen befaler!",
       "time": "5",
       "location": "Inne",
@@ -1566,7 +1566,7 @@
 
     
     {
-      "id": "A1301",
+      "id": "A0D01",
       "title": "Strikk-leken",
       "time": "15",
       "location": "Ute",
@@ -1598,7 +1598,7 @@
       }
     },
     {
-      "id": "A1302",
+      "id": "A0D02",
       "title": "danseleken",
       "time": "5",
       "location": "Inne",

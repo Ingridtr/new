@@ -23,14 +23,25 @@ const gradeFileMap: { [key: string]: string } = {
 };
 
 // Extract learning goal number from activity ID (format: PXXYY where P is grade prefix, XX is learning goal number)
+// Updated to handle optimized format: XAYY, XBYY, XCYY, XDYY where A,B,C,D represent learning goals 10,11,12,13
 function extractLearningGoalNumber(activityId: string): number | null {
-  if (activityId.length >= 5) {
+  if (activityId.length >= 4) {
     // Check for grade prefixes: A (2nd), B (3rd), C (4th), D (5th), E (6th), F (7th)
     const gradePrefix = activityId.charAt(0);
     const validPrefixes = ['A', 'B', 'C', 'D', 'E', 'F'];
     
     if (validPrefixes.includes(gradePrefix)) {
-      // Extract XX from PXXYY format (positions 1-2 after prefix)
+      // Check for new optimized format: XAYY, XBYY, XCYY, XDYY (where A,B,C,D represent 10,11,12,13)
+      // This applies to grades 2,3,5,6,7 (prefixes A,B,D,E,F)
+      if (activityId.length >= 4 && ['A', 'B', 'D', 'E', 'F'].includes(gradePrefix)) {
+        const learningGoalChar = activityId.charAt(1);
+        if (learningGoalChar === 'A') return 10;
+        if (learningGoalChar === 'B') return 11;
+        if (learningGoalChar === 'C') return 12;
+        if (learningGoalChar === 'D') return 13;
+      }
+      
+      // Extract XX from PXXYY format (positions 1-2 after prefix) - legacy format
       const lgStr = activityId.substring(1, 3);
       const lgNum = parseInt(lgStr, 10);
       
