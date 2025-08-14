@@ -5,9 +5,9 @@
     {
       "id": "B0101",
       "title": "Pakkeleken",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne/ute",
-      "tools": "Terning, pakker/papirlapper",
+      "tools": "Terning",
       "groupsize": "4–6",
       "learning_goal": "utvikle og bruke formålstenlege strategiar for subtraksjon i praktiske situasjonar",
       "content": {
@@ -15,21 +15,23 @@
           "I denne aktiviteten skal elevene leke pakkeleken der målet er å samle så mange pakker som mulig. Her får de en forståelse av subtraksjon i hverdagslige situasjoner, da man hele tiden må gi fra seg pakker, og tilslutt regne ut hvor mange man har igjen."
         ],
         "main": [
-          "Gi alle elevene like mange pakker (f.eks. 3 hver).",
-          "Én og én kaster terningen på rundgang.",
-          "Hvis man får 6, kan man ta én pakke fra en annen i gruppa.",
-          "Fortsett i 3 minutter med stoppeklokke.",
+          "Be alle elevene finne 3 gjenstander hver (for eksempel: en bok, en blyant og en ball).",
+          "Del klassen i grupper på 4-6 elever, og fortell elevene at de 3 gjenstandene de fant, er nå pakkene deres.",
+          "Elevene i hver gruppe setter seg i en sirkel og kaster terningen på rundgang.",
+          "Hvis man får 6, kan man ta én pakke fra en annen i gruppa. Hvis man ikke får 6, sender man ternigen videre.",
+          "Sett en timer på 3 minutter.",
+          "Målet med spillet er å samle flest mulig pakker innen tiden er ute.",
           "Når tiden er ute, ser man hvem som har flest pakker."
         ],
         "examples": [
-          "Deles inn i grupper der alle har et likt antall pakker. Først skal man kaste en terning. Hvis man får 6 på terningen så kan man ta en pakke fra en annen. Etter 3 min går stoppeklokka og pakkeleken er ferdig. Hvem står igjen med flest? Hvor mange pakker mistet du?"
+          "Guri startet med 3 pakker, og fikk 6 tre ganger. Hun endte opp med 6 pakker totalt. Resten av gruppa klarte ikke å få 6. Lars startet med 3 pakker og endte opp med 0, da Guri tok alle pakkene hans."
         ],
         "reflection": [
           "Hvor mange pakker startet du med?",
           "Hvor mange pakker mistet du?"
         ],
         "tips": [
-          "Du kan bytte ut pakker med pinner, kort eller lapper for å gjøre det enklere. Du kan også bruke to terninger og kun ta pakker hvis summen blir 12."
+          "For å øke vanskelighetsgraden så kan man si at noen pakker er mer verdt enn andre, for eksempel 2 pakker. Da er det ny regel: hvis man får én sekser, så kan man kaste på nytt og hvis man da får 6 en gang til så kan man få pakken."
         ],
         "extra": []
       }
@@ -44,21 +46,22 @@
       "learning_goal": "utforske og forklare samanhengar mellom addisjon og subtraksjon og bruke det i hovudrekning og problemløysing",
       "content": {
         "introduction": [
-          "I denne aktiviteten skal elevene leke en variant av rødt og grønt lys der man starter med 10 poeng, og hvis de blir tatt",
-          "mister de ett poeng."
+          "I denne aktiviteten skal elevene leke en variant av rødt og grønt lys. Elevene starter med 10 poeng og mister ett poeng for hver gang de blir tatt."
         ],
         "main": [
-          "Regler: Alle starter med 10 poeng. Hvis en elev blir “tatt” i bevegelse, mister de 1 poeng og må gå tilbake til startlinjen.",
-          "Startposisjon: Elevene stiller seg på en felles startlinje i den ene enden av lekeområdet. Den som leder: En elev (eller læreren) står i motsatt ende med ryggen til gruppen og roper: “Rødt og grønt lys!”",
-          "Bevegelse: Når utsagnet er sagt, snur personen seg brått. I løpet av det korte øyeblikket før vedkommende snur seg, kan de andre elevene bevege seg fremover – men de må stå helt stille når blikket vender mot dem!",
-          "Observasjon og reaksjon: Den som leder roper ut navnene på elever som blir sett i bevegelse.",
-          "Poengtrekk og retur: Elever som blir “tatt” mister 1 poeng og må gå tilbake til startlinjen. Vinner: Første elev som klarer å nå frem til lederen uten å bli tatt, vinner runden – og kan overta rollen som den som leder neste gang."
+          "Elevene steller seg på en felles startlinje.",
+          "Én elev står på andre siden av området med ryggen til gruppen og roper: “1,2,3 Rødt og grønt lys!”",
+          "Alle elevene beveger seg fremover imens eleven sier regla.",
+          "Når /\"1,2,3, Rødt og grønt lys/\" er sagt, snur eleven seg, og ser på resten av klassen.",
+          "Alle elevene må da stå stille, for hvis de beveger seg så blir de tatt.",
+          "Alle starter med 10 poeng. Hvis en elev blir “tatt” i bevegelse, mister de 1 poeng og må gå tilbake til startlinjen.",
+          "Målet med spillet er å ta på ryggen til den som står på andre siden, uten å bli tatt.",
+          "Når én elev har vunnet, må alle elevene regne ut hvor mange poeng de står igjen med."
         ],
         "examples": [],
         "reflection": [
           "Hvordan holdt du oversikt over poengene dine?",
-          "Var det lettere å få mange poeng ved å være forsiktig eller å ta sjanser?",
-          "Hvordan hjalp regning deg i leken?"
+          "Var det lettere å få mange poeng ved å være forsiktig eller å ta sjanser?"
         ],
         "tips": [],
         "extra": []
@@ -69,7 +72,7 @@
       "title": "Lengdehopp",
       "time": "15",
       "location": "Ute",
-      "tools": "Tape/ kritt",
+      "tools": "Ingen",
       "groupsize": "2",
       "learning_goal": "utforske multiplikasjon ved teljing",
       "content": {
@@ -77,15 +80,19 @@
           "I denne aktiviteten skal elevene bruke kroppen for å utforske multiplikasjon: Hvor langt kommer de med ett hopp? Hva skjer hvis de hopper to eller tre ganger? Ved å måle og sammenligne lengdene får de erfare hvordan multiplikasjon fungerer i praksis."
         ],
         "main": [
-          "La elevene hoppe én gang og måle hvor langt de kommer.",
-          "Noter lengden.",
-          "Be elevene hoppe to ganger og måle total lengde.",
-          "Sammenlign: Er dette omtrent dobbelt så langt?",
-          "Fortsett med tre og fire hopp for å se mønster.",
-          "Snakk om hva som skjer når man gjentar samme lengde flere ganger."
+          "Den klassen inn i par og si at alle skal hoppe én gang. Når en i paret hopper, måler den andre.",
+          "Her kan man velge målemetoden selv- selve lengden har ikke så mye å si.",
+          "Den ene eleven i paret hopper én gang og blir stående der den landet imens den andre eleven måler lengden (eleven måler ved å for eksempel telle antall føtter)",
+          "Eleven noterer lengden til den andre.",
+          "Deretter bytter de roller.",
+          "Neste runde: La elevene nå hoppe to ganger, der de noterer lengden til begge.",
+          "Siste runde: La elevene hoppe tre ganger, der de noterer lengden til begge igjen.",
+          "Sammenlign: Er dette omtrent dobbelt så langt? Er det trippelt så langt?",
+          "Eventuelt fortsett med fire eller fem hopp for å se et mønster.",
+          "Snakk om hva som skjer når man hopper ca. samme lengde flere ganger."
         ],
         "examples": [
-          "Elev A hopper 80 cm én gang. To hopp gir 160 cm. Tre hopp gir 240 cm. Eleven oppdager at det er en multiplikasjon med 2 og 3."
+          "Elev A hopper 4 føtter første gang. Deretter hopper den 8 føtter andre gang med 2 hopp. Eleven oppdager at det er en multiplikasjon på 2."
         ],
         "reflection": [
           "Hvordan visste du at hoppene ble dobbelt eller trippelt så lange?",
@@ -93,8 +100,6 @@
           "Hvordan henger dette sammen med ganging?"
         ],
         "tips": [
-          "Bruk meterbånd eller legg ut merkelapper for å gjøre lengdemåling mer visuell. La elevene tegne en \"hopp",
-          "tabell\" i etterkant."
         ],
         "extra": []
       }
@@ -104,99 +109,140 @@
       "title": "Frakt over lava!",
       "time": "15",
       "location": "Ute",
-      "tools": "Konkreter",
-      "groupsize": "5-6",
+      "tools": "Ingen",
+      "groupsize": "5",
       "learning_goal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
       "content": {
         "introduction": [
-          "Elevene skal utforske multiplikasjon og divisjon gjennom en lek der de frakter gjenstander over et fiktivt lavagulv. Elevene skal, i grupper,  teste hvordan ulike fordelinger påvirker antall turer som trengs for å flytte et bestemt antall gjenstander. Målet er å erfare hvordan antall personer og antall gjenstander henger sammen med hvor mange ganger man må løpe."
+          "Elevene skal utforske multiplikasjon og divisjon gjennom en lek der de frakter gjenstander over et fiktivt lavagulv. Elevene skal, i grupper, teste hvordan ulike fordelinger påvirker antall turer som trengs for å flytte et bestemt antall gjenstander."
         ],
         "main": [
-          "En elev står alene på én side, resten av gruppa på den andre.",
-          "Den ene eleven må løpe frem og tilbake 4 ganger for å frakte 4 gjenstander én og én.",
-          "Neste runde: Del gruppa i to, f.eks. 2 på hver side, og frakt 4 gjenstander.",
-          "Hver elev på avsender-siden tar én gjenstand, og løper fram og tilbake én gang.",
-          "Diskuter: Hvor mange løp totalt? Hvordan endres det med ulike fordeling?",
-          "Prøv nye varianter og lag oversikt."
+          "Del klassen i grupper på 5 elever og gi hver gruppe et område de kan løpe fram og tilbake på.",
+          "Fordel fire gjenstander på den ene siden. Dette blir fraktsiden, den andre blir mottakersiden.",
+          "Regler for leken: Det er kun lov å frakte én gjenstand om gangen.",
+          "Leken består av 3 runder.",
+          "Runde 1: 1 elev skal stå på fraktsiden, de 4 resterende står på mottaakersiden. Her skal elevene forstå at de burde løpe frem og tilbake 4 ganger for å frakte 4 gjenstander.",
+          "Runde 2: Nå skal elevene ha 2 personer på fraktsiden og resten på mottakersiden. Her skal elevene forstå at de burde gå to ganger hver for å frakte de 4 gjenstandene.",
+          "Runde 3: Nå skal elevene ha 4 personer på fraktsiden og 1 person på mottakersiden. Her skal elevene forstå at de burde gå én gang hver for å frakte de 4 gjenstandene."
         ],
         "examples": [
-          "1 person frakter 4 gjenstander = 4 turer. Eksempel 2: 2 personer frakter 4 gjenstander = 1 tur hver. Total innsats kan sammenlignes."
+          "Se vedlagt illustrasjon."
         ],
         "reflection": [
-          "Hvordan kan vi samarbeide smartest?",
+          "Hvordan kan dere samarbeide smartest?",
           "Hvilken løsning gir færrest turer?",
           "Hva lærte du om sammenhengen mellom antall personer og arbeidsmengde?"
         ],
         "tips": [
-          "Bruk kritt eller tau som markering for lavagulv. ."
+          "Bruk kritt som markering for lavagulv."
         ],
-        "extra": []
+        "extra": [
+          "printOuts/B0401.png"
+        ]
       }
     },
     {
       "id": "B0501",
       "title": "Multiplikasjonsbrett",
-      "time": "15",
+      "time": "5",
       "location": "Ute",
-      "tools": "Kritt/ Tape",
+      "tools": "Kritt",
       "groupsize": "Alle",
       "learning_goal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "Elevene skal bruke kroppen til å utforske multiplikasjon ved å lage figurer i et rutenett."
+          "I denne aktiviteten skal elevene bruke kroppen til å utforske multiplikasjon ved å fordele seg i et rutenett."
         ],
         "main": [
-          "Lag et stort rutenett på bakken med kritt eller teip.",
-          "Gi en instruks som «Still dere i 3 rader med 4 i hver».",
+          "Lag et 3x3 rutenett på bakken med kritt.",
+          "Gi en instruks som «Stell dere i 3 ruter med 4 elever i hver».",
           "Elevene plasserer seg i rutene.",
-          "Spør: Hvor mange står i området? Hvordan fant dere det ut?",
-          "Repeter med ulike antall rader og kolonner.",
+          "Spør: Hvor mange står i rutenettet nå? Hvordan fant dere det ut?",
+          "Repeter med ulikt antall ruter og elever.",
           "Diskuter hvordan man kan finne svaret uten å telle én og én."
         ],
         "examples": [
-          "Elevene lager 3 rader med 4 i hver = 12 personer totalt. Neste oppgave er 5 rader med 2 i hver =",
-          "De ser at det er 3×4 og 5×2."
+          "Læreren sier: \"stell dere i 3 ruter med 4 elever i hver.\" Elevene steller seg i 3 ruter med 4 elever i hver = 12 personer totalt.",
+          "Læreren sier: \"Stell dere i 5 ruter med 2 elever i hver.\" Elevene steller seg i 5 ruter med 2 elever i hver = 5x2= 10 elever.",
+          "Læreren sier: \"Stell dere i 2 ruter med 6 elever i hver.\" Elevene steller seg i 2 ruter med 6 elever i hver = 2x6= 12 elever.",
+          "Læreren sier: \"Stell dere i 4 ruter med 3 elever i hver.\" Elevene steller seg i 4 ruter med 3 elever i hver = 4x3= 12 elever.",
+          "Læreren sier: \"Stell dere i 6 ruter med 2 elever i hver.\" Elevene steller seg i 6 ruter med 2 elever i hver = 6x2= 12 elever.",
+          "Læreren sier: \"Stell dere i 4 ruter med 5 elever i hver.\" Elevene steller seg i 4 ruter med 5 elever i hver = 4x5= 20 elever."
         ],
         "reflection": [
           "Hvordan hjalp rutenettet deg med å forstå gangestykker?",
           "Hvordan er dette annerledes enn å bare bruke tall?",
-          "Kan du forklare 3×4 som både rader og som summering?"
+          "Kan dere forklare 3×4 som både telling og ganging?"
         ],
         "tips": [
-          "Varier ved å bruke trekantformasjoner, L",
-          "formasjoner, eller tomme ruter for å vise \"hull\". La elevene tegne rutenettet og skrive regnestykket etterpå."
+          "I denne oppgaven kan du la elevene fordele seg på max 9 ruter på grunn av rutenettstørrelsen. Variér størrelsen på rutenettet etter behov."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0502",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene følge kongens instruksjoner som innebærer å gi et produkt, også må elevene fordele seg i grupper deretter."
+        ],
+        "main": [
+          "Læreren skal gi svaret på en multiplikasjonsoppgave, for eksempel 12.",
+          "Elevene skal så diskutere og fordele seg i grupper som gir dette tallet. For eksempel 3 grupper på 4 elever."
+        ],
+        "examples": [
+          "Kongen befaler: Svaret mitt er 10.",
+          "Kongen befaler: svaret mitt er 12.",
+          "Kongen befaler: svaret mitt er 8.",
+          "Kongen befaler: svaret mitt er 4.",
+          "Kongen befaler: svaret mitt er 16.",
+          "Kongen befaler: svaret mitt er 12, men fordel dere ulikt fra sist gang jeg sa 12.",
+          "Kongen befaler: svaret mitt er 16, men fordel dere ulikt fra sist gang jeg sa 16."
+        ],
+        "reflection": [
+          "Hva lærte dere om multiplikasjon gjennom denne aktiviteten?",
+          "Opplevde dere at det var flere gruppeformasjoner som kunne gi samme svar?",
+          "Hvordan kan dere bruke dette i andre sammenhenger?"
+          
+        ],
+        "tips": [ "Variér vanskelighetsgraden etter nivået til elevene."
         ],
         "extra": []
       }
     },
     {
       "id": "B0601",
-      "title": "Hent x 2",
-      "time": "15",
-      "location": "Ute",
+      "title": "Multipliser!",
+      "time": "5",
+      "location": "Inne/ute",
       "tools": "Ingen",
-      "groupsize": "2-3",
+      "groupsize": "Alle",
       "learning_goal": "bruke kommutative, assosiative og distributive eigenskapar til å utforske og beskrive strategiar i multiplikasjon",
       "content": {
         "introduction": [
-          "Elevene skal hente gjenstander i grupper og utforske hvordan mengder fordeler seg likt i multiplikasjon."
+          "I denne aktiviten skal elevene hente gjenstander i grupper og utforske hvordan mengder fordeler seg likt ved multiplikasjon."
         ],
         "main": [
-          "Læreren sier: «Alle henter to ting hver.» Elevene går og henter.",
-          "Neste runde: Elevene går sammen to og to og henter 4 ting til sammen.",
-          "Siste runde: Elevene går sammen tre og tre og henter 6 ting til sammen.",
-          "Diskuter: Hvor mange hentet hver elev? Var det samme? Hvorfor?"
+          "Første runde: Alle henter to ting hver. \"Hvor mange gjenstander har du til sammen nå?\"",
+          "Andre runde: Elevene går sammen to og to og henter 2 nye gjenstander hver. \"Hvor mange gjenstander har dere til sammen nå?\"",
+          "Tredje runde: Elevene går sammen tre og tre og henter 2 nye gjenstander hver. \"Hvor mange gjenstander har dere til sammen nå?\""
         ],
         "examples": [
-          "Elev A henter 2 ting alene. Så går A sammen med B, og de henter 4 til sammen (= 2 hver). Til slutt er A med B og C, og de henter 6 til sammen (= fortsatt 2 hver)."
+          "Elev A henter 2 ting alene. Så går A sammen med B, og de henter 4 gjenstander til sammen (= 2 hver). Til slutt er A, B og C sammen, og de henter 6 gjenstander (= fortsatt 2 hver)."
         ],
         "reflection": [
-          "Klarte du å finne ut hvor mange hver hentet – uten å telle alt? Hvordan ser du at 3×2 = 2×3?",
-          "Hva skjer hvis vi snur antall elever og antall ting per elev?",
-          "Hvordan hjelper det å tenke på grupper?"
+          "Ser dere noe mønster?",
+          "Hvis dere nå hadde gått sammen i grupper på 4 elever, hvor mange gjenstander hadde dere hatt til sammen da?",
+          "Hvordan kan dette knyttes til multiplikasjon?"
         ],
         "tips": [
-          "Bruk konkreter som er lett å telle og dele opp. La elevene lage tegning eller tabell etterpå: 1×2, 2×2, 3×2."
+          "Bruk konkreter som er lett å telle og dele opp."
         ],
         "extra": []
       }
@@ -204,9 +250,9 @@
     {
       "id": "B0701",
       "title": "Detektiv- Hvem er hvem?",
-      "time": "5,15",
+      "time": "5",
       "location": "Inne",
-      "tools": "Rollelapper",
+      "tools": "Ingen",
       "groupsize": "Alle",
       "learning_goal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
       "content": {
@@ -214,10 +260,10 @@
           "Elevene skal bruke dialog og observasjon for å finne ut hvem som har samme rolle som dem – uten å si det rett ut."
         ],
         "main": [
-          "Gi hver elev en hemmelig rolle (f.eks. politimann, postmann, tyv, prinsesse).",
-          "Elevene går rundt og stiller spørsmål til hverandre i 5,15 minutter – uten å si nøyaktig hva de er.",
+          "Gi hver elev en hemmelige rolle: politimann, postmann, tyv eller prinsesse.",
+          "Elevene går rundt og stiller spørsmål til hverandre i 2 minutter – uten å si nøyaktig hva de er.",
           "De kan gi hint og svare på spørsmål.",
-          "Etter 5 minutter spør læreren: «Hvem tror du er lik deg?»",
+          "Etter 2 minutter spør læreren: «Hvem tror du er lik deg?»",
           "Elevene stiller seg i grupper etter hva de tror.",
           "Avslør rollene og diskuter hvem som var like og ulike."
         ],
@@ -227,11 +273,11 @@
         "reflection": [
           "Hvordan visste du hvem som hadde lik rolle som deg?",
           "Hvilke uttrykk og svar brukte dere for å sammenligne?",
-          "Hvordan er det å finne ut likhet uten å si det direkte?",
+          "Hvordan er det å finne likhet?",
           "Hva betyr «lik» og «ulik» i matte?"
         ],
         "tips": [
-          "Bruk tydelige rollekort og øv på begreper som \"lik\", \"ulik\", \"samme som\", \"forskjellig fra\". Variér med mengder eller tall neste gang (f.eks. brøker, mengde kort)."
+          "Øv på begreper som lik\", \"ulik\", \"samme som\", \"forskjellig fra\". Lag nye roller hvis man skal gjøre den igjen."
         ],
         "extra": []
       }
@@ -246,26 +292,25 @@
       "learning_goal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
       "content": {
         "introduction": [
-          "Elevene skal utforske balanse ved å være med i en konkurranse mellom to lag med ulikt antall elever."
+          "Elevene skal utforske balanse ved å ha en drakamp mellom to lag med ulikt antall elever."
         ],
         "main": [
-          "Del klassen i to lag: Lag 1 har 5 elever, lag 2 har 3 elever.",
-          "La elevene konkurrere i en fysisk oppgave som krever balanse (f.eks. tautrekking, dra en matte, skyve en gjenstand).",
-          "Øk antallet i lag 2 med én elev for hver runde.",
-          "Etter hver runde diskuterer klassen hva som skjedde.",
-          "Bruk begreper som balanse, likevekt, ujevn fordeling.",
-          "Til slutt: 5 mot 5 – observer hva som skjer når det er like mange."
+          "Del klassen i to lag: Lag 1 skal ha flere elever enn lag 2.",
+          "Marker midten med kritt.",
+          "La elevene konkurrere i tautrekking.",
+          "Målet er å få det andre laget helt over midten.",
+          "I runde 2 fordeler man lagene slik at det er like mange elever i hvert lag.",
+          "La elevene konkurrere i tautrekking igjen.",
+          "Til slutt: la elevene reflektere rundt likheten og ulikheten i balansen: var det lettere å vinne den første runden enn den andre runden?"
         ],
         "examples": [
-          "Lag 1 (5 elever) trekker lett mot lag 2 (3 elever). I neste runde: 5 mot 4 – fortsatt ubalanse. I siste runde: 5 mot 5 – ingen av lagene klarer å dra de andre – balanse!"
         ],
         "reflection": [
           "Hva betyr likevekt i denne leken?",
-          "Hva skjedde da det var like mange på hvert lag?",
-          "Hvordan kan vi forklare det med en tegning  eller med piler som viser styrke?"
-        ],
+          "Hva skjedde da det var like mange på hvert lag?"
+          ],
         "tips": [
-          "Bruk tau, matter eller kjegler. La elevene tegne hva som skjer på en vektstang eller med piler som viser styrke."
+          "Bruk begreper som balanse, likevekt, ulikhet og ujevn fordeling."
         ],
         "extra": []
       }
@@ -275,31 +320,30 @@
       "title": "Gjett vannmengden!",
       "time": "15",
       "location": "Inne/ute",
-      "tools": "Fylte kopper, Dl-mål, Litermål, Bøtter",
-      "groupsize": "3-4",
+      "tools": "Ulike beholdere",
+      "groupsize": "4-5",
       "learning_goal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
       "content": {
         "introduction": [
           "Elevene skal utforske ulike måleenheter for volum ved å anslå og diskutere hvor mye vann forskjellige beholdere rommer."
         ],
         "main": [
-          "Læreren setter ut beholdere med ulik størrelse fylt med vann (f.eks. kopp, dl-mål, bøtte).",
+          "Læreren setter ut beholdere med ulik størrelse fylt med vann (f.eks. kopp, litermål, bøtte).",
           "Gi referanser: f.eks. “Bøtta rommer maks 10L.”",
           "Elevene skal i grupper anslå hvor mye vann hver beholder rommer, i dl eller liter.",
-          "Be elevene forklare hvorfor de tror det de tror – bruk begrep som dl, L, forhold, størrelser.",
+          "Be elevene begrunne svaret deres – bruk begrep som dl, L, forhold, størrelser.",
           "Snakk sammen i klassen etterpå: Hvilke gjetninger var gode? Hvorfor?"
         ],
         "examples": [
-          "Elevgruppe A mener koppen rommer 2 dl fordi de vet en vanlig kopp er omtrent 2/10 av en liter. De bruker det til å anslå hvor mange kopper som trengs for å fylle en 1L",
-          "karaffel."
+          "Elevgruppe A mener koppen rommer 2 dl fordi de vet en vanlig kopp er omtrent 2/10 av en liter. De bruker det til å anslå hvor mange kopper som trengs for å fylle en 1L karaffel."
         ],
         "reflection": [
+          "Hvordan hjalp det å ha referansepunkter?",
           "Hvordan visste dere hvilken enhet som passet best?",
-          "Hvorfor valgte dere å bruke liter eller desiliter?",
-          "Hvordan hjalp det å ha referansepunkter?"
+          "Hvorfor valgte dere å bruke liter eller desiliter?"
         ],
         "tips": [
-          "La elevene bruke målebeger etterpå for å teste egne anslag. Variér med tomme og fylte beholdere. Bruk sand eller ris istedenfor vann om ønskelig."
+          "For ekstra utfordring: De elevene som trenger ekstra utfordring kan bli spurt om å gjøre om fra sin enhet til en valgfri annen."
         ],
         "extra": []
       }
@@ -309,7 +353,7 @@
       "title": "Bygg papirtårn!",
       "time": "15",
       "location": "Inne",
-      "tools": "Papir, teip, linjal",
+      "tools": "Papir, Teip, Linjal",
       "groupsize": "3–4",
       "learning_goal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
       "content": {
@@ -336,7 +380,7 @@
     },
     {
       "id": "B1001",
-      "title": "Speideren",
+      "title": "Danseleken!",
       "time": "15",
       "location": "Ute",
       "tools": "Kritt/teip, musikk",
@@ -344,7 +388,7 @@
       "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
       "content": {
         "introduction": [
-          "Elevene beveger seg fritt i et stort koordinatsystem og beskriver posisjonen sin i forhold til læreren i origo."
+          "Elevene beveger seg fritt i et stort koordinatsystem og beskriver posisjonen sin i forhold til læreren som står i origo."
         ],
         "main": [
           "Lag et stort rutenett på bakken (f.eks. 5x5 ruter). Læreren står i origo (nede til venstre).",
@@ -360,10 +404,11 @@
         "reflection": [
           "Forklarte du plasseringen din så andre kunne skjønne hvor du sto?",
           "Hvilke ord brukte du for å vise retning eller avstand?",
-          "Hva gjør det lettere å forstå hvor noen er i rutenettet?"
+          "Er det noen andre måter dere kan beskrive posisjonene deres på?"
         ],
-        "tips": [
-          "Bruk også begreper som “foran”, “bak”, “på linje med” hvis det passer. Senere kan man innføre tallpar: (x,y)."
+        "tips": [        
+
+
         ],
         "extra": []
       }
@@ -373,7 +418,7 @@
       "title": "Stolleken",
       "time": "15",
       "location": "Inne",
-      "tools": "Stoler",
+      "tools": "Koordinatlapper",
       "groupsize": "Alle",
       "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
       "content": {
@@ -381,25 +426,24 @@
           "Klasserommet gjøres om til et koordinatsystem hvor elevene konkurrerer om å finne riktig koordinat."
         ],
         "main": [
+          "Læreren skriver et koordinat på hvert ark: (1,1), (1,2),(1,3), (1,4), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4), (4,1), (4,2), (4,3), (4,4).",
+          "Legg ett ark på hver stol som tilsvarer koordinatsystemet.",
           "Plasser stoler i rader og kolonner som et koordinatsystem (f.eks. 4x4).",
           "Forklar at hver stol har et koordinat (f.eks. (2,3)).",
           "La elevene bevege seg fritt i rommet.",
           "Når læreren sier et koordinat, skal elevene finne stolen og sette seg så fort de kan.",
-          "Den som setter seg først, får poeng eller ros.",
+          "Den som setter seg først, vinner runden",
           "Gjenta med ulike koordinater og øk vanskelighetsgraden etter hvert."
         ],
         "examples": [
-          "Læreren sier: “Finn (3,2)!” – Elev A løper til rad 3, kolonne 2 og setter seg først."
+          "Læreren sier: “Finn (3,2)!” – Elev A løper til stol med lapp (3,2) og setter seg først."
         ],
         "reflection": [
-          "Hvordan fulgte du instruksjonene for å finne riktig koordinat?",
-          "Var det lett å forstå retningen?",
-          "Hvordan hjalp det å tenke i rader og kolonner?"
+          "Har noen et forslag til hva tallene betyr?",
+          "Kan tallene kobles til avstand eller retning?"
         ],
         "tips": [
-          "Lag tallakse på gulvet eller veggen så det er tydelig hva som er x",
-          "og y",
-          "retning. Øv først i rolig tempo før konkurransedelen."
+          "For ekstra utfordring kan man bytte på hvem som sier koordinatene."
         ],
         "extra": []
       }

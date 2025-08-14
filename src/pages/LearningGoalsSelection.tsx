@@ -1,14 +1,17 @@
 import LearningGoals from "../components/LearningGoals";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Breadcrumb from "../components/Breadcrumb";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import FilterButton from "../components/FilterButton";
 import { getGradeColors } from "../utils/gradeColors";
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
 
 function LearningGoalsSelection() {
   const navigate = useNavigate();
+  const breadcrumbs = useBreadcrumbs();
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
@@ -16,7 +19,9 @@ function LearningGoalsSelection() {
   }, []);
 
   // Get background color based on selected grade
-  const gradeColors = selectedGrade ? getGradeColors(selectedGrade) : { pageBackground: "bg-gray-50" };
+  const gradeColors = selectedGrade
+    ? getGradeColors(selectedGrade)
+    : { pageBackground: "bg-gray-50" };
   const pageBackgroundClass = gradeColors.pageBackground;
 
   return (
@@ -24,7 +29,15 @@ function LearningGoalsSelection() {
       <Navbar backgroundColor={pageBackgroundClass} />
 
       <div className="flex-1">
+        <button
+          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          onClick={() => navigate("/grade")}
+          aria-label="Lukk aktivitetsside og gå tilbake"
+        >
+          ×
+        </button>
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
           <div className="mb-8">
             <FilterButton
               text={` ${selectedGrade}`}

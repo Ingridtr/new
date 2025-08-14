@@ -3,17 +3,19 @@ import FilterButton from "../components/FilterButton";
 import Footer from "../components/Footer";
 import GameCard from "../components/GameCard";
 import Navbar from "../components/Navbar";
+import Breadcrumb from "../components/Breadcrumb";
 import { useEffect, useState } from "react";
 
 import useActivities from "../components/GetActivity";
 import { getGradeColors } from "../utils/gradeColors";
-
+import { useBreadcrumbs } from "../hooks/useBreadcrumbs";
+import { getLearningGoalLabel } from "../utils/learningGoalMapping";
 
 function GameSelection() {
   const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
   const [selectedGoal, setSelectedGoal] = useState<string | null>(null);
   const [isInitialized, setIsInitialized] = useState(false);
-  
+
   useEffect(() => {
     const storedGrade = localStorage.getItem("selectedGrade");
     const storedGoal = localStorage.getItem("selectedLearningGoal");
@@ -23,15 +25,18 @@ function GameSelection() {
   }, []);
 
   const navigate = useNavigate();
-  
+  const breadcrumbs = useBreadcrumbs();
+
   // Only fetch activities after we've initialized the state from localStorage
   const { activities, loading } = useActivities(
-    isInitialized ? selectedGrade : null, 
+    isInitialized ? selectedGrade : null,
     isInitialized ? selectedGoal : null
   );
 
   // Get background color based on selected grade
-  const gradeColors = selectedGrade ? getGradeColors(selectedGrade) : { pageBackground: "bg-gray-50" };
+  const gradeColors = selectedGrade
+    ? getGradeColors(selectedGrade)
+    : { pageBackground: "bg-gray-50" };
   const pageBackgroundClass = gradeColors.pageBackground;
 
   // Show loading while initializing from localStorage
@@ -68,7 +73,17 @@ function GameSelection() {
       <Navbar backgroundColor={pageBackgroundClass} />
 
       <div className="flex-1">
+        <button
+          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          onClick={() => navigate("/grade/learninggoals")}
+          aria-label="Lukk aktivitetsside og gå tilbake"
+        >
+          ×
+        </button>
+
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <Breadcrumb items={breadcrumbs} className="mb-6" />
+
           <div className="flex gap-4 mb-8 flex-wrap">
             {selectedGrade && (
               <FilterButton
@@ -81,8 +96,28 @@ function GameSelection() {
             {selectedGoal && (
               <FilterButton
                 text={(() => {
-                  const goalText = selectedGoal.includes(':') ? selectedGoal.split(': ')[1] : selectedGoal;
-                  return goalText.charAt(0).toUpperCase() + goalText.slice(1);
+                  // Extract the goal text (remove "Kompetansemål X:" prefix if present)
+                  const goalText = selectedGoal.includes(":")
+                    ? selectedGoal.split(": ")[1]
+                    : selectedGoal;
+
+                  // Get the index from the selectedGoal string (e.g., "Kompetansemål 1:" -> index 0)
+                  const goalMatch = selectedGoal.match(
+                    /Kompetansemål\s+(\d+)/i
+                  );
+                  const goalIndex = goalMatch
+                    ? parseInt(goalMatch[1], 10) - 1
+                    : 0;
+
+                  // Use the mapping function to get the proper label
+                  const displayLabel = selectedGrade
+                    ? getLearningGoalLabel(selectedGrade, goalText, goalIndex)
+                    : `Kompetansemål ${goalIndex + 1}`;
+
+                  // Return the display label or fallback to capitalized goal text
+                  return displayLabel.includes("Kompetansemål")
+                    ? goalText.charAt(0).toUpperCase() + goalText.slice(1)
+                    : displayLabel;
                 })()}
                 onClick={() => navigate("/grade/learninggoals")}
                 grade={selectedGrade || undefined}
@@ -90,29 +125,36 @@ function GameSelection() {
             )}
           </div>
           <h1 className="text-3xl font-bold mb-6">Velg aktivitet</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center ">
             {activities.map((activity, index) => {
               const handleGameClick = () => {
                 localStorage.setItem("selectedGame", activity.title);
                 localStorage.setItem("selectedGameId", activity.id);
                 localStorage.setItem("selectedGameImage", activity.image);
-                localStorage.setItem("selectedActivity", JSON.stringify(activity)); 
+                localStorage.setItem("previousPage", "/gameSelection"); // Store where we came from
+                localStorage.setItem(
+                  "selectedActivity",
+                  JSON.stringify(activity)
+                );
                 navigate("/infoTask");
               };
-              console.log("Aktivitet:", activity.title);
-              console.log("Aktivitet ID:", activity.time);
-              console.log("Aktivitet bilde:", activity.tools);
 
               return (
                 <GameCard
                   key={index}
                   title={activity.title}
                   image={activity.image}
-                  time={`${activity.time} min`}
+                  time={`${activity.time}`}
                   location={activity.location}
-                  tools={Array.isArray(activity.tools) ? activity.tools.join(", ") : activity.tools}
+                  tools={
+                    Array.isArray(activity.tools)
+                      ? activity.tools.join(", ")
+                      : activity.tools
+                  }
                   learningGoal={activity.learningGoals}
                   onClick={handleGameClick}
+                  activityId={activity.id}
+                  showHeartButton={true}
                 />
               );
             })}

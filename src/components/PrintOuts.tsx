@@ -7,7 +7,6 @@ interface PrintOutComponentProps {
 
 function PrintOutComponent({ id, title, extra }: PrintOutComponentProps) {
   const handlePrint = () => {
-    // Separate images, docx files, and PDFs
     const images = extra.filter(src => 
       src.toLowerCase().endsWith('.png') || 
       src.toLowerCase().endsWith('.jpg') || 
@@ -24,6 +23,10 @@ function PrintOutComponent({ id, title, extra }: PrintOutComponentProps) {
       src.toLowerCase().endsWith('.pdf')
     );
 
+    const pdfFiles = extra.filter(src => 
+      src.toLowerCase().endsWith('.pdf')
+    );
+
     // Download docx files directly
     docxFiles.forEach(src => {
       const link = document.createElement('a');
@@ -34,7 +37,6 @@ function PrintOutComponent({ id, title, extra }: PrintOutComponentProps) {
       document.body.removeChild(link);
     });
 
-    // Download PDF files directly
     pdfFiles.forEach(src => {
       const link = document.createElement('a');
       link.href = src;
