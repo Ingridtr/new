@@ -705,6 +705,34 @@
       }
     },
     {
+      "id": "C0703",
+      "title": "Finn en venn!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, beskrive og samanlikne eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal hver elev finne en gjenstand hver og deretter finne en venn i klassen som har tilsvarende figur på gjenstanden."
+        ],
+        "main": [
+          "Si til elevene at de skal finne en gjenstand hver som har en geometrisk figur de kjenner til. De må klare å navngi figuren",
+          "Etter 2 minutter ber du elevene møtes i midten. Nå skal de finne en i klassen som har tilsvarende figur på sin gjenstand!",
+          "Her må elevene være kreative"
+        ],
+        "examples": [
+          "En elev finner en bok de mener er en firkant mens en annen finner en kortstokk-som også er en firkant!"
+        ],
+        "reflection": [
+          "Hvordan klarte dere å finne en medelev med samme geometriske figur?",
+          "Var det vanskelig å finne en gjenstand med en figur dere kjenner til?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
       "id": "C0801",
       "title": "Kroppsmål",
       "time": "15",
@@ -774,6 +802,45 @@
           "Hvordan ville resultatet blitt hvis vi brukte en annen måleenhet?"
         ],
         "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "C0803",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke ikkje-standardiserte måleiningar for areal og volum i praktiske situasjonar og grunngi valet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene gå til den veggen de mener har rett svar til påstanden"
+        ],
+        "main": [
+          "Velg to vegger og marker dem med 'sann' og 'usann'",
+          "Læreren sier en påstand høyt, f.eks. “Vi kan bruke håndflater for å måle bredden på en bok ”",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig regneart. Læreren skal bestemme hvordan de skal gå dit.",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye påstander."
+        ],
+        "examples": [
+          "Du kan måle klasserommet med antall skritt ✅",
+          "En person er ca 100-200 meter høy ❌",
+          "En person er ca 150-200 centimeter høy✅",
+          "Skritt kan brukes til å måle lengden på fotballbanen ✅",
+          "Håndflater kan brukes til å måle bredden på en bok ✅",
+          "Bøker kan brukes til å måle høyden på pulten ✅",
+          "Du kan ikke måle høyden på pulten med en linjal ❌",
+          "Hender kan brukes til å måle lengden på en blyant ✅"
+        ],
+        "reflection": [
+          "Hvilke måleenheter passet best til store ting? Små ting?",
+          "Hvordan ville resultatet blitt hvis vi brukte en annen måleenhet?"
+        ],
+        "tips": [
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
+        ],
         "extra": []
       }
     },
