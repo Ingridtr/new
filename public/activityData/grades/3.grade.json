@@ -879,6 +879,47 @@
       }
     },
     {
+      "id": "B0803",
+      "title": "Levende vektstang",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "3-4",
+      "learning_goal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal en elev være en levende vektstang og bruke armene for å vise om to gjenstander veier like mye eller ikke."
+        ],
+        "main": [
+          "Del elevene i grupper på 3–4.",
+          "Én elev i hver gruppe står med armene strakt ut til siden – dette er 'vektstangen'.",
+          "De andre i gruppa finner forskjellige gjenstander ute eller i klasserommet, og legger én i hver av vektstangens hender.",
+          "Vektstangen vurderer vekten:",
+          "Hvis det føles som like mye: Hever begge armene like høyt (balanse).",
+          "Hvis den ene siden føles tyngre: Senker armen på den tunge siden og løfter den andre (ubalanse).",
+          "Etterpå bytter de på hvem som er vektstang, slik at alle får prøve.",
+          "Diskuter i gruppa hva som skapte balanse eller ubalanse."
+        ],
+        "examples": [
+          "Lett: En bok vs. en annen bok i samme størrelse → armene holdes like høyt.",
+          "Lett: En blyant vs. en stor viskelær → blyantsiden heves, viskelærsiden senkes.",
+          "Middels: To klosser i ulik størrelse – vurdere hvilken som føles tyngst.",
+          "Middels: En liten ball vs. en kopp med litt vann – oppdage at vannet er tyngre.",
+          "Vanskelig: To gjenstander som ser like store ut, men som veier ulikt – mer usikker vurdering."
+        ],
+        "reflection": [
+          "Hvordan kunne du kjenne forskjell på vekten uten å bruke en ordentlig vekt?",
+          "Hva var lett å vurdere og hva var vanskelig?",
+          "Hvordan kan vi vise balanse og ubalanse på andre måter enn med kroppen?"
+        ],
+        "tips": [
+          "Bruk gjenstander med tydelig vektforskjell først, og øk vanskeligheten etter hvert."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B0901",
       "title": "Gjett vannmengden!",
       "time": "15",
@@ -942,6 +983,56 @@
       }
     },
     {
+      "id": "B0903",
+      "title": "Målesjefen befaler",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten er læreren 'målesjefen' og gir kommandoer som får elevene til å bruke ulike måleenheter i bevegelses- og vurderingsoppgaver."
+        ],
+        "main": [
+          "Læreren er målesjefen og roper ut en oppgave som involverer en måleenhet for lengde eller masse.",
+          "Elevene må utføre oppgaven fysisk – for eksempel gå en viss avstand, finne noe som veier omtrent en viss masse, eller strekke ut armer for å vise lengde.",
+          "Etter at oppgaven er utført, spør læreren hvorfor den aktuelle måleenheten passet.",
+          "Variér mellom oppgaver som måler korte, mellomlange og lange avstander, samt lette og tunge gjenstander.",
+          "Kjør mange korte runder for høyt tempo og variasjon."
+        ],
+        "examples": [
+          "Lette oppgaver:",
+          "'Målesjefen befaler: gå 1 meter frem!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 1 kilo!'",
+          "",
+          "Middels oppgaver:",
+          "'Målesjefen befaler: stå med beina en halv meter fra hverandre!'",
+          "'Målesjefen befaler: finn noe som er ca. 10 cm langt!'",
+          "'Målesjefen befaler: finn en gjenstand som er ca. 30 cm lang!'",
+
+          "",
+          "Vanskelige oppgaver:",
+          "'Målesjefen befaler: gå 2,5 meter bakover uten å måle!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 2 kilo!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 500 gram!'"
+
+        ],
+        "reflection": [
+          "- Hvordan vurderte du hvor langt eller tungt noe var?",
+          "- Når passer det best å bruke meter, centimeter eller millimeter?",
+          "- Når passer det best å bruke kilo, gram eller milligram?"
+        ],
+        "tips": [
+          "Bruk kjente avstander i rommet (f.eks. fra tavla til døra) som referanse.",
+          "La elevene selv få være målesjef og finne på oppgaver.",
+          "Legg til bevegelseskrav som hopp, snurr eller hink for ekstra moro."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B1001",
       "title": "Danseleken!",
       "time": "15",
@@ -969,7 +1060,118 @@
           "Hvilke ord brukte du for å vise retning eller avstand?",
           "Er det noen andre måter dere kan beskrive posisjonene deres på?"
         ],
-        "tips": [],
+        "tips": ["Sett på musikk for å gjøre det ekstra gøy"],
+        "extra": []
+      }
+    },
+    {
+      "id": "B1002",
+      "title": "Senk skipene",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "Alle",
+      "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten spiller vi en enkel, fysisk versjon av 'Senk skip'. Elevene plasserer skip hemmelig ved å stå i ruter mens motstanderlaget står med ryggen til. Læreren noterer koordinatene og sier treff/bom underveis."
+        ],
+        "main": [
+          "Lag banen: Marker et rutenett på gulvet (start 4×4: kolonner A–D, rader 1–4). Læreren står ved siden av som dommer.",
+          "Del i to lag og avtal antall skip per lag (f.eks. 2–3 elever/skip).",
+          "Lag 1 plasserer: Lag 2 står med ryggen til banen. Elever fra Lag 1 går stille ut og stiller seg i valgte ruter. Læreren noterer koordinatene (f.eks. A3, C1).",
+          "Lag 2 plasserer: Bytt. Lag 1 snur ryggen til. Lag 2 går ut og stiller seg i ruter. Læreren noterer.",
+          "Spillet begynner: Lagene gjetter annenhver gang én koordinat (f.eks. «B2»).",
+          "Dommer svarer umiddelbart: «Treff!» eller «Bom!». Ved treff: Elevene som sto i den ruta setter seg ned(skipet er senket).",
+          "Fortsett runder raskt til ett lag har fått senket alle motstanderens skip, eller tiden (5 min) er ute."
+        ],
+        "examples": [
+          "Rutenett 3×3 (A–C, 1–3), 1 skip per lag, 30–60 sekunder plasseringsfase, 3–4 gjetterunder.",
+          "Rutenett 4×4 (A–D, 1–4), 2 skip per lag, 5–6 gjetterunder.",
+          "Rutenett 5×5 (A–E, 1–5), 3 små skip per lag (1 elev per skip) for større klasse."
+        ],
+        "reflection": [
+          "Hvordan husket du bokstav- (kolonne) og tall- (rad) rekkefølgen?",
+          "Hva var en smart måte å lete på i rutenettet (systematisk søk)?",
+          "Hva kunne laget ditt gjort annerledes neste runde?"
+        ],
+        "tips": [
+          "Hold hemmeligheten: Minner laget på å se ned/holde ryggen til mens motstanderen plasserer.",
+          "Tempo: Begrens tenketid til 3–5 sekunder per gjetting («3–2–1, si koordinat!»)."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "B1003",
+      "title": "Koordinatkongen befaler!",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "4-6",
+      "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg til bestemte koordinater og øve på å forklare plassering i koordinatsystemet på en trygg og leken måte."
+        ],
+        "main": [
+          "Tegn opp et stort koordinatsystem på bakken med kritt (f.eks. 5x5 eller 6x6). Marker aksene tydelig med tall.",
+          "Del klassen inn i grupper på 4–6 elever.",
+          "Læreren er 'Koordinatkongen' og roper ut kommandoer som: 'Koordinatkongen befaler: Gå til (2,3)!'",
+          "Gruppene diskuterer raskt sammen hvor de tror koordinatet er, og velger én person som skal stelle seg på det de tror er koordinatet.",
+          "Når alle har funnet plassene sine, snakk sammen i hel gruppe: Hvordan fant dere veien dit? Hva betyr det første og det andre tallet?",
+          "Gjenta med flere koordinater og variér tempo og vanskelighetsgrad."
+        ],
+        "examples": [
+          "Læreren sier: 'Koordinatkongen befaler: Gå til (1,4)!' og gruppene diskuterer og går dit . Lærer spør: 'Hvordan fant dere plassen?' og en gruppe svarer: 'Vi gikk én til høyre og fire opp.'"
+        ],
+        "reflection": [
+          "Hvordan fant dere riktig koordinat?",
+          "Hva betyr det første og det andre tallet i et koordinat?",
+          "Hva kunne dere ha forklart bedre hvis noen ikke skjønte hvor dere gikk?"
+        ],
+        "tips": [
+          "Ha gjerne med noen tullekommandoer uten 'Koordinatkongen befaler' for å gjøre det gøy.",
+          "Unngå å spørre enkeltpersoner – la elevene tenke og svare i grupper."
+        ],
+        "extra": []
+      }
+    },
+     {
+      "id": "B1004",
+      "title": "Hermegåsa!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Et merket koordinatområde (f.eks. tape på gulvet eller ruter på uteplassen)",
+      "groupsize": "Par",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg som i et koordinatsystem, der de går først horisontalt (langs x-aksen) og deretter vertikalt (langs y-aksen). Den ene i paret går et mønster, og den andre må først herme bevegelsen, og deretter beskrive den i form av hvor mange skritt det var i hver retning."
+        ],
+        "main": [
+          "Del elevene inn i par og marker et startpunkt (0,0) for alle.",
+          "Person A går først: et antall skritt til høyre/venstre (x-retning), deretter et antall skritt frem/bakover (y-retning).",
+          "Person B observerer, men sier ingenting ennå.",
+          "Når Person A er ferdig, går Person B **akkurat samme antall skritt** i samme retninger.",
+          "Etter at Person B har gått, sier han/hun høyt hvor mange skritt det var i x-retning og y-retning.",
+          "Bytt roller etter hvert mønster.",
+          "Regel: All bevegelse må gjøres i to deler – først horisontalt, så vertikalt."
+        ],
+        "examples": [
+          "Person A går 3 skritt til høyre, 2 skritt frem → Person B går 3 skritt til høyre, 2 skritt frem → sier: «3 høyre, 2 frem».",
+          "Person A går 4 skritt til venstre, 1 skritt tilbake → Person B går 4 skritt til venstre, 1 skritt tilbake → sier: «4 venstre, 1 tilbake».",
+          "Person A går 2 skritt til høyre, 3 skritt tilbake → Person B går 2 skritt til høyre, 3 skritt tilbake → sier: «2 høyre, 3 tilbake»."
+        ],
+        "reflection": [
+          "Hva var lettest – å gå bevegelsen eller å huske og si hvor mange skritt?",
+          "Hvordan hjelper denne øvelsen oss å tenke i koordinater?",
+          "Hva skjer hvis vi bytter om på rekkefølgen?"
+        ],
+        "tips": [
+          "Start med små tall (1–4 skritt) før dere øker.",
+          "Bruk tydelige steg og pauser mellom x- og y-bevegelse for å gjøre det lettere å følge."
+        ],
         "extra": []
       }
     },
@@ -1004,6 +1206,80 @@
         ],
         "tips": [
           "For ekstra utfordring kan man bytte på hvem som sier koordinatene."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "B1102",
+      "title": "Kodejakt",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt, instruksjonskort",
+      "groupsize": "3-6",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene følge trinnvise instruksjoner og bevege seg i et koordinatsystem for å finne en skjult kode."
+        ],
+        "main": [
+          "Lag et stort 5x5 koordinatsystem på bakken (f.eks. 6x6). Marker aksene tydelig med tall.",
+          "Del klassen inn i grupper på 3-6 elever.",
+          "Hver gruppe får utdelt et kort med instruksjoner, for eksempel: 'Start på (0,0). Gå 2 opp, 1 til høyre, 1 ned, 3 til høyre.'",
+          "Elevene følger instruksjonene og ender opp på et nytt koordinat. Der finner de en bokstav (lagt ut av læreren).",
+          "Når alle grupper har funnet sin bokstav, samler klassen bokstavene og finner ut hvilket ord eller kode de danner."
+        ],
+        "examples": [
+          "Gruppen starter på (0,0) og følger instruksjonen: 2 opp, 1 høyre, 1 ned, 3 høyre – de ender på (4,1) og finner bokstaven 'K'."
+        ],
+        "reflection": [
+          "Hvordan visste dere hvor dere skulle gå?",
+          "Hva skjedde da dere fulgte instruksjonene feil?",
+          "Hvordan kan vi lage egne instrukser for å sende andre til bestemte koordinater?"
+        ],
+        "tips": [
+          "La elevene lage egne instruksjoner og bytte med en annen gruppe.",
+          "Du kan bruke ulike farger på kortene for å ha flere oppgavesett i sving samtidig."
+        ],
+        "extra": [
+          "printOuts/B1102.png"
+        ]
+      }
+    },
+    {
+      "id": "B1103",
+      "title": "Hermegåsa",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Et merket koordinatområde (f.eks. tape på gulvet eller ruter på uteplassen)",
+      "groupsize": "Par",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg som i et koordinatsystem, der de går først horisontalt (langs x-aksen) og deretter vertikalt (langs y-aksen). Den ene i paret går et mønster, og den andre må først herme bevegelsen, og deretter beskrive den i form av hvor mange skritt det var i hver retning."
+        ],
+        "main": [
+          "Del elevene inn i par og marker et startpunkt (0,0) for alle.",
+          "Person A går først: et antall skritt til høyre/venstre (x-retning), deretter et antall skritt frem/bakover (y-retning).",
+          "Person B observerer, men sier ingenting ennå.",
+          "Når Person A er ferdig, går Person B **akkurat samme antall skritt** i samme retninger.",
+          "Etter at Person B har gått, sier han/hun høyt hvor mange skritt det var i x-retning og y-retning.",
+          "Bytt roller etter hvert mønster.",
+          "Regel: All bevegelse må gjøres i to deler – først horisontalt, så vertikalt."
+        ],
+        "examples": [
+          "Person A går 3 skritt til høyre, 2 skritt frem → Person B går 3 skritt til høyre, 2 skritt frem → sier: «3 høyre, 2 frem».",
+          "Person A går 4 skritt til venstre, 1 skritt tilbake → Person B går 4 skritt til venstre, 1 skritt tilbake → sier: «4 venstre, 1 tilbake».",
+          "Person A går 2 skritt til høyre, 3 skritt tilbake → Person B går 2 skritt til høyre, 3 skritt tilbake → sier: «2 høyre, 3 tilbake»."
+        ],
+        "reflection": [
+          "Hva var lettest – å gå bevegelsen eller å huske og si hvor mange skritt?",
+          "Hvordan hjelper denne øvelsen oss å tenke i koordinater?",
+          "Hva skjer hvis vi bytter om på rekkefølgen?"
+        ],
+        "tips": [
+          "Start med små tall (1–4 skritt) før dere øker.",
+          "Bruk tydelige steg og pauser mellom x- og y-bevegelse for å gjøre det lettere å følge."
         ],
         "extra": []
       }
