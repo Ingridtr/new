@@ -278,6 +278,59 @@
       }
     },
     {
+      "id": "B0303",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske multiplikasjon ved teljing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke telling for å utforske og forstå multiplikasjon – slik kongen befaler."
+        ],
+        "main": [
+          "Læreren (kongen) gir en multiplikasjonsoppgave, for eksempel 3 × 4.",
+          "Det første tallet viser hvor mange ganger bevegelsen skal gjentas.",
+          "Det andre tallet viser hvor mange tellinger det er i hver gjentakelse.",
+          "Elevene teller høyt mens de gjør bevegelsene for å finne svaret.",
+          "Gjenta med flere oppgaver på ulikt nivå."
+        ],
+        "examples": [
+          "Lett nivå:",
+          "Kongen: «3 × 2» → 3 runder med 2 hopp hver = teller 2, 4, 6.",
+          "Kongen: «4 × 3» → 4 runder med 3 klapp hver = teller 3, 6, 9, 12.",
+          "Kongen: «2 × 5» → 2 runder med 5 snurr = teller 5, 10.",
+          "Kongen: «5 × 2» → 5 runder med 2 hopp = teller 2, 4, 6, 8, 10.",
+          "Kongen: «3 × 4» → 3 runder med 4 knebøy = teller 4, 8, 12.",
+          "",
+          "Middels nivå:",
+          "Kongen: «6 × 4» → 6 runder med 4 hopp = teller 4, 8, 12, 16, 20, 24.",
+          "Kongen: «7 × 3» → 7 runder med 3 klapp = teller 3, 6, 9, 12, 15, 18, 21.",
+          "Kongen: «8 × 5» → 8 runder med 5 snurr = teller 5, 10, 15, 20, 25, 30, 35, 40.",
+          "Kongen: «4 × 9» → 4 runder med 9 hopp = teller 9, 18, 27, 36.",
+          "Kongen: «5 × 6» → 5 runder med 6 knebøy = teller 6, 12, 18, 24, 30.",
+          "",
+          "Vanskelig nivå:",
+          "Kongen: «9 × 8» → 9 runder med 8 hopp = teller opp til 72.",
+          "Kongen: «12 × 6» → 12 runder med 6 klapp = teller opp til 72.",
+          "Kongen: «7 × 12» → 7 runder med 12 knebøy = teller opp til 84.",
+          "Kongen: «15 × 5» → 15 runder med 5 snurr = teller opp til 75.",
+          "Kongen: «8 × 11» → 8 runder med 11 hopp = teller opp til 88."
+        ],
+        "reflection": [
+          "Hvordan hjelper tellingen oss å se sammenhengen mellom gjentakelser og multiplikasjon?",
+          "Hva er forskjellen på å telle i 1 og telle i grupper?",
+          "Når er det lurt å telle i større steg?"
+        ],
+        "tips": [
+          "Skriv opp på tavlea: Første tall = antall runder, Andre tall = antall tellinger i hver runde."
+          
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "B0401",
       "title": "Frakt over lava!",
       "time": "15",
@@ -346,6 +399,58 @@
         "extra": []
       }
     },
+    {
+      "id": "B0403",
+      "title": "Restaurantkaos!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene enten løpe eller lage mat, avhengig av om oppgaven er en divisjon eller multiplikasjon."
+        ],
+        "main": [
+          "Læreren roper ut et regnestykke med enten multiplikasjon eller divisjon.",
+          "Hvis det er divisjon: Elevene løper rundt pulten så mange ganger som tall nummer 2 i oppgaven sier.",
+          "Hvis det er multiplikasjon: Elevene gjør en morsom matlagingsbevegelse (røre suppe, kna deig, lage milkshake, hakke grønnsaker, osv.) så mange ganger som tall nummer 2 i oppgaven sier.",
+          "Gjenta med 4–6 oppgaver på ulikt nivå."
+        ],
+        "examples": [
+          "Lett:",
+          "Multiplikasjon: «3 × 2» → Rører i suppe 2 ganger.",
+          "Divisjon: «12 ÷ 3» → Løper 3 runder rundt pulten.",
+          "Multiplikasjon: «4 × 3» → Knar deig 3 ganger.",
+          "Divisjon: «10 ÷ 5» → Løper 5 runder.",
+          "Multiplikasjon: «2 × 5» → Heller saft 5 ganger.",
+          "",
+          "Middels:",
+          "Multiplikasjon: «5 × 4» → Lager milkshake 4 ganger.",
+          "Divisjon: «18 ÷ 6» → Løper 6 runder.",
+          "Multiplikasjon: «6 × 5» → Hakk grønnsaker 5 ganger.",
+          "Divisjon: «20 ÷ 4» → Løper 4 runder.",
+          "Multiplikasjon: «3 × 7» → Strør ost 7 ganger.",
+          "",
+          "Vanskelig:",
+          "Multiplikasjon: «8 × 6» → Rører i suppa 6 ganger.",
+          "Divisjon: «72 ÷ 8» → Løper 8 runder.",
+          "Multiplikasjon: «12 × 7» → Knar deig 7 ganger.",
+          "Divisjon: «56 ÷ 7» → Løper 7 runder.",
+          "Multiplikasjon: «9 × 9» → Pisker krem 9 ganger."
+        ],
+        "reflection": [
+          "Hvilken type oppgave var mest slitsom?",
+          "Hvordan hjalp bevegelsen deg å huske regnestykket?"
+        ],
+        "tips": [
+          "Skriv en liste på tavla med 4–5 matlagingsbevegelser før start.",
+          "Sett på sangen \"Kokkens sang\" fra kaptein Sabeltann eller \"A Walk In the Black Forest\" av Herb Albert & The Tijuana Brass (kjenningsmelodien for matlaging) for å gjøre det ekstra gøy."
+        ],
+        "extra": []
+      }
+    },
+    
     {
       "id": "B0501",
       "title": "Multiplikasjonsbrett",
@@ -420,6 +525,44 @@
       }
     },
     {
+      "id": "B0503",
+      "title": "Multiplikasjonsbytte",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "2-3",
+      "learning_goal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene vise det samme multiplikasjonsstykket på flere måter, både fysisk og med andre representasjoner."
+        ],
+        "main": [
+          "Del klassen i grupper på 2-3.",
+          "Læreren gir en multiplikasjonsoppgave, for eksempel 3 × 4.",
+          "Elevene skal først vise oppgaven fysisk (hopp, klapp, grupper av elever, osv.).",
+          "Deretter skal de vise samme oppgave som gjentatt addisjon, arealmodell eller tellegrupper* (læreren velger hvilken).",
+          "Regel: Alle elevene i gruppa må være med på å vise oppgaven.",
+          "Etterpå bytter gruppene måte å vise på, slik at de trener på å oversette mellom representasjoner.",
+          "Gjenta med flere oppgaver og variasjon i representasjonsform."
+        ],
+        "examples": [
+          "Oppgave: 3 × 4 → fysisk: 3 runder med 4 hopp hver. Gjentatt addisjon: 4 + 4 + 4 = 12. Arealmodell: Tegn 3 rader med 4 punkter hver.",
+          "Oppgave: 5 × 2 → fysisk: 5 runder med 2 klapp hver. Gjentatt addisjon: 2 + 2 + 2 + 2 + 2 = 10. Arealmodell: Tegn 5 rader med 2 punkter hver.",
+          "Oppgave: 4 × 6 → fysisk: 4 runder med 6 knebøy hver. Gjentatt addisjon: 6 + 6 + 6 + 6 = 24. Arealmodell: Tegn 4 rader med 6 punkter hver."
+        ],
+        "reflection": [
+          "Hvilken representasjon var raskest å lage?",
+          "Hvordan kunne du se at alle måtene ga samme svar?",
+          "Når er det nyttig å bytte mellom måter å vise multiplikasjon på?"
+        ],
+        "tips": [
+
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B0601",
       "title": "Multipliser!",
       "time": "5",
@@ -448,6 +591,99 @@
         "extra": []
       }
     },
+    {
+      "id": "B0602",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "bruke kommutative, assosiative og distributive eigenskapar til å utforske og beskrive strategiar i multiplikasjon",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene vise multiplikasjonsstrategier gjennom bevegelser som hopp, snurr og klapp – slik kongen befaler."
+        ],
+        "main": [
+          "Læreren (kongen) gir en multiplikasjonsoppgave og sier hvilken egenskap som skal brukes: kommutativ, assosiativ eller distributiv.",
+          "Skriv opp på tavla: hver multiplikasjon gjøres som bevegelser: hopp = ×1, klapp = ×2, snurr = ×3, knebøy = ×4, armhevning = ×5.",
+          "Ved kommutativ egenskap bytter de rekkefølgen på tallene og gjør bevegelsene i ny rekkefølge.",
+          "Ved assosiativ egenskap gjør de først bevegelsene for to tall, tar en pause, og deretter multipliserer med det siste.",
+          "Ved distributiv egenskap deler de opp et tall i to mindre, gjør bevegelsene for hver del, og legger sammen til slutt.",
+          "Etter hver runde forklarer en elev kort hvordan de tenkte."
+        ],
+        "examples": [
+          "Lett:",
+          "Kongen: «Kommutativ! 2 × 4» → 2 klapp + 4 knebøy = 8 bevegelser, deretter 4 knebøy + 2 klapp = 8 igjen.",
+          "Kongen: «Assosiativ! 1 × 3 × 2» → (1 hopp × 3 snurr = 3 bevegelser), pause, ×2 (2 klapp) = 6 bevegelser.",
+          "Kongen: «Distributiv! 5 × 3» → (5 armhevninger × 2 = 10) + (5 armhevninger × 1 = 5) = 15.",
+          "Kongen: «Kommutativ! 3 × 2» → 3 snurr + 2 klapp = 6, deretter 2 klapp + 3 snurr = 6.",
+          "Kongen: «Assosiativ! 2 × 2 × 3» → (2 klapp × 2 klapp = 4) × 3 snurr = 12.",
+          "",
+          "Middels:",
+          "Kongen: «Distributiv! 6 × 4» → (6 × 2) + (6 × 2) = 12 + 12 = 24 bevegelser.",
+          "Kongen: «Assosiativ! 2 × 5 × 3» → (2 klapp × 5 armhevninger = 10) × 3 snurr = 30.",
+          "Kongen: «Kommutativ! 7 × 3» → 7 hopp + 3 snurr = 21, deretter 3 snurr + 7 hopp = 21.",
+          "Kongen: «Distributiv! 8 × 5» → (8 × 3) + (8 × 2) = 24 + 16 = 40.",
+          "Kongen: «Assosiativ! 4 × 2 × 6» → (4 knebøy × 2 klapp = 8) × 6 hopp = 48.",
+          "",
+          "Vanskelig:",
+          "Kongen: «Distributiv! 9 × 7» → (9 × 5) + (9 × 2) = 45 + 18 = 63.",
+          "Kongen: «Assosiativ! 5 × 4 × 3» → (5 armhevninger × 4 knebøy = 20) × 3 snurr = 60.",
+          "Kongen: «Kommutativ! 12 × 8» → 12 hopp + 8 knebøy = 96, deretter 8 knebøy + 12 hopp = 96.",
+          "Kongen: «Distributiv! 15 × 6» → (15 × 5) + (15 × 1) = 75 + 15 = 90.",
+          "Kongen: «Assosiativ! 3 × 7 × 5» → (3 snurr × 7 hopp = 21) × 5 armhevninger = 105."
+        ],
+        "reflection": [
+          "Hvilken bevegelseskombinasjon var enklest å utføre?",
+          "Hvordan viste vi at rekkefølgen ikke endrer svaret?",
+          "Hvilken egenskap hjalp deg å regne raskest i hodet?"
+        ],
+        "tips": [
+          "Bruk enkle tall i starten for å få flyt.",
+          "Bytt på hvilke bevegelser som representerer tall for variasjon."
+        ],
+        "extra": []
+      }
+    },
+    {
+    "id": "B0603",
+    "title": "Mimeleken!",
+    "time": "5",
+    "location": "Inne",
+    "tools": "Ingen",
+    "groupsize": "2",
+    "learning_goal": "bruke kommutative, assosiative og distributive eigenskapar til å utforske og beskrive strategiar i multiplikasjon",
+    "content": {
+      "introduction": [
+        "I denne aktiviteten mimer elevene multiplikasjonsstrategier for hverandre uten å si tallene, og partneren må gjette både oppgaven og hvilken egenskap som brukes."
+      ],
+      "main": [
+        "Elevene jobber i par. Én elev får en oppgave fra læreren (skriftlig eller hvisket).",
+        "Oppgaven skal løses ved å mime strategien – ikke svaret – til partneren.",
+        "Ved kommutativ egenskap mimer eleven multiplikasjon i én rekkefølge og deretter i motsatt rekkefølge.",
+        "Ved assosiativ egenskap mimer eleven først to tall som multipliseres, pause, så ganger med det siste tallet.",
+        "Ved distributiv egenskap mimer eleven at tallet deles opp i to deler, regner hver del, og legger sammen resultatene.",
+        "Partneren sier hvilken oppgave det var og hvilken egenskap som ble brukt.",
+        "Bytt roller etter hver runde."
+      ],
+      "examples": [
+        "Kommutativ: Mimer 3 hopp, så 4 klapp, viser 12 på fingrene – deretter 4 klapp og 3 hopp, viser 12 igjen.",
+        "Assosiativ: Mimer (2 klapp × 3 hopp = 6), pause, så ×4 snurr = 24.",
+        "Distributiv: Mimer (7 hopp × 5 klapp = 35) + (7 hopp × 2 snurr = 14) → legger sammen til 49."
+      ],
+      "reflection": [
+        "Hva var lett å gjette, og hva var vanskelig?",
+        "Hvordan hjalp mimingen med å forstå strategien?",
+        "Hvilken egenskap ble brukt mest?"
+      ],
+      "tips": [
+        "Bruk små tall først for å få tempo i spillet.",
+        "Oppmuntre til tydelig kroppsspråk."
+      ],
+      "extra": []
+    }
+  },
+
     {
       "id": "B0701",
       "title": "Detektiv- Hvem er hvem?",
@@ -520,6 +756,63 @@
       }
     },
     {
+      "id": "B0703",
+      "title": "Størrelsesduell",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "3",
+      "learning_goal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene sammenligne to mengder eller tall ved å bruke kroppen for å vise <, > eller =."
+        ],
+        "main": [
+          "Del elevene i grupper på 3.",
+          "Læreren sier to tall, mengder eller uttrykk som skal sammenlignes (f.eks. '3 × 2' og '8').",
+          "To av elevene i gruppa representerer hvert sitt tall/uttrykk – de kan hoppe antall ganger, snurre, vise antall fingre, eller bruke annen bevegelse for å vise verdien.",
+          "Den tredje eleven er 'dommeren' som skal vise sammenligningstegnet med kroppen:",
+          "Hvis venstre side er størst: Strekker armene høyt til venstre for å vise '>'.",
+          "Hvis høyre side er størst: Strekker armene høyt til høyre for å vise '<'.",
+          "Hvis de er like store: Lager et '='-tegn med armene (for eksempel begge armene rett frem).",
+          "Etter hver oppgave roterer gruppa slik at alle får prøve å være både tall og dommer.",
+          "Gjenta med flere runder, og øk vanskelighetsgraden ved å bruke større tall, desimaltall, eller uttrykk som må regnes ut først."
+        ],
+        "examples": [
+          "Lett:",
+          "5 og 8 → viser '<'.",
+          "6 og 4 → viser '>'.",
+          "3 + 2 og 5 → viser '='.",
+          "2 × 3 og 8 → viser '<'.",
+          "10 − 4 og 6 → viser '='.",
+          "",
+          "Middels:",
+          "12 ÷ 3 og 4 × 1 → viser '='.",
+          "15 og 3 × 4 → viser '>'.",
+          "5 × 3 og 16 → viser '>'.",
+          "20 − 8 og 12 → viser '='.",
+          "2 × 7 og 15 → viser '<'.",
+          "",
+          "Vanskelig:",
+          "2,5 × 4 og 9 → viser '>'.",
+          "32 ÷ 4 og 7 × 1 → viser '='.",
+          "10,5 og 21 ÷ 2 → viser '='.",
+          "3 × (2 + 4) og 20 → viser '<'.",
+          "(15 − 3) ÷ 4 og 3 → viser '='."
+        ],
+        "reflection": [
+          "Hvordan bestemte du hvilket tegn du skulle vise?",
+          "Hva var forskjellen på de runde der vi måtte regne først og de vi bare kunne sammenligne direkte?",
+          "Når er det nyttig å kunne bruke ulikhetstegn?"
+        ],
+        "tips": [
+          "Start med enkle tall for å få flyt."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B0801",
       "title": "Drakamp",
       "time": "15",
@@ -586,6 +879,47 @@
       }
     },
     {
+      "id": "B0803",
+      "title": "Levende vektstang",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "3-4",
+      "learning_goal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal en elev være en levende vektstang og bruke armene for å vise om to gjenstander veier like mye eller ikke."
+        ],
+        "main": [
+          "Del elevene i grupper på 3–4.",
+          "Én elev i hver gruppe står med armene strakt ut til siden – dette er 'vektstangen'.",
+          "De andre i gruppa finner forskjellige gjenstander ute eller i klasserommet, og legger én i hver av vektstangens hender.",
+          "Vektstangen vurderer vekten:",
+          "Hvis det føles som like mye: Hever begge armene like høyt (balanse).",
+          "Hvis den ene siden føles tyngre: Senker armen på den tunge siden og løfter den andre (ubalanse).",
+          "Etterpå bytter de på hvem som er vektstang, slik at alle får prøve.",
+          "Diskuter i gruppa hva som skapte balanse eller ubalanse."
+        ],
+        "examples": [
+          "Lett: En bok vs. en annen bok i samme størrelse → armene holdes like høyt.",
+          "Lett: En blyant vs. en stor viskelær → blyantsiden heves, viskelærsiden senkes.",
+          "Middels: To klosser i ulik størrelse – vurdere hvilken som føles tyngst.",
+          "Middels: En liten ball vs. en kopp med litt vann – oppdage at vannet er tyngre.",
+          "Vanskelig: To gjenstander som ser like store ut, men som veier ulikt – mer usikker vurdering."
+        ],
+        "reflection": [
+          "Hvordan kunne du kjenne forskjell på vekten uten å bruke en ordentlig vekt?",
+          "Hva var lett å vurdere og hva var vanskelig?",
+          "Hvordan kan vi vise balanse og ubalanse på andre måter enn med kroppen?"
+        ],
+        "tips": [
+          "Bruk gjenstander med tydelig vektforskjell først, og øk vanskeligheten etter hvert."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B0901",
       "title": "Gjett vannmengden!",
       "time": "15",
@@ -649,7 +983,57 @@
       }
     },
     {
-      "id": "B1001",
+      "id": "B0903",
+      "title": "Målesjefen befaler",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "bruke ulike måleiningar for lengd og masse i praktiske situasjonar og grunngi valet av måleining",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten er læreren 'målesjefen' og gir kommandoer som får elevene til å bruke ulike måleenheter i bevegelses- og vurderingsoppgaver."
+        ],
+        "main": [
+          "Læreren er målesjefen og roper ut en oppgave som involverer en måleenhet for lengde eller masse.",
+          "Elevene må utføre oppgaven fysisk – for eksempel gå en viss avstand, finne noe som veier omtrent en viss masse, eller strekke ut armer for å vise lengde.",
+          "Etter at oppgaven er utført, spør læreren hvorfor den aktuelle måleenheten passet.",
+          "Variér mellom oppgaver som måler korte, mellomlange og lange avstander, samt lette og tunge gjenstander.",
+          "Kjør mange korte runder for høyt tempo og variasjon."
+        ],
+        "examples": [
+          "Lette oppgaver:",
+          "'Målesjefen befaler: gå 1 meter frem!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 1 kilo!'",
+          "",
+          "Middels oppgaver:",
+          "'Målesjefen befaler: stå med beina en halv meter fra hverandre!'",
+          "'Målesjefen befaler: finn noe som er ca. 10 cm langt!'",
+          "'Målesjefen befaler: finn en gjenstand som er ca. 30 cm lang!'",
+
+          "",
+          "Vanskelige oppgaver:",
+          "'Målesjefen befaler: gå 2,5 meter bakover uten å måle!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 2 kilo!'",
+          "'Målesjefen befaler: finn noe som veier omtrent 500 gram!'"
+
+        ],
+        "reflection": [
+          "- Hvordan vurderte du hvor langt eller tungt noe var?",
+          "- Når passer det best å bruke meter, centimeter eller millimeter?",
+          "- Når passer det best å bruke kilo, gram eller milligram?"
+        ],
+        "tips": [
+          "Bruk kjente avstander i rommet (f.eks. fra tavla til døra) som referanse.",
+          "La elevene selv få være målesjef og finne på oppgaver.",
+          "Legg til bevegelseskrav som hopp, snurr eller hink for ekstra moro."
+        ],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "BA01",
       "title": "Danseleken!",
       "time": "15",
       "location": "Ute",
@@ -676,12 +1060,123 @@
           "Hvilke ord brukte du for å vise retning eller avstand?",
           "Er det noen andre måter dere kan beskrive posisjonene deres på?"
         ],
-        "tips": [],
+        "tips": ["Sett på musikk for å gjøre det ekstra gøy"],
         "extra": []
       }
     },
     {
-      "id": "B1101",
+      "id": "BA02",
+      "title": "Senk skipene",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "Alle",
+      "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten spiller vi en enkel, fysisk versjon av 'Senk skip'. Elevene plasserer skip hemmelig ved å stå i ruter mens motstanderlaget står med ryggen til. Læreren noterer koordinatene og sier treff/bom underveis."
+        ],
+        "main": [
+          "Lag banen: Marker et rutenett på gulvet (start 4×4: kolonner A–D, rader 1–4). Læreren står ved siden av som dommer.",
+          "Del i to lag og avtal antall skip per lag (f.eks. 2–3 elever/skip).",
+          "Lag 1 plasserer: Lag 2 står med ryggen til banen. Elever fra Lag 1 går stille ut og stiller seg i valgte ruter. Læreren noterer koordinatene (f.eks. A3, C1).",
+          "Lag 2 plasserer: Bytt. Lag 1 snur ryggen til. Lag 2 går ut og stiller seg i ruter. Læreren noterer.",
+          "Spillet begynner: Lagene gjetter annenhver gang én koordinat (f.eks. «B2»).",
+          "Dommer svarer umiddelbart: «Treff!» eller «Bom!». Ved treff: Elevene som sto i den ruta setter seg ned(skipet er senket).",
+          "Fortsett runder raskt til ett lag har fått senket alle motstanderens skip, eller tiden (5 min) er ute."
+        ],
+        "examples": [
+          "Rutenett 3×3 (A–C, 1–3), 1 skip per lag, 30–60 sekunder plasseringsfase, 3–4 gjetterunder.",
+          "Rutenett 4×4 (A–D, 1–4), 2 skip per lag, 5–6 gjetterunder.",
+          "Rutenett 5×5 (A–E, 1–5), 3 små skip per lag (1 elev per skip) for større klasse."
+        ],
+        "reflection": [
+          "Hvordan husket du bokstav- (kolonne) og tall- (rad) rekkefølgen?",
+          "Hva var en smart måte å lete på i rutenettet (systematisk søk)?",
+          "Hva kunne laget ditt gjort annerledes neste runde?"
+        ],
+        "tips": [
+          "Hold hemmeligheten: Minner laget på å se ned/holde ryggen til mens motstanderen plasserer.",
+          "Tempo: Begrens tenketid til 3–5 sekunder per gjetting («3–2–1, si koordinat!»)."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "BA03",
+      "title": "Koordinatkongen befaler!",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "4-6",
+      "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg til bestemte koordinater og øve på å forklare plassering i koordinatsystemet på en trygg og leken måte."
+        ],
+        "main": [
+          "Tegn opp et stort koordinatsystem på bakken med kritt (f.eks. 5x5 eller 6x6). Marker aksene tydelig med tall.",
+          "Del klassen inn i grupper på 4–6 elever.",
+          "Læreren er 'Koordinatkongen' og roper ut kommandoer som: 'Koordinatkongen befaler: Gå til (2,3)!'",
+          "Gruppene diskuterer raskt sammen hvor de tror koordinatet er, og velger én person som skal stelle seg på det de tror er koordinatet.",
+          "Når alle har funnet plassene sine, snakk sammen i hel gruppe: Hvordan fant dere veien dit? Hva betyr det første og det andre tallet?",
+          "Gjenta med flere koordinater og variér tempo og vanskelighetsgrad."
+        ],
+        "examples": [
+          "Læreren sier: 'Koordinatkongen befaler: Gå til (1,4)!' og gruppene diskuterer og går dit . Lærer spør: 'Hvordan fant dere plassen?' og en gruppe svarer: 'Vi gikk én til høyre og fire opp.'"
+        ],
+        "reflection": [
+          "Hvordan fant dere riktig koordinat?",
+          "Hva betyr det første og det andre tallet i et koordinat?",
+          "Hva kunne dere ha forklart bedre hvis noen ikke skjønte hvor dere gikk?"
+        ],
+        "tips": [
+          "Ha gjerne med noen tullekommandoer uten 'Koordinatkongen befaler' for å gjøre det gøy.",
+          "Unngå å spørre enkeltpersoner – la elevene tenke og svare i grupper."
+        ],
+        "extra": []
+      }
+    },
+     {
+      "id": "BA04",
+      "title": "Hermegåsa!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Et merket koordinatområde (f.eks. tape på gulvet eller ruter på uteplassen)",
+      "groupsize": "Par",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg som i et koordinatsystem, der de går først horisontalt (langs x-aksen) og deretter vertikalt (langs y-aksen). Den ene i paret går et mønster, og den andre må først herme bevegelsen, og deretter beskrive den i form av hvor mange skritt det var i hver retning."
+        ],
+        "main": [
+          "Del elevene inn i par og marker et startpunkt (0,0) for alle.",
+          "Person A går først: et antall skritt til høyre/venstre (x-retning), deretter et antall skritt frem/bakover (y-retning).",
+          "Person B observerer, men sier ingenting ennå.",
+          "Når Person A er ferdig, går Person B **akkurat samme antall skritt** i samme retninger.",
+          "Etter at Person B har gått, sier han/hun høyt hvor mange skritt det var i x-retning og y-retning.",
+          "Bytt roller etter hvert mønster.",
+          "Regel: All bevegelse må gjøres i to deler – først horisontalt, så vertikalt."
+        ],
+        "examples": [
+          "Person A går 3 skritt til høyre, 2 skritt frem → Person B går 3 skritt til høyre, 2 skritt frem → sier: «3 høyre, 2 frem».",
+          "Person A går 4 skritt til venstre, 1 skritt tilbake → Person B går 4 skritt til venstre, 1 skritt tilbake → sier: «4 venstre, 1 tilbake».",
+          "Person A går 2 skritt til høyre, 3 skritt tilbake → Person B går 2 skritt til høyre, 3 skritt tilbake → sier: «2 høyre, 3 tilbake»."
+        ],
+        "reflection": [
+          "Hva var lettest – å gå bevegelsen eller å huske og si hvor mange skritt?",
+          "Hvordan hjelper denne øvelsen oss å tenke i koordinater?",
+          "Hva skjer hvis vi bytter om på rekkefølgen?"
+        ],
+        "tips": [
+          "Start med små tall (1–4 skritt) før dere øker.",
+          "Bruk tydelige steg og pauser mellom x- og y-bevegelse for å gjøre det lettere å følge."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "BB01",
       "title": "Stolleken",
       "time": "15",
       "location": "Inne",
@@ -711,6 +1206,80 @@
         ],
         "tips": [
           "For ekstra utfordring kan man bytte på hvem som sier koordinatene."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "BB02",
+      "title": "Kodejakt",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt, instruksjonskort",
+      "groupsize": "3-6",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene følge trinnvise instruksjoner og bevege seg i et koordinatsystem for å finne en skjult kode."
+        ],
+        "main": [
+          "Lag et stort 5x5 koordinatsystem på bakken (f.eks. 6x6). Marker aksene tydelig med tall.",
+          "Del klassen inn i grupper på 3-6 elever.",
+          "Hver gruppe får utdelt et kort med instruksjoner, for eksempel: 'Start på (0,0). Gå 2 opp, 1 til høyre, 1 ned, 3 til høyre.'",
+          "Elevene følger instruksjonene og ender opp på et nytt koordinat. Der finner de en bokstav (lagt ut av læreren).",
+          "Når alle grupper har funnet sin bokstav, samler klassen bokstavene og finner ut hvilket ord eller kode de danner."
+        ],
+        "examples": [
+          "Gruppen starter på (0,0) og følger instruksjonen: 2 opp, 1 høyre, 1 ned, 3 høyre – de ender på (4,1) og finner bokstaven 'K'."
+        ],
+        "reflection": [
+          "Hvordan visste dere hvor dere skulle gå?",
+          "Hva skjedde da dere fulgte instruksjonene feil?",
+          "Hvordan kan vi lage egne instrukser for å sende andre til bestemte koordinater?"
+        ],
+        "tips": [
+          "La elevene lage egne instruksjoner og bytte med en annen gruppe.",
+          "Du kan bruke ulike farger på kortene for å ha flere oppgavesett i sving samtidig."
+        ],
+        "extra": [
+          "printOuts/B1102.png"
+        ]
+      }
+    },
+    {
+      "id": "BB03",
+      "title": "Hermegåsa",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Et merket koordinatområde (f.eks. tape på gulvet eller ruter på uteplassen)",
+      "groupsize": "Par",
+      "learning_goal": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg som i et koordinatsystem, der de går først horisontalt (langs x-aksen) og deretter vertikalt (langs y-aksen). Den ene i paret går et mønster, og den andre må først herme bevegelsen, og deretter beskrive den i form av hvor mange skritt det var i hver retning."
+        ],
+        "main": [
+          "Del elevene inn i par og marker et startpunkt (0,0) for alle.",
+          "Person A går først: et antall skritt til høyre/venstre (x-retning), deretter et antall skritt frem/bakover (y-retning).",
+          "Person B observerer, men sier ingenting ennå.",
+          "Når Person A er ferdig, går Person B **akkurat samme antall skritt** i samme retninger.",
+          "Etter at Person B har gått, sier han/hun høyt hvor mange skritt det var i x-retning og y-retning.",
+          "Bytt roller etter hvert mønster.",
+          "Regel: All bevegelse må gjøres i to deler – først horisontalt, så vertikalt."
+        ],
+        "examples": [
+          "Person A går 3 skritt til høyre, 2 skritt frem → Person B går 3 skritt til høyre, 2 skritt frem → sier: «3 høyre, 2 frem».",
+          "Person A går 4 skritt til venstre, 1 skritt tilbake → Person B går 4 skritt til venstre, 1 skritt tilbake → sier: «4 venstre, 1 tilbake».",
+          "Person A går 2 skritt til høyre, 3 skritt tilbake → Person B går 2 skritt til høyre, 3 skritt tilbake → sier: «2 høyre, 3 tilbake»."
+        ],
+        "reflection": [
+          "Hva var lettest – å gå bevegelsen eller å huske og si hvor mange skritt?",
+          "Hvordan hjelper denne øvelsen oss å tenke i koordinater?",
+          "Hva skjer hvis vi bytter om på rekkefølgen?"
+        ],
+        "tips": [
+          "Start med små tall (1–4 skritt) før dere øker.",
+          "Bruk tydelige steg og pauser mellom x- og y-bevegelse for å gjøre det lettere å følge."
         ],
         "extra": []
       }

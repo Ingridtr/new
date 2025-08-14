@@ -85,6 +85,80 @@
       }
     },
     {
+  "id": "D0103",
+  "title": "Prosent-løpet",
+  "time": "5",
+  "location": "Inne/ute",
+  "tools": "Tallkort",
+  "groupsize": "2",
+  "learning_goal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
+  "content": {
+    "introduction": [
+      "I denne aktiviteten skal elevene matche brøker, desimaltall og prosent ved å løpe mellom poster."
+    ],
+    "main": [
+      "Del klassen inn i par,",
+      "Plasser tre stasjoner i rommet eller ute: én med brøker, én med desimaltall, én med prosent.",
+      "Hvert par får utdelt et kort med én av formene (f.eks. 3/4).",
+      "Oppgaven er å løpe til de to andre stasjonene og finne kortene som matcher deres verdi (0,75 og 75%).",
+      "Når paret finner alle tre kortene som hører sammen, legger de dem på en felles 'match-bord'.",
+      "Læreren sjekker raskt om matchene er riktige."
+    ],
+    "examples": [
+      "En elev starter med 1/2, løper til desimalstasjonen og finner 0,5, deretter til prosentstasjonen og finner 50%.",
+      "En gruppe finner at 2/5 hører sammen med 0,4 og 40%."
+    ],
+    "reflection": [
+      "Hva er lettest å tenke i hodet – brøk, desimal eller prosent?",
+      "Hvorfor tror du 0,25 og 25% er det samme?",
+      "Hvordan kan vi sjekke at 3/4 virkelig er 75%?"
+    ],
+    "tips": [
+      "Start med enkle tall (1/2, 1/4, 3/4, 2/5) og øk vanskelighetsgraden etter hvert.",
+      "For ekstra utfordring kan læreren ha med 'feller' – tall som nesten stemmer, men ikke helt."
+    ],
+    "extra": []
+  }
+},
+{
+    "id": "D0104",
+    "title": "Brøk-dans",
+    "time": "5",
+    "location": "Inne/ute",
+    "tools": "Ingen",
+    "groupsize": "4-6",
+    "learning_goal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
+    "content": {
+      "introduction": [
+        "I denne aktiviteten skal elevene bruke kroppen til å lage brøker, desimaltall og prosent – som levende 'mattekalkulatorer'."
+      ],
+      "main": [
+        "Del klassen inn i lag på 4-6 elever.",
+        "Læreren roper ut et tall i brøk, desimal eller prosent (f.eks. 3/4, 0,5 eller 25%).",
+        "Hvert lag skal raskt stille seg opp slik at antallet elever som står (eller gjør en spesiell dans) tilsvarer tallet.",
+        "Eksempel: Hvis tallet er 3/4 og laget har 4 personer, skal 3 stå og 1 sitte. Hvis tallet er 50%, skal halvparten danse.",
+        "Bytt mellom brøk, desimal og prosent slik at elevene kobler sammen formene i hodet.",
+        "Gi poeng for riktig oppstilling og fart – bonuspoeng for kreative positurer."
+      ],
+      "examples": [
+        "Læreren roper '0,75' → 3 av 4 på laget hopper opp og ned, resten står stille.",
+        "Læreren roper '2/5' → 2 av 5 setter seg ned, 3 står.",
+        "Læreren roper '80%' → 4 av 5 legger seg på gulvet som 'streker' i et prosenttegn."
+      ],
+      "reflection": [
+        "Hvilken form (brøk, desimal eller prosent) var raskest å forstå?",
+        "Hvordan kan vi sjekke at 0,75 og 75% betyr det samme?",
+        "Hva betyr det egentlig å være 'halve gjengen'?"
+      ],
+      "tips": [
+        "Hold tempoet oppe for å trene hurtig hoderegning.",
+        "Start med enkle brøker og prosent før dere tar vanskelige tall.",
+        "Bytt på hvem som får rope ut tall for mer elevstyring."
+      ],
+      "extra": []
+    }
+  },
+    {
       "id": "D0201",
       "title": "Pizzadeling",
       "time": "5",
@@ -149,6 +223,44 @@
         "extra": []
       }
     },
+    {
+      "id": "D0203",
+      "title": "Brøk-redningsaksjon",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Kritt, Ark, 12 steiner",
+      "groupsize": "4-6",
+      "learning_goal": "beskrive brøk som del av ein heil, som del av ei mengd og som tal på tallinja og vurdere og namngi storleikane",
+      "content": {
+        "introduction": [
+          "Elevene er redningsmannskap som skal redde 'skatter' og plassere dem riktig på tre forskjellige måter: som del av en hel, som del av en mengde, og som plass på tallinja."
+        ],
+        "main": [
+          "Lag tre stasjoner med 5–10 meter mellom: 'Hel-stasjonen', 'Mengde-stasjonen' og 'Tallinje-stasjonen'.",
+          "Læreren roper en brøk (f.eks. 2/3).",
+          "Lagene starter ved 'Hel-stasjonen' og viser brøken ved å rive/brette et papir.",
+          "De løper til 'Mengde-stasjonen' og samler riktig antall 'skatter' fra en bøtte (f.eks. 2 av 3 deler av de 12 steinene).",
+          "Til slutt løper de til 'Tallinje-stasjonen' og plasserer seg på riktig sted for brøken.",
+          "Når alle tre oppgaver er gjort, roper gruppa \"Ferdig!\", og læreren kommer og sjekker.",
+          "Ny brøk ropes ut, og runden starter på nytt."
+        ],
+        "examples": [
+          "Brøken 1/2: Bretter papiret i to, tar halvparten av steinene, plasserer markøren midt mellom 0 og 1.",
+          "Brøken 3/4: Bretter først arket i 4 deler, og så river de vekk den ene delen, tar 9 av 12 steiner, markerer 0,75 på tallinja."
+        ],
+        "reflection": [
+          "Hvilken stasjon var vanskeligst?",
+          "Hvordan kan vi vite at alle tre måtene viser det samme tallet?",
+          "Hva ville skjedd om brøken var større enn 1?"
+        ],
+        "tips": [
+          "Hold runde-tiden under 1 minutt for å få flere brøker inn på 5 minutter.",
+          "Velg brøker som er enkle å visualisere raskt (1/2, 1/3, 2/3, 3/4)."
+        ],
+        "extra": []
+      }
+    },
+
     {
       "id": "D0301",
       "title": "Sola skinner på!",
@@ -227,6 +339,45 @@
       }
     },
     {
+  "id": "D0303",
+  "title": "Brøk-miming",
+  "time": "5",
+  "location": "Inne/ute",
+  "tools": "Ingen",
+  "groupsize": "4-6",
+  "learning_goal": "representere brøkar på ulike måtar og omsetje mellom dei ulike representasjonane",
+  "content": {
+    "introduction": [
+      "Elevene skal bruke kroppene sine til å vise samme tall på flere måter: som brøk, desimal, prosent og bilde."
+    ],
+    "main": [
+      "Del klassen i lag på 4–6 elever.",
+      "Læreren roper et tall i én form (f.eks. 3/4).",
+      "Lagene skal raskt representere det tallet på tre forskjellige måter ved hjelp av kroppen:",
+      "1) Som brøk: riktig antall av laget står, sitter eller ligger.",
+      "2) Som prosent: de sier prosenttallet høyt i kor.",
+      "3) Som desimal: de former tallene, vær kreative.",
+      "Første lag som viser alle tre former riktig får poeng.",
+      "Kjør flere runder med ulike startformer (brøk, prosent eller desimal)."
+    ],
+    "examples": [
+      "Læreren roper 1/2 → 3 av 6 på laget står (brøk), alle roper '50%' (prosent), lager en halvformet sirkel.",
+      "Læreren roper 0,25 → 1 av 4 står (brøk), de roper '25%' (prosent), og lager en pizza med én av fire 'stykker' markert."
+    ],
+    "reflection": [
+      "Hva var lettest å lage med kroppen?",
+      "Hvordan kan vi sjekke at 0,5 og 50% betyr det samme?",
+      "Hva ville 5/4 sett ut her?"
+    ],
+    "tips": [
+      "Hold tempoet høyt for å trene hurtig omsetting mellom formene.",
+      "Bruk enkle brøker først og øk vanskelighetsgraden etter hvert."
+    ],
+    "extra": []
+  }
+},
+
+    {
       "id": "D0401",
       "title": "Pluss eller pass!",
       "time": "5",
@@ -288,6 +439,43 @@
         "extra": []
       }
     },
+    {
+  "id": "D0403",
+  "title": "Levende brøker",
+  "time": "5",
+  "location": "Inne/ute",
+  "tools": "Ingen",
+  "groupsize": "4-5",
+  "learning_goal": "utvikle og bruke ulike strategiar for rekning med positive tal og brøk og forklare tenkjemåtane sine",
+  "content": {
+    "introduction": [
+      "I denne aktiviteten bruker elevene kroppene sine til å vise svar på brøk- og talloppgaver.",
+      "Fokuset er på samarbeid, kreativitet og forklaring av strategier."
+    ],
+    "main": [
+      "Del klassen i grupper på 4-5 elever.",
+      "Læreren sier en oppgave høyt, for eksempel: 'Vis 3/4', 'Hva er 1/2 + 1/4?', eller 'Hvem er størst: 2/3 eller 3/4?'",
+      "Gruppen stiller seg opp eller setter seg slik at de viser svaret. Eksempel: For 3/4 står tre elever på den ene siden og én på den andre.",
+      "Etter at alle grupper har vist, velger læreren én eller to grupper som forklarer hvordan de tenkte.",
+      "Gjenta med nye oppgaver med både hele tall og brøker."
+    ],
+    "examples": [
+      "Oppgaven '1/2 + 1/4': Gruppen bestemmer at én elev representerer 1/4 og to elever 1/2, og viser at det til sammen blir 3/4.",
+      "Oppgaven '3 hele': Gruppen står samlet og viser tre rader for å symbolisere tre hele."
+    ],
+    "reflection": [
+      "Hvordan bestemte dere hvordan dere skulle stille dere?",
+      "Hva gjorde dere når det ikke var nok personer til å vise hele brøken nøyaktig?",
+      "Kan samme brøk vises på flere måter med kroppen?"
+    ],
+    "tips": [
+      "Bruk gjerne fantasifulle formasjoner – det gjør det morsommere.",
+      "Pass på at alle i gruppen får delta i visningen."
+    ],
+    "extra": []
+  }
+},
+
     {
       "id": "D0501",
       "title": "Pizzadeling",
@@ -357,6 +545,43 @@
       }
     },
     {
+      "id": "D0503",
+      "title": "Brøk i hverdagslivet",
+      "time": "5",
+      "location": "Inne eller ute",
+      "tools": "",
+      "groupsize": "4-5",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med brøk å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke erfaringer fra hverdagen til å lage og løse brøkoppgaver.",
+          "De bruker kroppen og ord for å vise og forklare."
+        ],
+        "main": [
+          "Del klassen i grupper på 4-5.",
+          "Hver gruppe får 30 sekunder til å komme på en situasjon fra hverdagen der brøk brukes, f.eks. dele en pizza, en flaske brus eller tid på en aktivitet.",
+          "Gruppen lager en liten 'levende scene' som viser situasjonen og problemet.",
+          "En annen gruppe skal løse brøkoppgaven og forklare hvordan de tenkte.",
+          "Bytt roller slik at alle både lager og løser problemer."
+        ],
+        "examples": [
+          "Gruppe 1 later som de har en kake og deler den i 8 biter. De 'gir bort' 3 biter og spør: 'Hvor mye av kaken har vi igjen?'",
+          "Gruppe 2 spiller at de har 2 hele brød og gir bort 1/2 av det ene."
+        ],
+        "reflection": [
+          "Var det lett å finne eksempler fra hverdagen?",
+          "Hvordan hjelper det å bruke en situasjon vi kjenner til for å forstå brøk?",
+          "Kan du finne på en ny situasjon der brøk dukker opp?"
+        ],
+        "tips": [
+          "Oppmuntre til kreative scener – det gjør oppgavene mer engasjerende.",
+          "Alle i gruppen bør delta i både scenen og løsningen."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "D0601",
       "title": "Myntkast",
       "time": "15",
@@ -424,7 +649,7 @@
       }
     },
     {
-      "id": "D0604",
+      "id": "D0603",
       "title": "Terningkamp",
       "time": "5",
       "location": "Inne",
@@ -524,6 +749,62 @@
       }
     },
     {
+      "id": "D0703",
+      "title": "Levende likninger",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten bruker elevene kroppen til å utforske og løse likninger og ulikheter ved å stelle seg på plassen til løsningen."
+        ],
+        "main": [
+          "Del klassen i grupper på 4–5.",
+          "Læreren sier en enkel likning eller ulikhet høyt, f.eks. 'x + 3 = 7' eller '5x < 10'.",
+          "Hvert hjørne av rommet representerer et tall (for eksempel 1, 2, 3, 4).",
+          "Gruppene velger et hjørne de tror er løsningen på oppgaven.",
+          "Når alle har valgt, diskuterer læreren med elevene: Passer tallet inn i likningen/ulikheten? Hvorfor eller hvorfor ikke?",
+          "Gjenta med flere oppgaver, gjerne med både riktige og feil forslag for å trene logisk sjekking."
+        ],
+        "examples": [
+          "Lett:",
+          "x + 3 = 7 → x = 4 fordi 4 + 3 = 7",
+          "x - 5 = 2 → x = 7 fordi 7 - 5 = 2",
+          "2x = 10 → x = 5 fordi 2 × 5 = 10",
+          "x + 4 = 9 → x = 5 fordi 5 + 4 = 9",
+          "x - 2 = 6 → x = 8 fordi 8 - 2 = 6",
+          "",
+          "Middels:",
+          "2x < 10 → x < 5, for eksempel x = 4 fungerer siden 2 × 4 = 8 som er mindre enn 10",
+          "x + 5 > 9 → x > 4, for eksempel x = 6 fungerer fordi 6 + 5 = 11 som er større enn 9",
+          "3x = 15 → x = 5 fordi 3 × 5 = 15",
+          "x - 7 ≤ 2 → x ≤ 9, for eksempel x = 8 fungerer fordi 8 - 7 = 1 som er mindre enn eller lik 2",
+          "4x > 12 → x > 3, for eksempel x = 4 fungerer fordi 4 × 4 = 16 som er større enn 12",
+          "",
+          "Vanskelig:",
+          "3x - 2 = 10 → x = 4 fordi 3 × 4 - 2 = 12 - 2 = 10",
+          "2x + 5 = 17 → x = 6 fordi 2 × 6 + 5 = 12 + 5 = 17",
+          "5x - 10 < 15 → x < 5, for eksempel x = 4 fungerer fordi 5 × 4 - 10 = 10 som er mindre enn 15",
+          "6x + 3 ≥ 15 → x ≥ 2, for eksempel x = 3 fungerer fordi 6 × 3 + 3 = 21 som er større enn 15",
+          "4x - 8 = 0 → x = 2 fordi 4 × 2 - 8 = 8 - 8 = 0"
+
+        ],
+        "reflection": [
+          "Hva betyr det egentlig at et tall er en løsning på en likning?",
+          "Hvordan kan vi sjekke om et tall passer uten å gjette først?",
+          "Hva var forskjellen på å løse en likning og en ulikhet?"
+        ],
+        "tips": [
+          "Bruk tall som alle kan regne med i hodet.",
+          "La elevene komme med egne likninger til resten av gruppa."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "D0801",
       "title": "Vikingmarkedet",
       "time": "15",
@@ -575,7 +856,7 @@
           "En gruppe på 3 kjøper én kinobillett (100 kr), én is (20 kr), én leke (60 kr). Total: 180 kr. De har 120 kr igjen og vurderer om de heller burde valgt Tusenfryd."
         ],
         "reflection": [
-          "– Hva var viktigst for dere å bruke penger på?",
+          "Hva var viktigst for dere å bruke penger på?",
           "Hvordan regnet dere ut totalen?",
           "Hva hadde skjedd om dere hadde hatt 100 kr mer?",
           "Hvordan kan dere vise valgene deres i et regneark?"
@@ -584,6 +865,44 @@
         "extra": []
       }
     },
+    {
+      "id": "D0803",
+      "title": "Budsjettleken",
+      "time": "5",
+      "location": "Inne eller ute",
+      "tools": "",
+      "groupsize": "4-5",
+      "learning_goal": "lage og løyse oppgåver i rekneark som omhandlar personleg økonomi",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten later vi som vi er et budsjett, der hver elev er en utgift eller en inntekt.",
+          "Vi trener på å legge sammen og trekke fra tall for å finne ut hvor mye penger som er igjen."
+        ],
+        "main": [
+          "Del klassen i grupper på 4-5.",
+          "Hver elev får en 'rolle' som enten inntekt (penger inn) eller utgift (penger ut). Læreren sier for eksempel: 'Du har 5000 kr i lønn', 'Du bruker 2000 kr på mat', 'Du bruker 1000 kr på klær'.",
+          "Gruppen stiller seg opp på en linje: først inntektene, deretter utgiftene.",
+          "Gruppen legger sammen inntektene, trekker fra utgiftene, og finner ut hvor mye penger som er igjen.",
+          "Gjenta med nye tall og bland rollene, slik at alle får prøve både inntekt og utgift."
+        ],
+        "examples": [
+          "Lett: Lønn = 5000 kr, Mat = 2000 kr → 5000 - 2000 = 3000 kr igjen",
+          "Middels: Lønn = 6000 kr, Mat = 2500 kr, Transport = 1000 kr → 6000 - (2500 + 1000) = 2500 kr igjen",
+          "Vanskelig: Lønn = 8000 kr, Mat = 3000 kr, Husleie = 4000 kr, Kino = 500 kr → 8000 - (3000 + 4000 + 500) = 500 kr igjen"
+        ],
+        "reflection": [
+          "Hva skjer med det som er igjen når utgiftene blir større?",
+          "Hvorfor er det lurt å vite hva som er inntekter og utgifter?",
+          "Hva kunne vi gjort for å spare mer?"
+        ],
+        "tips": [
+          "Bruk runde tall for å gjøre det enkelt å regne i hodet.",
+          "Oppmuntre elevene til å forklare regnestykket høyt."
+        ],
+        "extra": []
+      }
+    },
+
     {
       "id": "D0901",
       "title": "Hvor lang tid tar det?",
@@ -653,7 +972,45 @@
       }
     },
     {
-      "id": "D1001",
+      "id": "D0903",
+      "title": "Tidslinje!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "formulere og løyse problem frå eigen kvardag som har med tid å gjere",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten bruker vi kroppen til å lage en stor tidslinje og løser tidsproblemer ved å plassere oss på riktig tidspunkt."
+        ],
+        "main": [
+          "Marker en rett linje i rommet (for eksempel fra tavla til døra) som representerer en dag fra kl. 06:00 til 22:00.",
+          "Læreren sier et tidsproblem fra hverdagen, for eksempel: 'Skolen starter kl. 08:15, og det tar deg 25 minutter å gå. Hvor må du stå for å vise når du går hjemmefra?'",
+          "Elevene går til stedet på linjen som de mener passer, basert på hvor klokkeslettet havner.",
+          "Gjenta med nye problemer, både med å legge til og trekke fra tid.",
+          "Bytt slik at noen elever får lage egne tidsoppgaver for resten."
+        ],
+        "examples": [
+          "Lett: Filmen starter kl. 18:00 og varer i 2 timer → Elevene går til 20:00 på linjen.",
+          "Lett: Du legger deg kl. 21:30 og sover 8 timer → Elevene går til 05:30.",
+          "Middels: Skolen starter kl. 08:15, bussen tar 35 min → Elevene går til 07:40.",
+          "Middels: Kaken skal steke i 45 min fra 14:20 → Elevene går til 15:05.",
+          "Vanskelig: Du drar hjemmefra kl. 09:10, går 10 min, buss 25 min, går 8 min → Elevene går til 09:53."
+        ],
+        "reflection": [
+          "Hvordan hjalp det å stå på en tidslinje for å se svaret?",
+          "Hva var forskjellen på å legge til og å trekke fra tid?",
+          "Kan du finne på en ny situasjon fra hverdagen med tid?"
+        ],
+        "tips": [
+          "Oppmuntre til at elevene diskuterer før de velger plass."
+        ],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "DA01",
       "title": "Kodekongen!",
       "time": "15",
       "location": "Inne/ute",
@@ -686,7 +1043,7 @@
       }
     },
     {
-      "id": "D1002",
+      "id": "DA02",
       "title": "Hvis-så!",
       "time": "5",
       "location": "Inne /Ute",
@@ -717,6 +1074,62 @@
         "tips": [],
         "extra": []
       }
+    },
+  {
+    "id": "DA03",
+    "title": "Koden befaler",
+    "time": "5",
+    "location": "Inne eller ute",
+    "tools": "",
+    "groupsize": "Hele klassen eller 4-5 per gruppe",
+    "learning_goal": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+    "content": {
+      "introduction": [
+        "I denne leken er læreren 'Koden' som gir instruksjoner som må følges nøyaktig.",
+        "Vi trener på variabler (startverdier), vilkår (hvis… så…), og løkker (gjenta)."
+      ],
+      "main": [
+        "Alle elever står på linje foran læreren.",
+        "Læreren sier en kommando som består av tre deler:",
+        "1. Variabel: Bestem en startverdi (for eksempel 'Antall hopp = 2').",
+        "2. Vilkår: Lag en regel (for eksempel 'Hvis du har røde sokker, legg til 1 hopp').",
+        "3. Løkke: Si hvor mange ganger de skal gjenta (for eksempel 'Gjenta hele handlingen 3 ganger').",
+        "Elevene utfører hele instruksjonen nøyaktig.",
+        "Bytt på at elever får være 'Koden' og lage egne kommandoer."
+      ],
+      "examples": [
+        "Lett:",
+        "Antall klapp = 2. Hvis du har langt hår, legg til 1 klapp. Gjenta 2 ganger.",
+        "Antall hopp = 1. Hvis du har på genser, legg til 2 hopp. Gjenta 3 ganger.",
+        "Antall snurr = 2. Hvis du har blå på deg, legg til 1 snurr. Gjenta 2 ganger.",
+        "Antall steg frem = 3. Hvis du har briller, legg til 1 steg. Gjenta 2 ganger.",
+        "Antall knebøy = 1. Hvis du har på sko, legg til 2 knebøy. Gjenta 2 ganger.",
+        "",
+        "Middels:",
+        "Antall steg frem = 2. Hvis du har på blått, legg til 1 steg. Gjenta 4 ganger.",
+        "Antall snurr = 3. Hvis du har bursdag denne måneden, trekk fra 1 snurr. Gjenta 2 ganger.",
+        "Antall hopp = 2. Hvis du har sokker med mønster, legg til 2 hopp. Gjenta 3 ganger.",
+        "Antall klapp = 4. Hvis du har kort hår, trekk fra 1 klapp. Gjenta 3 ganger.",
+        "Antall knebøy = 2. Hvis du har genser med hette, legg til 1 knebøy. Gjenta 4 ganger.",
+        "",
+        "Vanskelig:",
+        "Antall klapp = 1. Hvis du har på sko med lisser, legg til 2 klapp, ellers legg til 1 klapp. Gjenta til du har minst 6 klapp.",
+        "Antall hopp = 2. Hvis du har på rødt, doble antall hopp. Gjenta 3 ganger.",
+        "Antall steg = 1. Hvis du har blå bukse, legg til 3 steg, ellers trekk fra 1 steg. Gjenta 4 ganger.",
+        "Antall snurr = 3. Hvis du har på genser, trekk fra 1 snurr, ellers legg til 1 snurr. Gjenta til du har 0 snurr.",
+        "Antall knebøy = 2. Hvis du har på sokker, legg til 1 knebøy, hvis ikke, legg til 2 knebøy. Gjenta 5 ganger."
+      ],
+      "reflection": [
+        "Hva skjedde når vi endret variablene?",
+        "Hvordan påvirket vilkårene det vi gjorde?",
+        "Hva skjer hvis man ikke sier hvor mange ganger vi skal gjenta?"
+      ],
+      "tips": [
+        "Start enkelt og legg på flere regler etter hvert.",
+        "La elevene selv finne på morsomme vilkår basert på hva de ser i rommet."
+      ],
+      "extra": []
     }
+  }
   ]
 }

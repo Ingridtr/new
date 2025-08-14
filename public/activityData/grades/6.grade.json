@@ -72,6 +72,33 @@
       }
     },
     {
+      "id": "E0103",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, namngi og plassere desimaltal på tallinja",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren være kongen i kongen befaler der elevene skal følge kommandoer."
+        ],
+        "main": [
+          "Læreren er “kongen” og gir kommandoer som elevene må følge.",
+          "Tegn opp en tallinje på bakken med kritt fra 0 til 10 med tiendeler."
+        ],
+        "examples": [
+          "Kongen befaler: «Stå på 0,5!»",
+          "Kongen befaler: «Finn 2,3!»",
+          "Kongen befaler: «Plasser deg mellom 0,3 og 0,4!»",
+          "Kongen befaler: «Stå der du meiner 6,75 er – nærmast 6,7 eller 6,8?»"
+        ],
+        "reflection": [],
+        "tips": ["Lag flere tallinjer slik at det blir bedre plass"],
+        "extra": []
+      }
+    },
+    {
       "id": "E0201",
       "title": "Plassér tallene!",
       "time": "5",
@@ -126,6 +153,36 @@
           "Diskuter i plenum "
         ],
         "examples": ["1 + 3.4", "0.2 + 0.2", "4.4", "2.8"],
+        "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "E0203",
+      "title": "Mattesheriff",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten er læreren 'sheriffen' i ville vesten, og elevene er cowboyer klare for en matte-duell. Når sheriffen peker på en tilfeldig elev som må dukke, trekker cowboyene på hver side frem mattehjernene. "
+        ],
+        "main": [
+          "Be elevene stille seg i en stor sirkel. Læreren står i midten.",
+          "Forklar at du som lærer skal peke på en tilfeldig elev samtidig som du sier et mattestykke. Denne eleven må dukke ned, mens de to elevene på hver side må svare på mattestykket.",
+          "Eleven i midten reiser seg opp igjen, og leken fortsetter ved at en ny elev blir pekt på.",
+          "Varier mattestykker etter nivå."
+        ],
+        "examples": [
+          "2.2 + 2.0 = ?",
+          "3.0 + 5.5 = ?",
+          "1.0 + 1.7 = ?",
+          "4.3 + 5.3 = ?",
+          "10.1 + 1.0 = ?"
+        ],
         "reflection": [],
         "tips": [],
         "extra": []
@@ -287,6 +344,47 @@
       }
     },
     {
+      "id": "E0403",
+      "title": "Hauk og due",
+      "time": "5",
+      "location": "Ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "beskrive eigenskapar ved og minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har felles, og kva for eigenskapar som skil dei frå kvarandre",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene leke en variant av hauk og due, der hauken jakter geometriske figurer, og duebarna er figurene."
+        ],
+        "main": [
+          "Del ut ett figurkort til hver elev.",
+          "Velg én elev som hauk og én som figur-mor.",
+          "Figur-mor står på én side av banen, hauken i midten, og resten på motsatt side.",
+          "Figur-mor roper: “Alle mine duer som har [figur], kom hjem til meg!”",
+          "Barna med riktig figur svarer: “Vi tør ikke, for hauken tar oss!” og så duemor: “Men kom allikevel!”",
+          "Da må barna med den figuren prøve å løpe over til duemor  – blir de tatt av hauken, blir de også hauker.",
+          "Fortsett til alle er tatt."
+        ],
+        "examples": [
+          "Figur-mor roper: “Alle som har trekanter, kom hjem!”",
+          "Barna med trekantkort svarer: 'Vi tør ikke, for hauken tar oss!'",
+          "Duemor svarer: 'Men kom allikevel!'",
+          "Da løper trekantbarna mens hauken prøver å fange dem."
+        ],
+        "reflection": [
+          "Hvordan visste du hvilken figur du hadde?",
+          "Hva har figurene til felles, og hva er forskjellig?"
+        ],
+        "tips": [
+          "Det går også an å gi hver elev en figur istedenfor å bruke figurkort."
+        ],
+        "extra": [
+          "printOuts/A1003_firkant.png",
+          "printOuts/A1003_trekant.png",
+          "printOuts/A1003_sirkel.png"
+        ]
+      }
+    },
+    {
       "id": "E0501",
       "title": "Bondesjakk!",
       "time": "15",
@@ -343,6 +441,39 @@
         "tips": [
           "Bruk musikk for å gjøre det mer rytmisk og engasjerende.",
           "For mer visuell støtte kan man lage/tegne symmetrilinjen på bakken."
+        ],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "E0503",
+      "title": "Kråka",
+      "time": "15",
+      "location": "Inne/ute",
+      "tools": "Tennisballer",
+      "groupsize": "Alle",
+      "learning_goal": "utforske og beskrive symmetri i mønster og utføre kongruensavbildingar med og utan koordinatsystem",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene utforske og gjenskape mønstre gjennom bevegelse og ballkast."
+        ],
+        "main": [
+          "Del elevene i to rekker som stiller seg etter hverandre nær en vegg.",
+          "Førstemann i hver rekke kaster en tennisball på veggen og utfører et selvvalgt mønster (for eksempel hoppe over ballen når den spretter tilbake, klappe før man tar den, snurre rundt osv.).",
+          "Alle andre i rekken skal gjenta akkurat samme mønster.",
+          "Når alle har utført mønsteret, går personen foran bakerst i rekka, og ny person bestemmer nytt mønster.",
+          "Fortsett til alle har fått prøve."
+        ],
+        "examples": [
+          "En elev kaster ballen på veggen, klapper to ganger og fanger ballen. Hele rekka utfører samme bevegelsesmønster før neste elev lager et nytt."
+        ],
+        "reflection": [
+          "Hvilket mønster var lett å gjenta?",
+          "Hvordan visste du hva som kom neste i mønsteret?"
+        ],
+        "tips": [
+          "Ta pauser innimellom for å diskutere hvilke mønstre som er like eller ulike. Oppmuntre elevene til å bruke både kropp og ball på kreative måter."
         ],
         "extra": []
       }
@@ -410,6 +541,37 @@
           "Hvis du øker radiusen, blir arealet mindre. ❌"
         ],
         "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "E0603",
+      "title": "Kroppsmål",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Ingen",
+      "groupsize": "2-3",
+      "learning_goal": "måle radius, diameter og omkrins i sirklar og utforske og argumentere for samanhengen",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kroppen sin som måleverktøy for å måle sirkler."
+        ],
+        "main": [
+          "Lag flere sirkler på bakken med kritt, i ulik størrelse.",
+          "Del elevene i grupper og forklar at de skal måle disse sirkelene ved å bruke kroppen som måleenhet. De skal både måle omkrets, radius og diameter.",
+          "La elevene velge metode (for eksempel en fot, en armbredde, en hånd osv.). Her skal elevene forstå at det er viktig å være konsekvent på hvilken metode de velger.",
+          "Be gruppene sammenligne: ble resultatene like? Hvorfor eller hvorfor ikke?",
+          "Diskuter i plenum hvilke måleenheter som var mest praktiske og hvorfor."
+        ],
+        "examples": ["Måleenheter: fotlengder, armslengder, antall skritt."],
+        "reflection": [
+          "Hvilken kroppsdel brukte dere for å måle?",
+          "Hvorfor valgte dere den?",
+          "Hva gjorde dere for å sikre at dere målte likt hver gang?",
+          "Hva var fordelen med å bruke kroppen – og hva var utfordrende?"
+        ],
         "tips": [],
         "extra": []
       }
@@ -671,7 +833,7 @@
       }
     },
     {
-      "id": "E1001",
+      "id": "EA01",
       "title": "Roboten",
       "time": "15",
       "location": "Inne/ute",
@@ -707,7 +869,7 @@
       }
     },
     {
-      "id": "E1002",
+      "id": "EA02",
       "title": "Påstandsveggene",
       "time": "5",
       "location": "Inne",
