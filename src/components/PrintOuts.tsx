@@ -7,7 +7,6 @@ interface PrintOutComponentProps {
 
 function PrintOutComponent({ id, title, extra }: PrintOutComponentProps) {
   const handlePrint = () => {
-    // Separate images, docx files, and pdf files
     const images = extra.filter(src => 
       src.toLowerCase().endsWith('.png') || 
       src.toLowerCase().endsWith('.jpg') || 
@@ -18,6 +17,10 @@ function PrintOutComponent({ id, title, extra }: PrintOutComponentProps) {
     
     const docxFiles = extra.filter(src => 
       src.toLowerCase().endsWith('.docx')
+    );
+    
+    const pdfFiles = extra.filter(src => 
+      src.toLowerCase().endsWith('.pdf')
     );
 
 
