@@ -72,6 +72,33 @@
       }
     },
     {
+      "id": "E0103",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske, namngi og plassere desimaltal på tallinja",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren være kongen i kongen befaler der elevene skal følge kommandoer."
+        ],
+        "main": [
+          "Læreren er “kongen” og gir kommandoer som elevene må følge.",
+          "Tegn opp en tallinje på bakken med kritt fra 0 til 10 med tiendeler."
+        ],
+        "examples": [
+          "Kongen befaler: «Stå på 0,5!»",
+          "Kongen befaler: «Finn 2,3!»",
+          "Kongen befaler: «Plasser deg mellom 0,3 og 0,4!»",
+          "Kongen befaler: «Stå der du meiner 6,75 er – nærmast 6,7 eller 6,8?»"
+        ],
+        "reflection": [],
+        "tips": ["Lag flere tallinjer slik at det blir bedre plass"],
+        "extra": []
+      }
+    },
+    {
       "id": "E0201",
       "title": "Plassér tallene!",
       "time": "5",
@@ -126,6 +153,36 @@
           "Diskuter i plenum "
         ],
         "examples": ["1 + 3.4", "0.2 + 0.2", "4.4", "2.8"],
+        "reflection": [],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "E0203",
+      "title": "Mattesheriff",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten er læreren 'sheriffen' i ville vesten, og elevene er cowboyer klare for en matte-duell. Når sheriffen peker på en tilfeldig elev som må dukke, trekker cowboyene på hver side frem mattehjernene. "
+        ],
+        "main": [
+          "Be elevene stille seg i en stor sirkel. Læreren står i midten.",
+          "Forklar at du som lærer skal peke på en tilfeldig elev samtidig som du sier et mattestykke. Denne eleven må dukke ned, mens de to elevene på hver side må svare på mattestykket.",
+          "Eleven i midten reiser seg opp igjen, og leken fortsetter ved at en ny elev blir pekt på.",
+          "Varier mattestykker etter nivå."
+        ],
+        "examples": [
+          "2.2 + 2.0 = ?",
+          "3.0 + 5.5 = ?",
+          "1.0 + 1.7 = ?",
+          "4.3 + 5.3 = ?",
+          "10.1 + 1.0 = ?"
+        ],
         "reflection": [],
         "tips": [],
         "extra": []
