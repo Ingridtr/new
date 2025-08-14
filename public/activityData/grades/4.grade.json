@@ -488,6 +488,39 @@
       }
     },
     {
+      "id": "C0503",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "Modellere situasjonar frå sin eigen kvardag og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene velge riktig vegg basert på hvilken påstand de mener passer."
+        ],
+        "main": [
+          "Forklar at læreren skal si et mattestykke, og de fire veggene i klasserommet har hvert sitt svar. Læreren kommer til å tildele et svar til hver vegg mellom hvert mattestykke.",
+          "Læreren sier en oppgave eller en påstand høyt, f.eks. “Hvis du har 10 drops og deler dem på 5 venner, får alle 2 drops hver  ”",
+          "Læreren peker på hver vegg og sier tilhørende svar. 'Vegg A: ja | Vegg B: nei | Vegg C: kanskje | Vegg D: vet ikke'",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig svar. Læreren skal bestemme hvordan de skal gå dit. For eksempel 'Nå skal dere hinke på et bein til riktig vegg'",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye oppgaver."
+        ],
+        "examples": [
+          "Hvis du har 20 kr og kjøper en bolle til 15 kr, har du 5 kr igjen – stemmer det?",
+          "Hvis jeg løper 100 meter to ganger, har jeg løpt 200 meter – er det sant?",
+          "Hvis en pizza koster 80 kr, koster to pizzaer 160 kr – er det riktig?",
+          "Hvis et glass rommer 2 dl, rommer to glass 4 dl – stemmer det?"
+        ],
+        "reflection": [],
+        "tips": [
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "C0601",
       "title": "Bytt plass!",
       "time": "15",
