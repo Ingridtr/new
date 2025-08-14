@@ -34,6 +34,108 @@
       }
     },
     {
+      "id": "F0102",
+      "title": "Hinderløypa",
+      "time": "5",
+      "location": "Inne eller ute",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke kroppen til å vise svar på oppgaver med brøk, desimaltall og prosent. Målet er å velge en god strategi for å løse oppgaven og forklare den."
+        ],
+        "main": [
+          "Marker fire hjørner i rommet eller uteområdet: ett for brøk, ett for desimaltall, ett for prosent og ett for tall.",
+          "Læreren leser opp et regnestykke eller en situasjon fra hverdagen.",
+          "Elevene må først regne ut svaret, deretter gå til det hjørnet som passer best til hvordan svaret kan uttrykkes (f.eks. 1/2, 0,5 eller 50%).",
+          "Noen elever forklarer hvilken strategi de brukte for å komme fram til svaret.",
+          "Gjenta med flere oppgaver, både lette, middels og vanskelige."
+        ],
+        "examples": [
+          "Lett:",
+          "Hva er halvparten av 10? → 1/2, 0,5 eller 50%",
+          "Hvor mye er 25 av 100? → 1/4, 0,25 eller 25%",
+          "Hva er 0,5 av 8? → 4",
+          "Hva er 50% av 20? → 10",
+          "Hvor mye er 3/4 av 8? → 6",
+          "",
+          "Middels:",
+          "40% av 50 → 20",
+          "0,2 av 60 → 12",
+          "2/5 av 100 → 40",
+          "75% av 80 → 60",
+          "0,75 av 40 → 30",
+          "",
+          "Vanskelig:",
+          "12 er hvor mange prosent av 48? → 25%",
+          "0,6 av 250 → 150",
+          "5/8 av 96 → 60",
+          "8 er 20% av hva? → 40",
+          "2,5% av 400 → 10"
+        ],
+        "reflection": [
+          "Hvordan bestemte du hvilken strategi du skulle bruke?",
+          "Hva gjorde du først – regnet med brøk, prosent eller desimal?",
+          "Hvordan kan vi sjekke at svaret er riktig?"
+        ],
+        "tips": [
+          "Oppmuntre elevene til å prøve flere måter å regne samme oppgave på.",
+          "Variér mellom å starte med brøk, prosent eller desimaltall."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0103",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Hele klassen",
+      "learning_goal": "utvikle og bruke formålstenlege strategiar i rekning med brøk, desimaltal og prosent og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne leken er læreren eller en elev 'Kongen' som gir kommandoer knyttet til brøk, desimaltall og prosent. Elevene må raskt tenke ut svaret og vise det med kroppen."
+        ],
+        "main": [
+          "En elev eller læreren er 'Kongen' og står foran klassen.",
+          "Kongen gir en kommando som kombinerer en handling med et regnestykke.",
+          "Oppgaven må ha et svar som kan vises fysisk – for eksempel antall hopp, klapp eller personer i en gruppe.",
+          "Noen ganger må svaret vises som brøk, andre ganger som prosent eller desimaltall.",
+          "Oppmuntre elevene til å snakke sammen for å kommme frem til svaret."
+
+        ],
+        "examples": [
+          "Lett:",
+          "Kongen befaler: Gjør halvparten så mange hopp som 10 → 5 hopp",
+          "Kongen befaler: Klapp 25% av 8 ganger → 2 klapp",
+          "Kongen befaler: Snurr 0,5 av 6 ganger → 3 snurr",
+          "",
+          "Middels:",
+          "Kongen befaler: Hopp 3/4 av 8 ganger → 6 hopp",
+          "Kongen befaler: Klapp 0,2 av 15 ganger → 3 klapp",
+          "Kongen befaler: Løp på stedet 60% av 10 sekunder → 6 sekunder",
+          "",
+          "Vanskelig:",
+          "Kongen befaler: Hopp 2/5 av 25 ganger → 10 hopp",
+          "Kongen befaler: Klapp 0,75 av 16 ganger → 12 klapp",
+          "Kongen befaler: Snurr 12 er hvor mange prosent av 48 ganger → 25% (12 snurr)"
+        ],
+        "reflection": [
+          "Var det lettere å regne når vi brukte brøk, prosent eller desimaltall?",
+          "Hvordan kan vi sjekke at vi gjorde riktig antall?",
+          "Hva var den morsomste kommandoen?"
+        ],
+        "tips": [
+          "Start med enkle oppgaver og øk vanskelighetsgraden."
+
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "F0201",
       "title": "Brøk-bingo",
       "time": "5",
@@ -97,6 +199,55 @@
           "Gi 10–15 sekunder per runde.",
           "Velg verdier som lett kan forenkles.",
           "La noen par demonstrere høyt."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0203",
+      "title": "Tre hjørner!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Hele klassen",
+      "learning_goal": "representere og bruke brøk, desimaltal og prosent på ulike måtar og utforske dei matematiske samanhengane mellom desse representasjonsformene",
+      "content": {
+        "introduction": [
+          "Elevene skal trene på å se at samme mengde kan skrives som brøk, desimal og prosent.Elevene bruker kroppen til å gå til riktig hjørne som viser en annen form enn det læreren sa."
+        ],
+        "main": [
+          "Marker tre tydelige hjørner i rommet eller uteområdet:",
+          "Hjørne 1: BRØK",
+          "Hjørne 2: DESIMAL",
+          "Hjørne 3: PROSENT",
+          "Læreren roper ut en oppgave, for eksempel '0,5' eller '1/4' eller '75%'.",
+          "Elevene skal gå til det hjørnet som har en annen form av det samme tallet.",
+          "Når alle har valgt hjørne, spør læreren noen elever om å si hele 'rekken' (for eksempel 1/2 ↔ 0,5 ↔ 50%).",
+          "Bytt mellom brøk, desimal og prosent som startform.",
+          "Avslutt med at læreren sier bare én form, og elevene skal sammen finne de to andre."
+        ],
+        "examples": [
+          "Lett:",
+          "Hvis læreren sier '1/2', kan du gå til DESIMAL (0,5) eller PROSENT (50%).",
+          "Hvis læreren sier '0,25', kan du gå til BRØK (1/4) eller PROSENT (25%).",
+          "Hvis læreren sier '75%', kan du gå til BRØK (3/4) eller DESIMAL (0,75).",
+          "",
+          "Middels:",
+          "2/5 ↔ 0,4 ↔ 40%",
+          "3/10 ↔ 0,3 ↔ 30%",
+          "",
+          "Vanskelig:",
+          "5/8 ↔ 0,625 ↔ 62,5%",
+          "7/20 ↔ 0,35 ↔ 35%"
+        ],
+        "reflection": [
+          "Hva var lett å oversette? Hva var vanskelig?",
+          "Hvordan kan du sjekke at de tre formene betyr det samme?",
+          "Hvorfor er det nyttig å kunne alle tre måtene å skrive tallet på?"
+        ],
+        "tips": [
+          "Start med enkle og kjente brøker før du tar mer uvanlige.",
+          "Oppmuntre elevene til å hjelpe hverandre med vanskelige konverteringer."
         ],
         "extra": []
       }
@@ -283,6 +434,55 @@
         "extra": []
       }
     },
+    {
+    "id": "F0403",
+    "title": "Eventyr-tallinja",
+    "time": "5",
+    "location": "Inne eller ute",
+    "tools": "",
+    "groupsize": "Hele klassen eller 4-5 per gruppe",
+    "learning_goal": "bruke tallinje i rekning med positive og negative tal",
+    "content": {
+      "introduction": [
+        "I denne leken er tallinja et eventyrland der tallene til høyre for null er 'solsiden' og tallene til venstre er 'skyggeriket'.",
+        "Elevene skal hjelpe en figur (seg selv!) å reise gjennom landet ved å følge instruksjoner med positive og negative tall."
+      ],
+      "main": [
+        "Marker en stor linje i rommet som tallinje. Midten er 0 – dette er 'grensa' mellom sol og skygge.",
+        "Høyre side er positive tall (solsiden), venstre side er negative tall (skyggeriket).",
+        "Læreren forteller små historier med bevegelsesinstruksjoner, f.eks.:",
+        "– 'Du står på -2 i skyggeriket. Du finner en magisk bro som tar deg 5 steg frem.'",
+        "– 'Du står på +4 i solsiden. En storm blåser deg 7 steg tilbake.'",
+        "Elevene utfører bevegelsene på tallinja og sier høyt hvor de ender.",
+        "Bruk både addisjon og subtraksjon, og gjerne kombinasjoner av flere steg i samme fortelling.",
+        "Avslutt med at elever får lage sine egne små eventyr-instruksjoner."
+      ],
+      "examples": [
+        "Lett:",
+        "Start på 0, gå 3 steg frem → +3 (Du fant en skatt på solsiden!)",
+        "Start på -2, gå 4 steg frem → +2 (Du fant veien ut av skyggeriket!)",
+        "",
+        "Middels:",
+        "Start på +5, gå 8 steg tilbake → -3 (En drage jaget deg over grensa!)",
+        "Start på -3, gå 7 steg frem → +4 (Du fant en magisk port til solsiden!)",
+        "",
+        "Vanskelig:",
+        "Start på -6, gå 10 steg frem → +4 (En luftballong tok deg langt inn i solsiden!)",
+        "Start på +2, gå 15 steg tilbake → -13 (En felle sendte deg dypt inn i skyggeriket!)"
+      ],
+      "reflection": [
+        "Hva skjedde når du krysset fra sol til skyggeriket?",
+        "Hvordan hjalp historien deg å huske regnestykket?",
+        "Kan du lage din egen fortelling med tallinje-bevegelser?"
+      ],
+      "tips": [
+        "Bruk stemme og mimikk for å gjøre historiene levende.",
+        "La elevene samarbeide i små grupper om å lage oppgaver."
+      ],
+      "extra": []
+    }
+  },
+
     {
       "id": "F0501",
       "title": "Detektivene!",
