@@ -34,14 +34,53 @@
           "Vanskelig: ",
           "Sola skinner på alle som har mer enn 3 søsken og har brune øyne",
           "Sola skinner på alle som har mer enn 1 kjæledyr og har på seg noe rødt"
-
         ],
         "reflection": [
           "Hvordan visste du at 2/5 er 40 %?",
           "Hva betyr det at 4/5 er 0,8?",
           "Er det lettere å starte med brøk eller med prosent? Hvorfor?"
         ],
-        "tips": ["Hvis hoderegnigen er for vanskelig kan elevene få penn og papir til å regne."],
+        "tips": [
+          "Hvis hoderegnigen er for vanskelig kan elevene få penn og papir til å regne."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "D0102",
+      "title": "Stiv heks",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske og forklare samanhengar mellom brøkar, desimaltal og prosent og bruke det i hovudrekning",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene leke stiv heks, men for å komme fri må man svare på et regnestykke. Lærer går rundt og gir oppgaver til de elevene som er tatt for å befri dem. Rekker de å svare før heksen vinner?"
+        ],
+        "main": [
+          "Fortell elevene at de skal leke stiv heks, men med en vri!",
+          "Én elev er «heks» og forsøker å fange de andre ved å ta på dem.",
+          "Når noen blir tatt, må de fryse i den posisjonen de ble tatt i.",
+          "For å bli befridd må læreren komme bort og gi et regnestykke. Læreren tilpasser vanskelighetsgraden etter nivået, ved å variere mellom enkle hoderegningsoppgaver eller mer utfordrende oppgaver.",
+          "Når heksen har klart å fange fem elever samtidig, bytter læreren hvem som er heks, slik får flere prøvd rollen og leken holder tempoet oppe. "
+        ],
+        "examples": [
+          "Lett",
+          "Hva er halvparten av 8? → 4",
+          "Hva er halvparten av 10? → 5",
+          "Hva er en firedel av 8? → 2",
+          "Middels",
+          "Hva er 0,5 + 0,5? → 1",
+          "Hva er 50 % av 6? → 3",
+          "Hva er 0,1 + 0,1? → 0,2",
+          "Vanskelig",
+          "Hva er 0,5 + 0,2? → 0,7",
+          "Hva er en tredel av 6? → 2",
+          "Hva er 25 % av 8? → 2"
+        ],
+        "reflection": [],
+        "tips": [],
         "extra": []
       }
     },
@@ -75,9 +114,7 @@
           "Er 1/2 alltid mer enn 1/3? Hvorfor eller hvorfor ikke?"
         ],
         "tips": [],
-        "extra": [
-          "printOuts/D0201.png"
-        ]
+        "extra": ["printOuts/D0201.png"]
       }
     },
     {
@@ -144,14 +181,15 @@
           "Vanskelig: ",
           "Sola skinner på alle som har mer enn 3 søsken og har brune øyne",
           "Sola skinner på alle som har mer enn 1 kjæledyr og har på seg noe rødt"
-
         ],
         "reflection": [
           "Hvordan visste du at 2/5 er 40 %?",
           "Hva betyr det at 4/5 er 0,8?",
           "Er det lettere å starte med brøk eller med prosent? Hvorfor?"
         ],
-        "tips": ["Hvis hoderegnigen er for vanskelig kan elevene få penn og papir til å regne."],
+        "tips": [
+          "Hvis hoderegnigen er for vanskelig kan elevene få penn og papir til å regne."
+        ],
         "extra": []
       }
     },
@@ -214,8 +252,38 @@
           "Hvorfor gir noen summer mening og andre ikke?",
           "Hvorfor må vi vite hva vi legger sammen i matte?",
           "Hva skjer hvis vi bare tenker på tall, og ikke på enhetene?"
-
         ],
+        "tips": [],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "D0402",
+      "title": "Mattesheriff",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utvikle og bruke ulike strategiar for rekning med positive tal og brøk og forklare tenkjemåtane sine",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten er læreren 'sheriffen' i ville vesten, og elevene er cowboyer klare for en matte-duell. Når sheriffen peker på en tilfeldig elev som må dukke, trekker cowboyene på hver side frem mattehjernene. "
+        ],
+        "main": [
+          "Be elevene stille seg i en stor sirkel. Læreren står i midten.",
+          "Forklar at du som lærer skal peke på en tilfeldig elev samtidig som du sier et mattestykke. Denne eleven må dukke ned, mens de to elevene på hver side må svare på mattestykket.",
+          "Eleven i midten reiser seg opp igjen, og leken fortsetter ved at en ny elev blir pekt på.",
+          "Varier mattestykker etter nivå."
+        ],
+        "examples": [
+          "2 + 2 = ?",
+          "3 + 5 = ?",
+          "1/2 + 1/2 = ?",
+          "1/4 + 3/4 = ?",
+          "1/3 + 2/3 = ?"
+        ],
+        "reflection": [],
         "tips": [],
         "extra": []
       }
@@ -250,9 +318,7 @@
           "Er 1/2 alltid mer enn 1/3? Hvorfor eller hvorfor ikke?"
         ],
         "tips": [],
-        "extra": [
-          "printOuts/D0201.png"
-        ]
+        "extra": ["printOuts/D0201.png"]
       }
     },
     {
@@ -276,7 +342,6 @@
         "examples": [
           "En gruppe har 3 epler og 4 personer.",
           "De skjærer eplene i biter slik at alle får like mye. De sier: “Vi delte hvert eple i fire.” Etterpå viser læreren at det betyr at hver fikk 3/4 eple."
-
         ],
         "reflection": [
           "Hvordan visste dere at alle fikk like mye?",
@@ -285,14 +350,14 @@
         ],
         "tips": [],
         "extra": [
-          "printOuts/D0502_appple.png", 
+          "printOuts/D0502_appple.png",
           "printOuts/D0502_kjeks.png",
           "printOuts/D0201.png"
         ]
       }
     },
     {
-      "id": "D0601", 
+      "id": "D0601",
       "title": "Myntkast",
       "time": "15",
       "location": "Ute",
@@ -320,12 +385,8 @@
           "Hva betyr det at det varierer selv om vi bruker samme regler hver gang?",
           "Hvordan kan vi skrive resultatene som brøk?"
         ],
-        "tips": [
-          "La elevene tegne søylediagram for antall treff per runde."
-        ],
-        "extra": [
-          
-        ]
+        "tips": ["La elevene tegne søylediagram for antall treff per runde."],
+        "extra": []
       }
     },
     {
@@ -358,11 +419,8 @@
           "Hva ble brøken for tallet 2?",
           "Er det sikkert at alle tallene kommer like mange ganger?"
         ],
-        "tips": [
-          "Læreren kan tegne opp hvordan skjemaet skal se ut på tavla."
-        ],
-        "extra": [
-        ]
+        "tips": ["Læreren kan tegne opp hvordan skjemaet skal se ut på tavla."],
+        "extra": []
       }
     },
     {
@@ -384,9 +442,7 @@
           "Kast terningen på rundgang 12 ganger tilsammen.",
           "Etter 12 kast skal gruppa diskutere: Hvor mange ganger kom ditt tall opp? Hva blir brøken?"
         ],
-        "examples": [
-          "«Tallet mitt kom opp 3 av 12 ganger → 3/12»"
-        ],
+        "examples": ["«Tallet mitt kom opp 3 av 12 ganger → 3/12»"],
         "reflection": [
           "Hvilke tall kom oftest?",
           "Var det tilfeldig hvem som “vant”?",
@@ -422,6 +478,52 @@
       }
     },
     {
+      "id": "D0702",
+      "title": "Løs likningen",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Ball, Småstein, Kritt",
+      "groupsize": "4-5",
+      "learning_goal": "løyse likningar og ulikskapar gjennom logiske resonnement og forklare kva det vil seie at eit tal er ei løysing på ei likning",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bli matematiske detektiver! De bruker en ball som representerer variabelen x og småstein som tall for å bygge opp en likning på bakken. Ved å flytte og balansere gjenstandene på hver side av likhetstegnet, får de oppleve hvordan man kan finne løsningen på en likning på en konkret og morsom måte."
+        ],
+        "main": [
+          "Del elevene inn i grupper på 4–5 deltakere.",
+          "Tegn to store sirkler på bakken med kritt, én for venstre side og én for høyre side av likhetstegnet.",
+          "Gi hver gruppe en ball (variabelen x) og en mengde steiner eller lignende gjenstander.",
+          "Læreren leser opp en enkel likning, for eksempel x + 3 = 5.",
+          "Elevene plasserer ballen og riktig antall steiner i venstre sirkel, og riktig antall steiner i høyre sirkel, for å matche likningen.",
+          "Når balansen er satt opp, forsøker elevene å «løse» likningen ved å fjerne eller legge til like mange gjenstander på begge sider, slik at x blir stående alene."
+        ],
+        "examples": [
+          "Lett:",
+          "x + 2 = 5",
+          "x + 1 = 3",
+          "x + 2 = 4",
+          "",
+          "Middels:",
+          "x + 3 = 5",
+          "2x = 4",
+          "x - 1 = 3",
+          "",
+          "Vanskelig:",
+          "2x + 2 = x + 5",
+          "2x – 3 = 5",
+          "3x + 6 = 0"
+        ],
+        "reflection": [
+          "Hva betyr det at venstre og høyre side av en likning er like?",
+          "Hva skjer med balansen hvis vi tar vekk noe fra den ene siden?",
+          "Hva betyr det egentlig når vi flytter noe fra den ene sirkelen til den andre?",
+          "Hvordan kan vi bruke likhetstegnet til å sjekke om vi har gjort det riktig?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
       "id": "D0801",
       "title": "Vikingmarkedet",
       "time": "15",
@@ -446,12 +548,8 @@
           "Hvilke egenskaper brukte du for å vurdere verdi?",
           "Hvordan kan du bruke et regneark til å vise hva du byttet og hvor mye det var verdt?"
         ],
-        "tips": [
-          "Sett på vikingmusikk i klasserommet for mer engasjement."
-        ],
-        "extra": [
-          "printout"
-        ]
+        "tips": ["Sett på vikingmusikk i klasserommet for mer engasjement."],
+        "extra": ["printout"]
       }
     },
     {
@@ -483,8 +581,7 @@
           "Hvordan kan dere vise valgene deres i et regneark?"
         ],
         "tips": [],
-        "extra": [
-        ]
+        "extra": []
       }
     },
     {
@@ -551,11 +648,8 @@
           "Hvilke steg fulgte dere for å finne løsningen?",
           "Hvordan kan dere bruke denne metoden til å løse andre tidspregede hverdagsutfordringer?"
         ],
-        "tips": [
-          "Skriv formelen for gjennomsnitt på tavla."
-        ],
-        "extra": [
-        ]
+        "tips": ["Skriv formelen for gjennomsnitt på tavla."],
+        "extra": []
       }
     },
     {
@@ -587,8 +681,7 @@
           "Hva er en “løkke”? ",
           "Hva er et vilkår?"
         ],
-        "tips": [
-        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -615,7 +708,6 @@
           "Hvis noen har hette → klapp to ganger.",
           "Hvis noen har på seg blå sokker →  klapp tre ganger.",
           "Hvis du ser noen med briller → hopp én gang."
-        
         ],
         "reflection": [
           "Hva betyr det å bruke *hvis–så*?",
