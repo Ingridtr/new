@@ -10,7 +10,7 @@ export const useVirtualScroll = <T>(
   items: T[],
   options: UseVirtualScrollOptions
 ) => {
-  const { itemHeight, containerHeight, overscan = 5 } = options;
+  const { itemHeight, containerHeight, overscan = 30 } = options;
   const [scrollTop, setScrollTop] = useState(0);
 
   const itemsPerPage = Math.ceil(containerHeight / itemHeight);

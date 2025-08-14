@@ -32,8 +32,8 @@ function extractLearningGoalNumber(activityId: string): number | null {
     
     if (validPrefixes.includes(gradePrefix)) {
       // Check for new optimized format: XAYY, XBYY, XCYY, XDYY (where A,B,C,D represent 10,11,12,13)
-      // This applies to grades 2,3,5,6,7 (prefixes A,B,D,E,F)
-      if (activityId.length >= 4 && ['A', 'B', 'D', 'E', 'F'].includes(gradePrefix)) {
+      // This applies to grades 2,3,4,5,6,7 (prefixes A,B,C,D,E,F) - now includes 4th grade (C)
+      if (activityId.length >= 4 && ['A', 'B', 'C', 'D', 'E', 'F'].includes(gradePrefix)) {
         const learningGoalChar = activityId.charAt(1);
         if (learningGoalChar === 'A') return 10;
         if (learningGoalChar === 'B') return 11;

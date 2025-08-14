@@ -951,7 +951,7 @@
       }
     },
     {
-      "id": "C1001",
+      "id": "CA01",
       "title": "Veiviseren",
       "time": "15",
       "location": "Inne/ute",
@@ -984,7 +984,7 @@
       }
     },
     {
-      "id": "C1002",
+      "id": "CA02",
       "title": "Mimeleken!",
       "time": "5",
       "location": "Inne",
@@ -1021,7 +1021,7 @@
       }
     },
     {
-      "id": "C1003",
+      "id": "CA03",
       "title": "Kongen befaler!",
       "time": "5",
       "location": "Inne/ute",

@@ -1033,7 +1033,7 @@
     },
 
     {
-      "id": "B0A01",
+      "id": "BA01",
       "title": "Danseleken!",
       "time": "15",
       "location": "Ute",
@@ -1065,7 +1065,7 @@
       }
     },
     {
-      "id": "B0A02",
+      "id": "BA02",
       "title": "Senk skipene",
       "time": "5",
       "location": "Ute",
@@ -1103,7 +1103,7 @@
       }
     },
     {
-      "id": "B0A03",
+      "id": "BA03",
       "title": "Koordinatkongen befaler!",
       "time": "5",
       "location": "Ute",
@@ -1138,7 +1138,7 @@
       }
     },
      {
-      "id": "B0A04",
+      "id": "BA04",
       "title": "Hermegåsa!",
       "time": "5",
       "location": "Inne/ute",
@@ -1176,7 +1176,7 @@
       }
     },
     {
-      "id": "B0B01",
+      "id": "BB01",
       "title": "Stolleken",
       "time": "15",
       "location": "Inne",
@@ -1211,7 +1211,7 @@
       }
     },
     {
-      "id": "B0B02",
+      "id": "BB02",
       "title": "Kodejakt",
       "time": "15",
       "location": "Ute",
@@ -1247,7 +1247,7 @@
       }
     },
     {
-      "id": "B0B03",
+      "id": "BB03",
       "title": "Hermegåsa",
       "time": "5",
       "location": "Inne/ute",
