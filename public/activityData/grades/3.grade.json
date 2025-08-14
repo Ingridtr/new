@@ -309,6 +309,44 @@
       }
     },
     {
+      "id": "B0402",
+      "title": "Påstandsveggene",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "5",
+      "learning_goal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal læreren si et mattestykke som omhandler multiplikasjon eller divisjon, og elevene skal velge den veggen som har riktig svar."
+        ],
+        "main": [
+          "Forklar at læreren skal si et mattestykke, og de fire veggene i klasserommet har hvert sitt svar. Læreren kommer til å tildele et svar til hver vegg mellom hvert mattestykke.",
+          "Læreren sier en oppgave eller en påstand høyt, f.eks. “Du deler 12 kaker på 3 barn. Får de 3 kaker hver? ”",
+          "Læreren peker på hver vegg og sier tilhørende svar. 'Vegg A: ja | Vegg B: nei | Vegg C: kanskje | Vegg D: vet ikke'",
+          "Elevene hopper/hinker/løper til den veggen de mener viser riktig svar. Læreren skal bestemme hvordan de skal gå dit. For eksempel 'Nå skal dere hinke på et bein til riktig vegg'",
+          "Etter alle har valgt: læreren gjennomgår svaret og spør elevene hvorfor de valgte som de gjorde.",
+          "Repeter med nye oppgaver."
+        ],
+        "examples": [
+          "Lett:",
+          "Påstand: 5 grupper med 2 epler i hver gir 10 epler totalt. Sant eller usant?",
+          "Påstand: Du deler 12 kaker på 3 barn. Får de 3 kaker hver? A) Ja | B) Nei | C) Kanskje | D) Vet ikke ",
+          "Middels:",
+          "Påstand: Hvilket regnestykke passer til: Du har 4 poser med 3 kuler i hver. A) 3 + 3 + 3 | B) 4 × 3 | C) 4 ÷ 3 | D) 3 − 4 ",
+          "Påstand: Du har 20 drops og deler dem på 5 barn. Hvor mange får hver? A) 5 | B) 3 | C) 4 | D) 2 ",
+          "Vanskelig:",
+          "Påstand: Hvilket uttrykk passer til: 3 venner kjøper hver sin pakke med 5 klistremerker. A) 5 + 5 | B) 3 + 3 + 3 | C) 3 × 5 | D) 3 ÷ 5 ",
+          "Påstand: Du har 36 kuler og skal legge 6 i hver eske. Hvor mange esker trenger du? A) 6 | B) 5 | C) 7 | D) 9 "
+        ],
+        "reflection": [],
+        "tips": [
+          "Dersom det blir en tendens at elevene hermer og ikke tenker selv, kan man be alle lukke øynene og heller peke på den veggen de mener er riktig."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "B0501",
       "title": "Multiplikasjonsbrett",
       "time": "5",
@@ -446,6 +484,42 @@
       }
     },
     {
+      "id": "B0702",
+      "title": "Rangér meg",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene rangere seg etter hvilken størrelse de har fått utdelt."
+        ],
+        "main": [
+          "Skriv ned ulike tall og mengder på papir. For eksempel: tallet 5, bilde av 5 hjerter, 0.25.",
+          "Del elevene inn i grupper på 4-5 elever og del ut et tall til hver elev.",
+          "Be elevene sammenligne kortene sine og sortere seg fra minst til størst verdi.",
+          "Når gruppene er ferdige skal hele klassen prøve å gjøre det samme. Blir rekkefølgen lik som i gruppene?",
+          "Diskuter og avgjør rekkefølgen i fellesskap.",
+          "Bruk symbolene større enn, mindre enn, lik, ulik underveis for å uttrykke sammenligning."
+        ],
+        "examples": [
+          "Elev A har 0.25, elev B har 5 og elev C har bilde av 5 hjerter. Elevene skal forstå at 0.25 er minst, og at tallet 5 og bilde av 5 hjerter er lik mengde.",
+          "Elev A har uttrykket 5x2 og elev B har tallet 10.",
+          "Elev A har tallet 3, elev B har tallet 10 og elev C har tallet 12"
+        ],
+        "reflection": [
+          "Hva skjer hvis noen har like mengde?",
+          "Hvordan kan vi sammenligne mengdene?",
+          "Hva betyr «lik» og «ulik» i matte?"
+        ],
+        "tips": [
+          "Øv på begreper som lik\", \"ulik\", \"samme som\", \"forskjellig fra\". Lag nye roller hvis man skal gjøre den igjen."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "B0801",
       "title": "Drakamp",
       "time": "15",
@@ -474,6 +548,40 @@
         "tips": [
           "Bruk begreper som balanse, likevekt, ulikhet og ujevn fordeling."
         ],
+        "extra": []
+      }
+    },
+    {
+      "id": "B0802",
+      "title": "Balanseleken",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "5-6",
+      "learning_goal": "utforske likevekt og balanse i praktiske situasjonar, representere dette på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene finne likevekt over en balanselinje ved å plassere konkreter på hver side."
+        ],
+        "main": [
+          "Del klassen i grupper og lag en balanselinje for hver gruppe.",
+          "Gi elevene et startscenario (for eksempel en bok på den ene siden).",
+          "La gruppene plassere seg selv og/eller gjenstander på hver side av linjen for å oppnå balanse.",
+          "Oppmuntre til kommunikasjon, prøving og feiling.",
+          "Diskuter hvordan vektfordeling og avstand fra linjen påvirker balansen."
+        ],
+        "examples": [
+          "Lett: 2 bøker på den ene siden. Finn en annen gjenstand som balanserer vekten på den andre siden.",
+          "Moderat: 1 penn på den ene siden. Finn en annen gjenstand (ikke en penn) som balanserer vekten.",
+          "Vanskelig: 1 stol på den ene siden. Finn en gjenstand (ikke en stol) som balanserer vekten. Bruk pluss- og minusprinsipper for å legge til eller trekke fra vekt, f.eks. en elev på motsatt side + 15 bøker på stolsiden."
+        ],
+        "reflection": [
+          "Hva betyr balanse i denne leken?",
+          "Hvordan påvirket plasseringen av gjenstandene balansen?",
+          "Var det lettere å balansere med lette eller tunge gjenstander?",
+          "Hvordan kan man bruke addisjon og subtraksjon for å oppnå balanse?"
+        ],
+        "tips": [],
         "extra": []
       }
     },
@@ -545,7 +653,7 @@
       "title": "Danseleken!",
       "time": "15",
       "location": "Ute",
-      "tools": "Kritt/teip, musikk",
+      "tools": "Kritt, Musikk",
       "groupsize": "Alle",
       "learning_goal": "eksperimentere med og forklare plasseringar i koordinatsystemet",
       "content": {
