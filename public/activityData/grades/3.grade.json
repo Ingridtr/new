@@ -278,6 +278,59 @@
       }
     },
     {
+      "id": "B0303",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "utforske multiplikasjon ved teljing",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bruke telling for å utforske og forstå multiplikasjon – slik kongen befaler."
+        ],
+        "main": [
+          "Læreren (kongen) gir en multiplikasjonsoppgave, for eksempel 3 × 4.",
+          "Det første tallet viser hvor mange ganger bevegelsen skal gjentas.",
+          "Det andre tallet viser hvor mange tellinger det er i hver gjentakelse.",
+          "Elevene teller høyt mens de gjør bevegelsene for å finne svaret.",
+          "Gjenta med flere oppgaver på ulikt nivå."
+        ],
+        "examples": [
+          "Lett nivå:",
+          "Kongen: «3 × 2» → 3 runder med 2 hopp hver = teller 2, 4, 6.",
+          "Kongen: «4 × 3» → 4 runder med 3 klapp hver = teller 3, 6, 9, 12.",
+          "Kongen: «2 × 5» → 2 runder med 5 snurr = teller 5, 10.",
+          "Kongen: «5 × 2» → 5 runder med 2 hopp = teller 2, 4, 6, 8, 10.",
+          "Kongen: «3 × 4» → 3 runder med 4 knebøy = teller 4, 8, 12.",
+          "",
+          "Middels nivå:",
+          "Kongen: «6 × 4» → 6 runder med 4 hopp = teller 4, 8, 12, 16, 20, 24.",
+          "Kongen: «7 × 3» → 7 runder med 3 klapp = teller 3, 6, 9, 12, 15, 18, 21.",
+          "Kongen: «8 × 5» → 8 runder med 5 snurr = teller 5, 10, 15, 20, 25, 30, 35, 40.",
+          "Kongen: «4 × 9» → 4 runder med 9 hopp = teller 9, 18, 27, 36.",
+          "Kongen: «5 × 6» → 5 runder med 6 knebøy = teller 6, 12, 18, 24, 30.",
+          "",
+          "Vanskelig nivå:",
+          "Kongen: «9 × 8» → 9 runder med 8 hopp = teller opp til 72.",
+          "Kongen: «12 × 6» → 12 runder med 6 klapp = teller opp til 72.",
+          "Kongen: «7 × 12» → 7 runder med 12 knebøy = teller opp til 84.",
+          "Kongen: «15 × 5» → 15 runder med 5 snurr = teller opp til 75.",
+          "Kongen: «8 × 11» → 8 runder med 11 hopp = teller opp til 88."
+        ],
+        "reflection": [
+          "Hvordan hjelper tellingen oss å se sammenhengen mellom gjentakelser og multiplikasjon?",
+          "Hva er forskjellen på å telle i 1 og telle i grupper?",
+          "Når er det lurt å telle i større steg?"
+        ],
+        "tips": [
+          "Skriv opp på tavlea: Første tall = antall runder, Andre tall = antall tellinger i hver runde."
+          
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "B0401",
       "title": "Frakt over lava!",
       "time": "15",
@@ -346,6 +399,58 @@
         "extra": []
       }
     },
+    {
+      "id": "B0403",
+      "title": "Restaurantkaos!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene enten løpe eller lage mat, avhengig av om oppgaven er en divisjon eller multiplikasjon."
+        ],
+        "main": [
+          "Læreren roper ut et regnestykke med enten multiplikasjon eller divisjon.",
+          "Hvis det er divisjon: Elevene løper rundt pulten så mange ganger som tall nummer 2 i oppgaven sier.",
+          "Hvis det er multiplikasjon: Elevene gjør en morsom matlagingsbevegelse (røre suppe, kna deig, lage milkshake, hakke grønnsaker, osv.) så mange ganger som tall nummer 2 i oppgaven sier.",
+          "Gjenta med 4–6 oppgaver på ulikt nivå."
+        ],
+        "examples": [
+          "Lett:",
+          "Multiplikasjon: «3 × 2» → Rører i suppe 2 ganger.",
+          "Divisjon: «12 ÷ 3» → Løper 3 runder rundt pulten.",
+          "Multiplikasjon: «4 × 3» → Knar deig 3 ganger.",
+          "Divisjon: «10 ÷ 5» → Løper 5 runder.",
+          "Multiplikasjon: «2 × 5» → Heller saft 5 ganger.",
+          "",
+          "Middels:",
+          "Multiplikasjon: «5 × 4» → Lager milkshake 4 ganger.",
+          "Divisjon: «18 ÷ 6» → Løper 6 runder.",
+          "Multiplikasjon: «6 × 5» → Hakk grønnsaker 5 ganger.",
+          "Divisjon: «20 ÷ 4» → Løper 4 runder.",
+          "Multiplikasjon: «3 × 7» → Strør ost 7 ganger.",
+          "",
+          "Vanskelig:",
+          "Multiplikasjon: «8 × 6» → Rører i suppa 6 ganger.",
+          "Divisjon: «72 ÷ 8» → Løper 8 runder.",
+          "Multiplikasjon: «12 × 7» → Knar deig 7 ganger.",
+          "Divisjon: «56 ÷ 7» → Løper 7 runder.",
+          "Multiplikasjon: «9 × 9» → Pisker krem 9 ganger."
+        ],
+        "reflection": [
+          "Hvilken type oppgave var mest slitsom?",
+          "Hvordan hjalp bevegelsen deg å huske regnestykket?"
+        ],
+        "tips": [
+          "Skriv en liste på tavla med 4–5 matlagingsbevegelser før start.",
+          "Sett på sangen \"Kokkens sang\" fra kaptein Sabeltann eller \"A Walk In the Black Forest\" av Herb Albert & The Tijuana Brass (kjenningsmelodien for matlaging) for å gjøre det ekstra gøy."
+        ],
+        "extra": []
+      }
+    },
+    
     {
       "id": "B0501",
       "title": "Multiplikasjonsbrett",
@@ -420,6 +525,44 @@
       }
     },
     {
+      "id": "B0503",
+      "title": "Multiplikasjonsbytte",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "2-3",
+      "learning_goal": "representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene vise det samme multiplikasjonsstykket på flere måter, både fysisk og med andre representasjoner."
+        ],
+        "main": [
+          "Del klassen i grupper på 2-3.",
+          "Læreren gir en multiplikasjonsoppgave, for eksempel 3 × 4.",
+          "Elevene skal først vise oppgaven fysisk (hopp, klapp, grupper av elever, osv.).",
+          "Deretter skal de vise samme oppgave som gjentatt addisjon, arealmodell eller tellegrupper* (læreren velger hvilken).",
+          "Regel: Alle elevene i gruppa må være med på å vise oppgaven.",
+          "Etterpå bytter gruppene måte å vise på, slik at de trener på å oversette mellom representasjoner.",
+          "Gjenta med flere oppgaver og variasjon i representasjonsform."
+        ],
+        "examples": [
+          "Oppgave: 3 × 4 → fysisk: 3 runder med 4 hopp hver. Gjentatt addisjon: 4 + 4 + 4 = 12. Arealmodell: Tegn 3 rader med 4 punkter hver.",
+          "Oppgave: 5 × 2 → fysisk: 5 runder med 2 klapp hver. Gjentatt addisjon: 2 + 2 + 2 + 2 + 2 = 10. Arealmodell: Tegn 5 rader med 2 punkter hver.",
+          "Oppgave: 4 × 6 → fysisk: 4 runder med 6 knebøy hver. Gjentatt addisjon: 6 + 6 + 6 + 6 = 24. Arealmodell: Tegn 4 rader med 6 punkter hver."
+        ],
+        "reflection": [
+          "Hvilken representasjon var raskest å lage?",
+          "Hvordan kunne du se at alle måtene ga samme svar?",
+          "Når er det nyttig å bytte mellom måter å vise multiplikasjon på?"
+        ],
+        "tips": [
+
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "B0601",
       "title": "Multipliser!",
       "time": "5",
@@ -448,6 +591,99 @@
         "extra": []
       }
     },
+    {
+      "id": "B0602",
+      "title": "Kongen befaler!",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "4-5",
+      "learning_goal": "bruke kommutative, assosiative og distributive eigenskapar til å utforske og beskrive strategiar i multiplikasjon",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene vise multiplikasjonsstrategier gjennom bevegelser som hopp, snurr og klapp – slik kongen befaler."
+        ],
+        "main": [
+          "Læreren (kongen) gir en multiplikasjonsoppgave og sier hvilken egenskap som skal brukes: kommutativ, assosiativ eller distributiv.",
+          "Skriv opp på tavla: hver multiplikasjon gjøres som bevegelser: hopp = ×1, klapp = ×2, snurr = ×3, knebøy = ×4, armhevning = ×5.",
+          "Ved kommutativ egenskap bytter de rekkefølgen på tallene og gjør bevegelsene i ny rekkefølge.",
+          "Ved assosiativ egenskap gjør de først bevegelsene for to tall, tar en pause, og deretter multipliserer med det siste.",
+          "Ved distributiv egenskap deler de opp et tall i to mindre, gjør bevegelsene for hver del, og legger sammen til slutt.",
+          "Etter hver runde forklarer en elev kort hvordan de tenkte."
+        ],
+        "examples": [
+          "Lett:",
+          "Kongen: «Kommutativ! 2 × 4» → 2 klapp + 4 knebøy = 8 bevegelser, deretter 4 knebøy + 2 klapp = 8 igjen.",
+          "Kongen: «Assosiativ! 1 × 3 × 2» → (1 hopp × 3 snurr = 3 bevegelser), pause, ×2 (2 klapp) = 6 bevegelser.",
+          "Kongen: «Distributiv! 5 × 3» → (5 armhevninger × 2 = 10) + (5 armhevninger × 1 = 5) = 15.",
+          "Kongen: «Kommutativ! 3 × 2» → 3 snurr + 2 klapp = 6, deretter 2 klapp + 3 snurr = 6.",
+          "Kongen: «Assosiativ! 2 × 2 × 3» → (2 klapp × 2 klapp = 4) × 3 snurr = 12.",
+          "",
+          "Middels:",
+          "Kongen: «Distributiv! 6 × 4» → (6 × 2) + (6 × 2) = 12 + 12 = 24 bevegelser.",
+          "Kongen: «Assosiativ! 2 × 5 × 3» → (2 klapp × 5 armhevninger = 10) × 3 snurr = 30.",
+          "Kongen: «Kommutativ! 7 × 3» → 7 hopp + 3 snurr = 21, deretter 3 snurr + 7 hopp = 21.",
+          "Kongen: «Distributiv! 8 × 5» → (8 × 3) + (8 × 2) = 24 + 16 = 40.",
+          "Kongen: «Assosiativ! 4 × 2 × 6» → (4 knebøy × 2 klapp = 8) × 6 hopp = 48.",
+          "",
+          "Vanskelig:",
+          "Kongen: «Distributiv! 9 × 7» → (9 × 5) + (9 × 2) = 45 + 18 = 63.",
+          "Kongen: «Assosiativ! 5 × 4 × 3» → (5 armhevninger × 4 knebøy = 20) × 3 snurr = 60.",
+          "Kongen: «Kommutativ! 12 × 8» → 12 hopp + 8 knebøy = 96, deretter 8 knebøy + 12 hopp = 96.",
+          "Kongen: «Distributiv! 15 × 6» → (15 × 5) + (15 × 1) = 75 + 15 = 90.",
+          "Kongen: «Assosiativ! 3 × 7 × 5» → (3 snurr × 7 hopp = 21) × 5 armhevninger = 105."
+        ],
+        "reflection": [
+          "Hvilken bevegelseskombinasjon var enklest å utføre?",
+          "Hvordan viste vi at rekkefølgen ikke endrer svaret?",
+          "Hvilken egenskap hjalp deg å regne raskest i hodet?"
+        ],
+        "tips": [
+          "Bruk enkle tall i starten for å få flyt.",
+          "Bytt på hvilke bevegelser som representerer tall for variasjon."
+        ],
+        "extra": []
+      }
+    },
+    {
+    "id": "B0603",
+    "title": "Mimeleken!",
+    "time": "5",
+    "location": "Inne",
+    "tools": "Ingen",
+    "groupsize": "2",
+    "learning_goal": "bruke kommutative, assosiative og distributive eigenskapar til å utforske og beskrive strategiar i multiplikasjon",
+    "content": {
+      "introduction": [
+        "I denne aktiviteten mimer elevene multiplikasjonsstrategier for hverandre uten å si tallene, og partneren må gjette både oppgaven og hvilken egenskap som brukes."
+      ],
+      "main": [
+        "Elevene jobber i par. Én elev får en oppgave fra læreren (skriftlig eller hvisket).",
+        "Oppgaven skal løses ved å mime strategien – ikke svaret – til partneren.",
+        "Ved kommutativ egenskap mimer eleven multiplikasjon i én rekkefølge og deretter i motsatt rekkefølge.",
+        "Ved assosiativ egenskap mimer eleven først to tall som multipliseres, pause, så ganger med det siste tallet.",
+        "Ved distributiv egenskap mimer eleven at tallet deles opp i to deler, regner hver del, og legger sammen resultatene.",
+        "Partneren sier hvilken oppgave det var og hvilken egenskap som ble brukt.",
+        "Bytt roller etter hver runde."
+      ],
+      "examples": [
+        "Kommutativ: Mimer 3 hopp, så 4 klapp, viser 12 på fingrene – deretter 4 klapp og 3 hopp, viser 12 igjen.",
+        "Assosiativ: Mimer (2 klapp × 3 hopp = 6), pause, så ×4 snurr = 24.",
+        "Distributiv: Mimer (7 hopp × 5 klapp = 35) + (7 hopp × 2 snurr = 14) → legger sammen til 49."
+      ],
+      "reflection": [
+        "Hva var lett å gjette, og hva var vanskelig?",
+        "Hvordan hjalp mimingen med å forstå strategien?",
+        "Hvilken egenskap ble brukt mest?"
+      ],
+      "tips": [
+        "Bruk små tall først for å få tempo i spillet.",
+        "Oppmuntre til tydelig kroppsspråk."
+      ],
+      "extra": []
+    }
+  },
+
     {
       "id": "B0701",
       "title": "Detektiv- Hvem er hvem?",
@@ -519,6 +755,63 @@
         "extra": []
       }
     },
+    {
+      "id": "B0703",
+      "title": "Størrelsesduell",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "3",
+      "learning_goal": "beskrive likskap og ulikskap i samanlikning av storleikar, mengder, uttrykk og tal og bruke likskaps- og ulikskapsteikn",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene sammenligne to mengder eller tall ved å bruke kroppen for å vise <, > eller =."
+        ],
+        "main": [
+          "Del elevene i grupper på 3.",
+          "Læreren sier to tall, mengder eller uttrykk som skal sammenlignes (f.eks. '3 × 2' og '8').",
+          "To av elevene i gruppa representerer hvert sitt tall/uttrykk – de kan hoppe antall ganger, snurre, vise antall fingre, eller bruke annen bevegelse for å vise verdien.",
+          "Den tredje eleven er 'dommeren' som skal vise sammenligningstegnet med kroppen:",
+          "Hvis venstre side er størst: Strekker armene høyt til venstre for å vise '>'.",
+          "Hvis høyre side er størst: Strekker armene høyt til høyre for å vise '<'.",
+          "Hvis de er like store: Lager et '='-tegn med armene (for eksempel begge armene rett frem).",
+          "Etter hver oppgave roterer gruppa slik at alle får prøve å være både tall og dommer.",
+          "Gjenta med flere runder, og øk vanskelighetsgraden ved å bruke større tall, desimaltall, eller uttrykk som må regnes ut først."
+        ],
+        "examples": [
+          "Lett:",
+          "5 og 8 → viser '<'.",
+          "6 og 4 → viser '>'.",
+          "3 + 2 og 5 → viser '='.",
+          "2 × 3 og 8 → viser '<'.",
+          "10 − 4 og 6 → viser '='.",
+          "",
+          "Middels:",
+          "12 ÷ 3 og 4 × 1 → viser '='.",
+          "15 og 3 × 4 → viser '>'.",
+          "5 × 3 og 16 → viser '>'.",
+          "20 − 8 og 12 → viser '='.",
+          "2 × 7 og 15 → viser '<'.",
+          "",
+          "Vanskelig:",
+          "2,5 × 4 og 9 → viser '>'.",
+          "32 ÷ 4 og 7 × 1 → viser '='.",
+          "10,5 og 21 ÷ 2 → viser '='.",
+          "3 × (2 + 4) og 20 → viser '<'.",
+          "(15 − 3) ÷ 4 og 3 → viser '='."
+        ],
+        "reflection": [
+          "Hvordan bestemte du hvilket tegn du skulle vise?",
+          "Hva var forskjellen på de runde der vi måtte regne først og de vi bare kunne sammenligne direkte?",
+          "Når er det nyttig å kunne bruke ulikhetstegn?"
+        ],
+        "tips": [
+          "Start med enkle tall for å få flyt."
+        ],
+        "extra": []
+      }
+    },
+
     {
       "id": "B0801",
       "title": "Drakamp",
