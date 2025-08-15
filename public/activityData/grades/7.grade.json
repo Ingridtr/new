@@ -165,7 +165,7 @@
           "Hvordan kan du bruke det du lærte i dag i andre situasjoner?"
         ],
         "tips": ["Øvelsen kan også spilles med flere rekker."],
-        "extra": []
+        "extra": ["XX"]
       }
     },
     {
@@ -358,6 +358,41 @@
       }
     },
     {
+      "id": "F0304",
+      "title": "Pakkeleken",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Terning",
+      "groupsize": "4–6",
+      "learning_goal": "utforske negative tal i praktiske situasjonar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene leke pakkeleken der målet er å samle så mange pakker som mulig. Her får de en forståelse av subtraksjon i hverdagslige situasjoner, da man hele tiden må gi fra seg pakker, og tilslutt regne ut hvor mange man har igjen."
+        ],
+        "main": [
+          "Be alle elevene finne 3 gjenstander hver (for eksempel: en bok, en blyant og en ball).",
+          "Del klassen i grupper på 4-6 elever, og fortell elevene at de 3 gjenstandene de fant, er nå pakkene deres.",
+          "Elevene i hver gruppe setter seg i en sirkel og kaster terningen på rundgang.",
+          "Hvis man får 6, kan man ta én pakke fra en annen i gruppa. Hvis man ikke får 6, sender man ternigen videre.",
+          "Sett en timer på 3 minutter.",
+          "Målet med spillet er å samle flest mulig pakker innen tiden er ute.",
+          "Når tiden er ute, ser man hvem som har flest pakker."
+        ],
+        "examples": [
+          "Guri startet med 3 pakker, og fikk 6 tre ganger. Hun endte opp med 6 pakker totalt. Resten av gruppa klarte ikke å få 6. Lars startet med 3 pakker og endte opp med 0, da Guri tok alle pakkene hans."
+        ],
+        "reflection": [
+          "Hvor mange pakker startet du med?",
+          "Hvor mange pakker mistet du?",
+          "Hvordan kan du skrive dette som et positivt eller negativt tall?"
+        ],
+        "tips": [
+          "For å øke vanskelighetsgraden så kan man si at noen pakker er mer verdt enn andre, for eksempel 2 pakker. Da er det ny regel: hvis man får én sekser, så kan man kaste på nytt og hvis man da får 6 en gang til så kan man få pakken."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "F0401",
       "title": "Flykaptein på tidssoneoppdrag!",
       "time": "15",
@@ -482,6 +517,40 @@
       "extra": []
     }
   },
+  {
+      "id": "F0404",
+      "title": "Gå planken",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Kritt",
+      "groupsize": "4",
+      "learning_goal": "eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene bevege seg langs en \"planke\" tegnet på bakken og telle skritt forlengs og baklengs. Målet er å holde seg på planken og bruke differanse til å forstå bevegelsen sin."
+        ],
+        "main": [
+          "Tegn en rett strek (planke) på bakken med kritt – gjerne med tall fra -5 til +5 markert. Del klassen i grupper på 4",
+          "Elevene stiller seg på startpunktet (0)",
+          "Læreren gir instruksjoner, som: “Gå 5 skritt totalt” eller “Gå 3 frem og 2 tilbake”.",
+          "Elevene går det antallet skritt og sier høyt hva de gjør.",
+          "Etter bevegelsen forklarer elevene hvor de endte og hvordan de kom dit.",
+          "Bytt på instruksjonene og utforsk ulike kombinasjoner."
+        ],
+        "examples": [
+          "Gå 5 skritt totalt.",
+          "Gå 3 skritt frem, deretter 2 skritt tilbake."
+        ],
+        "reflection": [
+          "Hva startet du på, og hvor endte du?",
+          "Hvordan vet du at du har gått riktig?",
+          "Hva skjer når du går frem og så like mange tilbake?",
+          "Hva skjedde da dere måtte gå baklengs? Hvordan påvirket det tellingen?"
+        ],
+        "tips": ["La elevene gi instruksjoner til hverandre."],
+        "extra": []
+      }
+    },
 
     {
       "id": "F0501",
@@ -741,6 +810,117 @@
       }
     },
     {
+      "id": "F0703",
+      "title": "Terningkast",
+      "time": "5",
+      "location": "Inne/ute",
+      "tools": "Terninger, Skrivesaker, Ark",
+      "groupsize": "Alle",
+      "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle inn data ved å kaste en terning 20 ganger og utforske regne ut gjennomsnitt, typetall og median."
+        ],
+        "main": [
+          "Hver elev får én terning og et ark.",
+          "Eleven kaster terningen 20 ganger.",
+          "Etter hvert kast noterer de tallet som kommer opp.",
+          "Etter 20 kast, lager eleven et skjema der de teller hvor mange ganger hvert tall ble kastet.",
+          "De regner ut typetall, median og gjennomsnitt."
+        ],
+        
+        "examples": [
+          "En elev får tallene: 3, 5, 1, 2, 5, 6, 4, 5, 5, 2, 1, 6, 3, 4, 2, 2, 5, 6, 3, 1. Typetallet er 5, fordi det kom flest ganger.",
+          "En annen elev får tallene: 6, 6, 3, 3, 2, 5, 4, 1, 4, 6, 2, 3, 1, 5, 2, 4, 6, 3, 4, 2. Medianen blir 3,5 fordi de to midterste tallene (når tallene er sortert) er 3 og 4.",
+          "Gjennomsnittet kan for eksempel være 3,4 hvis summen av alle kastene er 68."
+        ],
+        "reflection": [
+          "Hva betyr det at et tall er typetall? Hvordan kan vi se det i resultatene?",
+          "Hvorfor kan medianen være et halvt tall, selv om vi aldri kan kaste det med en terning?",
+          "Er det større sjanse for å få en sekser hvis du har fått få seksere til nå? Hvorfor eller hvorfor ikke?",
+          "Hvordan kan vi bruke brøk for å forklare hvor stor del av kastene som var for eksempel firere?"
+        ],
+        "tips": ["Læreren kan tegne opp hvordan skjemaet skal se ut på tavla."],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0704",
+      "title": "Terningkamp",
+      "time": "15",
+      "location": "Inne",
+      "tools": "Terning, Ark, Skrivesaker",
+      "groupsize": "3-4",
+      "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle inn data fra terningkast og bruke ulike sentralmål (typetall, median og gjennomsnitt) for å beskrive resultatene."
+        ],
+        "main": [
+          "Del elevene inn i grupper på 3-4.",
+          "Hver gruppe får én terning.",
+          "Gruppa kaster terningen på rundgang 20 ganger tilsammen.",
+          "Skriv ned alle resultatene i en liste.",
+          "Sorter listen fra lavest til høyest.",
+          "Finn typetall (det tallet som forekommer flest ganger), median (midtverdien) og gjennomsnitt.",
+          "Diskuter i gruppa: Hvilket sentralmål gir best bilde av hvordan resultatene faktisk var?"
+        ],
+        "examples": [
+          "En gruppe får tallene: 1, 3, 2, 6, 3, 4, 3, 5, 2, 6, 4, 3, 5, 2, 2, 1, 3, 4, 5, 6. Typetallet er 3, medianen er 3,5, gjennomsnittet er 3,55.",
+          "En annen gruppe har et tydelig typetall (for eksempel 5), men medianen og gjennomsnittet viser at resultatene ellers var ganske jevnt fordelt."
+        ],
+        "reflection": [
+          "Hvilket sentralmål gir mest mening å bruke for å beskrive resultatene deres? Hvorfor?",
+          "Kan resultatene fra én gruppe se veldig annerledes ut enn en annen gruppe, selv om dere kastet like mange ganger? Hvordan?",
+          "Hvis dere bare kunne fortelle ett tall til noen for å oppsummere hele undersøkelsen – hvilket ville dere valgt? (typetall, median eller gjennomsnitt)",
+          "Hva kan være fordelen med å se på flere sentralmål i stedet for bare ett?"
+        ],
+        "tips": [
+          "La gruppene bytte resultater og regne ut sentralmål for hverandres data for å trene på tolkning av andres undersøkelser."
+        ],
+        "extra": []
+      }
+    },
+
+    {
+      "id": "F0705",
+      "title": "Myntkast",
+      "time": "15",
+      "location": "Ute",
+      "tools": "Erteposer, Bøtte, Mynter, Ark, Skrivesaker",
+      "groupsize": "5-6",
+      "learning_goal": "utforske og bruke formålstenlege sentralmål i sine eigne og andre sine statistiske undersøkingar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samle data fra flere runder med myntkast og kasting på bøtte, og bruke sentralmål (typetall, median, gjennomsnitt) til å oppsummere og tolke resultatene."
+        ],
+        "main": [
+          "Hver elev kaster en mynt: Mynt = du får kaste, Kron = du må vente.",
+          "De som får mynt, får én ertepose hver og prøver å treffe bøtta.",
+          "Gruppene registrerer i et skjema: Hvor mange som fikk kaste, og hvor mange treff det ble.",
+          "Gjenta runden 4–5 ganger.",
+          "Etter siste runde regner gruppa ut typetall, median og gjennomsnitt for antall som fikk kaste, og for antall treff.",
+          "Diskuter: Hvilket sentralmål beskriver best hvordan det gikk? Er det forskjell mellom «fikk kaste» og «traff»-dataene?"
+        ],
+        "examples": [
+          "I én runde fikk 3 av 5 elever kaste, og 1 traff.",
+          "Etter 5 runder fikk en gruppe: Antall som kastet = 3, 4, 5, 3, 4. Typetall = 3 og 4, median = 4, gjennomsnitt = 3,8.",
+          "For treffene samme gruppe fikk: 1, 2, 3, 1, 2. Typetall = 1 og 2, median = 2, gjennomsnitt = 1,8."
+        ],
+        "reflection": [
+          "For antall kast – hvilket sentralmål passer best til å beskrive resultatene deres? Hvorfor?",
+          "For antall treff – ga samme sentralmål like god beskrivelse? Hvorfor eller hvorfor ikke?",
+          "Hvis dere skulle presentere funnene deres til en annen klasse, hvilke tall ville dere valgt å vise?",
+          "Hvordan kan vi se på dataene om noen runder var uvanlige i forhold til resten?"
+        ],
+        "tips": [
+          "La elevene lage søylediagram for både antall kast og antall treff, og markere medianen på diagrammet."
+        ],
+        "extra": []
+      }
+    },
+
+    {
       "id": "F0801",
       "title": "Statistikksamlerne",
       "time": "45",
@@ -912,6 +1092,104 @@
       }
     },
     {
+      "id": "F0903",
+      "title": "Vikingmarkedet",
+      "time": "15",
+      "location": "Inne/ute",
+      "tools": "Ingen",
+      "groupsize": "Alle",
+      "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene være vikinger som samler gjenstander og bytter dem med hverandre, og trene på å argumentere for verdi og likhet."
+        ],
+        "main": [
+          "Elevene starter som vikinger og får i oppdrag å samle 5–10 gjenstander (f.eks. steiner, kongler, skjell).",
+          "Etter innsamling går de til “markedet” (klasserommet) og får bytte med hverandre.",
+          "For hvert bytte må de argumentere: Hva gjør at disse to tingene er like mye verdt?"
+        ],
+        "examples": [
+          "Elev A har 3 små steiner og bytter dem mot én flat, fin kongle. “Denne er stor og sjelden, og jeg synes den er like mye verdt som tre små steiner."
+        ],
+        "reflection": [
+          "Hvordan visste du at to ting var like verdifulle?",
+          "Hvilke egenskaper brukte du for å vurdere verdi?",
+          "Hvordan kan du bruke et regneark til å vise hva du byttet og hvor mye det var verdt?"
+        ],
+        "tips": ["Sett på vikingmusikk i klasserommet for mer engasjement."],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0904",
+      "title": "Budsjett på 500kr",
+      "time": "15",
+      "location": "Inne",
+      "tools": "Papir, Skrivesaker",
+      "groupsize": "3-4",
+      "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene samarbeide om å lage et enkelt budsjett, samtidig som de lærer å prioritere utgifter."
+        ],
+        "main": [
+          "Del klassen i grupper på 3-4, og si at elevene har 500 kr hver.",
+          "Skriv en prisliste på tavla (f.eks. Is: 20 kr, Kino: 100 kr, Tusenfryd: 200 kr, Leker: 60 kr).",
+          "Gruppene skal velge hva de vil bruke pengene på, og fylle ut et enkelt budsjett på papir.",
+          "De må regne ut totalsummen og hvor mye penger de har igjen.",
+          "Etterpå diskuterer dere: Hva prioriterte dere? Hvorfor? Kunne dere fått mer for pengene?"
+        ],
+        "examples": [
+          "En gruppe på 3 kjøper én kinobillett (100 kr), én is (20 kr), én leke (60 kr). Total: 180 kr. De har 120 kr igjen og vurderer om de heller burde valgt Tusenfryd."
+        ],
+        "reflection": [
+          "Hva var viktigst for dere å bruke penger på?",
+          "Hvordan regnet dere ut totalen?",
+          "Hva hadde skjedd om dere hadde hatt 100 kr mer?",
+          "Hvordan kan dere vise valgene deres i et regneark?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "F0905",
+      "title": "Budsjettleken",
+      "time": "5",
+      "location": "Inne eller ute",
+      "tools": "",
+      "groupsize": "4-5",
+      "learning_goal": "lage og vurdere budsjett og rekneskap ved å bruke rekneark med cellereferansar og formlar",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten later vi som vi er et budsjett, der hver elev er en utgift eller en inntekt.",
+          "Vi trener på å legge sammen og trekke fra tall for å finne ut hvor mye penger som er igjen."
+        ],
+        "main": [
+          "Del klassen i grupper på 4-5.",
+          "Hver elev får en 'rolle' som enten inntekt (penger inn) eller utgift (penger ut). Læreren sier for eksempel: 'Du har 5000 kr i lønn', 'Du bruker 2000 kr på mat', 'Du bruker 1000 kr på klær'.",
+          "Gruppen stiller seg opp på en linje: først inntektene, deretter utgiftene.",
+          "Gruppen legger sammen inntektene, trekker fra utgiftene, og finner ut hvor mye penger som er igjen.",
+          "Gjenta med nye tall og bland rollene, slik at alle får prøve både inntekt og utgift."
+        ],
+        "examples": [
+          "Lett: Lønn = 5000 kr, Mat = 2000 kr → 5000 - 2000 = 3000 kr igjen",
+          "Middels: Lønn = 6000 kr, Mat = 2500 kr, Transport = 1000 kr → 6000 - (2500 + 1000) = 2500 kr igjen",
+          "Vanskelig: Lønn = 8000 kr, Mat = 3000 kr, Husleie = 4000 kr, Kino = 500 kr → 8000 - (3000 + 4000 + 500) = 500 kr igjen"
+        ],
+        "reflection": [
+          "Hva skjer med det som er igjen når utgiftene blir større?",
+          "Hvorfor er det lurt å vite hva som er inntekter og utgifter?",
+          "Hva kunne vi gjort for å spare mer?"
+        ],
+        "tips": [
+          "Bruk runde tall for å gjøre det enkelt å regne i hodet.",
+          "Oppmuntre elevene til å forklare regnestykket høyt."
+        ],
+        "extra": []
+      }
+    },
+    {
       "id": "FA01",
       "title": "Kongen befaler!",
       "time": "5",
@@ -993,6 +1271,76 @@
         "tips": [
           "Bruk enkel tabell på tavla for fart.",
           "Start med én betingelse og legg til flere."
+        ],
+        "extra": []
+      }
+    },
+    {
+      "id": "FA03",
+      "title": "Kodekongen!",
+      "time": "15",
+      "location": "Inne/ute",
+      "tools": "Papir, Skrivesaker",
+      "groupsize": "4-5",
+      "learning_goal": "bruke programmering til å utforske data i tabellar og datasett",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene styre en “robot” ved å lage og gi instruksjoner i form av korte kommandoer, som gjennomføres i rekkefølge. De utforsker vilkår og løkker uten å bruke kodespråk."
+        ],
+        "main": [
+          "Del klassen i grupper på 4-5",
+          "En elev på hver gruppe er “roboten” som følger instruksjoner slavisk.",
+          "Elevene skriver korte kommandoer på lapper (f.eks. “Gå frem 3 steg”, “Snurr én gang”, “Hopp”).",
+          "De kan legge inn *vilkår* (“Hvis du ser noe grønt – snurr”) og *løkker* (“Gjenta 2 ganger: Gå frem 1 steg, klapp”).",
+          "Disse lappene blir gitt til roboten som må følge instruksjonene i rekkefølgen som ble gitt.",
+          "Lærer følger lappene i rekkefølge. Elevene observerer og justerer."
+        ],
+        "examples": [
+          "Hvis roboten får: “Gå frem 1 steg”, “Gjenta 2 ganger: klapp og hopp”, “Hvis du ser en grønn ting, snurr”, så utfører eleven alt i rekkefølge og resten ser hvordan instruksjonene virker."
+        ],
+        "reflection": [
+          "Hva betyr det å *gjenta* noe i en algoritme?",
+          "Hva skjer hvis vi ikke skriver riktig rekkefølge?",
+          "Hva er en “løkke”? ",
+          "Hva er et vilkår?"
+        ],
+        "tips": [],
+        "extra": []
+      }
+    },
+    {
+      "id": "FA04",
+      "title": "Mimeleken!",
+      "time": "5",
+      "location": "Inne",
+      "tools": "Ingen",
+      "groupsize": "2",
+      "learning_goal": "lage algoritmer og uttrykke dem ved bruk av variabler, vilkår og løkker",
+      "content": {
+        "introduction": [
+          "I denne aktiviteten skal elevene lage og mime et mønster, som den andre må gjette og beskrive som en algoritme med variabler, vilkår eller løkker."
+        ],
+        "main": [
+          "Elev A finner på et kort mønster med kroppsbevegelser, for eksempel klapp, tramp, snurr eller hopp. Mønsteret kan gjentas (løkke) eller endres basert på et «vilkår» (for eksempel klapp bare hvis partneren løfter hånden).",
+          "Elev A mimer mønsteret 2–3 ganger.",
+          "Elev B prøver å beskrive mønsteret som en algoritme, og si om det inneholder variabler (ting som kan endres), vilkår (hvis/ellers) eller løkker (gjentakelse).",
+          "Bytt roller og gjenta med nye mønstre.",
+          "Utfordring: Prøv å lage et mønster som kombinerer både en løkke og et vilkår."
+        ],
+        "examples": [
+          "Elev A klapper to ganger og tramper én gang, gjentar dette tre ganger. Elev B sier: «Løkke: gjenta (klapp, klapp, tramp) tre ganger».",
+          "Elev A klapper bare hvis Elev B løfter høyre hånd, ellers tramper han. Elev B sier: «Vilkår: hvis partner løfter hånden, klapp, ellers tramp».",
+          "Elev A lager mønster: hopp, klapp, hopp, klapp, som går om igjen uten stopp. Elev B sier: «Uendelig løkke med to steg: hopp, klapp»."
+        ],
+        "tips": [
+          "Start med enkle mønstre slik at alle forstår konseptet.",
+          "Avtal på forhånd hva som er 'vilkårssignalet', for eksempel løftet hånd eller snu seg.",
+          "Varier kompleksiteten – først bare løkker, deretter legg til vilkår."
+        ],
+        "reflection": [
+          "Hva gjorde det lett å kjenne igjen mønsteret?",
+          "Hvordan kan en mønsterbeskrivelse bli til en algoritme?",
+          "Hvordan kan vi bruke løkker og vilkår til å gjøre mønstre mer spennende?"
         ],
         "extra": []
       }
