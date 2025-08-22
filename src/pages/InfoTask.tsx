@@ -16,7 +16,10 @@ function InfoTask() {
   const selectedGameId = localStorage.getItem("selectedGameId");
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
-  const currentGameImage = localStorage.getItem("selectedGameImage");
+  const LearningGoal = selectedLearningGoal
+    ? selectedLearningGoal.split(":")[1].trim()
+    : null;
+  /*   const currentGameImage = localStorage.getItem("selectedGameImage"); */
   const previousPage = localStorage.getItem("previousPage") || "/gameSelection";
 
   // Use the consolidated hook instead of custom fetching
@@ -26,11 +29,11 @@ function InfoTask() {
     selectedLearningGoal
   );
 
-  const handleShowOnScreen = () => {
+  /*   const handleShowOnScreen = () => {
     if (currentGameImage) {
       window.open(currentGameImage, "_blank");
     }
-  };
+  }; */
 
   if (loading) {
     return (
@@ -66,7 +69,7 @@ function InfoTask() {
         </div>
 
         <button
-          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="fixed top-36 right-6 z-30 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           onClick={() => navigate(previousPage)}
           aria-label="Lukk aktivitetsside og gå tilbake"
         >
@@ -116,7 +119,11 @@ function InfoTask() {
               <PrintOutComponent
                 id={activity.id}
                 title={activity.title}
-                extra={Array.isArray(activity.gradeContent?.extra) ? activity.gradeContent.extra : [activity.gradeContent?.extra || ""]}
+                extra={
+                  Array.isArray(activity.gradeContent?.extra)
+                    ? activity.gradeContent.extra
+                    : [activity.gradeContent?.extra || ""]
+                }
               />
 
               <Print
@@ -128,29 +135,34 @@ function InfoTask() {
                 groupsize={activity.groupsize}
                 learning_goals={activity.learningGoals}
                 content={{
-                  introduction:
-                    Array.isArray(activity.gradeContent?.introduction) 
-                      ? activity.gradeContent.introduction.join("\n") 
-                      : (activity.gradeContent?.introduction || ""),
-                  main: Array.isArray(activity.gradeContent?.main) 
-                    ? activity.gradeContent.main.join("\n") 
-                    : (activity.gradeContent?.main || ""),
-                  examples: Array.isArray(activity.gradeContent?.examples) 
-                    ? activity.gradeContent.examples 
+                  introduction: Array.isArray(
+                    activity.gradeContent?.introduction
+                  )
+                    ? activity.gradeContent.introduction.join("\n")
+                    : activity.gradeContent?.introduction || "",
+                  main: Array.isArray(activity.gradeContent?.main)
+                    ? activity.gradeContent.main.join("\n")
+                    : activity.gradeContent?.main || "",
+                  examples: Array.isArray(activity.gradeContent?.examples)
+                    ? activity.gradeContent.examples
                     : [activity.gradeContent?.examples || ""],
-                  reflection: Array.isArray(activity.gradeContent?.reflection) 
-                    ? activity.gradeContent.reflection 
+                  reflection: Array.isArray(activity.gradeContent?.reflection)
+                    ? activity.gradeContent.reflection
                     : [activity.gradeContent?.reflection || ""],
                 }}
-                tips={Array.isArray(activity.gradeContent?.tips) 
-                  ? activity.gradeContent.tips.join("\n") 
-                  : (activity.gradeContent?.tips || "")}
-                extra={Array.isArray(activity.gradeContent?.extra) 
-                  ? activity.gradeContent.extra.join("\n") 
-                  : (activity.gradeContent?.extra || "")}
+                tips={
+                  Array.isArray(activity.gradeContent?.tips)
+                    ? activity.gradeContent.tips.join("\n")
+                    : activity.gradeContent?.tips || ""
+                }
+                extra={
+                  Array.isArray(activity.gradeContent?.extra)
+                    ? activity.gradeContent.extra.join("\n")
+                    : activity.gradeContent?.extra || ""
+                }
               />
 
-              <button
+              {/* <button
                 className="flex items-center gap-2 hover:bg-pink-300 rounded cursor-pointer transition-colors w-full text-left"
                 onClick={handleShowOnScreen}
                 aria-label="Vis aktivitet på skjerm"
@@ -158,7 +170,7 @@ function InfoTask() {
                 <span role="img" aria-label="Skjerm">
                   Vis på skjerm
                 </span>
-              </button>
+              </button> */}
             </div>
 
             {activity.gradeContent?.tips &&
@@ -172,12 +184,15 @@ function InfoTask() {
                   </div>
 
                   <div>
-                    {Array.isArray(activity.gradeContent.tips) 
-                      ? activity.gradeContent.tips.map((item: string, index: number) => (
+                    {Array.isArray(activity.gradeContent.tips) ? (
+                      activity.gradeContent.tips.map(
+                        (item: string, index: number) => (
                           <div key={index}>{item}</div>
-                        ))
-                      : <div>{activity.gradeContent.tips}</div>
-                    }
+                        )
+                      )
+                    ) : (
+                      <div>{activity.gradeContent.tips}</div>
+                    )}
                   </div>
                 </div>
               )}
@@ -193,40 +208,54 @@ function InfoTask() {
               </div>
             </div>
             {activity.gradeContent?.introduction &&
-              (Array.isArray(activity.gradeContent.introduction) ? activity.gradeContent.introduction.length > 0 : activity.gradeContent.introduction) && (
+              (Array.isArray(activity.gradeContent.introduction)
+                ? activity.gradeContent.introduction.length > 0
+                : activity.gradeContent.introduction) && (
                 <div>
-                  {Array.isArray(activity.gradeContent.introduction) 
-                    ? activity.gradeContent.introduction.map((item: string, index: number) => (
+                  {Array.isArray(activity.gradeContent.introduction) ? (
+                    activity.gradeContent.introduction.map(
+                      (item: string, index: number) => (
                         <p key={index} className="mb-2 text-lg">
                           {item}
                         </p>
-                      ))
-                    : <p className="mb-2 text-lg">{activity.gradeContent.introduction}</p>
-                  }
+                      )
+                    )
+                  ) : (
+                    <p className="mb-2 text-lg">
+                      {activity.gradeContent.introduction}
+                    </p>
+                  )}
                 </div>
               )}
 
             {activity.gradeContent?.main &&
-              (Array.isArray(activity.gradeContent.main) ? activity.gradeContent.main.length > 0 : activity.gradeContent.main) && (
+              (Array.isArray(activity.gradeContent.main)
+                ? activity.gradeContent.main.length > 0
+                : activity.gradeContent.main) && (
                 <div>
                   <h3>Slik gjør du</h3>
                   <ol className="list-decimal list-inside space-y-2 text-lg text-black">
-                    {Array.isArray(activity.gradeContent.main) 
-                      ? activity.gradeContent.main.map((item: string, index: number) => (
+                    {Array.isArray(activity.gradeContent.main) ? (
+                      activity.gradeContent.main.map(
+                        (item: string, index: number) => (
                           <li key={index}>{item}</li>
-                        ))
-                      : <li>{activity.gradeContent.main}</li>
-                    }
+                        )
+                      )
+                    ) : (
+                      <li>{activity.gradeContent.main}</li>
+                    )}
                   </ol>
                 </div>
               )}
 
             {activity.gradeContent?.examples &&
-              (Array.isArray(activity.gradeContent.examples) ? activity.gradeContent.examples.length > 0 : activity.gradeContent.examples) && (
+              (Array.isArray(activity.gradeContent.examples)
+                ? activity.gradeContent.examples.length > 0
+                : activity.gradeContent.examples) && (
                 <div>
                   <h3>Eksempler</h3>
                   <ul className="list-disc list-inside space-y-1 text-lg text-black">
-                    {Array.isArray(activity.gradeContent.examples) 
+                    {Array.isArray(activity.gradeContent.examples)
                       ? activity.gradeContent.examples.flatMap(
                           (example: string, exampleIndex: number) =>
                             example
@@ -240,30 +269,34 @@ function InfoTask() {
                                 ) : null;
                               })
                         )
-                      : activity.gradeContent.examples.split("–").map((part: string, partIndex: number) => {
-                          const trimmed = part.trim();
-                          return trimmed ? (
-                            <li key={partIndex}>
-                              {trimmed}
-                            </li>
-                          ) : null;
-                        })
-                    }
+                      : activity.gradeContent.examples
+                          .split("–")
+                          .map((part: string, partIndex: number) => {
+                            const trimmed = part.trim();
+                            return trimmed ? (
+                              <li key={partIndex}>{trimmed}</li>
+                            ) : null;
+                          })}
                   </ul>
                 </div>
               )}
 
             {activity.gradeContent?.reflection &&
-              (Array.isArray(activity.gradeContent.reflection) ? activity.gradeContent.reflection.length > 0 : activity.gradeContent.reflection) && (
+              (Array.isArray(activity.gradeContent.reflection)
+                ? activity.gradeContent.reflection.length > 0
+                : activity.gradeContent.reflection) && (
                 <div>
                   <h3>Refleksjonsspørsmål</h3>
                   <ul className="list-disc list-inside space-y-1 text-lg text-black">
-                    {Array.isArray(activity.gradeContent.reflection) 
-                      ? activity.gradeContent.reflection.map((item: string, index: number) => (
+                    {Array.isArray(activity.gradeContent.reflection) ? (
+                      activity.gradeContent.reflection.map(
+                        (item: string, index: number) => (
                           <li key={index}>{item}</li>
-                        ))
-                      : <li>{activity.gradeContent.reflection}</li>
-                    }
+                        )
+                      )
+                    ) : (
+                      <li>{activity.gradeContent.reflection}</li>
+                    )}
                   </ul>
                 </div>
               )}
@@ -271,11 +304,7 @@ function InfoTask() {
               <div>
                 <h3>Kobling til kompetansemål</h3>
                 <ul className="list-disc list-inside">
-                  <p className="text-lg text-black">
-                    {activity.learningGoals.map((goal: string, index: number) => (
-                      <li key={index}>{goal}</li>
-                    ))}
-                  </p>
+                  <p className="text-lg text-black">{LearningGoal}</p>
                 </ul>
               </div>
             )}
