@@ -69,7 +69,7 @@ function InfoTask() {
         </div>
 
         <button
-          className="fixed top-36 right-6 z-50 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="fixed top-36 right-6 z-30 text-2xl font-bold hover:bg-gray-100 rounded-full w-8 h-8 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
           onClick={() => navigate(previousPage)}
           aria-label="Lukk aktivitetsside og gå tilbake"
         >
