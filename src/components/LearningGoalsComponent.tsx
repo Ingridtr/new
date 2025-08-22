@@ -6,7 +6,10 @@ interface LearningGoalsComponentProps {
   goals: string[];
   selectedGrade?: string;
 }
-
+function capitalize(text: string) {
+  if (!text) return "";
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
 function LearningGoalsComponent({ goals, selectedGrade }: LearningGoalsComponentProps) {
   const navigate = useNavigate();
 
@@ -18,6 +21,7 @@ function LearningGoalsComponent({ goals, selectedGrade }: LearningGoalsComponent
     announceSuccess(`${displayLabel} er valgt. Navigerer til aktiviteter.`);
     navigate(`/gameSelection`);
   };
+  
 
   const handleKeyPress = (e: React.KeyboardEvent, goal: string, index: number) => {
     if (e.key === 'Enter' || e.key === ' ') {
@@ -66,8 +70,8 @@ function LearningGoalsComponent({ goals, selectedGrade }: LearningGoalsComponent
               <h3 aria-hidden="true">
                 {displayLabel}
               </h3>
-              <p aria-hidden="true">
-                {goal}
+              <p aria-hidden="true" >
+                {capitalize(goal)}
               </p>
               
               {/* Screen reader content */}
