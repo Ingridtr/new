@@ -16,9 +16,9 @@ function InfoTask() {
   const selectedGameId = localStorage.getItem("selectedGameId");
   const selectedGrade = localStorage.getItem("selectedGrade");
   const selectedLearningGoal = localStorage.getItem("selectedLearningGoal");
-  const LearningGoal = selectedLearningGoal
-    ? selectedLearningGoal.split(":")[1].trim()
-    : null;
+  //const LearningGoal = selectedLearningGoal
+  //  ? selectedLearningGoal.split(":")[1].trim()
+  //  : null;
   /*   const currentGameImage = localStorage.getItem("selectedGameImage"); */
   const previousPage = localStorage.getItem("previousPage") || "/gameSelection";
 
@@ -304,7 +304,7 @@ function InfoTask() {
               <div>
                 <h3>Kobling til kompetansemål</h3>
                 <ul className="list-disc list-inside">
-                  <p className="text-lg text-black">{LearningGoal}</p>
+                  <p className="text-lg text-black">{selectedLearningGoal}</p>
                 </ul>
               </div>
             )}
